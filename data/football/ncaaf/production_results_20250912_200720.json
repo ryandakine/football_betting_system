@@ -1,0 +1,85 @@
+{
+  "system_info": {
+    "run_id": "20250912_200654",
+    "bankroll": 1000.0,
+    "max_exposure": 100.0,
+    "sport_type": "ncaaf",
+    "test_mode": false,
+    "fake_money": true,
+    "mode": "FAKE MONEY TESTING"
+  },
+  "odds_collection": {
+    "games_found": 84,
+    "h2h_opportunities": 279,
+    "spread_opportunities": 348,
+    "total_opportunities": 342,
+    "prop_opportunities": 0,
+    "sport_type": "ncaaf"
+  },
+  "ai_analysis": {
+    "games_analyzed": 84,
+    "ai_recommendations": 3,
+    "confidence_scores": {},
+    "sport_type": "ncaaf"
+  },
+  "recommendations": {
+    "total_recommendations": 4,
+    "by_market_type": {
+      "moneyline": 0,
+      "spreads": 4,
+      "totals": 0,
+      "props": 0
+    },
+    "total_expected_value": 42.86729510787279,
+    "sport_type": "ncaaf"
+  },
+  "final_portfolio": {
+    "bets_selected": 4,
+    "total_exposure": 0.0,
+    "portfolio_expected_value": 42.86729510787279,
+    "sport_type": "ncaaf",
+    "fake_money_mode": true,
+    "performance_metrics": {
+      "predictions_made": 0,
+      "predictions_correct": 0,
+      "total_edge_analyzed": 4,
+      "avg_edge_found": 10.716823776968198,
+      "games_analyzed": 0,
+      "recommendations_generated": 4,
+      "accuracy_by_market": {
+        "moneyline": 0,
+        "spreads": 4,
+        "totals": 0,
+        "props": 0
+      },
+      "edge_distribution": [
+        12.535994764397904,
+        11.361486486486486,
+        9.71379781420765,
+        9.256016042780752
+      ],
+      "confidence_distribution": []
+    }
+  },
+  "performance_metrics": {
+    "predictions_made": 0,
+    "predictions_correct": 0,
+    "total_edge_analyzed": 4,
+    "avg_edge_found": 10.716823776968198,
+    "games_analyzed": 0,
+    "recommendations_generated": 4,
+    "accuracy_by_market": {
+      "moneyline": 0,
+      "spreads": 4,
+      "totals": 0,
+      "props": 0
+    },
+    "edge_distribution": [
+      12.535994764397904,
+      11.361486486486486,
+      9.71379781420765,
+      9.256016042780752
+    ],
+    "confidence_distribution": []
+  }
+}

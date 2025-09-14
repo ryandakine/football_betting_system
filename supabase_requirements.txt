@@ -1,0 +1,7 @@
+# Supabase dependencies for MLB Betting System
+supabase==2.3.4
+python-dotenv==1.0.0
+
+# Additional dependencies that might be needed
+aiohttp==3.9.1
+asyncio==3.4.3

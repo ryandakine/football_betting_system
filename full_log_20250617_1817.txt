@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\launch_system.py", line 4, in <module>
+    from gold_standard_main import GoldStandardMLBSystem
+  File "C:\Users\himse\mlb_betting_system\gold_standard_main.py", line 7, in <module>
+    from gold_standard_database import GoldStandardDatabase
+  File "C:\Users\himse\mlb_betting_system\gold_standard_database.py", line 9, in <module>
+    class GoldStandardDatabase:
+    ...<59 lines>...
+                logger.info(f"\U0001f4be Saved {len(recommendations)} recommendations to database")
+  File "C:\Users\himse\mlb_betting_system\gold_standard_database.py", line 54, in GoldStandardDatabase
+    def save_recommendations(self, recommendations: List[Dict]):
+                                                         ^^^^
+NameError: name 'Dict' is not defined. Did you mean: 'dict'?

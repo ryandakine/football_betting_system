@@ -1,0 +1,85 @@
+{
+  "test_info": {
+    "sport_type": "ncaaf",
+    "bankroll": 2000.0,
+    "test_mode": true,
+    "fake_money": true,
+    "timestamp": "2025-09-09T21:54:00.820513"
+  },
+  "performance_metrics": {
+    "predictions_made": 0,
+    "predictions_correct": 0,
+    "total_edge_analyzed": 3,
+    "avg_edge_found": 25.5,
+    "games_analyzed": 0,
+    "recommendations_generated": 3,
+    "accuracy_by_market": {
+      "moneyline": 1,
+      "spreads": 1,
+      "totals": 1,
+      "props": 0
+    },
+    "edge_distribution": [
+      25.5,
+      18.75,
+      32.25
+    ],
+    "confidence_distribution": []
+  },
+  "mock_games_generated": 8,
+  "recommendations": [
+    {
+      "game_id": "KC_BUF_20250101",
+      "home_team": "BUF",
+      "away_team": "KC",
+      "bet_type": "moneyline",
+      "selection": "home",
+      "odds": -110,
+      "stake": 50.0,
+      "expected_value": 25.5,
+      "confidence": 0.75,
+      "reasoning": "Strong home team advantage and QB matchup",
+      "risk_level": "medium",
+      "market_type": "moneyline",
+      "bookmaker": "draftkings",
+      "timestamp": "2025-09-09T21:54:00.819628"
+    },
+    {
+      "game_id": "DET_GB_20250101",
+      "home_team": "GB",
+      "away_team": "DET",
+      "bet_type": "spread",
+      "selection": "home",
+      "odds": -105,
+      "stake": 40.0,
+      "expected_value": 18.75,
+      "confidence": 0.68,
+      "reasoning": "Green Bay covers at home in cold weather",
+      "risk_level": "medium",
+      "market_type": "spreads",
+      "bookmaker": "fanduel",
+      "timestamp": "2025-09-09T21:54:00.819639"
+    },
+    {
+      "game_id": "LAR_SF_20250101",
+      "home_team": "SF",
+      "away_team": "LAR",
+      "bet_type": "total",
+      "selection": "over",
+      "odds": -110,
+      "stake": 60.0,
+      "expected_value": 32.25,
+      "confidence": 0.82,
+      "reasoning": "High-scoring divisional matchup",
+      "risk_level": "low",
+      "market_type": "totals",
+      "bookmaker": "betmgm",
+      "timestamp": "2025-09-09T21:54:00.819645"
+    }
+  ],
+  "summary": {
+    "total_recommendations": 3,
+    "avg_edge": 25.5,
+    "total_potential_ev": 76.5
+  }
+}

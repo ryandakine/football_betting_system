@@ -1,0 +1,36 @@
+[START]  02:20:26  –  launching
+
+╔═══════════════════════════════════════════════════════════════════╗
+║        🏆  GOLD-STANDARD MLB BETTING SYSTEM  -  FULL MODE        ║
+║                                                                   ║
+║  📊  690 Opportunities  │  ⚙  Batch 20  │  ↕ 5 concurrent  ║
+║  💰  Expected 15-25 picks   │  ROI target 25-40 %                  ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+2025-06-18 02:20:26,863 │ INFO     │ Logging to logs\full_system_20250618_022026.log
+[INFO] Loading variables from .env
+2025-06-18 02:20:26,864 │ INFO     │ System bootstrap…
+2025-06-18 02:20:27,077 │ ERROR    │ Unexpected error during execution
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_launcher.py", line 107, in main
+    from gold_standard_main import GoldStandardMLBSystem
+  File "C:\Users\himse\mlb_betting_system\gold_standard_main.py", line 9, in <module>
+    from gold_standard_analyzer import GoldStandardAIAnalyzer
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 186
+    @retry(wait=wait_exponential(min=5, max=60), stop=stop_after_attempt(5), retry=retry_if_exception_type(aiohttp.ClientResponseError) and lambda e: e.status == 429)
+                                                                                                                                            ^^^^^^
+SyntaxError: invalid syntax
+
+[FATAL]  Unhandled exception – see below
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_launcher.py", line 107, in main
+    from gold_standard_main import GoldStandardMLBSystem
+  File "C:\Users\himse\mlb_betting_system\gold_standard_main.py", line 9, in <module>
+    from gold_standard_analyzer import GoldStandardAIAnalyzer
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 186
+    @retry(wait=wait_exponential(min=5, max=60), stop=stop_after_attempt(5), retry=retry_if_exception_type(aiohttp.ClientResponseError) and lambda e: e.status == 429)
+                                                                                                                                            ^^^^^^
+SyntaxError: invalid syntax
+2025-06-18 02:20:27,079 │ INFO     │ Total execution time: 0.2 s (0.0 min)
+[EXIT]  code=1
+[EXIT]  code=1

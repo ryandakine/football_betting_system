@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\windows_launcher.py", line 7, in <module>
+    from gold_standard_main import GoldStandardMLBSystem
+  File "C:\Users\himse\mlb_betting_system\gold_standard_main.py", line 9, in <module>
+    from gold_standard_analyzer import GoldStandardAIAnalyzer
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 186
+    @retry(wait=wait_exponential(min=5, max=60), stop=stop_after_attempt(5), retry=retry_if_exception_type(aiohttp.ClientResponseError) and lambda e: e.status == 429)
+                                                                                                                                            ^^^^^^
+SyntaxError: invalid syntax

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_launcher.py", line 19, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
