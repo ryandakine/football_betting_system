@@ -194,7 +194,7 @@ for game in tracker.get_live_games():
 
 ## 📈 Performance Metrics
 
-### Current Season (2024)
+### Current Season (2025)
 - **Games Tracked**: 0 (season just starting)
 - **Predictions Made**: 0
 - **Accuracy**: Baseline establishing
@@ -297,7 +297,7 @@ kill <PID>
 
 The NFL Live Game Tracking & Automated Learning System is now **fully operational** and ready to:
 
-- ✅ **Track live NFL games** in real-time during the 2024 season
+- ✅ **Track live NFL games** in real-time during the 2025 season
 - ✅ **Learn continuously** from every game outcome
 - ✅ **Improve predictions** throughout the season
 - ✅ **Operate autonomously** without manual intervention

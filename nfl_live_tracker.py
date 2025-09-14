@@ -63,7 +63,8 @@ class NFLLiveGameTracker:
             "last_learning_update": None
         }
 
-        logger.info("🏈 NFL Live Game Tracker initialized")
+        logger.info("🏈 NFL Live Game Tracker initialized - Ready for 2025 Season!")
+        logger.info("🎯 System prepared for September 2025 NFL season kickoff")
 
     def _init_database(self):
         """Initialize SQLite database for live tracking."""
@@ -226,7 +227,7 @@ class NFLLiveGameTracker:
         # Sample live games (Thursday Night Football, etc.)
         live_games = [
             {
-                "id": "20240912_KC_BUF",
+                "id": "20250905_KC_BUF",
                 "home_team": "Chiefs",
                 "away_team": "Bills",
                 "game_date": current_time.strftime("%Y-%m-%d"),
@@ -239,7 +240,7 @@ class NFLLiveGameTracker:
                 "last_updated": current_time.isoformat()
             },
             {
-                "id": "20240912_GB_CAR",
+                "id": "20250905_GB_CAR",
                 "home_team": "Panthers",
                 "away_team": "Packers",
                 "game_date": current_time.strftime("%Y-%m-%d"),

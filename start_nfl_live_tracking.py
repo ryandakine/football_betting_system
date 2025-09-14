@@ -89,8 +89,9 @@ class NFLTrackingService:
 
 def main():
     """Main entry point."""
-    print("🏈 NFL Live Game Tracking Service")
-    print("=" * 40)
+    print("🏈 NFL Live Game Tracking Service - 2025 Season")
+    print("🎯 Ready for September 2025 NFL season kickoff!")
+    print("=" * 50)
 
     service = NFLTrackingService()
 
@@ -98,6 +99,7 @@ def main():
         asyncio.run(service.start_service())
     except KeyboardInterrupt:
         print("\n⏹️ Shutting down NFL Live Tracking Service...")
+        print("💤 System will be ready for 2025 NFL season games!")
     except Exception as e:
         print(f"❌ Fatal error: {e}")
         logger.error(f"Fatal service error: {e}")

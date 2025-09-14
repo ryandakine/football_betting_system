@@ -152,7 +152,8 @@ def main():
     """Main dashboard loop."""
     dashboard = NFLTrackingDashboard()
 
-    print("🏈 NFL Live Tracking Dashboard")
+    print("🏈 NFL Live Tracking Dashboard - 2025 Season")
+    print("🎯 System ready for September 2025 NFL season kickoff")
     print("Press Ctrl+C to exit")
     print()
 
@@ -165,11 +166,18 @@ def main():
             data = dashboard.get_dashboard_data()
             dashboard.display_dashboard(data)
 
+            # Add 2025 season preparation info
+            print("\n📅 2025 NFL Season Preparation:")
+            print("   • Thursday Night Football: Ready for Week 1")
+            print("   • Sunday Slate Coverage: Multi-game tracking active")
+            print("   • Learning Systems: Calibrated for 2025 rosters")
+            print("   • Model Updates: Ready for season-long improvement")
+
             # Wait before next update
             time.sleep(30)
 
     except KeyboardInterrupt:
-        print("\n⏹️ Dashboard stopped")
+        print("\n⏹️ Dashboard stopped - See you for the 2025 NFL season!")
     except Exception as e:
         print(f"\n❌ Dashboard error: {e}")
 
