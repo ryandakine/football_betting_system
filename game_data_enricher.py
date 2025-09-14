@@ -464,9 +464,9 @@ class GameDataEnricher:
         """Get human-readable weather summary"""
         if not weather:
             return "Weather data unavailable"
-
-        return (".1f"".1f"f"{weather.conditions}, "
-                ".1f"".1f"")
+        
+        return f"{weather.temperature_f:.1f}°F/{weather.temperature_c:.1f}°C, {weather.conditions}, "  \
+f"{weather.wind_speed_mph:.1f} mph {weather.wind_direction}"
 
     def get_injury_summary(self, injury_report: Optional[TeamInjuryReport]) -> str:
         """Get human-readable injury summary"""

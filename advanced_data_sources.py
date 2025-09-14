@@ -115,10 +115,10 @@ class NewsAnalysis:
     sentiment: float  # -1 to 1
     relevance_score: float  # 0 to 1
     expert_rating: Optional[float] = None
-    published_at: datetime
+    published_at: Optional[datetime] = None
     game_id: Optional[str] = None
-    teams_mentioned: List[str] = None
-    key_insights: List[str] = None
+    teams_mentioned: Optional[List[str]] = None
+    key_insights: Optional[List[str]] = None
 
 @dataclass
 class BettingTrends:
@@ -143,7 +143,7 @@ class ExpertPicks:
     pick_value: str  # team name, spread, total
     confidence: float  # 0 to 1
     reasoning: str
-    published_at: datetime
+    published_at: Optional[datetime] = None
     win_rate: Optional[float] = None  # Expert's historical accuracy
 
 class DataSourceManager:
@@ -681,3 +681,4 @@ __all__ = [
     'BettingTrends',
     'ExpertPicks'
 ]
+
