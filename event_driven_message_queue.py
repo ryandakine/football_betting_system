@@ -368,37 +368,37 @@ class EventQueue:
                 await asyncio.sleep(1)
     
     async def _process_message(self, message_id: str, fields: Dict, consumer_name: str):
-        async with _processing_lock:  # Fix race conditions
         """Process a single message"""
-        try:
-            # Convert Redis fields to QueueEvent
-            event = QueueEvent.from_dict(fields)
-            
-            start_time = time.time()
-            success = False
-            
-            # Find appropriate processor
-            processor = self.processors.get(event.event_type, self.default_processor)
-            
-            if processor:
-                success = await processor.process(event)
-                processing_time = time.time() - start_time
+        async with _processing_lock:  # Fix race conditions
+            try:
+                # Convert Redis fields to QueueEvent
+                event = QueueEvent.from_dict(fields)
                 
-                if success:
-                    self.stats['processed_events'] += 1
-                    logger.debug(f"Processed {event.event_type} event in {processing_time:.3f}s")
+                start_time = time.time()
+                success = False
+                
+                # Find appropriate processor
+                processor = self.processors.get(event.event_type, self.default_processor)
+                
+                if processor:
+                    success = await processor.process(event)
+                    processing_time = time.time() - start_time
+                    
+                    if success:
+                        self.stats['processed_events'] += 1
+                        logger.debug(f"Processed {event.event_type} event in {processing_time:.3f}s")
+                    else:
+                        self.stats['failed_events'] += 1
+                        logger.error(f"Failed to process {event.event_type} event")
                 else:
-                    self.stats['failed_events'] += 1
-                    logger.error(f"Failed to process {event.event_type} event")
-            else:
-                logger.warning(f"No processor found for event type: {event.event_type}")
-            
-            # Acknowledge message
-            await self.redis_client.xack(self.stream_name, self.consumer_group, message_id)
-            
-        except Exception as e:
-            logger.error(f"Error processing message {message_id}: {e}")
-            self.stats['failed_events'] += 1
+                    logger.warning(f"No processor found for event type: {event.event_type}")
+                
+                # Acknowledge message
+                await self.redis_client.xack(self.stream_name, self.consumer_group, message_id)
+                
+            except Exception as e:
+                logger.error(f"Error processing message {message_id}: {e}")
+                self.stats['failed_events'] += 1
     
     def stop_processing(self):
         """Stop event processing"""
