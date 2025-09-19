@@ -300,4 +300,19 @@ class AdvancedDataIngestion:
         logger.info(f"Fetching NFL player stats for {season} Week {week}")
         
         # NFL API endpoint for player stats
-        url = f"{self.api_configs[
+        url = f"{self.api_configs['nfl_api']['base_url']}/players/stats"
+        
+        try:
+            data = await self._make_request(url, 'nfl_api')
+            if not data:
+                return []
+            
+            # Parse player stats (simplified implementation)
+            player_stats = []
+            # This would need actual NFL API documentation to implement properly
+            logger.info(f"Fetched player stats for {season} Week {week}")
+            return player_stats
+            
+        except Exception as e:
+            logger.error(f"Error fetching NFL player stats: {e}")
+            return []

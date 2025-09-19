@@ -1,0 +1,133 @@
+# Football Betting System - Product Requirements Document
+
+## Project Overview
+Advanced NFL/NCAAF betting system with AI analysis, cloud GPU integration, and automated portfolio optimization.
+
+## Core Objectives
+1. Integrate powerful Hugging Face LLM models (local + cloud GPU)
+2. Implement advanced risk management with correlation analysis
+3. Build real-time dashboard and monitoring system
+4. Optimize system performance with async processing
+5. Create automated model retraining pipeline
+
+## Technical Stack
+- **Backend**: Python 3.12+ with asyncio
+- **AI Models**: Hugging Face Transformers (7B-70B models)
+- **Cloud GPU**: RunPod, Vast.ai, AWS/GCP integration
+- **Database**: SQLite with potential PostgreSQL migration
+- **APIs**: Sports data APIs, betting odds APIs
+- **Frontend**: Real-time dashboard (planned)
+
+## Current System Status
+✅ **COMPLETED:**
+- Unified football betting system (NFL + NCAAF)
+- Local Hugging Face AI models integration (7B models)
+- Cloud GPU infrastructure for larger models (30B-70B)
+- Enhanced odds fetching and recommendation engine
+- Kelly Criterion position sizing
+- Basic portfolio optimization
+
+## Priority Features to Implement
+
+### HIGH PRIORITY
+1. **Advanced Risk Management System**
+   - Portfolio correlation analysis
+   - Dynamic position sizing based on risk metrics
+   - Real-time risk monitoring and alerts
+   - Drawdown protection mechanisms
+
+2. **System Performance Optimization**
+   - Async processing for all data collection
+   - Caching layer for API responses
+   - Database query optimization
+   - Memory management for AI models
+
+3. **Real-time Dashboard & Monitoring**
+   - Live betting recommendations display
+   - Performance metrics visualization
+   - Risk dashboard with alerts
+   - Model performance tracking
+
+### MEDIUM PRIORITY
+4. **Advanced Portfolio Management**
+   - Multi-game correlation analysis
+   - Dynamic bankroll allocation
+   - Hedge detection and management
+   - Performance attribution analysis
+
+5. **Enhanced AI Analysis**
+   - Weather impact modeling
+   - Injury impact assessment
+   - Line movement prediction
+   - Sentiment analysis integration
+
+### LOW PRIORITY
+6. **Automated Model Retraining**
+   - Performance-based model updates
+   - A/B testing framework
+   - Model drift detection
+   - Automated backtesting
+
+7. **Mobile Alert System**
+   - Push notifications for opportunities
+   - SMS/email alerts
+   - Mobile-optimized interface
+   - Real-time bet tracking
+
+## Technical Requirements
+
+### AI Integration
+- Support for both local (7B) and cloud GPU (30B-70B) models
+- Ensemble prediction combining multiple models
+- Cost-effective cloud GPU usage with auto-shutdown
+- Model performance monitoring and selection
+
+### Risk Management
+- Maximum 2% portfolio risk per bet
+- Kelly Criterion with 25% conservative fraction
+- Correlation limits between positions
+- Real-time drawdown monitoring
+
+### Performance Requirements
+- Sub-second response times for recommendations
+- 99.9% uptime for critical components
+- Scalable to 100+ simultaneous games
+- Memory efficient model loading
+
+### Data Requirements
+- Real-time odds from multiple sportsbooks
+- Historical performance data
+- Weather and injury data integration
+- Line movement tracking
+
+## Success Metrics
+1. **Performance**: >55% win rate, >10% ROI
+2. **Risk**: <5% maximum drawdown
+3. **Speed**: <1s recommendation generation
+4. **Reliability**: >99% system uptime
+5. **Cost**: <$50/month cloud GPU usage
+
+## Integration Points
+- Sports data APIs (ESPN, The Odds API)
+- Cloud GPU services (RunPod, Vast.ai)
+- Notification services (email, SMS)
+- Database systems (SQLite → PostgreSQL)
+- Monitoring tools (logging, alerts)
+
+## Deployment Strategy
+1. **Phase 1**: Complete risk management and optimization
+2. **Phase 2**: Deploy real-time dashboard
+3. **Phase 3**: Implement automated retraining
+4. **Phase 4**: Launch mobile alerts and full production
+
+## Risk Mitigation
+- Comprehensive testing before production deployment
+- Gradual rollout with paper trading validation
+- Multiple backup systems for critical components
+- Regular performance monitoring and adjustment
+
+## Timeline
+- **Week 1-2**: Advanced risk management implementation
+- **Week 3-4**: System optimization and dashboard
+- **Week 5-6**: Enhanced AI features and testing
+- **Week 7-8**: Production deployment and monitoring

@@ -371,4 +371,4 @@ class TeamChemistryAnalyzer:
         scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, patience=5, factor=0.5)
         
         # Training loop
-        best_loss = float(
+        best_loss = float('inf')

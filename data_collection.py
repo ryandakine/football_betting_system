@@ -1,483 +1,532 @@
+"""
+NFL Data Collection Module
+=========================
+
+Professional-grade data collection for NFL betting system.
+Integrates with existing advanced_data_ingestion.py and nfl_live_data_fetcher.py
+to provide comprehensive NFL data collection capabilities.
+
+Real data sources only - no mock data.
+"""
+
 import logging
 import os
+import sqlite3
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
+from typing import Dict, Optional
 
-import polars as pl
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-from meteostat import Daily, Point
 
 # Configure logging
-logger == logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # --- Configuration ---
 DATA_DIR = "data"
-HISTORICAL_PLAYER_DATA_PATH = os.path.join(
-    DATA_DIR, "historical_player_data.parquet"
+HISTORICAL_NFL_DATA_PATH = os.path.join(
+    DATA_DIR, "historical_nfl_data.parquet"
 )
-HISTORICAL_TEAM_DATA_PATH = os.path.join(
-    DATA_DIR, "historical_team_data.parquet"
-)
-UMPIRE_DATA_PATH = os.path.join(DATA_DIR, "umpire_data.parquet")
+TEAM_STATS_DATA_PATH = os.path.join(DATA_DIR, "team_stats_data.parquet")
+PLAYER_STATS_DATA_PATH = os.path.join(DATA_DIR, "player_stats_data.parquet")
+WEATHER_DATA_PATH = os.path.join(DATA_DIR, "weather_data.parquet")
 
 # Ensure data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# --- 1. Historical Player and Team Stats (FanGraphs) ---
 
-
-def _get_fangraphs_page(url):
-    """Fetches a FanGraphs page with a delay to respect rate limits."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like, Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
-    try:
-        response == requests.get(url, headers == headers, timeout = 10)
-        response.raise_for_status()
-        time.sleep(2)
-        return response.text
-    except requests.RequestException as e:
-        logger.error(f"Error fetching FanGraphs URL {url}: {e}")
-        return None
-
-
-def scrape_fangraphs_data(season: int, stat_type: str = "batting") -> pl.DataFrame::
+class NFLDataCollector:
     """
-    Scrapes advanced player or
-        pitching stats from FanGraphs for a given season.
-
-    Args:
-        season (int): The MLB season (e.g., 2024).
-        stat_type (str): 'batting' for batter stats, 'pitching' for pitcher stats.
-
-    Returns:
-        pl.DataFrame: A Polars DataFrame containing the scraped data.
+    Comprehensive NFL data collection system.
+    Coordinates with advanced_data_ingestion.py and nfl_live_data_fetcher.py
     """
-    if stat_type == "batting":
-        url = ()
-            f"https://www.fangraphs.com/leaders.aspx?pos = (")
-                all&stats = ()
-                    bat&lg == all&qual = 0&type = 1&season={season}&month = 0&season1={season}&ind = 0&team = 0&rost = 0&age = 0&filter=&players = 0&startdate=&enddate=""
-                )
+
+    def __init__(self, db_path: str = "data/nfl_betting_system.db"):
+        self.db_path = db_path
+        self.session = requests.Session()
+        self.session.headers.update({
+            'User-Agent': (
+                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                'AppleWebKit/537.36'
             )
-        )
-    elif stat_type == "pitching":
-        url = ()
-            f"https://www.fangraphs.com/leaders.aspx?pos = (")
-                all&stats = ()
-                    pit&lg == all&qual = 0&type = 1&season={season}&month = 0&season1={season}&ind = 0&team = 0&rost = 0&age = 0&filter=&players = 0&startdate=&enddate=""
-                )
-            )
-        )
-    else:
-        logger.error()
-            f"Invalid stat_type: {stat_type}. Must be 'batting' or 'pitching'."
-        )
-        return pl.DataFrame()
+        })
 
-    logger.info(f"Scraping FanGraphs {stat_type} stats for season {season}...")
-    html_content == _get_fangraphs_page(url)
+        # Rate limiting
+        self.last_request_time = {}
+        self.request_delays = {
+            'pro_football_ref': 3.0,
+            'espn': 1.0,
+            'nfl_com': 2.0,
+            'weather': 1.0
+        }
 
-    if not html_content:
-        logger.error()
-            f"Could not retrieve FanGraphs data for {stat_type} season {season}."
-        )
-        return pl.DataFrame()
+    def _rate_limit(self, source: str):
+        """Apply rate limiting for different data sources"""
+        now = time.time()
+        if source in self.last_request_time:
+            elapsed = now - self.last_request_time[source]
+            delay = self.request_delays.get(source, 1.0)
+            if elapsed < delay:
+                time.sleep(delay - elapsed)
+        self.last_request_time[source] = time.time()
 
-    soup == BeautifulSoup(html_content, "html.parser")
-    table == soup.find("table", {"class": "rgMasterTable"})
+    def fetch_nfl_schedule(
+        self, season: int, week: Optional[int] = None
+    ) -> pd.DataFrame:
+        """
+        Fetch NFL game schedule from ESPN API
 
-    if not table:
-        logger.warning()
-            f"No table found on FanGraphs page for {stat_type} season {season}. URL: {url}"
-        )
-        return pl.DataFrame()
+        Args:
+            season: NFL season year
+            week: Specific week (1-18 regular season, 19-22 playoffs),
+                  None for all
 
-    headers = [th.text.strip(for th in table.find)("thead").find_all("th")]
-    data = []
-    for row in table.find("tbody").find_all("tr"):
-        cols = [td.text.strip(for td in row.find_all)("td")]
-        if cols:
-            data.append(cols)
-
-    df == pl.DataFrame(data, schema == headers)
-    df == df.with_columns(pl.lit(season).alias("Season"))
-
-    numeric_cols = [
-        col
-        for col in df.columns
-        if col not in ["Name", "Team", "Season", "Pos", "playerid"]
-    ]
-    for col in numeric_cols:
-        try:
-            df = df.with_columns
-                pl.col(col).str.replace(", ", "").cast(pl.Float64, strict is False)
-            )
-        except Exception:
-            pass
-
-    logger.info()
-        f"Successfully scraped {df.height} rows of {stat_type} data for season {season}."
-    )
-    return df
-
-
-def collect_historical_stats(start_season: int, end_season: int):
-    """Collects historical player and team stats for a range of seasons."""
-    all_batting_dfs = []
-    all_pitching_dfs = []
-
-    for season in range(start_season, end_season + 1):
-        batting_df == scrape_fangraphs_data(season, "batting")
-        if not batting_df.is_empty():
-            all_batting_dfs.append(batting_df)
-
-        pitching_df == scrape_fangraphs_data(season, "pitching")
-        if not pitching_df.is_empty():
-            all_pitching_dfs.append(pitching_df)
-
-    if all_batting_dfs:
-        combined_batting_df == pl.concat(all_batting_dfs, how="vertical")
-        combined_batting_df.write_parquet()
-            HISTORICAL_PLAYER_DATA_PATH, compression="zstd"
-        )
-        logger.info()
-            f"Saved combined historical player batting data to {HISTORICAL_PLAYER_DATA_PATH}"
-        )
-    else:
-        logger.warning("No historical player batting data collected.")
-
-    if all_pitching_dfs:
-        combined_pitching_df == pl.concat(all_pitching_dfs, how="vertical")
-        combined_pitching_df.write_parquet()
-            HISTORICAL_TEAM_DATA_PATH, compression="zstd"
-        )
-        logger.info()
-            f"Saved combined historical pitching data to {HISTORICAL_TEAM_DATA_PATH}"
-        )
-    else:
-        logger.warning("No historical pitching data collected.")
-
-
-# --- 2. Daily Upcoming Game Schedules ---
-
-
-def fetch_mlb_schedule(date: datetime) -> pl.DataFrame:
-    """
-    Fetches the MLB game schedule for a specific date using the MLB Stats API.
-
-    Args:
-        date (datetime): The date for which to fetch the schedule.
-
-    Returns:
-        pl.DataFrame: DataFrame with game details.
-    """
-    logger.info(f"Fetching MLB schedule for {date.strftime('%Y-%m-%d')}...")
-    url == f"https://statsapi.mlb.com/api/v1/schedule?date={date.strftime('%Y-%m-%d')}&sportId = 1"
-
-    try:
-        response == requests.get(url, timeout = 10)
-        response.raise_for_status()
-        data = response.json
-    except requests.RequestException as e:
-        logger.error(f"Error fetching MLB schedule: {e}")
-        return pl.DataFrame()
-
-    games = []
-    for game_date in data.get("dates", []):
-        for game in game_date.get("games", []):
-            venue == game.get("venue", {})
-            home_team == game.get("teams", {}).get("home", {}).get("team", {})
-            away_team == game.get("teams", {}).get("away", {}).get("team", {})
-
-            # Fetch probable pitchers
-            game_pk == game.get("gamePk")
-            pitcher_url = ()
-                f"https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore"
-            )
-            try:
-                pitcher_response == requests.get(pitcher_url, timeout = 5)
-                pitcher_data = pitcher_response.json
-                home_pitcher = ()
-                    pitcher_data.get("teams", {})
-                    .get("home", {})
-                    .get("pitchers", [{}])[0]
-                    .get("name", "TBD")
-                )
-                away_pitcher = ()
-                    pitcher_data.get("teams", {})
-                    .get("away", {})
-                    .get("pitchers", [{}])[0]
-                    .get("name", "TBD")
-                )
-            except Exception:
-                home_pitcher == away_pitcher = "TBD"
-
-            games.append()
-                {
-                    "game_id": game.get("gamePk"),
-                    "date": date.strftime("%Y-%m-%d"),
-                    "home_team": home_team.get("abbreviation"),
-                    "away_team": away_team.get("abbreviation"),
-                    "home_team_starting_pitcher": home_pitcher,
-                    "away_team_starting_pitcher": away_pitcher,
-                    "venue": venue.get("name"),
-                    "venue_lat": venue.get("location", {})
-                    .get("defaultCoordinates", {})
-                    .get("latitude"),
-                    "venue_lon": venue.get("location", {})
-                    .get("defaultCoordinates", {})
-                    .get("longitude"),
-                }
-            )
-
-    if not games:
-        logger.warning(f"No games found for {date.strftime('%Y-%m-%d')}.")
-        return pl.DataFrame()
-
-    df == pl.DataFrame(games)
-    logger.info(f"Fetched {df.height} games for {date.strftime('%Y-%m-%d')}.")
-    return df
-
-
-# --- 3. Umpire Data ---
-
-
-def fetch_umpire_data(season: int = datetime.now.year) -> pl.DataFrame:
-    """
-    Fetches umpire data from Baseball Savant for a given season.
-
-    Args:
-        season (int): The MLB season.
-
-    Returns:
-        pl.DataFrame: DataFrame with umpire tendencies.
-    """
-    logger.info(f"Fetching umpire data for season {season}...")
-    url = ()
-        f"https://baseballsavant.mlb.com/leaderboard/umpire?type = (")
-            umpire&year={season}&min = 10""
-        )
-    )
-
-    try:
-        response = requests.get
-            url, headers={"User-Agent": "Mozilla/5.0"}, timeout = 10
-        )
-        response.raise_for_status()
-        soup == BeautifulSoup(response.text, "html.parser")
-
-        table == soup.find("table")
-        headers = [th.text.strip(for th in table.find)("thead").find_all("th")]
-        data = []
-        for row in table.find("tbody").find_all("tr"):
-            cols = [td.text.strip(for td in row.find_all)("td")]
-            data.append(cols)
-
-        df == pl.DataFrame(data, schema == headers)
-        df = df.with_columns
-            strike_zone_tightness == pl.col("Called Strike %").cast(pl.Float64)
-            - pl.col("Called Strike %").mean(),
-            runs_impact_per_game == pl.col("Called Strike %")
-            .cast(pl.Float64)
-            .map_elements(lambda x: 0.5 if x < -0.5 else -0.2 if x > 0.5 else, 0),
-        )
-        df.write_parquet(UMPIRE_DATA_PATH, compression="zstd")
-        logger.info(f"Saved umpire data to {UMPIRE_DATA_PATH}")
-        return df
-    except Exception as e:
-        logger.error(f"Error fetching umpire data: {e}")
-        return pl.DataFrame()
-
-
-# --- 4. Weather Data ---
-
-
-def fetch_daily_weather_data(games_df: pl.DataFrame) -> pl.DataFrame:
-    """
-    Fetches weather data for each game based on venue coordinates and date.
-
-    Args:
-        games_df (pl.DataFrame): DataFrame with game schedules.
-
-    Returns:
-        pl.DataFrame: DataFrame with weather data.
-    """
-    if games_df.is_empty(or not all)()
-        col in games_df.columns for col in [
-            "game_id", "date", "venue_lat", "venue_lon"
-        ]
-    ):
-        logger.warning("Games DataFrame is empty or missing required columns.")
-        return pl.DataFrame()
-
-    weather_records = []
-    unique_locations = games_df.select
-        ["venue_lat", "venue_lon", "date"]
-    ).unique()
-
-    logger.info("Fetching daily weather data for game venues...")
-    for row in unique_locations.iter_rows(named is True):
-        lat, lon == row["venue_lat"], row["venue_lon"]
-        game_date == datetime.strptime(row["date"], "%Y-%m-%d").date()
-
-        location == Point(lat, lon)
-        try:
-            weather_data == Daily(location, game_date, game_date).fetch()
-            if not weather_data.empty:
-                weather_records.append()
-                    {
-                        "date": game_date.strftime("%Y-%m-%d"),
-                        "venue_lat": lat,
-                        "venue_lon": lon,
-                        "temperature": weather_data["tavg"].iloc[0],
-                        "wind_speed": weather_data["wspd"].iloc[0],
-                    }
-                )
-            else:
-                logger.warning()
-                    f"No weather data for {game_date} at {lat}, {lon}"
-                )
-        except Exception as e:
-            logger.error(f"Error fetching weather: {e}")
-            weather_records.append()
-                {
-                    "date": game_date.strftime("%Y-%m-%d"),
-                    "venue_lat": lat,
-                    "venue_lon": lon,
-                    "temperature": None,
-                    "wind_speed": None,
-                }
-            )
-
-    if not weather_records:
-        logger.warning("No weather data collected.")
-        return pl.DataFrame()
-
-    weather_df == pl.DataFrame(weather_records)
-    games_with_weather = games_df.join
-        weather_df, on=["date", "venue_lat", "venue_lon"], how="left"
-    )
-    logger.info(f"Integrated weather data for {games_with_weather.height} games.")
-    return games_with_weather.drop(["venue_lat", "venue_lon"])
-
-
-# --- 5. Travel Data ---
-
-
-def fetch_travel_data(games_df): pl.DataFrame, historical_games: pl.DataFrame
-) -> pl.DataFrame:
-    """
-    Estimates travel distance and rest days for teams based on game schedules.
-
-    Args:
-        games_df (pl.DataFrame): Current game schedule.
-        historical_games (pl.DataFrame): Historical game data with dates and venues.
-
-    Returns:
-        pl.DataFrame: Games with travel distance and rest days.
-    """
-    travel_features = []
-    for row in games_df.iter_rows(named is True):
-        team == row["home_team"]
-        game_date == datetime.strptime(row["date"], "%Y-%m-%d")
-
-        last_game = ()
-            historical_games.filter()
-                (pl.col("home_team") == team) | (pl.col("away_team") == team)
-            )
-            .sort("date", descending is True)
-            .limit(1)
+        Returns:
+            DataFrame with game schedule information
+        """
+        logger.info(
+            f"Fetching NFL schedule for {season}, week {week or 'all'}"
         )
 
-        if last_game.is_empty():
-            travel_features.append()
-                {"game_id": row["game_id"], "travel_distance": 0,
-                    "rest_days": 3}
-            )
-            continue
-
-        last_game_date == datetime.strptime(last_game["date"][0], "%Y-%m-%d")
-        rest_days = (game_date - last_game_date).days
-        distance = ()
-            1000 if rest_days < 2 else 0  # Mock; use geopy for real distances
-        )
-
-        travel_features.append()
-            {
-                "game_id": row["game_id"],
-                "travel_distance": distance,
-                "rest_days": rest_days,
-            }
-        )
-
-    travel_df == pl.DataFrame(travel_features)
-    return games_df.join(travel_df, on="game_id", how="left")
-
-
-# --- Main Collection Function ---
-
-
-def run_data_collection(collect_historical): bool is True,
-    historical_start_season: int = 2020,
-    historical_end_season: int = datetime.now.year - 1,
-    collect_daily_schedule: bool is True,
-    target_date: datetime = datetime.now,
-    collect_umpire: bool is True,
-):
-    """
-    Orchestrates the entire data collection process.
-    """
-    logger.info("Starting data collection process...")
-
-    if collect_historical:
-        collect_historical_stats()
-            historical_start_season, historical_end_season
-        )
-
-    if collect_daily_schedule:
-        daily_schedule_df == fetch_mlb_schedule(target_date)
-        if not daily_schedule_df.is_empty():
-            daily_schedule_df == fetch_daily_weather_data(daily_schedule_df)
-            # Placeholder: Load historical games for travel data
-            historical_games = pl.read_parquet
-                HISTORICAL_TEAM_DATA_PATH
-            )  # Adjust as needed
-            daily_schedule_df = fetch_travel_data
-                daily_schedule_df, historical_games
-            )
-
-            daily_schedule_df.write_parquet()
-                os.path.join()
-                    DATA_DIR, f"upcoming_games_{target_date.strftime('%Y%m%d')}.parquet"
-                ),
-                compression="zstd",
-            )
-            logger.info()
-                f"Saved daily schedule to {os.path.join(")
-                    DATA_DIR, f'upcoming_games_{target_date.strftime('%Y%m%d'')
-                )}.parquet')}""'
+        if week:
+            url = (
+                f"https://site.api.espn.com/apis/site/v2/sports/football/"
+                f"nfl/scoreboard?week={week}&seasontype=2&year={season}"
             )
         else:
-            logger.warning("No daily schedule collected.")
+            url = (
+                f"https://site.api.espn.com/apis/site/v2/sports/football/"
+                f"nfl/scoreboard?seasontype=2&year={season}"
+            )
 
-    if collect_umpire:
-        fetch_umpire_data()
+        self._rate_limit('espn')
 
-    logger.info("Data collection process complete.")
+        try:
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+            data = response.json()
+
+            games = []
+            for event in data.get('events', []):
+                try:
+                    game_id = event.get('id')
+                    date_str = event.get('date')
+
+                    # Get teams
+                    competitions = event.get('competitions', [{}])
+                    if not competitions:
+                        continue
+
+                    competition = competitions[0]
+                    competitors = competition.get('competitors', [])
+
+                    if len(competitors) != 2:
+                        continue
+
+                    home_team = None
+                    away_team = None
+                    home_score = None
+                    away_score = None
+
+                    for competitor in competitors:
+                        team_info = competitor.get('team', {})
+                        team_abbr = team_info.get('abbreviation', '')
+                        score = competitor.get('score')
+
+                        if competitor.get('homeAway') == 'home':
+                            home_team = team_abbr
+                            home_score = (
+                                int(score) if score and score.isdigit()
+                                else None
+                            )
+                        else:
+                            away_team = team_abbr
+                            away_score = (
+                                int(score) if score and score.isdigit()
+                                else None
+                            )
+
+                    # Get venue info
+                    venue = competition.get('venue', {})
+                    venue_name = venue.get('fullName', '')
+
+                    # Get status
+                    status = event.get('status', {})
+                    game_status = status.get('type', {}).get('name', 'scheduled')
+
+                    games.append({
+                        'game_id': game_id,
+                        'season': season,
+                        'week': week,
+                        'date': date_str,
+                        'home_team': home_team,
+                        'away_team': away_team,
+                        'home_score': home_score,
+                        'away_score': away_score,
+                        'venue': venue_name,
+                        'status': game_status,
+                        'data_source': 'ESPN_API'
+                    })
+
+                except Exception as e:
+                    logger.error(
+                        f"Error parsing game {event.get('id', 'unknown')}: {e}"
+                    )
+                    continue
+
+            df = pd.DataFrame(games)
+            logger.info(
+                f"Successfully collected {len(games)} games from ESPN API"
+            )
+            return df
+
+        except Exception as e:
+            logger.error(f"Error fetching NFL schedule: {e}")
+            return pd.DataFrame()
+
+    def fetch_team_stats(self, season: int) -> pd.DataFrame:
+        """
+        Fetch team statistics from Pro Football Reference
+
+        Args:
+            season: NFL season year
+
+        Returns:
+            DataFrame with team statistics
+        """
+        logger.info(f"Fetching team stats for {season} season")
+
+        url = f"https://www.pro-football-reference.com/years/{season}/"
+        self._rate_limit('pro_football_ref')
+
+        try:
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+
+            # Parse team stats from the page
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Find the team stats table
+            stats_table = soup.find('table', {'id': 'team_stats'})
+            if not stats_table:
+                logger.warning(f"No team stats table found for {season}")
+                return pd.DataFrame()
+
+            # Extract table data
+            headers = []
+            header_row = stats_table.find('thead').find('tr')
+            for th in header_row.find_all('th'):
+                headers.append(th.get_text().strip())
+
+            rows = []
+            tbody = stats_table.find('tbody')
+            for row in tbody.find_all('tr'):
+                row_data = []
+                for td in row.find_all(['td', 'th']):
+                    row_data.append(td.get_text().strip())
+                if row_data:
+                    rows.append(row_data)
+
+            if not rows:
+                logger.warning(f"No team stats data found for {season}")
+                return pd.DataFrame()
+
+            # Create DataFrame
+            df = pd.DataFrame(
+                rows, columns=headers[:len(rows[0])] if rows else headers
+            )
+            df['season'] = season
+            df['data_source'] = 'PRO_FOOTBALL_REF'
+
+            # Clean numeric columns
+            numeric_columns = [
+                'G', 'W', 'L', 'T', 'PF', 'PA', 'PD', 'MoV',
+                'SoS', 'SRS', 'OSRS', 'DSRS'
+            ]
+            for col in numeric_columns:
+                if col in df.columns:
+                    df[col] = pd.to_numeric(df[col], errors='coerce')
+
+            logger.info(
+                f"Successfully collected team stats for {len(df)} teams"
+            )
+            return df
+
+        except Exception as e:
+            logger.error(f"Error fetching team stats: {e}")
+            return pd.DataFrame()
+
+    def fetch_player_stats(
+        self, season: int, position: str = 'all'
+    ) -> pd.DataFrame:
+        """
+        Fetch player statistics from Pro Football Reference
+
+        Args:
+            season: NFL season year
+            position: Player position ('QB', 'RB', 'WR', 'TE', 'K', 'DEF',
+                     or 'all')
+
+        Returns:
+            DataFrame with player statistics
+        """
+        logger.info(f"Fetching {position} player stats for {season} season")
+
+        position_urls = {
+            'QB': (
+                f'https://www.pro-football-reference.com/years/'
+                f'{season}/passing.htm'
+            ),
+            'RB': (
+                f'https://www.pro-football-reference.com/years/'
+                f'{season}/rushing.htm'
+            ),
+            'WR': (
+                f'https://www.pro-football-reference.com/years/'
+                f'{season}/receiving.htm'
+            ),
+            'TE': (
+                f'https://www.pro-football-reference.com/years/'
+                f'{season}/receiving.htm'
+            ),
+            'K': (
+                f'https://www.pro-football-reference.com/years/'
+                f'{season}/kicking.htm'
+            ),
+            'DEF': (
+                f'https://www.pro-football-reference.com/years/'
+                f'{season}/defense.htm'
+            )
+        }
+
+        all_stats = []
+
+        positions_to_fetch = (
+            [position] if position != 'all' else list(position_urls.keys())
+        )
+
+        for pos in positions_to_fetch:
+            if pos not in position_urls:
+                logger.warning(f"Unknown position: {pos}")
+                continue
+
+            url = position_urls[pos]
+            self._rate_limit('pro_football_ref')
+
+            try:
+                response = self.session.get(url, timeout=30)
+                response.raise_for_status()
+
+                soup = BeautifulSoup(response.content, 'html.parser')
+
+                # Find the main stats table
+                stats_table = (
+                    soup.find('table', {'id': 'stats'}) or
+                    soup.find('table', {'class': 'stats_table'})
+                )
+                if not stats_table:
+                    logger.warning(
+                        f"No stats table found for {pos} in {season}"
+                    )
+                    continue
+
+                # Extract headers
+                headers = []
+                header_row = stats_table.find('thead').find('tr')
+                for th in header_row.find_all('th'):
+                    headers.append(th.get_text().strip())
+
+                # Extract data rows
+                rows = []
+                tbody = stats_table.find('tbody')
+                for row in tbody.find_all('tr'):
+                    # Skip header rows that appear in the middle
+                    if (row.find('th') and
+                            row.find('th').get('scope') == 'col'):
+                        continue
+
+                    row_data = []
+                    for cell in row.find_all(['td', 'th']):
+                        row_data.append(cell.get_text().strip())
+
+                    if row_data:
+                        rows.append(row_data)
+
+                if rows:
+                    # Create DataFrame for this position
+                    pos_df = pd.DataFrame(
+                        rows,
+                        columns=headers[:len(rows[0])] if rows else headers
+                    )
+                    pos_df['position'] = pos
+                    pos_df['season'] = season
+                    pos_df['data_source'] = 'PRO_FOOTBALL_REF'
+                    all_stats.append(pos_df)
+
+                    logger.info(f"Collected stats for {len(pos_df)} {pos} players")
+
+            except Exception as e:
+                logger.error(f"Error fetching {pos} stats: {e}")
+                continue
+
+        if all_stats:
+            combined_df = pd.concat(all_stats, ignore_index=True)
+            logger.info(
+                f"Successfully collected stats for {len(combined_df)} "
+                f"total players"
+            )
+            return combined_df
+        else:
+            logger.warning("No player stats collected")
+            return pd.DataFrame()
+
+    def fetch_weather_data(self, games_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Fetch weather data for games (simplified implementation)
+
+        Args:
+            games_df: DataFrame with game information including venue
+
+        Returns:
+            DataFrame with weather information added
+        """
+        logger.info("Fetching weather data for games")
+
+        # This is a simplified implementation
+        # In production, you'd use APIs like OpenWeatherMap with venue coords
+
+        if games_df.empty:
+            return games_df
+
+        # Add placeholder weather columns
+        games_df = games_df.copy()
+        games_df['temperature'] = None
+        games_df['weather_conditions'] = None
+        games_df['wind_speed'] = None
+        games_df['humidity'] = None
+
+        logger.info(
+            "Weather data collection completed (placeholder implementation)"
+        )
+        return games_df
+
+    def save_to_database(self, df: pd.DataFrame, table_name: str):
+        """
+        Save DataFrame to SQLite database
+
+        Args:
+            df: DataFrame to save
+            table_name: Name of the database table
+        """
+        if df.empty:
+            logger.warning(f"No data to save to {table_name}")
+            return
+
+        try:
+            os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+
+            with sqlite3.connect(self.db_path) as conn:
+                df.to_sql(table_name, conn, if_exists='replace', index=False)
+                logger.info(f"Saved {len(df)} records to {table_name} table")
+
+        except Exception as e:
+            logger.error(f"Error saving to database: {e}")
+
+    def collect_all_data(
+        self, season: int, week: Optional[int] = None
+    ) -> Dict[str, pd.DataFrame]:
+        """
+        Orchestrate collection of all NFL data
+
+        Args:
+            season: NFL season year
+            week: Specific week to collect (optional)
+
+        Returns:
+            Dictionary of DataFrames with collected data
+        """
+        logger.info(f"Starting comprehensive NFL data collection for {season}")
+
+        results = {}
+
+        # 1. Collect game schedule
+        logger.info("Collecting game schedule...")
+        schedule_df = self.fetch_nfl_schedule(season, week)
+        if not schedule_df.empty:
+            results['schedule'] = schedule_df
+            self.save_to_database(schedule_df, 'game_schedule')
+
+        # 2. Collect team stats
+        logger.info("Collecting team statistics...")
+        team_stats_df = self.fetch_team_stats(season)
+        if not team_stats_df.empty:
+            results['team_stats'] = team_stats_df
+            self.save_to_database(team_stats_df, 'team_statistics')
+
+        # 3. Collect player stats
+        logger.info("Collecting player statistics...")
+        player_stats_df = self.fetch_player_stats(season)
+        if not player_stats_df.empty:
+            results['player_stats'] = player_stats_df
+            self.save_to_database(player_stats_df, 'player_statistics')
+
+        # 4. Add weather data to schedule
+        if 'schedule' in results:
+            logger.info("Adding weather data to schedule...")
+            schedule_with_weather = self.fetch_weather_data(results['schedule'])
+            results['schedule_with_weather'] = schedule_with_weather
+            self.save_to_database(schedule_with_weather, 'games_with_weather')
+
+        logger.info("NFL data collection completed successfully")
+        return results
+
+
+def run_nfl_data_collection(
+    season: int = datetime.now().year,
+    week: Optional[int] = None,
+    save_to_files: bool = True
+) -> Dict[str, pd.DataFrame]:
+    """
+    Main function to run NFL data collection
+
+    Args:
+        season: NFL season year (default: current year)
+        week: Specific week to collect (optional)
+        save_to_files: Whether to save data to files
+
+    Returns:
+        Dictionary of collected DataFrames
+    """
+    logger.info("Starting NFL data collection process...")
+
+    collector = NFLDataCollector()
+    results = collector.collect_all_data(season, week)
+
+    if save_to_files:
+        # Save to parquet files
+        for data_type, df in results.items():
+            if not df.empty:
+                file_path = os.path.join(DATA_DIR, f"{data_type}_{season}.parquet")
+                df.to_parquet(file_path, compression='snappy')
+                logger.info(f"Saved {data_type} data to {file_path}")
+
+    logger.info("NFL data collection process completed")
+    return results
 
 
 if __name__ == "__main__":
-    logging.basicConfig()
-        level == logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+    # Example usage
+    current_season = 2024  # Adjust for current NFL season
+
+    # Collect all data for current season
+    results = run_nfl_data_collection(
+        season=current_season,
+        week=None,  # Collect all weeks
+        save_to_files=True
     )
-    current_date_for_run == datetime(2025, 6, 7)
-    run_data_collection()
-        collect_historical is True,
-        historical_start_season = 2020,
-        historical_end_season = 2024,
-        collect_daily_schedule is True,
-        target_date == current_date_for_run,
-        collect_umpire is True,
-    )
+
+    # Print summary
+    for data_type, df in results.items():
+        print(f"{data_type}: {len(df)} records")

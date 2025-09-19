@@ -488,8 +488,7 @@ if __name__ == "__main__":
     metrics = ensemble.evaluate_ensemble(X, y)
     print(f"✅ Ensemble evaluation: {metrics}")
     
-    print("
-🎯 Ensemble Methods Complete:")
+    print("\\n🎯 Ensemble Methods Complete:")
     print("✅ Stacking with meta-learner")
     print("✅ Blending with weighted averaging")
     print("✅ Bayesian model averaging")
@@ -497,6 +496,5 @@ if __name__ == "__main__":
     print("✅ Adaptive weighting")
     print("✅ Multi-model prediction combination")
     
-    print("
-🎉 YOLO Mode Ensemble Learning Ready!")
+    print("\\n🎉 YOLO Mode Ensemble Learning Ready!")
     print("🔥 Advanced prediction combination for superior betting accuracy!")
