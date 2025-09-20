@@ -1,0 +1,35 @@
+================================================================================
+📊 FOOTBALL BETTING SYSTEM PERFORMANCE ANALYSIS
+================================================================================
+
+🔧 SYSTEM RESOURCES:
+  CPU Usage: 6.9%
+  Memory Usage: 83.7%
+  Disk Usage: 14.8%
+  Active Processes: 483
+
+🎯 BETTING PERFORMANCE:
+  Overall ROI: 6.06%
+  Win Rate: 50.0%
+  Total Profit: $5.45
+  Total Bets: 2
+  Profit Factor: 1.14
+  Sharpe Ratio: -0.03
+  Max Drawdown: 3.8%
+  EV Accuracy: 58.7%
+
+🧪 TEST SYSTEM PERFORMANCE:
+  Predictions Made: 0
+  Predictions Correct: 0
+  Average Edge Found: 25.50%
+  Games Analyzed: 0
+  Recommendations Generated: 3
+  Total Potential EV: $76.50
+
+⚠️ IDENTIFIED BOTTLENECKS:
+  1. High memory usage - consider memory optimization techniques
+
+📈 OVERALL PERFORMANCE SCORE: 72.5/100
+👍 GOOD - System performing well with room for improvement
+
+================================================================================
