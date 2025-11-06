@@ -1,0 +1,268 @@
+game_id,season,week,date,home_team,away_team,home_score,away_score,spread,total,odds,actual_result,edge_value,confidence
+2019_Green_Bay_Packers_Chicago_Bears_2019-09-05,2019,,2019-09-05,Chicago Bears,Green Bay Packers,3,10,0.0,13.0,-110,0,0.02,0.55
+2019_Atlanta_Falcons_Minnesota_Vikings_2019-09-08,2019,,2019-09-08,Minnesota Vikings,Atlanta Falcons,28,12,0.0,40.0,-110,1,0.02,0.55
+2019_Buffalo_Bills_New_York_Jets_2019-09-08,2019,,2019-09-08,New York Jets,Buffalo Bills,16,17,0.0,33.0,-110,0,0.02,0.55
+2019_Los_Angeles_Rams_Carolina_Panthers_2019-09-08,2019,,2019-09-08,Carolina Panthers,Los Angeles Rams,27,30,0.0,57.0,-110,0,0.02,0.55
+2019_Tennessee_Titans_Cleveland_Browns_2019-09-08,2019,,2019-09-08,Cleveland Browns,Tennessee Titans,13,43,0.0,56.0,-110,0,0.02,0.55
+2019_Kansas_City_Chiefs_Jacksonville_Jaguars_2019-09-08,2019,,2019-09-08,Jacksonville Jaguars,Kansas City Chiefs,26,40,0.0,66.0,-110,0,0.02,0.55
+2019_Baltimore_Ravens_Miami_Dolphins_2019-09-08,2019,,2019-09-08,Miami Dolphins,Baltimore Ravens,10,59,0.0,69.0,-110,0,0.02,0.55
+2019_Washington_Redskins_Philadelphia_Eagles_2019-09-08,2019,,2019-09-08,Philadelphia Eagles,Washington Redskins,32,27,0.0,59.0,-110,1,0.02,0.55
+2019_Cincinnati_Bengals_Seattle_Seahawks_2019-09-08,2019,,2019-09-08,Seattle Seahawks,Cincinnati Bengals,21,20,0.0,41.0,-110,1,0.02,0.55
+2019_Indianapolis_Colts_Los_Angeles_Chargers_2019-09-08,2019,,2019-09-08,Los Angeles Chargers,Indianapolis Colts,30,24,0.0,54.0,-110,1,0.02,0.55
+2019_Detroit_Lions_Arizona_Cardinals_2019-09-08,2019,,2019-09-08,Arizona Cardinals,Detroit Lions,27,27,0.0,54.0,-110,0,0.02,0.55
+2019_New_York_Giants_Dallas_Cowboys_2019-09-08,2019,,2019-09-08,Dallas Cowboys,New York Giants,35,17,0.0,52.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_Tampa_Bay_Buccaneers_2019-09-08,2019,,2019-09-08,Tampa Bay Buccaneers,San Francisco 49ers,17,31,0.0,48.0,-110,0,0.02,0.55
+2019_Pittsburgh_Steelers_New_England_Patriots_2019-09-08,2019,,2019-09-08,New England Patriots,Pittsburgh Steelers,33,3,0.0,36.0,-110,1,0.02,0.55
+2019_Houston_Texans_New_Orleans_Saints_2019-09-09,2019,,2019-09-09,New Orleans Saints,Houston Texans,30,28,0.0,58.0,-110,1,0.02,0.55
+2019_Denver_Broncos_Oakland_Raiders_2019-09-09,2019,,2019-09-09,Oakland Raiders,Denver Broncos,24,16,0.0,40.0,-110,1,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Carolina_Panthers_2019-09-12,2019,,2019-09-12,Carolina Panthers,Tampa Bay Buccaneers,14,20,0.0,34.0,-110,0,0.02,0.55
+2019_Buffalo_Bills_New_York_Giants_2019-09-15,2019,,2019-09-15,New York Giants,Buffalo Bills,14,28,0.0,42.0,-110,0,0.02,0.55
+2019_San_Francisco_49ers_Cincinnati_Bengals_2019-09-15,2019,,2019-09-15,Cincinnati Bengals,San Francisco 49ers,17,41,0.0,58.0,-110,0,0.02,0.55
+2019_Indianapolis_Colts_Tennessee_Titans_2019-09-15,2019,,2019-09-15,Tennessee Titans,Indianapolis Colts,17,19,0.0,36.0,-110,0,0.02,0.55
+2019_Arizona_Cardinals_Baltimore_Ravens_2019-09-15,2019,,2019-09-15,Baltimore Ravens,Arizona Cardinals,23,17,0.0,40.0,-110,1,0.02,0.55
+2019_Dallas_Cowboys_Washington_Redskins_2019-09-15,2019,,2019-09-15,Washington Redskins,Dallas Cowboys,21,31,0.0,52.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Detroit_Lions_2019-09-15,2019,,2019-09-15,Detroit Lions,Los Angeles Chargers,13,10,0.0,23.0,-110,1,0.02,0.55
+2019_Minnesota_Vikings_Green_Bay_Packers_2019-09-15,2019,,2019-09-15,Green Bay Packers,Minnesota Vikings,21,16,0.0,37.0,-110,1,0.02,0.55
+2019_Jacksonville_Jaguars_Houston_Texans_2019-09-15,2019,,2019-09-15,Houston Texans,Jacksonville Jaguars,13,12,0.0,25.0,-110,1,0.02,0.55
+2019_New_England_Patriots_Miami_Dolphins_2019-09-15,2019,,2019-09-15,Miami Dolphins,New England Patriots,0,43,0.0,43.0,-110,0,0.02,0.55
+2019_Seattle_Seahawks_Pittsburgh_Steelers_2019-09-15,2019,,2019-09-15,Pittsburgh Steelers,Seattle Seahawks,26,28,0.0,54.0,-110,0,0.02,0.55
+2019_Kansas_City_Chiefs_Oakland_Raiders_2019-09-15,2019,,2019-09-15,Oakland Raiders,Kansas City Chiefs,10,28,0.0,38.0,-110,0,0.02,0.55
+2019_Chicago_Bears_Denver_Broncos_2019-09-15,2019,,2019-09-15,Denver Broncos,Chicago Bears,14,16,0.0,30.0,-110,0,0.02,0.55
+2019_New_Orleans_Saints_Los_Angeles_Rams_2019-09-15,2019,,2019-09-15,Los Angeles Rams,New Orleans Saints,27,9,0.0,36.0,-110,1,0.02,0.55
+2019_Philadelphia_Eagles_Atlanta_Falcons_2019-09-15,2019,,2019-09-15,Atlanta Falcons,Philadelphia Eagles,24,20,0.0,44.0,-110,1,0.02,0.55
+2019_Cleveland_Browns_New_York_Jets_2019-09-16,2019,,2019-09-16,New York Jets,Cleveland Browns,3,23,0.0,26.0,-110,0,0.02,0.55
+2019_Tennessee_Titans_Jacksonville_Jaguars_2019-09-19,2019,,2019-09-19,Jacksonville Jaguars,Tennessee Titans,20,7,0.0,27.0,-110,1,0.02,0.55
+2019_Atlanta_Falcons_Indianapolis_Colts_2019-09-22,2019,,2019-09-22,Indianapolis Colts,Atlanta Falcons,27,24,0.0,51.0,-110,1,0.02,0.55
+2019_Cincinnati_Bengals_Buffalo_Bills_2019-09-22,2019,,2019-09-22,Buffalo Bills,Cincinnati Bengals,21,17,0.0,38.0,-110,1,0.02,0.55
+2019_Miami_Dolphins_Dallas_Cowboys_2019-09-22,2019,,2019-09-22,Dallas Cowboys,Miami Dolphins,31,6,0.0,37.0,-110,1,0.02,0.55
+2019_Denver_Broncos_Green_Bay_Packers_2019-09-22,2019,,2019-09-22,Green Bay Packers,Denver Broncos,27,16,0.0,43.0,-110,1,0.02,0.55
+2019_Detroit_Lions_Philadelphia_Eagles_2019-09-22,2019,,2019-09-22,Philadelphia Eagles,Detroit Lions,24,27,0.0,51.0,-110,0,0.02,0.55
+2019_Baltimore_Ravens_Kansas_City_Chiefs_2019-09-22,2019,,2019-09-22,Kansas City Chiefs,Baltimore Ravens,33,28,0.0,61.0,-110,1,0.02,0.55
+2019_Oakland_Raiders_Minnesota_Vikings_2019-09-22,2019,,2019-09-22,Minnesota Vikings,Oakland Raiders,34,14,0.0,48.0,-110,1,0.02,0.55
+2019_New_York_Jets_New_England_Patriots_2019-09-22,2019,,2019-09-22,New England Patriots,New York Jets,30,14,0.0,44.0,-110,1,0.02,0.55
+2019_Carolina_Panthers_Arizona_Cardinals_2019-09-22,2019,,2019-09-22,Arizona Cardinals,Carolina Panthers,20,38,0.0,58.0,-110,0,0.02,0.55
+2019_New_York_Giants_Tampa_Bay_Buccaneers_2019-09-22,2019,,2019-09-22,Tampa Bay Buccaneers,New York Giants,31,32,0.0,63.0,-110,0,0.02,0.55
+2019_Houston_Texans_Los_Angeles_Chargers_2019-09-22,2019,,2019-09-22,Los Angeles Chargers,Houston Texans,20,27,0.0,47.0,-110,0,0.02,0.55
+2019_New_Orleans_Saints_Seattle_Seahawks_2019-09-22,2019,,2019-09-22,Seattle Seahawks,New Orleans Saints,27,33,0.0,60.0,-110,0,0.02,0.55
+2019_Pittsburgh_Steelers_San_Francisco_49ers_2019-09-22,2019,,2019-09-22,San Francisco 49ers,Pittsburgh Steelers,24,20,0.0,44.0,-110,1,0.02,0.55
+2019_Los_Angeles_Rams_Cleveland_Browns_2019-09-22,2019,,2019-09-22,Cleveland Browns,Los Angeles Rams,13,20,0.0,33.0,-110,0,0.02,0.55
+2019_Chicago_Bears_Washington_Redskins_2019-09-23,2019,,2019-09-23,Washington Redskins,Chicago Bears,15,31,0.0,46.0,-110,0,0.02,0.55
+2019_Philadelphia_Eagles_Green_Bay_Packers_2019-09-26,2019,,2019-09-26,Green Bay Packers,Philadelphia Eagles,27,34,0.0,61.0,-110,0,0.02,0.55
+2019_Tennessee_Titans_Atlanta_Falcons_2019-09-29,2019,,2019-09-29,Atlanta Falcons,Tennessee Titans,10,24,0.0,34.0,-110,0,0.02,0.55
+2019_New_England_Patriots_Buffalo_Bills_2019-09-29,2019,,2019-09-29,Buffalo Bills,New England Patriots,10,16,0.0,26.0,-110,0,0.02,0.55
+2019_Carolina_Panthers_Houston_Texans_2019-09-29,2019,,2019-09-29,Houston Texans,Carolina Panthers,10,16,0.0,26.0,-110,0,0.02,0.55
+2019_Cleveland_Browns_Baltimore_Ravens_2019-09-29,2019,,2019-09-29,Baltimore Ravens,Cleveland Browns,25,40,0.0,65.0,-110,0,0.02,0.55
+2019_Oakland_Raiders_Indianapolis_Colts_2019-09-29,2019,,2019-09-29,Indianapolis Colts,Oakland Raiders,24,31,0.0,55.0,-110,0,0.02,0.55
+2019_Kansas_City_Chiefs_Detroit_Lions_2019-09-29,2019,,2019-09-29,Detroit Lions,Kansas City Chiefs,30,34,0.0,64.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Miami_Dolphins_2019-09-29,2019,,2019-09-29,Miami Dolphins,Los Angeles Chargers,10,30,0.0,40.0,-110,0,0.02,0.55
+2019_Washington_Redskins_New_York_Giants_2019-09-29,2019,,2019-09-29,New York Giants,Washington Redskins,24,3,0.0,27.0,-110,1,0.02,0.55
+2019_Seattle_Seahawks_Arizona_Cardinals_2019-09-29,2019,,2019-09-29,Arizona Cardinals,Seattle Seahawks,10,27,0.0,37.0,-110,0,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Los_Angeles_Rams_2019-09-29,2019,,2019-09-29,Los Angeles Rams,Tampa Bay Buccaneers,40,55,0.0,95.0,-110,0,0.02,0.55
+2019_Minnesota_Vikings_Chicago_Bears_2019-09-29,2019,,2019-09-29,Chicago Bears,Minnesota Vikings,16,6,0.0,22.0,-110,1,0.02,0.55
+2019_Jacksonville_Jaguars_Denver_Broncos_2019-09-29,2019,,2019-09-29,Denver Broncos,Jacksonville Jaguars,24,26,0.0,50.0,-110,0,0.02,0.55
+2019_Dallas_Cowboys_New_Orleans_Saints_2019-09-29,2019,,2019-09-29,New Orleans Saints,Dallas Cowboys,12,10,0.0,22.0,-110,1,0.02,0.55
+2019_Cincinnati_Bengals_Pittsburgh_Steelers_2019-09-30,2019,,2019-09-30,Pittsburgh Steelers,Cincinnati Bengals,27,3,0.0,30.0,-110,1,0.02,0.55
+2019_Los_Angeles_Rams_Seattle_Seahawks_2019-10-03,2019,,2019-10-03,Seattle Seahawks,Los Angeles Rams,30,29,0.0,59.0,-110,1,0.02,0.55
+2019_New_York_Jets_Philadelphia_Eagles_2019-10-06,2019,,2019-10-06,Philadelphia Eagles,New York Jets,31,6,0.0,37.0,-110,1,0.02,0.55
+2019_Atlanta_Falcons_Houston_Texans_2019-10-06,2019,,2019-10-06,Houston Texans,Atlanta Falcons,53,32,0.0,85.0,-110,1,0.02,0.55
+2019_Buffalo_Bills_Tennessee_Titans_2019-10-06,2019,,2019-10-06,Tennessee Titans,Buffalo Bills,7,14,0.0,21.0,-110,0,0.02,0.55
+2019_Jacksonville_Jaguars_Carolina_Panthers_2019-10-06,2019,,2019-10-06,Carolina Panthers,Jacksonville Jaguars,34,27,0.0,61.0,-110,1,0.02,0.55
+2019_Chicago_Bears_Oakland_Raiders_2019-10-06,2019,,2019-10-06,Oakland Raiders,Chicago Bears,24,21,0.0,45.0,-110,1,0.02,0.55
+2019_Arizona_Cardinals_Cincinnati_Bengals_2019-10-06,2019,,2019-10-06,Cincinnati Bengals,Arizona Cardinals,23,26,0.0,49.0,-110,0,0.02,0.55
+2019_Minnesota_Vikings_New_York_Giants_2019-10-06,2019,,2019-10-06,New York Giants,Minnesota Vikings,10,28,0.0,38.0,-110,0,0.02,0.55
+2019_Tampa_Bay_Buccaneers_New_Orleans_Saints_2019-10-06,2019,,2019-10-06,New Orleans Saints,Tampa Bay Buccaneers,31,24,0.0,55.0,-110,1,0.02,0.55
+2019_New_England_Patriots_Washington_Redskins_2019-10-06,2019,,2019-10-06,Washington Redskins,New England Patriots,7,33,0.0,40.0,-110,0,0.02,0.55
+2019_Baltimore_Ravens_Pittsburgh_Steelers_2019-10-06,2019,,2019-10-06,Pittsburgh Steelers,Baltimore Ravens,23,26,0.0,49.0,-110,0,0.02,0.55
+2019_Denver_Broncos_Los_Angeles_Chargers_2019-10-06,2019,,2019-10-06,Los Angeles Chargers,Denver Broncos,13,20,0.0,33.0,-110,0,0.02,0.55
+2019_Green_Bay_Packers_Dallas_Cowboys_2019-10-06,2019,,2019-10-06,Dallas Cowboys,Green Bay Packers,24,34,0.0,58.0,-110,0,0.02,0.55
+2019_Indianapolis_Colts_Kansas_City_Chiefs_2019-10-06,2019,,2019-10-06,Kansas City Chiefs,Indianapolis Colts,13,19,0.0,32.0,-110,0,0.02,0.55
+2019_Cleveland_Browns_San_Francisco_49ers_2019-10-07,2019,,2019-10-07,San Francisco 49ers,Cleveland Browns,31,3,0.0,34.0,-110,1,0.02,0.55
+2019_New_York_Giants_New_England_Patriots_2019-10-10,2019,,2019-10-10,New England Patriots,New York Giants,35,14,0.0,49.0,-110,1,0.02,0.55
+2019_Carolina_Panthers_Tampa_Bay_Buccaneers_2019-10-13,2019,,2019-10-13,Tampa Bay Buccaneers,Carolina Panthers,26,37,0.0,63.0,-110,0,0.02,0.55
+2019_Washington_Redskins_Miami_Dolphins_2019-10-13,2019,,2019-10-13,Miami Dolphins,Washington Redskins,16,17,0.0,33.0,-110,0,0.02,0.55
+2019_Cincinnati_Bengals_Baltimore_Ravens_2019-10-13,2019,,2019-10-13,Baltimore Ravens,Cincinnati Bengals,23,17,0.0,40.0,-110,1,0.02,0.55
+2019_Seattle_Seahawks_Cleveland_Browns_2019-10-13,2019,,2019-10-13,Cleveland Browns,Seattle Seahawks,28,32,0.0,60.0,-110,0,0.02,0.55
+2019_Houston_Texans_Kansas_City_Chiefs_2019-10-13,2019,,2019-10-13,Kansas City Chiefs,Houston Texans,24,31,0.0,55.0,-110,0,0.02,0.55
+2019_New_Orleans_Saints_Jacksonville_Jaguars_2019-10-13,2019,,2019-10-13,Jacksonville Jaguars,New Orleans Saints,6,13,0.0,19.0,-110,0,0.02,0.55
+2019_Philadelphia_Eagles_Minnesota_Vikings_2019-10-13,2019,,2019-10-13,Minnesota Vikings,Philadelphia Eagles,38,20,0.0,58.0,-110,1,0.02,0.55
+2019_Atlanta_Falcons_Arizona_Cardinals_2019-10-13,2019,,2019-10-13,Arizona Cardinals,Atlanta Falcons,34,33,0.0,67.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_Los_Angeles_Rams_2019-10-13,2019,,2019-10-13,Los Angeles Rams,San Francisco 49ers,7,20,0.0,27.0,-110,0,0.02,0.55
+2019_Dallas_Cowboys_New_York_Jets_2019-10-13,2019,,2019-10-13,New York Jets,Dallas Cowboys,24,22,0.0,46.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_Denver_Broncos_2019-10-13,2019,,2019-10-13,Denver Broncos,Tennessee Titans,16,0,0.0,16.0,-110,1,0.02,0.55
+2019_Pittsburgh_Steelers_Los_Angeles_Chargers_2019-10-13,2019,,2019-10-13,Los Angeles Chargers,Pittsburgh Steelers,17,24,0.0,41.0,-110,0,0.02,0.55
+2019_Detroit_Lions_Green_Bay_Packers_2019-10-14,2019,,2019-10-14,Green Bay Packers,Detroit Lions,23,22,0.0,45.0,-110,1,0.02,0.55
+2019_Kansas_City_Chiefs_Denver_Broncos_2019-10-17,2019,,2019-10-17,Denver Broncos,Kansas City Chiefs,6,30,0.0,36.0,-110,0,0.02,0.55
+2019_Miami_Dolphins_Buffalo_Bills_2019-10-20,2019,,2019-10-20,Buffalo Bills,Miami Dolphins,31,21,0.0,52.0,-110,1,0.02,0.55
+2019_Houston_Texans_Indianapolis_Colts_2019-10-20,2019,,2019-10-20,Indianapolis Colts,Houston Texans,30,23,0.0,53.0,-110,1,0.02,0.55
+2019_Minnesota_Vikings_Detroit_Lions_2019-10-20,2019,,2019-10-20,Detroit Lions,Minnesota Vikings,30,42,0.0,72.0,-110,0,0.02,0.55
+2019_San_Francisco_49ers_Washington_Redskins_2019-10-20,2019,,2019-10-20,Washington Redskins,San Francisco 49ers,0,9,0.0,9.0,-110,0,0.02,0.55
+2019_Los_Angeles_Rams_Atlanta_Falcons_2019-10-20,2019,,2019-10-20,Atlanta Falcons,Los Angeles Rams,10,37,0.0,47.0,-110,0,0.02,0.55
+2019_Jacksonville_Jaguars_Cincinnati_Bengals_2019-10-20,2019,,2019-10-20,Cincinnati Bengals,Jacksonville Jaguars,17,27,0.0,44.0,-110,0,0.02,0.55
+2019_Arizona_Cardinals_New_York_Giants_2019-10-20,2019,,2019-10-20,New York Giants,Arizona Cardinals,21,27,0.0,48.0,-110,0,0.02,0.55
+2019_Oakland_Raiders_Green_Bay_Packers_2019-10-20,2019,,2019-10-20,Green Bay Packers,Oakland Raiders,42,24,0.0,66.0,-110,1,0.02,0.55
+2019_Los_Angeles_Chargers_Tennessee_Titans_2019-10-20,2019,,2019-10-20,Tennessee Titans,Los Angeles Chargers,23,20,0.0,43.0,-110,1,0.02,0.55
+2019_New_Orleans_Saints_Chicago_Bears_2019-10-20,2019,,2019-10-20,Chicago Bears,New Orleans Saints,25,36,0.0,61.0,-110,0,0.02,0.55
+2019_Baltimore_Ravens_Seattle_Seahawks_2019-10-20,2019,,2019-10-20,Seattle Seahawks,Baltimore Ravens,16,30,0.0,46.0,-110,0,0.02,0.55
+2019_Philadelphia_Eagles_Dallas_Cowboys_2019-10-20,2019,,2019-10-20,Dallas Cowboys,Philadelphia Eagles,37,10,0.0,47.0,-110,1,0.02,0.55
+2019_New_England_Patriots_New_York_Jets_2019-10-21,2019,,2019-10-21,New York Jets,New England Patriots,0,33,0.0,33.0,-110,0,0.02,0.55
+2019_Washington_Redskins_Minnesota_Vikings_2019-10-24,2019,,2019-10-24,Minnesota Vikings,Washington Redskins,19,9,0.0,28.0,-110,1,0.02,0.55
+2019_Philadelphia_Eagles_Buffalo_Bills_2019-10-27,2019,,2019-10-27,Buffalo Bills,Philadelphia Eagles,13,31,0.0,44.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Chicago_Bears_2019-10-27,2019,,2019-10-27,Chicago Bears,Los Angeles Chargers,16,17,0.0,33.0,-110,0,0.02,0.55
+2019_Denver_Broncos_Indianapolis_Colts_2019-10-27,2019,,2019-10-27,Indianapolis Colts,Denver Broncos,15,13,0.0,28.0,-110,1,0.02,0.55
+2019_New_York_Giants_Detroit_Lions_2019-10-27,2019,,2019-10-27,Detroit Lions,New York Giants,31,26,0.0,57.0,-110,1,0.02,0.55
+2019_Seattle_Seahawks_Atlanta_Falcons_2019-10-27,2019,,2019-10-27,Atlanta Falcons,Seattle Seahawks,20,27,0.0,47.0,-110,0,0.02,0.55
+2019_Cincinnati_Bengals_Los_Angeles_Rams_2019-10-27,2019,,2019-10-27,Los Angeles Rams,Cincinnati Bengals,24,10,0.0,34.0,-110,1,0.02,0.55
+2019_Arizona_Cardinals_New_Orleans_Saints_2019-10-27,2019,,2019-10-27,New Orleans Saints,Arizona Cardinals,31,9,0.0,40.0,-110,1,0.02,0.55
+2019_New_York_Jets_Jacksonville_Jaguars_2019-10-27,2019,,2019-10-27,Jacksonville Jaguars,New York Jets,29,15,0.0,44.0,-110,1,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Tennessee_Titans_2019-10-27,2019,,2019-10-27,Tennessee Titans,Tampa Bay Buccaneers,27,23,0.0,50.0,-110,1,0.02,0.55
+2019_Carolina_Panthers_San_Francisco_49ers_2019-10-27,2019,,2019-10-27,San Francisco 49ers,Carolina Panthers,51,13,0.0,64.0,-110,1,0.02,0.55
+2019_Cleveland_Browns_New_England_Patriots_2019-10-27,2019,,2019-10-27,New England Patriots,Cleveland Browns,27,13,0.0,40.0,-110,1,0.02,0.55
+2019_Oakland_Raiders_Houston_Texans_2019-10-27,2019,,2019-10-27,Houston Texans,Oakland Raiders,27,24,0.0,51.0,-110,1,0.02,0.55
+2019_Green_Bay_Packers_Kansas_City_Chiefs_2019-10-27,2019,,2019-10-27,Kansas City Chiefs,Green Bay Packers,24,31,0.0,55.0,-110,0,0.02,0.55
+2019_Miami_Dolphins_Pittsburgh_Steelers_2019-10-28,2019,,2019-10-28,Pittsburgh Steelers,Miami Dolphins,27,14,0.0,41.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_Arizona_Cardinals_2019-10-31,2019,,2019-10-31,Arizona Cardinals,San Francisco 49ers,25,28,0.0,53.0,-110,0,0.02,0.55
+2019_Houston_Texans_Jacksonville_Jaguars_2019-11-03,2019,,2019-11-03,Jacksonville Jaguars,Houston Texans,3,26,0.0,29.0,-110,0,0.02,0.55
+2019_Washington_Redskins_Buffalo_Bills_2019-11-03,2019,,2019-11-03,Buffalo Bills,Washington Redskins,24,9,0.0,33.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_Carolina_Panthers_2019-11-03,2019,,2019-11-03,Carolina Panthers,Tennessee Titans,30,20,0.0,50.0,-110,1,0.02,0.55
+2019_Chicago_Bears_Philadelphia_Eagles_2019-11-03,2019,,2019-11-03,Philadelphia Eagles,Chicago Bears,22,14,0.0,36.0,-110,1,0.02,0.55
+2019_Indianapolis_Colts_Pittsburgh_Steelers_2019-11-03,2019,,2019-11-03,Pittsburgh Steelers,Indianapolis Colts,26,24,0.0,50.0,-110,1,0.02,0.55
+2019_New_York_Jets_Miami_Dolphins_2019-11-03,2019,,2019-11-03,Miami Dolphins,New York Jets,26,18,0.0,44.0,-110,1,0.02,0.55
+2019_Minnesota_Vikings_Kansas_City_Chiefs_2019-11-03,2019,,2019-11-03,Kansas City Chiefs,Minnesota Vikings,26,23,0.0,49.0,-110,1,0.02,0.55
+2019_Detroit_Lions_Oakland_Raiders_2019-11-03,2019,,2019-11-03,Oakland Raiders,Detroit Lions,31,24,0.0,55.0,-110,1,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Seattle_Seahawks_2019-11-03,2019,,2019-11-03,Seattle Seahawks,Tampa Bay Buccaneers,40,34,0.0,74.0,-110,1,0.02,0.55
+2019_Cleveland_Browns_Denver_Broncos_2019-11-03,2019,,2019-11-03,Denver Broncos,Cleveland Browns,24,19,0.0,43.0,-110,1,0.02,0.55
+2019_Green_Bay_Packers_Los_Angeles_Chargers_2019-11-03,2019,,2019-11-03,Los Angeles Chargers,Green Bay Packers,26,11,0.0,37.0,-110,1,0.02,0.55
+2019_New_England_Patriots_Baltimore_Ravens_2019-11-03,2019,,2019-11-03,Baltimore Ravens,New England Patriots,37,20,0.0,57.0,-110,1,0.02,0.55
+2019_Dallas_Cowboys_New_York_Giants_2019-11-04,2019,,2019-11-04,New York Giants,Dallas Cowboys,18,37,0.0,55.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Oakland_Raiders_2019-11-07,2019,,2019-11-07,Oakland Raiders,Los Angeles Chargers,26,24,0.0,50.0,-110,1,0.02,0.55
+2019_Atlanta_Falcons_New_Orleans_Saints_2019-11-10,2019,,2019-11-10,New Orleans Saints,Atlanta Falcons,9,26,0.0,35.0,-110,0,0.02,0.55
+2019_Buffalo_Bills_Cleveland_Browns_2019-11-10,2019,,2019-11-10,Cleveland Browns,Buffalo Bills,19,16,0.0,35.0,-110,1,0.02,0.55
+2019_Detroit_Lions_Chicago_Bears_2019-11-10,2019,,2019-11-10,Chicago Bears,Detroit Lions,20,13,0.0,33.0,-110,1,0.02,0.55
+2019_Baltimore_Ravens_Cincinnati_Bengals_2019-11-10,2019,,2019-11-10,Cincinnati Bengals,Baltimore Ravens,13,49,0.0,62.0,-110,0,0.02,0.55
+2019_Arizona_Cardinals_Tampa_Bay_Buccaneers_2019-11-10,2019,,2019-11-10,Tampa Bay Buccaneers,Arizona Cardinals,30,27,0.0,57.0,-110,1,0.02,0.55
+2019_Kansas_City_Chiefs_Tennessee_Titans_2019-11-10,2019,,2019-11-10,Tennessee Titans,Kansas City Chiefs,35,32,0.0,67.0,-110,1,0.02,0.55
+2019_New_York_Giants_New_York_Jets_2019-11-10,2019,,2019-11-10,New York Jets,New York Giants,34,27,0.0,61.0,-110,1,0.02,0.55
+2019_Miami_Dolphins_Indianapolis_Colts_2019-11-10,2019,,2019-11-10,Indianapolis Colts,Miami Dolphins,12,16,0.0,28.0,-110,0,0.02,0.55
+2019_Carolina_Panthers_Green_Bay_Packers_2019-11-10,2019,,2019-11-10,Green Bay Packers,Carolina Panthers,24,16,0.0,40.0,-110,1,0.02,0.55
+2019_Los_Angeles_Rams_Pittsburgh_Steelers_2019-11-10,2019,,2019-11-10,Pittsburgh Steelers,Los Angeles Rams,17,12,0.0,29.0,-110,1,0.02,0.55
+2019_Minnesota_Vikings_Dallas_Cowboys_2019-11-10,2019,,2019-11-10,Dallas Cowboys,Minnesota Vikings,24,28,0.0,52.0,-110,0,0.02,0.55
+2019_Seattle_Seahawks_San_Francisco_49ers_2019-11-11,2019,,2019-11-11,San Francisco 49ers,Seattle Seahawks,24,27,0.0,51.0,-110,0,0.02,0.55
+2019_Pittsburgh_Steelers_Cleveland_Browns_2019-11-14,2019,,2019-11-14,Cleveland Browns,Pittsburgh Steelers,21,7,0.0,28.0,-110,1,0.02,0.55
+2019_Atlanta_Falcons_Carolina_Panthers_2019-11-17,2019,,2019-11-17,Carolina Panthers,Atlanta Falcons,3,29,0.0,32.0,-110,0,0.02,0.55
+2019_Buffalo_Bills_Miami_Dolphins_2019-11-17,2019,,2019-11-17,Miami Dolphins,Buffalo Bills,20,37,0.0,57.0,-110,0,0.02,0.55
+2019_Jacksonville_Jaguars_Indianapolis_Colts_2019-11-17,2019,,2019-11-17,Indianapolis Colts,Jacksonville Jaguars,33,13,0.0,46.0,-110,1,0.02,0.55
+2019_Dallas_Cowboys_Detroit_Lions_2019-11-17,2019,,2019-11-17,Detroit Lions,Dallas Cowboys,27,35,0.0,62.0,-110,0,0.02,0.55
+2019_Denver_Broncos_Minnesota_Vikings_2019-11-17,2019,,2019-11-17,Minnesota Vikings,Denver Broncos,27,23,0.0,50.0,-110,1,0.02,0.55
+2019_Houston_Texans_Baltimore_Ravens_2019-11-17,2019,,2019-11-17,Baltimore Ravens,Houston Texans,41,7,0.0,48.0,-110,1,0.02,0.55
+2019_New_Orleans_Saints_Tampa_Bay_Buccaneers_2019-11-17,2019,,2019-11-17,Tampa Bay Buccaneers,New Orleans Saints,17,34,0.0,51.0,-110,0,0.02,0.55
+2019_New_York_Jets_Washington_Redskins_2019-11-17,2019,,2019-11-17,Washington Redskins,New York Jets,17,34,0.0,51.0,-110,0,0.02,0.55
+2019_Arizona_Cardinals_San_Francisco_49ers_2019-11-17,2019,,2019-11-17,San Francisco 49ers,Arizona Cardinals,36,26,0.0,62.0,-110,1,0.02,0.55
+2019_Cincinnati_Bengals_Oakland_Raiders_2019-11-17,2019,,2019-11-17,Oakland Raiders,Cincinnati Bengals,17,10,0.0,27.0,-110,1,0.02,0.55
+2019_New_England_Patriots_Philadelphia_Eagles_2019-11-17,2019,,2019-11-17,Philadelphia Eagles,New England Patriots,10,17,0.0,27.0,-110,0,0.02,0.55
+2019_Chicago_Bears_Los_Angeles_Rams_2019-11-17,2019,,2019-11-17,Los Angeles Rams,Chicago Bears,17,7,0.0,24.0,-110,1,0.02,0.55
+2019_Kansas_City_Chiefs_Los_Angeles_Chargers_2019-11-18,2019,,2019-11-18,Los Angeles Chargers,Kansas City Chiefs,17,24,0.0,41.0,-110,0,0.02,0.55
+2019_Indianapolis_Colts_Houston_Texans_2019-11-21,2019,,2019-11-21,Houston Texans,Indianapolis Colts,20,17,0.0,37.0,-110,1,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Atlanta_Falcons_2019-11-24,2019,,2019-11-24,Atlanta Falcons,Tampa Bay Buccaneers,22,35,0.0,57.0,-110,0,0.02,0.55
+2019_Denver_Broncos_Buffalo_Bills_2019-11-24,2019,,2019-11-24,Buffalo Bills,Denver Broncos,20,3,0.0,23.0,-110,1,0.02,0.55
+2019_Carolina_Panthers_New_Orleans_Saints_2019-11-24,2019,,2019-11-24,New Orleans Saints,Carolina Panthers,34,31,0.0,65.0,-110,1,0.02,0.55
+2019_New_York_Giants_Chicago_Bears_2019-11-24,2019,,2019-11-24,Chicago Bears,New York Giants,19,14,0.0,33.0,-110,1,0.02,0.55
+2019_Pittsburgh_Steelers_Cincinnati_Bengals_2019-11-24,2019,,2019-11-24,Cincinnati Bengals,Pittsburgh Steelers,10,16,0.0,26.0,-110,0,0.02,0.55
+2019_Miami_Dolphins_Cleveland_Browns_2019-11-24,2019,,2019-11-24,Cleveland Browns,Miami Dolphins,41,24,0.0,65.0,-110,1,0.02,0.55
+2019_Detroit_Lions_Washington_Redskins_2019-11-24,2019,,2019-11-24,Washington Redskins,Detroit Lions,19,16,0.0,35.0,-110,1,0.02,0.55
+2019_Oakland_Raiders_New_York_Jets_2019-11-24,2019,,2019-11-24,New York Jets,Oakland Raiders,34,3,0.0,37.0,-110,1,0.02,0.55
+2019_Seattle_Seahawks_Philadelphia_Eagles_2019-11-24,2019,,2019-11-24,Philadelphia Eagles,Seattle Seahawks,9,17,0.0,26.0,-110,0,0.02,0.55
+2019_Jacksonville_Jaguars_Tennessee_Titans_2019-11-24,2019,,2019-11-24,Tennessee Titans,Jacksonville Jaguars,42,20,0.0,62.0,-110,1,0.02,0.55
+2019_Dallas_Cowboys_New_England_Patriots_2019-11-24,2019,,2019-11-24,New England Patriots,Dallas Cowboys,13,9,0.0,22.0,-110,1,0.02,0.55
+2019_Green_Bay_Packers_San_Francisco_49ers_2019-11-24,2019,,2019-11-24,San Francisco 49ers,Green Bay Packers,37,8,0.0,45.0,-110,1,0.02,0.55
+2019_Baltimore_Ravens_Los_Angeles_Rams_2019-11-25,2019,,2019-11-25,Los Angeles Rams,Baltimore Ravens,6,45,0.0,51.0,-110,0,0.02,0.55
+2019_Chicago_Bears_Detroit_Lions_2019-11-28,2019,,2019-11-28,Detroit Lions,Chicago Bears,20,24,0.0,44.0,-110,0,0.02,0.55
+2019_Buffalo_Bills_Dallas_Cowboys_2019-11-28,2019,,2019-11-28,Dallas Cowboys,Buffalo Bills,15,26,0.0,41.0,-110,0,0.02,0.55
+2019_New_Orleans_Saints_Atlanta_Falcons_2019-11-28,2019,,2019-11-28,Atlanta Falcons,New Orleans Saints,18,26,0.0,44.0,-110,0,0.02,0.55
+2019_Washington_Redskins_Carolina_Panthers_2019-12-01,2019,,2019-12-01,Carolina Panthers,Washington Redskins,21,29,0.0,50.0,-110,0,0.02,0.55
+2019_New_York_Jets_Cincinnati_Bengals_2019-12-01,2019,,2019-12-01,Cincinnati Bengals,New York Jets,22,6,0.0,28.0,-110,1,0.02,0.55
+2019_Cleveland_Browns_Pittsburgh_Steelers_2019-12-01,2019,,2019-12-01,Pittsburgh Steelers,Cleveland Browns,20,13,0.0,33.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_Indianapolis_Colts_2019-12-01,2019,,2019-12-01,Indianapolis Colts,Tennessee Titans,17,31,0.0,48.0,-110,0,0.02,0.55
+2019_Green_Bay_Packers_New_York_Giants_2019-12-01,2019,,2019-12-01,New York Giants,Green Bay Packers,13,31,0.0,44.0,-110,0,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Jacksonville_Jaguars_2019-12-01,2019,,2019-12-01,Jacksonville Jaguars,Tampa Bay Buccaneers,11,28,0.0,39.0,-110,0,0.02,0.55
+2019_Philadelphia_Eagles_Miami_Dolphins_2019-12-01,2019,,2019-12-01,Miami Dolphins,Philadelphia Eagles,37,31,0.0,68.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_Baltimore_Ravens_2019-12-01,2019,,2019-12-01,Baltimore Ravens,San Francisco 49ers,20,17,0.0,37.0,-110,1,0.02,0.55
+2019_Los_Angeles_Rams_Arizona_Cardinals_2019-12-01,2019,,2019-12-01,Arizona Cardinals,Los Angeles Rams,7,34,0.0,41.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Denver_Broncos_2019-12-01,2019,,2019-12-01,Denver Broncos,Los Angeles Chargers,23,20,0.0,43.0,-110,1,0.02,0.55
+2019_Oakland_Raiders_Kansas_City_Chiefs_2019-12-01,2019,,2019-12-01,Kansas City Chiefs,Oakland Raiders,40,9,0.0,49.0,-110,1,0.02,0.55
+2019_New_England_Patriots_Houston_Texans_2019-12-01,2019,,2019-12-01,Houston Texans,New England Patriots,28,22,0.0,50.0,-110,1,0.02,0.55
+2019_Minnesota_Vikings_Seattle_Seahawks_2019-12-02,2019,,2019-12-02,Seattle Seahawks,Minnesota Vikings,37,30,0.0,67.0,-110,1,0.02,0.55
+2019_Dallas_Cowboys_Chicago_Bears_2019-12-05,2019,,2019-12-05,Chicago Bears,Dallas Cowboys,31,24,0.0,55.0,-110,1,0.02,0.55
+2019_Carolina_Panthers_Atlanta_Falcons_2019-12-08,2019,,2019-12-08,Atlanta Falcons,Carolina Panthers,40,20,0.0,60.0,-110,1,0.02,0.55
+2019_Baltimore_Ravens_Buffalo_Bills_2019-12-08,2019,,2019-12-08,Buffalo Bills,Baltimore Ravens,17,24,0.0,41.0,-110,0,0.02,0.55
+2019_Cincinnati_Bengals_Cleveland_Browns_2019-12-08,2019,,2019-12-08,Cleveland Browns,Cincinnati Bengals,27,19,0.0,46.0,-110,1,0.02,0.55
+2019_Indianapolis_Colts_Tampa_Bay_Buccaneers_2019-12-08,2019,,2019-12-08,Tampa Bay Buccaneers,Indianapolis Colts,38,35,0.0,73.0,-110,1,0.02,0.55
+2019_Denver_Broncos_Houston_Texans_2019-12-08,2019,,2019-12-08,Houston Texans,Denver Broncos,24,38,0.0,62.0,-110,0,0.02,0.55
+2019_Detroit_Lions_Minnesota_Vikings_2019-12-08,2019,,2019-12-08,Minnesota Vikings,Detroit Lions,20,7,0.0,27.0,-110,1,0.02,0.55
+2019_Washington_Redskins_Green_Bay_Packers_2019-12-08,2019,,2019-12-08,Green Bay Packers,Washington Redskins,20,15,0.0,35.0,-110,1,0.02,0.55
+2019_Miami_Dolphins_New_York_Jets_2019-12-08,2019,,2019-12-08,New York Jets,Miami Dolphins,22,21,0.0,43.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_New_Orleans_Saints_2019-12-08,2019,,2019-12-08,New Orleans Saints,San Francisco 49ers,46,48,0.0,94.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Jacksonville_Jaguars_2019-12-08,2019,,2019-12-08,Jacksonville Jaguars,Los Angeles Chargers,10,45,0.0,55.0,-110,0,0.02,0.55
+2019_Pittsburgh_Steelers_Arizona_Cardinals_2019-12-08,2019,,2019-12-08,Arizona Cardinals,Pittsburgh Steelers,17,23,0.0,40.0,-110,0,0.02,0.55
+2019_Kansas_City_Chiefs_New_England_Patriots_2019-12-08,2019,,2019-12-08,New England Patriots,Kansas City Chiefs,16,23,0.0,39.0,-110,0,0.02,0.55
+2019_Tennessee_Titans_Oakland_Raiders_2019-12-08,2019,,2019-12-08,Oakland Raiders,Tennessee Titans,21,42,0.0,63.0,-110,0,0.02,0.55
+2019_Seattle_Seahawks_Los_Angeles_Rams_2019-12-08,2019,,2019-12-08,Los Angeles Rams,Seattle Seahawks,28,12,0.0,40.0,-110,1,0.02,0.55
+2019_New_York_Giants_Philadelphia_Eagles_2019-12-09,2019,,2019-12-09,Philadelphia Eagles,New York Giants,23,17,0.0,40.0,-110,1,0.02,0.55
+2019_New_York_Jets_Baltimore_Ravens_2019-12-12,2019,,2019-12-12,Baltimore Ravens,New York Jets,42,21,0.0,63.0,-110,1,0.02,0.55
+2019_Seattle_Seahawks_Carolina_Panthers_2019-12-15,2019,,2019-12-15,Carolina Panthers,Seattle Seahawks,24,30,0.0,54.0,-110,0,0.02,0.55
+2019_Chicago_Bears_Green_Bay_Packers_2019-12-15,2019,,2019-12-15,Green Bay Packers,Chicago Bears,21,13,0.0,34.0,-110,1,0.02,0.55
+2019_New_England_Patriots_Cincinnati_Bengals_2019-12-15,2019,,2019-12-15,Cincinnati Bengals,New England Patriots,13,34,0.0,47.0,-110,0,0.02,0.55
+2019_Denver_Broncos_Kansas_City_Chiefs_2019-12-15,2019,,2019-12-15,Kansas City Chiefs,Denver Broncos,23,3,0.0,26.0,-110,1,0.02,0.55
+2019_Tampa_Bay_Buccaneers_Detroit_Lions_2019-12-15,2019,,2019-12-15,Detroit Lions,Tampa Bay Buccaneers,17,38,0.0,55.0,-110,0,0.02,0.55
+2019_Houston_Texans_Tennessee_Titans_2019-12-15,2019,,2019-12-15,Tennessee Titans,Houston Texans,21,24,0.0,45.0,-110,0,0.02,0.55
+2019_Miami_Dolphins_New_York_Giants_2019-12-15,2019,,2019-12-15,New York Giants,Miami Dolphins,36,20,0.0,56.0,-110,1,0.02,0.55
+2019_Philadelphia_Eagles_Washington_Redskins_2019-12-15,2019,,2019-12-15,Washington Redskins,Philadelphia Eagles,27,37,0.0,64.0,-110,0,0.02,0.55
+2019_Cleveland_Browns_Arizona_Cardinals_2019-12-15,2019,,2019-12-15,Arizona Cardinals,Cleveland Browns,38,24,0.0,62.0,-110,1,0.02,0.55
+2019_Jacksonville_Jaguars_Oakland_Raiders_2019-12-15,2019,,2019-12-15,Oakland Raiders,Jacksonville Jaguars,16,20,0.0,36.0,-110,0,0.02,0.55
+2019_Minnesota_Vikings_Los_Angeles_Chargers_2019-12-15,2019,,2019-12-15,Los Angeles Chargers,Minnesota Vikings,10,39,0.0,49.0,-110,0,0.02,0.55
+2019_Atlanta_Falcons_San_Francisco_49ers_2019-12-15,2019,,2019-12-15,San Francisco 49ers,Atlanta Falcons,22,29,0.0,51.0,-110,0,0.02,0.55
+2019_Los_Angeles_Rams_Dallas_Cowboys_2019-12-15,2019,,2019-12-15,Dallas Cowboys,Los Angeles Rams,44,21,0.0,65.0,-110,1,0.02,0.55
+2019_Buffalo_Bills_Pittsburgh_Steelers_2019-12-15,2019,,2019-12-15,Pittsburgh Steelers,Buffalo Bills,10,17,0.0,27.0,-110,0,0.02,0.55
+2019_Indianapolis_Colts_New_Orleans_Saints_2019-12-16,2019,,2019-12-16,New Orleans Saints,Indianapolis Colts,34,7,0.0,41.0,-110,1,0.02,0.55
+2019_Houston_Texans_Tampa_Bay_Buccaneers_2019-12-21,2019,,2019-12-21,Tampa Bay Buccaneers,Houston Texans,20,23,0.0,43.0,-110,0,0.02,0.55
+2019_Buffalo_Bills_New_England_Patriots_2019-12-21,2019,,2019-12-21,New England Patriots,Buffalo Bills,24,17,0.0,41.0,-110,1,0.02,0.55
+2019_Los_Angeles_Rams_San_Francisco_49ers_2019-12-21,2019,,2019-12-21,San Francisco 49ers,Los Angeles Rams,34,31,0.0,65.0,-110,1,0.02,0.55
+2019_Jacksonville_Jaguars_Atlanta_Falcons_2019-12-22,2019,,2019-12-22,Atlanta Falcons,Jacksonville Jaguars,24,12,0.0,36.0,-110,1,0.02,0.55
+2019_Carolina_Panthers_Indianapolis_Colts_2019-12-22,2019,,2019-12-22,Indianapolis Colts,Carolina Panthers,38,6,0.0,44.0,-110,1,0.02,0.55
+2019_Cincinnati_Bengals_Miami_Dolphins_2019-12-22,2019,,2019-12-22,Miami Dolphins,Cincinnati Bengals,38,35,0.0,73.0,-110,1,0.02,0.55
+2019_Baltimore_Ravens_Cleveland_Browns_2019-12-22,2019,,2019-12-22,Cleveland Browns,Baltimore Ravens,15,31,0.0,46.0,-110,0,0.02,0.55
+2019_New_Orleans_Saints_Tennessee_Titans_2019-12-22,2019,,2019-12-22,Tennessee Titans,New Orleans Saints,28,38,0.0,66.0,-110,0,0.02,0.55
+2019_New_York_Giants_Washington_Redskins_2019-12-22,2019,,2019-12-22,Washington Redskins,New York Giants,35,41,0.0,76.0,-110,0,0.02,0.55
+2019_Pittsburgh_Steelers_New_York_Jets_2019-12-22,2019,,2019-12-22,New York Jets,Pittsburgh Steelers,16,10,0.0,26.0,-110,1,0.02,0.55
+2019_Detroit_Lions_Denver_Broncos_2019-12-22,2019,,2019-12-22,Denver Broncos,Detroit Lions,27,17,0.0,44.0,-110,1,0.02,0.55
+2019_Oakland_Raiders_Los_Angeles_Chargers_2019-12-22,2019,,2019-12-22,Los Angeles Chargers,Oakland Raiders,17,24,0.0,41.0,-110,0,0.02,0.55
+2019_Arizona_Cardinals_Seattle_Seahawks_2019-12-22,2019,,2019-12-22,Seattle Seahawks,Arizona Cardinals,13,27,0.0,40.0,-110,0,0.02,0.55
+2019_Dallas_Cowboys_Philadelphia_Eagles_2019-12-22,2019,,2019-12-22,Philadelphia Eagles,Dallas Cowboys,17,9,0.0,26.0,-110,1,0.02,0.55
+2019_Kansas_City_Chiefs_Chicago_Bears_2019-12-22,2019,,2019-12-22,Chicago Bears,Kansas City Chiefs,3,26,0.0,29.0,-110,0,0.02,0.55
+2019_Green_Bay_Packers_Minnesota_Vikings_2019-12-23,2019,,2019-12-23,Minnesota Vikings,Green Bay Packers,10,23,0.0,33.0,-110,0,0.02,0.55
+2019_Atlanta_Falcons_Tampa_Bay_Buccaneers_2019-12-29,2019,,2019-12-29,Tampa Bay Buccaneers,Atlanta Falcons,22,28,0.0,50.0,-110,0,0.02,0.55
+2019_New_York_Jets_Buffalo_Bills_2019-12-29,2019,,2019-12-29,Buffalo Bills,New York Jets,6,13,0.0,19.0,-110,0,0.02,0.55
+2019_New_Orleans_Saints_Carolina_Panthers_2019-12-29,2019,,2019-12-29,Carolina Panthers,New Orleans Saints,10,42,0.0,52.0,-110,0,0.02,0.55
+2019_Chicago_Bears_Minnesota_Vikings_2019-12-29,2019,,2019-12-29,Minnesota Vikings,Chicago Bears,19,21,0.0,40.0,-110,0,0.02,0.55
+2019_Cleveland_Browns_Cincinnati_Bengals_2019-12-29,2019,,2019-12-29,Cincinnati Bengals,Cleveland Browns,33,23,0.0,56.0,-110,1,0.02,0.55
+2019_Green_Bay_Packers_Detroit_Lions_2019-12-29,2019,,2019-12-29,Detroit Lions,Green Bay Packers,20,23,0.0,43.0,-110,0,0.02,0.55
+2019_Los_Angeles_Chargers_Kansas_City_Chiefs_2019-12-29,2019,,2019-12-29,Kansas City Chiefs,Los Angeles Chargers,31,21,0.0,52.0,-110,1,0.02,0.55
+2019_Miami_Dolphins_New_England_Patriots_2019-12-29,2019,,2019-12-29,New England Patriots,Miami Dolphins,24,27,0.0,51.0,-110,0,0.02,0.55
+2019_Indianapolis_Colts_Jacksonville_Jaguars_2019-12-29,2019,,2019-12-29,Jacksonville Jaguars,Indianapolis Colts,38,20,0.0,58.0,-110,1,0.02,0.55
+2019_Arizona_Cardinals_Los_Angeles_Rams_2019-12-29,2019,,2019-12-29,Los Angeles Rams,Arizona Cardinals,31,24,0.0,55.0,-110,1,0.02,0.55
+2019_Washington_Redskins_Dallas_Cowboys_2019-12-29,2019,,2019-12-29,Dallas Cowboys,Washington Redskins,47,16,0.0,63.0,-110,1,0.02,0.55
+2019_Oakland_Raiders_Denver_Broncos_2019-12-29,2019,,2019-12-29,Denver Broncos,Oakland Raiders,16,15,0.0,31.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_Houston_Texans_2019-12-29,2019,,2019-12-29,Houston Texans,Tennessee Titans,14,35,0.0,49.0,-110,0,0.02,0.55
+2019_Philadelphia_Eagles_New_York_Giants_2019-12-29,2019,,2019-12-29,New York Giants,Philadelphia Eagles,17,34,0.0,51.0,-110,0,0.02,0.55
+2019_Pittsburgh_Steelers_Baltimore_Ravens_2019-12-29,2019,,2019-12-29,Baltimore Ravens,Pittsburgh Steelers,28,10,0.0,38.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_Seattle_Seahawks_2019-12-29,2019,,2019-12-29,Seattle Seahawks,San Francisco 49ers,21,26,0.0,47.0,-110,0,0.02,0.55
+2019_Buffalo_Bills_Houston_Texans_2020-01-04,2019,,2020-01-04,Houston Texans,Buffalo Bills,22,19,0.0,41.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_New_England_Patriots_2020-01-04,2019,,2020-01-04,New England Patriots,Tennessee Titans,13,20,0.0,33.0,-110,0,0.02,0.55
+2019_Minnesota_Vikings_New_Orleans_Saints_2020-01-05,2019,,2020-01-05,New Orleans Saints,Minnesota Vikings,20,26,0.0,46.0,-110,0,0.02,0.55
+2019_Seattle_Seahawks_Philadelphia_Eagles_2020-01-05,2019,,2020-01-05,Philadelphia Eagles,Seattle Seahawks,9,17,0.0,26.0,-110,0,0.02,0.55
+2019_Minnesota_Vikings_San_Francisco_49ers_2020-01-11,2019,,2020-01-11,San Francisco 49ers,Minnesota Vikings,27,10,0.0,37.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_Baltimore_Ravens_2020-01-11,2019,,2020-01-11,Baltimore Ravens,Tennessee Titans,12,28,0.0,40.0,-110,0,0.02,0.55
+2019_Houston_Texans_Kansas_City_Chiefs_2020-01-12,2019,,2020-01-12,Kansas City Chiefs,Houston Texans,51,31,0.0,82.0,-110,1,0.02,0.55
+2019_Seattle_Seahawks_Green_Bay_Packers_2020-01-12,2019,,2020-01-12,Green Bay Packers,Seattle Seahawks,28,23,0.0,51.0,-110,1,0.02,0.55
+2019_Tennessee_Titans_Kansas_City_Chiefs_2020-01-19,2019,,2020-01-19,Kansas City Chiefs,Tennessee Titans,35,24,0.0,59.0,-110,1,0.02,0.55
+2019_Green_Bay_Packers_San_Francisco_49ers_2020-01-19,2019,,2020-01-19,San Francisco 49ers,Green Bay Packers,37,20,0.0,57.0,-110,1,0.02,0.55
+2019_San_Francisco_49ers_Kansas_City_Chiefs_2020-02-02,2019,,2020-02-02,Kansas City Chiefs,San Francisco 49ers,31,20,0.0,51.0,-110,1,0.02,0.55

@@ -1,0 +1,268 @@
+game_id,season,week,date,home_team,away_team,home_score,away_score,spread,total,odds,actual_result,edge_value,confidence
+2016_Carolina_Panthers_Denver_Broncos_2016-09-08,2016,,2016-09-08,Denver Broncos,Carolina Panthers,21,20,0.0,41.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_Baltimore_Ravens_2016-09-11,2016,,2016-09-11,Baltimore Ravens,Buffalo Bills,13,7,0.0,20.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Jacksonville_Jaguars_2016-09-11,2016,,2016-09-11,Jacksonville Jaguars,Green Bay Packers,23,27,0.0,50.0,-110,0,0.02,0.55
+2016_Tampa_Bay_Buccaneers_Atlanta_Falcons_2016-09-11,2016,,2016-09-11,Atlanta Falcons,Tampa Bay Buccaneers,24,31,0.0,55.0,-110,0,0.02,0.55
+2016_Chicago_Bears_Houston_Texans_2016-09-11,2016,,2016-09-11,Houston Texans,Chicago Bears,23,14,0.0,37.0,-110,1,0.02,0.55
+2016_Cincinnati_Bengals_New_York_Jets_2016-09-11,2016,,2016-09-11,New York Jets,Cincinnati Bengals,22,23,0.0,45.0,-110,0,0.02,0.55
+2016_Cleveland_Browns_Philadelphia_Eagles_2016-09-11,2016,,2016-09-11,Philadelphia Eagles,Cleveland Browns,29,10,0.0,39.0,-110,1,0.02,0.55
+2016_San_Diego_Chargers_Kansas_City_Chiefs_2016-09-11,2016,,2016-09-11,Kansas City Chiefs,San Diego Chargers,33,27,0.0,60.0,-110,1,0.02,0.55
+2016_Minnesota_Vikings_Tennessee_Titans_2016-09-11,2016,,2016-09-11,Tennessee Titans,Minnesota Vikings,16,25,0.0,41.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_New_Orleans_Saints_2016-09-11,2016,,2016-09-11,New Orleans Saints,Oakland Raiders,34,35,0.0,69.0,-110,0,0.02,0.55
+2016_Miami_Dolphins_Seattle_Seahawks_2016-09-11,2016,,2016-09-11,Seattle Seahawks,Miami Dolphins,12,10,0.0,22.0,-110,1,0.02,0.55
+2016_Detroit_Lions_Indianapolis_Colts_2016-09-11,2016,,2016-09-11,Indianapolis Colts,Detroit Lions,35,39,0.0,74.0,-110,0,0.02,0.55
+2016_New_York_Giants_Dallas_Cowboys_2016-09-11,2016,,2016-09-11,Dallas Cowboys,New York Giants,19,20,0.0,39.0,-110,0,0.02,0.55
+2016_New_England_Patriots_Arizona_Cardinals_2016-09-11,2016,,2016-09-11,Arizona Cardinals,New England Patriots,21,23,0.0,44.0,-110,0,0.02,0.55
+2016_Pittsburgh_Steelers_Washington_Redskins_2016-09-12,2016,,2016-09-12,Washington Redskins,Pittsburgh Steelers,16,38,0.0,54.0,-110,0,0.02,0.55
+2016_Los_Angeles_Rams_San_Francisco_49ers_2016-09-12,2016,,2016-09-12,San Francisco 49ers,Los Angeles Rams,28,0,0.0,28.0,-110,1,0.02,0.55
+2016_New_York_Jets_Buffalo_Bills_2016-09-15,2016,,2016-09-15,Buffalo Bills,New York Jets,31,37,0.0,68.0,-110,0,0.02,0.55
+2016_Cincinnati_Bengals_Pittsburgh_Steelers_2016-09-18,2016,,2016-09-18,Pittsburgh Steelers,Cincinnati Bengals,24,16,0.0,40.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_Cleveland_Browns_2016-09-18,2016,,2016-09-18,Cleveland Browns,Baltimore Ravens,20,25,0.0,45.0,-110,0,0.02,0.55
+2016_Tennessee_Titans_Detroit_Lions_2016-09-18,2016,,2016-09-18,Detroit Lions,Tennessee Titans,15,16,0.0,31.0,-110,0,0.02,0.55
+2016_Kansas_City_Chiefs_Houston_Texans_2016-09-18,2016,,2016-09-18,Houston Texans,Kansas City Chiefs,19,12,0.0,31.0,-110,1,0.02,0.55
+2016_Miami_Dolphins_New_England_Patriots_2016-09-18,2016,,2016-09-18,New England Patriots,Miami Dolphins,31,24,0.0,55.0,-110,1,0.02,0.55
+2016_San_Francisco_49ers_Carolina_Panthers_2016-09-18,2016,,2016-09-18,Carolina Panthers,San Francisco 49ers,46,27,0.0,73.0,-110,1,0.02,0.55
+2016_Dallas_Cowboys_Washington_Redskins_2016-09-18,2016,,2016-09-18,Washington Redskins,Dallas Cowboys,23,27,0.0,50.0,-110,0,0.02,0.55
+2016_New_Orleans_Saints_New_York_Giants_2016-09-18,2016,,2016-09-18,New York Giants,New Orleans Saints,16,13,0.0,29.0,-110,1,0.02,0.55
+2016_Tampa_Bay_Buccaneers_Arizona_Cardinals_2016-09-18,2016,,2016-09-18,Arizona Cardinals,Tampa Bay Buccaneers,40,7,0.0,47.0,-110,1,0.02,0.55
+2016_Seattle_Seahawks_Los_Angeles_Rams_2016-09-18,2016,,2016-09-18,Los Angeles Rams,Seattle Seahawks,9,3,0.0,12.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_Oakland_Raiders_2016-09-18,2016,,2016-09-18,Oakland Raiders,Atlanta Falcons,28,35,0.0,63.0,-110,0,0.02,0.55
+2016_Indianapolis_Colts_Denver_Broncos_2016-09-18,2016,,2016-09-18,Denver Broncos,Indianapolis Colts,34,20,0.0,54.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_San_Diego_Chargers_2016-09-18,2016,,2016-09-18,San Diego Chargers,Jacksonville Jaguars,38,14,0.0,52.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Minnesota_Vikings_2016-09-18,2016,,2016-09-18,Minnesota Vikings,Green Bay Packers,17,14,0.0,31.0,-110,1,0.02,0.55
+2016_Philadelphia_Eagles_Chicago_Bears_2016-09-19,2016,,2016-09-19,Chicago Bears,Philadelphia Eagles,14,29,0.0,43.0,-110,0,0.02,0.55
+2016_Houston_Texans_New_England_Patriots_2016-09-22,2016,,2016-09-22,New England Patriots,Houston Texans,27,0,0.0,27.0,-110,1,0.02,0.55
+2016_Arizona_Cardinals_Buffalo_Bills_2016-09-25,2016,,2016-09-25,Buffalo Bills,Arizona Cardinals,33,18,0.0,51.0,-110,1,0.02,0.55
+2016_Minnesota_Vikings_Carolina_Panthers_2016-09-25,2016,,2016-09-25,Carolina Panthers,Minnesota Vikings,10,22,0.0,32.0,-110,0,0.02,0.55
+2016_Denver_Broncos_Cincinnati_Bengals_2016-09-25,2016,,2016-09-25,Cincinnati Bengals,Denver Broncos,17,29,0.0,46.0,-110,0,0.02,0.55
+2016_Cleveland_Browns_Miami_Dolphins_2016-09-25,2016,,2016-09-25,Miami Dolphins,Cleveland Browns,30,24,0.0,54.0,-110,1,0.02,0.55
+2016_Detroit_Lions_Green_Bay_Packers_2016-09-25,2016,,2016-09-25,Green Bay Packers,Detroit Lions,34,27,0.0,61.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_Jacksonville_Jaguars_2016-09-25,2016,,2016-09-25,Jacksonville Jaguars,Baltimore Ravens,17,19,0.0,36.0,-110,0,0.02,0.55
+2016_Washington_Redskins_New_York_Giants_2016-09-25,2016,,2016-09-25,New York Giants,Washington Redskins,27,29,0.0,56.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_Tennessee_Titans_2016-09-25,2016,,2016-09-25,Tennessee Titans,Oakland Raiders,10,17,0.0,27.0,-110,0,0.02,0.55
+2016_Los_Angeles_Rams_Tampa_Bay_Buccaneers_2016-09-25,2016,,2016-09-25,Tampa Bay Buccaneers,Los Angeles Rams,32,37,0.0,69.0,-110,0,0.02,0.55
+2016_San_Francisco_49ers_Seattle_Seahawks_2016-09-25,2016,,2016-09-25,Seattle Seahawks,San Francisco 49ers,37,18,0.0,55.0,-110,1,0.02,0.55
+2016_San_Diego_Chargers_Indianapolis_Colts_2016-09-25,2016,,2016-09-25,Indianapolis Colts,San Diego Chargers,26,22,0.0,48.0,-110,1,0.02,0.55
+2016_Pittsburgh_Steelers_Philadelphia_Eagles_2016-09-25,2016,,2016-09-25,Philadelphia Eagles,Pittsburgh Steelers,34,3,0.0,37.0,-110,1,0.02,0.55
+2016_New_York_Jets_Kansas_City_Chiefs_2016-09-25,2016,,2016-09-25,Kansas City Chiefs,New York Jets,24,3,0.0,27.0,-110,1,0.02,0.55
+2016_Chicago_Bears_Dallas_Cowboys_2016-09-25,2016,,2016-09-25,Dallas Cowboys,Chicago Bears,31,17,0.0,48.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_New_Orleans_Saints_2016-09-26,2016,,2016-09-26,New Orleans Saints,Atlanta Falcons,32,45,0.0,77.0,-110,0,0.02,0.55
+2016_Miami_Dolphins_Cincinnati_Bengals_2016-09-29,2016,,2016-09-29,Cincinnati Bengals,Miami Dolphins,22,7,0.0,29.0,-110,1,0.02,0.55
+2016_Indianapolis_Colts_Jacksonville_Jaguars_2016-10-02,2016,,2016-10-02,Jacksonville Jaguars,Indianapolis Colts,30,27,0.0,57.0,-110,1,0.02,0.55
+2016_Detroit_Lions_Chicago_Bears_2016-10-02,2016,,2016-10-02,Chicago Bears,Detroit Lions,17,14,0.0,31.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_New_England_Patriots_2016-10-02,2016,,2016-10-02,New England Patriots,Buffalo Bills,0,16,0.0,16.0,-110,0,0.02,0.55
+2016_Tennessee_Titans_Houston_Texans_2016-10-02,2016,,2016-10-02,Houston Texans,Tennessee Titans,27,20,0.0,47.0,-110,1,0.02,0.55
+2016_Oakland_Raiders_Baltimore_Ravens_2016-10-02,2016,,2016-10-02,Baltimore Ravens,Oakland Raiders,27,28,0.0,55.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_New_York_Jets_2016-10-02,2016,,2016-10-02,New York Jets,Seattle Seahawks,17,27,0.0,44.0,-110,0,0.02,0.55
+2016_Carolina_Panthers_Atlanta_Falcons_2016-10-02,2016,,2016-10-02,Atlanta Falcons,Carolina Panthers,48,33,0.0,81.0,-110,1,0.02,0.55
+2016_Cleveland_Browns_Washington_Redskins_2016-10-02,2016,,2016-10-02,Washington Redskins,Cleveland Browns,31,20,0.0,51.0,-110,1,0.02,0.55
+2016_Denver_Broncos_Tampa_Bay_Buccaneers_2016-10-02,2016,,2016-10-02,Tampa Bay Buccaneers,Denver Broncos,7,27,0.0,34.0,-110,0,0.02,0.55
+2016_Los_Angeles_Rams_Arizona_Cardinals_2016-10-02,2016,,2016-10-02,Arizona Cardinals,Los Angeles Rams,13,17,0.0,30.0,-110,0,0.02,0.55
+2016_Dallas_Cowboys_San_Francisco_49ers_2016-10-02,2016,,2016-10-02,San Francisco 49ers,Dallas Cowboys,17,24,0.0,41.0,-110,0,0.02,0.55
+2016_New_Orleans_Saints_San_Diego_Chargers_2016-10-02,2016,,2016-10-02,San Diego Chargers,New Orleans Saints,34,35,0.0,69.0,-110,0,0.02,0.55
+2016_Kansas_City_Chiefs_Pittsburgh_Steelers_2016-10-02,2016,,2016-10-02,Pittsburgh Steelers,Kansas City Chiefs,43,14,0.0,57.0,-110,1,0.02,0.55
+2016_New_York_Giants_Minnesota_Vikings_2016-10-03,2016,,2016-10-03,Minnesota Vikings,New York Giants,24,10,0.0,34.0,-110,1,0.02,0.55
+2016_Arizona_Cardinals_San_Francisco_49ers_2016-10-06,2016,,2016-10-06,San Francisco 49ers,Arizona Cardinals,21,33,0.0,54.0,-110,0,0.02,0.55
+2016_Chicago_Bears_Indianapolis_Colts_2016-10-09,2016,,2016-10-09,Indianapolis Colts,Chicago Bears,29,23,0.0,52.0,-110,1,0.02,0.55
+2016_New_England_Patriots_Cleveland_Browns_2016-10-09,2016,,2016-10-09,Cleveland Browns,New England Patriots,13,33,0.0,46.0,-110,0,0.02,0.55
+2016_Philadelphia_Eagles_Detroit_Lions_2016-10-09,2016,,2016-10-09,Detroit Lions,Philadelphia Eagles,24,23,0.0,47.0,-110,1,0.02,0.55
+2016_Tennessee_Titans_Miami_Dolphins_2016-10-09,2016,,2016-10-09,Miami Dolphins,Tennessee Titans,17,30,0.0,47.0,-110,0,0.02,0.55
+2016_New_York_Jets_Pittsburgh_Steelers_2016-10-09,2016,,2016-10-09,Pittsburgh Steelers,New York Jets,31,13,0.0,44.0,-110,1,0.02,0.55
+2016_Washington_Redskins_Baltimore_Ravens_2016-10-09,2016,,2016-10-09,Baltimore Ravens,Washington Redskins,10,16,0.0,26.0,-110,0,0.02,0.55
+2016_Houston_Texans_Minnesota_Vikings_2016-10-09,2016,,2016-10-09,Minnesota Vikings,Houston Texans,31,13,0.0,44.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_Denver_Broncos_2016-10-09,2016,,2016-10-09,Denver Broncos,Atlanta Falcons,16,23,0.0,39.0,-110,0,0.02,0.55
+2016_Buffalo_Bills_Los_Angeles_Rams_2016-10-09,2016,,2016-10-09,Los Angeles Rams,Buffalo Bills,19,30,0.0,49.0,-110,0,0.02,0.55
+2016_Cincinnati_Bengals_Dallas_Cowboys_2016-10-09,2016,,2016-10-09,Dallas Cowboys,Cincinnati Bengals,28,14,0.0,42.0,-110,1,0.02,0.55
+2016_San_Diego_Chargers_Oakland_Raiders_2016-10-09,2016,,2016-10-09,Oakland Raiders,San Diego Chargers,34,31,0.0,65.0,-110,1,0.02,0.55
+2016_New_York_Giants_Green_Bay_Packers_2016-10-09,2016,,2016-10-09,Green Bay Packers,New York Giants,23,16,0.0,39.0,-110,1,0.02,0.55
+2016_Tampa_Bay_Buccaneers_Carolina_Panthers_2016-10-10,2016,,2016-10-10,Carolina Panthers,Tampa Bay Buccaneers,14,17,0.0,31.0,-110,0,0.02,0.55
+2016_Denver_Broncos_San_Diego_Chargers_2016-10-13,2016,,2016-10-13,San Diego Chargers,Denver Broncos,21,13,0.0,34.0,-110,1,0.02,0.55
+2016_San_Francisco_49ers_Buffalo_Bills_2016-10-16,2016,,2016-10-16,Buffalo Bills,San Francisco 49ers,45,16,0.0,61.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_Chicago_Bears_2016-10-16,2016,,2016-10-16,Chicago Bears,Jacksonville Jaguars,16,17,0.0,33.0,-110,0,0.02,0.55
+2016_Cincinnati_Bengals_New_England_Patriots_2016-10-16,2016,,2016-10-16,New England Patriots,Cincinnati Bengals,35,17,0.0,52.0,-110,1,0.02,0.55
+2016_Cleveland_Browns_Tennessee_Titans_2016-10-16,2016,,2016-10-16,Tennessee Titans,Cleveland Browns,28,26,0.0,54.0,-110,1,0.02,0.55
+2016_Los_Angeles_Rams_Detroit_Lions_2016-10-16,2016,,2016-10-16,Detroit Lions,Los Angeles Rams,31,28,0.0,59.0,-110,1,0.02,0.55
+2016_Pittsburgh_Steelers_Miami_Dolphins_2016-10-16,2016,,2016-10-16,Miami Dolphins,Pittsburgh Steelers,30,15,0.0,45.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_New_York_Giants_2016-10-16,2016,,2016-10-16,New York Giants,Baltimore Ravens,27,23,0.0,50.0,-110,1,0.02,0.55
+2016_Philadelphia_Eagles_Washington_Redskins_2016-10-16,2016,,2016-10-16,Washington Redskins,Philadelphia Eagles,27,20,0.0,47.0,-110,1,0.02,0.55
+2016_Carolina_Panthers_New_Orleans_Saints_2016-10-16,2016,,2016-10-16,New Orleans Saints,Carolina Panthers,41,38,0.0,79.0,-110,1,0.02,0.55
+2016_Kansas_City_Chiefs_Oakland_Raiders_2016-10-16,2016,,2016-10-16,Oakland Raiders,Kansas City Chiefs,10,26,0.0,36.0,-110,0,0.02,0.55
+2016_Dallas_Cowboys_Green_Bay_Packers_2016-10-16,2016,,2016-10-16,Green Bay Packers,Dallas Cowboys,16,30,0.0,46.0,-110,0,0.02,0.55
+2016_Atlanta_Falcons_Seattle_Seahawks_2016-10-16,2016,,2016-10-16,Seattle Seahawks,Atlanta Falcons,26,24,0.0,50.0,-110,1,0.02,0.55
+2016_Indianapolis_Colts_Houston_Texans_2016-10-16,2016,,2016-10-16,Houston Texans,Indianapolis Colts,26,23,0.0,49.0,-110,1,0.02,0.55
+2016_New_York_Jets_Arizona_Cardinals_2016-10-17,2016,,2016-10-17,Arizona Cardinals,New York Jets,28,3,0.0,31.0,-110,1,0.02,0.55
+2016_Chicago_Bears_Green_Bay_Packers_2016-10-20,2016,,2016-10-20,Green Bay Packers,Chicago Bears,26,10,0.0,36.0,-110,1,0.02,0.55
+2016_New_York_Giants_Los_Angeles_Rams_2016-10-23,2016,,2016-10-23,Los Angeles Rams,New York Giants,10,17,0.0,27.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_Jacksonville_Jaguars_2016-10-23,2016,,2016-10-23,Jacksonville Jaguars,Oakland Raiders,16,33,0.0,49.0,-110,0,0.02,0.55
+2016_Minnesota_Vikings_Philadelphia_Eagles_2016-10-23,2016,,2016-10-23,Philadelphia Eagles,Minnesota Vikings,21,10,0.0,31.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_Miami_Dolphins_2016-10-23,2016,,2016-10-23,Miami Dolphins,Buffalo Bills,28,25,0.0,53.0,-110,1,0.02,0.55
+2016_Cleveland_Browns_Cincinnati_Bengals_2016-10-23,2016,,2016-10-23,Cincinnati Bengals,Cleveland Browns,31,17,0.0,48.0,-110,1,0.02,0.55
+2016_Indianapolis_Colts_Tennessee_Titans_2016-10-23,2016,,2016-10-23,Tennessee Titans,Indianapolis Colts,26,34,0.0,60.0,-110,0,0.02,0.55
+2016_Washington_Redskins_Detroit_Lions_2016-10-23,2016,,2016-10-23,Detroit Lions,Washington Redskins,20,17,0.0,37.0,-110,1,0.02,0.55
+2016_New_Orleans_Saints_Kansas_City_Chiefs_2016-10-23,2016,,2016-10-23,Kansas City Chiefs,New Orleans Saints,27,21,0.0,48.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_New_York_Jets_2016-10-23,2016,,2016-10-23,New York Jets,Baltimore Ravens,24,16,0.0,40.0,-110,1,0.02,0.55
+2016_San_Diego_Chargers_Atlanta_Falcons_2016-10-23,2016,,2016-10-23,Atlanta Falcons,San Diego Chargers,30,33,0.0,63.0,-110,0,0.02,0.55
+2016_Tampa_Bay_Buccaneers_San_Francisco_49ers_2016-10-23,2016,,2016-10-23,San Francisco 49ers,Tampa Bay Buccaneers,17,34,0.0,51.0,-110,0,0.02,0.55
+2016_New_England_Patriots_Pittsburgh_Steelers_2016-10-23,2016,,2016-10-23,Pittsburgh Steelers,New England Patriots,16,27,0.0,43.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_Arizona_Cardinals_2016-10-23,2016,,2016-10-23,Arizona Cardinals,Seattle Seahawks,6,6,0.0,12.0,-110,0,0.02,0.55
+2016_Houston_Texans_Denver_Broncos_2016-10-24,2016,,2016-10-24,Denver Broncos,Houston Texans,27,9,0.0,36.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_Tennessee_Titans_2016-10-27,2016,,2016-10-27,Tennessee Titans,Jacksonville Jaguars,36,22,0.0,58.0,-110,1,0.02,0.55
+2016_Washington_Redskins_Cincinnati_Bengals_2016-10-30,2016,,2016-10-30,Cincinnati Bengals,Washington Redskins,27,27,0.0,54.0,-110,0,0.02,0.55
+2016_Arizona_Cardinals_Carolina_Panthers_2016-10-30,2016,,2016-10-30,Carolina Panthers,Arizona Cardinals,30,20,0.0,50.0,-110,1,0.02,0.55
+2016_New_England_Patriots_Buffalo_Bills_2016-10-30,2016,,2016-10-30,Buffalo Bills,New England Patriots,25,41,0.0,66.0,-110,0,0.02,0.55
+2016_New_York_Jets_Cleveland_Browns_2016-10-30,2016,,2016-10-30,Cleveland Browns,New York Jets,28,31,0.0,59.0,-110,0,0.02,0.55
+2016_Kansas_City_Chiefs_Indianapolis_Colts_2016-10-30,2016,,2016-10-30,Indianapolis Colts,Kansas City Chiefs,14,30,0.0,44.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_Tampa_Bay_Buccaneers_2016-10-30,2016,,2016-10-30,Tampa Bay Buccaneers,Oakland Raiders,24,30,0.0,54.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_New_Orleans_Saints_2016-10-30,2016,,2016-10-30,New Orleans Saints,Seattle Seahawks,25,20,0.0,45.0,-110,1,0.02,0.55
+2016_Detroit_Lions_Houston_Texans_2016-10-30,2016,,2016-10-30,Houston Texans,Detroit Lions,20,13,0.0,33.0,-110,1,0.02,0.55
+2016_San_Diego_Chargers_Denver_Broncos_2016-10-30,2016,,2016-10-30,Denver Broncos,San Diego Chargers,27,19,0.0,46.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Atlanta_Falcons_2016-10-30,2016,,2016-10-30,Atlanta Falcons,Green Bay Packers,33,32,0.0,65.0,-110,1,0.02,0.55
+2016_Philadelphia_Eagles_Dallas_Cowboys_2016-10-30,2016,,2016-10-30,Dallas Cowboys,Philadelphia Eagles,29,23,0.0,52.0,-110,1,0.02,0.55
+2016_Minnesota_Vikings_Chicago_Bears_2016-10-31,2016,,2016-10-31,Chicago Bears,Minnesota Vikings,20,10,0.0,30.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_Tampa_Bay_Buccaneers_2016-11-03,2016,,2016-11-03,Tampa Bay Buccaneers,Atlanta Falcons,28,43,0.0,71.0,-110,0,0.02,0.55
+2016_Jacksonville_Jaguars_Kansas_City_Chiefs_2016-11-06,2016,,2016-11-06,Kansas City Chiefs,Jacksonville Jaguars,19,14,0.0,33.0,-110,1,0.02,0.55
+2016_New_York_Jets_Miami_Dolphins_2016-11-06,2016,,2016-11-06,Miami Dolphins,New York Jets,27,23,0.0,50.0,-110,1,0.02,0.55
+2016_Philadelphia_Eagles_New_York_Giants_2016-11-06,2016,,2016-11-06,New York Giants,Philadelphia Eagles,28,23,0.0,51.0,-110,1,0.02,0.55
+2016_Pittsburgh_Steelers_Baltimore_Ravens_2016-11-06,2016,,2016-11-06,Baltimore Ravens,Pittsburgh Steelers,21,14,0.0,35.0,-110,1,0.02,0.55
+2016_Dallas_Cowboys_Cleveland_Browns_2016-11-06,2016,,2016-11-06,Cleveland Browns,Dallas Cowboys,10,35,0.0,45.0,-110,0,0.02,0.55
+2016_Detroit_Lions_Minnesota_Vikings_2016-11-06,2016,,2016-11-06,Minnesota Vikings,Detroit Lions,16,22,0.0,38.0,-110,0,0.02,0.55
+2016_Carolina_Panthers_Los_Angeles_Rams_2016-11-06,2016,,2016-11-06,Los Angeles Rams,Carolina Panthers,10,13,0.0,23.0,-110,0,0.02,0.55
+2016_New_Orleans_Saints_San_Francisco_49ers_2016-11-06,2016,,2016-11-06,San Francisco 49ers,New Orleans Saints,23,41,0.0,64.0,-110,0,0.02,0.55
+2016_Indianapolis_Colts_Green_Bay_Packers_2016-11-06,2016,,2016-11-06,Green Bay Packers,Indianapolis Colts,26,31,0.0,57.0,-110,0,0.02,0.55
+2016_Tennessee_Titans_San_Diego_Chargers_2016-11-06,2016,,2016-11-06,San Diego Chargers,Tennessee Titans,43,35,0.0,78.0,-110,1,0.02,0.55
+2016_Denver_Broncos_Oakland_Raiders_2016-11-06,2016,,2016-11-06,Oakland Raiders,Denver Broncos,30,20,0.0,50.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_Seattle_Seahawks_2016-11-07,2016,,2016-11-07,Seattle Seahawks,Buffalo Bills,31,25,0.0,56.0,-110,1,0.02,0.55
+2016_Cleveland_Browns_Baltimore_Ravens_2016-11-10,2016,,2016-11-10,Baltimore Ravens,Cleveland Browns,28,7,0.0,35.0,-110,1,0.02,0.55
+2016_Kansas_City_Chiefs_Carolina_Panthers_2016-11-13,2016,,2016-11-13,Carolina Panthers,Kansas City Chiefs,17,20,0.0,37.0,-110,0,0.02,0.55
+2016_Chicago_Bears_Tampa_Bay_Buccaneers_2016-11-13,2016,,2016-11-13,Tampa Bay Buccaneers,Chicago Bears,36,10,0.0,46.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Tennessee_Titans_2016-11-13,2016,,2016-11-13,Tennessee Titans,Green Bay Packers,47,25,0.0,72.0,-110,1,0.02,0.55
+2016_Houston_Texans_Jacksonville_Jaguars_2016-11-13,2016,,2016-11-13,Jacksonville Jaguars,Houston Texans,21,24,0.0,45.0,-110,0,0.02,0.55
+2016_Minnesota_Vikings_Washington_Redskins_2016-11-13,2016,,2016-11-13,Washington Redskins,Minnesota Vikings,26,20,0.0,46.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_Philadelphia_Eagles_2016-11-13,2016,,2016-11-13,Philadelphia Eagles,Atlanta Falcons,24,15,0.0,39.0,-110,1,0.02,0.55
+2016_Denver_Broncos_New_Orleans_Saints_2016-11-13,2016,,2016-11-13,New Orleans Saints,Denver Broncos,23,25,0.0,48.0,-110,0,0.02,0.55
+2016_Los_Angeles_Rams_New_York_Jets_2016-11-13,2016,,2016-11-13,New York Jets,Los Angeles Rams,6,9,0.0,15.0,-110,0,0.02,0.55
+2016_Miami_Dolphins_San_Diego_Chargers_2016-11-13,2016,,2016-11-13,San Diego Chargers,Miami Dolphins,24,31,0.0,55.0,-110,0,0.02,0.55
+2016_San_Francisco_49ers_Arizona_Cardinals_2016-11-13,2016,,2016-11-13,Arizona Cardinals,San Francisco 49ers,23,20,0.0,43.0,-110,1,0.02,0.55
+2016_Dallas_Cowboys_Pittsburgh_Steelers_2016-11-13,2016,,2016-11-13,Pittsburgh Steelers,Dallas Cowboys,30,35,0.0,65.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_New_England_Patriots_2016-11-13,2016,,2016-11-13,New England Patriots,Seattle Seahawks,24,31,0.0,55.0,-110,0,0.02,0.55
+2016_Cincinnati_Bengals_New_York_Giants_2016-11-14,2016,,2016-11-14,New York Giants,Cincinnati Bengals,21,20,0.0,41.0,-110,1,0.02,0.55
+2016_New_Orleans_Saints_Carolina_Panthers_2016-11-17,2016,,2016-11-17,Carolina Panthers,New Orleans Saints,23,20,0.0,43.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_Cincinnati_Bengals_2016-11-20,2016,,2016-11-20,Cincinnati Bengals,Buffalo Bills,12,16,0.0,28.0,-110,0,0.02,0.55
+2016_Chicago_Bears_New_York_Giants_2016-11-20,2016,,2016-11-20,New York Giants,Chicago Bears,22,16,0.0,38.0,-110,1,0.02,0.55
+2016_Tennessee_Titans_Indianapolis_Colts_2016-11-20,2016,,2016-11-20,Indianapolis Colts,Tennessee Titans,24,17,0.0,41.0,-110,1,0.02,0.55
+2016_Arizona_Cardinals_Minnesota_Vikings_2016-11-20,2016,,2016-11-20,Minnesota Vikings,Arizona Cardinals,30,24,0.0,54.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_Dallas_Cowboys_2016-11-20,2016,,2016-11-20,Dallas Cowboys,Baltimore Ravens,27,17,0.0,44.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_Detroit_Lions_2016-11-20,2016,,2016-11-20,Detroit Lions,Jacksonville Jaguars,26,19,0.0,45.0,-110,1,0.02,0.55
+2016_Tampa_Bay_Buccaneers_Kansas_City_Chiefs_2016-11-20,2016,,2016-11-20,Kansas City Chiefs,Tampa Bay Buccaneers,17,19,0.0,36.0,-110,0,0.02,0.55
+2016_Pittsburgh_Steelers_Cleveland_Browns_2016-11-20,2016,,2016-11-20,Cleveland Browns,Pittsburgh Steelers,9,24,0.0,33.0,-110,0,0.02,0.55
+2016_Miami_Dolphins_Los_Angeles_Rams_2016-11-20,2016,,2016-11-20,Los Angeles Rams,Miami Dolphins,10,14,0.0,24.0,-110,0,0.02,0.55
+2016_New_England_Patriots_San_Francisco_49ers_2016-11-20,2016,,2016-11-20,San Francisco 49ers,New England Patriots,17,30,0.0,47.0,-110,0,0.02,0.55
+2016_Philadelphia_Eagles_Seattle_Seahawks_2016-11-20,2016,,2016-11-20,Seattle Seahawks,Philadelphia Eagles,26,15,0.0,41.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Washington_Redskins_2016-11-20,2016,,2016-11-20,Washington Redskins,Green Bay Packers,42,24,0.0,66.0,-110,1,0.02,0.55
+2016_Houston_Texans_Oakland_Raiders_2016-11-21,2016,,2016-11-21,Oakland Raiders,Houston Texans,27,20,0.0,47.0,-110,1,0.02,0.55
+2016_Minnesota_Vikings_Detroit_Lions_2016-11-24,2016,,2016-11-24,Detroit Lions,Minnesota Vikings,16,13,0.0,29.0,-110,1,0.02,0.55
+2016_Washington_Redskins_Dallas_Cowboys_2016-11-24,2016,,2016-11-24,Dallas Cowboys,Washington Redskins,31,26,0.0,57.0,-110,1,0.02,0.55
+2016_Pittsburgh_Steelers_Indianapolis_Colts_2016-11-24,2016,,2016-11-24,Indianapolis Colts,Pittsburgh Steelers,7,28,0.0,35.0,-110,0,0.02,0.55
+2016_Arizona_Cardinals_Atlanta_Falcons_2016-11-27,2016,,2016-11-27,Atlanta Falcons,Arizona Cardinals,38,19,0.0,57.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_Buffalo_Bills_2016-11-27,2016,,2016-11-27,Buffalo Bills,Jacksonville Jaguars,28,21,0.0,49.0,-110,1,0.02,0.55
+2016_Tennessee_Titans_Chicago_Bears_2016-11-27,2016,,2016-11-27,Chicago Bears,Tennessee Titans,21,27,0.0,48.0,-110,0,0.02,0.55
+2016_Cincinnati_Bengals_Baltimore_Ravens_2016-11-27,2016,,2016-11-27,Baltimore Ravens,Cincinnati Bengals,19,14,0.0,33.0,-110,1,0.02,0.55
+2016_San_Diego_Chargers_Houston_Texans_2016-11-27,2016,,2016-11-27,Houston Texans,San Diego Chargers,13,21,0.0,34.0,-110,0,0.02,0.55
+2016_San_Francisco_49ers_Miami_Dolphins_2016-11-27,2016,,2016-11-27,Miami Dolphins,San Francisco 49ers,31,24,0.0,55.0,-110,1,0.02,0.55
+2016_Los_Angeles_Rams_New_Orleans_Saints_2016-11-27,2016,,2016-11-27,New Orleans Saints,Los Angeles Rams,49,21,0.0,70.0,-110,1,0.02,0.55
+2016_New_York_Giants_Cleveland_Browns_2016-11-27,2016,,2016-11-27,Cleveland Browns,New York Giants,13,27,0.0,40.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_Tampa_Bay_Buccaneers_2016-11-27,2016,,2016-11-27,Tampa Bay Buccaneers,Seattle Seahawks,14,5,0.0,19.0,-110,1,0.02,0.55
+2016_Carolina_Panthers_Oakland_Raiders_2016-11-27,2016,,2016-11-27,Oakland Raiders,Carolina Panthers,35,32,0.0,67.0,-110,1,0.02,0.55
+2016_New_England_Patriots_New_York_Jets_2016-11-27,2016,,2016-11-27,New York Jets,New England Patriots,17,22,0.0,39.0,-110,0,0.02,0.55
+2016_Kansas_City_Chiefs_Denver_Broncos_2016-11-27,2016,,2016-11-27,Denver Broncos,Kansas City Chiefs,27,30,0.0,57.0,-110,0,0.02,0.55
+2016_Green_Bay_Packers_Philadelphia_Eagles_2016-11-28,2016,,2016-11-28,Philadelphia Eagles,Green Bay Packers,13,27,0.0,40.0,-110,0,0.02,0.55
+2016_Dallas_Cowboys_Minnesota_Vikings_2016-12-01,2016,,2016-12-01,Minnesota Vikings,Dallas Cowboys,15,17,0.0,32.0,-110,0,0.02,0.55
+2016_Kansas_City_Chiefs_Atlanta_Falcons_2016-12-04,2016,,2016-12-04,Atlanta Falcons,Kansas City Chiefs,28,29,0.0,57.0,-110,0,0.02,0.55
+2016_San_Francisco_49ers_Chicago_Bears_2016-12-04,2016,,2016-12-04,Chicago Bears,San Francisco 49ers,26,6,0.0,32.0,-110,1,0.02,0.55
+2016_Philadelphia_Eagles_Cincinnati_Bengals_2016-12-04,2016,,2016-12-04,Cincinnati Bengals,Philadelphia Eagles,32,14,0.0,46.0,-110,1,0.02,0.55
+2016_Denver_Broncos_Jacksonville_Jaguars_2016-12-04,2016,,2016-12-04,Jacksonville Jaguars,Denver Broncos,10,20,0.0,30.0,-110,0,0.02,0.55
+2016_Detroit_Lions_New_Orleans_Saints_2016-12-04,2016,,2016-12-04,New Orleans Saints,Detroit Lions,13,28,0.0,41.0,-110,0,0.02,0.55
+2016_Houston_Texans_Green_Bay_Packers_2016-12-04,2016,,2016-12-04,Green Bay Packers,Houston Texans,21,13,0.0,34.0,-110,1,0.02,0.55
+2016_Miami_Dolphins_Baltimore_Ravens_2016-12-04,2016,,2016-12-04,Baltimore Ravens,Miami Dolphins,38,6,0.0,44.0,-110,1,0.02,0.55
+2016_Los_Angeles_Rams_New_England_Patriots_2016-12-04,2016,,2016-12-04,New England Patriots,Los Angeles Rams,26,10,0.0,36.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_Oakland_Raiders_2016-12-04,2016,,2016-12-04,Oakland Raiders,Buffalo Bills,38,24,0.0,62.0,-110,1,0.02,0.55
+2016_Washington_Redskins_Arizona_Cardinals_2016-12-04,2016,,2016-12-04,Arizona Cardinals,Washington Redskins,31,23,0.0,54.0,-110,1,0.02,0.55
+2016_New_York_Giants_Pittsburgh_Steelers_2016-12-04,2016,,2016-12-04,Pittsburgh Steelers,New York Giants,24,14,0.0,38.0,-110,1,0.02,0.55
+2016_Tampa_Bay_Buccaneers_San_Diego_Chargers_2016-12-04,2016,,2016-12-04,San Diego Chargers,Tampa Bay Buccaneers,21,28,0.0,49.0,-110,0,0.02,0.55
+2016_Carolina_Panthers_Seattle_Seahawks_2016-12-04,2016,,2016-12-04,Seattle Seahawks,Carolina Panthers,40,7,0.0,47.0,-110,1,0.02,0.55
+2016_Indianapolis_Colts_New_York_Jets_2016-12-05,2016,,2016-12-05,New York Jets,Indianapolis Colts,10,41,0.0,51.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_Kansas_City_Chiefs_2016-12-08,2016,,2016-12-08,Kansas City Chiefs,Oakland Raiders,21,13,0.0,34.0,-110,1,0.02,0.55
+2016_Pittsburgh_Steelers_Buffalo_Bills_2016-12-11,2016,,2016-12-11,Buffalo Bills,Pittsburgh Steelers,20,27,0.0,47.0,-110,0,0.02,0.55
+2016_San_Diego_Chargers_Carolina_Panthers_2016-12-11,2016,,2016-12-11,Carolina Panthers,San Diego Chargers,28,16,0.0,44.0,-110,1,0.02,0.55
+2016_Chicago_Bears_Detroit_Lions_2016-12-11,2016,,2016-12-11,Detroit Lions,Chicago Bears,20,17,0.0,37.0,-110,1,0.02,0.55
+2016_Cincinnati_Bengals_Cleveland_Browns_2016-12-11,2016,,2016-12-11,Cleveland Browns,Cincinnati Bengals,10,23,0.0,33.0,-110,0,0.02,0.55
+2016_Houston_Texans_Indianapolis_Colts_2016-12-11,2016,,2016-12-11,Indianapolis Colts,Houston Texans,17,22,0.0,39.0,-110,0,0.02,0.55
+2016_Arizona_Cardinals_Miami_Dolphins_2016-12-11,2016,,2016-12-11,Miami Dolphins,Arizona Cardinals,26,23,0.0,49.0,-110,1,0.02,0.55
+2016_Denver_Broncos_Tennessee_Titans_2016-12-11,2016,,2016-12-11,Tennessee Titans,Denver Broncos,13,10,0.0,23.0,-110,1,0.02,0.55
+2016_Minnesota_Vikings_Jacksonville_Jaguars_2016-12-11,2016,,2016-12-11,Jacksonville Jaguars,Minnesota Vikings,16,25,0.0,41.0,-110,0,0.02,0.55
+2016_Washington_Redskins_Philadelphia_Eagles_2016-12-11,2016,,2016-12-11,Philadelphia Eagles,Washington Redskins,22,27,0.0,49.0,-110,0,0.02,0.55
+2016_New_York_Jets_San_Francisco_49ers_2016-12-11,2016,,2016-12-11,San Francisco 49ers,New York Jets,17,23,0.0,40.0,-110,0,0.02,0.55
+2016_Atlanta_Falcons_Los_Angeles_Rams_2016-12-11,2016,,2016-12-11,Los Angeles Rams,Atlanta Falcons,14,42,0.0,56.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_Green_Bay_Packers_2016-12-11,2016,,2016-12-11,Green Bay Packers,Seattle Seahawks,38,10,0.0,48.0,-110,1,0.02,0.55
+2016_New_Orleans_Saints_Tampa_Bay_Buccaneers_2016-12-11,2016,,2016-12-11,Tampa Bay Buccaneers,New Orleans Saints,16,11,0.0,27.0,-110,1,0.02,0.55
+2016_Dallas_Cowboys_New_York_Giants_2016-12-11,2016,,2016-12-11,New York Giants,Dallas Cowboys,10,7,0.0,17.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_New_England_Patriots_2016-12-12,2016,,2016-12-12,New England Patriots,Baltimore Ravens,30,23,0.0,53.0,-110,1,0.02,0.55
+2016_Los_Angeles_Rams_Seattle_Seahawks_2016-12-15,2016,,2016-12-15,Seattle Seahawks,Los Angeles Rams,24,3,0.0,27.0,-110,1,0.02,0.55
+2016_Miami_Dolphins_New_York_Jets_2016-12-17,2016,,2016-12-17,New York Jets,Miami Dolphins,13,34,0.0,47.0,-110,0,0.02,0.55
+2016_Cleveland_Browns_Buffalo_Bills_2016-12-18,2016,,2016-12-18,Buffalo Bills,Cleveland Browns,33,13,0.0,46.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Chicago_Bears_2016-12-18,2016,,2016-12-18,Chicago Bears,Green Bay Packers,27,30,0.0,57.0,-110,0,0.02,0.55
+2016_Pittsburgh_Steelers_Cincinnati_Bengals_2016-12-18,2016,,2016-12-18,Cincinnati Bengals,Pittsburgh Steelers,20,24,0.0,44.0,-110,0,0.02,0.55
+2016_Indianapolis_Colts_Minnesota_Vikings_2016-12-18,2016,,2016-12-18,Minnesota Vikings,Indianapolis Colts,6,34,0.0,40.0,-110,0,0.02,0.55
+2016_Detroit_Lions_New_York_Giants_2016-12-18,2016,,2016-12-18,New York Giants,Detroit Lions,17,6,0.0,23.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_Houston_Texans_2016-12-18,2016,,2016-12-18,Houston Texans,Jacksonville Jaguars,21,20,0.0,41.0,-110,1,0.02,0.55
+2016_Tennessee_Titans_Kansas_City_Chiefs_2016-12-18,2016,,2016-12-18,Kansas City Chiefs,Tennessee Titans,17,19,0.0,36.0,-110,0,0.02,0.55
+2016_Philadelphia_Eagles_Baltimore_Ravens_2016-12-18,2016,,2016-12-18,Baltimore Ravens,Philadelphia Eagles,27,26,0.0,53.0,-110,1,0.02,0.55
+2016_San_Francisco_49ers_Atlanta_Falcons_2016-12-18,2016,,2016-12-18,Atlanta Falcons,San Francisco 49ers,41,13,0.0,54.0,-110,1,0.02,0.55
+2016_New_Orleans_Saints_Arizona_Cardinals_2016-12-18,2016,,2016-12-18,Arizona Cardinals,New Orleans Saints,41,48,0.0,89.0,-110,0,0.02,0.55
+2016_New_England_Patriots_Denver_Broncos_2016-12-18,2016,,2016-12-18,Denver Broncos,New England Patriots,3,16,0.0,19.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_San_Diego_Chargers_2016-12-18,2016,,2016-12-18,San Diego Chargers,Oakland Raiders,16,19,0.0,35.0,-110,0,0.02,0.55
+2016_Tampa_Bay_Buccaneers_Dallas_Cowboys_2016-12-18,2016,,2016-12-18,Dallas Cowboys,Tampa Bay Buccaneers,26,20,0.0,46.0,-110,1,0.02,0.55
+2016_Carolina_Panthers_Washington_Redskins_2016-12-19,2016,,2016-12-19,Washington Redskins,Carolina Panthers,15,26,0.0,41.0,-110,0,0.02,0.55
+2016_New_York_Giants_Philadelphia_Eagles_2016-12-22,2016,,2016-12-22,Philadelphia Eagles,New York Giants,24,19,0.0,43.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_Carolina_Panthers_2016-12-24,2016,,2016-12-24,Carolina Panthers,Atlanta Falcons,16,33,0.0,49.0,-110,0,0.02,0.55
+2016_Miami_Dolphins_Buffalo_Bills_2016-12-24,2016,,2016-12-24,Buffalo Bills,Miami Dolphins,31,34,0.0,65.0,-110,0,0.02,0.55
+2016_Washington_Redskins_Chicago_Bears_2016-12-24,2016,,2016-12-24,Chicago Bears,Washington Redskins,21,41,0.0,62.0,-110,0,0.02,0.55
+2016_San_Diego_Chargers_Cleveland_Browns_2016-12-24,2016,,2016-12-24,Cleveland Browns,San Diego Chargers,20,17,0.0,37.0,-110,1,0.02,0.55
+2016_Minnesota_Vikings_Green_Bay_Packers_2016-12-24,2016,,2016-12-24,Green Bay Packers,Minnesota Vikings,38,25,0.0,63.0,-110,1,0.02,0.55
+2016_Tennessee_Titans_Jacksonville_Jaguars_2016-12-24,2016,,2016-12-24,Jacksonville Jaguars,Tennessee Titans,38,17,0.0,55.0,-110,1,0.02,0.55
+2016_New_York_Jets_New_England_Patriots_2016-12-24,2016,,2016-12-24,New England Patriots,New York Jets,41,3,0.0,44.0,-110,1,0.02,0.55
+2016_Indianapolis_Colts_Oakland_Raiders_2016-12-24,2016,,2016-12-24,Oakland Raiders,Indianapolis Colts,33,25,0.0,58.0,-110,1,0.02,0.55
+2016_Arizona_Cardinals_Seattle_Seahawks_2016-12-24,2016,,2016-12-24,Seattle Seahawks,Arizona Cardinals,31,34,0.0,65.0,-110,0,0.02,0.55
+2016_Tampa_Bay_Buccaneers_New_Orleans_Saints_2016-12-24,2016,,2016-12-24,New Orleans Saints,Tampa Bay Buccaneers,31,24,0.0,55.0,-110,1,0.02,0.55
+2016_San_Francisco_49ers_Los_Angeles_Rams_2016-12-24,2016,,2016-12-24,Los Angeles Rams,San Francisco 49ers,21,22,0.0,43.0,-110,0,0.02,0.55
+2016_Cincinnati_Bengals_Houston_Texans_2016-12-24,2016,,2016-12-24,Houston Texans,Cincinnati Bengals,12,10,0.0,22.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_Pittsburgh_Steelers_2016-12-25,2016,,2016-12-25,Pittsburgh Steelers,Baltimore Ravens,31,27,0.0,58.0,-110,1,0.02,0.55
+2016_Denver_Broncos_Kansas_City_Chiefs_2016-12-25,2016,,2016-12-25,Kansas City Chiefs,Denver Broncos,33,10,0.0,43.0,-110,1,0.02,0.55
+2016_Detroit_Lions_Dallas_Cowboys_2016-12-26,2016,,2016-12-26,Dallas Cowboys,Detroit Lions,42,21,0.0,63.0,-110,1,0.02,0.55
+2016_Buffalo_Bills_New_York_Jets_2017-01-01,2016,,2017-01-01,New York Jets,Buffalo Bills,30,10,0.0,40.0,-110,1,0.02,0.55
+2016_Carolina_Panthers_Tampa_Bay_Buccaneers_2017-01-01,2016,,2017-01-01,Tampa Bay Buccaneers,Carolina Panthers,17,16,0.0,33.0,-110,1,0.02,0.55
+2016_Chicago_Bears_Minnesota_Vikings_2017-01-01,2016,,2017-01-01,Minnesota Vikings,Chicago Bears,38,10,0.0,48.0,-110,1,0.02,0.55
+2016_Baltimore_Ravens_Cincinnati_Bengals_2017-01-01,2016,,2017-01-01,Cincinnati Bengals,Baltimore Ravens,27,10,0.0,37.0,-110,1,0.02,0.55
+2016_Cleveland_Browns_Pittsburgh_Steelers_2017-01-01,2016,,2017-01-01,Pittsburgh Steelers,Cleveland Browns,27,24,0.0,51.0,-110,1,0.02,0.55
+2016_Jacksonville_Jaguars_Indianapolis_Colts_2017-01-01,2016,,2017-01-01,Indianapolis Colts,Jacksonville Jaguars,24,20,0.0,44.0,-110,1,0.02,0.55
+2016_Dallas_Cowboys_Philadelphia_Eagles_2017-01-01,2016,,2017-01-01,Philadelphia Eagles,Dallas Cowboys,27,13,0.0,40.0,-110,1,0.02,0.55
+2016_Houston_Texans_Tennessee_Titans_2017-01-01,2016,,2017-01-01,Tennessee Titans,Houston Texans,24,17,0.0,41.0,-110,1,0.02,0.55
+2016_New_England_Patriots_Miami_Dolphins_2017-01-01,2016,,2017-01-01,Miami Dolphins,New England Patriots,14,35,0.0,49.0,-110,0,0.02,0.55
+2016_New_Orleans_Saints_Atlanta_Falcons_2017-01-01,2016,,2017-01-01,Atlanta Falcons,New Orleans Saints,38,32,0.0,70.0,-110,1,0.02,0.55
+2016_Arizona_Cardinals_Los_Angeles_Rams_2017-01-01,2016,,2017-01-01,Los Angeles Rams,Arizona Cardinals,6,44,0.0,50.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_Denver_Broncos_2017-01-01,2016,,2017-01-01,Denver Broncos,Oakland Raiders,24,6,0.0,30.0,-110,1,0.02,0.55
+2016_Kansas_City_Chiefs_San_Diego_Chargers_2017-01-01,2016,,2017-01-01,San Diego Chargers,Kansas City Chiefs,27,37,0.0,64.0,-110,0,0.02,0.55
+2016_New_York_Giants_Washington_Redskins_2017-01-01,2016,,2017-01-01,Washington Redskins,New York Giants,10,19,0.0,29.0,-110,0,0.02,0.55
+2016_Seattle_Seahawks_San_Francisco_49ers_2017-01-01,2016,,2017-01-01,San Francisco 49ers,Seattle Seahawks,23,25,0.0,48.0,-110,0,0.02,0.55
+2016_Green_Bay_Packers_Detroit_Lions_2017-01-01,2016,,2017-01-01,Detroit Lions,Green Bay Packers,24,31,0.0,55.0,-110,0,0.02,0.55
+2016_Oakland_Raiders_Houston_Texans_2017-01-07,2016,,2017-01-07,Houston Texans,Oakland Raiders,27,14,0.0,41.0,-110,1,0.02,0.55
+2016_Detroit_Lions_Seattle_Seahawks_2017-01-07,2016,,2017-01-07,Seattle Seahawks,Detroit Lions,26,6,0.0,32.0,-110,1,0.02,0.55
+2016_Miami_Dolphins_Pittsburgh_Steelers_2017-01-08,2016,,2017-01-08,Pittsburgh Steelers,Miami Dolphins,30,12,0.0,42.0,-110,1,0.02,0.55
+2016_New_York_Giants_Green_Bay_Packers_2017-01-08,2016,,2017-01-08,Green Bay Packers,New York Giants,38,13,0.0,51.0,-110,1,0.02,0.55
+2016_Seattle_Seahawks_Atlanta_Falcons_2017-01-14,2016,,2017-01-14,Atlanta Falcons,Seattle Seahawks,36,20,0.0,56.0,-110,1,0.02,0.55
+2016_Houston_Texans_New_England_Patriots_2017-01-14,2016,,2017-01-14,New England Patriots,Houston Texans,34,16,0.0,50.0,-110,1,0.02,0.55
+2016_Green_Bay_Packers_Dallas_Cowboys_2017-01-15,2016,,2017-01-15,Dallas Cowboys,Green Bay Packers,31,34,0.0,65.0,-110,0,0.02,0.55
+2016_Pittsburgh_Steelers_Kansas_City_Chiefs_2017-01-15,2016,,2017-01-15,Kansas City Chiefs,Pittsburgh Steelers,16,18,0.0,34.0,-110,0,0.02,0.55
+2016_Green_Bay_Packers_Atlanta_Falcons_2017-01-22,2016,,2017-01-22,Atlanta Falcons,Green Bay Packers,44,21,0.0,65.0,-110,1,0.02,0.55
+2016_Pittsburgh_Steelers_New_England_Patriots_2017-01-22,2016,,2017-01-22,New England Patriots,Pittsburgh Steelers,36,17,0.0,53.0,-110,1,0.02,0.55
+2016_Atlanta_Falcons_New_England_Patriots_2017-02-05,2016,,2017-02-05,New England Patriots,Atlanta Falcons,34,28,0.0,62.0,-110,1,0.02,0.55

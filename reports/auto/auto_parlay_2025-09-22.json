@@ -1,0 +1,22 @@
+{
+  "date": "2025-09-22",
+  "bets": [
+    "Atlanta Falcons +130",
+    "Tampa Bay Buccaneers +130",
+    "New York Jets +130"
+  ],
+  "odds": {
+    "american": 1117,
+    "decimal": 12.17,
+    "implied_probability_percent": 8.22,
+    "legs": 3
+  },
+  "payout": {
+    "stake": 10.0,
+    "payout": 121.7,
+    "profit": 111.7,
+    "roi_percent": 1117.0
+  },
+  "risk": "\ud83d\udfe1 MODERATE",
+  "warnings": []
+}

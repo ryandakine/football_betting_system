@@ -1,0 +1,8 @@
+INFO:__main__:🎯 Enhanced Unified NFL Backtest
+INFO:__main__:   Seasons: 2022-2023
+INFO:__main__:   Market: spread
+INFO:__main__:   Kelly Fraction: 0.25
+INFO:__main__:   Max Stake: 3.0%
+INFO:__main__:======================================================================
+WARNING:__main__:⚠️  No referee crew data found, using defaults
+INFO:__main__:Collecting historical NFL data (2022-2023)

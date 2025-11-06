@@ -1,0 +1,1 @@
+{"statusCode": 200, "body": "{\"message\": \"Analysis complete\", \"games_analyzed\": 14, \"predictions\": 14, \"high_confidence_picks\": 0, \"s3_key\": \"predictions/2025-11-05/2025-11-05T13:48:37.870459.json\", \"picks\": []}"}

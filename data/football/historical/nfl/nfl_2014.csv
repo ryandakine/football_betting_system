@@ -1,0 +1,268 @@
+game_id,season,week,date,home_team,away_team,home_score,away_score,spread,total,odds,actual_result,edge_value,confidence
+2014_Green_Bay_Packers_Seattle_Seahawks_2014-09-04,2014,,2014-09-04,Seattle Seahawks,Green Bay Packers,36,16,0.0,52.0,-110,1,0.02,0.55
+2014_Buffalo_Bills_Chicago_Bears_2014-09-07,2014,,2014-09-07,Chicago Bears,Buffalo Bills,20,23,0.0,43.0,-110,0,0.02,0.55
+2014_Minnesota_Vikings_St._Louis_Rams_2014-09-07,2014,,2014-09-07,St. Louis Rams,Minnesota Vikings,6,34,0.0,40.0,-110,0,0.02,0.55
+2014_Cincinnati_Bengals_Baltimore_Ravens_2014-09-07,2014,,2014-09-07,Baltimore Ravens,Cincinnati Bengals,16,23,0.0,39.0,-110,0,0.02,0.55
+2014_Cleveland_Browns_Pittsburgh_Steelers_2014-09-07,2014,,2014-09-07,Pittsburgh Steelers,Cleveland Browns,30,27,0.0,57.0,-110,1,0.02,0.55
+2014_Jacksonville_Jaguars_Philadelphia_Eagles_2014-09-07,2014,,2014-09-07,Philadelphia Eagles,Jacksonville Jaguars,34,17,0.0,51.0,-110,1,0.02,0.55
+2014_Tennessee_Titans_Kansas_City_Chiefs_2014-09-07,2014,,2014-09-07,Kansas City Chiefs,Tennessee Titans,10,26,0.0,36.0,-110,0,0.02,0.55
+2014_Oakland_Raiders_New_York_Jets_2014-09-07,2014,,2014-09-07,New York Jets,Oakland Raiders,19,14,0.0,33.0,-110,1,0.02,0.55
+2014_New_Orleans_Saints_Atlanta_Falcons_2014-09-07,2014,,2014-09-07,Atlanta Falcons,New Orleans Saints,37,34,0.0,71.0,-110,1,0.02,0.55
+2014_Washington_Redskins_Houston_Texans_2014-09-07,2014,,2014-09-07,Houston Texans,Washington Redskins,17,6,0.0,23.0,-110,1,0.02,0.55
+2014_New_England_Patriots_Miami_Dolphins_2014-09-07,2014,,2014-09-07,Miami Dolphins,New England Patriots,33,20,0.0,53.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_Tampa_Bay_Buccaneers_2014-09-07,2014,,2014-09-07,Tampa Bay Buccaneers,Carolina Panthers,14,20,0.0,34.0,-110,0,0.02,0.55
+2014_San_Francisco_49ers_Dallas_Cowboys_2014-09-07,2014,,2014-09-07,Dallas Cowboys,San Francisco 49ers,17,28,0.0,45.0,-110,0,0.02,0.55
+2014_Indianapolis_Colts_Denver_Broncos_2014-09-07,2014,,2014-09-07,Denver Broncos,Indianapolis Colts,31,24,0.0,55.0,-110,1,0.02,0.55
+2014_New_York_Giants_Detroit_Lions_2014-09-08,2014,,2014-09-08,Detroit Lions,New York Giants,35,14,0.0,49.0,-110,1,0.02,0.55
+2014_San_Diego_Chargers_Arizona_Cardinals_2014-09-08,2014,,2014-09-08,Arizona Cardinals,San Diego Chargers,18,17,0.0,35.0,-110,1,0.02,0.55
+2014_Pittsburgh_Steelers_Baltimore_Ravens_2014-09-11,2014,,2014-09-11,Baltimore Ravens,Pittsburgh Steelers,26,6,0.0,32.0,-110,1,0.02,0.55
+2014_Miami_Dolphins_Buffalo_Bills_2014-09-14,2014,,2014-09-14,Buffalo Bills,Miami Dolphins,29,10,0.0,39.0,-110,1,0.02,0.55
+2014_New_Orleans_Saints_Cleveland_Browns_2014-09-14,2014,,2014-09-14,Cleveland Browns,New Orleans Saints,26,24,0.0,50.0,-110,1,0.02,0.55
+2014_Dallas_Cowboys_Tennessee_Titans_2014-09-14,2014,,2014-09-14,Tennessee Titans,Dallas Cowboys,10,26,0.0,36.0,-110,0,0.02,0.55
+2014_Detroit_Lions_Carolina_Panthers_2014-09-14,2014,,2014-09-14,Carolina Panthers,Detroit Lions,24,7,0.0,31.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_New_York_Giants_2014-09-14,2014,,2014-09-14,New York Giants,Arizona Cardinals,14,25,0.0,39.0,-110,0,0.02,0.55
+2014_Atlanta_Falcons_Cincinnati_Bengals_2014-09-14,2014,,2014-09-14,Cincinnati Bengals,Atlanta Falcons,24,10,0.0,34.0,-110,1,0.02,0.55
+2014_Jacksonville_Jaguars_Washington_Redskins_2014-09-14,2014,,2014-09-14,Washington Redskins,Jacksonville Jaguars,41,10,0.0,51.0,-110,1,0.02,0.55
+2014_New_England_Patriots_Minnesota_Vikings_2014-09-14,2014,,2014-09-14,Minnesota Vikings,New England Patriots,7,30,0.0,37.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_Tampa_Bay_Buccaneers_2014-09-14,2014,,2014-09-14,Tampa Bay Buccaneers,St. Louis Rams,17,19,0.0,36.0,-110,0,0.02,0.55
+2014_Seattle_Seahawks_San_Diego_Chargers_2014-09-14,2014,,2014-09-14,San Diego Chargers,Seattle Seahawks,30,21,0.0,51.0,-110,1,0.02,0.55
+2014_Kansas_City_Chiefs_Denver_Broncos_2014-09-14,2014,,2014-09-14,Denver Broncos,Kansas City Chiefs,24,17,0.0,41.0,-110,1,0.02,0.55
+2014_New_York_Jets_Green_Bay_Packers_2014-09-14,2014,,2014-09-14,Green Bay Packers,New York Jets,31,24,0.0,55.0,-110,1,0.02,0.55
+2014_Houston_Texans_Oakland_Raiders_2014-09-14,2014,,2014-09-14,Oakland Raiders,Houston Texans,14,30,0.0,44.0,-110,0,0.02,0.55
+2014_Chicago_Bears_San_Francisco_49ers_2014-09-14,2014,,2014-09-14,San Francisco 49ers,Chicago Bears,20,28,0.0,48.0,-110,0,0.02,0.55
+2014_Philadelphia_Eagles_Indianapolis_Colts_2014-09-15,2014,,2014-09-15,Indianapolis Colts,Philadelphia Eagles,27,30,0.0,57.0,-110,0,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Atlanta_Falcons_2014-09-18,2014,,2014-09-18,Atlanta Falcons,Tampa Bay Buccaneers,56,14,0.0,70.0,-110,1,0.02,0.55
+2014_Dallas_Cowboys_St._Louis_Rams_2014-09-21,2014,,2014-09-21,St. Louis Rams,Dallas Cowboys,31,34,0.0,65.0,-110,0,0.02,0.55
+2014_San_Diego_Chargers_Buffalo_Bills_2014-09-21,2014,,2014-09-21,Buffalo Bills,San Diego Chargers,10,22,0.0,32.0,-110,0,0.02,0.55
+2014_Tennessee_Titans_Cincinnati_Bengals_2014-09-21,2014,,2014-09-21,Cincinnati Bengals,Tennessee Titans,33,7,0.0,40.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_Cleveland_Browns_2014-09-21,2014,,2014-09-21,Cleveland Browns,Baltimore Ravens,21,23,0.0,44.0,-110,0,0.02,0.55
+2014_Indianapolis_Colts_Jacksonville_Jaguars_2014-09-21,2014,,2014-09-21,Jacksonville Jaguars,Indianapolis Colts,17,44,0.0,61.0,-110,0,0.02,0.55
+2014_Green_Bay_Packers_Detroit_Lions_2014-09-21,2014,,2014-09-21,Detroit Lions,Green Bay Packers,19,7,0.0,26.0,-110,1,0.02,0.55
+2014_Houston_Texans_New_York_Giants_2014-09-21,2014,,2014-09-21,New York Giants,Houston Texans,30,17,0.0,47.0,-110,1,0.02,0.55
+2014_Oakland_Raiders_New_England_Patriots_2014-09-21,2014,,2014-09-21,New England Patriots,Oakland Raiders,16,9,0.0,25.0,-110,1,0.02,0.55
+2014_Washington_Redskins_Philadelphia_Eagles_2014-09-21,2014,,2014-09-21,Philadelphia Eagles,Washington Redskins,37,34,0.0,71.0,-110,1,0.02,0.55
+2014_Minnesota_Vikings_New_Orleans_Saints_2014-09-21,2014,,2014-09-21,New Orleans Saints,Minnesota Vikings,20,9,0.0,29.0,-110,1,0.02,0.55
+2014_San_Francisco_49ers_Arizona_Cardinals_2014-09-21,2014,,2014-09-21,Arizona Cardinals,San Francisco 49ers,23,14,0.0,37.0,-110,1,0.02,0.55
+2014_Denver_Broncos_Seattle_Seahawks_2014-09-21,2014,,2014-09-21,Seattle Seahawks,Denver Broncos,26,20,0.0,46.0,-110,1,0.02,0.55
+2014_Kansas_City_Chiefs_Miami_Dolphins_2014-09-21,2014,,2014-09-21,Miami Dolphins,Kansas City Chiefs,15,34,0.0,49.0,-110,0,0.02,0.55
+2014_Pittsburgh_Steelers_Carolina_Panthers_2014-09-21,2014,,2014-09-21,Carolina Panthers,Pittsburgh Steelers,19,37,0.0,56.0,-110,0,0.02,0.55
+2014_Chicago_Bears_New_York_Jets_2014-09-22,2014,,2014-09-22,New York Jets,Chicago Bears,19,27,0.0,46.0,-110,0,0.02,0.55
+2014_New_York_Giants_Washington_Redskins_2014-09-25,2014,,2014-09-25,Washington Redskins,New York Giants,14,45,0.0,59.0,-110,0,0.02,0.55
+2014_Buffalo_Bills_Houston_Texans_2014-09-28,2014,,2014-09-28,Houston Texans,Buffalo Bills,23,17,0.0,40.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_Baltimore_Ravens_2014-09-28,2014,,2014-09-28,Baltimore Ravens,Carolina Panthers,38,10,0.0,48.0,-110,1,0.02,0.55
+2014_Green_Bay_Packers_Chicago_Bears_2014-09-28,2014,,2014-09-28,Chicago Bears,Green Bay Packers,17,38,0.0,55.0,-110,0,0.02,0.55
+2014_Detroit_Lions_New_York_Jets_2014-09-28,2014,,2014-09-28,New York Jets,Detroit Lions,17,24,0.0,41.0,-110,0,0.02,0.55
+2014_Tennessee_Titans_Indianapolis_Colts_2014-09-28,2014,,2014-09-28,Indianapolis Colts,Tennessee Titans,41,17,0.0,58.0,-110,1,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Pittsburgh_Steelers_2014-09-28,2014,,2014-09-28,Pittsburgh Steelers,Tampa Bay Buccaneers,24,27,0.0,51.0,-110,0,0.02,0.55
+2014_Miami_Dolphins_Oakland_Raiders_2014-09-28,2014,,2014-09-28,Oakland Raiders,Miami Dolphins,14,38,0.0,52.0,-110,0,0.02,0.55
+2014_Jacksonville_Jaguars_San_Diego_Chargers_2014-09-28,2014,,2014-09-28,San Diego Chargers,Jacksonville Jaguars,33,14,0.0,47.0,-110,1,0.02,0.55
+2014_Atlanta_Falcons_Minnesota_Vikings_2014-09-28,2014,,2014-09-28,Minnesota Vikings,Atlanta Falcons,41,28,0.0,69.0,-110,1,0.02,0.55
+2014_Philadelphia_Eagles_San_Francisco_49ers_2014-09-28,2014,,2014-09-28,San Francisco 49ers,Philadelphia Eagles,26,21,0.0,47.0,-110,1,0.02,0.55
+2014_New_Orleans_Saints_Dallas_Cowboys_2014-09-28,2014,,2014-09-28,Dallas Cowboys,New Orleans Saints,38,17,0.0,55.0,-110,1,0.02,0.55
+2014_New_England_Patriots_Kansas_City_Chiefs_2014-09-29,2014,,2014-09-29,Kansas City Chiefs,New England Patriots,41,14,0.0,55.0,-110,1,0.02,0.55
+2014_Minnesota_Vikings_Green_Bay_Packers_2014-10-02,2014,,2014-10-02,Green Bay Packers,Minnesota Vikings,42,10,0.0,52.0,-110,1,0.02,0.55
+2014_Cleveland_Browns_Tennessee_Titans_2014-10-05,2014,,2014-10-05,Tennessee Titans,Cleveland Browns,28,29,0.0,57.0,-110,0,0.02,0.55
+2014_Pittsburgh_Steelers_Jacksonville_Jaguars_2014-10-05,2014,,2014-10-05,Jacksonville Jaguars,Pittsburgh Steelers,9,17,0.0,26.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_Philadelphia_Eagles_2014-10-05,2014,,2014-10-05,Philadelphia Eagles,St. Louis Rams,34,28,0.0,62.0,-110,1,0.02,0.55
+2014_Atlanta_Falcons_New_York_Giants_2014-10-05,2014,,2014-10-05,New York Giants,Atlanta Falcons,30,20,0.0,50.0,-110,1,0.02,0.55
+2014_Buffalo_Bills_Detroit_Lions_2014-10-05,2014,,2014-10-05,Detroit Lions,Buffalo Bills,14,17,0.0,31.0,-110,0,0.02,0.55
+2014_Chicago_Bears_Carolina_Panthers_2014-10-05,2014,,2014-10-05,Carolina Panthers,Chicago Bears,31,24,0.0,55.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_Indianapolis_Colts_2014-10-05,2014,,2014-10-05,Indianapolis Colts,Baltimore Ravens,20,13,0.0,33.0,-110,1,0.02,0.55
+2014_Houston_Texans_Dallas_Cowboys_2014-10-05,2014,,2014-10-05,Dallas Cowboys,Houston Texans,20,17,0.0,37.0,-110,1,0.02,0.55
+2014_Tampa_Bay_Buccaneers_New_Orleans_Saints_2014-10-05,2014,,2014-10-05,New Orleans Saints,Tampa Bay Buccaneers,37,31,0.0,68.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_Denver_Broncos_2014-10-05,2014,,2014-10-05,Denver Broncos,Arizona Cardinals,41,20,0.0,61.0,-110,1,0.02,0.55
+2014_Kansas_City_Chiefs_San_Francisco_49ers_2014-10-05,2014,,2014-10-05,San Francisco 49ers,Kansas City Chiefs,22,17,0.0,39.0,-110,1,0.02,0.55
+2014_New_York_Jets_San_Diego_Chargers_2014-10-05,2014,,2014-10-05,San Diego Chargers,New York Jets,31,0,0.0,31.0,-110,1,0.02,0.55
+2014_Cincinnati_Bengals_New_England_Patriots_2014-10-05,2014,,2014-10-05,New England Patriots,Cincinnati Bengals,43,17,0.0,60.0,-110,1,0.02,0.55
+2014_Seattle_Seahawks_Washington_Redskins_2014-10-06,2014,,2014-10-06,Washington Redskins,Seattle Seahawks,17,27,0.0,44.0,-110,0,0.02,0.55
+2014_Indianapolis_Colts_Houston_Texans_2014-10-09,2014,,2014-10-09,Houston Texans,Indianapolis Colts,28,33,0.0,61.0,-110,0,0.02,0.55
+2014_Pittsburgh_Steelers_Cleveland_Browns_2014-10-12,2014,,2014-10-12,Cleveland Browns,Pittsburgh Steelers,31,10,0.0,41.0,-110,1,0.02,0.55
+2014_Denver_Broncos_New_York_Jets_2014-10-12,2014,,2014-10-12,New York Jets,Denver Broncos,17,31,0.0,48.0,-110,0,0.02,0.55
+2014_New_England_Patriots_Buffalo_Bills_2014-10-12,2014,,2014-10-12,Buffalo Bills,New England Patriots,22,37,0.0,59.0,-110,0,0.02,0.55
+2014_Detroit_Lions_Minnesota_Vikings_2014-10-12,2014,,2014-10-12,Minnesota Vikings,Detroit Lions,3,17,0.0,20.0,-110,0,0.02,0.55
+2014_Green_Bay_Packers_Miami_Dolphins_2014-10-12,2014,,2014-10-12,Miami Dolphins,Green Bay Packers,24,27,0.0,51.0,-110,0,0.02,0.55
+2014_Jacksonville_Jaguars_Tennessee_Titans_2014-10-12,2014,,2014-10-12,Tennessee Titans,Jacksonville Jaguars,16,14,0.0,30.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_Tampa_Bay_Buccaneers_2014-10-12,2014,,2014-10-12,Tampa Bay Buccaneers,Baltimore Ravens,17,48,0.0,65.0,-110,0,0.02,0.55
+2014_Carolina_Panthers_Cincinnati_Bengals_2014-10-12,2014,,2014-10-12,Cincinnati Bengals,Carolina Panthers,37,37,0.0,74.0,-110,0,0.02,0.55
+2014_San_Diego_Chargers_Oakland_Raiders_2014-10-12,2014,,2014-10-12,Oakland Raiders,San Diego Chargers,28,31,0.0,59.0,-110,0,0.02,0.55
+2014_Washington_Redskins_Arizona_Cardinals_2014-10-12,2014,,2014-10-12,Arizona Cardinals,Washington Redskins,30,20,0.0,50.0,-110,1,0.02,0.55
+2014_Chicago_Bears_Atlanta_Falcons_2014-10-12,2014,,2014-10-12,Atlanta Falcons,Chicago Bears,13,27,0.0,40.0,-110,0,0.02,0.55
+2014_Dallas_Cowboys_Seattle_Seahawks_2014-10-12,2014,,2014-10-12,Seattle Seahawks,Dallas Cowboys,23,30,0.0,53.0,-110,0,0.02,0.55
+2014_New_York_Giants_Philadelphia_Eagles_2014-10-12,2014,,2014-10-12,Philadelphia Eagles,New York Giants,27,0,0.0,27.0,-110,1,0.02,0.55
+2014_San_Francisco_49ers_St._Louis_Rams_2014-10-13,2014,,2014-10-13,St. Louis Rams,San Francisco 49ers,17,31,0.0,48.0,-110,0,0.02,0.55
+2014_New_York_Jets_New_England_Patriots_2014-10-16,2014,,2014-10-16,New England Patriots,New York Jets,27,25,0.0,52.0,-110,1,0.02,0.55
+2014_Seattle_Seahawks_St._Louis_Rams_2014-10-19,2014,,2014-10-19,St. Louis Rams,Seattle Seahawks,28,26,0.0,54.0,-110,1,0.02,0.55
+2014_Miami_Dolphins_Chicago_Bears_2014-10-19,2014,,2014-10-19,Chicago Bears,Miami Dolphins,14,27,0.0,41.0,-110,0,0.02,0.55
+2014_Cincinnati_Bengals_Indianapolis_Colts_2014-10-19,2014,,2014-10-19,Indianapolis Colts,Cincinnati Bengals,27,0,0.0,27.0,-110,1,0.02,0.55
+2014_Cleveland_Browns_Jacksonville_Jaguars_2014-10-19,2014,,2014-10-19,Jacksonville Jaguars,Cleveland Browns,24,6,0.0,30.0,-110,1,0.02,0.55
+2014_Atlanta_Falcons_Baltimore_Ravens_2014-10-19,2014,,2014-10-19,Baltimore Ravens,Atlanta Falcons,29,7,0.0,36.0,-110,1,0.02,0.55
+2014_Minnesota_Vikings_Buffalo_Bills_2014-10-19,2014,,2014-10-19,Buffalo Bills,Minnesota Vikings,17,16,0.0,33.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_Green_Bay_Packers_2014-10-19,2014,,2014-10-19,Green Bay Packers,Carolina Panthers,38,17,0.0,55.0,-110,1,0.02,0.55
+2014_New_Orleans_Saints_Detroit_Lions_2014-10-19,2014,,2014-10-19,Detroit Lions,New Orleans Saints,24,23,0.0,47.0,-110,1,0.02,0.55
+2014_Tennessee_Titans_Washington_Redskins_2014-10-19,2014,,2014-10-19,Washington Redskins,Tennessee Titans,19,17,0.0,36.0,-110,1,0.02,0.55
+2014_Kansas_City_Chiefs_San_Diego_Chargers_2014-10-19,2014,,2014-10-19,San Diego Chargers,Kansas City Chiefs,20,23,0.0,43.0,-110,0,0.02,0.55
+2014_Arizona_Cardinals_Oakland_Raiders_2014-10-19,2014,,2014-10-19,Oakland Raiders,Arizona Cardinals,13,24,0.0,37.0,-110,0,0.02,0.55
+2014_New_York_Giants_Dallas_Cowboys_2014-10-19,2014,,2014-10-19,Dallas Cowboys,New York Giants,31,21,0.0,52.0,-110,1,0.02,0.55
+2014_San_Francisco_49ers_Denver_Broncos_2014-10-19,2014,,2014-10-19,Denver Broncos,San Francisco 49ers,42,17,0.0,59.0,-110,1,0.02,0.55
+2014_Houston_Texans_Pittsburgh_Steelers_2014-10-20,2014,,2014-10-20,Pittsburgh Steelers,Houston Texans,30,23,0.0,53.0,-110,1,0.02,0.55
+2014_San_Diego_Chargers_Denver_Broncos_2014-10-23,2014,,2014-10-23,Denver Broncos,San Diego Chargers,35,21,0.0,56.0,-110,1,0.02,0.55
+2014_Detroit_Lions_Atlanta_Falcons_2014-10-26,2014,,2014-10-26,Atlanta Falcons,Detroit Lions,21,22,0.0,43.0,-110,0,0.02,0.55
+2014_Baltimore_Ravens_Cincinnati_Bengals_2014-10-26,2014,,2014-10-26,Cincinnati Bengals,Baltimore Ravens,27,24,0.0,51.0,-110,1,0.02,0.55
+2014_Buffalo_Bills_New_York_Jets_2014-10-26,2014,,2014-10-26,New York Jets,Buffalo Bills,23,43,0.0,66.0,-110,0,0.02,0.55
+2014_Chicago_Bears_New_England_Patriots_2014-10-26,2014,,2014-10-26,New England Patriots,Chicago Bears,51,23,0.0,74.0,-110,1,0.02,0.55
+2014_Miami_Dolphins_Jacksonville_Jaguars_2014-10-26,2014,,2014-10-26,Jacksonville Jaguars,Miami Dolphins,13,27,0.0,40.0,-110,0,0.02,0.55
+2014_Houston_Texans_Tennessee_Titans_2014-10-26,2014,,2014-10-26,Tennessee Titans,Houston Texans,16,30,0.0,46.0,-110,0,0.02,0.55
+2014_Minnesota_Vikings_Tampa_Bay_Buccaneers_2014-10-26,2014,,2014-10-26,Tampa Bay Buccaneers,Minnesota Vikings,13,19,0.0,32.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_Kansas_City_Chiefs_2014-10-26,2014,,2014-10-26,Kansas City Chiefs,St. Louis Rams,34,7,0.0,41.0,-110,1,0.02,0.55
+2014_Seattle_Seahawks_Carolina_Panthers_2014-10-26,2014,,2014-10-26,Carolina Panthers,Seattle Seahawks,9,13,0.0,22.0,-110,0,0.02,0.55
+2014_Philadelphia_Eagles_Arizona_Cardinals_2014-10-26,2014,,2014-10-26,Arizona Cardinals,Philadelphia Eagles,24,20,0.0,44.0,-110,1,0.02,0.55
+2014_Oakland_Raiders_Cleveland_Browns_2014-10-26,2014,,2014-10-26,Cleveland Browns,Oakland Raiders,23,13,0.0,36.0,-110,1,0.02,0.55
+2014_Indianapolis_Colts_Pittsburgh_Steelers_2014-10-26,2014,,2014-10-26,Pittsburgh Steelers,Indianapolis Colts,51,34,0.0,85.0,-110,1,0.02,0.55
+2014_Green_Bay_Packers_New_Orleans_Saints_2014-10-26,2014,,2014-10-26,New Orleans Saints,Green Bay Packers,44,23,0.0,67.0,-110,1,0.02,0.55
+2014_Washington_Redskins_Dallas_Cowboys_2014-10-27,2014,,2014-10-27,Dallas Cowboys,Washington Redskins,17,20,0.0,37.0,-110,0,0.02,0.55
+2014_New_Orleans_Saints_Carolina_Panthers_2014-10-30,2014,,2014-10-30,Carolina Panthers,New Orleans Saints,10,28,0.0,38.0,-110,0,0.02,0.55
+2014_Jacksonville_Jaguars_Cincinnati_Bengals_2014-11-02,2014,,2014-11-02,Cincinnati Bengals,Jacksonville Jaguars,33,23,0.0,56.0,-110,1,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Cleveland_Browns_2014-11-02,2014,,2014-11-02,Cleveland Browns,Tampa Bay Buccaneers,22,17,0.0,39.0,-110,1,0.02,0.55
+2014_San_Diego_Chargers_Miami_Dolphins_2014-11-02,2014,,2014-11-02,Miami Dolphins,San Diego Chargers,37,0,0.0,37.0,-110,1,0.02,0.55
+2014_New_York_Jets_Kansas_City_Chiefs_2014-11-02,2014,,2014-11-02,Kansas City Chiefs,New York Jets,24,10,0.0,34.0,-110,1,0.02,0.55
+2014_Philadelphia_Eagles_Houston_Texans_2014-11-02,2014,,2014-11-02,Houston Texans,Philadelphia Eagles,21,31,0.0,52.0,-110,0,0.02,0.55
+2014_Washington_Redskins_Minnesota_Vikings_2014-11-02,2014,,2014-11-02,Minnesota Vikings,Washington Redskins,29,26,0.0,55.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_Dallas_Cowboys_2014-11-02,2014,,2014-11-02,Dallas Cowboys,Arizona Cardinals,17,28,0.0,45.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_San_Francisco_49ers_2014-11-02,2014,,2014-11-02,San Francisco 49ers,St. Louis Rams,10,13,0.0,23.0,-110,0,0.02,0.55
+2014_Denver_Broncos_New_England_Patriots_2014-11-02,2014,,2014-11-02,New England Patriots,Denver Broncos,43,21,0.0,64.0,-110,1,0.02,0.55
+2014_Oakland_Raiders_Seattle_Seahawks_2014-11-02,2014,,2014-11-02,Seattle Seahawks,Oakland Raiders,30,24,0.0,54.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_Pittsburgh_Steelers_2014-11-02,2014,,2014-11-02,Pittsburgh Steelers,Baltimore Ravens,43,23,0.0,66.0,-110,1,0.02,0.55
+2014_Indianapolis_Colts_New_York_Giants_2014-11-03,2014,,2014-11-03,New York Giants,Indianapolis Colts,24,40,0.0,64.0,-110,0,0.02,0.55
+2014_Cleveland_Browns_Cincinnati_Bengals_2014-11-06,2014,,2014-11-06,Cincinnati Bengals,Cleveland Browns,3,24,0.0,27.0,-110,0,0.02,0.55
+2014_Kansas_City_Chiefs_Buffalo_Bills_2014-11-09,2014,,2014-11-09,Buffalo Bills,Kansas City Chiefs,13,17,0.0,30.0,-110,0,0.02,0.55
+2014_Miami_Dolphins_Detroit_Lions_2014-11-09,2014,,2014-11-09,Detroit Lions,Miami Dolphins,20,16,0.0,36.0,-110,1,0.02,0.55
+2014_Pittsburgh_Steelers_New_York_Jets_2014-11-09,2014,,2014-11-09,New York Jets,Pittsburgh Steelers,20,13,0.0,33.0,-110,1,0.02,0.55
+2014_San_Francisco_49ers_New_Orleans_Saints_2014-11-09,2014,,2014-11-09,New Orleans Saints,San Francisco 49ers,24,27,0.0,51.0,-110,0,0.02,0.55
+2014_Tennessee_Titans_Baltimore_Ravens_2014-11-09,2014,,2014-11-09,Baltimore Ravens,Tennessee Titans,21,7,0.0,28.0,-110,1,0.02,0.55
+2014_Atlanta_Falcons_Tampa_Bay_Buccaneers_2014-11-09,2014,,2014-11-09,Tampa Bay Buccaneers,Atlanta Falcons,17,27,0.0,44.0,-110,0,0.02,0.55
+2014_Dallas_Cowboys_Jacksonville_Jaguars_2014-11-09,2014,,2014-11-09,Jacksonville Jaguars,Dallas Cowboys,17,31,0.0,48.0,-110,0,0.02,0.55
+2014_Denver_Broncos_Oakland_Raiders_2014-11-09,2014,,2014-11-09,Oakland Raiders,Denver Broncos,17,41,0.0,58.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_Arizona_Cardinals_2014-11-09,2014,,2014-11-09,Arizona Cardinals,St. Louis Rams,31,14,0.0,45.0,-110,1,0.02,0.55
+2014_New_York_Giants_Seattle_Seahawks_2014-11-09,2014,,2014-11-09,Seattle Seahawks,New York Giants,38,17,0.0,55.0,-110,1,0.02,0.55
+2014_Chicago_Bears_Green_Bay_Packers_2014-11-09,2014,,2014-11-09,Green Bay Packers,Chicago Bears,55,14,0.0,69.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_Philadelphia_Eagles_2014-11-10,2014,,2014-11-10,Philadelphia Eagles,Carolina Panthers,45,21,0.0,66.0,-110,1,0.02,0.55
+2014_Buffalo_Bills_Miami_Dolphins_2014-11-13,2014,,2014-11-13,Miami Dolphins,Buffalo Bills,22,9,0.0,31.0,-110,1,0.02,0.55
+2014_Denver_Broncos_St._Louis_Rams_2014-11-16,2014,,2014-11-16,St. Louis Rams,Denver Broncos,22,7,0.0,29.0,-110,1,0.02,0.55
+2014_Minnesota_Vikings_Chicago_Bears_2014-11-16,2014,,2014-11-16,Chicago Bears,Minnesota Vikings,21,13,0.0,34.0,-110,1,0.02,0.55
+2014_Cincinnati_Bengals_New_Orleans_Saints_2014-11-16,2014,,2014-11-16,New Orleans Saints,Cincinnati Bengals,10,27,0.0,37.0,-110,0,0.02,0.55
+2014_Atlanta_Falcons_Carolina_Panthers_2014-11-16,2014,,2014-11-16,Carolina Panthers,Atlanta Falcons,17,19,0.0,36.0,-110,0,0.02,0.55
+2014_Houston_Texans_Cleveland_Browns_2014-11-16,2014,,2014-11-16,Cleveland Browns,Houston Texans,7,23,0.0,30.0,-110,0,0.02,0.55
+2014_San_Francisco_49ers_New_York_Giants_2014-11-16,2014,,2014-11-16,New York Giants,San Francisco 49ers,10,16,0.0,26.0,-110,0,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Washington_Redskins_2014-11-16,2014,,2014-11-16,Washington Redskins,Tampa Bay Buccaneers,7,27,0.0,34.0,-110,0,0.02,0.55
+2014_Seattle_Seahawks_Kansas_City_Chiefs_2014-11-16,2014,,2014-11-16,Kansas City Chiefs,Seattle Seahawks,24,20,0.0,44.0,-110,1,0.02,0.55
+2014_Oakland_Raiders_San_Diego_Chargers_2014-11-16,2014,,2014-11-16,San Diego Chargers,Oakland Raiders,13,6,0.0,19.0,-110,1,0.02,0.55
+2014_Detroit_Lions_Arizona_Cardinals_2014-11-16,2014,,2014-11-16,Arizona Cardinals,Detroit Lions,14,6,0.0,20.0,-110,1,0.02,0.55
+2014_Philadelphia_Eagles_Green_Bay_Packers_2014-11-16,2014,,2014-11-16,Green Bay Packers,Philadelphia Eagles,53,20,0.0,73.0,-110,1,0.02,0.55
+2014_New_England_Patriots_Indianapolis_Colts_2014-11-16,2014,,2014-11-16,Indianapolis Colts,New England Patriots,20,42,0.0,62.0,-110,0,0.02,0.55
+2014_Pittsburgh_Steelers_Tennessee_Titans_2014-11-17,2014,,2014-11-17,Tennessee Titans,Pittsburgh Steelers,24,27,0.0,51.0,-110,0,0.02,0.55
+2014_Kansas_City_Chiefs_Oakland_Raiders_2014-11-20,2014,,2014-11-20,Oakland Raiders,Kansas City Chiefs,24,20,0.0,44.0,-110,1,0.02,0.55
+2014_Cleveland_Browns_Atlanta_Falcons_2014-11-23,2014,,2014-11-23,Atlanta Falcons,Cleveland Browns,24,26,0.0,50.0,-110,0,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Chicago_Bears_2014-11-23,2014,,2014-11-23,Chicago Bears,Tampa Bay Buccaneers,21,13,0.0,34.0,-110,1,0.02,0.55
+2014_Cincinnati_Bengals_Houston_Texans_2014-11-23,2014,,2014-11-23,Houston Texans,Cincinnati Bengals,13,22,0.0,35.0,-110,0,0.02,0.55
+2014_Jacksonville_Jaguars_Indianapolis_Colts_2014-11-23,2014,,2014-11-23,Indianapolis Colts,Jacksonville Jaguars,23,3,0.0,26.0,-110,1,0.02,0.55
+2014_Detroit_Lions_New_England_Patriots_2014-11-23,2014,,2014-11-23,New England Patriots,Detroit Lions,34,9,0.0,43.0,-110,1,0.02,0.55
+2014_Tennessee_Titans_Philadelphia_Eagles_2014-11-23,2014,,2014-11-23,Philadelphia Eagles,Tennessee Titans,43,24,0.0,67.0,-110,1,0.02,0.55
+2014_Green_Bay_Packers_Minnesota_Vikings_2014-11-23,2014,,2014-11-23,Minnesota Vikings,Green Bay Packers,21,24,0.0,45.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_San_Diego_Chargers_2014-11-23,2014,,2014-11-23,San Diego Chargers,St. Louis Rams,27,24,0.0,51.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_Seattle_Seahawks_2014-11-23,2014,,2014-11-23,Seattle Seahawks,Arizona Cardinals,19,3,0.0,22.0,-110,1,0.02,0.55
+2014_Miami_Dolphins_Denver_Broncos_2014-11-23,2014,,2014-11-23,Denver Broncos,Miami Dolphins,39,36,0.0,75.0,-110,1,0.02,0.55
+2014_Washington_Redskins_San_Francisco_49ers_2014-11-23,2014,,2014-11-23,San Francisco 49ers,Washington Redskins,17,13,0.0,30.0,-110,1,0.02,0.55
+2014_Dallas_Cowboys_New_York_Giants_2014-11-23,2014,,2014-11-23,New York Giants,Dallas Cowboys,28,31,0.0,59.0,-110,0,0.02,0.55
+2014_New_York_Jets_Buffalo_Bills_2014-11-24,2014,,2014-11-24,Buffalo Bills,New York Jets,38,3,0.0,41.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_New_Orleans_Saints_2014-11-24,2014,,2014-11-24,New Orleans Saints,Baltimore Ravens,27,34,0.0,61.0,-110,0,0.02,0.55
+2014_Chicago_Bears_Detroit_Lions_2014-11-27,2014,,2014-11-27,Detroit Lions,Chicago Bears,34,17,0.0,51.0,-110,1,0.02,0.55
+2014_Philadelphia_Eagles_Dallas_Cowboys_2014-11-27,2014,,2014-11-27,Dallas Cowboys,Philadelphia Eagles,10,33,0.0,43.0,-110,0,0.02,0.55
+2014_Seattle_Seahawks_San_Francisco_49ers_2014-11-27,2014,,2014-11-27,San Francisco 49ers,Seattle Seahawks,3,19,0.0,22.0,-110,0,0.02,0.55
+2014_Oakland_Raiders_St._Louis_Rams_2014-11-30,2014,,2014-11-30,St. Louis Rams,Oakland Raiders,52,0,0.0,52.0,-110,1,0.02,0.55
+2014_Cleveland_Browns_Buffalo_Bills_2014-11-30,2014,,2014-11-30,Buffalo Bills,Cleveland Browns,26,10,0.0,36.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_Minnesota_Vikings_2014-11-30,2014,,2014-11-30,Minnesota Vikings,Carolina Panthers,31,13,0.0,44.0,-110,1,0.02,0.55
+2014_Cincinnati_Bengals_Tampa_Bay_Buccaneers_2014-11-30,2014,,2014-11-30,Tampa Bay Buccaneers,Cincinnati Bengals,13,14,0.0,27.0,-110,0,0.02,0.55
+2014_Washington_Redskins_Indianapolis_Colts_2014-11-30,2014,,2014-11-30,Indianapolis Colts,Washington Redskins,49,27,0.0,76.0,-110,1,0.02,0.55
+2014_Tennessee_Titans_Houston_Texans_2014-11-30,2014,,2014-11-30,Houston Texans,Tennessee Titans,45,21,0.0,66.0,-110,1,0.02,0.55
+2014_New_Orleans_Saints_Pittsburgh_Steelers_2014-11-30,2014,,2014-11-30,Pittsburgh Steelers,New Orleans Saints,32,35,0.0,67.0,-110,0,0.02,0.55
+2014_San_Diego_Chargers_Baltimore_Ravens_2014-11-30,2014,,2014-11-30,Baltimore Ravens,San Diego Chargers,33,34,0.0,67.0,-110,0,0.02,0.55
+2014_New_York_Giants_Jacksonville_Jaguars_2014-11-30,2014,,2014-11-30,Jacksonville Jaguars,New York Giants,25,24,0.0,49.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_Atlanta_Falcons_2014-11-30,2014,,2014-11-30,Atlanta Falcons,Arizona Cardinals,29,18,0.0,47.0,-110,1,0.02,0.55
+2014_New_England_Patriots_Green_Bay_Packers_2014-11-30,2014,,2014-11-30,Green Bay Packers,New England Patriots,26,21,0.0,47.0,-110,1,0.02,0.55
+2014_Denver_Broncos_Kansas_City_Chiefs_2014-11-30,2014,,2014-11-30,Kansas City Chiefs,Denver Broncos,16,29,0.0,45.0,-110,0,0.02,0.55
+2014_Miami_Dolphins_New_York_Jets_2014-12-01,2014,,2014-12-01,New York Jets,Miami Dolphins,13,16,0.0,29.0,-110,0,0.02,0.55
+2014_Dallas_Cowboys_Chicago_Bears_2014-12-04,2014,,2014-12-04,Chicago Bears,Dallas Cowboys,28,41,0.0,69.0,-110,0,0.02,0.55
+2014_Pittsburgh_Steelers_Cincinnati_Bengals_2014-12-07,2014,,2014-12-07,Cincinnati Bengals,Pittsburgh Steelers,21,42,0.0,63.0,-110,0,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Detroit_Lions_2014-12-07,2014,,2014-12-07,Detroit Lions,Tampa Bay Buccaneers,34,17,0.0,51.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_Miami_Dolphins_2014-12-07,2014,,2014-12-07,Miami Dolphins,Baltimore Ravens,13,28,0.0,41.0,-110,0,0.02,0.55
+2014_New_York_Jets_Minnesota_Vikings_2014-12-07,2014,,2014-12-07,Minnesota Vikings,New York Jets,30,24,0.0,54.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_New_Orleans_Saints_2014-12-07,2014,,2014-12-07,New Orleans Saints,Carolina Panthers,10,41,0.0,51.0,-110,0,0.02,0.55
+2014_Indianapolis_Colts_Cleveland_Browns_2014-12-07,2014,,2014-12-07,Cleveland Browns,Indianapolis Colts,24,25,0.0,49.0,-110,0,0.02,0.55
+2014_Houston_Texans_Jacksonville_Jaguars_2014-12-07,2014,,2014-12-07,Jacksonville Jaguars,Houston Texans,13,27,0.0,40.0,-110,0,0.02,0.55
+2014_New_York_Giants_Tennessee_Titans_2014-12-07,2014,,2014-12-07,Tennessee Titans,New York Giants,7,36,0.0,43.0,-110,0,0.02,0.55
+2014_St._Louis_Rams_Washington_Redskins_2014-12-07,2014,,2014-12-07,Washington Redskins,St. Louis Rams,0,24,0.0,24.0,-110,0,0.02,0.55
+2014_Buffalo_Bills_Denver_Broncos_2014-12-07,2014,,2014-12-07,Denver Broncos,Buffalo Bills,24,17,0.0,41.0,-110,1,0.02,0.55
+2014_Kansas_City_Chiefs_Arizona_Cardinals_2014-12-07,2014,,2014-12-07,Arizona Cardinals,Kansas City Chiefs,17,14,0.0,31.0,-110,1,0.02,0.55
+2014_Seattle_Seahawks_Philadelphia_Eagles_2014-12-07,2014,,2014-12-07,Philadelphia Eagles,Seattle Seahawks,14,24,0.0,38.0,-110,0,0.02,0.55
+2014_San_Francisco_49ers_Oakland_Raiders_2014-12-07,2014,,2014-12-07,Oakland Raiders,San Francisco 49ers,24,13,0.0,37.0,-110,1,0.02,0.55
+2014_New_England_Patriots_San_Diego_Chargers_2014-12-07,2014,,2014-12-07,San Diego Chargers,New England Patriots,14,23,0.0,37.0,-110,0,0.02,0.55
+2014_Atlanta_Falcons_Green_Bay_Packers_2014-12-08,2014,,2014-12-08,Green Bay Packers,Atlanta Falcons,43,37,0.0,80.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_St._Louis_Rams_2014-12-11,2014,,2014-12-11,St. Louis Rams,Arizona Cardinals,6,12,0.0,18.0,-110,0,0.02,0.55
+2014_Pittsburgh_Steelers_Atlanta_Falcons_2014-12-14,2014,,2014-12-14,Atlanta Falcons,Pittsburgh Steelers,20,27,0.0,47.0,-110,0,0.02,0.55
+2014_Green_Bay_Packers_Buffalo_Bills_2014-12-14,2014,,2014-12-14,Buffalo Bills,Green Bay Packers,21,13,0.0,34.0,-110,1,0.02,0.55
+2014_Cincinnati_Bengals_Cleveland_Browns_2014-12-14,2014,,2014-12-14,Cleveland Browns,Cincinnati Bengals,0,30,0.0,30.0,-110,0,0.02,0.55
+2014_Houston_Texans_Indianapolis_Colts_2014-12-14,2014,,2014-12-14,Indianapolis Colts,Houston Texans,17,10,0.0,27.0,-110,1,0.02,0.55
+2014_Jacksonville_Jaguars_Baltimore_Ravens_2014-12-14,2014,,2014-12-14,Baltimore Ravens,Jacksonville Jaguars,20,12,0.0,32.0,-110,1,0.02,0.55
+2014_Miami_Dolphins_New_England_Patriots_2014-12-14,2014,,2014-12-14,New England Patriots,Miami Dolphins,41,13,0.0,54.0,-110,1,0.02,0.55
+2014_Washington_Redskins_New_York_Giants_2014-12-14,2014,,2014-12-14,New York Giants,Washington Redskins,24,13,0.0,37.0,-110,1,0.02,0.55
+2014_Tampa_Bay_Buccaneers_Carolina_Panthers_2014-12-14,2014,,2014-12-14,Carolina Panthers,Tampa Bay Buccaneers,19,17,0.0,36.0,-110,1,0.02,0.55
+2014_Oakland_Raiders_Kansas_City_Chiefs_2014-12-14,2014,,2014-12-14,Kansas City Chiefs,Oakland Raiders,31,13,0.0,44.0,-110,1,0.02,0.55
+2014_Denver_Broncos_San_Diego_Chargers_2014-12-14,2014,,2014-12-14,San Diego Chargers,Denver Broncos,10,22,0.0,32.0,-110,0,0.02,0.55
+2014_New_York_Jets_Tennessee_Titans_2014-12-14,2014,,2014-12-14,Tennessee Titans,New York Jets,11,16,0.0,27.0,-110,0,0.02,0.55
+2014_Minnesota_Vikings_Detroit_Lions_2014-12-14,2014,,2014-12-14,Detroit Lions,Minnesota Vikings,16,14,0.0,30.0,-110,1,0.02,0.55
+2014_San_Francisco_49ers_Seattle_Seahawks_2014-12-14,2014,,2014-12-14,Seattle Seahawks,San Francisco 49ers,17,7,0.0,24.0,-110,1,0.02,0.55
+2014_Dallas_Cowboys_Philadelphia_Eagles_2014-12-14,2014,,2014-12-14,Philadelphia Eagles,Dallas Cowboys,27,38,0.0,65.0,-110,0,0.02,0.55
+2014_New_Orleans_Saints_Chicago_Bears_2014-12-15,2014,,2014-12-15,Chicago Bears,New Orleans Saints,15,31,0.0,46.0,-110,0,0.02,0.55
+2014_Tennessee_Titans_Jacksonville_Jaguars_2014-12-18,2014,,2014-12-18,Jacksonville Jaguars,Tennessee Titans,21,13,0.0,34.0,-110,1,0.02,0.55
+2014_Philadelphia_Eagles_Washington_Redskins_2014-12-20,2014,,2014-12-20,Washington Redskins,Philadelphia Eagles,27,24,0.0,51.0,-110,1,0.02,0.55
+2014_San_Diego_Chargers_San_Francisco_49ers_2014-12-20,2014,,2014-12-20,San Francisco 49ers,San Diego Chargers,35,38,0.0,73.0,-110,0,0.02,0.55
+2014_Baltimore_Ravens_Houston_Texans_2014-12-21,2014,,2014-12-21,Houston Texans,Baltimore Ravens,25,13,0.0,38.0,-110,1,0.02,0.55
+2014_Kansas_City_Chiefs_Pittsburgh_Steelers_2014-12-21,2014,,2014-12-21,Pittsburgh Steelers,Kansas City Chiefs,20,12,0.0,32.0,-110,1,0.02,0.55
+2014_New_England_Patriots_New_York_Jets_2014-12-21,2014,,2014-12-21,New York Jets,New England Patriots,16,17,0.0,33.0,-110,0,0.02,0.55
+2014_Atlanta_Falcons_New_Orleans_Saints_2014-12-21,2014,,2014-12-21,New Orleans Saints,Atlanta Falcons,14,30,0.0,44.0,-110,0,0.02,0.55
+2014_Detroit_Lions_Chicago_Bears_2014-12-21,2014,,2014-12-21,Chicago Bears,Detroit Lions,14,20,0.0,34.0,-110,0,0.02,0.55
+2014_Green_Bay_Packers_Tampa_Bay_Buccaneers_2014-12-21,2014,,2014-12-21,Tampa Bay Buccaneers,Green Bay Packers,3,20,0.0,23.0,-110,0,0.02,0.55
+2014_Minnesota_Vikings_Miami_Dolphins_2014-12-21,2014,,2014-12-21,Miami Dolphins,Minnesota Vikings,37,35,0.0,72.0,-110,1,0.02,0.55
+2014_Cleveland_Browns_Carolina_Panthers_2014-12-21,2014,,2014-12-21,Carolina Panthers,Cleveland Browns,17,13,0.0,30.0,-110,1,0.02,0.55
+2014_New_York_Giants_St._Louis_Rams_2014-12-21,2014,,2014-12-21,St. Louis Rams,New York Giants,27,37,0.0,64.0,-110,0,0.02,0.55
+2014_Buffalo_Bills_Oakland_Raiders_2014-12-21,2014,,2014-12-21,Oakland Raiders,Buffalo Bills,26,24,0.0,50.0,-110,1,0.02,0.55
+2014_Indianapolis_Colts_Dallas_Cowboys_2014-12-21,2014,,2014-12-21,Dallas Cowboys,Indianapolis Colts,42,7,0.0,49.0,-110,1,0.02,0.55
+2014_Seattle_Seahawks_Arizona_Cardinals_2014-12-21,2014,,2014-12-21,Arizona Cardinals,Seattle Seahawks,6,35,0.0,41.0,-110,0,0.02,0.55
+2014_Denver_Broncos_Cincinnati_Bengals_2014-12-22,2014,,2014-12-22,Cincinnati Bengals,Denver Broncos,37,28,0.0,65.0,-110,1,0.02,0.55
+2014_Buffalo_Bills_New_England_Patriots_2014-12-28,2014,,2014-12-28,New England Patriots,Buffalo Bills,9,17,0.0,26.0,-110,0,0.02,0.55
+2014_Chicago_Bears_Minnesota_Vikings_2014-12-28,2014,,2014-12-28,Minnesota Vikings,Chicago Bears,13,9,0.0,22.0,-110,1,0.02,0.55
+2014_Cleveland_Browns_Baltimore_Ravens_2014-12-28,2014,,2014-12-28,Baltimore Ravens,Cleveland Browns,20,10,0.0,30.0,-110,1,0.02,0.55
+2014_Indianapolis_Colts_Tennessee_Titans_2014-12-28,2014,,2014-12-28,Tennessee Titans,Indianapolis Colts,10,27,0.0,37.0,-110,0,0.02,0.55
+2014_New_York_Jets_Miami_Dolphins_2014-12-28,2014,,2014-12-28,Miami Dolphins,New York Jets,24,37,0.0,61.0,-110,0,0.02,0.55
+2014_Philadelphia_Eagles_New_York_Giants_2014-12-28,2014,,2014-12-28,New York Giants,Philadelphia Eagles,26,34,0.0,60.0,-110,0,0.02,0.55
+2014_Jacksonville_Jaguars_Houston_Texans_2014-12-28,2014,,2014-12-28,Houston Texans,Jacksonville Jaguars,23,17,0.0,40.0,-110,1,0.02,0.55
+2014_San_Diego_Chargers_Kansas_City_Chiefs_2014-12-28,2014,,2014-12-28,Kansas City Chiefs,San Diego Chargers,19,7,0.0,26.0,-110,1,0.02,0.55
+2014_New_Orleans_Saints_Tampa_Bay_Buccaneers_2014-12-28,2014,,2014-12-28,Tampa Bay Buccaneers,New Orleans Saints,20,23,0.0,43.0,-110,0,0.02,0.55
+2014_Dallas_Cowboys_Washington_Redskins_2014-12-28,2014,,2014-12-28,Washington Redskins,Dallas Cowboys,17,44,0.0,61.0,-110,0,0.02,0.55
+2014_Carolina_Panthers_Atlanta_Falcons_2014-12-28,2014,,2014-12-28,Atlanta Falcons,Carolina Panthers,3,34,0.0,37.0,-110,0,0.02,0.55
+2014_Arizona_Cardinals_San_Francisco_49ers_2014-12-28,2014,,2014-12-28,San Francisco 49ers,Arizona Cardinals,20,17,0.0,37.0,-110,1,0.02,0.55
+2014_Oakland_Raiders_Denver_Broncos_2014-12-28,2014,,2014-12-28,Denver Broncos,Oakland Raiders,47,14,0.0,61.0,-110,1,0.02,0.55
+2014_Detroit_Lions_Green_Bay_Packers_2014-12-28,2014,,2014-12-28,Green Bay Packers,Detroit Lions,30,20,0.0,50.0,-110,1,0.02,0.55
+2014_St._Louis_Rams_Seattle_Seahawks_2014-12-28,2014,,2014-12-28,Seattle Seahawks,St. Louis Rams,20,6,0.0,26.0,-110,1,0.02,0.55
+2014_Cincinnati_Bengals_Pittsburgh_Steelers_2014-12-28,2014,,2014-12-28,Pittsburgh Steelers,Cincinnati Bengals,27,17,0.0,44.0,-110,1,0.02,0.55
+2014_Arizona_Cardinals_Carolina_Panthers_2015-01-03,2014,,2015-01-03,Carolina Panthers,Arizona Cardinals,27,16,0.0,43.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_Pittsburgh_Steelers_2015-01-03,2014,,2015-01-03,Pittsburgh Steelers,Baltimore Ravens,17,30,0.0,47.0,-110,0,0.02,0.55
+2014_Cincinnati_Bengals_Indianapolis_Colts_2015-01-04,2014,,2015-01-04,Indianapolis Colts,Cincinnati Bengals,26,10,0.0,36.0,-110,1,0.02,0.55
+2014_Detroit_Lions_Dallas_Cowboys_2015-01-04,2014,,2015-01-04,Dallas Cowboys,Detroit Lions,24,20,0.0,44.0,-110,1,0.02,0.55
+2014_Baltimore_Ravens_New_England_Patriots_2015-01-10,2014,,2015-01-10,New England Patriots,Baltimore Ravens,35,31,0.0,66.0,-110,1,0.02,0.55
+2014_Carolina_Panthers_Seattle_Seahawks_2015-01-10,2014,,2015-01-10,Seattle Seahawks,Carolina Panthers,31,17,0.0,48.0,-110,1,0.02,0.55
+2014_Dallas_Cowboys_Green_Bay_Packers_2015-01-11,2014,,2015-01-11,Green Bay Packers,Dallas Cowboys,26,21,0.0,47.0,-110,1,0.02,0.55
+2014_Indianapolis_Colts_Denver_Broncos_2015-01-11,2014,,2015-01-11,Denver Broncos,Indianapolis Colts,13,24,0.0,37.0,-110,0,0.02,0.55
+2014_Green_Bay_Packers_Seattle_Seahawks_2015-01-18,2014,,2015-01-18,Seattle Seahawks,Green Bay Packers,28,22,0.0,50.0,-110,1,0.02,0.55
+2014_Indianapolis_Colts_New_England_Patriots_2015-01-18,2014,,2015-01-18,New England Patriots,Indianapolis Colts,45,7,0.0,52.0,-110,1,0.02,0.55
+2014_Seattle_Seahawks_New_England_Patriots_2015-02-01,2014,,2015-02-01,New England Patriots,Seattle Seahawks,28,24,0.0,52.0,-110,1,0.02,0.55

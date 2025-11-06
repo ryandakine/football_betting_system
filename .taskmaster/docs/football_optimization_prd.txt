@@ -1,0 +1,78 @@
+# Football Betting System Personal Optimization PRD
+
+## Overview
+Optimize the Advanced Football Betting System for personal profit maximization, focusing on ease of use, cost reduction, and improved prediction accuracy.
+
+## Key Objectives
+1. Maximize betting profits through better recommendations and risk management
+2. Simplify user interface for daily use  
+3. Reduce operational costs for personal use
+4. Enhance AI prediction accuracy
+5. Implement comprehensive profit tracking
+
+## Major Features
+
+### 1. Quick Bet Dashboard
+- Consolidate top 3-5 daily betting recommendations
+- One-click betting interface
+- Real-time profit calculations
+- Simplified decision making
+
+### 2. Enhanced Arbitrage Detection
+- Top opportunities alerts (>5% guaranteed return)
+- Limited sportsbook integration (2-3 preferred books)
+- Automatic stake calculation for risk-free profits
+
+### 3. X API Sentiment Analysis
+- Real-time sentiment scoring from X (Twitter) posts
+- NFL hashtag filtering (#NFL, #NFLBets)
+- Contrarian opportunity identification
+- Sentiment confidence scoring (0-100)
+
+### 4. Improved Kelly Criterion
+- Safe Kelly mode (50% stake reduction)
+- Bankroll percentage limits (5% max per bet)
+- Visual stake size recommendations
+
+### 5. Daily Email Notifications
+- Top betting opportunities summary
+- Automated daily reports
+- Customizable alert thresholds
+
+### 6. Profit Tracking Dashboard
+- Real-time P&L monitoring
+- Win rate and ROI calculations
+- Weekly/monthly performance charts
+- Bankroll management tools
+
+### 7. AI Council Optimization
+- Focus on 2 most effective providers (Grok, GPT-4o-mini)
+- Cost reduction through selective usage
+- Improved consensus accuracy
+
+### 8. HRM Model Personalization
+- Training on personal betting history
+- Confidence threshold filtering (>80%)
+- Performance-based model tuning
+
+## Technical Requirements
+- Maintain existing API integrations
+- Optimize for local execution
+- Reduce external API dependencies
+- Implement caching for performance
+- Add data export capabilities
+
+## Success Metrics
+- Increased daily profit margins
+- Reduced time to decision making
+- Lower operational costs
+- Improved prediction accuracy
+- Enhanced user experience
+
+## Implementation Priority
+1. Quick Bet Dashboard (High Impact, Low Effort)
+2. Profit Tracking Dashboard (High Impact, Medium Effort)  
+3. X API Sentiment Analysis (Medium Impact, High Effort)
+4. Enhanced Arbitrage Detection (High Impact, Medium Effort)
+5. AI Council Optimization (Medium Impact, Low Effort)
+6. Daily Email Notifications (Low Impact, Low Effort)

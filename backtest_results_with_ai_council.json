@@ -1,0 +1,25 @@
+{
+  "seasons_tested": 11,
+  "total_games": 3010,
+  "total_bets": 3010,
+  "winning_bets": 1666,
+  "win_rate": 0.5534883720930233,
+  "average_roi": 16.66694214876036,
+  "total_profit": 91668.18181818198,
+  "summary": {
+    "performance_grade": "EXCELLENT",
+    "average_roi": 16.66694214876036,
+    "win_rate": 0.5534883720930233,
+    "total_games": 3010,
+    "total_bets": 3010,
+    "recommendations": [
+      "Leverage prioritizer logs to tune conference weights based on profitable divisions."
+    ],
+    "risk_assessment": {
+      "risk_level": "HIGH",
+      "volatility": 510.20871119733937,
+      "max_drawdown": 0.43789880760554317,
+      "sharpe_ratio": 3.2748204994367134
+    }
+  }
+}

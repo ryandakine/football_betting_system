@@ -1,0 +1,62 @@
+2025-11-05 09:53:45,287 - INFO - 🎯 NFL Betting System Training & Optimization
+2025-11-05 09:53:45,287 - INFO - ======================================================================
+2025-11-05 09:53:45,287 - INFO - 📂 Loading backtest data...
+2025-11-05 09:53:45,366 - INFO -    Loaded graded_20251105_145005.parquet: 272 games
+2025-11-05 09:53:45,366 - INFO - ✅ Total: 272 games loaded
+2025-11-05 09:53:45,368 - INFO - 
+🤖 Training ML models for spread market...
+2025-11-05 09:53:45,368 - INFO - 🔧 Preparing features for spread market...
+/home/ryan/code/football_betting_system/train_and_optimize_system.py:93: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  features.append(df["crew_home_bias"].fillna(0.5).values)
+2025-11-05 09:53:45,372 - INFO -    Features: 6 (spread_confidence, spread_edge, overall_confidence, crew_home_bias, risk_level, spread_line)
+2025-11-05 09:53:45,372 - INFO -    Samples: 272
+2025-11-05 09:53:45,372 - INFO -    Win rate: 50.4%
+2025-11-05 09:53:45,373 - INFO -    Training Random Forest...
+2025-11-05 09:53:45,529 - INFO -       Train: 80.2%, Test: 60.0%
+2025-11-05 09:53:45,529 - INFO -    Training Gradient Boosting...
+2025-11-05 09:53:45,618 - INFO -       Train: 99.5%, Test: 65.5%
+2025-11-05 09:53:45,618 - INFO -    Training XGBoost...
+/home/ryan/code/football_betting_system/.venv/lib/python3.12/site-packages/xgboost/training.py:199: UserWarning: [09:53:45] WARNING: /workspace/src/learner.cc:790: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+2025-11-05 09:53:46,925 - INFO -       Train: 85.7%, Test: 63.6%
+2025-11-05 09:53:46,925 - INFO -    Creating weighted ensemble...
+2025-11-05 09:53:46,968 - INFO -    ✅ Ensemble Test Accuracy: 67.3%
+2025-11-05 09:53:46,968 - INFO - 
+⚖️  Optimizing AI Council weights...
+/home/ryan/code/football_betting_system/train_and_optimize_system.py:255: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  confidence_performance = spread_data.groupby('confidence_bin').agg({
+2025-11-05 09:53:46,978 - INFO - 
+   Confidence-based performance:
+2025-11-05 09:53:46,984 - INFO - 
+   ✅ Optimized weights: {'high_confidence_boost': 1.0, 'low_confidence_penalty': 1.0, 'min_confidence_threshold': 0.55}
+2025-11-05 09:53:46,985 - INFO - 
+📊 Generating training report...
+2025-11-05 09:53:46,985 - INFO - 💾 Report saved to reports/training/training_report_20251105_095346.json
+                spread_result  spread_profit  spread_stake
+confidence_bin                                            
+very_low                  NaN            NaN           0.0
+low                       NaN            NaN           0.0
+medium                    NaN            NaN           0.0
+high                      NaN            NaN           0.0
+very_high                 NaN            NaN           0.0
+
+======================================================================
+TRAINING SUMMARY
+======================================================================
+Games trained on: 272
+Seasons: 2023
+
+Model Accuracies:
+
+SPREAD:
+  random_forest: 60.0%
+  gradient_boosting: 65.5%
+  xgboost: 63.6%
+  ensemble: 67.3%
+
+Recommendations:
+  ✓ Best performing market: spread (67.3% accuracy)
+  ✓ Apply minimum confidence threshold: 55%
+======================================================================

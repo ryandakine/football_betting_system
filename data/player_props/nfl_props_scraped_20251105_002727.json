@@ -1,0 +1,97 @@
+{
+  "espn": [],
+  "sports_reference": [],
+  "games": [
+    {
+      "date": "Las Vegas",
+      "matchup": "@Denver",
+      "fetch_time": "2025-11-05T00:27:27.788714"
+    },
+    {
+      "date": "Atlanta",
+      "matchup": "@Indianapolis",
+      "fetch_time": "2025-11-05T00:27:27.788791"
+    },
+    {
+      "date": "New York",
+      "matchup": "@Chicago",
+      "fetch_time": "2025-11-05T00:27:27.788826"
+    },
+    {
+      "date": "Buffalo",
+      "matchup": "@Miami",
+      "fetch_time": "2025-11-05T00:27:27.788853"
+    },
+    {
+      "date": "Baltimore",
+      "matchup": "@Minnesota",
+      "fetch_time": "2025-11-05T00:27:27.788882"
+    },
+    {
+      "date": "Cleveland",
+      "matchup": "@New York",
+      "fetch_time": "2025-11-05T00:27:27.788908"
+    },
+    {
+      "date": "New England",
+      "matchup": "@Tampa Bay",
+      "fetch_time": "2025-11-05T00:27:27.788939"
+    },
+    {
+      "date": "New Orleans",
+      "matchup": "@Carolina",
+      "fetch_time": "2025-11-05T00:27:27.788972"
+    }
+  ],
+  "market_structure": {
+    "passing_yards": {
+      "min_line": 200,
+      "max_line": 350,
+      "common_lines": [
+        250,
+        275,
+        300,
+        325
+      ]
+    },
+    "rushing_yards": {
+      "min_line": 50,
+      "max_line": 200,
+      "common_lines": [
+        75,
+        100,
+        125,
+        150
+      ]
+    },
+    "receptions": {
+      "min_line": 4,
+      "max_line": 12,
+      "common_lines": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "receiving_yards": {
+      "min_line": 50,
+      "max_line": 150,
+      "common_lines": [
+        75,
+        100,
+        125
+      ]
+    },
+    "touchdowns": {
+      "min_line": 0,
+      "max_line": 3,
+      "common_lines": [
+        0.5,
+        1.5,
+        2.5
+      ]
+    }
+  },
+  "timestamp": "2025-11-05T00:27:27.789281"
+}

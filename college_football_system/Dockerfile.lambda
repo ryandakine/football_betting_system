@@ -1,0 +1,17 @@
+FROM public.ecr.aws/lambda/python:3.11
+
+# Install build dependencies
+RUN yum install -y gcc gcc-c++ && yum clean all
+
+# Copy requirements and install
+COPY college_football_system/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy entire project to /var/task (Lambda working directory)
+COPY . ${LAMBDA_TASK_ROOT}/
+
+# Set Python path
+ENV PYTHONPATH=${LAMBDA_TASK_ROOT}:${LAMBDA_TASK_ROOT}/college_football_system
+
+# Set handler
+CMD ["lambda_handler.lambda_handler"]

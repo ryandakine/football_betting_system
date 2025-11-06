@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-11-02T07:19:02.437793",
+  "data_config": {
+    "feature_cols": [
+      "penalties",
+      "penalty_yards",
+      "score_swing_mean_abs",
+      "score_swing_positive_rate",
+      "total_plays",
+      "overtime_plays",
+      "flag_density",
+      "week",
+      "overtime",
+      "total",
+      "spread_line",
+      "total_line",
+      "away_spread_odds",
+      "home_spread_odds",
+      "points_total",
+      "margin_abs",
+      "gametime_hours"
+    ],
+    "num_features": 17,
+    "training_samples": 1942
+  },
+  "models": {
+    "spread": {
+      "auc": 0.9999680932527865,
+      "accuracy": 0.9974253347064882,
+      "f1": 0.9972870320130223,
+      "rmse": 0.16461573228878884,
+      "mae": 0.12951060330225006,
+      "cv_mean": 0.8256597113925104,
+      "cv_std": 0.02026002948410403,
+      "top_features": {
+        "spread_line": 212.1869254626566,
+        "margin_abs": 187.0930248653168,
+        "flag_density": 153.70183212537987,
+        "total_plays": 150.03523581373165,
+        "penalty_yards": 142.37312930505954,
+        "total_line": 129.36318948695336,
+        "total": 125.35505206924113,
+        "week": 124.69577420732776,
+        "away_spread_odds": 108.03043975062458,
+        "home_spread_odds": 89.69425848909445
+      }
+    },
+    "total": {
+      "auc": 1.0,
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "rmse": 0.025240724059052266,
+      "mae": 0.00830392790034287,
+      "cv_mean": 0.9994842184235629,
+      "cv_std": 0.00039210293459358825,
+      "top_features": {
+        "total_line": 150.09671729665854,
+        "total": 136.15987365480285,
+        "points_total": 86.70227793113604,
+        "week": 35.33515410676331,
+        "away_spread_odds": 33.33560174434457,
+        "margin_abs": 32.00321819170579,
+        "home_spread_odds": 29.002204592017915,
+        "penalty_yards": 18.668857094010892,
+        "flag_density": 16.670229515519722,
+        "total_plays": 8.338338095693757
+      }
+    },
+    "moneyline": {
+      "auc": 0.9998183667538507,
+      "accuracy": 0.9933058702368692,
+      "f1": 0.9938650306748467,
+      "rmse": 0.20705432109067579,
+      "mae": 0.1750574226021571,
+      "cv_mean": 0.7008418424217355,
+      "cv_std": 0.021470721190510418,
+      "top_features": {
+        "penalty_yards": 179.0463646961637,
+        "flag_density": 173.38066365989576,
+        "total_line": 151.04115502192113,
+        "spread_line": 141.7888040667711,
+        "total_plays": 140.04669343269353,
+        "total": 138.69572023673504,
+        "week": 132.70336845362138,
+        "margin_abs": 131.38603357630828,
+        "away_spread_odds": 98.36745932286253,
+        "home_spread_odds": 93.6985645352028
+      }
+    }
+  }
+}

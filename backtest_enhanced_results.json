@@ -1,0 +1,487 @@
+{
+  "timestamp": "2025-11-05T08:48:58.427711",
+  "summary": {
+    "total_props": 40,
+    "total_bets": 38,
+    "wins": 14,
+    "losses": 22,
+    "pushes": 2,
+    "win_rate": "38.9%",
+    "roi": "-24.4%",
+    "edge_stats": {
+      "matchup_advantage": {
+        "wins": 16,
+        "losses": 22,
+        "pushes": 0
+      }
+    },
+    "position_breakdown": {
+      "QB": {
+        "wins": 2,
+        "losses": 10
+      },
+      "RB": {
+        "wins": 5,
+        "losses": 10
+      },
+      "WR": {
+        "wins": 7,
+        "losses": 4
+      }
+    },
+    "prop_type_breakdown": {
+      "passing_yards": {
+        "wins": 1,
+        "losses": 3
+      },
+      "passing_tds": {
+        "wins": 1,
+        "losses": 3
+      },
+      "interceptions": {
+        "wins": 0,
+        "losses": 4
+      },
+      "rushing_yards": {
+        "wins": 1,
+        "losses": 3
+      },
+      "rushing_tds": {
+        "wins": 2,
+        "losses": 1
+      },
+      "receptions": {
+        "wins": 4,
+        "losses": 4
+      },
+      "receiving_yards": {
+        "wins": 4,
+        "losses": 4
+      },
+      "receiving_tds": {
+        "wins": 1,
+        "losses": 2
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "passing_yards",
+      "line": 310.0,
+      "actual": 306.8,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 2.2,
+      "actual": 2.1,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "interceptions",
+      "line": 0.9,
+      "actual": 0.8,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "passing_yards",
+      "line": 285.0,
+      "actual": 281.9,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 1.9,
+      "actual": 1.7,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "interceptions",
+      "line": 0.9,
+      "actual": 0.5,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "rushing_yards",
+      "line": 110.0,
+      "actual": 103.8,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "rushing_tds",
+      "line": 0.4,
+      "actual": 0.5,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 6.5,
+      "actual": 4.7,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "receiving_yards",
+      "line": 35.0,
+      "actual": 21.2,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "rushing_yards",
+      "line": 115.0,
+      "actual": 85.7,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 3.2,
+      "actual": 4.7,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "receiving_yards",
+      "line": 35.0,
+      "actual": 15.2,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Travis Kelce",
+      "position": "WR",
+      "prop_type": "receptions",
+      "line": 8.5,
+      "actual": 8.1,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Travis Kelce",
+      "position": "WR",
+      "prop_type": "receiving_yards",
+      "line": 115.0,
+      "actual": 161.7,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "prop_type": "receptions",
+      "line": 8.1,
+      "actual": 11.0,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "prop_type": "receiving_yards",
+      "line": 110.0,
+      "actual": 110.7,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "prop_type": "receiving_tds",
+      "line": 0.7,
+      "actual": 0.8,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "passing_yards",
+      "line": 310.0,
+      "actual": 316.2,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 2.2,
+      "actual": 2.9,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "interceptions",
+      "line": 0.9,
+      "actual": 0.3,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "passing_yards",
+      "line": 285.0,
+      "actual": 276.0,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 1.9,
+      "actual": 0.9,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "interceptions",
+      "line": 0.9,
+      "actual": 0.9,
+      "bet_type": "OVER",
+      "result": "push",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "rushing_yards",
+      "line": 110.0,
+      "actual": 89.8,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "rushing_tds",
+      "line": 0.4,
+      "actual": 0.7,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 6.5,
+      "actual": 5.9,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Christian McCaffrey",
+      "position": "RB",
+      "prop_type": "receiving_yards",
+      "line": 35.0,
+      "actual": 20.9,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "rushing_yards",
+      "line": 115.0,
+      "actual": 154.1,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "rushing_tds",
+      "line": 0.4,
+      "actual": 0.2,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 3.2,
+      "actual": 2.7,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "receiving_yards",
+      "line": 35.0,
+      "actual": 52.0,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Travis Kelce",
+      "position": "WR",
+      "prop_type": "receptions",
+      "line": 8.5,
+      "actual": 10.1,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Travis Kelce",
+      "position": "WR",
+      "prop_type": "receiving_yards",
+      "line": 115.0,
+      "actual": 101.8,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "Travis Kelce",
+      "position": "WR",
+      "prop_type": "receiving_tds",
+      "line": 0.7,
+      "actual": 0.7,
+      "bet_type": "OVER",
+      "result": "push",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "prop_type": "receptions",
+      "line": 8.1,
+      "actual": 9.1,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "prop_type": "receiving_yards",
+      "line": 110.0,
+      "actual": 111.0,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    },
+    {
+      "player": "CeeDee Lamb",
+      "position": "WR",
+      "prop_type": "receiving_tds",
+      "line": 0.7,
+      "actual": 0.5,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "matchup_advantage",
+      "edge_strength": 0.08
+    }
+  ]
+}

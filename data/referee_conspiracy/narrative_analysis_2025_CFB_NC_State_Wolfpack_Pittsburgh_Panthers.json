@@ -1,0 +1,23 @@
+{
+  "game_id": "2025_CFB_NC_State_Wolfpack_Pittsburgh_Panthers",
+  "teams": "NC State Wolfpack @ Pittsburgh Panthers",
+  "narrative_signals": [
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.625,
+      "source": "betting_data",
+      "description": "Sharp money on NC State Wolfpack"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.625,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to follow_sharp"
+  },
+  "conspiracy_probability": 0.53125,
+  "analysis_timestamp": "2025-10-25T17:12:47.358304"
+}

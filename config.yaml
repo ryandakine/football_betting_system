@@ -1,0 +1,43 @@
+version: "1.2.0"
+
+thresholds:
+  contrarian:
+    trigger: 0.70
+    strong_trigger: 0.85
+  narrative:
+    trap_strength_min: 0.70
+    impact_cap: 0.10
+  referee:
+    ot_specialist_threshold: 0.08
+    high_penalty_threshold: 1.20
+  confidence:
+    high: 0.75
+    medium: 0.60
+    low: 0.50
+
+model_weights:
+  spread_expert: 1.0
+  contrarian: 0.8
+  home_advantage: 0.7
+  sentiment: 0.6
+
+risk_limits:
+  max_bet_fraction: 0.05
+  max_daily_exposure: 0.15
+  kelly_fraction: 0.25
+
+feature_flags:
+  use_narratives: true
+  use_sentiment: true
+  use_referee: true
+  use_crew: true
+  use_parlays: true
+
+model_checksums:
+  spread_expert_nfl_model.pkl: ""
+  contrarian_nfl_model.pkl: ""
+  home_advantage_nfl_model.pkl: ""
+  total_regressor_nfl_model.pkl: ""
+  total_high_games_nfl_model.pkl: ""
+  total_low_games_nfl_model.pkl: ""
+  total_weather_adjusted_nfl_model.pkl: ""

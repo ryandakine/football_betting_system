@@ -1,0 +1,103 @@
+{
+  "system_info": {
+    "run_id": "20250921_133333",
+    "bankroll": 25000.0,
+    "max_exposure": 2500.0,
+    "sport_type": "nfl",
+    "test_mode": false,
+    "fake_money": true,
+    "mode": "FAKE MONEY TESTING"
+  },
+  "odds_collection": {
+    "games_found": 8,
+    "h2h_opportunities": 8,
+    "spread_opportunities": 8,
+    "total_opportunities": 8,
+    "prop_opportunities": 6,
+    "sport_type": "nfl"
+  },
+  "ai_analysis": {
+    "games_analyzed": 8,
+    "ai_recommendations": 5,
+    "confidence_scores": {},
+    "sport_type": "nfl"
+  },
+  "recommendations": {
+    "total_recommendations": 19,
+    "by_market_type": {
+      "moneyline": 5,
+      "spreads": 5,
+      "totals": 5,
+      "props": 4
+    },
+    "total_expected_value": 158.65580440548405,
+    "sport_type": "nfl"
+  },
+  "final_portfolio": {
+    "bets_selected": 19,
+    "total_exposure": 0.0,
+    "portfolio_expected_value": 158.65580440548405,
+    "sport_type": "nfl",
+    "fake_money_mode": true,
+    "performance_metrics": {
+      "predictions_made": 0,
+      "predictions_correct": 0,
+      "total_edge_analyzed": 13,
+      "avg_edge_found": 12.204292646575697,
+      "games_analyzed": 0,
+      "recommendations_generated": 19,
+      "accuracy_by_market": {
+        "moneyline": 5,
+        "spreads": 5,
+        "totals": 5,
+        "props": 4
+      },
+      "edge_distribution": [
+        23.008129616308597,
+        16.588679245283018,
+        16.585185185185185,
+        11.992857142857144,
+        11.75066225165563,
+        11.537614678899082,
+        11.30506329113924,
+        11.191935483870967,
+        11.088888888888889,
+        10.78888888888889,
+        10.391379310344826,
+        6.238676825769998,
+        6.187843596392595
+      ],
+      "confidence_distribution": []
+    }
+  },
+  "performance_metrics": {
+    "predictions_made": 0,
+    "predictions_correct": 0,
+    "total_edge_analyzed": 13,
+    "avg_edge_found": 12.204292646575697,
+    "games_analyzed": 0,
+    "recommendations_generated": 19,
+    "accuracy_by_market": {
+      "moneyline": 5,
+      "spreads": 5,
+      "totals": 5,
+      "props": 4
+    },
+    "edge_distribution": [
+      23.008129616308597,
+      16.588679245283018,
+      16.585185185185185,
+      11.992857142857144,
+      11.75066225165563,
+      11.537614678899082,
+      11.30506329113924,
+      11.191935483870967,
+      11.088888888888889,
+      10.78888888888889,
+      10.391379310344826,
+      6.238676825769998,
+      6.187843596392595
+    ],
+    "confidence_distribution": []
+  }
+}

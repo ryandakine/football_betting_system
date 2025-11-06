@@ -1,0 +1,147 @@
+# New Orleans Saints Referee Autopsy (2018-2024)
+
+## Crew Rotation Timeline
+- 2018: Bill Vinovich (3 games; weeks 9,17,20; avg margin -4.0; labels: baseline_control)
+- 2018: Carl Cheffers (3 games; weeks 5,11,19; avg margin +23.7; labels: overtime_frequency_gt_15pct)
+- 2018: Craig Wrolstad (2 games; weeks 8,16; avg margin +6.5; labels: baseline_control)
+- 2018: Jerome Boger (1 games; weeks 14; avg margin +14.0; labels: baseline_control)
+- 2018: John Hussey (1 games; weeks 12; avg margin +14.0; labels: low_flags_high_blowouts)
+- 2018: John Parry (2 games; weeks 1,7; avg margin -3.5; labels: baseline_control)
+- 2018: Peter Morelli (1 games; weeks 4; avg margin +15.0; labels: baseline_control)
+- 2018: Ron Torbert (1 games; weeks 2; avg margin +3.0; labels: baseline_control)
+- 2018: Tony Corrente (2 games; weeks 10,15; avg margin +20.0; labels: overseas_flag_surge)
+- 2018: Walt Anderson (2 games; weeks 3,13; avg margin +1.5; labels: overtime_frequency_gt_15pct)
+- 2019: Alex Kemp (1 games; weeks 12; avg margin +3.0; labels: baseline_control)
+- 2019: Brad Allen (2 games; weeks 5,10; avg margin -5.0; labels: baseline_control)
+- 2019: Bradley Rogers (1 games; weeks 11; avg margin +17.0; labels: high_penalties_close_games)
+- 2019: Carl Cheffers (2 games; weeks 4,18; avg margin -2.0; labels: overtime_frequency_gt_15pct)
+- 2019: Clay Martin (1 games; weeks 8; avg margin +22.0; labels: baseline_control)
+- 2019: Jerome Boger (2 games; weeks 6,16; avg margin +8.5; labels: baseline_control)
+- 2019: John Hussey (2 games; weeks 1,14; avg margin +0.0; labels: low_flags_high_blowouts)
+- 2019: Ronald Torbert (2 games; weeks 3,17; avg margin +19.0; labels: baseline_control)
+- 2019: Scott Novak (1 games; weeks 7; avg margin +11.0; labels: baseline_control)
+- 2019: Shawn Hochuli (1 games; weeks 15; avg margin +27.0; labels: high_penalties_close_games, overtime_frequency_gt_15pct)
+- 2019: Shawn Smith (1 games; weeks 13; avg margin +8.0; labels: baseline_control)
+- 2019: Walt Anderson (1 games; weeks 2; avg margin -18.0; labels: overtime_frequency_gt_15pct)
+- 2020: Adrian Hill (2 games; weeks 13,16; avg margin +12.0; labels: baseline_control)
+- 2020: Alex Kemp (1 games; weeks 18; avg margin +12.0; labels: baseline_control)
+- 2020: Brad Allen (1 games; weeks 11; avg margin +15.0; labels: baseline_control)
+- 2020: Brad Rogers (2 games; weeks 3,10; avg margin +3.5; labels: baseline_control)
+- 2020: Clay Martin (1 games; weeks 5; avg margin +3.0; labels: baseline_control)
+- 2020: Craig Wrolstad (2 games; weeks 7,12; avg margin +15.5; labels: baseline_control)
+- 2020: Jerome Boger (2 games; weeks 1,14; avg margin +4.0; labels: baseline_control)
+- 2020: John Hussey (2 games; weeks 9,17; avg margin +30.5; labels: low_flags_high_blowouts)
+- 2020: Scott Novak (1 games; weeks 15; avg margin -3.0; labels: baseline_control)
+- 2020: Shawn Hochuli (2 games; weeks 2,19; avg margin -10.0; labels: high_penalties_close_games, overtime_frequency_gt_15pct)
+- 2020: Shawn Smith (1 games; weeks 4; avg margin +6.0; labels: baseline_control)
+- 2020: Tony Corrente (1 games; weeks 8; avg margin +3.0; labels: overseas_flag_surge)
+- 2021: Adrian Hill (1 games; weeks 16; avg margin -17.0; labels: baseline_control)
+- 2021: Alex Kemp (1 games; weeks 9; avg margin -2.0; labels: baseline_control)
+- 2021: Brad Allen (1 games; weeks 12; avg margin -25.0; labels: baseline_control)
+- 2021: Brad Rogers (2 games; weeks 4,13; avg margin -8.0; labels: baseline_control)
+- 2021: Carl Cheffers (1 games; weeks 1; avg margin +35.0; labels: overtime_frequency_gt_15pct)
+- 2021: Clete Blakeman (1 games; weeks 8; avg margin +9.0; labels: baseline_control)
+- 2021: Craig Wrolstad (1 games; weeks 18; avg margin +10.0; labels: baseline_control)
+- 2021: Jerome Boger (2 games; weeks 10,17; avg margin +3.0; labels: baseline_control)
+- 2021: John Hussey (2 games; weeks 3,15; avg margin +12.0; labels: low_flags_high_blowouts)
+- 2021: Land Clark (1 games; weeks 14; avg margin +21.0; labels: baseline_control)
+- 2021: Ron Torbert (1 games; weeks 2; avg margin -19.0; labels: baseline_control)
+- 2021: Scott Novak (1 games; weeks 11; avg margin -11.0; labels: baseline_control)
+- 2021: Shawn Hochuli (1 games; weeks 7; avg margin +3.0; labels: high_penalties_close_games, overtime_frequency_gt_15pct)
+- 2021: Shawn Smith (1 games; weeks 5; avg margin +11.0; labels: baseline_control)
+- 2022: Alex Kemp (2 games; weeks 1,18; avg margin -1.0; labels: baseline_control)
+- 2022: Brad Allen (1 games; weeks 5; avg margin +7.0; labels: baseline_control)
+- 2022: Brad Rogers (2 games; weeks 9,16; avg margin -3.5; labels: baseline_control)
+- 2022: Carl Cheffers (2 games; weeks 3,10; avg margin -9.0; labels: overtime_frequency_gt_15pct)
+- 2022: Clay Martin (1 games; weeks 13; avg margin -1.0; labels: baseline_control)
+- 2022: Clete Blakeman (2 games; weeks 4,15; avg margin +0.0; labels: baseline_control)
+- 2022: Jerome Boger (2 games; weeks 7,17; avg margin +1.0; labels: baseline_control)
+- 2022: Land Clark (1 games; weeks 6; avg margin -4.0; labels: baseline_control)
+- 2022: Ron Torbert (1 games; weeks 11; avg margin +7.0; labels: baseline_control)
+- 2022: Scott Novak (1 games; weeks 8; avg margin +24.0; labels: baseline_control)
+- 2022: Shawn Hochuli (2 games; weeks 2,12; avg margin -11.5; labels: high_penalties_close_games, overtime_frequency_gt_15pct)
+- 2023: Adrian Hill (1 games; weeks 10; avg margin -8.0; labels: baseline_control)
+- 2023: Alan Eck (2 games; weeks 6,14; avg margin +7.5; labels: low_flags_high_blowouts)
+- 2023: Alex Kemp (1 games; weeks 5; avg margin +34.0; labels: baseline_control)
+- 2023: Brad Allen (1 games; weeks 12; avg margin -9.0; labels: baseline_control)
+- 2023: Brad Rogers (2 games; weeks 3,16; avg margin -4.5; labels: baseline_control)
+- 2023: Carl Cheffers (1 games; weeks 15; avg margin +18.0; labels: overtime_frequency_gt_15pct)
+- 2023: Clay Martin (1 games; weeks 13; avg margin -5.0; labels: baseline_control)
+- 2023: Craig Wrolstad (1 games; weeks 8; avg margin +11.0; labels: baseline_control)
+- 2023: John Hussey (1 games; weeks 18; avg margin +31.0; labels: low_flags_high_blowouts)
+- 2023: Land Clark (2 games; weeks 7,17; avg margin +1.5; labels: baseline_control)
+- 2023: Ron Torbert (2 games; weeks 1,9; avg margin +4.0; labels: baseline_control)
+- 2023: Scott Novak (1 games; weeks 2; avg margin +3.0; labels: baseline_control)
+- 2023: Shawn Hochuli (1 games; weeks 4; avg margin -17.0; labels: high_penalties_close_games, overtime_frequency_gt_15pct)
+- 2024: Adrian Hill (2 games; weeks 2,18; avg margin +8.5; labels: baseline_control)
+- 2024: Alan Eck (2 games; weeks 1,8; avg margin +9.5; labels: low_flags_high_blowouts)
+- 2024: Alex Kemp (2 games; weeks 11,16; avg margin -6.5; labels: baseline_control)
+- 2024: Brad Allen (1 games; weeks 13; avg margin -7.0; labels: baseline_control)
+- 2024: Brad Rogers (1 games; weeks 5; avg margin -13.0; labels: baseline_control)
+- 2024: Carl Cheffers (1 games; weeks 10; avg margin +3.0; labels: overtime_frequency_gt_15pct)
+- 2024: Clete Blakeman (2 games; weeks 6,14; avg margin -10.5; labels: baseline_control)
+- 2024: John Hussey (1 games; weeks 4; avg margin -2.0; labels: low_flags_high_blowouts)
+- 2024: Land Clark (2 games; weeks 7,17; avg margin -19.0; labels: baseline_control)
+- 2024: Ron Torbert (1 games; weeks 9; avg margin -1.0; labels: baseline_control)
+- 2024: Scott Novak (1 games; weeks 3; avg margin -3.0; labels: baseline_control)
+- 2024: Shawn Hochuli (1 games; weeks 15; avg margin -1.0; labels: high_penalties_close_games, overtime_frequency_gt_15pct)
+
+## Style Impact
+- Carl Cheffers (overtime_frequency_gt_15pct): 10 games, avg margin +10.5, penalties on team 7.5, penalty diff +2.6, odds delta +8.0, overtime rate 8.62%
+- Jerome Boger (baseline_control): 9 games, avg margin +5.2, penalties on team 6.6, penalty diff +0.6, odds delta +3.3, overtime rate 1.25%
+- Brad Rogers (baseline_control): 9 games, avg margin -4.2, penalties on team 5.2, penalty diff +0.2, odds delta -4.5, overtime rate 2.60%
+- John Hussey (low_flags_high_blowouts): 9 games, avg margin +14.2, penalties on team 4.3, penalty diff -1.2, odds delta +13.3, overtime rate 5.93%
+- Shawn Hochuli (high_penalties_close_games, overtime_frequency_gt_15pct): 8 games, avg margin -3.9, penalties on team 6.8, penalty diff -0.5, odds delta -4.5, overtime rate 7.89%
+- Alex Kemp (baseline_control): 8 games, avg margin +4.0, penalties on team 7.5, penalty diff +2.2, odds delta +1.5, overtime rate 6.09%
+- Brad Allen (baseline_control): 7 games, avg margin -4.1, penalties on team 6.1, penalty diff +0.1, odds delta -6.8, overtime rate 4.42%
+- Land Clark (baseline_control): 6 games, avg margin -3.0, penalties on team 5.2, penalty diff +0.5, odds delta -2.5, overtime rate 7.50%
+- Scott Novak (baseline_control): 6 games, avg margin +3.5, penalties on team 4.7, penalty diff -0.8, odds delta +4.2, overtime rate 5.26%
+- Ron Torbert (baseline_control): 6 games, avg margin -0.3, penalties on team 5.8, penalty diff +0.0, odds delta -6.1, overtime rate 4.65%
+- Adrian Hill (baseline_control): 6 games, avg margin +2.7, penalties on team 7.2, penalty diff +1.8, odds delta +4.7, overtime rate 7.14%
+- Craig Wrolstad (baseline_control): 6 games, avg margin +10.8, penalties on team 6.5, penalty diff +2.2, odds delta +4.2, overtime rate 4.35%
+- Clete Blakeman (baseline_control): 5 games, avg margin -2.4, penalties on team 6.2, penalty diff -2.4, odds delta -2.2, overtime rate 5.98%
+- Alan Eck (low_flags_high_blowouts): 4 games, avg margin +8.5, penalties on team 6.8, penalty diff +2.5, odds delta +7.5, overtime rate 3.03%
+- Clay Martin (baseline_control): 4 games, avg margin +4.8, penalties on team 4.8, penalty diff +0.8, odds delta +1.8, overtime rate 5.41%
+- Walt Anderson (overtime_frequency_gt_15pct): 3 games, avg margin -5.0, penalties on team 9.0, penalty diff +2.0, odds delta -6.2, overtime rate 12.12%
+- Bill Vinovich (baseline_control): 3 games, avg margin -4.0, penalties on team 3.7, penalty diff -0.7, odds delta -6.8, overtime rate 5.88%
+- Tony Corrente (overseas_flag_surge): 3 games, avg margin +14.3, penalties on team 5.0, penalty diff +0.0, odds delta +8.7, overtime rate 6.25%
+- Shawn Smith (baseline_control): 3 games, avg margin +8.3, penalties on team 6.3, penalty diff +1.7, odds delta +4.2, overtime rate 7.08%
+
+## Narrative Correlations
+- Week 2 2018 vs CLE: surge of +11.0 points with Ron Torbert stepping in (final margin +3.0).
+- Week 4 2018 vs NYG: surge of +14.7 points with Peter Morelli stepping in (final margin +15.0).
+- Week 5 2018 vs WAS: surge of +16.0 points with Carl Cheffers stepping in (final margin +24.0).
+- Week 3 2018 vs ATL: 11 flags dropped (crew lead Walt Anderson).
+- Week 19 2018 vs PHI: 11 flags dropped (crew lead Carl Cheffers).
+- Week 20 2018 vs LA: overtime gut punch -3.0 under Bill Vinovich.
+- Week 18 2019 vs MIN: overtime gut punch -6.0 under Carl Cheffers.
+
+## Broadcast Behavior
+- Primetime: 5.8 penalties on team, 41.6 total points
+- Low-visibility windows: 6.3 penalties on team, 46.4 total points
+- Other slots: 6.2 penalties on team, 46.9 total points
+
+## Crew Rosters Seen
+- John Parry: John Parry | Mark Pellis | David Oliver | Julian Mapp | Perry Paganelli | Michael Banks | Matt Edwards
+- Ron Torbert: Ron Torbert | Dan Ferrell | Sarah Thomas | Mark Steinkerchner | Anthony Josselyn | Scott Edwards | Jimmy Buchanan
+- Walt Anderson: Walt Anderson | Carl Paganelli | Tom Stephan | Byron Boston | Steve Freeman | Rick Patterson | Terry Brown
+- Peter Morelli: Peter Morelli | Steven Woods | Steve Stelljes | Jeff Seeman | Keith Ferguson | Boris Cheek | Anthony Jeffries
+- Carl Cheffers: Carl Cheffers | Barry Anderson | Hugo Cruz | Gary Arthur | Greg Meyer | Eugene Hall | Land Clark
+- Craig Wrolstad: Craig Wrolstad | Paul King | Jerod Phillips | Carl Johnson | Scott Helverson | Adrian Hill | Jeff Lamberth
+- Bill Vinovich: Bill Vinovich | Bruce Stritesky | Phil McKinnely | Mark Perlman | Steven Patrick | Gary Cavaletto | Mearl Robinson
+- Tony Corrente: Tony Corrente | Alan Eck | Patrick Turner | Tim Podraza | Todd Prukop | Ryan Dickson | Steve Zimmer
+- John Hussey: John Hussey | Tony Michalek | Kevin Codey | Derick Bowers | Greg Steed | Allen Baynes | Don Willard
+- Jerome Boger: Jerome Boger | Bill Schuster | Mike Carr | Rusty Baynes | Tony Steratore | Jonah Monroe | Anthony Jeffries
+- Ronald Torbert: Ronald Torbert | Jr. Killens | Sarah Thomas | Mark Steinkerchner | Anthony Josselyn | Scott Edwards | Keith Washington
+- Brad Allen: Brad Allen | Barry Anderson | Jim Mello | Brian Bolinger | Greg Yette | Jimmy Russell | Steve Zimmer
+- Scott Novak: Scott Novak | Ramon George | Derick Bowers | Walt Coleman IV | Terrence Miles | Chad Hill | Mike Weatherford
+- Clay Martin: Clay Martin | Fred Bryan | Jerod Phillips | Gary Arthur | Gregory Wilson | Greg Gautreaux | Nathan Jones
+- Bradley Rogers: Bradley Rogers | Tony Michalek | Kent Payne | Julian Mapp | Gregory Steed | Don Willard | Aaron Santi
+- Alex Kemp: Alex Kemp | Richard Hall | Mike Carr | Jeff Bergman | Steve Freeman | Dale Shaw | Keith Washington
+- Shawn Smith: Shawn Smith | Bryan Neale | Mark Hittner | Bart Longson | Dino Paganelli | Dave Hawkshaw | Dyrol Prioleau
+- Shawn Hochuli: Shawn Hochuli | Paul King | Ed Camp | Greg Bradley | Rich Martinez | James Coleman | Tom Hill
+- Brad Rogers: Brad Rogers | Tab Slaughter | Jerod Phillips | Walt Coleman IV | Greg Meyer | Eugene Hall | Nathan Jones
+- Adrian Hill: Adrian Hill | Paul King | Ed Camp | Kevin Codey | Greg Steed | Eugene Hall | Jim Quirk
+- Clete Blakeman: Clete Blakeman | Tab Slaughter | Dana McKenzie | Julian Mapp | Perry Paganelli | Clay Reynard | Scott Edwards
+- Land Clark: Land Clark | Paul King | Tom Stephan | Brian Bolinger | Greg Meyer | Anthony Flemming | Michael Banks
+- Alan Eck: Alan Eck | Tab Slaughter | Fred Bryan | Robin DeLorenzo | Greg Meyer | Dale Shaw | John Jenkins

@@ -1,0 +1,41 @@
+{
+  "date": "2025-09-21",
+  "generated_at": "2025-09-21T20:31:27.150890",
+  "mlb_predictions": {
+    "status": "missing",
+    "message": "No predictions file for 2025-09-21"
+  },
+  "learning": {
+    "status": "ok",
+    "insights": {
+      "total_predictions": 0,
+      "active_patterns": 0,
+      "model_performance": {},
+      "top_patterns": [],
+      "recent_accuracy": 0.0,
+      "learning_recommendations": [
+        "Consider reducing confidence thresholds"
+      ],
+      "outcome_tracking": {
+        "active_games": 0,
+        "completed_games": 0,
+        "total_predictions_tracked": 0
+      },
+      "adaptive_confidence": {},
+      "real_time_learning": {
+        "enabled": true,
+        "outcome_tracking": true,
+        "adaptive_confidence": true
+      },
+      "performance_memory_days": 90
+    },
+    "source": "SelfLearningFeedbackSystem"
+  },
+  "nfl_tracking": {
+    "status": "ok",
+    "active_games": 4,
+    "recent_predictions": 0,
+    "recent_accuracy": 0.0,
+    "avg_confidence": 0.0
+  }
+}

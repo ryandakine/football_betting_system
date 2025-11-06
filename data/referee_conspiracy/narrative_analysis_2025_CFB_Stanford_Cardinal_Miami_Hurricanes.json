@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_Stanford_Cardinal_Miami_Hurricanes",
+  "teams": "Stanford Cardinal @ Miami Hurricanes",
+  "narrative_signals": [
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.6,
+      "source": "betting_data",
+      "description": "Sharp money on Miami Hurricanes"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.6,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to follow_sharp",
+    "pick": "DOG +29.5 (sharp fade)"
+  },
+  "conspiracy_probability": 0.51,
+  "analysis_timestamp": "2025-10-25T17:18:25.996344"
+}

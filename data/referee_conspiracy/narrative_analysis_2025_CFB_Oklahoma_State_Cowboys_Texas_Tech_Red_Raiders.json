@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_Oklahoma_State_Cowboys_Texas_Tech_Red_Raiders",
+  "teams": "Oklahoma State Cowboys @ Texas Tech Red Raiders",
+  "narrative_signals": [
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.7,
+      "source": "betting_data",
+      "description": "Sharp money on Texas Tech Red Raiders"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.7,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to follow_sharp",
+    "pick": "DOG +50.5 (sharp fade)"
+  },
+  "conspiracy_probability": 0.595,
+  "analysis_timestamp": "2025-10-25T17:18:20.724345"
+}

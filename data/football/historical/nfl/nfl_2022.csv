@@ -1,0 +1,285 @@
+game_id,season,week,date,home_team,away_team,home_score,away_score,spread,total,odds,actual_result,edge_value,confidence
+2022_Buffalo_Bills_Los_Angeles_Rams_2022-09-08,2022,,2022-09-08,Los Angeles Rams,Buffalo Bills,10,31,0.0,41.0,-110,0,0.02,0.55
+2022_New_Orleans_Saints_Atlanta_Falcons_2022-09-11,2022,,2022-09-11,Atlanta Falcons,New Orleans Saints,26,27,0.0,53.0,-110,0,0.02,0.55
+2022_Cleveland_Browns_Carolina_Panthers_2022-09-11,2022,,2022-09-11,Carolina Panthers,Cleveland Browns,24,26,0.0,50.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Chicago_Bears_2022-09-11,2022,,2022-09-11,Chicago Bears,San Francisco 49ers,19,10,0.0,29.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Cincinnati_Bengals_2022-09-11,2022,,2022-09-11,Cincinnati Bengals,Pittsburgh Steelers,20,23,0.0,43.0,-110,0,0.02,0.55
+2022_Indianapolis_Colts_Houston_Texans_2022-09-11,2022,,2022-09-11,Houston Texans,Indianapolis Colts,20,20,0.0,40.0,-110,0,0.02,0.55
+2022_Philadelphia_Eagles_Detroit_Lions_2022-09-11,2022,,2022-09-11,Detroit Lions,Philadelphia Eagles,35,38,0.0,73.0,-110,0,0.02,0.55
+2022_Jacksonville_Jaguars_Washington_Commanders_2022-09-11,2022,,2022-09-11,Washington Commanders,Jacksonville Jaguars,28,22,0.0,50.0,-110,1,0.02,0.55
+2022_New_England_Patriots_Miami_Dolphins_2022-09-11,2022,,2022-09-11,Miami Dolphins,New England Patriots,20,7,0.0,27.0,-110,1,0.02,0.55
+2022_Baltimore_Ravens_New_York_Jets_2022-09-11,2022,,2022-09-11,New York Jets,Baltimore Ravens,9,24,0.0,33.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Arizona_Cardinals_2022-09-11,2022,,2022-09-11,Arizona Cardinals,Kansas City Chiefs,21,44,0.0,65.0,-110,0,0.02,0.55
+2022_Green_Bay_Packers_Minnesota_Vikings_2022-09-11,2022,,2022-09-11,Minnesota Vikings,Green Bay Packers,23,7,0.0,30.0,-110,1,0.02,0.55
+2022_New_York_Giants_Tennessee_Titans_2022-09-11,2022,,2022-09-11,Tennessee Titans,New York Giants,20,21,0.0,41.0,-110,0,0.02,0.55
+2022_Las_Vegas_Raiders_Los_Angeles_Chargers_2022-09-11,2022,,2022-09-11,Los Angeles Chargers,Las Vegas Raiders,24,19,0.0,43.0,-110,1,0.02,0.55
+2022_Tampa_Bay_Buccaneers_Dallas_Cowboys_2022-09-11,2022,,2022-09-11,Dallas Cowboys,Tampa Bay Buccaneers,3,19,0.0,22.0,-110,0,0.02,0.55
+2022_Denver_Broncos_Seattle_Seahawks_2022-09-12,2022,,2022-09-12,Seattle Seahawks,Denver Broncos,17,16,0.0,33.0,-110,1,0.02,0.55
+2022_Los_Angeles_Chargers_Kansas_City_Chiefs_2022-09-15,2022,,2022-09-15,Kansas City Chiefs,Los Angeles Chargers,27,24,0.0,51.0,-110,1,0.02,0.55
+2022_Carolina_Panthers_New_York_Giants_2022-09-18,2022,,2022-09-18,New York Giants,Carolina Panthers,19,16,0.0,35.0,-110,1,0.02,0.55
+2022_New_York_Jets_Cleveland_Browns_2022-09-18,2022,,2022-09-18,Cleveland Browns,New York Jets,30,31,0.0,61.0,-110,0,0.02,0.55
+2022_Indianapolis_Colts_Jacksonville_Jaguars_2022-09-18,2022,,2022-09-18,Jacksonville Jaguars,Indianapolis Colts,24,0,0.0,24.0,-110,1,0.02,0.55
+2022_Washington_Commanders_Detroit_Lions_2022-09-18,2022,,2022-09-18,Detroit Lions,Washington Commanders,36,27,0.0,63.0,-110,1,0.02,0.55
+2022_Miami_Dolphins_Baltimore_Ravens_2022-09-18,2022,,2022-09-18,Baltimore Ravens,Miami Dolphins,38,42,0.0,80.0,-110,0,0.02,0.55
+2022_Tampa_Bay_Buccaneers_New_Orleans_Saints_2022-09-18,2022,,2022-09-18,New Orleans Saints,Tampa Bay Buccaneers,10,20,0.0,30.0,-110,0,0.02,0.55
+2022_New_England_Patriots_Pittsburgh_Steelers_2022-09-18,2022,,2022-09-18,Pittsburgh Steelers,New England Patriots,14,17,0.0,31.0,-110,0,0.02,0.55
+2022_Atlanta_Falcons_Los_Angeles_Rams_2022-09-18,2022,,2022-09-18,Los Angeles Rams,Atlanta Falcons,31,27,0.0,58.0,-110,1,0.02,0.55
+2022_Seattle_Seahawks_San_Francisco_49ers_2022-09-18,2022,,2022-09-18,San Francisco 49ers,Seattle Seahawks,27,7,0.0,34.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_Dallas_Cowboys_2022-09-18,2022,,2022-09-18,Dallas Cowboys,Cincinnati Bengals,20,17,0.0,37.0,-110,1,0.02,0.55
+2022_Arizona_Cardinals_Las_Vegas_Raiders_2022-09-18,2022,,2022-09-18,Las Vegas Raiders,Arizona Cardinals,23,29,0.0,52.0,-110,0,0.02,0.55
+2022_Houston_Texans_Denver_Broncos_2022-09-18,2022,,2022-09-18,Denver Broncos,Houston Texans,16,9,0.0,25.0,-110,1,0.02,0.55
+2022_Chicago_Bears_Green_Bay_Packers_2022-09-18,2022,,2022-09-18,Green Bay Packers,Chicago Bears,27,10,0.0,37.0,-110,1,0.02,0.55
+2022_Tennessee_Titans_Buffalo_Bills_2022-09-19,2022,,2022-09-19,Buffalo Bills,Tennessee Titans,41,7,0.0,48.0,-110,1,0.02,0.55
+2022_Minnesota_Vikings_Philadelphia_Eagles_2022-09-19,2022,,2022-09-19,Philadelphia Eagles,Minnesota Vikings,24,7,0.0,31.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Cleveland_Browns_2022-09-22,2022,,2022-09-22,Cleveland Browns,Pittsburgh Steelers,29,17,0.0,46.0,-110,1,0.02,0.55
+2022_Buffalo_Bills_Miami_Dolphins_2022-09-25,2022,,2022-09-25,Miami Dolphins,Buffalo Bills,21,19,0.0,40.0,-110,1,0.02,0.55
+2022_New_Orleans_Saints_Carolina_Panthers_2022-09-25,2022,,2022-09-25,Carolina Panthers,New Orleans Saints,22,14,0.0,36.0,-110,1,0.02,0.55
+2022_Houston_Texans_Chicago_Bears_2022-09-25,2022,,2022-09-25,Chicago Bears,Houston Texans,23,20,0.0,43.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_New_York_Jets_2022-09-25,2022,,2022-09-25,New York Jets,Cincinnati Bengals,12,27,0.0,39.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Indianapolis_Colts_2022-09-25,2022,,2022-09-25,Indianapolis Colts,Kansas City Chiefs,20,17,0.0,37.0,-110,1,0.02,0.55
+2022_Detroit_Lions_Minnesota_Vikings_2022-09-25,2022,,2022-09-25,Minnesota Vikings,Detroit Lions,28,24,0.0,52.0,-110,1,0.02,0.55
+2022_Baltimore_Ravens_New_England_Patriots_2022-09-25,2022,,2022-09-25,New England Patriots,Baltimore Ravens,26,37,0.0,63.0,-110,0,0.02,0.55
+2022_Las_Vegas_Raiders_Tennessee_Titans_2022-09-25,2022,,2022-09-25,Tennessee Titans,Las Vegas Raiders,24,22,0.0,46.0,-110,1,0.02,0.55
+2022_Philadelphia_Eagles_Washington_Commanders_2022-09-25,2022,,2022-09-25,Washington Commanders,Philadelphia Eagles,8,24,0.0,32.0,-110,0,0.02,0.55
+2022_Jacksonville_Jaguars_Los_Angeles_Chargers_2022-09-25,2022,,2022-09-25,Los Angeles Chargers,Jacksonville Jaguars,10,38,0.0,48.0,-110,0,0.02,0.55
+2022_Atlanta_Falcons_Seattle_Seahawks_2022-09-25,2022,,2022-09-25,Seattle Seahawks,Atlanta Falcons,23,27,0.0,50.0,-110,0,0.02,0.55
+2022_Los_Angeles_Rams_Arizona_Cardinals_2022-09-25,2022,,2022-09-25,Arizona Cardinals,Los Angeles Rams,12,20,0.0,32.0,-110,0,0.02,0.55
+2022_Green_Bay_Packers_Tampa_Bay_Buccaneers_2022-09-25,2022,,2022-09-25,Tampa Bay Buccaneers,Green Bay Packers,12,14,0.0,26.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Denver_Broncos_2022-09-25,2022,,2022-09-25,Denver Broncos,San Francisco 49ers,11,10,0.0,21.0,-110,1,0.02,0.55
+2022_Dallas_Cowboys_New_York_Giants_2022-09-26,2022,,2022-09-26,New York Giants,Dallas Cowboys,16,23,0.0,39.0,-110,0,0.02,0.55
+2022_Miami_Dolphins_Cincinnati_Bengals_2022-09-29,2022,,2022-09-29,Cincinnati Bengals,Miami Dolphins,27,15,0.0,42.0,-110,1,0.02,0.55
+2022_Minnesota_Vikings_New_Orleans_Saints_2022-10-02,2022,,2022-10-02,New Orleans Saints,Minnesota Vikings,25,28,0.0,53.0,-110,0,0.02,0.55
+2022_Cleveland_Browns_Atlanta_Falcons_2022-10-02,2022,,2022-10-02,Atlanta Falcons,Cleveland Browns,23,20,0.0,43.0,-110,1,0.02,0.55
+2022_Buffalo_Bills_Baltimore_Ravens_2022-10-02,2022,,2022-10-02,Baltimore Ravens,Buffalo Bills,20,23,0.0,43.0,-110,0,0.02,0.55
+2022_Chicago_Bears_New_York_Giants_2022-10-02,2022,,2022-10-02,New York Giants,Chicago Bears,20,12,0.0,32.0,-110,1,0.02,0.55
+2022_Tennessee_Titans_Indianapolis_Colts_2022-10-02,2022,,2022-10-02,Indianapolis Colts,Tennessee Titans,17,24,0.0,41.0,-110,0,0.02,0.55
+2022_Washington_Commanders_Dallas_Cowboys_2022-10-02,2022,,2022-10-02,Dallas Cowboys,Washington Commanders,25,10,0.0,35.0,-110,1,0.02,0.55
+2022_Seattle_Seahawks_Detroit_Lions_2022-10-02,2022,,2022-10-02,Detroit Lions,Seattle Seahawks,45,48,0.0,93.0,-110,0,0.02,0.55
+2022_Los_Angeles_Chargers_Houston_Texans_2022-10-02,2022,,2022-10-02,Houston Texans,Los Angeles Chargers,24,34,0.0,58.0,-110,0,0.02,0.55
+2022_Jacksonville_Jaguars_Philadelphia_Eagles_2022-10-02,2022,,2022-10-02,Philadelphia Eagles,Jacksonville Jaguars,29,21,0.0,50.0,-110,1,0.02,0.55
+2022_New_York_Jets_Pittsburgh_Steelers_2022-10-02,2022,,2022-10-02,Pittsburgh Steelers,New York Jets,20,24,0.0,44.0,-110,0,0.02,0.55
+2022_Arizona_Cardinals_Carolina_Panthers_2022-10-02,2022,,2022-10-02,Carolina Panthers,Arizona Cardinals,16,26,0.0,42.0,-110,0,0.02,0.55
+2022_Denver_Broncos_Las_Vegas_Raiders_2022-10-02,2022,,2022-10-02,Las Vegas Raiders,Denver Broncos,32,23,0.0,55.0,-110,1,0.02,0.55
+2022_New_England_Patriots_Green_Bay_Packers_2022-10-02,2022,,2022-10-02,Green Bay Packers,New England Patriots,27,24,0.0,51.0,-110,1,0.02,0.55
+2022_Kansas_City_Chiefs_Tampa_Bay_Buccaneers_2022-10-02,2022,,2022-10-02,Tampa Bay Buccaneers,Kansas City Chiefs,31,41,0.0,72.0,-110,0,0.02,0.55
+2022_Los_Angeles_Rams_San_Francisco_49ers_2022-10-03,2022,,2022-10-03,San Francisco 49ers,Los Angeles Rams,24,9,0.0,33.0,-110,1,0.02,0.55
+2022_Indianapolis_Colts_Denver_Broncos_2022-10-06,2022,,2022-10-06,Denver Broncos,Indianapolis Colts,9,12,0.0,21.0,-110,0,0.02,0.55
+2022_New_York_Giants_Green_Bay_Packers_2022-10-09,2022,,2022-10-09,Green Bay Packers,New York Giants,22,27,0.0,49.0,-110,0,0.02,0.55
+2022_Atlanta_Falcons_Tampa_Bay_Buccaneers_2022-10-09,2022,,2022-10-09,Tampa Bay Buccaneers,Atlanta Falcons,21,15,0.0,36.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Buffalo_Bills_2022-10-09,2022,,2022-10-09,Buffalo Bills,Pittsburgh Steelers,38,3,0.0,41.0,-110,1,0.02,0.55
+2022_Chicago_Bears_Minnesota_Vikings_2022-10-09,2022,,2022-10-09,Minnesota Vikings,Chicago Bears,29,22,0.0,51.0,-110,1,0.02,0.55
+2022_Los_Angeles_Chargers_Cleveland_Browns_2022-10-09,2022,,2022-10-09,Cleveland Browns,Los Angeles Chargers,28,30,0.0,58.0,-110,0,0.02,0.55
+2022_Detroit_Lions_New_England_Patriots_2022-10-09,2022,,2022-10-09,New England Patriots,Detroit Lions,29,0,0.0,29.0,-110,1,0.02,0.55
+2022_Houston_Texans_Jacksonville_Jaguars_2022-10-09,2022,,2022-10-09,Jacksonville Jaguars,Houston Texans,6,13,0.0,19.0,-110,0,0.02,0.55
+2022_Miami_Dolphins_New_York_Jets_2022-10-09,2022,,2022-10-09,New York Jets,Miami Dolphins,40,17,0.0,57.0,-110,1,0.02,0.55
+2022_Seattle_Seahawks_New_Orleans_Saints_2022-10-09,2022,,2022-10-09,New Orleans Saints,Seattle Seahawks,39,32,0.0,71.0,-110,1,0.02,0.55
+2022_Tennessee_Titans_Washington_Commanders_2022-10-09,2022,,2022-10-09,Washington Commanders,Tennessee Titans,17,21,0.0,38.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Carolina_Panthers_2022-10-09,2022,,2022-10-09,Carolina Panthers,San Francisco 49ers,15,37,0.0,52.0,-110,0,0.02,0.55
+2022_Philadelphia_Eagles_Arizona_Cardinals_2022-10-09,2022,,2022-10-09,Arizona Cardinals,Philadelphia Eagles,17,20,0.0,37.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_Los_Angeles_Rams_2022-10-09,2022,,2022-10-09,Los Angeles Rams,Dallas Cowboys,10,22,0.0,32.0,-110,0,0.02,0.55
+2022_Cincinnati_Bengals_Baltimore_Ravens_2022-10-09,2022,,2022-10-09,Baltimore Ravens,Cincinnati Bengals,19,17,0.0,36.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_Kansas_City_Chiefs_2022-10-10,2022,,2022-10-10,Kansas City Chiefs,Las Vegas Raiders,30,29,0.0,59.0,-110,1,0.02,0.55
+2022_Washington_Commanders_Chicago_Bears_2022-10-13,2022,,2022-10-13,Chicago Bears,Washington Commanders,7,12,0.0,19.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Atlanta_Falcons_2022-10-16,2022,,2022-10-16,Atlanta Falcons,San Francisco 49ers,28,14,0.0,42.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_New_Orleans_Saints_2022-10-16,2022,,2022-10-16,New Orleans Saints,Cincinnati Bengals,26,30,0.0,56.0,-110,0,0.02,0.55
+2022_New_England_Patriots_Cleveland_Browns_2022-10-16,2022,,2022-10-16,Cleveland Browns,New England Patriots,15,38,0.0,53.0,-110,0,0.02,0.55
+2022_Jacksonville_Jaguars_Indianapolis_Colts_2022-10-16,2022,,2022-10-16,Indianapolis Colts,Jacksonville Jaguars,34,27,0.0,61.0,-110,1,0.02,0.55
+2022_New_York_Jets_Green_Bay_Packers_2022-10-16,2022,,2022-10-16,Green Bay Packers,New York Jets,10,27,0.0,37.0,-110,0,0.02,0.55
+2022_Minnesota_Vikings_Miami_Dolphins_2022-10-16,2022,,2022-10-16,Miami Dolphins,Minnesota Vikings,16,24,0.0,40.0,-110,0,0.02,0.55
+2022_Baltimore_Ravens_New_York_Giants_2022-10-16,2022,,2022-10-16,New York Giants,Baltimore Ravens,24,20,0.0,44.0,-110,1,0.02,0.55
+2022_Tampa_Bay_Buccaneers_Pittsburgh_Steelers_2022-10-16,2022,,2022-10-16,Pittsburgh Steelers,Tampa Bay Buccaneers,20,18,0.0,38.0,-110,1,0.02,0.55
+2022_Carolina_Panthers_Los_Angeles_Rams_2022-10-16,2022,,2022-10-16,Los Angeles Rams,Carolina Panthers,24,10,0.0,34.0,-110,1,0.02,0.55
+2022_Arizona_Cardinals_Seattle_Seahawks_2022-10-16,2022,,2022-10-16,Seattle Seahawks,Arizona Cardinals,19,9,0.0,28.0,-110,1,0.02,0.55
+2022_Buffalo_Bills_Kansas_City_Chiefs_2022-10-16,2022,,2022-10-16,Kansas City Chiefs,Buffalo Bills,20,24,0.0,44.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_Philadelphia_Eagles_2022-10-16,2022,,2022-10-16,Philadelphia Eagles,Dallas Cowboys,26,17,0.0,43.0,-110,1,0.02,0.55
+2022_Denver_Broncos_Los_Angeles_Chargers_2022-10-17,2022,,2022-10-17,Los Angeles Chargers,Denver Broncos,19,16,0.0,35.0,-110,1,0.02,0.55
+2022_New_Orleans_Saints_Arizona_Cardinals_2022-10-20,2022,,2022-10-20,Arizona Cardinals,New Orleans Saints,42,34,0.0,76.0,-110,1,0.02,0.55
+2022_Atlanta_Falcons_Cincinnati_Bengals_2022-10-23,2022,,2022-10-23,Cincinnati Bengals,Atlanta Falcons,35,17,0.0,52.0,-110,1,0.02,0.55
+2022_Tampa_Bay_Buccaneers_Carolina_Panthers_2022-10-23,2022,,2022-10-23,Carolina Panthers,Tampa Bay Buccaneers,21,3,0.0,24.0,-110,1,0.02,0.55
+2022_Cleveland_Browns_Baltimore_Ravens_2022-10-23,2022,,2022-10-23,Baltimore Ravens,Cleveland Browns,23,20,0.0,43.0,-110,1,0.02,0.55
+2022_Indianapolis_Colts_Tennessee_Titans_2022-10-23,2022,,2022-10-23,Tennessee Titans,Indianapolis Colts,19,10,0.0,29.0,-110,1,0.02,0.55
+2022_Detroit_Lions_Dallas_Cowboys_2022-10-23,2022,,2022-10-23,Dallas Cowboys,Detroit Lions,24,6,0.0,30.0,-110,1,0.02,0.55
+2022_Green_Bay_Packers_Washington_Commanders_2022-10-23,2022,,2022-10-23,Washington Commanders,Green Bay Packers,23,21,0.0,44.0,-110,1,0.02,0.55
+2022_New_York_Giants_Jacksonville_Jaguars_2022-10-23,2022,,2022-10-23,Jacksonville Jaguars,New York Giants,17,23,0.0,40.0,-110,0,0.02,0.55
+2022_Houston_Texans_Las_Vegas_Raiders_2022-10-23,2022,,2022-10-23,Las Vegas Raiders,Houston Texans,38,20,0.0,58.0,-110,1,0.02,0.55
+2022_New_York_Jets_Denver_Broncos_2022-10-23,2022,,2022-10-23,Denver Broncos,New York Jets,9,16,0.0,25.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_San_Francisco_49ers_2022-10-23,2022,,2022-10-23,San Francisco 49ers,Kansas City Chiefs,23,44,0.0,67.0,-110,0,0.02,0.55
+2022_Seattle_Seahawks_Los_Angeles_Chargers_2022-10-23,2022,,2022-10-23,Los Angeles Chargers,Seattle Seahawks,23,37,0.0,60.0,-110,0,0.02,0.55
+2022_Pittsburgh_Steelers_Miami_Dolphins_2022-10-23,2022,,2022-10-23,Miami Dolphins,Pittsburgh Steelers,16,10,0.0,26.0,-110,1,0.02,0.55
+2022_Chicago_Bears_New_England_Patriots_2022-10-24,2022,,2022-10-24,New England Patriots,Chicago Bears,14,33,0.0,47.0,-110,0,0.02,0.55
+2022_Baltimore_Ravens_Tampa_Bay_Buccaneers_2022-10-27,2022,,2022-10-27,Tampa Bay Buccaneers,Baltimore Ravens,22,27,0.0,49.0,-110,0,0.02,0.55
+2022_Denver_Broncos_Jacksonville_Jaguars_2022-10-30,2022,,2022-10-30,Jacksonville Jaguars,Denver Broncos,17,21,0.0,38.0,-110,0,0.02,0.55
+2022_Miami_Dolphins_Detroit_Lions_2022-10-30,2022,,2022-10-30,Detroit Lions,Miami Dolphins,27,31,0.0,58.0,-110,0,0.02,0.55
+2022_Pittsburgh_Steelers_Philadelphia_Eagles_2022-10-30,2022,,2022-10-30,Philadelphia Eagles,Pittsburgh Steelers,35,13,0.0,48.0,-110,1,0.02,0.55
+2022_Carolina_Panthers_Atlanta_Falcons_2022-10-30,2022,,2022-10-30,Atlanta Falcons,Carolina Panthers,37,34,0.0,71.0,-110,1,0.02,0.55
+2022_Chicago_Bears_Dallas_Cowboys_2022-10-30,2022,,2022-10-30,Dallas Cowboys,Chicago Bears,49,29,0.0,78.0,-110,1,0.02,0.55
+2022_Arizona_Cardinals_Minnesota_Vikings_2022-10-30,2022,,2022-10-30,Minnesota Vikings,Arizona Cardinals,34,26,0.0,60.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_New_Orleans_Saints_2022-10-30,2022,,2022-10-30,New Orleans Saints,Las Vegas Raiders,24,0,0.0,24.0,-110,1,0.02,0.55
+2022_New_England_Patriots_New_York_Jets_2022-10-30,2022,,2022-10-30,New York Jets,New England Patriots,17,22,0.0,39.0,-110,0,0.02,0.55
+2022_Tennessee_Titans_Houston_Texans_2022-10-30,2022,,2022-10-30,Houston Texans,Tennessee Titans,10,17,0.0,27.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Los_Angeles_Rams_2022-10-30,2022,,2022-10-30,Los Angeles Rams,San Francisco 49ers,14,31,0.0,45.0,-110,0,0.02,0.55
+2022_Washington_Commanders_Indianapolis_Colts_2022-10-30,2022,,2022-10-30,Indianapolis Colts,Washington Commanders,16,17,0.0,33.0,-110,0,0.02,0.55
+2022_New_York_Giants_Seattle_Seahawks_2022-10-30,2022,,2022-10-30,Seattle Seahawks,New York Giants,27,13,0.0,40.0,-110,1,0.02,0.55
+2022_Green_Bay_Packers_Buffalo_Bills_2022-10-30,2022,,2022-10-30,Buffalo Bills,Green Bay Packers,27,17,0.0,44.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_Cleveland_Browns_2022-10-31,2022,,2022-10-31,Cleveland Browns,Cincinnati Bengals,32,13,0.0,45.0,-110,1,0.02,0.55
+2022_Philadelphia_Eagles_Houston_Texans_2022-11-03,2022,,2022-11-03,Houston Texans,Philadelphia Eagles,17,29,0.0,46.0,-110,0,0.02,0.55
+2022_Buffalo_Bills_New_York_Jets_2022-11-06,2022,,2022-11-06,New York Jets,Buffalo Bills,20,17,0.0,37.0,-110,1,0.02,0.55
+2022_Green_Bay_Packers_Detroit_Lions_2022-11-06,2022,,2022-11-06,Detroit Lions,Green Bay Packers,15,9,0.0,24.0,-110,1,0.02,0.55
+2022_Minnesota_Vikings_Washington_Commanders_2022-11-06,2022,,2022-11-06,Washington Commanders,Minnesota Vikings,17,20,0.0,37.0,-110,0,0.02,0.55
+2022_Los_Angeles_Chargers_Atlanta_Falcons_2022-11-06,2022,,2022-11-06,Atlanta Falcons,Los Angeles Chargers,17,20,0.0,37.0,-110,0,0.02,0.55
+2022_Carolina_Panthers_Cincinnati_Bengals_2022-11-06,2022,,2022-11-06,Cincinnati Bengals,Carolina Panthers,42,21,0.0,63.0,-110,1,0.02,0.55
+2022_Miami_Dolphins_Chicago_Bears_2022-11-06,2022,,2022-11-06,Chicago Bears,Miami Dolphins,32,35,0.0,67.0,-110,0,0.02,0.55
+2022_Indianapolis_Colts_New_England_Patriots_2022-11-06,2022,,2022-11-06,New England Patriots,Indianapolis Colts,26,3,0.0,29.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_Jacksonville_Jaguars_2022-11-06,2022,,2022-11-06,Jacksonville Jaguars,Las Vegas Raiders,27,20,0.0,47.0,-110,1,0.02,0.55
+2022_Seattle_Seahawks_Arizona_Cardinals_2022-11-06,2022,,2022-11-06,Arizona Cardinals,Seattle Seahawks,21,31,0.0,52.0,-110,0,0.02,0.55
+2022_Los_Angeles_Rams_Tampa_Bay_Buccaneers_2022-11-06,2022,,2022-11-06,Tampa Bay Buccaneers,Los Angeles Rams,16,13,0.0,29.0,-110,1,0.02,0.55
+2022_Tennessee_Titans_Kansas_City_Chiefs_2022-11-06,2022,,2022-11-06,Kansas City Chiefs,Tennessee Titans,20,17,0.0,37.0,-110,1,0.02,0.55
+2022_Baltimore_Ravens_New_Orleans_Saints_2022-11-07,2022,,2022-11-07,New Orleans Saints,Baltimore Ravens,13,27,0.0,40.0,-110,0,0.02,0.55
+2022_Atlanta_Falcons_Carolina_Panthers_2022-11-10,2022,,2022-11-10,Carolina Panthers,Atlanta Falcons,25,15,0.0,40.0,-110,1,0.02,0.55
+2022_Seattle_Seahawks_Tampa_Bay_Buccaneers_2022-11-13,2022,,2022-11-13,Tampa Bay Buccaneers,Seattle Seahawks,21,16,0.0,37.0,-110,1,0.02,0.55
+2022_Minnesota_Vikings_Buffalo_Bills_2022-11-13,2022,,2022-11-13,Buffalo Bills,Minnesota Vikings,30,33,0.0,63.0,-110,0,0.02,0.55
+2022_Cleveland_Browns_Miami_Dolphins_2022-11-13,2022,,2022-11-13,Miami Dolphins,Cleveland Browns,39,17,0.0,56.0,-110,1,0.02,0.55
+2022_Denver_Broncos_Tennessee_Titans_2022-11-13,2022,,2022-11-13,Tennessee Titans,Denver Broncos,17,10,0.0,27.0,-110,1,0.02,0.55
+2022_Houston_Texans_New_York_Giants_2022-11-13,2022,,2022-11-13,New York Giants,Houston Texans,24,16,0.0,40.0,-110,1,0.02,0.55
+2022_Detroit_Lions_Chicago_Bears_2022-11-13,2022,,2022-11-13,Chicago Bears,Detroit Lions,30,31,0.0,61.0,-110,0,0.02,0.55
+2022_Jacksonville_Jaguars_Kansas_City_Chiefs_2022-11-13,2022,,2022-11-13,Kansas City Chiefs,Jacksonville Jaguars,27,17,0.0,44.0,-110,1,0.02,0.55
+2022_New_Orleans_Saints_Pittsburgh_Steelers_2022-11-13,2022,,2022-11-13,Pittsburgh Steelers,New Orleans Saints,20,10,0.0,30.0,-110,1,0.02,0.55
+2022_Indianapolis_Colts_Las_Vegas_Raiders_2022-11-13,2022,,2022-11-13,Las Vegas Raiders,Indianapolis Colts,20,25,0.0,45.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_Green_Bay_Packers_2022-11-13,2022,,2022-11-13,Green Bay Packers,Dallas Cowboys,31,28,0.0,59.0,-110,1,0.02,0.55
+2022_Arizona_Cardinals_Los_Angeles_Rams_2022-11-13,2022,,2022-11-13,Los Angeles Rams,Arizona Cardinals,17,27,0.0,44.0,-110,0,0.02,0.55
+2022_Los_Angeles_Chargers_San_Francisco_49ers_2022-11-13,2022,,2022-11-13,San Francisco 49ers,Los Angeles Chargers,22,16,0.0,38.0,-110,1,0.02,0.55
+2022_Washington_Commanders_Philadelphia_Eagles_2022-11-14,2022,,2022-11-14,Philadelphia Eagles,Washington Commanders,21,32,0.0,53.0,-110,0,0.02,0.55
+2022_Tennessee_Titans_Green_Bay_Packers_2022-11-17,2022,,2022-11-17,Green Bay Packers,Tennessee Titans,17,27,0.0,44.0,-110,0,0.02,0.55
+2022_Cleveland_Browns_Buffalo_Bills_2022-11-20,2022,,2022-11-20,Buffalo Bills,Cleveland Browns,31,23,0.0,54.0,-110,1,0.02,0.55
+2022_Detroit_Lions_New_York_Giants_2022-11-20,2022,,2022-11-20,New York Giants,Detroit Lions,18,31,0.0,49.0,-110,0,0.02,0.55
+2022_Washington_Commanders_Houston_Texans_2022-11-20,2022,,2022-11-20,Houston Texans,Washington Commanders,10,23,0.0,33.0,-110,0,0.02,0.55
+2022_New_York_Jets_New_England_Patriots_2022-11-20,2022,,2022-11-20,New England Patriots,New York Jets,10,3,0.0,13.0,-110,1,0.02,0.55
+2022_Chicago_Bears_Atlanta_Falcons_2022-11-20,2022,,2022-11-20,Atlanta Falcons,Chicago Bears,27,24,0.0,51.0,-110,1,0.02,0.55
+2022_Carolina_Panthers_Baltimore_Ravens_2022-11-20,2022,,2022-11-20,Baltimore Ravens,Carolina Panthers,13,3,0.0,16.0,-110,1,0.02,0.55
+2022_Philadelphia_Eagles_Indianapolis_Colts_2022-11-20,2022,,2022-11-20,Indianapolis Colts,Philadelphia Eagles,16,17,0.0,33.0,-110,0,0.02,0.55
+2022_Los_Angeles_Rams_New_Orleans_Saints_2022-11-20,2022,,2022-11-20,New Orleans Saints,Los Angeles Rams,27,20,0.0,47.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_Denver_Broncos_2022-11-20,2022,,2022-11-20,Denver Broncos,Las Vegas Raiders,16,22,0.0,38.0,-110,0,0.02,0.55
+2022_Cincinnati_Bengals_Pittsburgh_Steelers_2022-11-20,2022,,2022-11-20,Pittsburgh Steelers,Cincinnati Bengals,30,37,0.0,67.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_Minnesota_Vikings_2022-11-20,2022,,2022-11-20,Minnesota Vikings,Dallas Cowboys,3,40,0.0,43.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Los_Angeles_Chargers_2022-11-20,2022,,2022-11-20,Los Angeles Chargers,Kansas City Chiefs,27,30,0.0,57.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Arizona_Cardinals_2022-11-21,2022,,2022-11-21,Arizona Cardinals,San Francisco 49ers,10,38,0.0,48.0,-110,0,0.02,0.55
+2022_Buffalo_Bills_Detroit_Lions_2022-11-24,2022,,2022-11-24,Detroit Lions,Buffalo Bills,25,28,0.0,53.0,-110,0,0.02,0.55
+2022_New_York_Giants_Dallas_Cowboys_2022-11-24,2022,,2022-11-24,Dallas Cowboys,New York Giants,28,20,0.0,48.0,-110,1,0.02,0.55
+2022_New_England_Patriots_Minnesota_Vikings_2022-11-24,2022,,2022-11-24,Minnesota Vikings,New England Patriots,33,26,0.0,59.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_Tennessee_Titans_2022-11-27,2022,,2022-11-27,Tennessee Titans,Cincinnati Bengals,16,20,0.0,36.0,-110,0,0.02,0.55
+2022_Tampa_Bay_Buccaneers_Cleveland_Browns_2022-11-27,2022,,2022-11-27,Cleveland Browns,Tampa Bay Buccaneers,23,17,0.0,40.0,-110,1,0.02,0.55
+2022_Houston_Texans_Miami_Dolphins_2022-11-27,2022,,2022-11-27,Miami Dolphins,Houston Texans,30,15,0.0,45.0,-110,1,0.02,0.55
+2022_Baltimore_Ravens_Jacksonville_Jaguars_2022-11-27,2022,,2022-11-27,Jacksonville Jaguars,Baltimore Ravens,28,27,0.0,55.0,-110,1,0.02,0.55
+2022_Atlanta_Falcons_Washington_Commanders_2022-11-27,2022,,2022-11-27,Washington Commanders,Atlanta Falcons,19,13,0.0,32.0,-110,1,0.02,0.55
+2022_Denver_Broncos_Carolina_Panthers_2022-11-27,2022,,2022-11-27,Carolina Panthers,Denver Broncos,23,10,0.0,33.0,-110,1,0.02,0.55
+2022_Chicago_Bears_New_York_Jets_2022-11-27,2022,,2022-11-27,New York Jets,Chicago Bears,31,10,0.0,41.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_Seattle_Seahawks_2022-11-27,2022,,2022-11-27,Seattle Seahawks,Las Vegas Raiders,34,40,0.0,74.0,-110,0,0.02,0.55
+2022_Los_Angeles_Chargers_Arizona_Cardinals_2022-11-27,2022,,2022-11-27,Arizona Cardinals,Los Angeles Chargers,24,25,0.0,49.0,-110,0,0.02,0.55
+2022_Los_Angeles_Rams_Kansas_City_Chiefs_2022-11-27,2022,,2022-11-27,Kansas City Chiefs,Los Angeles Rams,26,10,0.0,36.0,-110,1,0.02,0.55
+2022_New_Orleans_Saints_San_Francisco_49ers_2022-11-27,2022,,2022-11-27,San Francisco 49ers,New Orleans Saints,13,0,0.0,13.0,-110,1,0.02,0.55
+2022_Green_Bay_Packers_Philadelphia_Eagles_2022-11-27,2022,,2022-11-27,Philadelphia Eagles,Green Bay Packers,40,33,0.0,73.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Indianapolis_Colts_2022-11-28,2022,,2022-11-28,Indianapolis Colts,Pittsburgh Steelers,17,24,0.0,41.0,-110,0,0.02,0.55
+2022_Buffalo_Bills_New_England_Patriots_2022-12-01,2022,,2022-12-01,New England Patriots,Buffalo Bills,10,24,0.0,34.0,-110,0,0.02,0.55
+2022_Cleveland_Browns_Houston_Texans_2022-12-04,2022,,2022-12-04,Houston Texans,Cleveland Browns,14,27,0.0,41.0,-110,0,0.02,0.55
+2022_Denver_Broncos_Baltimore_Ravens_2022-12-04,2022,,2022-12-04,Baltimore Ravens,Denver Broncos,10,9,0.0,19.0,-110,1,0.02,0.55
+2022_Jacksonville_Jaguars_Detroit_Lions_2022-12-04,2022,,2022-12-04,Detroit Lions,Jacksonville Jaguars,40,14,0.0,54.0,-110,1,0.02,0.55
+2022_New_York_Jets_Minnesota_Vikings_2022-12-04,2022,,2022-12-04,Minnesota Vikings,New York Jets,27,22,0.0,49.0,-110,1,0.02,0.55
+2022_Washington_Commanders_New_York_Giants_2022-12-04,2022,,2022-12-04,New York Giants,Washington Commanders,20,20,0.0,40.0,-110,0,0.02,0.55
+2022_Tennessee_Titans_Philadelphia_Eagles_2022-12-04,2022,,2022-12-04,Philadelphia Eagles,Tennessee Titans,35,10,0.0,45.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Atlanta_Falcons_2022-12-04,2022,,2022-12-04,Atlanta Falcons,Pittsburgh Steelers,16,19,0.0,35.0,-110,0,0.02,0.55
+2022_Green_Bay_Packers_Chicago_Bears_2022-12-04,2022,,2022-12-04,Chicago Bears,Green Bay Packers,19,28,0.0,47.0,-110,0,0.02,0.55
+2022_Miami_Dolphins_San_Francisco_49ers_2022-12-04,2022,,2022-12-04,San Francisco 49ers,Miami Dolphins,33,17,0.0,50.0,-110,1,0.02,0.55
+2022_Seattle_Seahawks_Los_Angeles_Rams_2022-12-04,2022,,2022-12-04,Los Angeles Rams,Seattle Seahawks,23,27,0.0,50.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Cincinnati_Bengals_2022-12-04,2022,,2022-12-04,Cincinnati Bengals,Kansas City Chiefs,27,24,0.0,51.0,-110,1,0.02,0.55
+2022_Los_Angeles_Chargers_Las_Vegas_Raiders_2022-12-04,2022,,2022-12-04,Las Vegas Raiders,Los Angeles Chargers,27,20,0.0,47.0,-110,1,0.02,0.55
+2022_Indianapolis_Colts_Dallas_Cowboys_2022-12-04,2022,,2022-12-04,Dallas Cowboys,Indianapolis Colts,54,19,0.0,73.0,-110,1,0.02,0.55
+2022_New_Orleans_Saints_Tampa_Bay_Buccaneers_2022-12-05,2022,,2022-12-05,Tampa Bay Buccaneers,New Orleans Saints,17,16,0.0,33.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_Los_Angeles_Rams_2022-12-08,2022,,2022-12-08,Los Angeles Rams,Las Vegas Raiders,17,16,0.0,33.0,-110,1,0.02,0.55
+2022_New_York_Jets_Buffalo_Bills_2022-12-11,2022,,2022-12-11,Buffalo Bills,New York Jets,20,12,0.0,32.0,-110,1,0.02,0.55
+2022_Cleveland_Browns_Cincinnati_Bengals_2022-12-11,2022,,2022-12-11,Cincinnati Bengals,Cleveland Browns,23,10,0.0,33.0,-110,1,0.02,0.55
+2022_Houston_Texans_Dallas_Cowboys_2022-12-11,2022,,2022-12-11,Dallas Cowboys,Houston Texans,27,23,0.0,50.0,-110,1,0.02,0.55
+2022_Minnesota_Vikings_Detroit_Lions_2022-12-11,2022,,2022-12-11,Detroit Lions,Minnesota Vikings,34,23,0.0,57.0,-110,1,0.02,0.55
+2022_Jacksonville_Jaguars_Tennessee_Titans_2022-12-11,2022,,2022-12-11,Tennessee Titans,Jacksonville Jaguars,22,36,0.0,58.0,-110,0,0.02,0.55
+2022_Philadelphia_Eagles_New_York_Giants_2022-12-11,2022,,2022-12-11,New York Giants,Philadelphia Eagles,22,48,0.0,70.0,-110,0,0.02,0.55
+2022_Baltimore_Ravens_Pittsburgh_Steelers_2022-12-11,2022,,2022-12-11,Pittsburgh Steelers,Baltimore Ravens,14,16,0.0,30.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Denver_Broncos_2022-12-11,2022,,2022-12-11,Denver Broncos,Kansas City Chiefs,28,34,0.0,62.0,-110,0,0.02,0.55
+2022_Carolina_Panthers_Seattle_Seahawks_2022-12-11,2022,,2022-12-11,Seattle Seahawks,Carolina Panthers,24,30,0.0,54.0,-110,0,0.02,0.55
+2022_Tampa_Bay_Buccaneers_San_Francisco_49ers_2022-12-11,2022,,2022-12-11,San Francisco 49ers,Tampa Bay Buccaneers,35,7,0.0,42.0,-110,1,0.02,0.55
+2022_Miami_Dolphins_Los_Angeles_Chargers_2022-12-11,2022,,2022-12-11,Los Angeles Chargers,Miami Dolphins,23,17,0.0,40.0,-110,1,0.02,0.55
+2022_New_England_Patriots_Arizona_Cardinals_2022-12-12,2022,,2022-12-12,Arizona Cardinals,New England Patriots,13,27,0.0,40.0,-110,0,0.02,0.55
+2022_San_Francisco_49ers_Seattle_Seahawks_2022-12-15,2022,,2022-12-15,Seattle Seahawks,San Francisco 49ers,13,21,0.0,34.0,-110,0,0.02,0.55
+2022_Indianapolis_Colts_Minnesota_Vikings_2022-12-17,2022,,2022-12-17,Minnesota Vikings,Indianapolis Colts,39,36,0.0,75.0,-110,1,0.02,0.55
+2022_Baltimore_Ravens_Cleveland_Browns_2022-12-17,2022,,2022-12-17,Cleveland Browns,Baltimore Ravens,13,3,0.0,16.0,-110,1,0.02,0.55
+2022_Miami_Dolphins_Buffalo_Bills_2022-12-17,2022,,2022-12-17,Buffalo Bills,Miami Dolphins,32,29,0.0,61.0,-110,1,0.02,0.55
+2022_Atlanta_Falcons_New_Orleans_Saints_2022-12-18,2022,,2022-12-18,New Orleans Saints,Atlanta Falcons,21,18,0.0,39.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Carolina_Panthers_2022-12-18,2022,,2022-12-18,Carolina Panthers,Pittsburgh Steelers,16,24,0.0,40.0,-110,0,0.02,0.55
+2022_Philadelphia_Eagles_Chicago_Bears_2022-12-18,2022,,2022-12-18,Chicago Bears,Philadelphia Eagles,20,25,0.0,45.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_Jacksonville_Jaguars_2022-12-18,2022,,2022-12-18,Jacksonville Jaguars,Dallas Cowboys,40,34,0.0,74.0,-110,1,0.02,0.55
+2022_Detroit_Lions_New_York_Jets_2022-12-18,2022,,2022-12-18,New York Jets,Detroit Lions,17,20,0.0,37.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Houston_Texans_2022-12-18,2022,,2022-12-18,Houston Texans,Kansas City Chiefs,24,30,0.0,54.0,-110,0,0.02,0.55
+2022_Arizona_Cardinals_Denver_Broncos_2022-12-18,2022,,2022-12-18,Denver Broncos,Arizona Cardinals,24,15,0.0,39.0,-110,1,0.02,0.55
+2022_New_England_Patriots_Las_Vegas_Raiders_2022-12-18,2022,,2022-12-18,Las Vegas Raiders,New England Patriots,30,24,0.0,54.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_Tampa_Bay_Buccaneers_2022-12-18,2022,,2022-12-18,Tampa Bay Buccaneers,Cincinnati Bengals,23,34,0.0,57.0,-110,0,0.02,0.55
+2022_Tennessee_Titans_Los_Angeles_Chargers_2022-12-18,2022,,2022-12-18,Los Angeles Chargers,Tennessee Titans,17,14,0.0,31.0,-110,1,0.02,0.55
+2022_New_York_Giants_Washington_Commanders_2022-12-18,2022,,2022-12-18,Washington Commanders,New York Giants,12,20,0.0,32.0,-110,0,0.02,0.55
+2022_Los_Angeles_Rams_Green_Bay_Packers_2022-12-19,2022,,2022-12-19,Green Bay Packers,Los Angeles Rams,24,12,0.0,36.0,-110,1,0.02,0.55
+2022_Jacksonville_Jaguars_New_York_Jets_2022-12-22,2022,,2022-12-22,New York Jets,Jacksonville Jaguars,3,19,0.0,22.0,-110,0,0.02,0.55
+2022_Atlanta_Falcons_Baltimore_Ravens_2022-12-24,2022,,2022-12-24,Baltimore Ravens,Atlanta Falcons,17,9,0.0,26.0,-110,1,0.02,0.55
+2022_Buffalo_Bills_Chicago_Bears_2022-12-24,2022,,2022-12-24,Chicago Bears,Buffalo Bills,13,35,0.0,48.0,-110,0,0.02,0.55
+2022_Detroit_Lions_Carolina_Panthers_2022-12-24,2022,,2022-12-24,Carolina Panthers,Detroit Lions,37,23,0.0,60.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_New_England_Patriots_2022-12-24,2022,,2022-12-24,New England Patriots,Cincinnati Bengals,18,22,0.0,40.0,-110,0,0.02,0.55
+2022_New_Orleans_Saints_Cleveland_Browns_2022-12-24,2022,,2022-12-24,Cleveland Browns,New Orleans Saints,10,17,0.0,27.0,-110,0,0.02,0.55
+2022_Houston_Texans_Tennessee_Titans_2022-12-24,2022,,2022-12-24,Tennessee Titans,Houston Texans,14,19,0.0,33.0,-110,0,0.02,0.55
+2022_Seattle_Seahawks_Kansas_City_Chiefs_2022-12-24,2022,,2022-12-24,Kansas City Chiefs,Seattle Seahawks,24,10,0.0,34.0,-110,1,0.02,0.55
+2022_New_York_Giants_Minnesota_Vikings_2022-12-24,2022,,2022-12-24,Minnesota Vikings,New York Giants,27,24,0.0,51.0,-110,1,0.02,0.55
+2022_Washington_Commanders_San_Francisco_49ers_2022-12-24,2022,,2022-12-24,San Francisco 49ers,Washington Commanders,37,20,0.0,57.0,-110,1,0.02,0.55
+2022_Philadelphia_Eagles_Dallas_Cowboys_2022-12-24,2022,,2022-12-24,Dallas Cowboys,Philadelphia Eagles,40,34,0.0,74.0,-110,1,0.02,0.55
+2022_Las_Vegas_Raiders_Pittsburgh_Steelers_2022-12-24,2022,,2022-12-24,Pittsburgh Steelers,Las Vegas Raiders,13,10,0.0,23.0,-110,1,0.02,0.55
+2022_Green_Bay_Packers_Miami_Dolphins_2022-12-25,2022,,2022-12-25,Miami Dolphins,Green Bay Packers,20,26,0.0,46.0,-110,0,0.02,0.55
+2022_Denver_Broncos_Los_Angeles_Rams_2022-12-25,2022,,2022-12-25,Los Angeles Rams,Denver Broncos,51,14,0.0,65.0,-110,1,0.02,0.55
+2022_Tampa_Bay_Buccaneers_Arizona_Cardinals_2022-12-25,2022,,2022-12-25,Arizona Cardinals,Tampa Bay Buccaneers,16,19,0.0,35.0,-110,0,0.02,0.55
+2022_Los_Angeles_Chargers_Indianapolis_Colts_2022-12-26,2022,,2022-12-26,Indianapolis Colts,Los Angeles Chargers,3,20,0.0,23.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_Tennessee_Titans_2022-12-29,2022,,2022-12-29,Tennessee Titans,Dallas Cowboys,13,27,0.0,40.0,-110,0,0.02,0.55
+2022_Arizona_Cardinals_Atlanta_Falcons_2023-01-01,2022,,2023-01-01,Atlanta Falcons,Arizona Cardinals,20,19,0.0,39.0,-110,1,0.02,0.55
+2022_Carolina_Panthers_Tampa_Bay_Buccaneers_2023-01-01,2022,,2023-01-01,Tampa Bay Buccaneers,Carolina Panthers,30,24,0.0,54.0,-110,1,0.02,0.55
+2022_Chicago_Bears_Detroit_Lions_2023-01-01,2022,,2023-01-01,Detroit Lions,Chicago Bears,41,10,0.0,51.0,-110,1,0.02,0.55
+2022_Cleveland_Browns_Washington_Commanders_2023-01-01,2022,,2023-01-01,Washington Commanders,Cleveland Browns,10,24,0.0,34.0,-110,0,0.02,0.55
+2022_Indianapolis_Colts_New_York_Giants_2023-01-01,2022,,2023-01-01,New York Giants,Indianapolis Colts,38,10,0.0,48.0,-110,1,0.02,0.55
+2022_Denver_Broncos_Kansas_City_Chiefs_2023-01-01,2022,,2023-01-01,Kansas City Chiefs,Denver Broncos,27,24,0.0,51.0,-110,1,0.02,0.55
+2022_Jacksonville_Jaguars_Houston_Texans_2023-01-01,2022,,2023-01-01,Houston Texans,Jacksonville Jaguars,3,31,0.0,34.0,-110,0,0.02,0.55
+2022_Miami_Dolphins_New_England_Patriots_2023-01-01,2022,,2023-01-01,New England Patriots,Miami Dolphins,23,21,0.0,44.0,-110,1,0.02,0.55
+2022_New_Orleans_Saints_Philadelphia_Eagles_2023-01-01,2022,,2023-01-01,Philadelphia Eagles,New Orleans Saints,10,20,0.0,30.0,-110,0,0.02,0.55
+2022_New_York_Jets_Seattle_Seahawks_2023-01-01,2022,,2023-01-01,Seattle Seahawks,New York Jets,23,6,0.0,29.0,-110,1,0.02,0.55
+2022_San_Francisco_49ers_Las_Vegas_Raiders_2023-01-01,2022,,2023-01-01,Las Vegas Raiders,San Francisco 49ers,34,37,0.0,71.0,-110,0,0.02,0.55
+2022_Minnesota_Vikings_Green_Bay_Packers_2023-01-01,2022,,2023-01-01,Green Bay Packers,Minnesota Vikings,41,17,0.0,58.0,-110,1,0.02,0.55
+2022_Los_Angeles_Rams_Los_Angeles_Chargers_2023-01-01,2022,,2023-01-01,Los Angeles Chargers,Los Angeles Rams,31,10,0.0,41.0,-110,1,0.02,0.55
+2022_Pittsburgh_Steelers_Baltimore_Ravens_2023-01-01,2022,,2023-01-01,Baltimore Ravens,Pittsburgh Steelers,13,16,0.0,29.0,-110,0,0.02,0.55
+2022_Kansas_City_Chiefs_Las_Vegas_Raiders_2023-01-07,2022,,2023-01-07,Las Vegas Raiders,Kansas City Chiefs,13,31,0.0,44.0,-110,0,0.02,0.55
+2022_Tennessee_Titans_Jacksonville_Jaguars_2023-01-07,2022,,2023-01-07,Jacksonville Jaguars,Tennessee Titans,20,16,0.0,36.0,-110,1,0.02,0.55
+2022_New_England_Patriots_Buffalo_Bills_2023-01-08,2022,,2023-01-08,Buffalo Bills,New England Patriots,35,23,0.0,58.0,-110,1,0.02,0.55
+2022_Baltimore_Ravens_Cincinnati_Bengals_2023-01-08,2022,,2023-01-08,Cincinnati Bengals,Baltimore Ravens,27,16,0.0,43.0,-110,1,0.02,0.55
+2022_Tampa_Bay_Buccaneers_Atlanta_Falcons_2023-01-08,2022,,2023-01-08,Atlanta Falcons,Tampa Bay Buccaneers,30,17,0.0,47.0,-110,1,0.02,0.55
+2022_Carolina_Panthers_New_Orleans_Saints_2023-01-08,2022,,2023-01-08,New Orleans Saints,Carolina Panthers,7,10,0.0,17.0,-110,0,0.02,0.55
+2022_Minnesota_Vikings_Chicago_Bears_2023-01-08,2022,,2023-01-08,Chicago Bears,Minnesota Vikings,13,29,0.0,42.0,-110,0,0.02,0.55
+2022_Cleveland_Browns_Pittsburgh_Steelers_2023-01-08,2022,,2023-01-08,Pittsburgh Steelers,Cleveland Browns,28,14,0.0,42.0,-110,1,0.02,0.55
+2022_Houston_Texans_Indianapolis_Colts_2023-01-08,2022,,2023-01-08,Indianapolis Colts,Houston Texans,31,32,0.0,63.0,-110,0,0.02,0.55
+2022_New_York_Jets_Miami_Dolphins_2023-01-08,2022,,2023-01-08,Miami Dolphins,New York Jets,11,6,0.0,17.0,-110,1,0.02,0.55
+2022_Arizona_Cardinals_San_Francisco_49ers_2023-01-08,2022,,2023-01-08,San Francisco 49ers,Arizona Cardinals,38,13,0.0,51.0,-110,1,0.02,0.55
+2022_Dallas_Cowboys_Washington_Commanders_2023-01-08,2022,,2023-01-08,Washington Commanders,Dallas Cowboys,26,6,0.0,32.0,-110,1,0.02,0.55
+2022_Los_Angeles_Chargers_Denver_Broncos_2023-01-08,2022,,2023-01-08,Denver Broncos,Los Angeles Chargers,31,28,0.0,59.0,-110,1,0.02,0.55
+2022_New_York_Giants_Philadelphia_Eagles_2023-01-08,2022,,2023-01-08,Philadelphia Eagles,New York Giants,22,16,0.0,38.0,-110,1,0.02,0.55
+2022_Los_Angeles_Rams_Seattle_Seahawks_2023-01-08,2022,,2023-01-08,Seattle Seahawks,Los Angeles Rams,19,16,0.0,35.0,-110,1,0.02,0.55
+2022_Detroit_Lions_Green_Bay_Packers_2023-01-08,2022,,2023-01-08,Green Bay Packers,Detroit Lions,16,20,0.0,36.0,-110,0,0.02,0.55
+2022_Seattle_Seahawks_San_Francisco_49ers_2023-01-14,2022,,2023-01-14,San Francisco 49ers,Seattle Seahawks,41,23,0.0,64.0,-110,1,0.02,0.55
+2022_Los_Angeles_Chargers_Jacksonville_Jaguars_2023-01-14,2022,,2023-01-14,Jacksonville Jaguars,Los Angeles Chargers,31,30,0.0,61.0,-110,1,0.02,0.55
+2022_Miami_Dolphins_Buffalo_Bills_2023-01-15,2022,,2023-01-15,Buffalo Bills,Miami Dolphins,34,31,0.0,65.0,-110,1,0.02,0.55
+2022_New_York_Giants_Minnesota_Vikings_2023-01-15,2022,,2023-01-15,Minnesota Vikings,New York Giants,24,31,0.0,55.0,-110,0,0.02,0.55
+2022_Baltimore_Ravens_Cincinnati_Bengals_2023-01-15,2022,,2023-01-15,Cincinnati Bengals,Baltimore Ravens,24,17,0.0,41.0,-110,1,0.02,0.55
+2022_Dallas_Cowboys_Tampa_Bay_Buccaneers_2023-01-16,2022,,2023-01-16,Tampa Bay Buccaneers,Dallas Cowboys,14,31,0.0,45.0,-110,0,0.02,0.55
+2022_Jacksonville_Jaguars_Kansas_City_Chiefs_2023-01-21,2022,,2023-01-21,Kansas City Chiefs,Jacksonville Jaguars,27,20,0.0,47.0,-110,1,0.02,0.55
+2022_New_York_Giants_Philadelphia_Eagles_2023-01-21,2022,,2023-01-21,Philadelphia Eagles,New York Giants,38,7,0.0,45.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_Buffalo_Bills_2023-01-22,2022,,2023-01-22,Buffalo Bills,Cincinnati Bengals,10,27,0.0,37.0,-110,0,0.02,0.55
+2022_Dallas_Cowboys_San_Francisco_49ers_2023-01-22,2022,,2023-01-22,San Francisco 49ers,Dallas Cowboys,19,12,0.0,31.0,-110,1,0.02,0.55
+2022_San_Francisco_49ers_Philadelphia_Eagles_2023-01-29,2022,,2023-01-29,Philadelphia Eagles,San Francisco 49ers,31,7,0.0,38.0,-110,1,0.02,0.55
+2022_Cincinnati_Bengals_Kansas_City_Chiefs_2023-01-29,2022,,2023-01-29,Kansas City Chiefs,Cincinnati Bengals,23,20,0.0,43.0,-110,1,0.02,0.55
+2022_Philadelphia_Eagles_Kansas_City_Chiefs_2023-02-12,2022,,2023-02-12,Kansas City Chiefs,Philadelphia Eagles,38,35,0.0,73.0,-110,1,0.02,0.55

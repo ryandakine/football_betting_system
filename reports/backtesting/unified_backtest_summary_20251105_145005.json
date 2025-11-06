@@ -1,0 +1,45 @@
+{
+  "generated_at": "20251105_145005",
+  "schema_version": "2.0",
+  "seasons": {
+    "start": 2023,
+    "end": 2023
+  },
+  "metrics": {
+    "schema_version": "2.0",
+    "games": 272,
+    "markets": {
+      "spread": {
+        "bets": 272,
+        "wins": 137,
+        "losses": 135,
+        "pushes": 0,
+        "win_rate": 0.5036764705882353,
+        "roi": -0.1935555555555555,
+        "total_profit": -0.5225999999999998,
+        "total_staked": 2.6999999999999997
+      }
+    },
+    "by_season": {
+      "spread": [
+        {
+          "season": 2023,
+          "bets": 272,
+          "wins": 137,
+          "win_rate": 0.5036764705882353,
+          "profit": -0.5225999999999998,
+          "roi": -0.1935555555555555
+        }
+      ]
+    },
+    "risk_metrics": {
+      "spread": {
+        "sharpe": -1.2921815244838206,
+        "max_drawdown": 0.5559000000000007,
+        "calmar": -0.8898361102385258,
+        "annual_return": -0.49465989368159713
+      }
+    }
+  },
+  "referee_analysis": {}
+}

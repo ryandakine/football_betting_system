@@ -1,0 +1,312 @@
+🏈 NFL Live Game Tracking Service - 2025 Season
+🎯 Ready for September 2025 NFL season kickoff!
+==================================================
+2025-09-21 16:27:34,565 | INFO  | nfl_live_tracker | ✅ NFL tracking database initialized
+2025-09-21 16:27:34,565 | INFO  | nfl_live_tracker | 🏈 NFL Live Game Tracker initialized - Ready for 2025 Season!
+2025-09-21 16:27:34,565 | INFO  | nfl_live_tracker | 🎯 System prepared for September 2025 NFL season kickoff
+2025-09-21 16:27:34,566 | INFO  | nfl_live_tracking | 🚀 Starting NFL Live Game Tracking Service...
+2025-09-21 16:27:34,566 | INFO  | nfl_live_tracker | 🔄 Starting NFL live tracking loop...
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracker | 🧠 Starting NFL learning loop...
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracker | 🚀 NFL Live Tracking & Learning started!
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking | ✅ NFL Live Tracking Service started successfully!
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking | 📊 Monitoring live NFL games and continuously learning...
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking | 🎯 System will automatically:
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking |    • Track live game scores and stats
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking |    • Make real-time predictions
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking |    • Learn from game outcomes
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking |    • Update models continuously
+2025-09-21 16:27:34,567 | INFO  | nfl_live_tracking | 📈 Status: 1 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:27:34,580 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:28:04,605 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:28:34,630 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:29:04,658 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:29:34,681 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:30:04,703 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:30:34,724 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:31:04,752 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:31:34,780 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:32:04,805 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:32:34,643 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:32:34,825 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:33:04,849 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:33:34,886 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:34:04,922 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:34:34,943 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:35:04,963 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:35:34,983 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:36:05,007 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:36:35,032 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:37:05,070 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:37:34,735 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:37:35,091 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:38:05,118 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:38:35,146 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:39:05,182 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:39:35,211 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:40:05,234 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:40:35,254 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:41:05,275 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:41:35,297 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:42:05,318 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:42:34,836 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:42:35,341 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:43:05,366 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:43:35,398 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:44:05,430 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:44:35,461 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:45:05,489 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:45:35,521 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:46:05,552 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:46:35,589 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:47:05,669 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:47:34,944 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:47:35,737 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:48:05,925 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:48:35,983 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:49:06,026 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:49:36,064 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:50:06,129 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:50:36,155 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:51:06,177 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:51:36,211 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:52:06,238 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:52:35,069 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:52:36,262 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:53:06,287 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:53:36,312 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:54:06,339 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:54:36,361 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:55:06,388 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:55:36,412 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:56:06,438 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:56:36,465 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:57:06,489 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 16:57:35,112 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 16:57:36,511 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:01:07,212 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:01:37,557 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:02:07,589 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:02:35,113 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:02:37,615 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:03:07,637 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:03:37,664 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:04:07,689 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:04:37,719 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:05:07,746 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:05:37,767 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:06:07,800 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:06:37,824 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:07:07,849 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:07:35,214 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:07:37,873 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:08:07,896 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:08:37,916 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:09:07,939 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:09:37,959 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:10:07,985 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:10:38,013 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:11:08,038 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:11:38,062 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:12:08,085 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:12:35,292 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:12:38,152 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:13:08,178 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:13:38,201 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:14:08,226 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:14:38,249 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:15:08,272 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:15:38,295 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:16:08,318 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:16:38,338 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:17:08,361 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:17:35,403 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:17:38,389 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:18:08,409 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:18:38,433 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:19:08,459 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:19:38,483 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:20:08,502 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:20:38,521 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:21:08,541 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:21:38,565 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:22:08,588 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:22:35,486 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:22:38,611 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:23:08,631 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:23:38,654 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:24:08,678 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:24:38,705 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:25:08,728 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:25:38,752 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:26:08,774 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:26:38,798 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:27:08,821 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:27:35,587 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:27:38,845 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:28:08,868 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:28:38,892 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:29:08,916 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:29:38,936 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:30:08,960 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:30:38,980 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:31:09,003 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:31:39,031 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:32:09,061 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:32:35,687 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:32:39,083 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:33:09,109 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:33:39,132 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:34:09,155 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:34:39,178 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:35:09,201 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:35:39,221 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:36:09,244 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:36:39,267 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:37:09,290 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:37:35,788 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:37:39,315 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:38:09,345 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:38:39,373 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:39:09,392 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:39:39,415 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:40:09,434 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:40:39,453 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:41:09,481 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:41:39,500 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:42:09,523 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:42:35,888 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:42:39,547 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:43:09,570 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:43:39,597 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:44:09,620 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:44:39,646 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:45:09,665 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:45:39,688 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:46:09,712 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:46:39,735 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:47:09,758 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:47:35,986 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:47:39,781 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:48:09,804 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:48:39,827 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:49:09,850 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:49:39,882 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:50:09,905 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:50:39,928 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:51:09,950 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:51:39,970 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:52:09,993 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:52:36,081 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:52:40,012 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:53:10,035 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:53:40,058 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:54:10,081 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:54:40,108 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:55:10,133 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:55:40,156 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:56:10,181 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:56:40,205 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:57:10,225 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:57:36,173 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 17:57:40,255 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:58:10,278 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:58:40,301 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:59:10,324 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 17:59:40,348 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:00:10,370 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:00:40,431 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:01:10,454 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:01:40,478 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:02:10,501 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:02:36,252 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:02:40,520 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:03:10,584 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:03:40,648 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:04:10,672 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:04:40,690 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:05:10,709 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:05:40,728 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:06:10,752 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:06:40,775 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:07:10,795 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:07:36,291 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:07:40,818 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:08:10,841 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:08:40,860 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:09:10,884 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:09:40,906 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:10:10,966 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:10:40,997 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:11:11,022 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:11:41,048 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:12:11,071 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:12:36,380 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:12:41,094 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:13:11,137 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:13:41,161 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:14:11,183 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:14:41,207 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:15:11,230 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:15:41,249 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:16:11,272 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:16:41,295 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:17:11,318 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:17:36,471 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:17:41,346 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:18:11,369 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:18:41,429 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:19:11,452 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:19:41,475 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:20:11,539 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:20:41,562 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:21:11,585 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:21:41,608 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:22:11,631 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:22:36,572 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:22:41,651 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:23:11,674 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:23:41,736 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:24:11,759 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:24:41,782 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:25:11,806 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:25:41,830 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:26:11,856 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:26:41,881 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:27:11,921 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:27:36,687 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:27:41,955 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:28:12,054 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:28:42,109 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:29:12,156 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:29:42,214 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:30:12,242 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:30:42,274 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:31:12,306 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:31:42,333 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:32:12,355 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:32:36,780 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:32:42,389 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:33:12,464 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:33:42,553 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:34:12,629 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:34:42,739 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:35:12,784 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:35:43,116 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:36:13,366 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:36:43,495 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:37:13,541 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:37:36,892 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:37:43,564 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:38:13,585 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:38:43,607 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:39:13,628 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:39:43,701 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:40:13,967 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:40:44,422 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:41:14,547 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:41:44,646 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:42:15,214 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:42:37,058 | INFO  | nfl_live_tracking | 📈 Status: 2 active games, 0 processed, Accuracy: 0.000
+2025-09-21 18:42:45,794 | INFO  | nfl_live_tracker | 📊 Updated 2 live NFL games
+2025-09-21 18:43:13,868 | INFO  | nfl_live_tracking | 📡 Received signal 15, shutting down...
+2025-09-21 18:43:20,924 | INFO  | nfl_live_tracker | ⏹️ NFL Live Tracking stopped

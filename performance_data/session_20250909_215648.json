@@ -1,0 +1,162 @@
+{
+  "session_start": "2025-09-09T21:56:48.872184",
+  "session_end": "2025-09-09T21:56:48.872521",
+  "initial_bankroll": 1000.0,
+  "final_bankroll": 1005.4545454545455,
+  "bet_history": [
+    {
+      "bet_id": "BUF_KC_20250101_20250909215648",
+      "game_id": "BUF_KC_20250101",
+      "sport_type": "nfl",
+      "bet_type": "moneyline",
+      "selection": "BUF",
+      "odds": -110,
+      "stake": 50,
+      "expected_value": 5.5,
+      "confidence": 0.75,
+      "placed_at": "2025-09-09T21:56:48.872267",
+      "result": "won",
+      "profit": 45.45454545454545,
+      "settled_at": "2025-09-09T21:56:48.872295"
+    },
+    {
+      "bet_id": "GB_DET_20250101_20250909215648",
+      "game_id": "GB_DET_20250101",
+      "sport_type": "nfl",
+      "bet_type": "spread",
+      "selection": "GB -3.5",
+      "odds": -105,
+      "stake": 40,
+      "expected_value": 3.8,
+      "confidence": 0.68,
+      "placed_at": "2025-09-09T21:56:48.872287",
+      "result": "lost",
+      "profit": -40,
+      "settled_at": "2025-09-09T21:56:48.872304"
+    }
+  ],
+  "metrics": {
+    "total_bets": 2,
+    "bets_won": 1,
+    "bets_lost": 1,
+    "bets_pushed": 0,
+    "bets_pending": 0,
+    "total_staked": 90.0,
+    "total_profit": 5.454545454545453,
+    "roi": 6.06060606060606,
+    "average_stake": 45.0,
+    "average_odds": -107.5,
+    "win_rate": 0.5,
+    "expected_value_accuracy": 58.65102639296186,
+    "sharpe_ratio": -0.0336717514850737,
+    "max_drawdown": 0.03826086956521739,
+    "profit_factor": 1.1363636363636362,
+    "performance_by_market": {
+      "spread": {
+        "total_bets": 1,
+        "wins": 0,
+        "win_rate": 0.0,
+        "profit": -40,
+        "roi": -100.0
+      },
+      "moneyline": {
+        "total_bets": 1,
+        "wins": 1,
+        "win_rate": 1.0,
+        "profit": 45.45454545454545,
+        "roi": 90.9090909090909
+      }
+    },
+    "performance_by_confidence": {
+      "medium": {
+        "range": "60%-75%",
+        "total_bets": 1,
+        "wins": 0,
+        "win_rate": 0.0,
+        "profit": -40,
+        "roi": -100.0
+      },
+      "high": {
+        "range": "75%-85%",
+        "total_bets": 1,
+        "wins": 1,
+        "win_rate": 1.0,
+        "profit": 45.45454545454545,
+        "roi": 90.9090909090909
+      }
+    },
+    "daily_performance": [
+      {
+        "date": "2025-09-09",
+        "bets": 2,
+        "wins": 1,
+        "profit": 5.454545454545453,
+        "roi": 6.06060606060606
+      }
+    ],
+    "weekly_performance": [],
+    "monthly_performance": [],
+    "current_streak": -1,
+    "longest_win_streak": 1,
+    "longest_loss_streak": 1
+  },
+  "summary": {
+    "session_info": {
+      "start_time": "2025-09-09T21:56:48.872184",
+      "initial_bankroll": 1000.0,
+      "current_bankroll": 1005.4545454545455,
+      "profit_loss": 5.454545454545496,
+      "roi": 6.06060606060606
+    },
+    "betting_stats": {
+      "total_bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "win_rate": 0.5,
+      "profit_factor": 1.1363636363636362
+    },
+    "risk_metrics": {
+      "max_drawdown": 0.03826086956521739,
+      "sharpe_ratio": -0.0336717514850737,
+      "current_streak": -1,
+      "longest_win_streak": 1,
+      "longest_loss_streak": 1
+    },
+    "market_performance": {
+      "spread": {
+        "total_bets": 1,
+        "wins": 0,
+        "win_rate": 0.0,
+        "profit": -40,
+        "roi": -100.0
+      },
+      "moneyline": {
+        "total_bets": 1,
+        "wins": 1,
+        "win_rate": 1.0,
+        "profit": 45.45454545454545,
+        "roi": 90.9090909090909
+      }
+    },
+    "confidence_performance": {
+      "medium": {
+        "range": "60%-75%",
+        "total_bets": 1,
+        "wins": 0,
+        "win_rate": 0.0,
+        "profit": -40,
+        "roi": -100.0
+      },
+      "high": {
+        "range": "75%-85%",
+        "total_bets": 1,
+        "wins": 1,
+        "win_rate": 1.0,
+        "profit": 45.45454545454545,
+        "roi": 90.9090909090909
+      }
+    }
+  }
+}

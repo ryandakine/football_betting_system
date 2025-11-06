@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-09-19T21:18:55.526471",
+  "performance_report": "================================================================================\n\ud83d\udcca FOOTBALL BETTING SYSTEM PERFORMANCE ANALYSIS\n================================================================================\n\n\ud83d\udd27 SYSTEM RESOURCES:\n  CPU Usage: 10.5%\n  Memory Usage: 85.4%\n  Disk Usage: 14.8%\n  Active Processes: 482\n\n\ud83c\udfaf BETTING PERFORMANCE:\n  Overall ROI: 6.06%\n  Win Rate: 50.0%\n  Total Profit: $5.45\n  Total Bets: 2\n  Profit Factor: 1.14\n  Sharpe Ratio: -0.03\n  Max Drawdown: 3.8%\n  EV Accuracy: 58.7%\n\n\ud83e\uddea TEST SYSTEM PERFORMANCE:\n  Predictions Made: 0\n  Predictions Correct: 0\n  Average Edge Found: 25.50%\n  Games Analyzed: 0\n  Recommendations Generated: 3\n  Total Potential EV: $76.50\n\n\u26a0\ufe0f IDENTIFIED BOTTLENECKS:\n  1. High memory usage - consider memory optimization techniques\n\n\ud83d\udcc8 OVERALL PERFORMANCE SCORE: 72.5/100\n\ud83d\udc4d GOOD - System performing well with room for improvement\n\n================================================================================",
+  "bottlenecks": [
+    "High memory usage - consider memory optimization techniques"
+  ],
+  "recommendations": [],
+  "unified_system_performance": {
+    "avg_edge_per_game": 0.009072000000000888,
+    "success_rate": 1.0,
+    "total_games_tested": 1,
+    "successful_analyses": 1,
+    "total_edge_detected": 0.009072000000000888,
+    "system_operational": true
+  },
+  "improvement_plan": {
+    "priority_actions": [
+      "Address: High memory usage - consider memory optimization techniques"
+    ],
+    "system_optimizations": [],
+    "feature_enhancements": [
+      {
+        "action": "Enhance edge detection algorithms",
+        "details": "Improve market intelligence and behavioral analysis",
+        "priority": "High",
+        "estimated_impact": "Increase average edge by 2-3%"
+      }
+    ],
+    "monitoring_improvements": [
+      {
+        "action": "Add real-time performance dashboards",
+        "details": "Create live monitoring of system metrics",
+        "priority": "Medium",
+        "estimated_impact": "Better visibility into system performance"
+      },
+      {
+        "action": "Implement automated alerting",
+        "details": "Set up alerts for performance degradation",
+        "priority": "Medium",
+        "estimated_impact": "Faster response to issues"
+      }
+    ]
+  },
+  "monitoring_data": {
+    "session_start": "2025-09-19 21:18:50.510925",
+    "games_analyzed": 0,
+    "total_edge_detected": 0.0,
+    "recommendations_generated": 0,
+    "system_uptime": 0.0
+  }
+}

@@ -1,0 +1,1191 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": 27,
+        "title": "Establish Project Repository and Initial Setup",
+        "description": "Create the version-controlled repository and set up the foundational project structure as per technical architecture requirements.",
+        "details": "Initialize a Git repository. Set up the base directory structure for backend, frontend, and documentation. Configure code linting, formatting, and pre-commit hooks. Add a README with project overview and contribution guidelines. Ensure the repository is accessible to all team members.",
+        "testStrategy": "Verify repository accessibility, correct directory structure, and successful execution of linting/formatting tools.",
+        "priority": "high",
+        "dependencies": [],
+        "status": "in-progress",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Initialize Git Repository and Configure Remote Access",
+            "description": "Set up a new Git repository for the project, configure user information, and connect it to a remote hosting service to enable team collaboration.",
+            "dependencies": [],
+            "details": "Navigate to the root project directory and run `git init` to initialize the repository. Set up user name and email with `git config`. Create a remote repository on a platform like GitHub, GitLab, or Bitbucket. Add the remote URL using `git remote add origin <remote_url>`. Push the initial commit and set the upstream branch with `git push -u origin main`. Ensure all team members have access permissions to the remote repository.",
+            "status": "pending",
+            "testStrategy": "Verify that the repository is accessible to all intended team members and that pushing and pulling from the remote works as expected."
+          },
+          {
+            "id": 2,
+            "title": "Establish Base Project Directory Structure",
+            "description": "Create the foundational directory structure for backend, frontend, and documentation as per the technical architecture.",
+            "dependencies": [
+              "27.1"
+            ],
+            "details": "Within the repository, create top-level directories such as `/backend`, `/frontend`, and `/docs`. Add placeholder files (e.g., `.gitkeep` or `README.md`) in each directory to ensure they are tracked by Git. Structure subdirectories as needed based on the project's technical requirements.",
+            "status": "pending",
+            "testStrategy": "Check that the directory structure matches the architecture specification and that all directories are present in the repository."
+          },
+          {
+            "id": 3,
+            "title": "Configure Code Linting, Formatting, and Pre-commit Hooks",
+            "description": "Set up code quality tools and pre-commit hooks to enforce linting and formatting standards across the project.",
+            "dependencies": [
+              "27.2"
+            ],
+            "details": "Select appropriate linting and formatting tools for each codebase (e.g., ESLint/Prettier for JavaScript, Black/Flake8 for Python). Add configuration files to the relevant directories. Use a tool like Husky or pre-commit to configure pre-commit hooks that run linting and formatting checks before allowing commits. Document the setup in the project documentation.",
+            "status": "pending",
+            "testStrategy": "Attempt to commit code that violates linting/formatting rules and verify that the hooks prevent the commit. Confirm that running the tools manually produces expected results."
+          },
+          {
+            "id": 4,
+            "title": "Add Project README and Contribution Guidelines",
+            "description": "Create a comprehensive README file with a project overview and contribution guidelines to onboard new contributors.",
+            "dependencies": [
+              "27.3"
+            ],
+            "details": "Draft a `README.md` at the repository root, including sections for project description, setup instructions, directory structure, and usage. Add a CONTRIBUTING.md file outlining code standards, pull request process, and communication channels. Ensure both files are clear, up-to-date, and accessible.",
+            "status": "pending",
+            "testStrategy": "Review the README and contribution guidelines for completeness and clarity. Ask a team member to follow the setup instructions to verify accuracy."
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "title": "Define and Implement Core Data Models",
+        "description": "Design and implement the core data models based on the system's requirements.",
+        "details": "Analyze the PRD's data model section. Use an ORM (e.g., SQLAlchemy for Python, TypeORM for Node.js) to define entities, relationships, and constraints. Include migration scripts for database schema evolution. Document each model and its fields.",
+        "testStrategy": "Write unit tests for model creation, validation, and relationships. Run migrations on a test database and verify schema correctness.",
+        "priority": "high",
+        "dependencies": [
+          27
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Analyze PRD and Define Entity Models",
+            "description": "Review the Product Requirements Document (PRD) to extract all required entities, their attributes, and relationships. Create a detailed specification for each data model, including field types, constraints, and associations.",
+            "dependencies": [],
+            "details": "Carefully read the PRD's data model section and list all entities and their relationships. For each entity, specify its fields, data types, required/optional status, and any unique or foreign key constraints. Document the relationships (one-to-one, one-to-many, many-to-many) and any business rules that affect the schema. Prepare an entity-relationship diagram (ERD) for visual clarity.",
+            "status": "pending",
+            "testStrategy": "Peer review the entity specifications and ERD for completeness and alignment with requirements."
+          },
+          {
+            "id": 2,
+            "title": "Implement Data Models Using ORM",
+            "description": "Translate the entity specifications into ORM model classes, defining fields, relationships, and constraints according to the chosen ORM framework (e.g., SQLAlchemy, TypeORM).",
+            "dependencies": [
+              "28.1"
+            ],
+            "details": "For each entity, create a corresponding ORM class with all fields and constraints. Define relationships using ORM constructs (e.g., ForeignKey, relationship in SQLAlchemy). Ensure that model definitions match the specifications and business rules. Use ORM features to enforce data integrity (e.g., unique constraints, nullable fields).",
+            "status": "pending",
+            "testStrategy": "Write unit tests to verify model instantiation, field validation, and relationship integrity."
+          },
+          {
+            "id": 3,
+            "title": "Create and Test Database Migration Scripts",
+            "description": "Develop migration scripts to create and evolve the database schema based on the ORM models. Ensure migrations are atomic, reversible, and follow best practices for versioning and organization.",
+            "dependencies": [
+              "28.2"
+            ],
+            "details": "Use the ORM's migration tool (e.g., Alembic for SQLAlchemy, TypeORM CLI) to generate initial migration scripts for schema creation. For subsequent changes, create one migration per feature or change, using descriptive names and sequential versioning. Test migrations in a staging environment before production deployment. Document each migration with comments explaining the change and rationale.",
+            "status": "pending",
+            "testStrategy": "Run migrations on a test database, verify schema correctness, and test rollback/reversibility."
+          },
+          {
+            "id": 4,
+            "title": "Document Data Models and Schema",
+            "description": "Write comprehensive documentation for each data model, including field descriptions, relationships, constraints, and migration history. Ensure documentation is accessible to developers and stakeholders.",
+            "dependencies": [
+              "28.2",
+              "28.3"
+            ],
+            "details": "For each model, provide a description of its purpose, fields (with types and constraints), and relationships. Include diagrams and migration history. Store documentation in the project's docs directory or integrate with code comments and auto-generated docs if supported by the ORM. Update documentation whenever models or migrations change.",
+            "status": "pending",
+            "testStrategy": "Review documentation for completeness and clarity. Validate that it matches the implemented models and migrations."
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "title": "Develop Core API Endpoints",
+        "description": "Implement RESTful API endpoints for CRUD operations on core data models.",
+        "details": "Set up API routing using the chosen framework (e.g., FastAPI, Express). Implement endpoints for creating, reading, updating, and deleting core entities. Apply input validation and error handling. Document endpoints using OpenAPI/Swagger.",
+        "testStrategy": "Write integration tests for each endpoint, covering success and failure cases. Validate OpenAPI documentation generation.",
+        "priority": "high",
+        "dependencies": [
+          28
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Set Up API Routing and Endpoint Structure",
+            "description": "Establish the routing structure for the API using the chosen framework, defining clear, resource-based endpoints for each core data model following RESTful conventions.",
+            "dependencies": [],
+            "details": "Use plural, noun-based resource names (e.g., /users, /products) and appropriate HTTP methods (GET, POST, PUT, DELETE) for CRUD operations. Organize routes logically, considering nesting for related resources but avoiding excessive depth. Implement route handlers as placeholders for now.",
+            "status": "pending",
+            "testStrategy": "Verify that all intended routes are registered and respond with placeholder responses. Use automated tests or manual requests to confirm correct routing and HTTP method handling."
+          },
+          {
+            "id": 2,
+            "title": "Implement CRUD Logic for Core Entities",
+            "description": "Develop the business logic for create, read, update, and delete operations on each core data model, connecting endpoints to the data layer.",
+            "dependencies": [
+              "29.1"
+            ],
+            "details": "For each endpoint, implement the corresponding CRUD operation using the framework's controller/service pattern. Interact with the database or data source to perform the required actions. Ensure that each operation returns appropriate HTTP status codes and JSON responses.",
+            "status": "pending",
+            "testStrategy": "Write integration tests for each CRUD operation, covering typical success and failure scenarios. Validate that data is correctly created, retrieved, updated, and deleted."
+          },
+          {
+            "id": 3,
+            "title": "Apply Input Validation and Error Handling",
+            "description": "Integrate input validation for all endpoints and implement robust error handling to ensure API reliability and security.",
+            "dependencies": [
+              "29.2"
+            ],
+            "details": "Use validation libraries or framework features to enforce data schemas and reject invalid input. Implement centralized error handling middleware to catch and format errors, returning meaningful messages and appropriate status codes (e.g., 400 for validation errors, 404 for not found, 500 for server errors).",
+            "status": "pending",
+            "testStrategy": "Test endpoints with invalid, missing, or malformed data to confirm validation works. Simulate error conditions and verify that errors are handled gracefully and consistently."
+          },
+          {
+            "id": 4,
+            "title": "Document API Endpoints with OpenAPI/Swagger",
+            "description": "Generate and maintain comprehensive API documentation using OpenAPI/Swagger, ensuring all endpoints, parameters, and responses are accurately described.",
+            "dependencies": [
+              "29.3"
+            ],
+            "details": "Annotate routes and models with documentation comments or decorators as required by the framework. Generate the OpenAPI/Swagger specification and serve interactive docs (e.g., Swagger UI) as part of the API. Keep documentation up to date with code changes.",
+            "status": "pending",
+            "testStrategy": "Access the generated documentation and verify that all endpoints, request/response schemas, and error cases are documented. Use tools to validate the OpenAPI spec for completeness and correctness."
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "title": "Implement User Authentication and Authorization",
+        "description": "Add secure user authentication and role-based authorization mechanisms.",
+        "details": "Integrate authentication (e.g., JWT, OAuth2) and define user roles as per user personas. Protect sensitive endpoints with middleware/guards. Store hashed passwords and manage sessions securely.",
+        "testStrategy": "Test login, registration, and access control for different roles. Attempt unauthorized actions and verify correct denial.",
+        "priority": "high",
+        "dependencies": [
+          29
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Design Authentication and Authorization Model",
+            "description": "Define the authentication method (e.g., JWT, OAuth2), user roles, and permissions structure. Establish how roles map to user personas and what resources each role can access.",
+            "dependencies": [],
+            "details": "Analyze application requirements to select an authentication protocol (JWT or OAuth2). Identify all user personas and enumerate roles (e.g., admin, user, guest). For each role, specify allowed actions and protected resources. Document the model, including role hierarchy and permission inheritance if needed. Plan for future extensibility and dynamic permission changes.",
+            "status": "pending",
+            "testStrategy": "Review the model with stakeholders. Validate that all user personas and access scenarios are covered. Check for least privilege and separation of duties."
+          },
+          {
+            "id": 2,
+            "title": "Implement Secure User Authentication",
+            "description": "Develop user registration and login endpoints with secure password storage and session/token management. Integrate chosen authentication framework.",
+            "dependencies": [
+              "30.1"
+            ],
+            "details": "Set up endpoints for user registration and login. Use a strong hashing algorithm (e.g., bcrypt, Argon2) for password storage. Integrate the selected authentication library (e.g., JWT or OAuth2 provider). Ensure secure token generation, validation, and expiration handling. Implement secure session management if using sessions. Consider adding multi-factor authentication as an optional enhancement.",
+            "status": "pending",
+            "testStrategy": "Test registration and login flows, including invalid credentials and edge cases. Verify that passwords are stored hashed and never in plaintext. Check token/session expiration and renewal."
+          },
+          {
+            "id": 3,
+            "title": "Implement Role-Based Authorization Middleware",
+            "description": "Develop middleware or guards to enforce role-based access control on protected API endpoints, using the defined roles and permissions.",
+            "dependencies": [
+              "30.2"
+            ],
+            "details": "Create middleware that inspects the authenticated user's token/session to extract roles and permissions. On each protected endpoint, check if the user has the required role/permission before granting access. Ensure middleware is reusable and easy to configure for different endpoints. Log unauthorized access attempts for auditing.",
+            "status": "pending",
+            "testStrategy": "Attempt to access protected endpoints with users of different roles. Verify that only authorized roles can access each endpoint and unauthorized attempts are denied and logged."
+          },
+          {
+            "id": 4,
+            "title": "Secure Sensitive Data and Session Management",
+            "description": "Ensure all sensitive data (passwords, tokens) are securely stored and transmitted. Implement secure session/token lifecycle management and protect against common vulnerabilities.",
+            "dependencies": [
+              "30.2",
+              "30.3"
+            ],
+            "details": "Use HTTPS for all authentication and authorization flows. Store tokens securely (e.g., HttpOnly cookies or secure storage). Implement token/session invalidation on logout and password change. Protect against CSRF, XSS, and session fixation attacks. Regularly review and update security dependencies.",
+            "status": "pending",
+            "testStrategy": "Perform security testing: attempt token/session hijacking, replay attacks, and inspect storage for sensitive data leaks. Use automated security scanners and manual penetration testing."
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "title": "Design and Build MVP Frontend UI",
+        "description": "Create the initial frontend interface focusing on MVP user flows and UI/UX considerations.",
+        "details": "Use the specified frontend framework (e.g., React, Vue). Implement wireframes for key user flows. Integrate with backend APIs for core features. Apply responsive design and accessibility best practices.",
+        "testStrategy": "Perform manual walkthroughs of user flows. Use automated UI tests (e.g., Cypress) to validate navigation and data rendering.",
+        "priority": "high",
+        "dependencies": [
+          29,
+          30
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Implement Wireframes for Key MVP User Flows",
+            "description": "Translate approved wireframes into interactive UI components for all core MVP user flows using the specified frontend framework.",
+            "dependencies": [],
+            "details": "Use the chosen frontend framework (e.g., React, Vue) to build screens and navigation for each MVP user flow. Reference wireframes and design specifications to ensure layout, component structure, and basic interactivity match intended UX. Focus on rapid prototyping and clear separation of UI components for maintainability.",
+            "status": "pending",
+            "testStrategy": "Perform manual walkthroughs to verify each user flow matches wireframes and supports intended navigation."
+          },
+          {
+            "id": 2,
+            "title": "Integrate Core Backend APIs for MVP Features",
+            "description": "Connect frontend UI components to backend APIs to enable data-driven functionality for all MVP features.",
+            "dependencies": [
+              "31.1"
+            ],
+            "details": "Implement API calls using the framework's recommended approach (e.g., fetch, Axios). Map UI actions to backend endpoints, handle loading and error states, and ensure data is rendered correctly in the UI. Mock API responses for initial development if backend is not yet available, then switch to live endpoints.",
+            "status": "pending",
+            "testStrategy": "Use automated UI tests to validate API integration, data rendering, and error handling for each MVP feature."
+          },
+          {
+            "id": 3,
+            "title": "Apply Responsive Design and Accessibility Best Practices",
+            "description": "Ensure the MVP UI adapts to various device sizes and meets accessibility standards for usability.",
+            "dependencies": [
+              "31.2"
+            ],
+            "details": "Use CSS frameworks or custom styles to implement responsive layouts (e.g., flexbox, grid, media queries). Apply accessibility guidelines (e.g., WCAG 2.1 AA), including semantic HTML, keyboard navigation, ARIA attributes, and sufficient color contrast. Test across common device breakpoints and screen readers.",
+            "status": "pending",
+            "testStrategy": "Perform manual and automated accessibility checks (e.g., Lighthouse, axe) and verify UI responsiveness on multiple devices."
+          },
+          {
+            "id": 4,
+            "title": "Conduct End-to-End MVP UI Testing and Bug Fixes",
+            "description": "Validate all MVP user flows, UI interactions, and data integrations through comprehensive testing and resolve identified issues.",
+            "dependencies": [
+              "31.3"
+            ],
+            "details": "Develop and execute automated UI tests (e.g., Cypress) covering navigation, data rendering, and edge cases. Perform manual walkthroughs to identify usability issues, visual defects, and accessibility gaps. Log and prioritize bugs, then implement fixes to ensure a stable MVP release.",
+            "status": "pending",
+            "testStrategy": "Run full automated test suite and manual regression tests; verify all critical user flows and acceptance criteria are met."
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "title": "Integrate Third-Party APIs and Services",
+        "description": "Connect and configure required third-party APIs or services as specified in the technical architecture.",
+        "details": "Identify all external integrations (e.g., payment gateways, analytics, notifications). Implement service wrappers and environment-based configuration. Handle API errors and rate limits gracefully.",
+        "testStrategy": "Mock third-party APIs in tests. Validate integration with sandbox/test credentials. Ensure error handling works as expected.",
+        "priority": "medium",
+        "dependencies": [
+          29,
+          30
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Identify and Evaluate Required Third-Party APIs and Services",
+            "description": "Catalog all external APIs and services required by the technical architecture, and evaluate them for suitability, documentation quality, reliability, security, and compliance with project requirements.",
+            "dependencies": [],
+            "details": "Review the technical architecture and project requirements to list all necessary third-party integrations (e.g., payment gateways, analytics, notifications). For each candidate API/service, assess documentation, authentication methods, rate limits, support, and pricing. Document findings and select the most appropriate APIs for integration, ensuring alignment with long-term project goals and security standards.",
+            "status": "pending",
+            "testStrategy": "Verify that all required APIs are identified and that evaluation criteria are documented for each. Confirm that selected APIs meet project needs and compliance requirements."
+          },
+          {
+            "id": 2,
+            "title": "Design and Implement Modular Service Wrappers",
+            "description": "Develop modular service wrappers for each selected third-party API, encapsulating all API interactions and providing a consistent interface for the application.",
+            "dependencies": [
+              "32.1"
+            ],
+            "details": "For each chosen API, create a dedicated service module or class that handles authentication, request formatting, and response parsing. Ensure wrappers are environment-aware (e.g., use sandbox/test credentials in non-production environments) and expose only necessary methods to the rest of the application. Follow best practices for modularity and separation of concerns to facilitate future maintenance and potential API replacement.",
+            "status": "pending",
+            "testStrategy": "Write unit tests for each service wrapper using mocked API responses. Validate that wrappers correctly handle authentication, requests, and responses in different environments."
+          },
+          {
+            "id": 3,
+            "title": "Implement Robust Error Handling and Rate Limit Management",
+            "description": "Integrate comprehensive error handling and rate limit management into each service wrapper to ensure graceful degradation and resilience against third-party API failures.",
+            "dependencies": [
+              "32.2"
+            ],
+            "details": "Within each service wrapper, implement logic to detect and handle API errors (e.g., network failures, invalid responses, authentication errors) and rate limit responses. Design fallback mechanisms such as retries with exponential backoff, queuing, or cached responses where appropriate. Ensure user-facing errors are clear and actionable, and log all failures for monitoring and troubleshooting.",
+            "status": "pending",
+            "testStrategy": "Simulate various API error scenarios and rate limit breaches using mocks. Confirm that the application responds gracefully, logs errors, and does not crash or expose sensitive information."
+          },
+          {
+            "id": 4,
+            "title": "Configure and Validate Environment-Specific Integration Settings",
+            "description": "Set up environment-based configuration for all third-party integrations and validate end-to-end connectivity and functionality in each environment.",
+            "dependencies": [
+              "32.3"
+            ],
+            "details": "Store API keys, secrets, and endpoint URLs in secure, environment-specific configuration files or secret managers. Ensure that the application loads the correct configuration for development, testing, and production. Perform integration tests using sandbox/test credentials to validate connectivity, authentication, and core API workflows in each environment.",
+            "status": "pending",
+            "testStrategy": "Run integration tests in all environments using mock and real (sandbox) APIs. Verify that configuration is loaded correctly and that no sensitive credentials are exposed in logs or error messages."
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Implement Infrastructure as Code and Deployment Pipeline",
+        "description": "Automate infrastructure provisioning and set up CI/CD pipelines for deployment.",
+        "details": "Use tools like Terraform or AWS CloudFormation for infrastructure. Configure CI/CD (e.g., GitHub Actions, GitLab CI) for automated testing and deployment to staging/production. Document deployment process.",
+        "testStrategy": "Trigger pipeline on commit and verify automated build, test, and deploy steps. Validate infrastructure provisioning in a test environment.",
+        "priority": "medium",
+        "dependencies": [
+          27,
+          28,
+          29,
+          30
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Define Infrastructure Requirements and Select IaC Tool",
+            "description": "Identify all infrastructure components needed (e.g., servers, databases, networking, load balancers) and select an appropriate Infrastructure as Code (IaC) tool such as Terraform or AWS CloudFormation based on project needs.",
+            "dependencies": [],
+            "details": "Work with stakeholders to gather infrastructure requirements for all environments (development, staging, production). Evaluate IaC tools for compatibility with your cloud provider and team expertise. Document the chosen tool and rationale.",
+            "status": "pending",
+            "testStrategy": "Review requirements with stakeholders and validate tool selection against project constraints."
+          },
+          {
+            "id": 2,
+            "title": "Develop and Version Infrastructure as Code",
+            "description": "Write modular, reusable IaC code to provision the defined infrastructure, and store it in a version control system (e.g., Git) to enable collaboration and change tracking.",
+            "dependencies": [
+              "33.1"
+            ],
+            "details": "Use the selected IaC tool to codify infrastructure resources using a declarative approach. Organize code into logical modules or stacks. Commit code to a repository with clear structure and documentation. Ensure code is parameterized for different environments.",
+            "status": "pending",
+            "testStrategy": "Run IaC code in a test environment to verify correct resource creation and idempotency. Review code for modularity and reusability."
+          },
+          {
+            "id": 3,
+            "title": "Configure CI/CD Pipeline for Automated Testing and Deployment",
+            "description": "Set up a CI/CD pipeline (e.g., GitHub Actions, GitLab CI) to automate infrastructure code validation, application build, testing, and deployment to staging and production environments.",
+            "dependencies": [
+              "33.2"
+            ],
+            "details": "Create pipeline scripts to trigger on code changes. Include steps for linting, syntax checking, and automated tests of IaC code. Integrate application build and deployment steps. Configure environment-specific variables and secrets management. Ensure pipeline supports rollback and approval gates for production.",
+            "status": "pending",
+            "testStrategy": "Trigger pipeline on commit and verify automated build, test, and deploy steps. Validate successful deployments to test and staging environments."
+          },
+          {
+            "id": 4,
+            "title": "Document Deployment Process and Operational Guidelines",
+            "description": "Create comprehensive documentation covering infrastructure code structure, deployment pipeline usage, environment setup, and operational procedures for future maintenance.",
+            "dependencies": [
+              "33.3"
+            ],
+            "details": "Document the IaC repository structure, configuration parameters, and environment-specific settings. Provide step-by-step guides for running and troubleshooting the CI/CD pipeline. Include operational best practices, rollback procedures, and contact points for support.",
+            "status": "pending",
+            "testStrategy": "Have a team member follow the documentation to perform a deployment in a test environment and provide feedback on clarity and completeness."
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "title": "Implement Logging, Monitoring, and Error Reporting",
+        "description": "Set up centralized logging, monitoring, and error alerting for all system components.",
+        "details": "Integrate logging libraries (e.g., Winston, Loguru) and configure log aggregation (e.g., ELK stack). Set up monitoring dashboards (e.g., Grafana, Prometheus) and error alerting (e.g., Sentry).",
+        "testStrategy": "Simulate errors and verify logs and alerts are generated. Check monitoring dashboards for real-time metrics.",
+        "priority": "medium",
+        "dependencies": [
+          33
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Integrate Logging Libraries in All System Components",
+            "description": "Integrate appropriate logging libraries (e.g., Winston for Node.js, Loguru for Python) into each system component to ensure consistent and structured log output.",
+            "dependencies": [],
+            "details": "Identify the primary programming languages and frameworks used in each system component. Select and install suitable logging libraries for each. Standardize log formats (e.g., JSON) and ensure logs include essential metadata (timestamp, log level, service name, trace IDs). Configure log rotation and retention policies as needed.",
+            "status": "pending",
+            "testStrategy": "Trigger log events at various levels (info, warning, error) in each component and verify logs are generated in the expected format and location."
+          },
+          {
+            "id": 2,
+            "title": "Set Up Centralized Log Aggregation with ELK Stack",
+            "description": "Deploy and configure the ELK stack (Elasticsearch, Logstash, Kibana) to aggregate, store, and visualize logs from all system components.",
+            "dependencies": [
+              "34.1"
+            ],
+            "details": "Provision infrastructure for ELK stack, either on-premises or in the cloud. Configure Logstash or Filebeat agents on each component to forward logs to Elasticsearch. Set up Logstash pipelines to parse and enrich logs as needed. Create index patterns in Kibana for each service and configure role-based access if required.",
+            "status": "pending",
+            "testStrategy": "Generate logs from multiple components and verify they appear in Elasticsearch and are searchable/visualized in Kibana dashboards."
+          },
+          {
+            "id": 3,
+            "title": "Implement Monitoring Dashboards and Metrics Collection",
+            "description": "Deploy monitoring tools (e.g., Prometheus, Grafana) to collect and visualize system and application metrics, and create dashboards for real-time monitoring.",
+            "dependencies": [
+              "34.2"
+            ],
+            "details": "Install and configure Prometheus to scrape metrics from all relevant endpoints (e.g., application, infrastructure). Set up Grafana and connect it to Prometheus as a data source. Design and implement dashboards for key metrics such as CPU, memory, request rates, error rates, and latency. Define alert thresholds for critical metrics.",
+            "status": "pending",
+            "testStrategy": "Simulate load and failure scenarios to ensure metrics are collected and visualized correctly. Validate that dashboards update in real time."
+          },
+          {
+            "id": 4,
+            "title": "Configure Error Alerting and Automated Notifications",
+            "description": "Integrate error reporting tools (e.g., Sentry) and configure automated alerting for critical errors and threshold breaches in logs and metrics.",
+            "dependencies": [
+              "34.3"
+            ],
+            "details": "Set up Sentry or a similar error tracking tool in each application component. Integrate with existing logging and monitoring systems to capture unhandled exceptions and critical errors. Configure alerting rules in ELK/Kibana and Grafana to notify relevant teams via email, Slack, or other channels when errors or metric thresholds are breached.",
+            "status": "pending",
+            "testStrategy": "Intentionally trigger errors and threshold breaches to verify that alerts are generated and notifications are delivered to the correct recipients."
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "title": "Conduct End-to-End Testing and Usability Review",
+        "description": "Perform comprehensive end-to-end tests and review the user experience against the PRD.",
+        "details": "Write E2E tests covering all major user flows using tools like Cypress or Selenium. Conduct usability testing with representative users. Collect feedback and log issues.",
+        "testStrategy": "Run automated E2E test suite. Facilitate user testing sessions and document findings.",
+        "priority": "medium",
+        "dependencies": [
+          31,
+          32,
+          34
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Set Up Test Environment and Seed Test Data",
+            "description": "Prepare a comprehensive test environment that mirrors production, including front-end, back-end, services, and seeded test data to support end-to-end testing.",
+            "dependencies": [],
+            "details": "Provision infrastructure (locally or via CI) to run the full application stack. Use Docker or similar tools to spin up all required services. Seed the database with representative test data covering all major user flows. Ensure network requests can be stubbed or mocked if needed for isolated testing.",
+            "status": "pending",
+            "testStrategy": "Verify environment readiness by running smoke tests and confirming all services are operational with seeded data."
+          },
+          {
+            "id": 2,
+            "title": "Implement Automated End-to-End Test Suite",
+            "description": "Develop automated E2E tests for all critical user flows using tools like Cypress or Selenium, ensuring coverage of major scenarios described in the PRD.",
+            "dependencies": [
+              "35.1"
+            ],
+            "details": "Identify and document all major user flows (e.g., authentication, onboarding, payments, feature usage) from the PRD. Write E2E test scripts that simulate user interactions and assert expected outcomes. Organize tests by flow and ensure they are maintainable and reusable. Integrate the test suite with CI for automated execution.",
+            "status": "pending",
+            "testStrategy": "Run the full E2E suite and confirm all tests pass. Review test coverage reports to ensure all critical flows are exercised."
+          },
+          {
+            "id": 3,
+            "title": "Conduct Usability Testing with Representative Users",
+            "description": "Facilitate usability testing sessions with target users to evaluate the user experience and identify pain points or deviations from the PRD.",
+            "dependencies": [
+              "35.2"
+            ],
+            "details": "Recruit representative users matching the product’s target audience. Prepare test scripts and scenarios based on key user flows. Observe users as they interact with the application, noting areas of confusion, friction, or unmet expectations. Collect both qualitative and quantitative feedback.",
+            "status": "pending",
+            "testStrategy": "Document session outcomes, including user feedback, observed issues, and completion rates for each flow."
+          },
+          {
+            "id": 4,
+            "title": "Aggregate Feedback, Log Issues, and Review Against PRD",
+            "description": "Consolidate findings from automated and usability testing, log defects and UX issues, and systematically review the product against PRD requirements.",
+            "dependencies": [
+              "35.3"
+            ],
+            "details": "Aggregate all test results and user feedback. Categorize issues by severity and type (functional, usability, accessibility). Cross-reference findings with PRD acceptance criteria to identify gaps. Log actionable issues in the tracking system and prepare a summary report for the team.",
+            "status": "pending",
+            "testStrategy": "Ensure all critical issues are logged and traceable to specific PRD requirements. Review the summary report with stakeholders for sign-off."
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "title": "Prepare Documentation and Handover Materials",
+        "description": "Compile technical, user, and operational documentation for the product.",
+        "details": "Document API endpoints, data models, deployment steps, and user guides. Prepare onboarding materials for future developers and support staff. Store documentation in the repository and/or a documentation portal.",
+        "testStrategy": "Review documentation for completeness and clarity. Validate that a new developer can set up and run the system using only the docs.",
+        "priority": "medium",
+        "dependencies": [
+          35
+        ],
+        "status": "pending",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Draft Technical Documentation (APIs, Data Models, Deployment)",
+            "description": "Create comprehensive technical documentation covering API endpoints, data models, and deployment steps for the product.",
+            "dependencies": [],
+            "details": "Document all API endpoints with details on request/response formats, authentication, and usage examples. Describe data models, including schema, relationships, and validation rules. Outline deployment procedures, including environment setup, configuration, and step-by-step deployment instructions. Use diagrams and code samples where appropriate. Store drafts in the designated documentation directory or portal.",
+            "status": "pending",
+            "testStrategy": "Have a developer unfamiliar with the codebase review the documentation and attempt to deploy the product using only the provided materials."
+          },
+          {
+            "id": 2,
+            "title": "Develop User and Operational Guides",
+            "description": "Prepare user-facing documentation and operational guides to support end-users and system administrators.",
+            "dependencies": [
+              "36.1"
+            ],
+            "details": "Write user manuals, quick start guides, and troubleshooting sections that explain how to install, configure, and use the product. Include FAQs and step-by-step instructions for common tasks. For operational guides, provide instructions for routine maintenance, monitoring, and support escalation. Ensure content is accessible to non-technical users and system admins.",
+            "status": "pending",
+            "testStrategy": "Request feedback from a sample user or support staff to verify clarity and completeness of the guides."
+          },
+          {
+            "id": 3,
+            "title": "Create Onboarding Materials for Developers and Support Staff",
+            "description": "Develop onboarding resources to help new developers and support staff quickly understand and contribute to the project.",
+            "dependencies": [
+              "36.1",
+              "36.2"
+            ],
+            "details": "Compile a developer onboarding guide covering project structure, coding standards, development workflows, and key architectural decisions. Include links to technical and user documentation, setup instructions, and common troubleshooting tips. Prepare a support staff handbook summarizing escalation procedures and key operational tasks.",
+            "status": "pending",
+            "testStrategy": "Have a new team member follow the onboarding materials and provide feedback on any gaps or unclear sections."
+          },
+          {
+            "id": 4,
+            "title": "Organize, Review, and Publish Documentation",
+            "description": "Consolidate all documentation, review for accuracy and completeness, and publish to the repository and/or documentation portal.",
+            "dependencies": [
+              "36.1",
+              "36.2",
+              "36.3"
+            ],
+            "details": "Organize documentation files with clear structure and navigation. Review all content for technical accuracy, completeness, and consistency. Address feedback from reviewers. Publish finalized documentation to the project repository and/or a documentation portal, ensuring access permissions and discoverability. Announce availability to relevant stakeholders.",
+            "status": "pending",
+            "testStrategy": "Perform a final walkthrough using only the published documentation to verify that a new developer or user can set up and use the product successfully."
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "Integrate AgentInfluenceEngine.compute_adjustments_cfb with College Analyzer and Saturday Monitor",
+        "description": "Hook the AgentInfluenceEngine.compute_adjustments_cfb method into the college analyzer and Saturday monitor workflows, logging and displaying per-game agent metrics, and ensuring these metrics are included in unified results for downstream alerting and summaries.",
+        "details": "1. Refactor the college analyzer and Saturday monitor modules to invoke AgentInfluenceEngine.compute_adjustments_cfb for each relevant game or event.\n2. Capture and log the following per-game agent metrics: phantom_flag_probability, scandal_score, penalty_bias_home, and rules_triggered. Ensure logs are structured and compatible with the system's centralized logging solution.\n3. Update the UI or reporting layer to display these metrics alongside existing per-game analytics, ensuring clarity and consistency in presentation.\n4. Modify the unified results aggregation pipeline to include the new agent metrics, making them available for downstream alerting and summary generation modules.\n5. Ensure all new data flows are documented and that error handling is robust, especially for cases where the AgentInfluenceEngine may fail or return incomplete data.\n6. Coordinate with logging/monitoring infrastructure to verify that new metrics are captured and can be queried for operational and analytical purposes.",
+        "testStrategy": "1. Write unit and integration tests to verify that AgentInfluenceEngine.compute_adjustments_cfb is invoked correctly within both the college analyzer and Saturday monitor workflows.\n2. Simulate games/events with known agent metric outputs and verify that logs are generated with the correct structure and values.\n3. Validate that the UI/reporting layer displays the new metrics accurately for a variety of test cases, including edge cases (e.g., missing or extreme values).\n4. Confirm that unified results include the agent metrics and that downstream alerting and summary modules can access and process them as expected.\n5. Use the centralized logging and monitoring tools to ensure that all new metrics are being captured and can be queried or visualized.\n6. Perform regression testing to ensure no existing analytics or workflows are broken by the integration.",
+        "status": "pending",
+        "dependencies": [
+          28,
+          32,
+          34
+        ],
+        "priority": "high",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Wire AgentInfluenceEngine into College Analyzer Workflow",
+            "description": "Modify comprehensive_college_football_analyzer.py to invoke AgentInfluenceEngine.compute_adjustments_cfb for each relevant game, ensuring agent metrics are computed per game.",
+            "dependencies": [],
+            "details": "Identify the main game processing loop in comprehensive_college_football_analyzer.py. Insert calls to AgentInfluenceEngine.compute_adjustments_cfb, passing in the required game data. Capture the returned metrics for further processing.",
+            "status": "pending",
+            "testStrategy": "Add unit tests with mock game data to verify that compute_adjustments_cfb is called and returns expected metrics."
+          },
+          {
+            "id": 2,
+            "title": "Wire AgentInfluenceEngine into Saturday Monitor Workflow",
+            "description": "Update college_football_saturday_monitor.py to invoke AgentInfluenceEngine.compute_adjustments_cfb for each monitored event or game.",
+            "dependencies": [
+              "37.1"
+            ],
+            "details": "Locate the event/game monitoring logic in college_football_saturday_monitor.py. Integrate calls to compute_adjustments_cfb, ensuring metrics are captured for each event.",
+            "status": "pending",
+            "testStrategy": "Write integration tests to confirm that agent metrics are computed and available for all monitored games."
+          },
+          {
+            "id": 3,
+            "title": "Log Per-Game Agent Metrics in Structured Format",
+            "description": "Capture and log phantom_flag_probability, scandal_score, penalty_bias_home, and rules_triggered per game in a structured, centralized logging-compatible format.",
+            "dependencies": [
+              "37.1",
+              "37.2"
+            ],
+            "details": "Define a structured log schema (e.g., JSON) for agent metrics. Update logging calls in both modules to emit these metrics, ensuring compatibility with the centralized logging system.",
+            "status": "pending",
+            "testStrategy": "Verify logs are correctly structured and ingested by the logging backend using test runs and log queries."
+          },
+          {
+            "id": 4,
+            "title": "Expose Agent Metrics in Unified Results Pipeline",
+            "description": "Modify unified_nfl_intelligence_system.py to include agent metrics in the unified results, making them available for downstream consumers.",
+            "dependencies": [
+              "37.3"
+            ],
+            "details": "Update the results aggregation logic to merge agent metrics into the unified per-game results object. Ensure downstream modules (alerts, summaries) can access these fields.",
+            "status": "pending",
+            "testStrategy": "Add tests to confirm agent metrics are present in the unified results and accessible to consumers."
+          },
+          {
+            "id": 5,
+            "title": "Add CLI Flags and Environment Toggles for Agent Metrics",
+            "description": "Implement command-line flags and/or environment variables to enable or disable agent metrics computation and logging.",
+            "dependencies": [
+              "37.1",
+              "37.2"
+            ],
+            "details": "Update argument parsing and configuration logic in both modules to support toggling agent metrics. Ensure default behavior is backward compatible.",
+            "status": "pending",
+            "testStrategy": "Test toggles in various configurations to confirm agent metrics are conditionally included or omitted."
+          },
+          {
+            "id": 6,
+            "title": "Implement CSV Validators and Graceful Handling for Missing Data",
+            "description": "Add validation logic for agent-related CSV inputs and ensure the system handles missing or empty data gracefully.",
+            "dependencies": [
+              "37.1",
+              "37.2"
+            ],
+            "details": "Write validators for agent CSV files, checking for required columns and valid data. Update workflows to handle missing/empty agent data without crashing, logging appropriate warnings.",
+            "status": "pending",
+            "testStrategy": "Create test cases with incomplete and malformed CSVs to verify validators and error handling."
+          },
+          {
+            "id": 7,
+            "title": "Add Unit Smoke Tests for Engine and Analyzer Integration",
+            "description": "Develop unit and smoke tests to verify correct integration between AgentInfluenceEngine and analyzer/monitor modules, without requiring network access.",
+            "dependencies": [
+              "37.1",
+              "37.2",
+              "37.3"
+            ],
+            "details": "Mock AgentInfluenceEngine and input data to test integration points. Ensure tests cover normal, edge, and failure cases.",
+            "status": "pending",
+            "testStrategy": "Run tests in CI to ensure integration remains robust and isolated from external dependencies."
+          },
+          {
+            "id": 8,
+            "title": "Implement MCP Alert Hook for High Agent Metric Spikes",
+            "description": "Add hooks to trigger MCP alerts when scandal_score or phantom_flag_probability exceed defined thresholds.",
+            "dependencies": [
+              "37.4"
+            ],
+            "details": "Define alert thresholds in config. Update the unified results pipeline to check agent metrics and invoke MCP alerting logic when thresholds are breached.",
+            "status": "pending",
+            "testStrategy": "Simulate high metric values in test data and verify that MCP alerts are triggered as expected."
+          },
+          {
+            "id": 9,
+            "title": "Add Conference-Level Summary Rollups for Agent Metrics",
+            "description": "Aggregate agent metrics by conference and include summary statistics in reporting outputs.",
+            "dependencies": [
+              "37.4"
+            ],
+            "details": "Implement aggregation logic to compute conference-level averages, maxima, and other relevant statistics for agent metrics. Update reporting layer to display these summaries.",
+            "status": "pending",
+            "testStrategy": "Test with multi-conference data to ensure summaries are accurate and correctly reported."
+          },
+          {
+            "id": 10,
+            "title": "Update Documentation and Provide Sample Agent CSV",
+            "description": "Update README with usage instructions, data sourcing, and configuration details. Add a safe placeholder sample CSV row for college agents under data/agents/college.",
+            "dependencies": [
+              "37.5",
+              "37.6",
+              "37.7",
+              "37.8",
+              "37.9"
+            ],
+            "details": "Document new agent metrics, CLI/env toggles, error handling, and alerting. Create a sample CSV row with placeholder values and place it in the appropriate data directory.",
+            "status": "pending",
+            "testStrategy": "Review documentation for completeness and accuracy. Validate sample CSV loads without errors."
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "created": "2025-09-13T18:28:23.248Z",
+      "updated": "2025-09-22T03:20:34.375Z",
+      "description": "Tasks for master context"
+    }
+  },
+  "main": {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Setup Project Repository and CI/CD",
+        "description": "Initialize a Git repository with main branches, configure pre-commit hooks, and set up CI/CD pipelines for automated testing and deployment.",
+        "details": "Use GitHub or GitLab. Configure GitHub Actions or GitLab CI for Python 3.12+, linting (ruff/black), pytest, and Docker build/test. Add .gitignore, README, and codeowners. Ensure secrets management for cloud credentials.",
+        "testStrategy": "Verify repository structure, run CI pipeline on push, ensure tests and linting pass.",
+        "priority": "high",
+        "dependencies": [],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 2,
+        "title": "Python Environment and Dependency Management",
+        "description": "Establish reproducible Python environment with dependency management for all services.",
+        "details": "Use pyenv for Python 3.12+. Use Poetry or pip-tools for dependency management. Pin versions for Hugging Face Transformers (>=4.40), asyncio, FastAPI, SQLAlchemy, and asyncpg. Create requirements.txt and pyproject.toml.",
+        "testStrategy": "Run 'poetry install' or 'pip-sync', ensure all dependencies resolve and Python 3.12+ is active.",
+        "priority": "high",
+        "dependencies": [
+          1
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 3,
+        "title": "Database Schema Design (SQLite & PostgreSQL)",
+        "description": "Design normalized schema for bets, portfolios, odds, model runs, alerts, and historical data.",
+        "details": "Use SQLAlchemy ORM with Alembic for migrations. Design for SQLite first, but ensure compatibility with PostgreSQL. Include indices for performance. Use UUIDs for primary keys.",
+        "testStrategy": "Generate and apply migrations, verify schema in both SQLite and PostgreSQL.",
+        "priority": "high",
+        "dependencies": [
+          2
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 4,
+        "title": "Async Data Collection Framework",
+        "description": "Implement an asyncio-based framework for concurrent API data collection.",
+        "details": "Use Python asyncio and httpx (async client). Structure collectors as coroutines. Support rate limiting and retries. Modularize for sports data, odds, weather, and injuries.",
+        "testStrategy": "Simulate 100+ concurrent fetches, measure response times, verify data integrity.",
+        "priority": "high",
+        "dependencies": [
+          2
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 5,
+        "title": "Sports Data API Integration",
+        "description": "Integrate with ESPN and The Odds API for real-time and historical sports data.",
+        "details": "Implement async wrappers for each API. Use API keys from secrets manager. Normalize data to internal schema. Handle rate limits and errors gracefully.",
+        "testStrategy": "Fetch sample data, validate mapping to schema, handle API downtime gracefully.",
+        "priority": "high",
+        "dependencies": [
+          4
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 6,
+        "title": "Betting Odds API Integration",
+        "description": "Fetch and normalize odds from multiple sportsbooks.",
+        "details": "Support at least 3 major sportsbooks. Use async requests. Deduplicate and timestamp odds. Store in database with source attribution.",
+        "testStrategy": "Compare odds from different sources, verify deduplication and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          4
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 7,
+        "title": "Weather and Injury Data Integration",
+        "description": "Collect and normalize weather and injury data for all games.",
+        "details": "Integrate with weather APIs (e.g., OpenWeatherMap) and sports injury feeds. Map to internal schema. Schedule periodic updates.",
+        "testStrategy": "Fetch and store data for a sample week, verify completeness and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          4
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 8,
+        "title": "Line Movement Tracking",
+        "description": "Track and store line movements over time for each game.",
+        "details": "Poll odds APIs at regular intervals (e.g., every 5 minutes). Store historical odds snapshots. Visualize line movement in dashboard.",
+        "testStrategy": "Verify time-series data for selected games, check for missing intervals.",
+        "priority": "high",
+        "dependencies": [
+          6
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 9,
+        "title": "Caching Layer for API Responses",
+        "description": "Implement a caching layer to reduce redundant API calls and improve performance.",
+        "details": "Use aiocache (Redis backend) for async caching. Set TTLs based on data volatility. Invalidate cache on data updates.",
+        "testStrategy": "Measure API call reduction, verify cache hits/misses, test cache invalidation.",
+        "priority": "high",
+        "dependencies": [
+          5,
+          6,
+          7
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 10,
+        "title": "Database Query Optimization",
+        "description": "Optimize all database queries for speed and scalability.",
+        "details": "Profile queries using EXPLAIN. Add indices for frequent lookups. Use async SQLAlchemy for non-blocking DB access.",
+        "testStrategy": "Benchmark query latency before/after optimization, ensure <100ms for key queries.",
+        "priority": "high",
+        "dependencies": [
+          3
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 11,
+        "title": "Local Hugging Face Model Loader (7B)",
+        "description": "Implement efficient loading and inference for local 7B LLMs.",
+        "details": "Use Hugging Face Transformers >=4.40. Quantize models with bitsandbytes for memory efficiency. Use torch.compile for speed. Support vLLM or TGI for serving.",
+        "testStrategy": "Load model, run inference on test prompt, measure memory and latency.",
+        "priority": "high",
+        "dependencies": [
+          2
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 12,
+        "title": "Cloud GPU Model Integration (30B-70B)",
+        "description": "Enable inference with large LLMs on RunPod, Vast.ai, AWS/GCP, and DigitalOcean.",
+        "details": "Use Hugging Face TGI containers. Deploy via 1-click on supported clouds. Implement API client for remote inference. Auto-shutdown idle instances for cost control.",
+        "testStrategy": "Deploy model, run remote inference, verify auto-shutdown triggers after inactivity.",
+        "priority": "high",
+        "dependencies": [
+          11
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 13,
+        "title": "Ensemble Model Prediction Engine",
+        "description": "Combine predictions from multiple LLMs (local and cloud) for improved accuracy.",
+        "details": "Implement weighted ensemble logic. Support model selection based on recent performance. Use async calls to aggregate results.",
+        "testStrategy": "Run ensemble on test set, compare accuracy to individual models.",
+        "priority": "high",
+        "dependencies": [
+          11,
+          12
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 14,
+        "title": "Model Performance Monitoring",
+        "description": "Track and log model inference times, accuracy, and resource usage.",
+        "details": "Integrate Prometheus for metrics. Log latency, throughput, and errors. Store model performance stats in DB.",
+        "testStrategy": "Simulate load, verify metrics collection and alerting.",
+        "priority": "high",
+        "dependencies": [
+          13
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 15,
+        "title": "Portfolio Correlation Analysis Module",
+        "description": "Analyze correlations between bets to manage portfolio risk.",
+        "details": "Use numpy/pandas for correlation matrices. Limit exposure to correlated positions. Visualize in dashboard.",
+        "testStrategy": "Run on historical data, verify correlation limits are enforced.",
+        "priority": "high",
+        "dependencies": [
+          3,
+          5,
+          6
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 16,
+        "title": "Dynamic Position Sizing Engine",
+        "description": "Calculate bet sizes using Kelly Criterion (25% fraction) and risk constraints.",
+        "details": "Implement Kelly formula with adjustable fraction. Enforce max 2% portfolio risk per bet. Integrate with correlation module.",
+        "testStrategy": "Simulate portfolio, verify sizing and risk limits.",
+        "priority": "high",
+        "dependencies": [
+          15
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 17,
+        "title": "Real-time Risk Monitoring and Alerts",
+        "description": "Monitor portfolio risk metrics and trigger alerts for breaches.",
+        "details": "Track drawdown, exposure, and correlation in real-time. Use FastAPI WebSocket for live updates. Integrate with notification system.",
+        "testStrategy": "Simulate risk events, verify alerts are triggered and logged.",
+        "priority": "high",
+        "dependencies": [
+          15,
+          16
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 18,
+        "title": "Drawdown Protection Mechanisms",
+        "description": "Implement automated drawdown monitoring and protective actions.",
+        "details": "Track rolling max drawdown. Auto-reduce bet sizes or pause betting if drawdown exceeds 5%. Log all interventions.",
+        "testStrategy": "Backtest on historical data, verify drawdown triggers and actions.",
+        "priority": "high",
+        "dependencies": [
+          17
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 19,
+        "title": "Async Recommendation Engine",
+        "description": "Generate betting recommendations asynchronously for sub-second response.",
+        "details": "Use FastAPI with async endpoints. Parallelize model inference and data fetch. Cache recommendations for active games.",
+        "testStrategy": "Benchmark response times under load, verify <1s latency.",
+        "priority": "high",
+        "dependencies": [
+          13,
+          16
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 20,
+        "title": "Real-time Dashboard Backend API",
+        "description": "Develop backend API for dashboard data (recommendations, metrics, risk, alerts).",
+        "details": "Use FastAPI with async endpoints. Serve JSON for frontend. Secure with OAuth2/JWT.",
+        "testStrategy": "Test all endpoints for correctness, security, and performance.",
+        "priority": "high",
+        "dependencies": [
+          19,
+          17
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 21,
+        "title": "Frontend Dashboard: Live Recommendations",
+        "description": "Implement frontend component for live betting recommendations.",
+        "details": "Use React 18+ with TypeScript. Connect via WebSocket for real-time updates. Display recommendations with odds and confidence.",
+        "testStrategy": "Simulate live updates, verify UI responsiveness and accuracy.",
+        "priority": "high",
+        "dependencies": [
+          20
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 22,
+        "title": "Frontend Dashboard: Performance Metrics Visualization",
+        "description": "Visualize key performance metrics (win rate, ROI, drawdown, etc).",
+        "details": "Use recharts or d3.js for charts. Fetch metrics from backend. Support time filtering.",
+        "testStrategy": "Display sample metrics, verify chart accuracy and interactivity.",
+        "priority": "high",
+        "dependencies": [
+          20
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 23,
+        "title": "Frontend Dashboard: Risk and Alerts Panel",
+        "description": "Display real-time risk metrics and alerts in dashboard.",
+        "details": "Show drawdown, exposure, correlation, and alert history. Use color coding for severity.",
+        "testStrategy": "Trigger sample alerts, verify UI updates and alert visibility.",
+        "priority": "high",
+        "dependencies": [
+          20
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 24,
+        "title": "Frontend Dashboard: Model Performance Tracking",
+        "description": "Show model performance stats and allow model selection.",
+        "details": "Display accuracy, latency, and recent results for each model. Allow switching active model.",
+        "testStrategy": "Switch models, verify stats update and selection persists.",
+        "priority": "medium",
+        "dependencies": [
+          20
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 25,
+        "title": "Multi-game Correlation Analysis",
+        "description": "Extend correlation analysis to multi-game and multi-bet scenarios.",
+        "details": "Compute and visualize correlations across all active bets. Suggest hedges if needed.",
+        "testStrategy": "Run on sample multi-game portfolios, verify correlation matrix and hedge suggestions.",
+        "priority": "medium",
+        "dependencies": [
+          15
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 26,
+        "title": "Dynamic Bankroll Allocation",
+        "description": "Allocate bankroll dynamically based on risk and opportunity.",
+        "details": "Implement logic to shift bankroll between games based on expected value and risk.",
+        "testStrategy": "Simulate allocation on historical data, verify adherence to risk limits.",
+        "priority": "medium",
+        "dependencies": [
+          16,
+          25
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 27,
+        "title": "Hedge Detection and Management",
+        "description": "Detect and manage hedging opportunities in portfolio.",
+        "details": "Identify bets that offset risk. Suggest or auto-execute hedges based on thresholds.",
+        "testStrategy": "Simulate hedge scenarios, verify detection and execution logic.",
+        "priority": "medium",
+        "dependencies": [
+          25
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 28,
+        "title": "Performance Attribution Analysis",
+        "description": "Analyze and attribute portfolio performance to bets, models, and strategies.",
+        "details": "Break down ROI and win rate by bet type, model, and time period. Visualize in dashboard.",
+        "testStrategy": "Run attribution on historical data, verify breakdown accuracy.",
+        "priority": "medium",
+        "dependencies": [
+          3,
+          13
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 29,
+        "title": "Weather Impact Modeling",
+        "description": "Model and quantify the impact of weather on game outcomes.",
+        "details": "Use regression or tree-based models (e.g., XGBoost) with weather features. Integrate predictions into recommendation engine.",
+        "testStrategy": "Backtest with/without weather features, compare model accuracy.",
+        "priority": "medium",
+        "dependencies": [
+          7,
+          13
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 30,
+        "title": "Injury Impact Assessment",
+        "description": "Assess and model the impact of player injuries on outcomes.",
+        "details": "Extract injury data, engineer features, and train models to estimate impact. Integrate into recommendations.",
+        "testStrategy": "Backtest with/without injury features, measure improvement.",
+        "priority": "medium",
+        "dependencies": [
+          7,
+          13
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 31,
+        "title": "Line Movement Prediction",
+        "description": "Predict future line movements using historical odds and external factors.",
+        "details": "Train time-series models (e.g., Prophet, LSTM) on line movement data. Use predictions to inform bet timing.",
+        "testStrategy": "Evaluate prediction accuracy on holdout set, measure impact on ROI.",
+        "priority": "medium",
+        "dependencies": [
+          8,
+          13
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 32,
+        "title": "Sentiment Analysis Integration",
+        "description": "Integrate sentiment analysis from news and social media into AI models.",
+        "details": "Use Hugging Face sentiment models. Scrape news/Twitter, preprocess text, and feed sentiment scores into main models.",
+        "testStrategy": "Correlate sentiment with outcomes, measure model improvement.",
+        "priority": "medium",
+        "dependencies": [
+          13
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 33,
+        "title": "Automated Model Retraining Pipeline",
+        "description": "Automate retraining of models based on performance triggers.",
+        "details": "Use MLflow or DVC for experiment tracking. Schedule retraining jobs. Deploy updated models if performance improves.",
+        "testStrategy": "Trigger retraining on performance drop, verify new model deployment.",
+        "priority": "low",
+        "dependencies": [
+          13,
+          14
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 34,
+        "title": "A/B Testing Framework for Models",
+        "description": "Implement A/B testing to compare model variants in production.",
+        "details": "Randomly assign recommendations to model variants. Track outcomes and statistical significance.",
+        "testStrategy": "Run A/B test, verify assignment and outcome tracking.",
+        "priority": "low",
+        "dependencies": [
+          33
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 35,
+        "title": "Mobile Alert and Notification System",
+        "description": "Implement push, SMS, and email alerts for betting opportunities and risk events.",
+        "details": "Use Firebase Cloud Messaging for push, Twilio for SMS, and SendGrid for email. Integrate with backend alert triggers. Build mobile-optimized web interface.",
+        "testStrategy": "Send test alerts via all channels, verify delivery and UI display.",
+        "priority": "low",
+        "dependencies": [
+          17,
+          21
+        ],
+        "status": "pending",
+        "subtasks": []
+      }
+    ],
+    "metadata": {
+      "created": "2025-09-18T03:47:30.882Z",
+      "updated": "2025-09-18T03:47:30.882Z",
+      "description": "Tasks for main context"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_Toledo_Rockets_Washington_State_Cougars",
+  "teams": "Toledo Rockets @ Washington State Cougars",
+  "narrative_signals": [
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.65,
+      "source": "betting_data",
+      "description": "Sharp money on Washington State Cougars"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.65,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to follow_sharp",
+    "pick": "DOG +12.5 (sharp fade)"
+  },
+  "conspiracy_probability": 0.5525,
+  "analysis_timestamp": "2025-10-25T17:18:12.785781"
+}

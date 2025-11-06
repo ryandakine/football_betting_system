@@ -1,0 +1,27 @@
+# Ignore everything by default
+*
+
+# Allow only what we need
+!college_football_system/
+!api_config.py
+!.env
+!unified_nfl_intelligence_system.py
+!football_odds_fetcher.py
+!performance_tracker.py
+!nfl_lambda_handler.py
+!nfl_live_data_fetcher.py
+!requirements_lambda.txt
+!Dockerfile
+
+# Exclude large files/directories
+*.db
+*.sqlite
+*.bundle
+__pycache__/
+*.pyc
+.git/
+.venv/
+venv/
+node_modules/
+data/
+*.log

@@ -1,0 +1,85 @@
+🏈 Deploying NFL Analysis System as Container
+📦 Creating ECR repository...
+{
+    "repository": {
+        "repositoryArn": "arn:aws:ecr:us-east-1:542770533766:repository/nfl-analyzer",
+        "registryId": "542770533766",
+        "repositoryName": "nfl-analyzer",
+        "repositoryUri": "542770533766.dkr.ecr.us-east-1.amazonaws.com/nfl-analyzer",
+        "createdAt": 1762086612.348,
+        "imageTagMutability": "MUTABLE",
+        "imageScanningConfiguration": {
+            "scanOnPush": false
+        },
+        "encryptionConfiguration": {
+            "encryptionType": "AES256"
+        }
+    }
+}
+🔐 Logging in to ECR...
+
+WARNING! Your credentials are stored unencrypted in '/home/ryan/.docker/config.json'.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/go/credential-store/
+
+Login Succeeded
+🔨 Building Docker image...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 494B done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for public.ecr.aws/lambda/python:3.11
+#2 DONE 1.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 357B done
+#3 DONE 0.0s
+
+#4 [1/6] FROM public.ecr.aws/lambda/python:3.11@sha256:660e15adffd02bf04869c93f50133ee304dcdf0a798d6da33807eb47deba17df
+#4 resolve public.ecr.aws/lambda/python:3.11@sha256:660e15adffd02bf04869c93f50133ee304dcdf0a798d6da33807eb47deba17df 0.0s done
+#4 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 2B 0.0s done
+#5 DONE 0.1s
+
+#6 [4/6] RUN pip install --no-cache-dir -r requirements_lambda.txt
+#6 CACHED
+
+#7 [2/6] RUN yum install -y gcc gcc-c++ && yum clean all
+#7 CACHED
+
+#8 [6/6] COPY nfl_live_data_fetcher.py /var/task/
+#8 ERROR: failed to calculate checksum of ref 2aa23eb1-8a56-41e1-89ba-b0558c4ac634::uqyx65gv33xxv86z6mnoscvon: "/nfl_live_data_fetcher.py": not found
+
+#9 [3/6] COPY requirements_lambda.txt /var/task/
+#9 ERROR: failed to calculate checksum of ref 2aa23eb1-8a56-41e1-89ba-b0558c4ac634::uqyx65gv33xxv86z6mnoscvon: "/requirements_lambda.txt": not found
+
+#10 [5/6] COPY nfl_lambda_handler.py /var/task/lambda_function.py
+#10 ERROR: failed to calculate checksum of ref 2aa23eb1-8a56-41e1-89ba-b0558c4ac634::uqyx65gv33xxv86z6mnoscvon: "/nfl_lambda_handler.py": not found
+
+#4 [1/6] FROM public.ecr.aws/lambda/python:3.11@sha256:660e15adffd02bf04869c93f50133ee304dcdf0a798d6da33807eb47deba17df
+#4 sha256:569b1f77c3eb5ce725ddf277c974f18b1f8c12a19a74a2de07facb569dd1574d 4.63kB / 4.63kB done
+#4 sha256:660e15adffd02bf04869c93f50133ee304dcdf0a798d6da33807eb47deba17df 772B / 772B done
+#4 sha256:32e94a4e87a20d4402924f1902b9c30ab35cc774ca9299ff4919758323f21645 1.58kB / 1.58kB done
+#4 CANCELED
+------
+ > [3/6] COPY requirements_lambda.txt /var/task/:
+------
+------
+ > [5/6] COPY nfl_lambda_handler.py /var/task/lambda_function.py:
+------
+------
+ > [6/6] COPY nfl_live_data_fetcher.py /var/task/:
+------
+Dockerfile:12
+--------------------
+  10 |     # Copy function code
+  11 |     COPY nfl_lambda_handler.py ${LAMBDA_TASK_ROOT}/lambda_function.py
+  12 | >>> COPY nfl_live_data_fetcher.py ${LAMBDA_TASK_ROOT}/
+  13 |     
+  14 |     # Set the CMD to your handler
+--------------------
+ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref 2aa23eb1-8a56-41e1-89ba-b0558c4ac634::uqyx65gv33xxv86z6mnoscvon: "/nfl_live_data_fetcher.py": not found

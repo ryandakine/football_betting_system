@@ -1,0 +1,286 @@
+game_id,season,week,date,home_team,away_team,home_score,away_score,spread,total,odds,actual_result,edge_value,confidence
+2021_Dallas_Cowboys_Tampa_Bay_Buccaneers_2021-09-09,2021,,2021-09-09,Tampa Bay Buccaneers,Dallas Cowboys,31,29,0.0,60.0,-110,1,0.02,0.55
+2021_Philadelphia_Eagles_Atlanta_Falcons_2021-09-12,2021,,2021-09-12,Atlanta Falcons,Philadelphia Eagles,6,32,0.0,38.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Buffalo_Bills_2021-09-12,2021,,2021-09-12,Buffalo Bills,Pittsburgh Steelers,16,23,0.0,39.0,-110,0,0.02,0.55
+2021_New_York_Jets_Carolina_Panthers_2021-09-12,2021,,2021-09-12,Carolina Panthers,New York Jets,19,14,0.0,33.0,-110,1,0.02,0.55
+2021_Minnesota_Vikings_Cincinnati_Bengals_2021-09-12,2021,,2021-09-12,Cincinnati Bengals,Minnesota Vikings,27,24,0.0,51.0,-110,1,0.02,0.55
+2021_Seattle_Seahawks_Indianapolis_Colts_2021-09-12,2021,,2021-09-12,Indianapolis Colts,Seattle Seahawks,16,28,0.0,44.0,-110,0,0.02,0.55
+2021_Arizona_Cardinals_Tennessee_Titans_2021-09-12,2021,,2021-09-12,Tennessee Titans,Arizona Cardinals,13,38,0.0,51.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Detroit_Lions_2021-09-12,2021,,2021-09-12,Detroit Lions,San Francisco 49ers,33,41,0.0,74.0,-110,0,0.02,0.55
+2021_Jacksonville_Jaguars_Houston_Texans_2021-09-12,2021,,2021-09-12,Houston Texans,Jacksonville Jaguars,37,21,0.0,58.0,-110,1,0.02,0.55
+2021_Los_Angeles_Chargers_Washington_Football_Team_2021-09-12,2021,,2021-09-12,Washington Football Team,Los Angeles Chargers,16,20,0.0,36.0,-110,0,0.02,0.55
+2021_Cleveland_Browns_Kansas_City_Chiefs_2021-09-12,2021,,2021-09-12,Kansas City Chiefs,Cleveland Browns,33,29,0.0,62.0,-110,1,0.02,0.55
+2021_Denver_Broncos_New_York_Giants_2021-09-12,2021,,2021-09-12,New York Giants,Denver Broncos,13,27,0.0,40.0,-110,0,0.02,0.55
+2021_Green_Bay_Packers_New_Orleans_Saints_2021-09-12,2021,,2021-09-12,New Orleans Saints,Green Bay Packers,38,3,0.0,41.0,-110,1,0.02,0.55
+2021_Miami_Dolphins_New_England_Patriots_2021-09-12,2021,,2021-09-12,New England Patriots,Miami Dolphins,16,17,0.0,33.0,-110,0,0.02,0.55
+2021_Chicago_Bears_Los_Angeles_Rams_2021-09-12,2021,,2021-09-12,Los Angeles Rams,Chicago Bears,34,14,0.0,48.0,-110,1,0.02,0.55
+2021_Baltimore_Ravens_Las_Vegas_Raiders_2021-09-13,2021,,2021-09-13,Las Vegas Raiders,Baltimore Ravens,33,27,0.0,60.0,-110,1,0.02,0.55
+2021_New_York_Giants_Washington_Football_Team_2021-09-16,2021,,2021-09-16,Washington Football Team,New York Giants,30,29,0.0,59.0,-110,1,0.02,0.55
+2021_Buffalo_Bills_Miami_Dolphins_2021-09-19,2021,,2021-09-19,Miami Dolphins,Buffalo Bills,0,35,0.0,35.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_Carolina_Panthers_2021-09-19,2021,,2021-09-19,Carolina Panthers,New Orleans Saints,26,7,0.0,33.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Chicago_Bears_2021-09-19,2021,,2021-09-19,Chicago Bears,Cincinnati Bengals,20,17,0.0,37.0,-110,1,0.02,0.55
+2021_Houston_Texans_Cleveland_Browns_2021-09-19,2021,,2021-09-19,Cleveland Browns,Houston Texans,31,21,0.0,52.0,-110,1,0.02,0.55
+2021_Los_Angeles_Rams_Indianapolis_Colts_2021-09-19,2021,,2021-09-19,Indianapolis Colts,Los Angeles Rams,24,27,0.0,51.0,-110,0,0.02,0.55
+2021_Denver_Broncos_Jacksonville_Jaguars_2021-09-19,2021,,2021-09-19,Jacksonville Jaguars,Denver Broncos,13,23,0.0,36.0,-110,0,0.02,0.55
+2021_New_England_Patriots_New_York_Jets_2021-09-19,2021,,2021-09-19,New York Jets,New England Patriots,6,25,0.0,31.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Philadelphia_Eagles_2021-09-19,2021,,2021-09-19,Philadelphia Eagles,San Francisco 49ers,11,17,0.0,28.0,-110,0,0.02,0.55
+2021_Las_Vegas_Raiders_Pittsburgh_Steelers_2021-09-19,2021,,2021-09-19,Pittsburgh Steelers,Las Vegas Raiders,17,26,0.0,43.0,-110,0,0.02,0.55
+2021_Atlanta_Falcons_Tampa_Bay_Buccaneers_2021-09-19,2021,,2021-09-19,Tampa Bay Buccaneers,Atlanta Falcons,48,25,0.0,73.0,-110,1,0.02,0.55
+2021_Minnesota_Vikings_Arizona_Cardinals_2021-09-19,2021,,2021-09-19,Arizona Cardinals,Minnesota Vikings,34,33,0.0,67.0,-110,1,0.02,0.55
+2021_Dallas_Cowboys_Los_Angeles_Chargers_2021-09-19,2021,,2021-09-19,Los Angeles Chargers,Dallas Cowboys,17,20,0.0,37.0,-110,0,0.02,0.55
+2021_Tennessee_Titans_Seattle_Seahawks_2021-09-19,2021,,2021-09-19,Seattle Seahawks,Tennessee Titans,30,33,0.0,63.0,-110,0,0.02,0.55
+2021_Kansas_City_Chiefs_Baltimore_Ravens_2021-09-19,2021,,2021-09-19,Baltimore Ravens,Kansas City Chiefs,36,35,0.0,71.0,-110,1,0.02,0.55
+2021_Detroit_Lions_Green_Bay_Packers_2021-09-20,2021,,2021-09-20,Green Bay Packers,Detroit Lions,35,17,0.0,52.0,-110,1,0.02,0.55
+2021_Carolina_Panthers_Houston_Texans_2021-09-23,2021,,2021-09-23,Houston Texans,Carolina Panthers,9,24,0.0,33.0,-110,0,0.02,0.55
+2021_Atlanta_Falcons_New_York_Giants_2021-09-26,2021,,2021-09-26,New York Giants,Atlanta Falcons,14,17,0.0,31.0,-110,0,0.02,0.55
+2021_Washington_Football_Team_Buffalo_Bills_2021-09-26,2021,,2021-09-26,Buffalo Bills,Washington Football Team,43,21,0.0,64.0,-110,1,0.02,0.55
+2021_Chicago_Bears_Cleveland_Browns_2021-09-26,2021,,2021-09-26,Cleveland Browns,Chicago Bears,26,6,0.0,32.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Pittsburgh_Steelers_2021-09-26,2021,,2021-09-26,Pittsburgh Steelers,Cincinnati Bengals,10,24,0.0,34.0,-110,0,0.02,0.55
+2021_Indianapolis_Colts_Tennessee_Titans_2021-09-26,2021,,2021-09-26,Tennessee Titans,Indianapolis Colts,25,16,0.0,41.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Jacksonville_Jaguars_2021-09-26,2021,,2021-09-26,Jacksonville Jaguars,Arizona Cardinals,19,31,0.0,50.0,-110,0,0.02,0.55
+2021_Baltimore_Ravens_Detroit_Lions_2021-09-26,2021,,2021-09-26,Detroit Lions,Baltimore Ravens,17,19,0.0,36.0,-110,0,0.02,0.55
+2021_Los_Angeles_Chargers_Kansas_City_Chiefs_2021-09-26,2021,,2021-09-26,Kansas City Chiefs,Los Angeles Chargers,24,30,0.0,54.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_New_England_Patriots_2021-09-26,2021,,2021-09-26,New England Patriots,New Orleans Saints,13,28,0.0,41.0,-110,0,0.02,0.55
+2021_New_York_Jets_Denver_Broncos_2021-09-26,2021,,2021-09-26,Denver Broncos,New York Jets,26,0,0.0,26.0,-110,1,0.02,0.55
+2021_Miami_Dolphins_Las_Vegas_Raiders_2021-09-26,2021,,2021-09-26,Las Vegas Raiders,Miami Dolphins,31,28,0.0,59.0,-110,1,0.02,0.55
+2021_Seattle_Seahawks_Minnesota_Vikings_2021-09-26,2021,,2021-09-26,Minnesota Vikings,Seattle Seahawks,30,17,0.0,47.0,-110,1,0.02,0.55
+2021_Tampa_Bay_Buccaneers_Los_Angeles_Rams_2021-09-26,2021,,2021-09-26,Los Angeles Rams,Tampa Bay Buccaneers,34,24,0.0,58.0,-110,1,0.02,0.55
+2021_Green_Bay_Packers_San_Francisco_49ers_2021-09-26,2021,,2021-09-26,San Francisco 49ers,Green Bay Packers,28,30,0.0,58.0,-110,0,0.02,0.55
+2021_Philadelphia_Eagles_Dallas_Cowboys_2021-09-27,2021,,2021-09-27,Dallas Cowboys,Philadelphia Eagles,41,21,0.0,62.0,-110,1,0.02,0.55
+2021_Jacksonville_Jaguars_Cincinnati_Bengals_2021-09-30,2021,,2021-09-30,Cincinnati Bengals,Jacksonville Jaguars,24,21,0.0,45.0,-110,1,0.02,0.55
+2021_Washington_Football_Team_Atlanta_Falcons_2021-10-03,2021,,2021-10-03,Atlanta Falcons,Washington Football Team,30,34,0.0,64.0,-110,0,0.02,0.55
+2021_Houston_Texans_Buffalo_Bills_2021-10-03,2021,,2021-10-03,Buffalo Bills,Houston Texans,40,0,0.0,40.0,-110,1,0.02,0.55
+2021_Carolina_Panthers_Dallas_Cowboys_2021-10-03,2021,,2021-10-03,Dallas Cowboys,Carolina Panthers,36,28,0.0,64.0,-110,1,0.02,0.55
+2021_Detroit_Lions_Chicago_Bears_2021-10-03,2021,,2021-10-03,Chicago Bears,Detroit Lions,24,14,0.0,38.0,-110,1,0.02,0.55
+2021_Cleveland_Browns_Minnesota_Vikings_2021-10-03,2021,,2021-10-03,Minnesota Vikings,Cleveland Browns,7,14,0.0,21.0,-110,0,0.02,0.55
+2021_Indianapolis_Colts_Miami_Dolphins_2021-10-03,2021,,2021-10-03,Miami Dolphins,Indianapolis Colts,17,27,0.0,44.0,-110,0,0.02,0.55
+2021_Kansas_City_Chiefs_Philadelphia_Eagles_2021-10-03,2021,,2021-10-03,Philadelphia Eagles,Kansas City Chiefs,30,42,0.0,72.0,-110,0,0.02,0.55
+2021_New_York_Giants_New_Orleans_Saints_2021-10-03,2021,,2021-10-03,New Orleans Saints,New York Giants,21,27,0.0,48.0,-110,0,0.02,0.55
+2021_Tennessee_Titans_New_York_Jets_2021-10-03,2021,,2021-10-03,New York Jets,Tennessee Titans,27,24,0.0,51.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Los_Angeles_Rams_2021-10-03,2021,,2021-10-03,Los Angeles Rams,Arizona Cardinals,20,37,0.0,57.0,-110,0,0.02,0.55
+2021_Seattle_Seahawks_San_Francisco_49ers_2021-10-03,2021,,2021-10-03,San Francisco 49ers,Seattle Seahawks,21,28,0.0,49.0,-110,0,0.02,0.55
+2021_Baltimore_Ravens_Denver_Broncos_2021-10-03,2021,,2021-10-03,Denver Broncos,Baltimore Ravens,7,23,0.0,30.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Green_Bay_Packers_2021-10-03,2021,,2021-10-03,Green Bay Packers,Pittsburgh Steelers,27,17,0.0,44.0,-110,1,0.02,0.55
+2021_Tampa_Bay_Buccaneers_New_England_Patriots_2021-10-03,2021,,2021-10-03,New England Patriots,Tampa Bay Buccaneers,17,19,0.0,36.0,-110,0,0.02,0.55
+2021_Las_Vegas_Raiders_Los_Angeles_Chargers_2021-10-04,2021,,2021-10-04,Los Angeles Chargers,Las Vegas Raiders,28,14,0.0,42.0,-110,1,0.02,0.55
+2021_Los_Angeles_Rams_Seattle_Seahawks_2021-10-07,2021,,2021-10-07,Seattle Seahawks,Los Angeles Rams,17,26,0.0,43.0,-110,0,0.02,0.55
+2021_New_York_Jets_Atlanta_Falcons_2021-10-10,2021,,2021-10-10,Atlanta Falcons,New York Jets,27,20,0.0,47.0,-110,1,0.02,0.55
+2021_Philadelphia_Eagles_Carolina_Panthers_2021-10-10,2021,,2021-10-10,Carolina Panthers,Philadelphia Eagles,18,21,0.0,39.0,-110,0,0.02,0.55
+2021_Green_Bay_Packers_Cincinnati_Bengals_2021-10-10,2021,,2021-10-10,Cincinnati Bengals,Green Bay Packers,22,25,0.0,47.0,-110,0,0.02,0.55
+2021_Denver_Broncos_Pittsburgh_Steelers_2021-10-10,2021,,2021-10-10,Pittsburgh Steelers,Denver Broncos,27,19,0.0,46.0,-110,1,0.02,0.55
+2021_Detroit_Lions_Minnesota_Vikings_2021-10-10,2021,,2021-10-10,Minnesota Vikings,Detroit Lions,19,17,0.0,36.0,-110,1,0.02,0.55
+2021_New_England_Patriots_Houston_Texans_2021-10-10,2021,,2021-10-10,Houston Texans,New England Patriots,22,25,0.0,47.0,-110,0,0.02,0.55
+2021_Tennessee_Titans_Jacksonville_Jaguars_2021-10-10,2021,,2021-10-10,Jacksonville Jaguars,Tennessee Titans,19,37,0.0,56.0,-110,0,0.02,0.55
+2021_Miami_Dolphins_Tampa_Bay_Buccaneers_2021-10-10,2021,,2021-10-10,Tampa Bay Buccaneers,Miami Dolphins,45,17,0.0,62.0,-110,1,0.02,0.55
+2021_New_Orleans_Saints_Washington_Football_Team_2021-10-10,2021,,2021-10-10,Washington Football Team,New Orleans Saints,22,33,0.0,55.0,-110,0,0.02,0.55
+2021_Chicago_Bears_Las_Vegas_Raiders_2021-10-10,2021,,2021-10-10,Las Vegas Raiders,Chicago Bears,9,20,0.0,29.0,-110,0,0.02,0.55
+2021_Cleveland_Browns_Los_Angeles_Chargers_2021-10-10,2021,,2021-10-10,Los Angeles Chargers,Cleveland Browns,47,42,0.0,89.0,-110,1,0.02,0.55
+2021_San_Francisco_49ers_Arizona_Cardinals_2021-10-10,2021,,2021-10-10,Arizona Cardinals,San Francisco 49ers,17,10,0.0,27.0,-110,1,0.02,0.55
+2021_New_York_Giants_Dallas_Cowboys_2021-10-10,2021,,2021-10-10,Dallas Cowboys,New York Giants,44,20,0.0,64.0,-110,1,0.02,0.55
+2021_Buffalo_Bills_Kansas_City_Chiefs_2021-10-10,2021,,2021-10-10,Kansas City Chiefs,Buffalo Bills,20,38,0.0,58.0,-110,0,0.02,0.55
+2021_Indianapolis_Colts_Baltimore_Ravens_2021-10-11,2021,,2021-10-11,Baltimore Ravens,Indianapolis Colts,31,25,0.0,56.0,-110,1,0.02,0.55
+2021_Tampa_Bay_Buccaneers_Philadelphia_Eagles_2021-10-14,2021,,2021-10-14,Philadelphia Eagles,Tampa Bay Buccaneers,22,28,0.0,50.0,-110,0,0.02,0.55
+2021_Miami_Dolphins_Jacksonville_Jaguars_2021-10-17,2021,,2021-10-17,Jacksonville Jaguars,Miami Dolphins,23,20,0.0,43.0,-110,1,0.02,0.55
+2021_Minnesota_Vikings_Carolina_Panthers_2021-10-17,2021,,2021-10-17,Carolina Panthers,Minnesota Vikings,28,34,0.0,62.0,-110,0,0.02,0.55
+2021_Green_Bay_Packers_Chicago_Bears_2021-10-17,2021,,2021-10-17,Chicago Bears,Green Bay Packers,14,24,0.0,38.0,-110,0,0.02,0.55
+2021_Cincinnati_Bengals_Detroit_Lions_2021-10-17,2021,,2021-10-17,Detroit Lions,Cincinnati Bengals,11,34,0.0,45.0,-110,0,0.02,0.55
+2021_Houston_Texans_Indianapolis_Colts_2021-10-17,2021,,2021-10-17,Indianapolis Colts,Houston Texans,31,3,0.0,34.0,-110,1,0.02,0.55
+2021_Kansas_City_Chiefs_Washington_Football_Team_2021-10-17,2021,,2021-10-17,Washington Football Team,Kansas City Chiefs,13,31,0.0,44.0,-110,0,0.02,0.55
+2021_Los_Angeles_Rams_New_York_Giants_2021-10-17,2021,,2021-10-17,New York Giants,Los Angeles Rams,11,38,0.0,49.0,-110,0,0.02,0.55
+2021_Los_Angeles_Chargers_Baltimore_Ravens_2021-10-17,2021,,2021-10-17,Baltimore Ravens,Los Angeles Chargers,34,6,0.0,40.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Cleveland_Browns_2021-10-17,2021,,2021-10-17,Cleveland Browns,Arizona Cardinals,14,37,0.0,51.0,-110,0,0.02,0.55
+2021_Dallas_Cowboys_New_England_Patriots_2021-10-17,2021,,2021-10-17,New England Patriots,Dallas Cowboys,29,35,0.0,64.0,-110,0,0.02,0.55
+2021_Las_Vegas_Raiders_Denver_Broncos_2021-10-17,2021,,2021-10-17,Denver Broncos,Las Vegas Raiders,24,34,0.0,58.0,-110,0,0.02,0.55
+2021_Seattle_Seahawks_Pittsburgh_Steelers_2021-10-17,2021,,2021-10-17,Pittsburgh Steelers,Seattle Seahawks,23,20,0.0,43.0,-110,1,0.02,0.55
+2021_Buffalo_Bills_Tennessee_Titans_2021-10-18,2021,,2021-10-18,Tennessee Titans,Buffalo Bills,34,31,0.0,65.0,-110,1,0.02,0.55
+2021_Denver_Broncos_Cleveland_Browns_2021-10-21,2021,,2021-10-21,Cleveland Browns,Denver Broncos,17,14,0.0,31.0,-110,1,0.02,0.55
+2021_Atlanta_Falcons_Miami_Dolphins_2021-10-24,2021,,2021-10-24,Miami Dolphins,Atlanta Falcons,28,30,0.0,58.0,-110,0,0.02,0.55
+2021_Carolina_Panthers_New_York_Giants_2021-10-24,2021,,2021-10-24,New York Giants,Carolina Panthers,25,3,0.0,28.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Baltimore_Ravens_2021-10-24,2021,,2021-10-24,Baltimore Ravens,Cincinnati Bengals,17,41,0.0,58.0,-110,0,0.02,0.55
+2021_Washington_Football_Team_Green_Bay_Packers_2021-10-24,2021,,2021-10-24,Green Bay Packers,Washington Football Team,24,10,0.0,34.0,-110,1,0.02,0.55
+2021_Kansas_City_Chiefs_Tennessee_Titans_2021-10-24,2021,,2021-10-24,Tennessee Titans,Kansas City Chiefs,27,3,0.0,30.0,-110,1,0.02,0.55
+2021_New_York_Jets_New_England_Patriots_2021-10-24,2021,,2021-10-24,New England Patriots,New York Jets,54,13,0.0,67.0,-110,1,0.02,0.55
+2021_Detroit_Lions_Los_Angeles_Rams_2021-10-24,2021,,2021-10-24,Los Angeles Rams,Detroit Lions,28,19,0.0,47.0,-110,1,0.02,0.55
+2021_Philadelphia_Eagles_Las_Vegas_Raiders_2021-10-24,2021,,2021-10-24,Las Vegas Raiders,Philadelphia Eagles,33,22,0.0,55.0,-110,1,0.02,0.55
+2021_Chicago_Bears_Tampa_Bay_Buccaneers_2021-10-24,2021,,2021-10-24,Tampa Bay Buccaneers,Chicago Bears,38,3,0.0,41.0,-110,1,0.02,0.55
+2021_Houston_Texans_Arizona_Cardinals_2021-10-24,2021,,2021-10-24,Arizona Cardinals,Houston Texans,31,5,0.0,36.0,-110,1,0.02,0.55
+2021_Indianapolis_Colts_San_Francisco_49ers_2021-10-24,2021,,2021-10-24,San Francisco 49ers,Indianapolis Colts,18,30,0.0,48.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_Seattle_Seahawks_2021-10-25,2021,,2021-10-25,Seattle Seahawks,New Orleans Saints,10,13,0.0,23.0,-110,0,0.02,0.55
+2021_Green_Bay_Packers_Arizona_Cardinals_2021-10-28,2021,,2021-10-28,Arizona Cardinals,Green Bay Packers,21,24,0.0,45.0,-110,0,0.02,0.55
+2021_Carolina_Panthers_Atlanta_Falcons_2021-10-31,2021,,2021-10-31,Atlanta Falcons,Carolina Panthers,13,19,0.0,32.0,-110,0,0.02,0.55
+2021_Miami_Dolphins_Buffalo_Bills_2021-10-31,2021,,2021-10-31,Buffalo Bills,Miami Dolphins,26,11,0.0,37.0,-110,1,0.02,0.55
+2021_San_Francisco_49ers_Chicago_Bears_2021-10-31,2021,,2021-10-31,Chicago Bears,San Francisco 49ers,22,33,0.0,55.0,-110,0,0.02,0.55
+2021_Cincinnati_Bengals_New_York_Jets_2021-10-31,2021,,2021-10-31,New York Jets,Cincinnati Bengals,34,31,0.0,65.0,-110,1,0.02,0.55
+2021_Pittsburgh_Steelers_Cleveland_Browns_2021-10-31,2021,,2021-10-31,Cleveland Browns,Pittsburgh Steelers,10,15,0.0,25.0,-110,0,0.02,0.55
+2021_Tennessee_Titans_Indianapolis_Colts_2021-10-31,2021,,2021-10-31,Indianapolis Colts,Tennessee Titans,31,34,0.0,65.0,-110,0,0.02,0.55
+2021_Philadelphia_Eagles_Detroit_Lions_2021-10-31,2021,,2021-10-31,Detroit Lions,Philadelphia Eagles,6,44,0.0,50.0,-110,0,0.02,0.55
+2021_Los_Angeles_Rams_Houston_Texans_2021-10-31,2021,,2021-10-31,Houston Texans,Los Angeles Rams,22,38,0.0,60.0,-110,0,0.02,0.55
+2021_Jacksonville_Jaguars_Seattle_Seahawks_2021-10-31,2021,,2021-10-31,Seattle Seahawks,Jacksonville Jaguars,31,7,0.0,38.0,-110,1,0.02,0.55
+2021_New_England_Patriots_Los_Angeles_Chargers_2021-10-31,2021,,2021-10-31,Los Angeles Chargers,New England Patriots,24,27,0.0,51.0,-110,0,0.02,0.55
+2021_Tampa_Bay_Buccaneers_New_Orleans_Saints_2021-10-31,2021,,2021-10-31,New Orleans Saints,Tampa Bay Buccaneers,36,27,0.0,63.0,-110,1,0.02,0.55
+2021_Washington_Football_Team_Denver_Broncos_2021-10-31,2021,,2021-10-31,Denver Broncos,Washington Football Team,17,10,0.0,27.0,-110,1,0.02,0.55
+2021_Dallas_Cowboys_Minnesota_Vikings_2021-10-31,2021,,2021-10-31,Minnesota Vikings,Dallas Cowboys,16,20,0.0,36.0,-110,0,0.02,0.55
+2021_New_York_Giants_Kansas_City_Chiefs_2021-11-01,2021,,2021-11-01,Kansas City Chiefs,New York Giants,20,17,0.0,37.0,-110,1,0.02,0.55
+2021_New_York_Jets_Indianapolis_Colts_2021-11-04,2021,,2021-11-04,Indianapolis Colts,New York Jets,45,30,0.0,75.0,-110,1,0.02,0.55
+2021_Atlanta_Falcons_New_Orleans_Saints_2021-11-07,2021,,2021-11-07,New Orleans Saints,Atlanta Falcons,25,27,0.0,52.0,-110,0,0.02,0.55
+2021_Buffalo_Bills_Jacksonville_Jaguars_2021-11-07,2021,,2021-11-07,Jacksonville Jaguars,Buffalo Bills,9,6,0.0,15.0,-110,1,0.02,0.55
+2021_Denver_Broncos_Dallas_Cowboys_2021-11-07,2021,,2021-11-07,Dallas Cowboys,Denver Broncos,16,30,0.0,46.0,-110,0,0.02,0.55
+2021_Minnesota_Vikings_Baltimore_Ravens_2021-11-07,2021,,2021-11-07,Baltimore Ravens,Minnesota Vikings,34,31,0.0,65.0,-110,1,0.02,0.55
+2021_New_England_Patriots_Carolina_Panthers_2021-11-07,2021,,2021-11-07,Carolina Panthers,New England Patriots,6,24,0.0,30.0,-110,0,0.02,0.55
+2021_Cleveland_Browns_Cincinnati_Bengals_2021-11-07,2021,,2021-11-07,Cincinnati Bengals,Cleveland Browns,16,41,0.0,57.0,-110,0,0.02,0.55
+2021_Houston_Texans_Miami_Dolphins_2021-11-07,2021,,2021-11-07,Miami Dolphins,Houston Texans,17,9,0.0,26.0,-110,1,0.02,0.55
+2021_Las_Vegas_Raiders_New_York_Giants_2021-11-07,2021,,2021-11-07,New York Giants,Las Vegas Raiders,23,16,0.0,39.0,-110,1,0.02,0.55
+2021_Los_Angeles_Chargers_Philadelphia_Eagles_2021-11-07,2021,,2021-11-07,Philadelphia Eagles,Los Angeles Chargers,24,27,0.0,51.0,-110,0,0.02,0.55
+2021_Arizona_Cardinals_San_Francisco_49ers_2021-11-07,2021,,2021-11-07,San Francisco 49ers,Arizona Cardinals,17,31,0.0,48.0,-110,0,0.02,0.55
+2021_Green_Bay_Packers_Kansas_City_Chiefs_2021-11-07,2021,,2021-11-07,Kansas City Chiefs,Green Bay Packers,13,7,0.0,20.0,-110,1,0.02,0.55
+2021_Tennessee_Titans_Los_Angeles_Rams_2021-11-07,2021,,2021-11-07,Los Angeles Rams,Tennessee Titans,16,28,0.0,44.0,-110,0,0.02,0.55
+2021_Chicago_Bears_Pittsburgh_Steelers_2021-11-08,2021,,2021-11-08,Pittsburgh Steelers,Chicago Bears,29,27,0.0,56.0,-110,1,0.02,0.55
+2021_Baltimore_Ravens_Miami_Dolphins_2021-11-11,2021,,2021-11-11,Miami Dolphins,Baltimore Ravens,22,10,0.0,32.0,-110,1,0.02,0.55
+2021_Atlanta_Falcons_Dallas_Cowboys_2021-11-14,2021,,2021-11-14,Dallas Cowboys,Atlanta Falcons,43,3,0.0,46.0,-110,1,0.02,0.55
+2021_Buffalo_Bills_New_York_Jets_2021-11-14,2021,,2021-11-14,New York Jets,Buffalo Bills,17,45,0.0,62.0,-110,0,0.02,0.55
+2021_Detroit_Lions_Pittsburgh_Steelers_2021-11-14,2021,,2021-11-14,Pittsburgh Steelers,Detroit Lions,16,16,0.0,32.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_Tennessee_Titans_2021-11-14,2021,,2021-11-14,Tennessee Titans,New Orleans Saints,23,21,0.0,44.0,-110,1,0.02,0.55
+2021_Tampa_Bay_Buccaneers_Washington_Football_Team_2021-11-14,2021,,2021-11-14,Washington Football Team,Tampa Bay Buccaneers,29,19,0.0,48.0,-110,1,0.02,0.55
+2021_Cleveland_Browns_New_England_Patriots_2021-11-14,2021,,2021-11-14,New England Patriots,Cleveland Browns,45,7,0.0,52.0,-110,1,0.02,0.55
+2021_Jacksonville_Jaguars_Indianapolis_Colts_2021-11-14,2021,,2021-11-14,Indianapolis Colts,Jacksonville Jaguars,23,17,0.0,40.0,-110,1,0.02,0.55
+2021_Minnesota_Vikings_Los_Angeles_Chargers_2021-11-14,2021,,2021-11-14,Los Angeles Chargers,Minnesota Vikings,20,27,0.0,47.0,-110,0,0.02,0.55
+2021_Carolina_Panthers_Arizona_Cardinals_2021-11-14,2021,,2021-11-14,Arizona Cardinals,Carolina Panthers,10,34,0.0,44.0,-110,0,0.02,0.55
+2021_Philadelphia_Eagles_Denver_Broncos_2021-11-14,2021,,2021-11-14,Denver Broncos,Philadelphia Eagles,13,30,0.0,43.0,-110,0,0.02,0.55
+2021_Seattle_Seahawks_Green_Bay_Packers_2021-11-14,2021,,2021-11-14,Green Bay Packers,Seattle Seahawks,17,0,0.0,17.0,-110,1,0.02,0.55
+2021_Kansas_City_Chiefs_Las_Vegas_Raiders_2021-11-14,2021,,2021-11-14,Las Vegas Raiders,Kansas City Chiefs,14,41,0.0,55.0,-110,0,0.02,0.55
+2021_Los_Angeles_Rams_San_Francisco_49ers_2021-11-15,2021,,2021-11-15,San Francisco 49ers,Los Angeles Rams,31,10,0.0,41.0,-110,1,0.02,0.55
+2021_New_England_Patriots_Atlanta_Falcons_2021-11-18,2021,,2021-11-18,Atlanta Falcons,New England Patriots,0,25,0.0,25.0,-110,0,0.02,0.55
+2021_Indianapolis_Colts_Buffalo_Bills_2021-11-21,2021,,2021-11-21,Buffalo Bills,Indianapolis Colts,15,41,0.0,56.0,-110,0,0.02,0.55
+2021_Baltimore_Ravens_Chicago_Bears_2021-11-21,2021,,2021-11-21,Chicago Bears,Baltimore Ravens,13,16,0.0,29.0,-110,0,0.02,0.55
+2021_Houston_Texans_Tennessee_Titans_2021-11-21,2021,,2021-11-21,Tennessee Titans,Houston Texans,13,22,0.0,35.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Jacksonville_Jaguars_2021-11-21,2021,,2021-11-21,Jacksonville Jaguars,San Francisco 49ers,10,30,0.0,40.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_Philadelphia_Eagles_2021-11-21,2021,,2021-11-21,Philadelphia Eagles,New Orleans Saints,40,29,0.0,69.0,-110,1,0.02,0.55
+2021_Washington_Football_Team_Carolina_Panthers_2021-11-21,2021,,2021-11-21,Carolina Panthers,Washington Football Team,21,27,0.0,48.0,-110,0,0.02,0.55
+2021_Detroit_Lions_Cleveland_Browns_2021-11-21,2021,,2021-11-21,Cleveland Browns,Detroit Lions,13,10,0.0,23.0,-110,1,0.02,0.55
+2021_Green_Bay_Packers_Minnesota_Vikings_2021-11-21,2021,,2021-11-21,Minnesota Vikings,Green Bay Packers,34,31,0.0,65.0,-110,1,0.02,0.55
+2021_Miami_Dolphins_New_York_Jets_2021-11-21,2021,,2021-11-21,New York Jets,Miami Dolphins,17,24,0.0,41.0,-110,0,0.02,0.55
+2021_Cincinnati_Bengals_Las_Vegas_Raiders_2021-11-21,2021,,2021-11-21,Las Vegas Raiders,Cincinnati Bengals,13,32,0.0,45.0,-110,0,0.02,0.55
+2021_Dallas_Cowboys_Kansas_City_Chiefs_2021-11-21,2021,,2021-11-21,Kansas City Chiefs,Dallas Cowboys,19,9,0.0,28.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Seattle_Seahawks_2021-11-21,2021,,2021-11-21,Seattle Seahawks,Arizona Cardinals,13,23,0.0,36.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Los_Angeles_Chargers_2021-11-21,2021,,2021-11-21,Los Angeles Chargers,Pittsburgh Steelers,41,37,0.0,78.0,-110,1,0.02,0.55
+2021_New_York_Giants_Tampa_Bay_Buccaneers_2021-11-22,2021,,2021-11-22,Tampa Bay Buccaneers,New York Giants,30,10,0.0,40.0,-110,1,0.02,0.55
+2021_Chicago_Bears_Detroit_Lions_2021-11-25,2021,,2021-11-25,Detroit Lions,Chicago Bears,14,16,0.0,30.0,-110,0,0.02,0.55
+2021_Las_Vegas_Raiders_Dallas_Cowboys_2021-11-25,2021,,2021-11-25,Dallas Cowboys,Las Vegas Raiders,33,36,0.0,69.0,-110,0,0.02,0.55
+2021_Buffalo_Bills_New_Orleans_Saints_2021-11-25,2021,,2021-11-25,New Orleans Saints,Buffalo Bills,6,31,0.0,37.0,-110,0,0.02,0.55
+2021_Atlanta_Falcons_Jacksonville_Jaguars_2021-11-28,2021,,2021-11-28,Jacksonville Jaguars,Atlanta Falcons,14,21,0.0,35.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Cincinnati_Bengals_2021-11-28,2021,,2021-11-28,Cincinnati Bengals,Pittsburgh Steelers,41,10,0.0,51.0,-110,1,0.02,0.55
+2021_New_York_Jets_Houston_Texans_2021-11-28,2021,,2021-11-28,Houston Texans,New York Jets,14,21,0.0,35.0,-110,0,0.02,0.55
+2021_Philadelphia_Eagles_New_York_Giants_2021-11-28,2021,,2021-11-28,New York Giants,Philadelphia Eagles,13,7,0.0,20.0,-110,1,0.02,0.55
+2021_Carolina_Panthers_Miami_Dolphins_2021-11-28,2021,,2021-11-28,Miami Dolphins,Carolina Panthers,33,10,0.0,43.0,-110,1,0.02,0.55
+2021_Tampa_Bay_Buccaneers_Indianapolis_Colts_2021-11-28,2021,,2021-11-28,Indianapolis Colts,Tampa Bay Buccaneers,31,38,0.0,69.0,-110,0,0.02,0.55
+2021_Tennessee_Titans_New_England_Patriots_2021-11-28,2021,,2021-11-28,New England Patriots,Tennessee Titans,36,13,0.0,49.0,-110,1,0.02,0.55
+2021_Los_Angeles_Chargers_Denver_Broncos_2021-11-28,2021,,2021-11-28,Denver Broncos,Los Angeles Chargers,28,13,0.0,41.0,-110,1,0.02,0.55
+2021_Minnesota_Vikings_San_Francisco_49ers_2021-11-28,2021,,2021-11-28,San Francisco 49ers,Minnesota Vikings,34,26,0.0,60.0,-110,1,0.02,0.55
+2021_Los_Angeles_Rams_Green_Bay_Packers_2021-11-28,2021,,2021-11-28,Green Bay Packers,Los Angeles Rams,36,28,0.0,64.0,-110,1,0.02,0.55
+2021_Cleveland_Browns_Baltimore_Ravens_2021-11-28,2021,,2021-11-28,Baltimore Ravens,Cleveland Browns,16,10,0.0,26.0,-110,1,0.02,0.55
+2021_Seattle_Seahawks_Washington_Football_Team_2021-11-29,2021,,2021-11-29,Washington Football Team,Seattle Seahawks,17,15,0.0,32.0,-110,1,0.02,0.55
+2021_Dallas_Cowboys_New_Orleans_Saints_2021-12-02,2021,,2021-12-02,New Orleans Saints,Dallas Cowboys,17,27,0.0,44.0,-110,0,0.02,0.55
+2021_Tampa_Bay_Buccaneers_Atlanta_Falcons_2021-12-05,2021,,2021-12-05,Atlanta Falcons,Tampa Bay Buccaneers,17,30,0.0,47.0,-110,0,0.02,0.55
+2021_Arizona_Cardinals_Chicago_Bears_2021-12-05,2021,,2021-12-05,Chicago Bears,Arizona Cardinals,22,33,0.0,55.0,-110,0,0.02,0.55
+2021_Los_Angeles_Chargers_Cincinnati_Bengals_2021-12-05,2021,,2021-12-05,Cincinnati Bengals,Los Angeles Chargers,22,41,0.0,63.0,-110,0,0.02,0.55
+2021_Minnesota_Vikings_Detroit_Lions_2021-12-05,2021,,2021-12-05,Detroit Lions,Minnesota Vikings,29,27,0.0,56.0,-110,1,0.02,0.55
+2021_Philadelphia_Eagles_New_York_Jets_2021-12-05,2021,,2021-12-05,New York Jets,Philadelphia Eagles,18,33,0.0,51.0,-110,0,0.02,0.55
+2021_Indianapolis_Colts_Houston_Texans_2021-12-05,2021,,2021-12-05,Houston Texans,Indianapolis Colts,0,31,0.0,31.0,-110,0,0.02,0.55
+2021_New_York_Giants_Miami_Dolphins_2021-12-05,2021,,2021-12-05,Miami Dolphins,New York Giants,20,9,0.0,29.0,-110,1,0.02,0.55
+2021_San_Francisco_49ers_Seattle_Seahawks_2021-12-05,2021,,2021-12-05,Seattle Seahawks,San Francisco 49ers,30,23,0.0,53.0,-110,1,0.02,0.55
+2021_Washington_Football_Team_Las_Vegas_Raiders_2021-12-05,2021,,2021-12-05,Las Vegas Raiders,Washington Football Team,15,17,0.0,32.0,-110,0,0.02,0.55
+2021_Jacksonville_Jaguars_Los_Angeles_Rams_2021-12-05,2021,,2021-12-05,Los Angeles Rams,Jacksonville Jaguars,37,7,0.0,44.0,-110,1,0.02,0.55
+2021_Baltimore_Ravens_Pittsburgh_Steelers_2021-12-05,2021,,2021-12-05,Pittsburgh Steelers,Baltimore Ravens,20,19,0.0,39.0,-110,1,0.02,0.55
+2021_Denver_Broncos_Kansas_City_Chiefs_2021-12-05,2021,,2021-12-05,Kansas City Chiefs,Denver Broncos,22,9,0.0,31.0,-110,1,0.02,0.55
+2021_New_England_Patriots_Buffalo_Bills_2021-12-06,2021,,2021-12-06,Buffalo Bills,New England Patriots,10,14,0.0,24.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Minnesota_Vikings_2021-12-09,2021,,2021-12-09,Minnesota Vikings,Pittsburgh Steelers,36,28,0.0,64.0,-110,1,0.02,0.55
+2021_Atlanta_Falcons_Carolina_Panthers_2021-12-12,2021,,2021-12-12,Carolina Panthers,Atlanta Falcons,21,29,0.0,50.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Cincinnati_Bengals_2021-12-12,2021,,2021-12-12,Cincinnati Bengals,San Francisco 49ers,23,26,0.0,49.0,-110,0,0.02,0.55
+2021_Baltimore_Ravens_Cleveland_Browns_2021-12-12,2021,,2021-12-12,Cleveland Browns,Baltimore Ravens,24,22,0.0,46.0,-110,1,0.02,0.55
+2021_Dallas_Cowboys_Washington_Football_Team_2021-12-12,2021,,2021-12-12,Washington Football Team,Dallas Cowboys,20,27,0.0,47.0,-110,0,0.02,0.55
+2021_Seattle_Seahawks_Houston_Texans_2021-12-12,2021,,2021-12-12,Houston Texans,Seattle Seahawks,13,33,0.0,46.0,-110,0,0.02,0.55
+2021_Jacksonville_Jaguars_Tennessee_Titans_2021-12-12,2021,,2021-12-12,Tennessee Titans,Jacksonville Jaguars,20,0,0.0,20.0,-110,1,0.02,0.55
+2021_Las_Vegas_Raiders_Kansas_City_Chiefs_2021-12-12,2021,,2021-12-12,Kansas City Chiefs,Las Vegas Raiders,48,9,0.0,57.0,-110,1,0.02,0.55
+2021_New_Orleans_Saints_New_York_Jets_2021-12-12,2021,,2021-12-12,New York Jets,New Orleans Saints,9,30,0.0,39.0,-110,0,0.02,0.55
+2021_Detroit_Lions_Denver_Broncos_2021-12-12,2021,,2021-12-12,Denver Broncos,Detroit Lions,38,10,0.0,48.0,-110,1,0.02,0.55
+2021_New_York_Giants_Los_Angeles_Chargers_2021-12-12,2021,,2021-12-12,Los Angeles Chargers,New York Giants,37,21,0.0,58.0,-110,1,0.02,0.55
+2021_Buffalo_Bills_Tampa_Bay_Buccaneers_2021-12-12,2021,,2021-12-12,Tampa Bay Buccaneers,Buffalo Bills,33,27,0.0,60.0,-110,1,0.02,0.55
+2021_Chicago_Bears_Green_Bay_Packers_2021-12-12,2021,,2021-12-12,Green Bay Packers,Chicago Bears,45,30,0.0,75.0,-110,1,0.02,0.55
+2021_Los_Angeles_Rams_Arizona_Cardinals_2021-12-13,2021,,2021-12-13,Arizona Cardinals,Los Angeles Rams,23,30,0.0,53.0,-110,0,0.02,0.55
+2021_Kansas_City_Chiefs_Los_Angeles_Chargers_2021-12-16,2021,,2021-12-16,Los Angeles Chargers,Kansas City Chiefs,28,34,0.0,62.0,-110,0,0.02,0.55
+2021_New_England_Patriots_Indianapolis_Colts_2021-12-18,2021,,2021-12-18,Indianapolis Colts,New England Patriots,27,17,0.0,44.0,-110,1,0.02,0.55
+2021_Carolina_Panthers_Buffalo_Bills_2021-12-19,2021,,2021-12-19,Buffalo Bills,Carolina Panthers,31,14,0.0,45.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Detroit_Lions_2021-12-19,2021,,2021-12-19,Detroit Lions,Arizona Cardinals,30,12,0.0,42.0,-110,1,0.02,0.55
+2021_Dallas_Cowboys_New_York_Giants_2021-12-19,2021,,2021-12-19,New York Giants,Dallas Cowboys,6,21,0.0,27.0,-110,0,0.02,0.55
+2021_Green_Bay_Packers_Baltimore_Ravens_2021-12-19,2021,,2021-12-19,Baltimore Ravens,Green Bay Packers,30,31,0.0,61.0,-110,0,0.02,0.55
+2021_Houston_Texans_Jacksonville_Jaguars_2021-12-19,2021,,2021-12-19,Jacksonville Jaguars,Houston Texans,16,30,0.0,46.0,-110,0,0.02,0.55
+2021_New_York_Jets_Miami_Dolphins_2021-12-19,2021,,2021-12-19,Miami Dolphins,New York Jets,31,24,0.0,55.0,-110,1,0.02,0.55
+2021_Tennessee_Titans_Pittsburgh_Steelers_2021-12-19,2021,,2021-12-19,Pittsburgh Steelers,Tennessee Titans,19,13,0.0,32.0,-110,1,0.02,0.55
+2021_Atlanta_Falcons_San_Francisco_49ers_2021-12-19,2021,,2021-12-19,San Francisco 49ers,Atlanta Falcons,31,13,0.0,44.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Denver_Broncos_2021-12-19,2021,,2021-12-19,Denver Broncos,Cincinnati Bengals,10,15,0.0,25.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_Tampa_Bay_Buccaneers_2021-12-19,2021,,2021-12-19,Tampa Bay Buccaneers,New Orleans Saints,0,9,0.0,9.0,-110,0,0.02,0.55
+2021_Las_Vegas_Raiders_Cleveland_Browns_2021-12-20,2021,,2021-12-20,Cleveland Browns,Las Vegas Raiders,14,16,0.0,30.0,-110,0,0.02,0.55
+2021_Minnesota_Vikings_Chicago_Bears_2021-12-20,2021,,2021-12-20,Chicago Bears,Minnesota Vikings,9,17,0.0,26.0,-110,0,0.02,0.55
+2021_Washington_Football_Team_Philadelphia_Eagles_2021-12-21,2021,,2021-12-21,Philadelphia Eagles,Washington Football Team,27,17,0.0,44.0,-110,1,0.02,0.55
+2021_Seattle_Seahawks_Los_Angeles_Rams_2021-12-21,2021,,2021-12-21,Los Angeles Rams,Seattle Seahawks,20,10,0.0,30.0,-110,1,0.02,0.55
+2021_San_Francisco_49ers_Tennessee_Titans_2021-12-23,2021,,2021-12-23,Tennessee Titans,San Francisco 49ers,20,17,0.0,37.0,-110,1,0.02,0.55
+2021_Cleveland_Browns_Green_Bay_Packers_2021-12-25,2021,,2021-12-25,Green Bay Packers,Cleveland Browns,24,22,0.0,46.0,-110,1,0.02,0.55
+2021_Indianapolis_Colts_Arizona_Cardinals_2021-12-25,2021,,2021-12-25,Arizona Cardinals,Indianapolis Colts,16,22,0.0,38.0,-110,0,0.02,0.55
+2021_Detroit_Lions_Atlanta_Falcons_2021-12-26,2021,,2021-12-26,Atlanta Falcons,Detroit Lions,20,16,0.0,36.0,-110,1,0.02,0.55
+2021_Buffalo_Bills_New_England_Patriots_2021-12-26,2021,,2021-12-26,New England Patriots,Buffalo Bills,21,33,0.0,54.0,-110,0,0.02,0.55
+2021_Tampa_Bay_Buccaneers_Carolina_Panthers_2021-12-26,2021,,2021-12-26,Carolina Panthers,Tampa Bay Buccaneers,6,32,0.0,38.0,-110,0,0.02,0.55
+2021_Baltimore_Ravens_Cincinnati_Bengals_2021-12-26,2021,,2021-12-26,Cincinnati Bengals,Baltimore Ravens,41,21,0.0,62.0,-110,1,0.02,0.55
+2021_Los_Angeles_Chargers_Houston_Texans_2021-12-26,2021,,2021-12-26,Houston Texans,Los Angeles Chargers,41,29,0.0,70.0,-110,1,0.02,0.55
+2021_Jacksonville_Jaguars_New_York_Jets_2021-12-26,2021,,2021-12-26,New York Jets,Jacksonville Jaguars,26,21,0.0,47.0,-110,1,0.02,0.55
+2021_Los_Angeles_Rams_Minnesota_Vikings_2021-12-26,2021,,2021-12-26,Minnesota Vikings,Los Angeles Rams,23,30,0.0,53.0,-110,0,0.02,0.55
+2021_New_York_Giants_Philadelphia_Eagles_2021-12-26,2021,,2021-12-26,Philadelphia Eagles,New York Giants,34,10,0.0,44.0,-110,1,0.02,0.55
+2021_Chicago_Bears_Seattle_Seahawks_2021-12-26,2021,,2021-12-26,Seattle Seahawks,Chicago Bears,24,25,0.0,49.0,-110,0,0.02,0.55
+2021_Denver_Broncos_Las_Vegas_Raiders_2021-12-26,2021,,2021-12-26,Las Vegas Raiders,Denver Broncos,17,13,0.0,30.0,-110,1,0.02,0.55
+2021_Pittsburgh_Steelers_Kansas_City_Chiefs_2021-12-26,2021,,2021-12-26,Kansas City Chiefs,Pittsburgh Steelers,36,10,0.0,46.0,-110,1,0.02,0.55
+2021_Washington_Football_Team_Dallas_Cowboys_2021-12-26,2021,,2021-12-26,Dallas Cowboys,Washington Football Team,56,14,0.0,70.0,-110,1,0.02,0.55
+2021_Miami_Dolphins_New_Orleans_Saints_2021-12-27,2021,,2021-12-27,New Orleans Saints,Miami Dolphins,3,20,0.0,23.0,-110,0,0.02,0.55
+2021_Atlanta_Falcons_Buffalo_Bills_2022-01-02,2021,,2022-01-02,Buffalo Bills,Atlanta Falcons,29,15,0.0,44.0,-110,1,0.02,0.55
+2021_Carolina_Panthers_New_Orleans_Saints_2022-01-02,2021,,2022-01-02,New Orleans Saints,Carolina Panthers,18,10,0.0,28.0,-110,1,0.02,0.55
+2021_New_York_Giants_Chicago_Bears_2022-01-02,2021,,2022-01-02,Chicago Bears,New York Giants,29,3,0.0,32.0,-110,1,0.02,0.55
+2021_Kansas_City_Chiefs_Cincinnati_Bengals_2022-01-02,2021,,2022-01-02,Cincinnati Bengals,Kansas City Chiefs,34,31,0.0,65.0,-110,1,0.02,0.55
+2021_Las_Vegas_Raiders_Indianapolis_Colts_2022-01-02,2021,,2022-01-02,Indianapolis Colts,Las Vegas Raiders,20,23,0.0,43.0,-110,0,0.02,0.55
+2021_Jacksonville_Jaguars_New_England_Patriots_2022-01-02,2021,,2022-01-02,New England Patriots,Jacksonville Jaguars,50,10,0.0,60.0,-110,1,0.02,0.55
+2021_Miami_Dolphins_Tennessee_Titans_2022-01-02,2021,,2022-01-02,Tennessee Titans,Miami Dolphins,34,3,0.0,37.0,-110,1,0.02,0.55
+2021_Tampa_Bay_Buccaneers_New_York_Jets_2022-01-02,2021,,2022-01-02,New York Jets,Tampa Bay Buccaneers,24,28,0.0,52.0,-110,0,0.02,0.55
+2021_Philadelphia_Eagles_Washington_Football_Team_2022-01-02,2021,,2022-01-02,Washington Football Team,Philadelphia Eagles,16,20,0.0,36.0,-110,0,0.02,0.55
+2021_Denver_Broncos_Los_Angeles_Chargers_2022-01-02,2021,,2022-01-02,Los Angeles Chargers,Denver Broncos,34,13,0.0,47.0,-110,1,0.02,0.55
+2021_Houston_Texans_San_Francisco_49ers_2022-01-02,2021,,2022-01-02,San Francisco 49ers,Houston Texans,23,7,0.0,30.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Dallas_Cowboys_2022-01-02,2021,,2022-01-02,Dallas Cowboys,Arizona Cardinals,22,25,0.0,47.0,-110,0,0.02,0.55
+2021_Detroit_Lions_Seattle_Seahawks_2022-01-02,2021,,2022-01-02,Seattle Seahawks,Detroit Lions,51,29,0.0,80.0,-110,1,0.02,0.55
+2021_Los_Angeles_Rams_Baltimore_Ravens_2022-01-02,2021,,2022-01-02,Baltimore Ravens,Los Angeles Rams,19,20,0.0,39.0,-110,0,0.02,0.55
+2021_Minnesota_Vikings_Green_Bay_Packers_2022-01-02,2021,,2022-01-02,Green Bay Packers,Minnesota Vikings,37,10,0.0,47.0,-110,1,0.02,0.55
+2021_Cleveland_Browns_Pittsburgh_Steelers_2022-01-03,2021,,2022-01-03,Pittsburgh Steelers,Cleveland Browns,26,14,0.0,40.0,-110,1,0.02,0.55
+2021_Kansas_City_Chiefs_Denver_Broncos_2022-01-08,2021,,2022-01-08,Denver Broncos,Kansas City Chiefs,24,28,0.0,52.0,-110,0,0.02,0.55
+2021_Dallas_Cowboys_Philadelphia_Eagles_2022-01-08,2021,,2022-01-08,Philadelphia Eagles,Dallas Cowboys,26,51,0.0,77.0,-110,0,0.02,0.55
+2021_New_Orleans_Saints_Atlanta_Falcons_2022-01-09,2021,,2022-01-09,Atlanta Falcons,New Orleans Saints,20,30,0.0,50.0,-110,0,0.02,0.55
+2021_Carolina_Panthers_Tampa_Bay_Buccaneers_2022-01-09,2021,,2022-01-09,Tampa Bay Buccaneers,Carolina Panthers,41,17,0.0,58.0,-110,1,0.02,0.55
+2021_Chicago_Bears_Minnesota_Vikings_2022-01-09,2021,,2022-01-09,Minnesota Vikings,Chicago Bears,31,17,0.0,48.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Cleveland_Browns_2022-01-09,2021,,2022-01-09,Cleveland Browns,Cincinnati Bengals,21,16,0.0,37.0,-110,1,0.02,0.55
+2021_Indianapolis_Colts_Jacksonville_Jaguars_2022-01-09,2021,,2022-01-09,Jacksonville Jaguars,Indianapolis Colts,26,11,0.0,37.0,-110,1,0.02,0.55
+2021_Green_Bay_Packers_Detroit_Lions_2022-01-09,2021,,2022-01-09,Detroit Lions,Green Bay Packers,37,30,0.0,67.0,-110,1,0.02,0.55
+2021_Tennessee_Titans_Houston_Texans_2022-01-09,2021,,2022-01-09,Houston Texans,Tennessee Titans,25,28,0.0,53.0,-110,0,0.02,0.55
+2021_New_England_Patriots_Miami_Dolphins_2022-01-09,2021,,2022-01-09,Miami Dolphins,New England Patriots,33,24,0.0,57.0,-110,1,0.02,0.55
+2021_Washington_Football_Team_New_York_Giants_2022-01-09,2021,,2022-01-09,New York Giants,Washington Football Team,7,22,0.0,29.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Baltimore_Ravens_2022-01-09,2021,,2022-01-09,Baltimore Ravens,Pittsburgh Steelers,13,16,0.0,29.0,-110,0,0.02,0.55
+2021_New_York_Jets_Buffalo_Bills_2022-01-09,2021,,2022-01-09,Buffalo Bills,New York Jets,27,10,0.0,37.0,-110,1,0.02,0.55
+2021_Seattle_Seahawks_Arizona_Cardinals_2022-01-09,2021,,2022-01-09,Arizona Cardinals,Seattle Seahawks,30,38,0.0,68.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Los_Angeles_Rams_2022-01-09,2021,,2022-01-09,Los Angeles Rams,San Francisco 49ers,24,27,0.0,51.0,-110,0,0.02,0.55
+2021_Los_Angeles_Chargers_Las_Vegas_Raiders_2022-01-09,2021,,2022-01-09,Las Vegas Raiders,Los Angeles Chargers,35,32,0.0,67.0,-110,1,0.02,0.55
+2021_Las_Vegas_Raiders_Cincinnati_Bengals_2022-01-15,2021,,2022-01-15,Cincinnati Bengals,Las Vegas Raiders,26,19,0.0,45.0,-110,1,0.02,0.55
+2021_New_England_Patriots_Buffalo_Bills_2022-01-15,2021,,2022-01-15,Buffalo Bills,New England Patriots,47,17,0.0,64.0,-110,1,0.02,0.55
+2021_Philadelphia_Eagles_Tampa_Bay_Buccaneers_2022-01-16,2021,,2022-01-16,Tampa Bay Buccaneers,Philadelphia Eagles,31,15,0.0,46.0,-110,1,0.02,0.55
+2021_San_Francisco_49ers_Dallas_Cowboys_2022-01-16,2021,,2022-01-16,Dallas Cowboys,San Francisco 49ers,17,23,0.0,40.0,-110,0,0.02,0.55
+2021_Pittsburgh_Steelers_Kansas_City_Chiefs_2022-01-16,2021,,2022-01-16,Kansas City Chiefs,Pittsburgh Steelers,42,21,0.0,63.0,-110,1,0.02,0.55
+2021_Arizona_Cardinals_Los_Angeles_Rams_2022-01-17,2021,,2022-01-17,Los Angeles Rams,Arizona Cardinals,34,11,0.0,45.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Tennessee_Titans_2022-01-22,2021,,2022-01-22,Tennessee Titans,Cincinnati Bengals,16,19,0.0,35.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Green_Bay_Packers_2022-01-22,2021,,2022-01-22,Green Bay Packers,San Francisco 49ers,10,13,0.0,23.0,-110,0,0.02,0.55
+2021_Los_Angeles_Rams_Tampa_Bay_Buccaneers_2022-01-23,2021,,2022-01-23,Tampa Bay Buccaneers,Los Angeles Rams,27,30,0.0,57.0,-110,0,0.02,0.55
+2021_Buffalo_Bills_Kansas_City_Chiefs_2022-01-23,2021,,2022-01-23,Kansas City Chiefs,Buffalo Bills,42,36,0.0,78.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Kansas_City_Chiefs_2022-01-30,2021,,2022-01-30,Kansas City Chiefs,Cincinnati Bengals,24,27,0.0,51.0,-110,0,0.02,0.55
+2021_San_Francisco_49ers_Los_Angeles_Rams_2022-01-30,2021,,2022-01-30,Los Angeles Rams,San Francisco 49ers,20,17,0.0,37.0,-110,1,0.02,0.55
+2021_Cincinnati_Bengals_Los_Angeles_Rams_2022-02-13,2021,,2022-02-13,Los Angeles Rams,Cincinnati Bengals,23,20,0.0,43.0,-110,1,0.02,0.55

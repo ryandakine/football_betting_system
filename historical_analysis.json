@@ -1,0 +1,122 @@
+{
+  "total_games": 1340,
+  "home_win_rate": 1.0,
+  "top_teams": {
+    "Jacksonville Jaguars": {
+      "total_games": 75,
+      "total_wins": "53",
+      "win_rate": 0.7066666666666667,
+      "home_games": 53,
+      "home_wins": "53",
+      "home_win_pct": 1.0,
+      "away_games": 22,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "New York Jets": {
+      "total_games": 80,
+      "total_wins": "55",
+      "win_rate": 0.6875,
+      "home_games": 55,
+      "home_wins": "55",
+      "home_win_pct": 1.0,
+      "away_games": 25,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "Cleveland Browns": {
+      "total_games": 71,
+      "total_wins": "48",
+      "win_rate": 0.676056338028169,
+      "home_games": 48,
+      "home_wins": "48",
+      "home_win_pct": 1.0,
+      "away_games": 23,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "New York Giants": {
+      "total_games": 84,
+      "total_wins": "55",
+      "win_rate": 0.6547619047619048,
+      "home_games": 55,
+      "home_wins": "55",
+      "home_win_pct": 1.0,
+      "away_games": 29,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "San Diego Chargers": {
+      "total_games": 20,
+      "total_wins": "13",
+      "win_rate": 0.65,
+      "home_games": 13,
+      "home_wins": "13",
+      "home_win_pct": 1.0,
+      "away_games": 7,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "Chicago Bears": {
+      "total_games": 85,
+      "total_wins": "54",
+      "win_rate": 0.6352941176470588,
+      "home_games": 54,
+      "home_wins": "54",
+      "home_win_pct": 1.0,
+      "away_games": 31,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "St. Louis Rams": {
+      "total_games": 13,
+      "total_wins": "8",
+      "win_rate": 0.6153846153846154,
+      "home_games": 8,
+      "home_wins": "8",
+      "home_win_pct": 1.0,
+      "away_games": 5,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "Oakland Raiders": {
+      "total_games": 39,
+      "total_wins": "24",
+      "win_rate": 0.6153846153846154,
+      "home_games": 24,
+      "home_wins": "24",
+      "home_win_pct": 1.0,
+      "away_games": 15,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "Washington Redskins": {
+      "total_games": 44,
+      "total_wins": "27",
+      "win_rate": 0.6136363636363636,
+      "home_games": 27,
+      "home_wins": "27",
+      "home_win_pct": 1.0,
+      "away_games": 17,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    },
+    "Carolina Panthers": {
+      "total_games": 79,
+      "total_wins": "47",
+      "win_rate": 0.5949367088607594,
+      "home_games": 47,
+      "home_wins": "47",
+      "home_win_pct": 1.0,
+      "away_games": 32,
+      "away_wins": "0",
+      "away_win_pct": 0.0
+    }
+  },
+  "recommendations": [
+    "Strong home field advantage detected - include home team bias in models",
+    "High team variance detected - weight team strength heavily in models",
+    "Use historical team stats as features in edge calculation",
+    "Calibrate confidence thresholds based on actual prediction accuracy"
+  ]
+}

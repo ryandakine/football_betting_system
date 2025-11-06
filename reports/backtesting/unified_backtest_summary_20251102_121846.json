@@ -1,0 +1,270 @@
+{
+  "generated_at": "20251102_121846",
+  "seasons": {
+    "start": 2015,
+    "end": 2024
+  },
+  "metrics": {
+    "games": 2609,
+    "spread_win_rate": 0.48409352242238407,
+    "spread_roi": -0.07538137217324642,
+    "total_win_rate": 0.5070908394020698,
+    "total_roi": -0.03145649674204672,
+    "moneyline_win_rate": 0.5205059409735531,
+    "moneyline_roi": 0.04101188194710617,
+    "average_confidence": 0.5,
+    "risk_distribution": {
+      "high": 1.0
+    }
+  },
+  "referee_analysis": {
+    "records": [
+      {
+        "referee_name": "Adrian Hill",
+        "games": 161,
+        "spread_win_rate": 0.4472049689440994,
+        "spread_roi": -0.14583850931677017,
+        "moneyline_win_rate": 0.5279503105590062,
+        "avg_margin": 1.639751552795031,
+        "avg_bias": 0.51,
+        "avg_penalties": 13.4
+      },
+      {
+        "referee_name": "Alan Eck",
+        "games": 184,
+        "spread_win_rate": 0.4673913043478261,
+        "spread_roi": -0.10728260869565216,
+        "moneyline_win_rate": 0.5489130434782609,
+        "avg_margin": 1.8532608695652173,
+        "avg_bias": 0.52,
+        "avg_penalties": 13.6
+      },
+      {
+        "referee_name": "Alex Kemp",
+        "games": 184,
+        "spread_win_rate": 0.4891304347826087,
+        "spread_roi": -0.06576086956521737,
+        "moneyline_win_rate": 0.4891304347826087,
+        "avg_margin": 0.45652173913043476,
+        "avg_bias": 0.5,
+        "avg_penalties": 12.6
+      },
+      {
+        "referee_name": "Bill Vinovich",
+        "games": 198,
+        "spread_win_rate": 0.43434343434343436,
+        "spread_roi": -0.1704040404040404,
+        "moneyline_win_rate": 0.5151515151515151,
+        "avg_margin": 1.2626262626262625,
+        "avg_bias": 0.51,
+        "avg_penalties": 13.099999999999998
+      },
+      {
+        "referee_name": "Brad Allen",
+        "games": 179,
+        "spread_win_rate": 0.5586592178770949,
+        "spread_roi": 0.06703910614525142,
+        "moneyline_win_rate": 0.5921787709497207,
+        "avg_margin": 2.340782122905028,
+        "avg_bias": 0.54,
+        "avg_penalties": 14.2
+      },
+      {
+        "referee_name": "Carl Cheffers",
+        "games": 211,
+        "spread_win_rate": 0.4881516587677725,
+        "spread_roi": -0.06763033175355448,
+        "moneyline_win_rate": 0.5118483412322274,
+        "avg_margin": 0.6398104265402843,
+        "avg_bias": 0.52,
+        "avg_penalties": 13.5
+      },
+      {
+        "referee_name": "Clay Martin",
+        "games": 195,
+        "spread_win_rate": 0.5333333333333333,
+        "spread_roi": 0.018666666666666682,
+        "moneyline_win_rate": 0.5333333333333333,
+        "avg_margin": 1.0769230769230769,
+        "avg_bias": 0.53,
+        "avg_penalties": 14.3
+      },
+      {
+        "referee_name": "Clete Blakeman",
+        "games": 182,
+        "spread_win_rate": 0.532967032967033,
+        "spread_roi": 0.017967032967032982,
+        "moneyline_win_rate": 0.42857142857142855,
+        "avg_margin": 1.401098901098901,
+        "avg_bias": 0.5,
+        "avg_penalties": 12.299999999999999
+      },
+      {
+        "referee_name": "John Hussey",
+        "games": 186,
+        "spread_win_rate": 0.46774193548387094,
+        "spread_roi": -0.10661290322580642,
+        "moneyline_win_rate": 0.45161290322580644,
+        "avg_margin": 3.0268817204301075,
+        "avg_bias": 0.49,
+        "avg_penalties": 11.9
+      },
+      {
+        "referee_name": "Land Clark",
+        "games": 184,
+        "spread_win_rate": 0.45652173913043476,
+        "spread_roi": -0.12804347826086956,
+        "moneyline_win_rate": 0.592391304347826,
+        "avg_margin": 2.483695652173913,
+        "avg_bias": 0.52,
+        "avg_penalties": 13.7
+      },
+      {
+        "referee_name": "Ron Torbert",
+        "games": 187,
+        "spread_win_rate": 0.5026737967914439,
+        "spread_roi": -0.03989304812834222,
+        "moneyline_win_rate": 0.48663101604278075,
+        "avg_margin": 0.6310160427807486,
+        "avg_bias": 0.53,
+        "avg_penalties": 14.799999999999999
+      },
+      {
+        "referee_name": "Shawn Hochuli",
+        "games": 189,
+        "spread_win_rate": 0.3862433862433862,
+        "spread_roi": -0.26227513227513227,
+        "moneyline_win_rate": 0.4603174603174603,
+        "avg_margin": 1.5767195767195767,
+        "avg_bias": 0.48,
+        "avg_penalties": 12.8
+      },
+      {
+        "referee_name": "Shawn Smith",
+        "games": 185,
+        "spread_win_rate": 0.5405405405405406,
+        "spread_roi": 0.032432432432432455,
+        "moneyline_win_rate": 0.5945945945945946,
+        "avg_margin": 2.7621621621621624,
+        "avg_bias": 0.55,
+        "avg_penalties": 15.1
+      },
+      {
+        "referee_name": "Tra Blake",
+        "games": 184,
+        "spread_win_rate": 0.47282608695652173,
+        "spread_roi": -0.09690217391304347,
+        "moneyline_win_rate": 0.5597826086956522,
+        "avg_margin": 2.880434782608696,
+        "avg_bias": 0.51,
+        "avg_penalties": 13.2
+      }
+    ],
+    "bias_vs_margin_corr": 0.08360161017395853,
+    "penalties_vs_spread_win_corr": 0.45785211776519835,
+    "top_home_bias_crews": [
+      {
+        "referee_name": "Shawn Smith",
+        "games": 185,
+        "spread_win_rate": 0.5405405405405406,
+        "spread_roi": 0.032432432432432455,
+        "moneyline_win_rate": 0.5945945945945946,
+        "avg_margin": 2.7621621621621624,
+        "avg_bias": 0.55,
+        "avg_penalties": 15.1
+      },
+      {
+        "referee_name": "Brad Allen",
+        "games": 179,
+        "spread_win_rate": 0.5586592178770949,
+        "spread_roi": 0.06703910614525142,
+        "moneyline_win_rate": 0.5921787709497207,
+        "avg_margin": 2.340782122905028,
+        "avg_bias": 0.54,
+        "avg_penalties": 14.2
+      },
+      {
+        "referee_name": "Clay Martin",
+        "games": 195,
+        "spread_win_rate": 0.5333333333333333,
+        "spread_roi": 0.018666666666666682,
+        "moneyline_win_rate": 0.5333333333333333,
+        "avg_margin": 1.0769230769230769,
+        "avg_bias": 0.53,
+        "avg_penalties": 14.3
+      },
+      {
+        "referee_name": "Ron Torbert",
+        "games": 187,
+        "spread_win_rate": 0.5026737967914439,
+        "spread_roi": -0.03989304812834222,
+        "moneyline_win_rate": 0.48663101604278075,
+        "avg_margin": 0.6310160427807486,
+        "avg_bias": 0.53,
+        "avg_penalties": 14.799999999999999
+      },
+      {
+        "referee_name": "Carl Cheffers",
+        "games": 211,
+        "spread_win_rate": 0.4881516587677725,
+        "spread_roi": -0.06763033175355448,
+        "moneyline_win_rate": 0.5118483412322274,
+        "avg_margin": 0.6398104265402843,
+        "avg_bias": 0.52,
+        "avg_penalties": 13.5
+      }
+    ],
+    "bottom_home_bias_crews": [
+      {
+        "referee_name": "Shawn Hochuli",
+        "games": 189,
+        "spread_win_rate": 0.3862433862433862,
+        "spread_roi": -0.26227513227513227,
+        "moneyline_win_rate": 0.4603174603174603,
+        "avg_margin": 1.5767195767195767,
+        "avg_bias": 0.48,
+        "avg_penalties": 12.8
+      },
+      {
+        "referee_name": "John Hussey",
+        "games": 186,
+        "spread_win_rate": 0.46774193548387094,
+        "spread_roi": -0.10661290322580642,
+        "moneyline_win_rate": 0.45161290322580644,
+        "avg_margin": 3.0268817204301075,
+        "avg_bias": 0.49,
+        "avg_penalties": 11.9
+      },
+      {
+        "referee_name": "Alex Kemp",
+        "games": 184,
+        "spread_win_rate": 0.4891304347826087,
+        "spread_roi": -0.06576086956521737,
+        "moneyline_win_rate": 0.4891304347826087,
+        "avg_margin": 0.45652173913043476,
+        "avg_bias": 0.5,
+        "avg_penalties": 12.6
+      },
+      {
+        "referee_name": "Clete Blakeman",
+        "games": 182,
+        "spread_win_rate": 0.532967032967033,
+        "spread_roi": 0.017967032967032982,
+        "moneyline_win_rate": 0.42857142857142855,
+        "avg_margin": 1.401098901098901,
+        "avg_bias": 0.5,
+        "avg_penalties": 12.299999999999999
+      },
+      {
+        "referee_name": "Bill Vinovich",
+        "games": 198,
+        "spread_win_rate": 0.43434343434343436,
+        "spread_roi": -0.1704040404040404,
+        "moneyline_win_rate": 0.5151515151515151,
+        "avg_margin": 1.2626262626262625,
+        "avg_bias": 0.51,
+        "avg_penalties": 13.099999999999998
+      }
+    ]
+  }
+}

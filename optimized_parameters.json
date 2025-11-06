@@ -1,0 +1,81 @@
+{
+  "timestamp": "2025-11-05T08:54:17.086177",
+  "edge_detection_config": {
+    "implied_volatility": {
+      "min_cv": 0.15,
+      "max_cv": 0.4,
+      "edge_weight": 1.0,
+      "description": "High volatility edge detection"
+    },
+    "matchup_advantage": {
+      "elite_defense_threshold": 5,
+      "worst_defense_threshold": 14,
+      "edge_weight": 1.2,
+      "description": "Matchup analysis for specific weaknesses"
+    },
+    "momentum_edge": {
+      "trend_threshold": 0.15,
+      "edge_weight": 0.8,
+      "description": "Recent trend momentum play"
+    },
+    "line_movement_edge": {
+      "significance_threshold": 3.0,
+      "edge_weight": 0.9,
+      "description": "Sharp vs public divergence"
+    },
+    "correlation_edge": {
+      "ceiling_ratio_threshold": 1.2,
+      "consistency_threshold": 0.7,
+      "edge_weight": 0.7,
+      "description": "Game flow correlation effects"
+    }
+  },
+  "betting_config": {
+    "minimum_edge_threshold": 0.015,
+    "kelly_fraction": 0.15,
+    "position_weights": {
+      "WR": 1.5,
+      "RB": 1.0,
+      "QB": 0.5
+    },
+    "prop_type_weights": {
+      "receiving_yards": 1.2,
+      "rushing_tds": 1.2,
+      "receptions": 1.0,
+      "passing_yards": 0.7,
+      "passing_tds": 0.7
+    }
+  },
+  "backtest_insights": {
+    "overall_win_rate": "49.8%",
+    "overall_roi": "-4.9%",
+    "position_analysis": {
+      "QB": {
+        "win_rate": 0.4444444444444444,
+        "total_bets": 18,
+        "wins": 8,
+        "recommendation": "DEPRIORITIZE - Consider avoiding QB props"
+      },
+      "RB": {
+        "win_rate": 0.4375,
+        "total_bets": 16,
+        "wins": 7,
+        "recommendation": "REDUCE - Lower bet sizing for RBs"
+      },
+      "WR": {
+        "win_rate": 0.5625,
+        "total_bets": 16,
+        "wins": 9,
+        "recommendation": "PRIORITIZE - Strong performer"
+      }
+    },
+    "edge_strength_analysis": {
+      "0.08-1.00": {
+        "win_rate": 0.48,
+        "total_bets": 50,
+        "wins": 24,
+        "best_threshold": null
+      }
+    }
+  }
+}

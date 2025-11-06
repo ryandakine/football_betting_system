@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-11-05T09:53:46.985105",
+  "data_summary": {
+    "total_games": 272,
+    "seasons": [
+      2023
+    ]
+  },
+  "trained_models": {
+    "spread": {
+      "random_forest": {
+        "accuracy": 0.6
+      },
+      "gradient_boosting": {
+        "accuracy": 0.6545454545454545
+      },
+      "xgboost": {
+        "accuracy": 0.6363636363636364
+      },
+      "ensemble": {
+        "accuracy": 0.6727272727272727
+      }
+    }
+  },
+  "optimized_weights": {
+    "high_confidence_boost": 1.0,
+    "low_confidence_penalty": 1.0,
+    "min_confidence_threshold": 0.55
+  },
+  "recommendations": [
+    "Best performing market: spread (67.3% accuracy)",
+    "Apply minimum confidence threshold: 55%"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "game_id": "2025_CFB_UMass_Minutemen_Central_Michigan_Chippewas",
+  "teams": "UMass Minutemen @ Central Michigan Chippewas",
+  "narrative_signals": [
+    {
+      "type": "MEDIA_DARLING",
+      "strength": 1.0,
+      "source": "youtube+reddit",
+      "description": "Media over-hyping - Reddit storylines: Coaching Hot Seat, Playoff Implications"
+    },
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.7,
+      "source": "betting_data",
+      "description": "Sharp money on Central Michigan Chippewas"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FADE_PUBLIC",
+    "confidence": 0.5,
+    "signals_detected": 2,
+    "dominant_narratives": [
+      "MEDIA_DARLING",
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 2 narrative signals pointing to fade_public",
+    "pick": "FADE PUBLIC (likely UNDER 55.5 or DOG +23.5)"
+  },
+  "conspiracy_probability": 1.0,
+  "analysis_timestamp": "2025-10-25T17:17:59.608255"
+}

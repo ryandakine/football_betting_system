@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-11-05T00:30:41.959011",
+  "summary": {
+    "total_games": 4,
+    "total_bets": 8,
+    "wins": 4,
+    "losses": 4,
+    "pushes": 0,
+    "win_rate": "50.0%",
+    "roi": "-4.5%",
+    "edge_stats": {
+      "variance": {
+        "wins": 4,
+        "losses": 4,
+        "pushes": 0
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "game_date": "unknown",
+      "player": "Patrick Mahomes",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 2.1,
+      "actual": 1.3783276704142011,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "variance",
+      "edge_strength": 0.08
+    },
+    {
+      "game_date": "unknown",
+      "player": "Josh Allen",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 1.8,
+      "actual": 1.487573295922798,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "variance",
+      "edge_strength": 0.08
+    },
+    {
+      "game_date": "unknown",
+      "player": "Lamar Jackson",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 1.9,
+      "actual": 1.2488448213128596,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "variance",
+      "edge_strength": 0.08
+    },
+    {
+      "game_date": "unknown",
+      "player": "Jared Goff",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 2.0,
+      "actual": 2.691748718557278,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "variance",
+      "edge_strength": 0.08
+    },
+    {
+      "game_date": "unknown",
+      "player": "Jared Goff",
+      "position": "QB",
+      "prop_type": "passing_tds",
+      "line": 2.0,
+      "actual": 1.079456698704459,
+      "bet_type": "OVER",
+      "result": "loss",
+      "edge_type": "variance",
+      "edge_strength": 0.08
+    },
+    {
+      "game_date": "unknown",
+      "player": "Josh Jacobs",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 3.1,
+      "actual": 4.110093645249902,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "variance",
+      "edge_strength": 0.08
+    },
+    {
+      "game_date": "unknown",
+      "player": "De Von Achane",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 4.5,
+      "actual": 6.0800980646120175,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "variance",
+      "edge_strength": 0.058333333333333334
+    },
+    {
+      "game_date": "unknown",
+      "player": "De Von Achane",
+      "position": "RB",
+      "prop_type": "receptions",
+      "line": 4.5,
+      "actual": 4.746045231419268,
+      "bet_type": "OVER",
+      "result": "win",
+      "edge_type": "variance",
+      "edge_strength": 0.058333333333333334
+    }
+  ]
+}

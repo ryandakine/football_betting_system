@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_BYU_Cougars_Iowa_State_Cyclones",
+  "teams": "BYU Cougars @ Iowa State Cyclones",
+  "narrative_signals": [
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.575,
+      "source": "betting_data",
+      "description": "Sharp money on BYU Cougars"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.575,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to follow_sharp",
+    "pick": "UNDER 65.5 (sharp lean)"
+  },
+  "conspiracy_probability": 0.48874999999999996,
+  "analysis_timestamp": "2025-10-25T17:18:04.856005"
+}

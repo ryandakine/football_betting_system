@@ -1,0 +1,85 @@
+{
+  "system_info": {
+    "run_id": "20251019_231448",
+    "bankroll": 1000.0,
+    "max_exposure": 100.0,
+    "sport_type": "nfl",
+    "test_mode": false,
+    "fake_money": true,
+    "mode": "FAKE MONEY TESTING"
+  },
+  "odds_collection": {
+    "games_found": 13,
+    "h2h_opportunities": 53,
+    "spread_opportunities": 66,
+    "total_opportunities": 63,
+    "prop_opportunities": 0,
+    "sport_type": "nfl"
+  },
+  "ai_analysis": {
+    "games_analyzed": 13,
+    "ai_recommendations": 12,
+    "confidence_scores": {},
+    "sport_type": "nfl"
+  },
+  "recommendations": {
+    "total_recommendations": 4,
+    "by_market_type": {
+      "moneyline": 0,
+      "spreads": 4,
+      "totals": 0,
+      "props": 0
+    },
+    "total_expected_value": 52.35288225237739,
+    "sport_type": "nfl"
+  },
+  "final_portfolio": {
+    "bets_selected": 4,
+    "total_exposure": 100.0,
+    "portfolio_expected_value": 52.35288225237739,
+    "sport_type": "nfl",
+    "fake_money_mode": true,
+    "performance_metrics": {
+      "predictions_made": 0,
+      "predictions_correct": 0,
+      "total_edge_analyzed": 4,
+      "avg_edge_found": 13.088220563094348,
+      "games_analyzed": 0,
+      "recommendations_generated": 4,
+      "accuracy_by_market": {
+        "moneyline": 0,
+        "spreads": 4,
+        "totals": 0,
+        "props": 0
+      },
+      "edge_distribution": [
+        13.619897959183671,
+        12.910994764397907,
+        12.910994764397907,
+        12.910994764397907
+      ],
+      "confidence_distribution": []
+    }
+  },
+  "performance_metrics": {
+    "predictions_made": 0,
+    "predictions_correct": 0,
+    "total_edge_analyzed": 4,
+    "avg_edge_found": 13.088220563094348,
+    "games_analyzed": 0,
+    "recommendations_generated": 4,
+    "accuracy_by_market": {
+      "moneyline": 0,
+      "spreads": 4,
+      "totals": 0,
+      "props": 0
+    },
+    "edge_distribution": [
+      13.619897959183671,
+      12.910994764397907,
+      12.910994764397907,
+      12.910994764397907
+    ],
+    "confidence_distribution": []
+  }
+}

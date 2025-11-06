@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-27T14:57:38.122969",
+  "total_games": 50,
+  "correct": 19,
+  "accuracy": 38.0,
+  "by_risk_level": {
+    "low": {
+      "correct": 0,
+      "total": 0
+    },
+    "medium": {
+      "correct": 0,
+      "total": 0
+    },
+    "high": {
+      "correct": 19,
+      "total": 50
+    }
+  },
+  "system_version": "1.2.0",
+  "sample_predictions": [
+    {
+      "game_id": "2025_08_MIN_LAC",
+      "home_team": "LAC",
+      "away_team": "MIN",
+      "spread_pick": "away",
+      "actual_winner": null,
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    },
+    {
+      "game_id": "2025_*_LAR_JAX",
+      "home_team": "JAX",
+      "away_team": "LAR",
+      "spread_pick": "away",
+      "actual_winner": "LAR",
+      "correct": true,
+      "confidence": 0.5,
+      "risk_level": "high",
+      "edge_signals": []
+    }
+  ]
+}

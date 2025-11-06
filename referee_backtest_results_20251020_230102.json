@@ -1,0 +1,44 @@
+{
+  "backtest_date": "20251020_230102",
+  "initial_bankroll": 10000,
+  "data_period": "2020-01-05 to 2023-12-31",
+  "total_games": 2232,
+  "strategies": [
+    {
+      "strategy": "conservative",
+      "period": "2020-01-05 to 2023-12-31",
+      "total_bets": 0,
+      "winning_bets": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "roi": 0,
+      "avg_bet_size": 0,
+      "max_drawdown": 0,
+      "sharpe_ratio": 0
+    },
+    {
+      "strategy": "aggressive",
+      "period": "2020-01-05 to 2023-12-31",
+      "total_bets": 75,
+      "winning_bets": 43,
+      "win_rate": 0.5733,
+      "total_profit": 2929.25,
+      "roi": 0.2929,
+      "avg_bet_size": 552.98,
+      "max_drawdown": 0.2546,
+      "sharpe_ratio": 1.37
+    },
+    {
+      "strategy": "high_confidence",
+      "period": "2020-01-05 to 2023-12-31",
+      "total_bets": 0,
+      "winning_bets": 0,
+      "win_rate": 0,
+      "total_profit": 0,
+      "roi": 0,
+      "avg_bet_size": 0,
+      "max_drawdown": 0,
+      "sharpe_ratio": 0
+    }
+  ]
+}

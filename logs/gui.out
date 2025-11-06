@@ -1,0 +1,563 @@
+🏈 Football Betting Master System
+==================================================
+
+🤖 AI Intelligence Status:
+  ✅ Premium Providers: Perplexity AI, ChatGPT
+  ✅ Free Backup: HuggingFace
+  ✅ Smart Fallbacks: User permission required
+
+📊 Data Sources:
+  ✅ Real Odds: The Odds API (FanDuel, etc.)
+  ✅ Live Scores: ESPN & NFL Official APIs
+  ✅ Game Data: Real-time game information
+
+🎯 System Features:
+  ✅ Predict All Games - Mass AI analysis
+  ✅ Individual Predictions - Single game analysis
+  ✅ Learning System - Improves over time
+  ✅ Mobile Responsive - Any screen size
+  ✅ Offline Caching - Data persistence
+
+🚀 Launching GUI...
+Note: Close the terminal window to exit the system
+
+2025-09-21 20:05:43,646 - tri_model_api_config - INFO - ✅ ODDS_API API key loaded
+2025-09-21 20:05:43,647 - tri_model_api_config - INFO - ✅ CLAUDE API key loaded
+2025-09-21 20:05:43,647 - tri_model_api_config - INFO - ✅ OPENAI API key loaded
+2025-09-21 20:05:43,647 - tri_model_api_config - WARNING - ⚠️ GEMINI API key not found
+2025-09-21 20:05:43,647 - tri_model_api_config - INFO - ✅ GROK API key loaded
+2025-09-21 20:05:43,647 - tri_model_api_config - INFO - ✅ PERPLEXITY API key loaded
+2025-09-21 20:05:48,120 - api_config - INFO - ✅ API Key for 'odds_api' loaded.
+2025-09-21 20:05:48,120 - api_config - INFO - ✅ API Key for 'claude' loaded.
+2025-09-21 20:05:48,120 - api_config - INFO - ✅ API Key for 'openai' loaded.
+2025-09-21 20:05:48,120 - api_config - INFO - ✅ API Key for 'perplexity' loaded.
+2025-09-21 20:05:48,120 - api_config - WARNING - ⚠️  API Key for 'gemini' not found in .env file.
+2025-09-21 20:05:48,120 - api_config - INFO - ✅ API Key for 'grok' loaded.
+2025-09-21 20:05:48,202 - self_learning_feedback_system - INFO - 📊 Loaded 0 predictions and 0 patterns
+2025-09-21 20:05:48,203 - self_learning_feedback_system - INFO - 🧠 Enhanced Self-Learning Feedback System initialized
+2025-09-21 20:05:48,203 - performance_tracker - INFO - Performance Tracker initialized with bankroll: $1,000.00
+2025-09-21 20:05:48,204 - api_config - INFO - ✅ API Key for 'odds_api' loaded.
+2025-09-21 20:05:48,204 - api_config - INFO - ✅ API Key for 'claude' loaded.
+2025-09-21 20:05:48,204 - api_config - INFO - ✅ API Key for 'openai' loaded.
+2025-09-21 20:05:48,204 - api_config - INFO - ✅ API Key for 'perplexity' loaded.
+2025-09-21 20:05:48,204 - api_config - WARNING - ⚠️  API Key for 'gemini' not found in .env file.
+2025-09-21 20:05:48,204 - api_config - INFO - ✅ API Key for 'grok' loaded.
+2025-09-21 20:05:48,204 - football_master_gui - INFO - 🎯 Real-Time Odds Updater initialized (interval: 300s)
+2025-09-21 20:05:48,204 - football_game_data_fetcher - INFO - 🏈 Football Game Data Fetcher initialized
+2025-09-21 20:05:48,204 - backtesting_engine - INFO - No historical data file found, starting with empty dataset
+2025-09-21 20:05:48,204 - backtesting_engine - INFO - Registered strategy: Favorite ML
+2025-09-21 20:05:48,204 - backtesting_engine - INFO - Registered strategy: Underdog ML
+2025-09-21 20:05:48,204 - backtesting_engine - INFO - Registered strategy: High Total Overs
+2025-09-21 20:05:48,205 - backtesting_engine - INFO - Registered strategy: Home Underdog
+2025-09-21 20:05:48,209 - hrm_sapient_adapter - WARNING - ⚠️  HRM dependencies not available: No module named 'flash_attn'
+2025-09-21 20:05:48,210 - hrm_sapient_adapter - WARNING - 🔄 Using mock HRM mode for demonstration
+2025-09-21 20:05:48,210 - advanced_data_sources - INFO - 🎯 Advanced Data Source Manager initialized
+2025-09-21 20:05:48,211 - football_master_gui - INFO - 📊 Loaded 30 prediction records
+2025-09-21 20:05:48,217 - football_master_gui - INFO - 📊 Loaded odds history for 22 games
+2025-09-21 20:05:48,218 - football_master_gui - WARNING - Failed to load cached data: 'FootballMasterGUI' object has no attribute 'games_per_page'
+▶️ Real-time odds updates started (stub)
+2025-09-21 20:05:49,049 - api_config - INFO - ✅ API Key for 'odds_api' loaded.
+2025-09-21 20:05:49,049 - api_config - INFO - ✅ API Key for 'claude' loaded.
+2025-09-21 20:05:49,049 - api_config - INFO - ✅ API Key for 'openai' loaded.
+2025-09-21 20:05:49,049 - api_config - INFO - ✅ API Key for 'perplexity' loaded.
+2025-09-21 20:05:49,049 - api_config - WARNING - ⚠️  API Key for 'gemini' not found in .env file.
+2025-09-21 20:05:49,049 - api_config - INFO - ✅ API Key for 'grok' loaded.
+2025-09-21 20:05:49,284 - football_game_data_fetcher - ERROR - NFL API error: 401 Client Error: Unauthorized for url: https://api.nfl.com/v1/games
+2025-09-21 20:05:49,284 - football_game_data_fetcher - INFO - NFL API unavailable, using ESPN fallback
+2025-09-21 20:05:49,709 - football_game_data_fetcher - ERROR - ESPN NFL API error: 500 Server Error: Internal Server Error for url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?season=2025
+2025-09-21 20:05:49,709 - football_game_data_fetcher - INFO - ✅ NFL game data fetch complete: Games: 0, Teams: 0
+2025-09-21 20:05:49,710 - football_odds_fetcher - INFO - 🏈 Football Odds Fetcher initialized for americanfootball_nfl
+2025-09-21 20:05:50,182 - football_odds_fetcher - INFO - API requests remaining: 436
+2025-09-21 20:05:55,900 - football_odds_fetcher - INFO - 📊 Player props fetching not yet implemented
+2025-09-21 20:05:55,900 - football_odds_fetcher - INFO - ✅ Football odds fetch complete: Games: 18, H2H: 76, Spreads: 76, Totals: 76, Props: 0
+2025-09-21 20:05:55,900 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - game_data_enricher - WARNING - No OpenWeather API key provided
+2025-09-21 20:05:55,901 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,901 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,901 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,901 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,901 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,901 - advanced_data_sources - INFO - 📰 Fetching news analysis for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Fetching betting trends for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 🎯 Fetching expert picks for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,902 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,902 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📰 Fetching news analysis for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Fetching betting trends for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📰 Fetching news analysis for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Fetching betting trends for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,902 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📰 Fetching news analysis for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching betting trends for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📰 Fetching news analysis for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching betting trends for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🎯 Fetching expert picks for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📰 Fetching news analysis for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching betting trends for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🎯 Fetching expert picks for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📰 Fetching news analysis for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching betting trends for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🎯 Fetching expert picks for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,903 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📰 Fetching news analysis for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching betting trends for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🎯 Fetching expert picks for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📰 Fetching news analysis for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching betting trends for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📰 Fetching news analysis for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching betting trends for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🎯 Fetching expert picks for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📰 Fetching news analysis for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching betting trends for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📰 Fetching news analysis for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 📊 Fetching betting trends for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,904 - advanced_data_sources - INFO - 🎯 Fetching expert picks for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📰 Fetching news analysis for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching betting trends for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📰 Fetching news analysis for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching betting trends for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📰 Fetching news analysis for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching betting trends for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🎯 Fetching expert picks for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📰 Fetching news analysis for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 📊 Fetching betting trends for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,905 - advanced_data_sources - INFO - 🎯 Fetching expert picks for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,906 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,906 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📰 Fetching news analysis for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📊 Fetching betting trends for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 🎯 Fetching expert picks for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📊 Fetching comprehensive data for game 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 💰 Fetching odds from multiple books for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📊 Collected odds from 0 books
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📈 Fetching advanced analytics for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 🐦 Fetching social sentiment for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📰 Fetching news analysis for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 📊 Fetching betting trends for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_data_sources - INFO - 🎯 Fetching expert picks for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_trading_engine - INFO - 🔬 Running advanced trading analysis for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,906 - advanced_trading_engine - INFO - ✅ Advanced trading analysis complete for 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,912 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,912 - football_master_gui - INFO - 🎯 Recorded prediction for game ee840f13db8bd150fcdd8f6670fa7041
+Exception in Tkinter callback
+2025-09-21 20:05:55,917 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,917 - football_master_gui - INFO - 🎯 Recorded prediction for game 6e67ddae4bb01d1c2d3f461ee62d2666
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 861, in callit
+    func(*args)
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8482, in _update_displays
+    self._update_games_display()
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8501, in _update_games_display
+    self._update_games_display_normal()
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8521, in _update_games_display_normal
+    self._create_game_card(i, game)
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8768, in _create_game_card
+    game_predictions = self.prediction_tracker.predictions_db.get(game_id, {})
+                                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'game_id' where it is not associated with a value
+2025-09-21 20:05:55,922 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,922 - football_master_gui - INFO - 🎯 Recorded prediction for game 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:05:55,926 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,926 - football_master_gui - INFO - 🎯 Recorded prediction for game 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:05:55,931 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,931 - football_master_gui - INFO - 🎯 Recorded prediction for game b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:05:55,936 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,936 - football_master_gui - INFO - 🎯 Recorded prediction for game d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:05:55,940 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,941 - football_master_gui - INFO - 🎯 Recorded prediction for game f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:05:55,946 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,946 - football_master_gui - INFO - 🎯 Recorded prediction for game bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:05:55,951 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,951 - football_master_gui - INFO - 🎯 Recorded prediction for game 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:05:55,956 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,956 - football_master_gui - INFO - 🎯 Recorded prediction for game d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:05:55,961 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,961 - football_master_gui - INFO - 🎯 Recorded prediction for game 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:05:55,967 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,967 - football_master_gui - INFO - 🎯 Recorded prediction for game d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:05:55,972 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,972 - football_master_gui - INFO - 🎯 Recorded prediction for game 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:05:55,977 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,977 - football_master_gui - INFO - 🎯 Recorded prediction for game 051233db287b02fd3e7574955879ece2
+2025-09-21 20:05:55,982 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,982 - football_master_gui - INFO - 🎯 Recorded prediction for game af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:05:55,988 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,988 - football_master_gui - INFO - 🎯 Recorded prediction for game de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:05:55,993 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,993 - football_master_gui - INFO - 🎯 Recorded prediction for game bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:05:55,998 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:05:55,998 - football_master_gui - INFO - 🎯 Recorded prediction for game 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:05:55,998 - football_master_gui - INFO - 🤖 Generated predictions for 18 games
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 861, in callit
+    func(*args)
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8274, in <lambda>
+    self.root.after(0, lambda: self._on_predictions_complete(prediction_results))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8340, in _on_predictions_complete
+    self._update_games_display()
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8501, in _update_games_display
+    self._update_games_display_normal()
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8521, in _update_games_display_normal
+    self._create_game_card(i, game)
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8768, in _create_game_card
+    game_predictions = self.prediction_tracker.predictions_db.get(game_id, {})
+                                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'game_id' where it is not associated with a value
+🔄 Odds update requested (stub)
+2025-09-21 20:10:48,223 - football_master_gui - INFO - 💾 Data cached for offline use
+2025-09-21 20:12:29,892 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,892 - football_master_gui - INFO - 🎯 Recorded prediction for game ee840f13db8bd150fcdd8f6670fa7041
+2025-09-21 20:12:29,899 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,899 - football_master_gui - INFO - 🎯 Recorded prediction for game 6e67ddae4bb01d1c2d3f461ee62d2666
+2025-09-21 20:12:29,903 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,903 - football_master_gui - INFO - 🎯 Recorded prediction for game 4a08b89f07a4a395620f6df5c1d239f4
+2025-09-21 20:12:29,907 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,907 - football_master_gui - INFO - 🎯 Recorded prediction for game 4dd631102a977fd398f7ea594ed208f2
+2025-09-21 20:12:29,912 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,912 - football_master_gui - INFO - 🎯 Recorded prediction for game b7934d72587b62de0f563ac9acbaa770
+2025-09-21 20:12:29,916 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,916 - football_master_gui - INFO - 🎯 Recorded prediction for game d16a43752aaac66e9ff8768d8590b662
+2025-09-21 20:12:29,920 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,920 - football_master_gui - INFO - 🎯 Recorded prediction for game f8fe40924827231233dc10f6999d8ff7
+2025-09-21 20:12:29,925 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,925 - football_master_gui - INFO - 🎯 Recorded prediction for game bcb1f89cf378a586097c50585e53acce
+2025-09-21 20:12:29,930 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,930 - football_master_gui - INFO - 🎯 Recorded prediction for game 85c9b76cd6bd575b611cb4e8feb7a0b0
+2025-09-21 20:12:29,937 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,937 - football_master_gui - INFO - 🎯 Recorded prediction for game d921b1e86b0a30ad91000ffc360d302d
+2025-09-21 20:12:29,941 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,941 - football_master_gui - INFO - 🎯 Recorded prediction for game 894976986c24d52cf1d45f0e6bb0e90c
+2025-09-21 20:12:29,945 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,945 - football_master_gui - INFO - 🎯 Recorded prediction for game d90e0de2d5fa2d57e8812f31775ad0ba
+2025-09-21 20:12:29,949 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,949 - football_master_gui - INFO - 🎯 Recorded prediction for game 09f55b4a19a83eb951a9400a11123477
+2025-09-21 20:12:29,954 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,954 - football_master_gui - INFO - 🎯 Recorded prediction for game 051233db287b02fd3e7574955879ece2
+2025-09-21 20:12:29,959 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,959 - football_master_gui - INFO - 🎯 Recorded prediction for game af6fbb0a2e996613bc393115276c60e2
+2025-09-21 20:12:29,965 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,965 - football_master_gui - INFO - 🎯 Recorded prediction for game de432abcc3bd8d42a582ae9f71388dcd
+2025-09-21 20:12:29,970 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,970 - football_master_gui - INFO - 🎯 Recorded prediction for game bc76fb8d846588ed46297aaab4e83de9
+2025-09-21 20:12:29,976 - football_master_gui - INFO - 💾 Prediction history saved
+2025-09-21 20:12:29,976 - football_master_gui - INFO - 🎯 Recorded prediction for game 8dcb2a6bf542ccb7e6bc58f83c8fc2ac
+2025-09-21 20:12:29,976 - football_master_gui - INFO - 🤖 Generated predictions for 18 games
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 861, in callit
+    func(*args)
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8274, in <lambda>
+    self.root.after(0, lambda: self._on_predictions_complete(prediction_results))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8340, in _on_predictions_complete
+    self._update_games_display()
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8501, in _update_games_display
+    self._update_games_display_normal()
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8521, in _update_games_display_normal
+    self._create_game_card(i, game)
+  File "/home/ryan/code/football_betting_system/football_master_gui.py", line 8768, in _create_game_card
+    game_predictions = self.prediction_tracker.predictions_db.get(game_id, {})
+                                                                  ^^^^^^^
+UnboundLocalError: cannot access local variable 'game_id' where it is not associated with a value
+🔄 Odds update requested (stub)
+2025-09-21 20:15:48,227 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:20:48,232 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:25:48,236 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:30:48,243 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:35:48,247 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:40:48,252 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:45:48,270 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:50:48,305 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:55:48,338 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:00:48,345 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:05:48,349 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:10:48,353 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:15:48,357 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:20:48,361 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:25:48,406 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:30:48,410 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:35:48,418 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:40:48,456 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:45:48,470 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:50:48,477 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:55:48,481 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:00:48,485 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:05:48,534 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:10:48,542 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:15:48,586 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:20:48,591 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:25:48,595 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:30:48,599 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:35:48,603 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:40:48,613 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:45:48,618 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:50:48,622 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:55:48,626 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 23:00:48,640 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 23:06:48,660 - football_master_gui - INFO - 💾 Data cached for offline use
+d for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:37:13,620 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:42:13,648 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:47:13,657 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:52:13,665 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:57:13,670 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:02:13,673 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:07:13,677 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:12:13,680 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:17:13,684 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:22:13,693 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:27:13,697 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:32:13,700 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:37:13,704 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:42:13,707 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:47:13,751 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:52:13,795 - football_master_gui - INFO - 💾 Data cached for offline use
+hed for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:41:15,084 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:46:15,122 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:51:15,131 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 20:56:15,147 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:01:15,154 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:06:15,158 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:11:15,162 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:16:15,170 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:21:15,173 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:26:15,177 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:31:15,182 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:36:15,185 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:41:15,212 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:46:15,223 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:51:15,228 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 21:56:15,236 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:01:15,282 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:06:15,286 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:11:15,289 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:16:15,298 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:21:15,302 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:26:15,306 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:31:15,310 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:36:15,314 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:41:15,318 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:46:15,322 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:51:15,326 - football_master_gui - INFO - 💾 Data cached for offline use
+🔄 Odds update requested (stub)
+2025-09-21 22:56:15,330 - football_master_gui - INFO - 💾 Data cached for offline use

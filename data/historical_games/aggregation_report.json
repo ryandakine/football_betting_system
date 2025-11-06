@@ -1,0 +1,16 @@
+{
+  "total_games": 26,
+  "games_with_pregame_lines": 0,
+  "unique_seasons": 1,
+  "unique_teams": 31,
+  "unique_referees": 1,
+  "seasons": {
+    "2025": 25
+  },
+  "top_referees": [
+    [
+      "Unknown",
+      26
+    ]
+  ]
+}

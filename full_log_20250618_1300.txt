@@ -1,0 +1,48 @@
+[START] 12:56:53 – launching
+
+╔═══════════════════════════════════════════════════════════════════╗
+║  🏆  GOLD-STANDARD MLB BETTING SYSTEM  –  FULL MODE  (2025-06-18)  ║
+║  Opportunities 690  │ Batch 20 │ Parallel 5                       ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+2025-06-18 12:56:53,061 | INFO     | Log file → logs\launcher_20250618_125653.log
+[INFO] Loading variables from .env
+2025-06-18 12:56:53,062 | INFO     | System ready • date=2025-06-18  max=690  batch=20  parallel=5
+2025-06-18 12:56:53,299 | ERROR    | Unexpected error during execution
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_launcher.py", line 103, in main
+    from gold_standard_main import GoldStandardMLBSystem
+  File "C:\Users\himse\mlb_betting_system\gold_standard_main.py", line 9, in <module>
+    from gold_standard_analyzer import GoldStandardAIAnalyzer
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 49, in <module>
+    class GoldStandardAIAnalyzer:
+    ...<356 lines>...
+            return opportunity.get("home_team", "Unknown")
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 253, in GoldStandardAIAnalyzer
+    retry=retry_if_exception_type(aiohttp.ClientResponseError) & (lambda e: e.status == 429)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\Users\himse\AppData\Roaming\Python\Python313\site-packages\tenacity\retry.py", line 33, in __and__
+    return other.__rand__(self)
+           ^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '__rand__'. Did you mean: '__call__'?
+
+[FATAL] Unhandled exception – see below
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_launcher.py", line 103, in main
+    from gold_standard_main import GoldStandardMLBSystem
+  File "C:\Users\himse\mlb_betting_system\gold_standard_main.py", line 9, in <module>
+    from gold_standard_analyzer import GoldStandardAIAnalyzer
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 49, in <module>
+    class GoldStandardAIAnalyzer:
+    ...<356 lines>...
+            return opportunity.get("home_team", "Unknown")
+  File "C:\Users\himse\mlb_betting_system\gold_standard_analyzer.py", line 253, in GoldStandardAIAnalyzer
+    retry=retry_if_exception_type(aiohttp.ClientResponseError) & (lambda e: e.status == 429)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\Users\himse\AppData\Roaming\Python\Python313\site-packages\tenacity\retry.py", line 33, in __and__
+    return other.__rand__(self)
+           ^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute '__rand__'. Did you mean: '__call__'?
+2025-06-18 12:56:53,313 | INFO     | Total execution time: 0.3 s (0.0 min)
+[EXIT] code=1
+[EXIT] code=1

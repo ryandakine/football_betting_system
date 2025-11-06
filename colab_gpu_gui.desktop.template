@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Colab GPU Fun Station
+Comment=Open the kid-friendly Colab GPU console
+Exec=/usr/bin/env bash -lc 'cd REPLACE_WITH_REPO_PATH && ./launch_colab_gui.sh'
+Terminal=false
+Categories=Utility;Education;Development;

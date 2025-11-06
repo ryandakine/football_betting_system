@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_Western_Michigan_Broncos_Miami_(OH)_RedHawks",
+  "teams": "Western Michigan Broncos @ Miami (OH) RedHawks",
+  "narrative_signals": [
+    {
+      "type": "MEDIA_DARLING",
+      "strength": 1.0,
+      "source": "youtube+reddit",
+      "description": "Media over-hyping - Reddit storylines: Look-Ahead Spot, Coaching Hot Seat"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FADE_PUBLIC",
+    "confidence": 1.0,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "MEDIA_DARLING"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to fade_public",
+    "pick": "FADE PUBLIC (likely UNDER 42.5 or DOG +3.5)"
+  },
+  "conspiracy_probability": 1.0,
+  "analysis_timestamp": "2025-10-25T17:18:02.187190"
+}

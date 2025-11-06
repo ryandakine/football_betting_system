@@ -1,0 +1,373 @@
+[
+  {
+    "game": "MIA @ ATL",
+    "narrative": {
+      "narrative_strength": 0.39999999999999997,
+      "public_lean": 0.75,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 4,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.5,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.1,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.5,
+      "conspiracy_score": 0.15,
+      "betting_recommendation": "TRAP_LEAN_UNDER"
+    },
+    "actual_total": 44
+  },
+  {
+    "game": "NYJ @ CIN",
+    "narrative": {
+      "narrative_strength": 0.5076923076923077,
+      "public_lean": 0.8125,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 5,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.625,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5416666666666666
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.2,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.625,
+      "conspiracy_score": 0.1875,
+      "betting_recommendation": "TRAP_LEAN_UNDER"
+    },
+    "actual_total": 77
+  },
+  {
+    "game": "CLE @ NE",
+    "narrative": {
+      "narrative_strength": 0.4666666666666666,
+      "public_lean": 0.75,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 4,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.5,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.2,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.5,
+      "conspiracy_score": 0.15,
+      "betting_recommendation": "TRAP_LEAN_UNDER"
+    },
+    "actual_total": 45
+  },
+  {
+    "game": "NYG @ PHI",
+    "narrative": {
+      "narrative_strength": 0.5692307692307692,
+      "public_lean": 0.8125,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 5,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.625,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5416666666666666
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.1,
+        "media_hype": 0.3,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.625,
+      "conspiracy_score": 0.1875,
+      "betting_recommendation": "TRAP_LEAN_UNDER"
+    },
+    "actual_total": 58
+  },
+  {
+    "game": "BUF @ CAR",
+    "narrative": {
+      "narrative_strength": 0.3333333333333333,
+      "public_lean": 0.375,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Vegas Trap",
+        "Weather Factor"
+      ],
+      "sentiment_counts": {
+        "over": 1,
+        "under": 3,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.5,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.0,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.5,
+      "conspiracy_score": 0.15,
+      "betting_recommendation": "TRAP_LEAN_OVER"
+    },
+    "actual_total": 49
+  },
+  {
+    "game": "CHI @ BAL",
+    "narrative": {
+      "narrative_strength": 0.4666666666666666,
+      "public_lean": 0.75,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 4,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.5,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.2,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.5,
+      "conspiracy_score": 0.15,
+      "betting_recommendation": "TRAP_LEAN_UNDER"
+    },
+    "actual_total": 46
+  },
+  {
+    "game": "SF @ HOU",
+    "narrative": {
+      "narrative_strength": 0.36,
+      "public_lean": 0.625,
+      "vegas_bait": false,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 2,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.25,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.4166666666666667
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.2,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.25,
+      "conspiracy_score": 0.0,
+      "betting_recommendation": "NO_CLEAR_EDGE"
+    },
+    "actual_total": 41
+  },
+  {
+    "game": "TB @ NO",
+    "narrative": {
+      "narrative_strength": 0.55,
+      "public_lean": 0.38095238095238093,
+      "vegas_bait": false,
+      "media_hype": 0.0,
+      "storylines": [
+        "QB Duel",
+        "Look-Ahead Spot",
+        "Division Rivalry"
+      ],
+      "sentiment_counts": {
+        "over": 8,
+        "under": 13,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 1.0,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.6666666666666666
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.0,
+        "media_hype": 0.1,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 1.0,
+      "conspiracy_score": 0.0,
+      "betting_recommendation": "NO_CLEAR_EDGE"
+    },
+    "actual_total": 26
+  },
+  {
+    "game": "DAL @ DEN",
+    "narrative": {
+      "narrative_strength": 0.4666666666666666,
+      "public_lean": 0.75,
+      "vegas_bait": true,
+      "media_hype": 0.0,
+      "storylines": [
+        "Coaching Hot Seat"
+      ],
+      "sentiment_counts": {
+        "over": 4,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.5,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.5
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.1,
+        "media_hype": 0.2,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.5,
+      "conspiracy_score": 0.15,
+      "betting_recommendation": "TRAP_LEAN_UNDER"
+    },
+    "actual_total": 68
+  },
+  {
+    "game": "TEN @ IND",
+    "narrative": {
+      "narrative_strength": 0.41818181818181815,
+      "public_lean": 0.6875,
+      "vegas_bait": false,
+      "media_hype": 0.0,
+      "storylines": [],
+      "sentiment_counts": {
+        "over": 3,
+        "under": 0,
+        "hype": 0
+      },
+      "confidence_weights": {
+        "reddit": 0.375,
+        "youtube": 1.0,
+        "twitter": 0.0,
+        "overall": 0.4583333333333333
+      },
+      "youtube_signals": {
+        "revenge_game": 0.0,
+        "trap_game": 0.1,
+        "media_hype": 0.2,
+        "sharp_lean": 0.0,
+        "public_favorite": 0.0
+      },
+      "sharp_vs_public": 0.5,
+      "twitter_activity": 0,
+      "sharp_vs_public_confidence": 0.0,
+      "public_lean_confidence": 0.375,
+      "conspiracy_score": 0.0,
+      "betting_recommendation": "NO_CLEAR_EDGE"
+    },
+    "actual_total": 52
+  }
+]

@@ -1,0 +1,5 @@
+# Minimal Lambda dependencies
+aiohttp
+requests
+python-dateutil
+pydantic

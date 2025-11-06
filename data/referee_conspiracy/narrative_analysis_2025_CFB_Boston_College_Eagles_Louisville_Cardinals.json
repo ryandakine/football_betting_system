@@ -1,0 +1,38 @@
+{
+  "game_id": "2025_CFB_Boston_College_Eagles_Louisville_Cardinals",
+  "teams": "Boston College Eagles @ Louisville Cardinals",
+  "narrative_signals": [
+    {
+      "type": "REVENGE_GAME",
+      "strength": 0.4,
+      "source": "youtube",
+      "description": "Boston College Eagles or Louisville Cardinals seeking revenge"
+    },
+    {
+      "type": "MEDIA_DARLING",
+      "strength": 0.1,
+      "source": "youtube+reddit",
+      "description": "Media over-hyping - Reddit storylines: Vegas Trap, Weather Factor"
+    },
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.65,
+      "source": "betting_data",
+      "description": "Sharp money on Louisville Cardinals"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.21666666666666667,
+    "signals_detected": 3,
+    "dominant_narratives": [
+      "REVENGE_GAME",
+      "MEDIA_DARLING",
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 3 narrative signals pointing to follow_sharp",
+    "pick": "DOG +25.5 (sharp fade)"
+  },
+  "conspiracy_probability": 0.9725,
+  "analysis_timestamp": "2025-10-25T17:18:31.503548"
+}

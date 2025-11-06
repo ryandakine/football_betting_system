@@ -1,0 +1,268 @@
+game_id,season,week,date,home_team,away_team,home_score,away_score,spread,total,odds,actual_result,edge_value,confidence
+2015_Pittsburgh_Steelers_New_England_Patriots_2015-09-10,2015,,2015-09-10,New England Patriots,Pittsburgh Steelers,28,21,0.0,49.0,-110,1,0.02,0.55
+2015_Green_Bay_Packers_Chicago_Bears_2015-09-13,2015,,2015-09-13,Chicago Bears,Green Bay Packers,23,31,0.0,54.0,-110,0,0.02,0.55
+2015_Seattle_Seahawks_St._Louis_Rams_2015-09-13,2015,,2015-09-13,St. Louis Rams,Seattle Seahawks,34,31,0.0,65.0,-110,1,0.02,0.55
+2015_Kansas_City_Chiefs_Houston_Texans_2015-09-13,2015,,2015-09-13,Houston Texans,Kansas City Chiefs,20,27,0.0,47.0,-110,0,0.02,0.55
+2015_Miami_Dolphins_Washington_Redskins_2015-09-13,2015,,2015-09-13,Washington Redskins,Miami Dolphins,10,17,0.0,27.0,-110,0,0.02,0.55
+2015_Indianapolis_Colts_Buffalo_Bills_2015-09-13,2015,,2015-09-13,Buffalo Bills,Indianapolis Colts,27,14,0.0,41.0,-110,1,0.02,0.55
+2015_Carolina_Panthers_Jacksonville_Jaguars_2015-09-13,2015,,2015-09-13,Jacksonville Jaguars,Carolina Panthers,9,20,0.0,29.0,-110,0,0.02,0.55
+2015_Cleveland_Browns_New_York_Jets_2015-09-13,2015,,2015-09-13,New York Jets,Cleveland Browns,31,10,0.0,41.0,-110,1,0.02,0.55
+2015_New_Orleans_Saints_Arizona_Cardinals_2015-09-13,2015,,2015-09-13,Arizona Cardinals,New Orleans Saints,31,19,0.0,50.0,-110,1,0.02,0.55
+2015_Detroit_Lions_San_Diego_Chargers_2015-09-13,2015,,2015-09-13,San Diego Chargers,Detroit Lions,33,28,0.0,61.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_Oakland_Raiders_2015-09-13,2015,,2015-09-13,Oakland Raiders,Cincinnati Bengals,13,33,0.0,46.0,-110,0,0.02,0.55
+2015_Baltimore_Ravens_Denver_Broncos_2015-09-13,2015,,2015-09-13,Denver Broncos,Baltimore Ravens,19,13,0.0,32.0,-110,1,0.02,0.55
+2015_Tennessee_Titans_Tampa_Bay_Buccaneers_2015-09-13,2015,,2015-09-13,Tampa Bay Buccaneers,Tennessee Titans,14,42,0.0,56.0,-110,0,0.02,0.55
+2015_New_York_Giants_Dallas_Cowboys_2015-09-13,2015,,2015-09-13,Dallas Cowboys,New York Giants,27,26,0.0,53.0,-110,1,0.02,0.55
+2015_Philadelphia_Eagles_Atlanta_Falcons_2015-09-14,2015,,2015-09-14,Atlanta Falcons,Philadelphia Eagles,26,24,0.0,50.0,-110,1,0.02,0.55
+2015_Minnesota_Vikings_San_Francisco_49ers_2015-09-14,2015,,2015-09-14,San Francisco 49ers,Minnesota Vikings,20,3,0.0,23.0,-110,1,0.02,0.55
+2015_Denver_Broncos_Kansas_City_Chiefs_2015-09-17,2015,,2015-09-17,Kansas City Chiefs,Denver Broncos,24,31,0.0,55.0,-110,0,0.02,0.55
+2015_Arizona_Cardinals_Chicago_Bears_2015-09-20,2015,,2015-09-20,Chicago Bears,Arizona Cardinals,23,48,0.0,71.0,-110,0,0.02,0.55
+2015_Atlanta_Falcons_New_York_Giants_2015-09-20,2015,,2015-09-20,New York Giants,Atlanta Falcons,20,24,0.0,44.0,-110,0,0.02,0.55
+2015_New_England_Patriots_Buffalo_Bills_2015-09-20,2015,,2015-09-20,Buffalo Bills,New England Patriots,32,40,0.0,72.0,-110,0,0.02,0.55
+2015_Houston_Texans_Carolina_Panthers_2015-09-20,2015,,2015-09-20,Carolina Panthers,Houston Texans,24,17,0.0,41.0,-110,1,0.02,0.55
+2015_Tennessee_Titans_Cleveland_Browns_2015-09-20,2015,,2015-09-20,Cleveland Browns,Tennessee Titans,28,14,0.0,42.0,-110,1,0.02,0.55
+2015_Tampa_Bay_Buccaneers_New_Orleans_Saints_2015-09-20,2015,,2015-09-20,New Orleans Saints,Tampa Bay Buccaneers,19,26,0.0,45.0,-110,0,0.02,0.55
+2015_San_Francisco_49ers_Pittsburgh_Steelers_2015-09-20,2015,,2015-09-20,Pittsburgh Steelers,San Francisco 49ers,43,18,0.0,61.0,-110,1,0.02,0.55
+2015_San_Diego_Chargers_Cincinnati_Bengals_2015-09-20,2015,,2015-09-20,Cincinnati Bengals,San Diego Chargers,24,19,0.0,43.0,-110,1,0.02,0.55
+2015_Detroit_Lions_Minnesota_Vikings_2015-09-20,2015,,2015-09-20,Minnesota Vikings,Detroit Lions,26,16,0.0,42.0,-110,1,0.02,0.55
+2015_St._Louis_Rams_Washington_Redskins_2015-09-20,2015,,2015-09-20,Washington Redskins,St. Louis Rams,24,10,0.0,34.0,-110,1,0.02,0.55
+2015_Miami_Dolphins_Jacksonville_Jaguars_2015-09-20,2015,,2015-09-20,Jacksonville Jaguars,Miami Dolphins,23,20,0.0,43.0,-110,1,0.02,0.55
+2015_Baltimore_Ravens_Oakland_Raiders_2015-09-20,2015,,2015-09-20,Oakland Raiders,Baltimore Ravens,37,33,0.0,70.0,-110,1,0.02,0.55
+2015_Dallas_Cowboys_Philadelphia_Eagles_2015-09-20,2015,,2015-09-20,Philadelphia Eagles,Dallas Cowboys,10,20,0.0,30.0,-110,0,0.02,0.55
+2015_Seattle_Seahawks_Green_Bay_Packers_2015-09-20,2015,,2015-09-20,Green Bay Packers,Seattle Seahawks,27,17,0.0,44.0,-110,1,0.02,0.55
+2015_New_York_Jets_Indianapolis_Colts_2015-09-21,2015,,2015-09-21,Indianapolis Colts,New York Jets,7,20,0.0,27.0,-110,0,0.02,0.55
+2015_Washington_Redskins_New_York_Giants_2015-09-24,2015,,2015-09-24,New York Giants,Washington Redskins,32,21,0.0,53.0,-110,1,0.02,0.55
+2015_Pittsburgh_Steelers_St._Louis_Rams_2015-09-27,2015,,2015-09-27,St. Louis Rams,Pittsburgh Steelers,6,12,0.0,18.0,-110,0,0.02,0.55
+2015_Cincinnati_Bengals_Baltimore_Ravens_2015-09-27,2015,,2015-09-27,Baltimore Ravens,Cincinnati Bengals,24,28,0.0,52.0,-110,0,0.02,0.55
+2015_Oakland_Raiders_Cleveland_Browns_2015-09-27,2015,,2015-09-27,Cleveland Browns,Oakland Raiders,20,27,0.0,47.0,-110,0,0.02,0.55
+2015_San_Diego_Chargers_Minnesota_Vikings_2015-09-27,2015,,2015-09-27,Minnesota Vikings,San Diego Chargers,31,14,0.0,45.0,-110,1,0.02,0.55
+2015_Atlanta_Falcons_Dallas_Cowboys_2015-09-27,2015,,2015-09-27,Dallas Cowboys,Atlanta Falcons,28,39,0.0,67.0,-110,0,0.02,0.55
+2015_New_Orleans_Saints_Carolina_Panthers_2015-09-27,2015,,2015-09-27,Carolina Panthers,New Orleans Saints,27,22,0.0,49.0,-110,1,0.02,0.55
+2015_Indianapolis_Colts_Tennessee_Titans_2015-09-27,2015,,2015-09-27,Tennessee Titans,Indianapolis Colts,33,35,0.0,68.0,-110,0,0.02,0.55
+2015_Tampa_Bay_Buccaneers_Houston_Texans_2015-09-27,2015,,2015-09-27,Houston Texans,Tampa Bay Buccaneers,19,9,0.0,28.0,-110,1,0.02,0.55
+2015_Philadelphia_Eagles_New_York_Jets_2015-09-27,2015,,2015-09-27,New York Jets,Philadelphia Eagles,17,24,0.0,41.0,-110,0,0.02,0.55
+2015_Jacksonville_Jaguars_New_England_Patriots_2015-09-27,2015,,2015-09-27,New England Patriots,Jacksonville Jaguars,51,17,0.0,68.0,-110,1,0.02,0.55
+2015_San_Francisco_49ers_Arizona_Cardinals_2015-09-27,2015,,2015-09-27,Arizona Cardinals,San Francisco 49ers,47,7,0.0,54.0,-110,1,0.02,0.55
+2015_Buffalo_Bills_Miami_Dolphins_2015-09-27,2015,,2015-09-27,Miami Dolphins,Buffalo Bills,14,41,0.0,55.0,-110,0,0.02,0.55
+2015_Chicago_Bears_Seattle_Seahawks_2015-09-27,2015,,2015-09-27,Seattle Seahawks,Chicago Bears,26,0,0.0,26.0,-110,1,0.02,0.55
+2015_Denver_Broncos_Detroit_Lions_2015-09-27,2015,,2015-09-27,Detroit Lions,Denver Broncos,12,24,0.0,36.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Green_Bay_Packers_2015-09-28,2015,,2015-09-28,Green Bay Packers,Kansas City Chiefs,38,28,0.0,66.0,-110,1,0.02,0.55
+2015_Baltimore_Ravens_Pittsburgh_Steelers_2015-10-01,2015,,2015-10-01,Pittsburgh Steelers,Baltimore Ravens,20,23,0.0,43.0,-110,0,0.02,0.55
+2015_New_York_Jets_Miami_Dolphins_2015-10-04,2015,,2015-10-04,Miami Dolphins,New York Jets,14,27,0.0,41.0,-110,0,0.02,0.55
+2015_Houston_Texans_Atlanta_Falcons_2015-10-04,2015,,2015-10-04,Atlanta Falcons,Houston Texans,48,21,0.0,69.0,-110,1,0.02,0.55
+2015_New_York_Giants_Buffalo_Bills_2015-10-04,2015,,2015-10-04,Buffalo Bills,New York Giants,10,24,0.0,34.0,-110,0,0.02,0.55
+2015_Oakland_Raiders_Chicago_Bears_2015-10-04,2015,,2015-10-04,Chicago Bears,Oakland Raiders,22,20,0.0,42.0,-110,1,0.02,0.55
+2015_Jacksonville_Jaguars_Indianapolis_Colts_2015-10-04,2015,,2015-10-04,Indianapolis Colts,Jacksonville Jaguars,16,13,0.0,29.0,-110,1,0.02,0.55
+2015_Carolina_Panthers_Tampa_Bay_Buccaneers_2015-10-04,2015,,2015-10-04,Tampa Bay Buccaneers,Carolina Panthers,23,37,0.0,60.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Cincinnati_Bengals_2015-10-04,2015,,2015-10-04,Cincinnati Bengals,Kansas City Chiefs,36,21,0.0,57.0,-110,1,0.02,0.55
+2015_Philadelphia_Eagles_Washington_Redskins_2015-10-04,2015,,2015-10-04,Washington Redskins,Philadelphia Eagles,23,20,0.0,43.0,-110,1,0.02,0.55
+2015_Cleveland_Browns_San_Diego_Chargers_2015-10-04,2015,,2015-10-04,San Diego Chargers,Cleveland Browns,30,27,0.0,57.0,-110,1,0.02,0.55
+2015_St._Louis_Rams_Arizona_Cardinals_2015-10-04,2015,,2015-10-04,Arizona Cardinals,St. Louis Rams,22,24,0.0,46.0,-110,0,0.02,0.55
+2015_Minnesota_Vikings_Denver_Broncos_2015-10-04,2015,,2015-10-04,Denver Broncos,Minnesota Vikings,23,20,0.0,43.0,-110,1,0.02,0.55
+2015_Green_Bay_Packers_San_Francisco_49ers_2015-10-04,2015,,2015-10-04,San Francisco 49ers,Green Bay Packers,3,17,0.0,20.0,-110,0,0.02,0.55
+2015_Dallas_Cowboys_New_Orleans_Saints_2015-10-04,2015,,2015-10-04,New Orleans Saints,Dallas Cowboys,26,20,0.0,46.0,-110,1,0.02,0.55
+2015_Detroit_Lions_Seattle_Seahawks_2015-10-05,2015,,2015-10-05,Seattle Seahawks,Detroit Lions,13,10,0.0,23.0,-110,1,0.02,0.55
+2015_Indianapolis_Colts_Houston_Texans_2015-10-08,2015,,2015-10-08,Houston Texans,Indianapolis Colts,20,27,0.0,47.0,-110,0,0.02,0.55
+2015_Washington_Redskins_Atlanta_Falcons_2015-10-11,2015,,2015-10-11,Atlanta Falcons,Washington Redskins,25,19,0.0,44.0,-110,1,0.02,0.55
+2015_Chicago_Bears_Kansas_City_Chiefs_2015-10-11,2015,,2015-10-11,Kansas City Chiefs,Chicago Bears,17,18,0.0,35.0,-110,0,0.02,0.55
+2015_Cleveland_Browns_Baltimore_Ravens_2015-10-11,2015,,2015-10-11,Baltimore Ravens,Cleveland Browns,30,33,0.0,63.0,-110,0,0.02,0.55
+2015_St._Louis_Rams_Green_Bay_Packers_2015-10-11,2015,,2015-10-11,Green Bay Packers,St. Louis Rams,24,10,0.0,34.0,-110,1,0.02,0.55
+2015_Jacksonville_Jaguars_Tampa_Bay_Buccaneers_2015-10-11,2015,,2015-10-11,Tampa Bay Buccaneers,Jacksonville Jaguars,38,31,0.0,69.0,-110,1,0.02,0.55
+2015_Buffalo_Bills_Tennessee_Titans_2015-10-11,2015,,2015-10-11,Tennessee Titans,Buffalo Bills,13,14,0.0,27.0,-110,0,0.02,0.55
+2015_Seattle_Seahawks_Cincinnati_Bengals_2015-10-11,2015,,2015-10-11,Cincinnati Bengals,Seattle Seahawks,27,24,0.0,51.0,-110,1,0.02,0.55
+2015_New_Orleans_Saints_Philadelphia_Eagles_2015-10-11,2015,,2015-10-11,Philadelphia Eagles,New Orleans Saints,39,17,0.0,56.0,-110,1,0.02,0.55
+2015_Arizona_Cardinals_Detroit_Lions_2015-10-11,2015,,2015-10-11,Detroit Lions,Arizona Cardinals,17,42,0.0,59.0,-110,0,0.02,0.55
+2015_New_England_Patriots_Dallas_Cowboys_2015-10-11,2015,,2015-10-11,Dallas Cowboys,New England Patriots,6,30,0.0,36.0,-110,0,0.02,0.55
+2015_Denver_Broncos_Oakland_Raiders_2015-10-11,2015,,2015-10-11,Oakland Raiders,Denver Broncos,10,16,0.0,26.0,-110,0,0.02,0.55
+2015_San_Francisco_49ers_New_York_Giants_2015-10-11,2015,,2015-10-11,New York Giants,San Francisco 49ers,30,27,0.0,57.0,-110,1,0.02,0.55
+2015_Pittsburgh_Steelers_San_Diego_Chargers_2015-10-12,2015,,2015-10-12,San Diego Chargers,Pittsburgh Steelers,20,24,0.0,44.0,-110,0,0.02,0.55
+2015_Atlanta_Falcons_New_Orleans_Saints_2015-10-15,2015,,2015-10-15,New Orleans Saints,Atlanta Falcons,31,21,0.0,52.0,-110,1,0.02,0.55
+2015_Washington_Redskins_New_York_Jets_2015-10-18,2015,,2015-10-18,New York Jets,Washington Redskins,34,20,0.0,54.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_Buffalo_Bills_2015-10-18,2015,,2015-10-18,Buffalo Bills,Cincinnati Bengals,21,34,0.0,55.0,-110,0,0.02,0.55
+2015_Chicago_Bears_Detroit_Lions_2015-10-18,2015,,2015-10-18,Detroit Lions,Chicago Bears,37,34,0.0,71.0,-110,1,0.02,0.55
+2015_Denver_Broncos_Cleveland_Browns_2015-10-18,2015,,2015-10-18,Cleveland Browns,Denver Broncos,23,26,0.0,49.0,-110,0,0.02,0.55
+2015_Houston_Texans_Jacksonville_Jaguars_2015-10-18,2015,,2015-10-18,Jacksonville Jaguars,Houston Texans,20,31,0.0,51.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Minnesota_Vikings_2015-10-18,2015,,2015-10-18,Minnesota Vikings,Kansas City Chiefs,16,10,0.0,26.0,-110,1,0.02,0.55
+2015_Miami_Dolphins_Tennessee_Titans_2015-10-18,2015,,2015-10-18,Tennessee Titans,Miami Dolphins,10,38,0.0,48.0,-110,0,0.02,0.55
+2015_Arizona_Cardinals_Pittsburgh_Steelers_2015-10-18,2015,,2015-10-18,Pittsburgh Steelers,Arizona Cardinals,25,13,0.0,38.0,-110,1,0.02,0.55
+2015_Carolina_Panthers_Seattle_Seahawks_2015-10-18,2015,,2015-10-18,Seattle Seahawks,Carolina Panthers,23,27,0.0,50.0,-110,0,0.02,0.55
+2015_San_Diego_Chargers_Green_Bay_Packers_2015-10-18,2015,,2015-10-18,Green Bay Packers,San Diego Chargers,27,20,0.0,47.0,-110,1,0.02,0.55
+2015_Baltimore_Ravens_San_Francisco_49ers_2015-10-18,2015,,2015-10-18,San Francisco 49ers,Baltimore Ravens,25,20,0.0,45.0,-110,1,0.02,0.55
+2015_New_England_Patriots_Indianapolis_Colts_2015-10-18,2015,,2015-10-18,Indianapolis Colts,New England Patriots,27,34,0.0,61.0,-110,0,0.02,0.55
+2015_New_York_Giants_Philadelphia_Eagles_2015-10-19,2015,,2015-10-19,Philadelphia Eagles,New York Giants,27,7,0.0,34.0,-110,1,0.02,0.55
+2015_Seattle_Seahawks_San_Francisco_49ers_2015-10-22,2015,,2015-10-22,San Francisco 49ers,Seattle Seahawks,3,20,0.0,23.0,-110,0,0.02,0.55
+2015_Buffalo_Bills_Jacksonville_Jaguars_2015-10-25,2015,,2015-10-25,Jacksonville Jaguars,Buffalo Bills,34,31,0.0,65.0,-110,1,0.02,0.55
+2015_Cleveland_Browns_St._Louis_Rams_2015-10-25,2015,,2015-10-25,St. Louis Rams,Cleveland Browns,24,6,0.0,30.0,-110,1,0.02,0.55
+2015_New_York_Jets_New_England_Patriots_2015-10-25,2015,,2015-10-25,New England Patriots,New York Jets,30,23,0.0,53.0,-110,1,0.02,0.55
+2015_Atlanta_Falcons_Tennessee_Titans_2015-10-25,2015,,2015-10-25,Tennessee Titans,Atlanta Falcons,7,10,0.0,17.0,-110,0,0.02,0.55
+2015_Minnesota_Vikings_Detroit_Lions_2015-10-25,2015,,2015-10-25,Detroit Lions,Minnesota Vikings,19,28,0.0,47.0,-110,0,0.02,0.55
+2015_Houston_Texans_Miami_Dolphins_2015-10-25,2015,,2015-10-25,Miami Dolphins,Houston Texans,44,26,0.0,70.0,-110,1,0.02,0.55
+2015_New_Orleans_Saints_Indianapolis_Colts_2015-10-25,2015,,2015-10-25,Indianapolis Colts,New Orleans Saints,21,27,0.0,48.0,-110,0,0.02,0.55
+2015_Pittsburgh_Steelers_Kansas_City_Chiefs_2015-10-25,2015,,2015-10-25,Kansas City Chiefs,Pittsburgh Steelers,23,13,0.0,36.0,-110,1,0.02,0.55
+2015_Tampa_Bay_Buccaneers_Washington_Redskins_2015-10-25,2015,,2015-10-25,Washington Redskins,Tampa Bay Buccaneers,31,30,0.0,61.0,-110,1,0.02,0.55
+2015_Oakland_Raiders_San_Diego_Chargers_2015-10-25,2015,,2015-10-25,San Diego Chargers,Oakland Raiders,29,37,0.0,66.0,-110,0,0.02,0.55
+2015_Dallas_Cowboys_New_York_Giants_2015-10-25,2015,,2015-10-25,New York Giants,Dallas Cowboys,27,20,0.0,47.0,-110,1,0.02,0.55
+2015_Philadelphia_Eagles_Carolina_Panthers_2015-10-25,2015,,2015-10-25,Carolina Panthers,Philadelphia Eagles,27,16,0.0,43.0,-110,1,0.02,0.55
+2015_Baltimore_Ravens_Arizona_Cardinals_2015-10-26,2015,,2015-10-26,Arizona Cardinals,Baltimore Ravens,26,18,0.0,44.0,-110,1,0.02,0.55
+2015_Miami_Dolphins_New_England_Patriots_2015-10-29,2015,,2015-10-29,New England Patriots,Miami Dolphins,36,7,0.0,43.0,-110,1,0.02,0.55
+2015_Detroit_Lions_Kansas_City_Chiefs_2015-11-01,2015,,2015-11-01,Kansas City Chiefs,Detroit Lions,45,10,0.0,55.0,-110,1,0.02,0.55
+2015_Minnesota_Vikings_Chicago_Bears_2015-11-01,2015,,2015-11-01,Chicago Bears,Minnesota Vikings,20,23,0.0,43.0,-110,0,0.02,0.55
+2015_San_Francisco_49ers_St._Louis_Rams_2015-11-01,2015,,2015-11-01,St. Louis Rams,San Francisco 49ers,27,6,0.0,33.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_Pittsburgh_Steelers_2015-11-01,2015,,2015-11-01,Pittsburgh Steelers,Cincinnati Bengals,10,16,0.0,26.0,-110,0,0.02,0.55
+2015_Tampa_Bay_Buccaneers_Atlanta_Falcons_2015-11-01,2015,,2015-11-01,Atlanta Falcons,Tampa Bay Buccaneers,20,23,0.0,43.0,-110,0,0.02,0.55
+2015_Arizona_Cardinals_Cleveland_Browns_2015-11-01,2015,,2015-11-01,Cleveland Browns,Arizona Cardinals,20,34,0.0,54.0,-110,0,0.02,0.55
+2015_Tennessee_Titans_Houston_Texans_2015-11-01,2015,,2015-11-01,Houston Texans,Tennessee Titans,20,6,0.0,26.0,-110,1,0.02,0.55
+2015_New_York_Giants_New_Orleans_Saints_2015-11-01,2015,,2015-11-01,New Orleans Saints,New York Giants,52,49,0.0,101.0,-110,1,0.02,0.55
+2015_San_Diego_Chargers_Baltimore_Ravens_2015-11-01,2015,,2015-11-01,Baltimore Ravens,San Diego Chargers,29,26,0.0,55.0,-110,1,0.02,0.55
+2015_New_York_Jets_Oakland_Raiders_2015-11-01,2015,,2015-11-01,Oakland Raiders,New York Jets,34,20,0.0,54.0,-110,1,0.02,0.55
+2015_Seattle_Seahawks_Dallas_Cowboys_2015-11-01,2015,,2015-11-01,Dallas Cowboys,Seattle Seahawks,12,13,0.0,25.0,-110,0,0.02,0.55
+2015_Green_Bay_Packers_Denver_Broncos_2015-11-01,2015,,2015-11-01,Denver Broncos,Green Bay Packers,29,10,0.0,39.0,-110,1,0.02,0.55
+2015_Indianapolis_Colts_Carolina_Panthers_2015-11-02,2015,,2015-11-02,Carolina Panthers,Indianapolis Colts,29,26,0.0,55.0,-110,1,0.02,0.55
+2015_Cleveland_Browns_Cincinnati_Bengals_2015-11-05,2015,,2015-11-05,Cincinnati Bengals,Cleveland Browns,31,10,0.0,41.0,-110,1,0.02,0.55
+2015_Miami_Dolphins_Buffalo_Bills_2015-11-08,2015,,2015-11-08,Buffalo Bills,Miami Dolphins,33,17,0.0,50.0,-110,1,0.02,0.55
+2015_Jacksonville_Jaguars_New_York_Jets_2015-11-08,2015,,2015-11-08,New York Jets,Jacksonville Jaguars,28,23,0.0,51.0,-110,1,0.02,0.55
+2015_St._Louis_Rams_Minnesota_Vikings_2015-11-08,2015,,2015-11-08,Minnesota Vikings,St. Louis Rams,21,18,0.0,39.0,-110,1,0.02,0.55
+2015_Washington_Redskins_New_England_Patriots_2015-11-08,2015,,2015-11-08,New England Patriots,Washington Redskins,27,10,0.0,37.0,-110,1,0.02,0.55
+2015_Tennessee_Titans_New_Orleans_Saints_2015-11-08,2015,,2015-11-08,New Orleans Saints,Tennessee Titans,28,34,0.0,62.0,-110,0,0.02,0.55
+2015_Oakland_Raiders_Pittsburgh_Steelers_2015-11-08,2015,,2015-11-08,Pittsburgh Steelers,Oakland Raiders,38,35,0.0,73.0,-110,1,0.02,0.55
+2015_Green_Bay_Packers_Carolina_Panthers_2015-11-08,2015,,2015-11-08,Carolina Panthers,Green Bay Packers,37,29,0.0,66.0,-110,1,0.02,0.55
+2015_Atlanta_Falcons_San_Francisco_49ers_2015-11-08,2015,,2015-11-08,San Francisco 49ers,Atlanta Falcons,17,16,0.0,33.0,-110,1,0.02,0.55
+2015_New_York_Giants_Tampa_Bay_Buccaneers_2015-11-08,2015,,2015-11-08,Tampa Bay Buccaneers,New York Giants,18,32,0.0,50.0,-110,0,0.02,0.55
+2015_Denver_Broncos_Indianapolis_Colts_2015-11-08,2015,,2015-11-08,Indianapolis Colts,Denver Broncos,27,24,0.0,51.0,-110,1,0.02,0.55
+2015_Philadelphia_Eagles_Dallas_Cowboys_2015-11-08,2015,,2015-11-08,Dallas Cowboys,Philadelphia Eagles,27,33,0.0,60.0,-110,0,0.02,0.55
+2015_Chicago_Bears_San_Diego_Chargers_2015-11-09,2015,,2015-11-09,San Diego Chargers,Chicago Bears,19,22,0.0,41.0,-110,0,0.02,0.55
+2015_Buffalo_Bills_New_York_Jets_2015-11-12,2015,,2015-11-12,New York Jets,Buffalo Bills,17,22,0.0,39.0,-110,0,0.02,0.55
+2015_Chicago_Bears_St._Louis_Rams_2015-11-15,2015,,2015-11-15,St. Louis Rams,Chicago Bears,13,37,0.0,50.0,-110,0,0.02,0.55
+2015_Carolina_Panthers_Tennessee_Titans_2015-11-15,2015,,2015-11-15,Tennessee Titans,Carolina Panthers,10,27,0.0,37.0,-110,0,0.02,0.55
+2015_Detroit_Lions_Green_Bay_Packers_2015-11-15,2015,,2015-11-15,Green Bay Packers,Detroit Lions,16,18,0.0,34.0,-110,0,0.02,0.55
+2015_Cleveland_Browns_Pittsburgh_Steelers_2015-11-15,2015,,2015-11-15,Pittsburgh Steelers,Cleveland Browns,30,9,0.0,39.0,-110,1,0.02,0.55
+2015_Dallas_Cowboys_Tampa_Bay_Buccaneers_2015-11-15,2015,,2015-11-15,Tampa Bay Buccaneers,Dallas Cowboys,10,6,0.0,16.0,-110,1,0.02,0.55
+2015_Jacksonville_Jaguars_Baltimore_Ravens_2015-11-15,2015,,2015-11-15,Baltimore Ravens,Jacksonville Jaguars,20,22,0.0,42.0,-110,0,0.02,0.55
+2015_Miami_Dolphins_Philadelphia_Eagles_2015-11-15,2015,,2015-11-15,Philadelphia Eagles,Miami Dolphins,19,20,0.0,39.0,-110,0,0.02,0.55
+2015_New_Orleans_Saints_Washington_Redskins_2015-11-15,2015,,2015-11-15,Washington Redskins,New Orleans Saints,47,14,0.0,61.0,-110,1,0.02,0.55
+2015_Minnesota_Vikings_Oakland_Raiders_2015-11-15,2015,,2015-11-15,Oakland Raiders,Minnesota Vikings,14,30,0.0,44.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Denver_Broncos_2015-11-15,2015,,2015-11-15,Denver Broncos,Kansas City Chiefs,13,29,0.0,42.0,-110,0,0.02,0.55
+2015_New_England_Patriots_New_York_Giants_2015-11-15,2015,,2015-11-15,New York Giants,New England Patriots,26,27,0.0,53.0,-110,0,0.02,0.55
+2015_Arizona_Cardinals_Seattle_Seahawks_2015-11-15,2015,,2015-11-15,Seattle Seahawks,Arizona Cardinals,32,39,0.0,71.0,-110,0,0.02,0.55
+2015_Houston_Texans_Cincinnati_Bengals_2015-11-16,2015,,2015-11-16,Cincinnati Bengals,Houston Texans,6,10,0.0,16.0,-110,0,0.02,0.55
+2015_Tennessee_Titans_Jacksonville_Jaguars_2015-11-19,2015,,2015-11-19,Jacksonville Jaguars,Tennessee Titans,19,13,0.0,32.0,-110,1,0.02,0.55
+2015_Indianapolis_Colts_Atlanta_Falcons_2015-11-22,2015,,2015-11-22,Atlanta Falcons,Indianapolis Colts,21,24,0.0,45.0,-110,0,0.02,0.55
+2015_Washington_Redskins_Carolina_Panthers_2015-11-22,2015,,2015-11-22,Carolina Panthers,Washington Redskins,44,16,0.0,60.0,-110,1,0.02,0.55
+2015_Denver_Broncos_Chicago_Bears_2015-11-22,2015,,2015-11-22,Chicago Bears,Denver Broncos,15,17,0.0,32.0,-110,0,0.02,0.55
+2015_Oakland_Raiders_Detroit_Lions_2015-11-22,2015,,2015-11-22,Detroit Lions,Oakland Raiders,18,13,0.0,31.0,-110,1,0.02,0.55
+2015_Tampa_Bay_Buccaneers_Philadelphia_Eagles_2015-11-22,2015,,2015-11-22,Philadelphia Eagles,Tampa Bay Buccaneers,17,45,0.0,62.0,-110,0,0.02,0.55
+2015_St._Louis_Rams_Baltimore_Ravens_2015-11-22,2015,,2015-11-22,Baltimore Ravens,St. Louis Rams,16,13,0.0,29.0,-110,1,0.02,0.55
+2015_Dallas_Cowboys_Miami_Dolphins_2015-11-22,2015,,2015-11-22,Miami Dolphins,Dallas Cowboys,14,24,0.0,38.0,-110,0,0.02,0.55
+2015_New_York_Jets_Houston_Texans_2015-11-22,2015,,2015-11-22,Houston Texans,New York Jets,24,17,0.0,41.0,-110,1,0.02,0.55
+2015_Kansas_City_Chiefs_San_Diego_Chargers_2015-11-22,2015,,2015-11-22,San Diego Chargers,Kansas City Chiefs,3,33,0.0,36.0,-110,0,0.02,0.55
+2015_Green_Bay_Packers_Minnesota_Vikings_2015-11-22,2015,,2015-11-22,Minnesota Vikings,Green Bay Packers,13,30,0.0,43.0,-110,0,0.02,0.55
+2015_San_Francisco_49ers_Seattle_Seahawks_2015-11-22,2015,,2015-11-22,Seattle Seahawks,San Francisco 49ers,29,13,0.0,42.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_Arizona_Cardinals_2015-11-22,2015,,2015-11-22,Arizona Cardinals,Cincinnati Bengals,34,31,0.0,65.0,-110,1,0.02,0.55
+2015_Buffalo_Bills_New_England_Patriots_2015-11-23,2015,,2015-11-23,New England Patriots,Buffalo Bills,20,13,0.0,33.0,-110,1,0.02,0.55
+2015_Philadelphia_Eagles_Detroit_Lions_2015-11-26,2015,,2015-11-26,Detroit Lions,Philadelphia Eagles,45,14,0.0,59.0,-110,1,0.02,0.55
+2015_Carolina_Panthers_Dallas_Cowboys_2015-11-26,2015,,2015-11-26,Dallas Cowboys,Carolina Panthers,14,33,0.0,47.0,-110,0,0.02,0.55
+2015_Chicago_Bears_Green_Bay_Packers_2015-11-26,2015,,2015-11-26,Green Bay Packers,Chicago Bears,13,17,0.0,30.0,-110,0,0.02,0.55
+2015_Minnesota_Vikings_Atlanta_Falcons_2015-11-29,2015,,2015-11-29,Atlanta Falcons,Minnesota Vikings,10,20,0.0,30.0,-110,0,0.02,0.55
+2015_St._Louis_Rams_Cincinnati_Bengals_2015-11-29,2015,,2015-11-29,Cincinnati Bengals,St. Louis Rams,31,7,0.0,38.0,-110,1,0.02,0.55
+2015_Tampa_Bay_Buccaneers_Indianapolis_Colts_2015-11-29,2015,,2015-11-29,Indianapolis Colts,Tampa Bay Buccaneers,25,12,0.0,37.0,-110,1,0.02,0.55
+2015_New_Orleans_Saints_Houston_Texans_2015-11-29,2015,,2015-11-29,Houston Texans,New Orleans Saints,24,6,0.0,30.0,-110,1,0.02,0.55
+2015_Miami_Dolphins_New_York_Jets_2015-11-29,2015,,2015-11-29,New York Jets,Miami Dolphins,38,20,0.0,58.0,-110,1,0.02,0.55
+2015_Oakland_Raiders_Tennessee_Titans_2015-11-29,2015,,2015-11-29,Tennessee Titans,Oakland Raiders,21,24,0.0,45.0,-110,0,0.02,0.55
+2015_Buffalo_Bills_Kansas_City_Chiefs_2015-11-29,2015,,2015-11-29,Kansas City Chiefs,Buffalo Bills,30,22,0.0,52.0,-110,1,0.02,0.55
+2015_San_Diego_Chargers_Jacksonville_Jaguars_2015-11-29,2015,,2015-11-29,Jacksonville Jaguars,San Diego Chargers,25,31,0.0,56.0,-110,0,0.02,0.55
+2015_New_York_Giants_Washington_Redskins_2015-11-29,2015,,2015-11-29,Washington Redskins,New York Giants,20,14,0.0,34.0,-110,1,0.02,0.55
+2015_Arizona_Cardinals_San_Francisco_49ers_2015-11-29,2015,,2015-11-29,San Francisco 49ers,Arizona Cardinals,13,19,0.0,32.0,-110,0,0.02,0.55
+2015_Pittsburgh_Steelers_Seattle_Seahawks_2015-11-29,2015,,2015-11-29,Seattle Seahawks,Pittsburgh Steelers,39,30,0.0,69.0,-110,1,0.02,0.55
+2015_New_England_Patriots_Denver_Broncos_2015-11-29,2015,,2015-11-29,Denver Broncos,New England Patriots,30,24,0.0,54.0,-110,1,0.02,0.55
+2015_Baltimore_Ravens_Cleveland_Browns_2015-11-30,2015,,2015-11-30,Cleveland Browns,Baltimore Ravens,27,33,0.0,60.0,-110,0,0.02,0.55
+2015_Green_Bay_Packers_Detroit_Lions_2015-12-03,2015,,2015-12-03,Detroit Lions,Green Bay Packers,23,27,0.0,50.0,-110,0,0.02,0.55
+2015_Arizona_Cardinals_St._Louis_Rams_2015-12-06,2015,,2015-12-06,St. Louis Rams,Arizona Cardinals,3,27,0.0,30.0,-110,0,0.02,0.55
+2015_Houston_Texans_Buffalo_Bills_2015-12-06,2015,,2015-12-06,Buffalo Bills,Houston Texans,30,21,0.0,51.0,-110,1,0.02,0.55
+2015_San_Francisco_49ers_Chicago_Bears_2015-12-06,2015,,2015-12-06,Chicago Bears,San Francisco 49ers,20,26,0.0,46.0,-110,0,0.02,0.55
+2015_Jacksonville_Jaguars_Tennessee_Titans_2015-12-06,2015,,2015-12-06,Tennessee Titans,Jacksonville Jaguars,42,39,0.0,81.0,-110,1,0.02,0.55
+2015_Seattle_Seahawks_Minnesota_Vikings_2015-12-06,2015,,2015-12-06,Minnesota Vikings,Seattle Seahawks,7,38,0.0,45.0,-110,0,0.02,0.55
+2015_Atlanta_Falcons_Tampa_Bay_Buccaneers_2015-12-06,2015,,2015-12-06,Tampa Bay Buccaneers,Atlanta Falcons,23,19,0.0,42.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_Cleveland_Browns_2015-12-06,2015,,2015-12-06,Cleveland Browns,Cincinnati Bengals,3,37,0.0,40.0,-110,0,0.02,0.55
+2015_Baltimore_Ravens_Miami_Dolphins_2015-12-06,2015,,2015-12-06,Miami Dolphins,Baltimore Ravens,15,13,0.0,28.0,-110,1,0.02,0.55
+2015_New_York_Jets_New_York_Giants_2015-12-06,2015,,2015-12-06,New York Giants,New York Jets,20,23,0.0,43.0,-110,0,0.02,0.55
+2015_Denver_Broncos_San_Diego_Chargers_2015-12-06,2015,,2015-12-06,San Diego Chargers,Denver Broncos,3,17,0.0,20.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Oakland_Raiders_2015-12-06,2015,,2015-12-06,Oakland Raiders,Kansas City Chiefs,20,34,0.0,54.0,-110,0,0.02,0.55
+2015_Carolina_Panthers_New_Orleans_Saints_2015-12-06,2015,,2015-12-06,New Orleans Saints,Carolina Panthers,38,41,0.0,79.0,-110,0,0.02,0.55
+2015_Philadelphia_Eagles_New_England_Patriots_2015-12-06,2015,,2015-12-06,New England Patriots,Philadelphia Eagles,28,35,0.0,63.0,-110,0,0.02,0.55
+2015_Indianapolis_Colts_Pittsburgh_Steelers_2015-12-06,2015,,2015-12-06,Pittsburgh Steelers,Indianapolis Colts,45,10,0.0,55.0,-110,1,0.02,0.55
+2015_Dallas_Cowboys_Washington_Redskins_2015-12-07,2015,,2015-12-07,Washington Redskins,Dallas Cowboys,16,19,0.0,35.0,-110,0,0.02,0.55
+2015_Minnesota_Vikings_Arizona_Cardinals_2015-12-10,2015,,2015-12-10,Arizona Cardinals,Minnesota Vikings,23,20,0.0,43.0,-110,1,0.02,0.55
+2015_Buffalo_Bills_Philadelphia_Eagles_2015-12-13,2015,,2015-12-13,Philadelphia Eagles,Buffalo Bills,23,20,0.0,43.0,-110,1,0.02,0.55
+2015_Washington_Redskins_Chicago_Bears_2015-12-13,2015,,2015-12-13,Chicago Bears,Washington Redskins,21,24,0.0,45.0,-110,0,0.02,0.55
+2015_Pittsburgh_Steelers_Cincinnati_Bengals_2015-12-13,2015,,2015-12-13,Cincinnati Bengals,Pittsburgh Steelers,20,33,0.0,53.0,-110,0,0.02,0.55
+2015_San_Francisco_49ers_Cleveland_Browns_2015-12-13,2015,,2015-12-13,Cleveland Browns,San Francisco 49ers,24,10,0.0,34.0,-110,1,0.02,0.55
+2015_Indianapolis_Colts_Jacksonville_Jaguars_2015-12-13,2015,,2015-12-13,Jacksonville Jaguars,Indianapolis Colts,51,16,0.0,67.0,-110,1,0.02,0.55
+2015_Detroit_Lions_St._Louis_Rams_2015-12-13,2015,,2015-12-13,St. Louis Rams,Detroit Lions,21,14,0.0,35.0,-110,1,0.02,0.55
+2015_New_Orleans_Saints_Tampa_Bay_Buccaneers_2015-12-13,2015,,2015-12-13,Tampa Bay Buccaneers,New Orleans Saints,17,24,0.0,41.0,-110,0,0.02,0.55
+2015_Tennessee_Titans_New_York_Jets_2015-12-13,2015,,2015-12-13,New York Jets,Tennessee Titans,30,8,0.0,38.0,-110,1,0.02,0.55
+2015_Seattle_Seahawks_Baltimore_Ravens_2015-12-13,2015,,2015-12-13,Baltimore Ravens,Seattle Seahawks,6,35,0.0,41.0,-110,0,0.02,0.55
+2015_Atlanta_Falcons_Carolina_Panthers_2015-12-13,2015,,2015-12-13,Carolina Panthers,Atlanta Falcons,38,0,0.0,38.0,-110,1,0.02,0.55
+2015_San_Diego_Chargers_Kansas_City_Chiefs_2015-12-13,2015,,2015-12-13,Kansas City Chiefs,San Diego Chargers,10,3,0.0,13.0,-110,1,0.02,0.55
+2015_Oakland_Raiders_Denver_Broncos_2015-12-13,2015,,2015-12-13,Denver Broncos,Oakland Raiders,12,15,0.0,27.0,-110,0,0.02,0.55
+2015_Dallas_Cowboys_Green_Bay_Packers_2015-12-13,2015,,2015-12-13,Green Bay Packers,Dallas Cowboys,28,7,0.0,35.0,-110,1,0.02,0.55
+2015_New_England_Patriots_Houston_Texans_2015-12-13,2015,,2015-12-13,Houston Texans,New England Patriots,6,27,0.0,33.0,-110,0,0.02,0.55
+2015_New_York_Giants_Miami_Dolphins_2015-12-14,2015,,2015-12-14,Miami Dolphins,New York Giants,24,31,0.0,55.0,-110,0,0.02,0.55
+2015_Tampa_Bay_Buccaneers_St._Louis_Rams_2015-12-17,2015,,2015-12-17,St. Louis Rams,Tampa Bay Buccaneers,31,23,0.0,54.0,-110,1,0.02,0.55
+2015_New_York_Jets_Dallas_Cowboys_2015-12-19,2015,,2015-12-19,Dallas Cowboys,New York Jets,16,19,0.0,35.0,-110,0,0.02,0.55
+2015_Atlanta_Falcons_Jacksonville_Jaguars_2015-12-20,2015,,2015-12-20,Jacksonville Jaguars,Atlanta Falcons,17,23,0.0,40.0,-110,0,0.02,0.55
+2015_Carolina_Panthers_New_York_Giants_2015-12-20,2015,,2015-12-20,New York Giants,Carolina Panthers,35,38,0.0,73.0,-110,0,0.02,0.55
+2015_Chicago_Bears_Minnesota_Vikings_2015-12-20,2015,,2015-12-20,Minnesota Vikings,Chicago Bears,38,17,0.0,55.0,-110,1,0.02,0.55
+2015_Houston_Texans_Indianapolis_Colts_2015-12-20,2015,,2015-12-20,Indianapolis Colts,Houston Texans,10,16,0.0,26.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Baltimore_Ravens_2015-12-20,2015,,2015-12-20,Baltimore Ravens,Kansas City Chiefs,14,34,0.0,48.0,-110,0,0.02,0.55
+2015_Tennessee_Titans_New_England_Patriots_2015-12-20,2015,,2015-12-20,New England Patriots,Tennessee Titans,33,16,0.0,49.0,-110,1,0.02,0.55
+2015_Buffalo_Bills_Washington_Redskins_2015-12-20,2015,,2015-12-20,Washington Redskins,Buffalo Bills,35,25,0.0,60.0,-110,1,0.02,0.55
+2015_Green_Bay_Packers_Oakland_Raiders_2015-12-20,2015,,2015-12-20,Oakland Raiders,Green Bay Packers,20,30,0.0,50.0,-110,0,0.02,0.55
+2015_Cleveland_Browns_Seattle_Seahawks_2015-12-20,2015,,2015-12-20,Seattle Seahawks,Cleveland Browns,30,13,0.0,43.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_San_Francisco_49ers_2015-12-20,2015,,2015-12-20,San Francisco 49ers,Cincinnati Bengals,14,24,0.0,38.0,-110,0,0.02,0.55
+2015_Denver_Broncos_Pittsburgh_Steelers_2015-12-20,2015,,2015-12-20,Pittsburgh Steelers,Denver Broncos,34,27,0.0,61.0,-110,1,0.02,0.55
+2015_Miami_Dolphins_San_Diego_Chargers_2015-12-20,2015,,2015-12-20,San Diego Chargers,Miami Dolphins,30,14,0.0,44.0,-110,1,0.02,0.55
+2015_Arizona_Cardinals_Philadelphia_Eagles_2015-12-20,2015,,2015-12-20,Philadelphia Eagles,Arizona Cardinals,17,40,0.0,57.0,-110,0,0.02,0.55
+2015_Detroit_Lions_New_Orleans_Saints_2015-12-21,2015,,2015-12-21,New Orleans Saints,Detroit Lions,27,35,0.0,62.0,-110,0,0.02,0.55
+2015_San_Diego_Chargers_Oakland_Raiders_2015-12-24,2015,,2015-12-24,Oakland Raiders,San Diego Chargers,23,20,0.0,43.0,-110,1,0.02,0.55
+2015_Washington_Redskins_Philadelphia_Eagles_2015-12-26,2015,,2015-12-26,Philadelphia Eagles,Washington Redskins,24,38,0.0,62.0,-110,0,0.02,0.55
+2015_Carolina_Panthers_Atlanta_Falcons_2015-12-27,2015,,2015-12-27,Atlanta Falcons,Carolina Panthers,20,13,0.0,33.0,-110,1,0.02,0.55
+2015_Dallas_Cowboys_Buffalo_Bills_2015-12-27,2015,,2015-12-27,Buffalo Bills,Dallas Cowboys,16,6,0.0,22.0,-110,1,0.02,0.55
+2015_Indianapolis_Colts_Miami_Dolphins_2015-12-27,2015,,2015-12-27,Miami Dolphins,Indianapolis Colts,12,18,0.0,30.0,-110,0,0.02,0.55
+2015_Houston_Texans_Tennessee_Titans_2015-12-27,2015,,2015-12-27,Tennessee Titans,Houston Texans,6,34,0.0,40.0,-110,0,0.02,0.55
+2015_New_England_Patriots_New_York_Jets_2015-12-27,2015,,2015-12-27,New York Jets,New England Patriots,26,20,0.0,46.0,-110,1,0.02,0.55
+2015_Pittsburgh_Steelers_Baltimore_Ravens_2015-12-27,2015,,2015-12-27,Baltimore Ravens,Pittsburgh Steelers,20,17,0.0,37.0,-110,1,0.02,0.55
+2015_Chicago_Bears_Tampa_Bay_Buccaneers_2015-12-27,2015,,2015-12-27,Tampa Bay Buccaneers,Chicago Bears,21,26,0.0,47.0,-110,0,0.02,0.55
+2015_Cleveland_Browns_Kansas_City_Chiefs_2015-12-27,2015,,2015-12-27,Kansas City Chiefs,Cleveland Browns,17,13,0.0,30.0,-110,1,0.02,0.55
+2015_San_Francisco_49ers_Detroit_Lions_2015-12-27,2015,,2015-12-27,Detroit Lions,San Francisco 49ers,32,17,0.0,49.0,-110,1,0.02,0.55
+2015_Jacksonville_Jaguars_New_Orleans_Saints_2015-12-27,2015,,2015-12-27,New Orleans Saints,Jacksonville Jaguars,38,27,0.0,65.0,-110,1,0.02,0.55
+2015_Green_Bay_Packers_Arizona_Cardinals_2015-12-27,2015,,2015-12-27,Arizona Cardinals,Green Bay Packers,38,8,0.0,46.0,-110,1,0.02,0.55
+2015_St._Louis_Rams_Seattle_Seahawks_2015-12-27,2015,,2015-12-27,Seattle Seahawks,St. Louis Rams,17,23,0.0,40.0,-110,0,0.02,0.55
+2015_New_York_Giants_Minnesota_Vikings_2015-12-27,2015,,2015-12-27,Minnesota Vikings,New York Giants,49,17,0.0,66.0,-110,1,0.02,0.55
+2015_Cincinnati_Bengals_Denver_Broncos_2015-12-28,2015,,2015-12-28,Denver Broncos,Cincinnati Bengals,20,17,0.0,37.0,-110,1,0.02,0.55
+2015_New_Orleans_Saints_Atlanta_Falcons_2016-01-03,2015,,2016-01-03,Atlanta Falcons,New Orleans Saints,17,20,0.0,37.0,-110,0,0.02,0.55
+2015_New_York_Jets_Buffalo_Bills_2016-01-03,2015,,2016-01-03,Buffalo Bills,New York Jets,22,17,0.0,39.0,-110,1,0.02,0.55
+2015_Detroit_Lions_Chicago_Bears_2016-01-03,2015,,2016-01-03,Chicago Bears,Detroit Lions,20,24,0.0,44.0,-110,0,0.02,0.55
+2015_Baltimore_Ravens_Cincinnati_Bengals_2016-01-03,2015,,2016-01-03,Cincinnati Bengals,Baltimore Ravens,24,16,0.0,40.0,-110,1,0.02,0.55
+2015_Pittsburgh_Steelers_Cleveland_Browns_2016-01-03,2015,,2016-01-03,Cleveland Browns,Pittsburgh Steelers,12,28,0.0,40.0,-110,0,0.02,0.55
+2015_Tennessee_Titans_Indianapolis_Colts_2016-01-03,2015,,2016-01-03,Indianapolis Colts,Tennessee Titans,30,24,0.0,54.0,-110,1,0.02,0.55
+2015_Jacksonville_Jaguars_Houston_Texans_2016-01-03,2015,,2016-01-03,Houston Texans,Jacksonville Jaguars,30,6,0.0,36.0,-110,1,0.02,0.55
+2015_New_England_Patriots_Miami_Dolphins_2016-01-03,2015,,2016-01-03,Miami Dolphins,New England Patriots,20,10,0.0,30.0,-110,1,0.02,0.55
+2015_Washington_Redskins_Dallas_Cowboys_2016-01-03,2015,,2016-01-03,Dallas Cowboys,Washington Redskins,23,34,0.0,57.0,-110,0,0.02,0.55
+2015_Philadelphia_Eagles_New_York_Giants_2016-01-03,2015,,2016-01-03,New York Giants,Philadelphia Eagles,30,35,0.0,65.0,-110,0,0.02,0.55
+2015_Tampa_Bay_Buccaneers_Carolina_Panthers_2016-01-03,2015,,2016-01-03,Carolina Panthers,Tampa Bay Buccaneers,38,10,0.0,48.0,-110,1,0.02,0.55
+2015_Seattle_Seahawks_Arizona_Cardinals_2016-01-03,2015,,2016-01-03,Arizona Cardinals,Seattle Seahawks,6,36,0.0,42.0,-110,0,0.02,0.55
+2015_San_Diego_Chargers_Denver_Broncos_2016-01-03,2015,,2016-01-03,Denver Broncos,San Diego Chargers,27,20,0.0,47.0,-110,1,0.02,0.55
+2015_St._Louis_Rams_San_Francisco_49ers_2016-01-03,2015,,2016-01-03,San Francisco 49ers,St. Louis Rams,19,16,0.0,35.0,-110,1,0.02,0.55
+2015_Oakland_Raiders_Kansas_City_Chiefs_2016-01-03,2015,,2016-01-03,Kansas City Chiefs,Oakland Raiders,23,17,0.0,40.0,-110,1,0.02,0.55
+2015_Minnesota_Vikings_Green_Bay_Packers_2016-01-03,2015,,2016-01-03,Green Bay Packers,Minnesota Vikings,13,20,0.0,33.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_Houston_Texans_2016-01-09,2015,,2016-01-09,Houston Texans,Kansas City Chiefs,0,30,0.0,30.0,-110,0,0.02,0.55
+2015_Pittsburgh_Steelers_Cincinnati_Bengals_2016-01-09,2015,,2016-01-09,Cincinnati Bengals,Pittsburgh Steelers,16,18,0.0,34.0,-110,0,0.02,0.55
+2015_Seattle_Seahawks_Minnesota_Vikings_2016-01-10,2015,,2016-01-10,Minnesota Vikings,Seattle Seahawks,9,10,0.0,19.0,-110,0,0.02,0.55
+2015_Green_Bay_Packers_Washington_Redskins_2016-01-10,2015,,2016-01-10,Washington Redskins,Green Bay Packers,18,35,0.0,53.0,-110,0,0.02,0.55
+2015_Kansas_City_Chiefs_New_England_Patriots_2016-01-16,2015,,2016-01-16,New England Patriots,Kansas City Chiefs,27,20,0.0,47.0,-110,1,0.02,0.55
+2015_Green_Bay_Packers_Arizona_Cardinals_2016-01-16,2015,,2016-01-16,Arizona Cardinals,Green Bay Packers,26,20,0.0,46.0,-110,1,0.02,0.55
+2015_Seattle_Seahawks_Carolina_Panthers_2016-01-17,2015,,2016-01-17,Carolina Panthers,Seattle Seahawks,31,24,0.0,55.0,-110,1,0.02,0.55
+2015_Pittsburgh_Steelers_Denver_Broncos_2016-01-17,2015,,2016-01-17,Denver Broncos,Pittsburgh Steelers,23,16,0.0,39.0,-110,1,0.02,0.55
+2015_New_England_Patriots_Denver_Broncos_2016-01-24,2015,,2016-01-24,Denver Broncos,New England Patriots,20,18,0.0,38.0,-110,1,0.02,0.55
+2015_Arizona_Cardinals_Carolina_Panthers_2016-01-24,2015,,2016-01-24,Carolina Panthers,Arizona Cardinals,49,15,0.0,64.0,-110,1,0.02,0.55
+2015_Carolina_Panthers_Denver_Broncos_2016-02-07,2015,,2016-02-07,Denver Broncos,Carolina Panthers,24,10,0.0,34.0,-110,1,0.02,0.55

@@ -1,0 +1,1486 @@
+2025-06-17 17:51:50,182 - INFO - \U0001f680 Starting Enhanced Gold Standard MLB Betting System
+2025-06-17 17:51:50,182 - INFO - \U0001f4c5 Execution Date: 2025-06-17 17:51:50 MDT
+2025-06-17 17:51:50,183 - INFO - \u2705 ODDS_API API key loaded
+2025-06-17 17:51:50,183 - INFO - \u2705 CLAUDE API key loaded
+2025-06-17 17:51:50,183 - INFO - \u2705 OPENAI API key loaded
+2025-06-17 17:51:50,183 - INFO - \u2705 GROK API key loaded
+2025-06-17 17:51:50,185 - INFO - \U0001f3c6 ENHANCED Gold Standard MLB System initialized
+2025-06-17 17:51:50,185 - INFO -    \U0001f4b0 Bankroll: $500
+2025-06-17 17:51:50,185 - INFO -    \U0001f4b5 Base Unit: $5.0 (Max: 5 units)
+2025-06-17 17:51:50,185 - INFO -    \U0001f3af Confidence Threshold: 60%
+2025-06-17 17:51:50,185 - INFO -    \U0001f525 Enhanced Features: No limits, 5,776+ props, realistic Grok, full alerts
+2025-06-17 17:51:50,185 - INFO - \U0001f680 STARTING ENHANCED GOLD STANDARD PIPELINE
+2025-06-17 17:51:50,185 - INFO - \u23f0 Pipeline started at: 2025-06-17 17:51:50 MDT
+2025-06-17 17:51:50,380 - INFO - \U0001f3af Enhanced Unified Odds Fetcher initialized (targeting 5,776+ props)
+2025-06-17 17:51:50,578 - INFO - \U0001f916 Enhanced Gold Standard AI Analyzer initialized
+2025-06-17 17:51:50,578 - INFO - Initializing SmartAlertManager...
+2025-06-17 17:51:50,578 - INFO - \u2705 Slack transport configured.
+2025-06-17 17:51:50,578 - INFO - \u2705 Email transport configured.
+2025-06-17 17:51:50,578 - INFO - \U0001f4ca Fetching enhanced comprehensive market data...
+2025-06-17 17:51:50,578 - INFO - \U0001f6a8 ALERT [low]: Enhanced market data fetch initiated - targeting 5,776+ props
+2025-06-17 17:51:50,847 - INFO - \U0001f4ca Found 26 MLB events
+2025-06-17 17:51:51,020 - WARNING - \u26a0\ufe0f Props market 'team_total_runs' not available (status: 422)
+2025-06-17 17:51:51,022 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for team_total_runs
+2025-06-17 17:51:51,069 - WARNING - \u26a0\ufe0f Props market 'pitcher_strikeouts' not available (status: 422)
+2025-06-17 17:51:51,071 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for pitcher_strikeouts
+2025-06-17 17:51:51,071 - WARNING - \u26a0\ufe0f Props market 'player_home_runs' not available (status: 422)
+2025-06-17 17:51:51,073 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_home_runs
+2025-06-17 17:51:51,076 - WARNING - \u26a0\ufe0f Props market 'player_hits' not available (status: 422)
+2025-06-17 17:51:51,077 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_hits
+2025-06-17 17:51:51,085 - WARNING - \u26a0\ufe0f Props market 'pitcher_hits_allowed' not available (status: 422)
+2025-06-17 17:51:51,086 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for pitcher_hits_allowed
+2025-06-17 17:51:51,087 - WARNING - \u26a0\ufe0f Props market 'player_runs_scored' not available (status: 422)
+2025-06-17 17:51:51,089 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_runs_scored
+2025-06-17 17:51:51,093 - WARNING - \u26a0\ufe0f Props market 'player_rbis' not available (status: 422)
+2025-06-17 17:51:51,094 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_rbis
+2025-06-17 17:51:51,100 - WARNING - \u26a0\ufe0f Props market 'pitcher_walks' not available (status: 422)
+2025-06-17 17:51:51,101 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for pitcher_walks
+2025-06-17 17:51:51,104 - WARNING - \u26a0\ufe0f Props market 'player_stolen_bases' not available (status: 422)
+2025-06-17 17:51:51,105 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_stolen_bases
+2025-06-17 17:51:51,142 - WARNING - \u26a0\ufe0f Props market 'player_doubles' not available (status: 422)
+2025-06-17 17:51:51,144 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_doubles
+2025-06-17 17:51:51,168 - WARNING - \u26a0\ufe0f Props market 'pitcher_earned_runs' not available (status: 422)
+2025-06-17 17:51:51,169 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for pitcher_earned_runs
+2025-06-17 17:51:51,169 - WARNING - \u26a0\ufe0f Props market 'team_hits' not available (status: 422)
+2025-06-17 17:51:51,170 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for team_hits
+2025-06-17 17:51:51,174 - WARNING - \u26a0\ufe0f Props market 'team_errors' not available (status: 422)
+2025-06-17 17:51:51,175 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for team_errors
+2025-06-17 17:51:51,182 - WARNING - \u26a0\ufe0f Props market 'player_triples' not available (status: 422)
+2025-06-17 17:51:51,184 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_triples
+2025-06-17 17:51:51,184 - WARNING - \u26a0\ufe0f Props market 'player_singles' not available (status: 422)
+2025-06-17 17:51:51,185 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_singles
+2025-06-17 17:51:51,193 - WARNING - \u26a0\ufe0f Props market 'player_total_bases' not available (status: 422)
+2025-06-17 17:51:51,194 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for player_total_bases
+2025-06-17 17:51:51,203 - WARNING - \u26a0\ufe0f Props market 'first_inning_result' not available (status: 422)
+2025-06-17 17:51:51,204 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for first_inning_result
+2025-06-17 17:51:51,234 - WARNING - \u26a0\ufe0f Props market 'team_left_on_base' not available (status: 422)
+2025-06-17 17:51:51,236 - INFO - \U0001f4ca Generated 780 enhanced mock prop opportunities for team_left_on_base
+2025-06-17 17:51:51,236 - INFO - \U0001f4ca Enhanced prop opportunities processed: 14040
+2025-06-17 17:51:51,236 - INFO - \U0001f4ca ENHANCED MARKET SUMMARY:
+2025-06-17 17:51:51,236 - INFO -    • EVENTS Opportunities: 26
+2025-06-17 17:51:51,236 - INFO -    • H2H Opportunities: 52
+2025-06-17 17:51:51,236 - INFO -    • SPREADS Opportunities: 356
+2025-06-17 17:51:51,236 - INFO -    • TOTALS Opportunities: 426
+2025-06-17 17:51:51,236 - INFO -    • PROPS Opportunities: 14040
+2025-06-17 17:51:51,236 - INFO -    • TOTAL OPPORTUNITIES: 14874
+2025-06-17 17:51:51,236 - INFO - \U0001f3af TARGET ACHIEVED: 14040 prop opportunities (target: 5,776+)
+2025-06-17 17:51:51,236 - INFO - \U0001f6a8 ALERT [high]: TARGET ACHIEVED: 14040 prop opportunities found (target: 5,776+)
+2025-06-17 17:51:51,236 - INFO - \U0001f916 Analyzing ALL 14874 opportunities with enhanced AI...
+2025-06-17 17:51:51,236 - INFO - \U0001f916 Starting enhanced concurrent AI analysis of 14874 opportunities
+2025-06-17 17:51:51,236 - INFO - \U0001f511 Available API keys: ['odds_api', 'claude', 'openai', 'grok']
+2025-06-17 17:51:51,236 - INFO - \U0001f504 Processing batch 1/595 (25 opportunities)
+2025-06-17 17:51:51,545 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:51,575 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:51,586 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:51,679 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:51,687 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:51,753 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:51,842 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:51,854 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:51,890 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:52,068 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:52,141 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:52,219 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:52,278 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:52,513 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:52,560 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:52,682 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:53,152 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:54,876 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:54,934 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:55,055 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:55,097 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:55,175 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:55,181 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:55,287 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:55,352 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:55,449 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:55,632 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:55,860 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:56,007 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:56,103 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:56,109 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:56,148 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:51:56,472 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:56,556 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:51:56,657 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:03,411 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:04,113 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:05,081 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:05,163 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:05,893 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:06,207 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:06,334 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:06,468 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:06,505 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:06,560 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:07,808 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:08,001 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:08,996 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:09,225 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:09,705 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:17,310 - INFO - \u2705 Batch 1 completed: 6 recommendations (24.0% success)
+2025-06-17 17:52:19,323 - INFO - \U0001f504 Processing batch 2/595 (25 opportunities)
+2025-06-17 17:52:19,883 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:19,945 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:19,954 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:19,967 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:20,052 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:20,257 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:20,285 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:20,318 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:20,357 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:20,391 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:22,498 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,528 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,585 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,593 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,624 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,669 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,682 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,704 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,758 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,788 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:22,806 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:22,811 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:22,871 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:22,916 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:22,937 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,012 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,048 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,139 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,150 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,228 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,236 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,309 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,374 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,387 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,502 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,628 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,628 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,709 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,715 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,736 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,736 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,805 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,828 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,853 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,892 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,927 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:23,933 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:23,958 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:23,997 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:24,017 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:24,074 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,129 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,130 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:24,154 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,161 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:24,168 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:24,200 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:24,204 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:24,247 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,427 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,435 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,452 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:24,454 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:24,614 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:24,746 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:32,933 - INFO - \u2705 Batch 2 completed: 4 recommendations (16.0% success)
+2025-06-17 17:52:34,943 - INFO - \U0001f504 Processing batch 3/595 (25 opportunities)
+2025-06-17 17:52:35,030 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,057 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,062 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,071 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,075 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,078 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,090 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,103 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,181 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,206 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,218 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,248 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,278 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,298 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,310 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,355 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,355 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,371 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,386 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,393 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,395 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,395 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,449 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,473 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,476 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,501 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,550 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,608 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,618 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,641 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,664 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,669 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,694 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,702 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,708 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,719 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,752 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,776 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,799 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,799 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,814 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,874 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,876 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,907 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:35,951 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,953 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:35,979 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:35,984 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:36,048 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,056 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,089 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,092 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:36,094 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,105 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,115 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,133 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,150 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,154 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:36,162 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,203 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:36,244 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,247 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:36,259 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,307 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,312 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,394 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,472 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,473 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,473 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,473 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,525 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,549 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:36,571 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:36,698 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:37,109 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:37,109 - INFO - \u2705 Batch 3 completed: 0 recommendations (0.0% success)
+2025-06-17 17:52:39,124 - INFO - \U0001f504 Processing batch 4/595 (25 opportunities)
+2025-06-17 17:52:39,233 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,234 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,243 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,252 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,427 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,450 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,452 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,466 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,481 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,530 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,557 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,569 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,574 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,628 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,643 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,734 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,742 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,764 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,766 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,768 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,778 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,813 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,816 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:39,845 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,860 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:39,864 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:39,865 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,132 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,149 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,157 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,191 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,233 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,284 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,342 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,381 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,443 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,488 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,488 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,498 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,556 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,580 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,609 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,633 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,677 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,717 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,730 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,784 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,813 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,849 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,853 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,883 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,888 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,919 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:40,965 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:40,992 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:40,999 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:41,040 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:41,081 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:41,089 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:41,145 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:41,172 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:41,193 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:41,193 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:41,211 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:41,213 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:41,284 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:41,312 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:41,329 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:41,440 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:41,475 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:47,863 - INFO - \u2705 Batch 4 completed: 1 recommendations (4.0% success)
+2025-06-17 17:52:49,865 - INFO - \U0001f504 Processing batch 5/595 (25 opportunities)
+2025-06-17 17:52:49,961 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:49,966 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:49,972 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:49,973 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:49,979 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:49,979 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:49,980 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,002 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,002 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,008 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,170 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,177 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,190 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,192 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,205 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,223 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,266 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,275 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,277 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,278 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,286 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,317 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,318 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,319 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,334 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,336 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,351 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,375 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,395 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,415 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,437 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,441 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,445 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,464 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,533 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,570 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,601 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,629 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,706 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,711 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,778 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,789 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,797 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,802 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,818 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,862 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,923 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:50,929 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,929 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,929 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,935 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:50,943 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:50,965 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,025 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,025 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,074 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:51,097 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:51,098 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:51,114 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:51,185 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,198 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:51,213 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:51,250 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,252 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,252 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:51,260 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,326 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,342 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,349 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:51,351 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,358 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:51,393 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:51,421 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:51,441 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:56,090 - INFO - \u2705 Batch 5 completed: 0 recommendations (0.0% success)
+2025-06-17 17:52:58,093 - INFO - \U0001f504 Processing batch 6/595 (25 opportunities)
+2025-06-17 17:52:58,332 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:58,552 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:58,553 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:58,719 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:58,721 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:58,741 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:58,856 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:58,856 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:58,877 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:58,943 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:58,978 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:58,997 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,007 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,010 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,032 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,053 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,065 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,155 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,156 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,163 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,257 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,272 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,321 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,328 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,357 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:59,362 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:59,442 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,472 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,552 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:59,552 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:52:59,768 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,837 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:52:59,928 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:52:59,937 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:00,020 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:00,041 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:00,242 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:00,268 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:00,295 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:00,377 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:00,438 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:00,526 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:00,556 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:00,617 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:00,706 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:00,720 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:00,871 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:00,914 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:00,969 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:00,993 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:01,044 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:01,122 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:01,157 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:01,190 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:01,262 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:01,294 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:01,362 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:01,385 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:01,487 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:01,593 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:01,598 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:01,653 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:01,664 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:01,700 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:01,713 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:01,864 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:01,958 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:03,037 - INFO - \u2705 Batch 6 completed: 3 recommendations (12.0% success)
+2025-06-17 17:53:05,052 - INFO - \U0001f504 Processing batch 7/595 (25 opportunities)
+2025-06-17 17:53:05,156 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,164 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,165 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,167 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,168 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,170 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,170 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,172 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,183 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,254 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,364 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,375 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,405 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,406 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,406 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,421 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,430 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,434 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,453 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,461 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,469 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,471 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,520 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,558 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,561 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,579 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,580 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,667 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,683 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,707 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,729 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,735 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,812 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,812 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,816 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,823 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,825 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,832 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,887 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,905 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,910 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:05,938 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:05,942 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,981 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:05,986 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:06,015 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:06,018 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,036 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,052 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,120 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,144 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,148 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,168 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,171 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,171 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:06,178 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,268 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:06,277 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:06,288 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:06,300 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,317 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,361 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,368 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,373 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,424 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,438 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,452 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,453 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,486 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,486 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,522 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,582 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:06,611 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,625 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,863 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:06,863 - INFO - \u2705 Batch 7 completed: 0 recommendations (0.0% success)
+2025-06-17 17:53:08,871 - INFO - \U0001f504 Processing batch 8/595 (25 opportunities)
+2025-06-17 17:53:08,959 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,961 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,964 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,977 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,980 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,992 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,992 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:08,995 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,000 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,170 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,201 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,204 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,206 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,224 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,262 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,264 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,265 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,275 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,308 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,340 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,358 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,369 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,373 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,483 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,524 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,557 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,588 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,610 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,641 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,646 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,674 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,714 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,719 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,720 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,769 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:09,792 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,840 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,878 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,957 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,961 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:09,971 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:09,974 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,008 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,037 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,072 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,078 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,123 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,141 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,187 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,204 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,235 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,253 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,258 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,290 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,297 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,299 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,332 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,342 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,352 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,390 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:10,401 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,452 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,454 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,461 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,469 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,532 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,551 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,628 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,632 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,681 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,685 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,700 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:10,707 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:10,856 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:11,102 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:11,103 - INFO - \u2705 Batch 8 completed: 0 recommendations (0.0% success)
+2025-06-17 17:53:13,111 - INFO - \U0001f504 Processing batch 9/595 (25 opportunities)
+2025-06-17 17:53:13,224 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:13,225 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:13,228 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:13,234 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:13,500 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:13,532 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:13,537 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:13,641 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:13,657 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:13,718 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:13,794 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:13,848 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:13,867 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:13,973 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:13,978 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,005 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,016 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,021 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,070 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,106 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,112 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,166 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,176 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,182 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,201 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,233 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,280 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,284 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,327 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,330 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,418 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,440 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,450 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,455 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,471 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,504 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,511 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,539 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,561 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,629 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,631 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,631 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,659 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,708 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,719 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,736 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,746 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,839 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,840 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,842 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,861 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,874 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:14,937 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,981 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:14,996 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:14,999 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:15,034 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:15,117 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:15,121 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:15,128 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:15,153 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:15,159 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:15,197 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:15,201 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:15,223 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:15,245 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:15,281 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:15,325 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:15,423 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:15,548 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:17,733 - INFO - \u2705 Batch 9 completed: 1 recommendations (4.0% success)
+2025-06-17 17:53:19,748 - INFO - \U0001f504 Processing batch 10/595 (25 opportunities)
+2025-06-17 17:53:19,857 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,862 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,864 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,864 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,865 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,865 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,872 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,875 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,876 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:19,889 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,072 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,080 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,080 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,105 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,117 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,122 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,130 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,146 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,151 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,154 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,182 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,243 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,250 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,287 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,346 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,351 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,368 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,381 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,442 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,466 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,467 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,467 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,547 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,551 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,552 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,590 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,604 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,618 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,699 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,700 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,704 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,709 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,720 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,734 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,749 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,763 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,769 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,810 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,860 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,894 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:20,898 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,916 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,922 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:20,944 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:20,945 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,002 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:21,008 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,022 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,036 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:21,042 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,051 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:21,106 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,122 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,190 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,213 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,217 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,223 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,238 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,292 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,318 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,318 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:21,324 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,344 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,368 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,970 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:21,971 - INFO - \u2705 Batch 10 completed: 0 recommendations (0.0% success)
+2025-06-17 17:53:23,975 - INFO - \U0001f504 Processing batch 11/595 (25 opportunities)
+2025-06-17 17:53:24,091 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,096 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,097 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,108 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,112 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,316 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,319 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,362 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,368 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,404 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,406 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,436 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,444 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,507 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,522 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,528 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,575 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,606 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,608 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,621 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,628 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,662 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,667 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,691 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,705 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,817 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,835 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,887 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,887 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:24,934 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:24,936 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:24,986 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,015 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,017 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,081 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,117 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,178 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,182 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,202 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,253 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,279 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,292 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,358 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,369 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,373 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,426 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,462 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,496 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,507 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,512 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,520 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,540 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,561 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,578 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,594 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,662 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,675 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,744 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,787 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,791 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,795 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:25,859 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:25,885 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:25,922 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:26,013 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:26,018 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:26,079 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:26,154 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:26,218 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:26,240 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:36,182 - INFO - \u2705 Batch 11 completed: 1 recommendations (4.0% success)
+2025-06-17 17:53:38,187 - INFO - \U0001f504 Processing batch 12/595 (25 opportunities)
+2025-06-17 17:53:38,298 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:38,313 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:38,318 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:38,495 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,545 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,551 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,553 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,576 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,608 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:38,647 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,662 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,678 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,693 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,743 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,744 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,756 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,802 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,811 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,848 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:38,849 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:38,849 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,892 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,937 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:38,966 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,051 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,054 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,083 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,123 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,138 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,173 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,220 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,250 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,322 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,360 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,361 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,373 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,418 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,481 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,497 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,559 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,647 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,650 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,696 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,710 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:39,741 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,760 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,801 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:39,831 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,878 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:39,998 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,057 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,103 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:40,104 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,107 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,179 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,182 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:40,196 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:40,353 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,398 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,416 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,426 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,461 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:40,476 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,502 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,511 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:40,552 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,709 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:40,793 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:40,814 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:42,033 - INFO - \u2705 Batch 12 completed: 0 recommendations (0.0% success)
+2025-06-17 17:53:44,046 - INFO - \U0001f504 Processing batch 13/595 (25 opportunities)
+2025-06-17 17:53:44,136 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,147 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,152 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,152 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,157 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,157 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,159 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,167 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,172 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,200 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,371 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,391 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,402 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,415 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,416 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,421 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,421 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,450 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,450 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,458 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,459 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,471 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,505 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,514 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,548 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,556 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,577 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,587 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,628 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,651 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,657 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,660 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,677 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,690 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,693 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,726 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,727 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,745 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,753 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,771 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,792 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,820 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:44,820 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,834 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,840 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,865 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,865 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,887 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,920 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,943 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,955 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:44,964 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:44,989 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,015 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,049 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,110 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,110 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,118 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,118 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,121 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,185 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,188 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,197 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,217 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:45,217 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:45,282 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,285 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,346 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,354 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,361 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,391 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,394 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,444 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,506 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:45,724 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:45,725 - INFO - \u2705 Batch 13 completed: 0 recommendations (0.0% success)
+2025-06-17 17:53:47,734 - INFO - \U0001f504 Processing batch 14/595 (25 opportunities)
+2025-06-17 17:53:47,830 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,830 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,831 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,842 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,842 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,844 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,849 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,850 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,853 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,853 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:47,931 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,073 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,074 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,104 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,105 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,107 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,107 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,109 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,120 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,121 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,149 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,180 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,196 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,199 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,201 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,210 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,224 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,242 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,273 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,288 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,306 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,307 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,364 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,374 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,399 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,437 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,480 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,493 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,498 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,535 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,581 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,594 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,612 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,628 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,629 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,630 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,639 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,703 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,722 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,750 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,770 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,771 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,797 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,801 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,802 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,828 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,858 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,859 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,872 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,876 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,903 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:48,917 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,938 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:48,949 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:48,998 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:49,031 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:49,035 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:49,073 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:49,088 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:49,107 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:49,122 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:49,199 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:49,199 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:49,199 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:49,627 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:49,628 - INFO - \u2705 Batch 14 completed: 0 recommendations (0.0% success)
+2025-06-17 17:53:51,628 - INFO - \U0001f504 Processing batch 15/595 (25 opportunities)
+2025-06-17 17:53:51,777 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:51,790 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:51,822 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:51,826 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:51,955 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:51,981 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:51,986 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,066 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,079 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,153 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,163 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,233 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,240 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,242 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,257 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,274 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,291 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,300 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,306 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,348 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,364 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,379 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,398 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,458 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:52,497 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:52,548 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,611 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,668 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:52,775 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:52,865 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:52,865 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:53,021 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:53,022 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:53,130 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:53,130 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:53,237 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:53,298 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:53,439 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:53,457 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:53,519 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:53,553 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:53,671 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:53,823 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:53,824 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:53,854 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:53,914 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:53,914 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:54,031 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:54,191 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:54,323 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:54,370 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:54,407 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:54,485 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:54,515 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:54,560 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:54,606 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:54,694 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:54,760 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:54,798 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:54,862 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:54,863 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:55,005 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:55,012 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:55,086 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:53:55,113 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:53:55,256 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:53:55,381 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:03,626 - INFO - \u2705 Batch 15 completed: 1 recommendations (4.0% success)
+2025-06-17 17:54:05,632 - INFO - \U0001f504 Processing batch 16/595 (25 opportunities)
+2025-06-17 17:54:05,724 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,748 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,749 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,750 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,756 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,757 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,761 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,761 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,767 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,782 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:05,970 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:05,976 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:05,978 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:05,998 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:05,998 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,053 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,053 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,064 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,080 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,081 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,095 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,095 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,111 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,112 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,128 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,129 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,230 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,236 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,238 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,251 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,255 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,329 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,345 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,359 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,360 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,360 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,375 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,375 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,391 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,392 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,443 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,471 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,487 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,533 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,534 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,534 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,534 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,593 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,615 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,653 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,654 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,682 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,696 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,698 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,715 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,734 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,742 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,784 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,814 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,837 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,837 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,838 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,838 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,844 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:06,865 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,930 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,931 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,954 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:06,971 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,980 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:06,991 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:07,067 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:07,081 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:07,170 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:07,177 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:07,177 - INFO - \u2705 Batch 16 completed: 0 recommendations (0.0% success)
+2025-06-17 17:54:09,184 - INFO - \U0001f504 Processing batch 17/595 (25 opportunities)
+2025-06-17 17:54:09,271 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,297 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,299 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,300 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,301 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,303 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,304 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,308 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,308 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,323 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,496 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,511 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,532 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,533 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,536 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,540 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,547 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,569 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,587 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,615 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,631 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,635 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,646 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,659 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,661 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,681 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,683 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,684 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,757 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,764 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,765 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,771 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,798 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,815 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,870 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,875 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:09,910 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:09,945 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,951 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:09,983 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,015 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,037 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,053 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,062 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,074 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,083 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,090 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,092 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,095 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,107 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,126 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,145 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,148 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,172 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,179 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,183 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,202 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,207 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,208 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:10,267 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,355 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,402 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,416 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,418 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,430 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,436 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,463 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,472 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,477 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,499 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:10,529 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,623 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,715 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:10,862 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:11,338 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:11,338 - INFO - \u2705 Batch 17 completed: 0 recommendations (0.0% success)
+2025-06-17 17:54:13,353 - INFO - \U0001f504 Processing batch 18/595 (25 opportunities)
+2025-06-17 17:54:13,480 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:13,648 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:13,658 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,744 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,750 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,830 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,854 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,928 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,952 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:13,975 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:13,989 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,015 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,020 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,022 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:14,034 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,075 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,088 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,117 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:14,118 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,118 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:14,135 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,152 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,233 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:14,248 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:14,312 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,439 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,499 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:14,602 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:14,608 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:14,701 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:14,756 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,897 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:14,903 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:14,991 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:15,002 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:15,093 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:15,210 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:15,301 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:15,344 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:15,391 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:15,538 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:15,752 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:15,840 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,054 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,130 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:16,234 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,338 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,449 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,566 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:16,590 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,670 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,673 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,676 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,686 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,763 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,785 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:16,810 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:16,830 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:16,868 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,922 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,927 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:16,939 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:16,989 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:17,010 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:17,024 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:17,155 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:17,161 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:17,332 - INFO - \u2705 Batch 18 completed: 0 recommendations (0.0% success)
+2025-06-17 17:54:19,346 - INFO - \U0001f504 Processing batch 19/595 (25 opportunities)
+2025-06-17 17:54:19,443 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,447 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,455 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,456 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,458 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,458 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,458 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,471 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,471 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,488 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,662 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,664 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:19,677 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,686 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:19,706 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,707 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,724 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,731 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,737 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:19,737 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,749 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,759 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,814 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:19,837 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,840 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,846 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:19,960 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:19,977 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,005 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,011 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,016 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,054 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,065 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,082 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,088 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,094 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,102 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,119 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,133 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,157 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,169 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,197 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,200 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,204 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,307 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,314 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,327 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,332 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,354 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,383 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,418 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,427 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,462 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,464 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,470 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,473 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,477 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,509 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,560 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,562 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,563 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,571 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,589 - ERROR - \u274c OpenAI API error: 429
+2025-06-17 17:54:20,590 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,686 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,714 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,727 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,758 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,805 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,831 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,857 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,865 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:20,873 - WARNING - \u26a0\ufe0f All Grok API endpoints failed, using enhanced fallback
+2025-06-17 17:54:20,939 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:21,043 - ERROR - \u274c All Claude API endpoints failed
+2025-06-17 17:54:21,044 - INFO - \u2705 Batch 19 completed: 0 recommendations (0.0% success)
+Traceback (most recent call last):
+  File "C:\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_system.py", line 1676, in main
+    results = await system.run_gold_standard_pipeline()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_system.py", line 1449, in run_gold_standard_pipeline
+    recommendations = await ai_analyzer.analyze_opportunities_concurrently(all_opportunities)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_system.py", line 790, in analyze_opportunities_concurrently
+    await asyncio.sleep(2)  # Increased delay
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\tasks.py", line 718, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\himse\mlb_betting_system\gold_standard_mlb_system.py", line 1703, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+^C

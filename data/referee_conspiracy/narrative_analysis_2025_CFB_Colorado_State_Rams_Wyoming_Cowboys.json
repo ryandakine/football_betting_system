@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_Colorado_State_Rams_Wyoming_Cowboys",
+  "teams": "Colorado State Rams @ Wyoming Cowboys",
+  "narrative_signals": [
+    {
+      "type": "SHARP_VS_PUBLIC",
+      "strength": 0.475,
+      "source": "betting_data",
+      "description": "Sharp money on Colorado State Rams"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FOLLOW_SHARP",
+    "confidence": 0.475,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "SHARP_VS_PUBLIC"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to follow_sharp",
+    "pick": "UNDER 46.5 (sharp lean)"
+  },
+  "conspiracy_probability": 0.40375,
+  "analysis_timestamp": "2025-10-25T17:18:34.334969"
+}

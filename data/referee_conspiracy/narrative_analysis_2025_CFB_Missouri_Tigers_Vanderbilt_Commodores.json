@@ -1,0 +1,24 @@
+{
+  "game_id": "2025_CFB_Missouri_Tigers_Vanderbilt_Commodores",
+  "teams": "Missouri Tigers @ Vanderbilt Commodores",
+  "narrative_signals": [
+    {
+      "type": "MEDIA_DARLING",
+      "strength": 1.0,
+      "source": "youtube+reddit",
+      "description": "Media over-hyping - Reddit storylines: Look-Ahead Spot, Coaching Hot Seat"
+    }
+  ],
+  "betting_recommendation": {
+    "recommendation": "FADE_PUBLIC",
+    "confidence": 1.0,
+    "signals_detected": 1,
+    "dominant_narratives": [
+      "MEDIA_DARLING"
+    ],
+    "reasoning": "Detected 1 narrative signals pointing to fade_public",
+    "pick": "FADE PUBLIC (likely UNDER 29.5 or DOG +2.5)"
+  },
+  "conspiracy_probability": 1.0,
+  "analysis_timestamp": "2025-10-25T17:18:10.117464"
+}

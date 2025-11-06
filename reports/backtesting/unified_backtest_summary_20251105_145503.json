@@ -1,0 +1,61 @@
+{
+  "generated_at": "20251105_145503",
+  "schema_version": "2.0",
+  "seasons": {
+    "start": 2020,
+    "end": 2022
+  },
+  "metrics": {
+    "schema_version": "2.0",
+    "games": 800,
+    "markets": {
+      "spread": {
+        "bets": 800,
+        "wins": 379,
+        "losses": 421,
+        "pushes": 0,
+        "win_rate": 0.47375,
+        "roi": -0.030851851851851794,
+        "total_profit": -0.2498999999999995,
+        "total_staked": 8.1
+      }
+    },
+    "by_season": {
+      "spread": [
+        {
+          "season": 2020,
+          "bets": 256,
+          "wins": 116,
+          "win_rate": 0.453125,
+          "profit": -0.12149999999999983,
+          "roi": -0.044999999999999936
+        },
+        {
+          "season": 2021,
+          "bets": 272,
+          "wins": 126,
+          "win_rate": 0.4632352941176471,
+          "profit": -0.17879999999999985,
+          "roi": -0.06622222222222217
+        },
+        {
+          "season": 2022,
+          "bets": 272,
+          "wins": 137,
+          "win_rate": 0.5036764705882353,
+          "profit": 0.050400000000000056,
+          "roi": 0.018666666666666686
+        }
+      ]
+    },
+    "risk_metrics": {
+      "spread": {
+        "sharpe": -0.049023639280948036,
+        "max_drawdown": 0.6533726812816204,
+        "calmar": -0.13238001918436945,
+        "annual_return": -0.08649348808260382
+      }
+    }
+  },
+  "referee_analysis": {}
+}

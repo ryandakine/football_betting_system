@@ -1,0 +1,59 @@
+{
+  "gguf_ensemble": {
+    "models_dir": "./models/gguf/",
+    "max_concurrent_models": 3,
+    "rotation_strategy": "performance_weighted",
+    "models": [
+      {
+        "name": "mistral_7b_instruct_q4",
+        "filename": "mistral-7b-instruct-v0.2.Q4_K_M.gguf",
+        "specialty": "General instruction following and reasoning",
+        "performance_weight": 4.2,
+        "size_gb": 4.1,
+        "max_context": 4096,
+        "temperature": 0.3,
+        "top_p": 0.9
+      },
+      {
+        "name": "codellama_7b_instruct_q4",
+        "filename": "codellama-7b-instruct.Q4_K_M.gguf",
+        "specialty": "Analytical reasoning and structured output",
+        "performance_weight": 4.0,
+        "size_gb": 3.8,
+        "max_context": 4096,
+        "temperature": 0.3,
+        "top_p": 0.9
+      },
+      {
+        "name": "openchat_7b_q4",
+        "filename": "openchat-3.5-0106.Q4_K_M.gguf",
+        "specialty": "Conversational analysis and nuanced reasoning",
+        "performance_weight": 4.1,
+        "size_gb": 3.9,
+        "max_context": 4096,
+        "temperature": 0.3,
+        "top_p": 0.9
+      },
+      {
+        "name": "neural_chat_7b_q4",
+        "filename": "neural-chat-7b-v3-3.Q4_K_M.gguf",
+        "specialty": "Sports analysis and betting insights",
+        "performance_weight": 3.9,
+        "size_gb": 3.9,
+        "max_context": 4096,
+        "temperature": 0.3,
+        "top_p": 0.9
+      },
+      {
+        "name": "dolphin_mistral_7b_q4",
+        "filename": "dolphin-2.6-mistral-7b.Q4_K_M.gguf",
+        "specialty": "Uncensored analysis and contrarian views",
+        "performance_weight": 4.0,
+        "size_gb": 4.0,
+        "max_context": 4096,
+        "temperature": 0.3,
+        "top_p": 0.9
+      }
+    ]
+  }
+}

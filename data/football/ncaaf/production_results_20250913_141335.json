@@ -1,0 +1,85 @@
+{
+  "system_info": {
+    "run_id": "20250913_141316",
+    "bankroll": 1000.0,
+    "max_exposure": 100.0,
+    "sport_type": "ncaaf",
+    "test_mode": false,
+    "fake_money": true,
+    "mode": "FAKE MONEY TESTING"
+  },
+  "odds_collection": {
+    "games_found": 65,
+    "h2h_opportunities": 213,
+    "spread_opportunities": 311,
+    "total_opportunities": 311,
+    "prop_opportunities": 0,
+    "sport_type": "ncaaf"
+  },
+  "ai_analysis": {
+    "games_analyzed": 65,
+    "ai_recommendations": 5,
+    "confidence_scores": {},
+    "sport_type": "ncaaf"
+  },
+  "recommendations": {
+    "total_recommendations": 4,
+    "by_market_type": {
+      "moneyline": 0,
+      "spreads": 4,
+      "totals": 0,
+      "props": 0
+    },
+    "total_expected_value": 192.51747688212853,
+    "sport_type": "ncaaf"
+  },
+  "final_portfolio": {
+    "bets_selected": 4,
+    "total_exposure": 0.0,
+    "portfolio_expected_value": 192.51747688212853,
+    "sport_type": "ncaaf",
+    "fake_money_mode": true,
+    "performance_metrics": {
+      "predictions_made": 0,
+      "predictions_correct": 0,
+      "total_edge_analyzed": 4,
+      "avg_edge_found": 48.12936922053213,
+      "games_analyzed": 0,
+      "recommendations_generated": 4,
+      "accuracy_by_market": {
+        "moneyline": 0,
+        "spreads": 4,
+        "totals": 0,
+        "props": 0
+      },
+      "edge_distribution": [
+        50.497093023255815,
+        48.00601604278075,
+        47.00718390804598,
+        47.00718390804598
+      ],
+      "confidence_distribution": []
+    }
+  },
+  "performance_metrics": {
+    "predictions_made": 0,
+    "predictions_correct": 0,
+    "total_edge_analyzed": 4,
+    "avg_edge_found": 48.12936922053213,
+    "games_analyzed": 0,
+    "recommendations_generated": 4,
+    "accuracy_by_market": {
+      "moneyline": 0,
+      "spreads": 4,
+      "totals": 0,
+      "props": 0
+    },
+    "edge_distribution": [
+      50.497093023255815,
+      48.00601604278075,
+      47.00718390804598,
+      47.00718390804598
+    ],
+    "confidence_distribution": []
+  }
+}

@@ -1,0 +1,8 @@
+# Large data files
+*.gguf
+data/backtesting/*.parquet
+data/backtesting/*.csv
+data/football/historical/*.json
+*.db
+lambda_package/
+nfl_lambda.zip

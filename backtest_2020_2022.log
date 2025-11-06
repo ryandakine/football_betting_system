@@ -1,0 +1,115 @@
+nohup: ignoring input
+INFO:__main__:🎯 Enhanced Unified NFL Backtest
+INFO:__main__:   Seasons: 2020-2022
+INFO:__main__:   Market: spread
+INFO:__main__:   Kelly Fraction: 0.25
+INFO:__main__:   Max Stake: 3.0%
+INFO:__main__:======================================================================
+INFO:__main__:Collecting historical NFL data (2020-2022)
+INFO:__main__:Historical data saved to data/football/historical/nfl_2020_2022_games.json
+INFO:__main__:Loaded 800 games across [2020, 2021, 2022] seasons
+INFO:unified_betting_intelligence:Initialized NarrativeIntegratedAICouncil v1.2.0
+INFO:__main__:🚀 Running predictions for 800 games in parallel...
+INFO:__main__:   Progress: 0/800
+INFO:__main__:   Progress: 100/800
+INFO:__main__:   Progress: 200/800
+INFO:__main__:   Progress: 300/800
+INFO:__main__:   Progress: 400/800
+INFO:__main__:   Progress: 500/800
+INFO:__main__:   Progress: 600/800
+INFO:__main__:   Progress: 700/800
+INFO:__main__:✅ Generated 800 predictions in 0.1s (7584.2 games/sec)
+/home/ryan/code/football_betting_system/unified_end_to_end_backtest_enhanced.py:642: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+INFO:__main__:📊 Summary saved to reports/backtesting/unified_backtest_summary_20251105_145503.json
+INFO:__main__:💾 Graded predictions (Parquet) saved to data/backtesting/graded_20251105_145503.parquet
+INFO:__main__:📄 Graded predictions (CSV) saved to data/backtesting/graded_20251105_145503.csv
+INFO:__main__:📝 Detailed predictions saved to reports/backtesting/unified_backtest_predictions_20251105_145503.json
+
+📅 Fetching 2020 season...
+   Week 1: 16 games
+   Week 2: 16 games
+   Week 3: 16 games
+   Week 4: 15 games
+   Week 5: 14 games
+   Week 6: 14 games
+   Week 7: 14 games
+   Week 8: 14 games
+   Week 9: 14 games
+   Week 10: 14 games
+   Week 11: 14 games
+   Week 12: 16 games
+   Week 13: 15 games
+   Week 14: 16 games
+   Week 15: 16 games
+   Week 16: 16 games
+   Week 17: 16 games
+   Week 18: 0 games
+✅ 2020 complete: 256 games
+
+📅 Fetching 2021 season...
+   Week 1: 16 games
+   Week 2: 16 games
+   Week 3: 16 games
+   Week 4: 16 games
+   Week 5: 16 games
+   Week 6: 14 games
+   Week 7: 13 games
+   Week 8: 15 games
+   Week 9: 14 games
+   Week 10: 14 games
+   Week 11: 15 games
+   Week 12: 15 games
+   Week 13: 14 games
+   Week 14: 14 games
+   Week 15: 16 games
+   Week 16: 16 games
+   Week 17: 16 games
+   Week 18: 16 games
+✅ 2021 complete: 272 games
+
+📅 Fetching 2022 season...
+   Week 1: 16 games
+   Week 2: 16 games
+   Week 3: 16 games
+   Week 4: 16 games
+   Week 5: 16 games
+   Week 6: 14 games
+   Week 7: 14 games
+   Week 8: 15 games
+   Week 9: 13 games
+   Week 10: 14 games
+   Week 11: 14 games
+   Week 12: 16 games
+   Week 13: 15 games
+   Week 14: 13 games
+   Week 15: 16 games
+   Week 16: 16 games
+   Week 17: 16 games
+   Week 18: 16 games
+✅ 2022 complete: 272 games
+
+💾 Saved 800 games to data/football/historical/nfl_2020_2022_games.json
+
+📊 TRAINING DATA STATISTICS
+============================================================
+   2020: 256 games
+   2021: 272 games
+   2022: 272 games
+
+   Games with spread data: 800
+   Games with total data: 800
+
+======================================================================
+BACKTEST SUMMARY
+======================================================================
+
+SPREAD Market:
+  Bets: 800
+  Win Rate: 47.4%
+  ROI: -3.1%
+  Total Profit: -0.25 units
+  Sharpe: -0.05
+  Max Drawdown: 65.3%
+======================================================================
+
