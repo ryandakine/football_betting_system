@@ -6,3 +6,5 @@ data/football/historical/*.json
 *.db
 lambda_package/
 nfl_lambda.zip
+# API Keys file
+YOUR_API_KEYS.txt
