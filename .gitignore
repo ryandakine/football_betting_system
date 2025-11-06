@@ -14,3 +14,8 @@ YOUR_API_KEYS.txt
 __pycache__/
 *.pyc
 *.pyo
+
+# Generated data files
+data/scraped_nfl_odds.json
+data/tonights_game_analysis.json
+data/nfl_analysis_results.json
