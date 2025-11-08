@@ -8,3 +8,6 @@ lambda_package/
 nfl_lambda.zip
 # API Keys file
 YOUR_API_KEYS.txt
+__pycache__/
+*.pyc
+*.pyo
