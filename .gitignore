@@ -11,3 +11,4 @@ YOUR_API_KEYS.txt
 __pycache__/
 *.pyc
 *.pyo
+.env
