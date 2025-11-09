@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-11-09T03:41:32.925963",
+  "total_predictions": 7319,
+  "overall_expected": 0.556607386467263,
+  "overall_actual": 0.16149747233228584,
+  "calibration_gap": -0.3951099141349772,
+  "bucket_analysis": [
+    {
+      "Confidence Bucket": "50-60%",
+      "Count": 5960,
+      "Expected Accuracy": "50.3%",
+      "Actual Hit Rate": "3.4%",
+      "Calibration Gap": "-46.9%",
+      "Avg Point Diff (Wrong)": "20.6"
+    },
+    {
+      "Confidence Bucket": "60-70%",
+      "Count": 360,
+      "Expected Accuracy": "65.0%",
+      "Actual Hit Rate": "60.6%",
+      "Calibration Gap": "-4.4%",
+      "Avg Point Diff (Wrong)": "16.7"
+    },
+    {
+      "Confidence Bucket": "70-80%",
+      "Count": 364,
+      "Expected Accuracy": "75.1%",
+      "Actual Hit Rate": "67.9%",
+      "Calibration Gap": "-7.2%",
+      "Avg Point Diff (Wrong)": "14.9"
+    },
+    {
+      "Confidence Bucket": "80-90%",
+      "Count": 348,
+      "Expected Accuracy": "85.0%",
+      "Actual Hit Rate": "73.9%",
+      "Calibration Gap": "-11.2%",
+      "Avg Point Diff (Wrong)": "13.3"
+    },
+    {
+      "Confidence Bucket": "90-100%",
+      "Count": 287,
+      "Expected Accuracy": "94.2%",
+      "Actual Hit Rate": "88.9%",
+      "Calibration Gap": "-5.4%",
+      "Avg Point Diff (Wrong)": "10.3"
+    }
+  ]
+}

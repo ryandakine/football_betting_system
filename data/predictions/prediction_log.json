@@ -1,0 +1,32 @@
+[
+  {
+    "game": "Kent State Golden Flashes @ Akron Zips",
+    "predicted_winner": "Akron Zips",
+    "pick_type": "HOME",
+    "raw_confidence": 0.7125783144440572,
+    "calibrated_confidence": 0.6413204829996515,
+    "confidence_adjustment": -0.07125783144440567,
+    "spread": -5.5,
+    "home_ml": 1.53,
+    "away_ml": 2.6,
+    "hours_until_game": 63.26151005416666,
+    "edge": 0.21257831444405717,
+    "actual_result": null,
+    "timestamp": "2025-11-09T03:44:18.583254"
+  },
+  {
+    "game": "Ohio Bobcats @ Western Michigan Broncos",
+    "predicted_winner": "Western Michigan Broncos",
+    "pick_type": "HOME",
+    "raw_confidence": 0.628948606922873,
+    "calibrated_confidence": 0.5660537462305857,
+    "confidence_adjustment": -0.06289486069228734,
+    "spread": 2.5,
+    "home_ml": 2.02,
+    "away_ml": 1.83,
+    "hours_until_game": 63.76151005416666,
+    "edge": 0.12894860692287302,
+    "actual_result": null,
+    "timestamp": "2025-11-09T03:44:18.600529"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "sport": "NFL",
+  "timestamp": "2025-11-09T04:01:16.737857",
+  "total_predictions": 1344,
+  "overall_expected": 0.17094971867385278,
+  "overall_actual": 0.4851190476190476,
+  "calibration_gap": 0.31416932894519484,
+  "bucket_analysis": [
+    {
+      "Confidence Bucket": "70-80%",
+      "Count": 8,
+      "Expected Accuracy": "77.5%",
+      "Actual Hit Rate": "87.5%",
+      "Calibration Gap": "+10.0%",
+      "Avg Point Diff (Wrong)": "N/A"
+    },
+    {
+      "Confidence Bucket": "80-90%",
+      "Count": 263,
+      "Expected Accuracy": "84.9%",
+      "Actual Hit Rate": "49.0%",
+      "Calibration Gap": "-35.8%",
+      "Avg Point Diff (Wrong)": "N/A"
+    }
+  ]
+}
