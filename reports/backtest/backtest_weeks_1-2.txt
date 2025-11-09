@@ -1,0 +1,67 @@
+================================================================================
+📊 HISTORICAL BACKTEST REPORT
+================================================================================
+Weeks Analyzed: 1-2
+Date Generated: 2025-11-09 18:12:26
+
+================================================================================
+📈 OVERALL PERFORMANCE
+================================================================================
+
+Total Bets: 6
+Wins: 5
+Losses: 1
+Pushes: 0
+Win Rate: 83.3%
+Total Profit: +3.55 units
+ROI: +5916.7%
+
+================================================================================
+📅 PERFORMANCE BY WEEK
+================================================================================
+
+Week 1: 4-0-0 (+3.64 units)
+Week 2: 1-1-0 (-0.09 units)
+
+================================================================================
+🎯 PERFORMANCE BY BET TYPE
+================================================================================
+
+SPREAD: 1-1-0 (50.0% win rate, -0.09 units)
+TOTAL: 4-0-0 (100.0% win rate, +3.64 units)
+
+================================================================================
+🎲 CONFIDENCE CALIBRATION
+================================================================================
+
+75%+ Confidence: 1-0 (100.0% actual win rate)
+65-75% Confidence: 3-1 (75.0% actual win rate)
+60-65% Confidence: 1-0 (100.0% actual win rate)
+
+================================================================================
+📋 ALL BETS (Chronological)
+================================================================================
+
+✅ Week 1: BAL @ KC - SPREAD KC -3.0
+   Confidence: 72%, Result: W, Profit: +0.91
+   Home won by 7.0
+
+✅ Week 1: BAL @ KC - TOTAL OVER 46.5
+   Confidence: 75%, Result: W, Profit: +0.91
+   Total 47 > 46.5
+
+✅ Week 1: GB @ PHI - TOTAL OVER 47.5
+   Confidence: 68%, Result: W, Profit: +0.91
+   Total 63 > 47.5
+
+✅ Week 1: PIT @ ATL - TOTAL UNDER 41.5
+   Confidence: 62%, Result: W, Profit: +0.91
+   Total 28 < 41.5
+
+❌ Week 2: MIN @ SF - SPREAD SF -5.5
+   Confidence: 70%, Result: L, Profit: -1.00
+   Home failed to cover
+
+✅ Week 2: CLE @ JAX - TOTAL UNDER 41.0
+   Confidence: 65%, Result: W, Profit: +0.91
+   Total 31 < 41.0

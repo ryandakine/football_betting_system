@@ -1,0 +1,40 @@
+{
+  "total_bets": 6,
+  "winning_bets": 5,
+  "losing_bets": 1,
+  "push_bets": 0,
+  "units_wagered": 6.0,
+  "units_won": 3.5500000000000003,
+  "roi": 59.166666666666664,
+  "by_week": {
+    "week_1": {
+      "wins": 4,
+      "losses": 0,
+      "profit": 3.64
+    },
+    "week_2": {
+      "wins": 1,
+      "losses": 1,
+      "profit": -0.08999999999999997
+    }
+  },
+  "by_bet_type": {
+    "SPREAD": {
+      "wins": 1,
+      "losses": 1,
+      "win_rate": 0.5,
+      "profit": -0.08999999999999997
+    },
+    "TOTAL": {
+      "wins": 4,
+      "losses": 0,
+      "win_rate": 1.0,
+      "profit": 3.64
+    }
+  },
+  "backtest_date": "2025-11-09T18:12:26.438628",
+  "backtest_weeks": [
+    1,
+    2
+  ]
+}

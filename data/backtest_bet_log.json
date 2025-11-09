@@ -1,0 +1,80 @@
+[
+  {
+    "week": 1,
+    "game": "BAL @ KC",
+    "bet_type": "SPREAD",
+    "pick": "KC -3.0",
+    "line": -3.0,
+    "confidence": 0.72,
+    "edge_size": "MEDIUM",
+    "reasoning": "Carl Cheffers high OT rate favors over, home team strong",
+    "result": "W",
+    "actual_outcome": "Home won by 7.0",
+    "profit": 0.91
+  },
+  {
+    "week": 1,
+    "game": "BAL @ KC",
+    "bet_type": "TOTAL",
+    "pick": "OVER 46.5",
+    "line": 46.5,
+    "confidence": 0.75,
+    "edge_size": "LARGE",
+    "reasoning": "Carl Cheffers 8.6% OT rate, high-powered offenses",
+    "result": "W",
+    "actual_outcome": "Total 47 > 46.5",
+    "profit": 0.91
+  },
+  {
+    "week": 1,
+    "game": "GB @ PHI",
+    "bet_type": "TOTAL",
+    "pick": "OVER 47.5",
+    "line": 47.5,
+    "confidence": 0.68,
+    "edge_size": "MEDIUM",
+    "reasoning": "Two strong offenses, favorable weather",
+    "result": "W",
+    "actual_outcome": "Total 63 > 47.5",
+    "profit": 0.91
+  },
+  {
+    "week": 1,
+    "game": "PIT @ ATL",
+    "bet_type": "TOTAL",
+    "pick": "UNDER 41.5",
+    "line": 41.5,
+    "confidence": 0.62,
+    "edge_size": "SMALL",
+    "reasoning": "Shawn Hochuli high penalties, defensive matchup",
+    "result": "W",
+    "actual_outcome": "Total 28 < 41.5",
+    "profit": 0.91
+  },
+  {
+    "week": 2,
+    "game": "MIN @ SF",
+    "bet_type": "SPREAD",
+    "pick": "SF -5.5",
+    "line": -5.5,
+    "confidence": 0.7,
+    "edge_size": "LARGE",
+    "reasoning": "Brad Rogers home bias + SF at home",
+    "result": "L",
+    "actual_outcome": "Home failed to cover",
+    "profit": -1.0
+  },
+  {
+    "week": 2,
+    "game": "CLE @ JAX",
+    "bet_type": "TOTAL",
+    "pick": "UNDER 41.0",
+    "line": 41.0,
+    "confidence": 0.65,
+    "edge_size": "MEDIUM",
+    "reasoning": "Bill Vinovich defensive specialist",
+    "result": "W",
+    "actual_outcome": "Total 31 < 41.0",
+    "profit": 0.91
+  }
+]
