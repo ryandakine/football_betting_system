@@ -12,7 +12,7 @@ Model 10: Situational Specialist
 """
 
 import logging
-import numpy as np
+import math
 from typing import Dict, Any, Optional, List
 from datetime import datetime
 
@@ -47,6 +47,15 @@ from referee_intelligence_model import (
 from parse_team_referee_pairings import TeamRefereeParser
 
 logger = logging.getLogger(__name__)
+
+
+def _std(values):
+    """Calculate standard deviation without numpy."""
+    if not values or len(values) < 2:
+        return 0.0
+    mean = sum(values) / len(values)
+    variance = sum((x - mean) ** 2 for x in values) / len(values)
+    return math.sqrt(variance)
 
 
 class EnhancedAICouncil(NarrativeIntegratedAICouncil):
@@ -355,7 +364,7 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         # Boost for model agreement (all models pointing same direction)
         model_probs = list(ensemble_meta["individual_probabilities"].values())
         if len(model_probs) >= 6:
-            agreement = 1.0 - np.std(model_probs)  # Low std = high agreement
+            agreement = 1.0 - _std(model_probs)  # Low std = high agreement
             base_confidence += agreement * 0.15  # Up to +15% for perfect agreement
 
         # Situational boost (Model 10)
@@ -424,7 +433,7 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         # Model agreement across all 10
         all_probs = list(ensemble_meta["individual_probabilities"].values())
         if len(all_probs) >= 8:
-            std_dev = np.std(all_probs)
+            std_dev = _std(all_probs)
             if std_dev < 0.10:  # Very tight agreement
                 signals.append("UNANIMOUS_10_MODEL_EDGE")
             elif std_dev < 0.15:
