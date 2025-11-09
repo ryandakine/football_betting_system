@@ -1,0 +1,117 @@
+================================================================================
+🎯 WEEK 10 - TOP PROP PICKS
+================================================================================
+Generated: 2025-11-09 13:18:01
+Model: Model 12 (Prop Intelligence)
+Min Confidence: 70%
+
+Total Props Analyzed: 6
+High-Confidence Picks: 4
+
+🎯 4 PROPS TO BET:
+
+
+================================================================================
+PROP #1: Patrick Mahomes - Passing Tds
+================================================================================
+Line: 1.5
+Prediction: 5.0
+Pick: OVER
+
+Confidence: 75% ⭐⭐⭐
+Edge Size: MASSIVE
+Edge: 3.5 tds
+
+Breakdown:
+  Base Projection: 2.0
+  Venue: +3.0
+
+Why we like it:
+  • Base projection: 2.0 (3-year average)
+  • Final projection: 5.0 vs line 1.5 (edge: +3.5)
+
+💰 RECOMMENDATION: MAX BET (5 units)
+
+================================================================================
+PROP #2: Patrick Mahomes - Passing Yards
+================================================================================
+Line: 275.5
+Prediction: 253.0
+Pick: UNDER
+
+Confidence: 70% ⭐⭐⭐
+Edge Size: MEDIUM
+Edge: 22.5 yards
+
+Breakdown:
+  Base Projection: 250.0
+  Venue: +3.0
+
+Why we like it:
+  • Base projection: 250.0 (3-year average)
+  • Final projection: 253.0 vs line 275.5 (edge: -22.5)
+
+💰 RECOMMENDATION: BET MODERATE (2-3 units)
+
+================================================================================
+PROP #3: Christian McCaffrey - Rushing Yards
+================================================================================
+Line: 95.5
+Prediction: 73.0
+Pick: UNDER
+
+Confidence: 70% ⭐⭐⭐
+Edge Size: MEDIUM
+Edge: 22.5 yards
+
+Breakdown:
+  Base Projection: 75.0
+  Venue: -2.0
+
+Why we like it:
+  • Base projection: 75.0 (3-year average)
+  • Final projection: 73.0 vs line 95.5 (edge: -22.5)
+
+💰 RECOMMENDATION: BET MODERATE (2-3 units)
+
+================================================================================
+PROP #4: Travis Kelce - Receptions
+================================================================================
+Line: 5.5
+Prediction: 8.0
+Pick: OVER
+
+Confidence: 70% ⭐⭐⭐
+Edge Size: LARGE
+Edge: 2.5 receptions
+
+Breakdown:
+  Base Projection: 5.0
+  Venue: +3.0
+
+Why we like it:
+  • Base projection: 5.0 (3-year average)
+  • Final projection: 8.0 vs line 5.5 (edge: +2.5)
+
+💰 RECOMMENDATION: BET STRONG (3-4 units)
+
+================================================================================
+📊 SUMMARY
+================================================================================
+
+Props by Type:
+  Passing Tds: 1 picks (avg 75% confidence)
+  Passing Yards: 1 picks (avg 70% confidence)
+  Rushing Yards: 1 picks (avg 70% confidence)
+  Receptions: 1 picks (avg 70% confidence)
+
+Average Edge: 12.8
+
+================================================================================
+⚠️  DISCLAIMER
+================================================================================
+
+Props are predictions based on historical data.
+Players can overperform or underperform any given week.
+Only bet what you can afford to lose.
+Gamble responsibly.
