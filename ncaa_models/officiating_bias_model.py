@@ -10,7 +10,10 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from .officiating_analysis.officiating_bias_detector import OfficiatingBiasDetector
 
 
-class OfficiatingBiasModel:
+from .super_intelligence import BaseNCAAModel
+
+
+class OfficiatingBiasModel(BaseNCAAModel):
     """
     Model 11: Officiating Bias Prediction Model
 
@@ -24,10 +27,10 @@ class OfficiatingBiasModel:
     """
 
     def __init__(self):
+        super().__init__("Officiating Bias", "classification")
         self.detector = OfficiatingBiasDetector()
         self.rf_model = None
         self.gb_model = None
-        self.is_trained = False
 
     def extract_officiating_features(
         self,

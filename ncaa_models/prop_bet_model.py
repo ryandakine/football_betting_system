@@ -5,12 +5,13 @@ Predicts player and team props with high accuracy
 """
 
 import numpy as np
-from typing import Dict, Any, List, Tuple
+from typing import Dict, Any, List, Tuple, Optional
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.neural_network import MLPRegressor
+from .super_intelligence import BaseNCAAModel
 
 
-class PropBetSpecialistModel:
+class PropBetSpecialistModel(BaseNCAAModel):
     """
     Model 12: Prop Bet Specialist
 
@@ -23,6 +24,7 @@ class PropBetSpecialistModel:
     """
 
     def __init__(self):
+        super().__init__("Prop Bet Specialist", "regression")
         # Player prop models
         self.passing_yards_model = None
         self.rushing_yards_model = None
@@ -38,8 +40,6 @@ class PropBetSpecialistModel:
         self.turnover_model = None
         self.field_goal_model = None
         self.sack_model = None
-
-        self.is_trained = False
 
     def extract_prop_features(
         self,
