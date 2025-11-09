@@ -24,7 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = """You are a quantitative sports analyst. Your task is to analyze an MLB game. Your response MUST be a single, valid JSON object with no other text, containing these exact keys: "confidence_score" (a float from 0.50 to 0.95), "favored_team" (a string matching one of the team names), and "reasoning" (a brief 1-2 sentence explanation)."""
+SYSTEM_PROMPT = """You are a quantitative sports analyst. Your task is to analyze an NFL game. Your response MUST be a single, valid JSON object with no other text, containing these exact keys: "confidence_score" (a float from 0.50 to 0.95), "favored_team" (a string matching one of the team names), and "reasoning" (a brief 1-2 sentence explanation)."""
 
 
 class AIClient(ABC):
@@ -145,13 +145,13 @@ class TriModelGameAnalyzer:
         api_keys = get_trimodel_api_keys()
         model_ids = self.config["models"]
 
-        if key := api_keys.get("claude_api"):
-            clients["claude"] = ClaudeClient(api_key=key, model_id=model_ids["claude"])
-        if key := api_keys.get("openai_api"):
-            clients["openai"] = OpenAIClient(api_key=key, model_id=model_ids["openai"])
-        if key := api_keys.get("grok_api"):
+        if key := api_keys.get("claude"):
+            clients["claude"] = ClaudeClient(api_key=key, model_id=model_ids["claude"].model_id)
+        if key := api_keys.get("openai"):
+            clients["openai"] = OpenAIClient(api_key=key, model_id=model_ids["openai"].model_id)
+        if key := api_keys.get("grok"):
             clients["grok"] = GrokClient(
-                api_key=key, model_id=model_ids.get("grok", "grok-2")
+                api_key=key, model_id=model_ids.get("grok").model_id if model_ids.get("grok") else "grok-beta"
             )
 
         logger.info(

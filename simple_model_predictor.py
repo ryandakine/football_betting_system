@@ -11,6 +11,10 @@ import logging
 from pathlib import Path
 from typing import Dict, Any, Optional
 import numpy as np
+import sys
+
+# Import SimpleEnsemble so pickle can find it when loading models
+from simple_ensemble import SimpleEnsemble
 
 logger = logging.getLogger(__name__)
 
@@ -29,17 +33,24 @@ class SimpleModelPredictor:
             'total': 'total_ensemble.pkl',
             'moneyline': 'moneyline_ensemble.pkl'
         }
-        
+
         for name, filename in model_files.items():
             path = models_dir / filename
             if path.exists():
                 try:
+                    # Add __main__.SimpleEnsemble redirect for legacy models
+                    sys.modules['__main__'].SimpleEnsemble = SimpleEnsemble
+
                     with open(path, 'rb') as f:
                         self.models[name] = pickle.load(f)
                     logger.info(f"✅ Loaded {name} model")
                 except Exception as e:
                     logger.warning(f"⚠️  Failed to load {name} model: {e}")
-        
+                finally:
+                    # Clean up
+                    if hasattr(sys.modules['__main__'], 'SimpleEnsemble'):
+                        delattr(sys.modules['__main__'], 'SimpleEnsemble')
+
         if not self.models:
             logger.warning("⚠️  No models loaded - predictions will be random")
     

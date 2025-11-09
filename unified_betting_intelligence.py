@@ -128,7 +128,9 @@ class NarrativeIntegratedAICouncil:
             spread, total, moneyline, narrative, sentiment, referee
         )
         edge_signals = recommendation.get("edge_signals", [])
-        confidence = self._calculate_calibrated_confidence(spread, sentiment, referee)
+        confidence = self._calculate_calibrated_confidence(
+            spread, total, moneyline, sentiment, referee
+        )
         risk = self._assess_risk(confidence, len(edge_signals))
 
         timestamp = self._coerce_timestamp(game_data.get("timestamp"))
@@ -429,14 +431,33 @@ class NarrativeIntegratedAICouncil:
     def _calculate_calibrated_confidence(
         self,
         spread: SpreadPrediction,
+        total: TotalPrediction,
+        moneyline: MoneylinePrediction,
         sentiment: SentimentContext,
         referee: RefereeProfile,
     ) -> float:
-        base_confidence = 0.5
-        base_confidence += spread.confidence * 0.3
-        base_confidence += min(0.2, sentiment.contrarian_score * 0.3)
+        """Calculate overall confidence incorporating all model outputs."""
+        # Combine all three model confidences (weighted average)
+        model_confidence = (
+            spread.confidence * 0.35 +      # Spread model
+            total.confidence * 0.35 +       # Total model
+            moneyline.confidence * 0.30     # Moneyline model
+        )
+
+        # Start with model-based confidence (40-90% range based on model strength)
+        base_confidence = 0.4 + (model_confidence * 0.5)
+
+        # Add sentiment edge signal (up to +0.15)
+        base_confidence += min(0.15, sentiment.contrarian_score * 0.3)
+
+        # Add referee classification bonus (up to +0.1)
         if referee.classification and referee.classification != "unknown":
             base_confidence += 0.1
+
+        # Add crowd roar signal (up to +0.05)
+        if sentiment.crowd_roar_signal > 0.7:
+            base_confidence += 0.05
+
         return min(1.0, max(0.0, base_confidence))
 
     def _assess_risk(self, confidence: float, signal_count: int) -> RiskLevel:

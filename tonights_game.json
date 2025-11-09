@@ -1,0 +1,17 @@
+{
+  "game_id": "raiders_broncos_20251106",
+  "home_team": "Denver Broncos",
+  "away_team": "Las Vegas Raiders",
+  "commence_time": "2025-11-06T20:15:00",
+  "home_moneyline": -500,
+  "away_moneyline": 385,
+  "spread": -9.5,
+  "spread_odds_home": -105,
+  "spread_odds_away": -115,
+  "total": 43.0,
+  "over_odds": -110,
+  "under_odds": -110,
+  "sport": "NFL",
+  "week": 10,
+  "season": 2025
+}
