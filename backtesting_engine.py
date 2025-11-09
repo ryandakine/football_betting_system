@@ -599,9 +599,11 @@ class BacktestingEngine:
         if win_rate <= 0 or win_rate >= 1:
             return []
 
+        # 🐛 FIX: Convert American odds to decimal first
         # Simplified Kelly: f = (bp - q) / b
-        # where b = odds - 1, p = win_rate, q = 1 - p
-        b = avg_odds - 1
+        # where b = decimal_odds - 1, p = win_rate, q = 1 - p
+        decimal_odds = self._american_odds_to_decimal(avg_odds)
+        b = decimal_odds - 1.0
         kelly_fraction = (win_rate * b - (1 - win_rate)) / b
 
         suggestions = []
@@ -613,6 +615,14 @@ class BacktestingEngine:
             })
 
         return suggestions
+
+    @staticmethod
+    def _american_odds_to_decimal(odds: float) -> float:
+        """Convert American odds to decimal odds for Kelly calculation."""
+        if odds >= 0:
+            return (odds / 100.0) + 1.0
+        else:
+            return (100.0 / abs(odds)) + 1.0
 
     def _calculate_monthly_returns(self, daily_pnl: Dict[str, float]) -> List[Dict]:
         """Calculate monthly return statistics"""
