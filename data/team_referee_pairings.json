@@ -1,0 +1,6726 @@
+{
+  "BAL": {
+    "team": "BAL",
+    "referee_stats": {
+      "Bill Vinovich": {
+        "games": 11,
+        "avg_margin": 8.6,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -0.7,
+        "odds_delta": 6.4,
+        "overtime_rate": 5.88
+      },
+      "Brad Allen": {
+        "games": 10,
+        "avg_margin": 6.8,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 1.3,
+        "odds_delta": 5.2,
+        "overtime_rate": 4.42
+      },
+      "Shawn Smith": {
+        "games": 9,
+        "avg_margin": 1.7,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 1.9,
+        "odds_delta": -4.4,
+        "overtime_rate": 7.08
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": 3.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 2.1,
+        "odds_delta": 2.1,
+        "overtime_rate": 8.62
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": 3.1,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.0,
+        "odds_delta": 2.5,
+        "overtime_rate": 5.98
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": 7.1,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -0.6,
+        "odds_delta": 3.6,
+        "overtime_rate": 7.89
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": 1.2,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 1.8,
+        "odds_delta": -3.4,
+        "overtime_rate": 5.41
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": 11.8,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.5,
+        "odds_delta": 7.2,
+        "overtime_rate": 7.14
+      },
+      "Jerome Boger": {
+        "games": 6,
+        "avg_margin": 15.5,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.5,
+        "odds_delta": 9.5,
+        "overtime_rate": 1.25
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": 11.7,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 3.2,
+        "odds_delta": 3.0,
+        "overtime_rate": 5.26
+      },
+      "Alex Kemp": {
+        "games": 6,
+        "avg_margin": 11.5,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.2,
+        "odds_delta": 4.3,
+        "overtime_rate": 6.09
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": 10.8,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.7,
+        "odds_delta": 8.1,
+        "overtime_rate": 4.35
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": 7.0,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.5,
+        "odds_delta": 0.7,
+        "overtime_rate": 7.5
+      },
+      "John Hussey": {
+        "games": 5,
+        "avg_margin": 8.0,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.4,
+        "odds_delta": 0.8,
+        "overtime_rate": 5.93
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": 0.2,
+        "penalties_on_team": 7.4,
+        "penalty_diff": -0.4,
+        "odds_delta": -2.4,
+        "overtime_rate": 4.65
+      },
+      "Ronald Torbert": {
+        "games": 4,
+        "avg_margin": 14.8,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.0,
+        "odds_delta": 9.1,
+        "overtime_rate": 3.12
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": 0.5,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 2.2,
+        "odds_delta": -0.6,
+        "overtime_rate": 6.25
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": 21.3,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.7,
+        "odds_delta": 17.7,
+        "overtime_rate": 3.03
+      },
+      "Brad Rogers": {
+        "games": 3,
+        "avg_margin": 14.7,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.7,
+        "odds_delta": 14.3,
+        "overtime_rate": 2.6
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 6.7,
+        "penalties_on_team": 10.0,
+        "penalty_diff": 4.0,
+        "odds_delta": -2.7,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "CIN",
+        "type": "collapse",
+        "point_delta": -55.0,
+        "referee": "Walt Anderson",
+        "final_margin": -11.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "TEN",
+        "type": "surge",
+        "point_delta": 13.7,
+        "referee": "Carl Cheffers",
+        "final_margin": 21.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "NO",
+        "type": "collapse",
+        "point_delta": -11.0,
+        "referee": "John Parry",
+        "final_margin": -1.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "CLE",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Clay Martin",
+        "final_margin": -3.0
+      },
+      {
+        "week": 14,
+        "year": 2018,
+        "opponent": "KC",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Tony Corrente",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.1,
+        "total_points": 45.6
+      },
+      "Low-visibility windows": {
+        "penalties": 6.6,
+        "total_points": 45.6
+      },
+      "Other slots": {
+        "penalties": 6.5,
+        "total_points": 45.4
+      }
+    }
+  },
+  "NYG": {
+    "team": "NYG",
+    "referee_stats": {
+      "Brad Allen": {
+        "games": 9,
+        "avg_margin": -4.7,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -0.9,
+        "odds_delta": 2.4,
+        "overtime_rate": 4.42
+      },
+      "Craig Wrolstad": {
+        "games": 9,
+        "avg_margin": 0.0,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.3,
+        "odds_delta": 5.6,
+        "overtime_rate": 4.35
+      },
+      "Clay Martin": {
+        "games": 8,
+        "avg_margin": -3.5,
+        "penalties_on_team": 6.8,
+        "penalty_diff": -1.8,
+        "odds_delta": -0.5,
+        "overtime_rate": 5.41
+      },
+      "Adrian Hill": {
+        "games": 8,
+        "avg_margin": -10.5,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 1.2,
+        "odds_delta": -7.8,
+        "overtime_rate": 7.14
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": -9.5,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -1.4,
+        "odds_delta": -5.6,
+        "overtime_rate": 7.89
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": -4.0,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 0.0,
+        "odds_delta": 2.1,
+        "overtime_rate": 5.26
+      },
+      "Ron Torbert": {
+        "games": 7,
+        "avg_margin": -8.0,
+        "penalties_on_team": 4.9,
+        "penalty_diff": 0.0,
+        "odds_delta": -2.4,
+        "overtime_rate": 4.65
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": 3.1,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -1.3,
+        "odds_delta": 5.6,
+        "overtime_rate": 8.62
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": -6.3,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -2.2,
+        "odds_delta": -0.4,
+        "overtime_rate": 5.93
+      },
+      "Jerome Boger": {
+        "games": 6,
+        "avg_margin": -2.8,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 0.3,
+        "odds_delta": 2.8,
+        "overtime_rate": 1.25
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": -11.5,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 0.5,
+        "odds_delta": -4.5,
+        "overtime_rate": 2.6
+      },
+      "Alex Kemp": {
+        "games": 5,
+        "avg_margin": -8.0,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -2.2,
+        "odds_delta": -4.4,
+        "overtime_rate": 6.09
+      },
+      "Tra Blake": {
+        "games": 5,
+        "avg_margin": -10.4,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 1.4,
+        "odds_delta": -3.0,
+        "overtime_rate": 6.25
+      },
+      "Bill Vinovich": {
+        "games": 5,
+        "avg_margin": 2.0,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 1.0,
+        "odds_delta": 4.5,
+        "overtime_rate": 5.88
+      },
+      "Land Clark": {
+        "games": 4,
+        "avg_margin": -6.5,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -0.8,
+        "odds_delta": -3.8,
+        "overtime_rate": 7.5
+      },
+      "Clete Blakeman": {
+        "games": 4,
+        "avg_margin": -19.5,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -0.5,
+        "odds_delta": -12.9,
+        "overtime_rate": 5.98
+      },
+      "Shawn Smith": {
+        "games": 4,
+        "avg_margin": -1.2,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -1.2,
+        "odds_delta": 0.8,
+        "overtime_rate": 7.08
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "HOU",
+        "type": "surge",
+        "point_delta": 11.0,
+        "referee": "Walt Coleman",
+        "final_margin": 5.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "NO",
+        "type": "collapse",
+        "point_delta": -12.7,
+        "referee": "Peter Morelli",
+        "final_margin": -15.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "PHI",
+        "type": "collapse",
+        "point_delta": -17.0,
+        "referee": "Ron Torbert",
+        "final_margin": -21.0
+      },
+      {
+        "week": 14,
+        "year": 2019,
+        "opponent": "PHI",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Scott Novak",
+        "final_margin": -6.0
+      },
+      {
+        "week": 8,
+        "year": 2023,
+        "opponent": "NYJ",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Shawn Smith",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.2,
+        "total_points": 41.8
+      },
+      "Low-visibility windows": {
+        "penalties": 5.7,
+        "total_points": 43.5
+      },
+      "Other slots": {
+        "penalties": 5.7,
+        "total_points": 43.5
+      }
+    }
+  },
+  "DEN": {
+    "team": "DEN",
+    "referee_stats": {
+      "Shawn Hochuli": {
+        "games": 10,
+        "avg_margin": 0.3,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 0.1,
+        "odds_delta": 1.9,
+        "overtime_rate": 7.89
+      },
+      "Adrian Hill": {
+        "games": 9,
+        "avg_margin": -1.9,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 0.2,
+        "odds_delta": 1.2,
+        "overtime_rate": 7.14
+      },
+      "Craig Wrolstad": {
+        "games": 9,
+        "avg_margin": -5.6,
+        "penalties_on_team": 5.1,
+        "penalty_diff": -1.3,
+        "odds_delta": -3.7,
+        "overtime_rate": 4.35
+      },
+      "Ron Torbert": {
+        "games": 9,
+        "avg_margin": -2.6,
+        "penalties_on_team": 6.9,
+        "penalty_diff": -0.2,
+        "odds_delta": -3.3,
+        "overtime_rate": 4.65
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": -9.6,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 1.9,
+        "odds_delta": -8.1,
+        "overtime_rate": 5.41
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": 0.0,
+        "penalties_on_team": 7.4,
+        "penalty_diff": 0.6,
+        "odds_delta": -2.3,
+        "overtime_rate": 8.62
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": -1.8,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -0.7,
+        "odds_delta": 2.9,
+        "overtime_rate": 5.88
+      },
+      "Alex Kemp": {
+        "games": 6,
+        "avg_margin": 10.0,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -0.5,
+        "odds_delta": 11.0,
+        "overtime_rate": 6.09
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": 7.3,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.7,
+        "odds_delta": 7.7,
+        "overtime_rate": 7.5
+      },
+      "Shawn Smith": {
+        "games": 6,
+        "avg_margin": -7.2,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -2.8,
+        "odds_delta": -6.8,
+        "overtime_rate": 7.08
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": 1.7,
+        "penalties_on_team": 4.0,
+        "penalty_diff": -1.0,
+        "odds_delta": -2.7,
+        "overtime_rate": 5.93
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": -8.8,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 0.8,
+        "odds_delta": -7.0,
+        "overtime_rate": 2.6
+      },
+      "Scott Novak": {
+        "games": 5,
+        "avg_margin": -1.6,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -2.0,
+        "odds_delta": 1.2,
+        "overtime_rate": 5.26
+      },
+      "Clete Blakeman": {
+        "games": 5,
+        "avg_margin": -8.0,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 1.8,
+        "odds_delta": -4.9,
+        "overtime_rate": 5.98
+      },
+      "Brad Allen": {
+        "games": 4,
+        "avg_margin": 2.5,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.5,
+        "odds_delta": 7.0,
+        "overtime_rate": 4.42
+      },
+      "Jerome Boger": {
+        "games": 4,
+        "avg_margin": -1.5,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -2.8,
+        "odds_delta": 0.4,
+        "overtime_rate": 1.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "BAL",
+        "type": "collapse",
+        "point_delta": -15.0,
+        "referee": "Ron Torbert",
+        "final_margin": -13.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "NYJ",
+        "type": "collapse",
+        "point_delta": -12.7,
+        "referee": "Peter Morelli",
+        "final_margin": -18.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "ARI",
+        "type": "surge",
+        "point_delta": 43.3,
+        "referee": "Alex Kemp",
+        "final_margin": 35.0
+      },
+      {
+        "week": 5,
+        "year": 2022,
+        "opponent": "IND",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Brad Rogers",
+        "final_margin": -3.0
+      },
+      {
+        "week": 6,
+        "year": 2022,
+        "opponent": "LAC",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Ron Torbert",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.0,
+        "total_points": 43.5
+      },
+      "Low-visibility windows": {
+        "penalties": 6.2,
+        "total_points": 41.3
+      },
+      "Other slots": {
+        "penalties": 6.2,
+        "total_points": 41.3
+      }
+    }
+  },
+  "LAC": {
+    "team": "LAC",
+    "referee_stats": {
+      "Clete Blakeman": {
+        "games": 10,
+        "avg_margin": 1.4,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.9,
+        "odds_delta": -2.0,
+        "overtime_rate": 5.98
+      },
+      "Craig Wrolstad": {
+        "games": 10,
+        "avg_margin": 2.0,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -0.6,
+        "odds_delta": -1.8,
+        "overtime_rate": 4.35
+      },
+      "John Hussey": {
+        "games": 10,
+        "avg_margin": 4.0,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.0,
+        "odds_delta": 1.1,
+        "overtime_rate": 5.93
+      },
+      "Clay Martin": {
+        "games": 9,
+        "avg_margin": 0.2,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -1.8,
+        "odds_delta": -3.8,
+        "overtime_rate": 5.41
+      },
+      "Shawn Smith": {
+        "games": 8,
+        "avg_margin": -1.0,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 1.5,
+        "odds_delta": 0.4,
+        "overtime_rate": 7.08
+      },
+      "Bill Vinovich": {
+        "games": 7,
+        "avg_margin": 4.0,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -0.9,
+        "odds_delta": 4.6,
+        "overtime_rate": 5.88
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": 3.3,
+        "penalties_on_team": 6.6,
+        "penalty_diff": -0.3,
+        "odds_delta": 5.4,
+        "overtime_rate": 7.89
+      },
+      "Alex Kemp": {
+        "games": 6,
+        "avg_margin": 7.5,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.3,
+        "odds_delta": 5.0,
+        "overtime_rate": 6.09
+      },
+      "Brad Allen": {
+        "games": 6,
+        "avg_margin": 3.3,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 0.0,
+        "odds_delta": 4.6,
+        "overtime_rate": 4.42
+      },
+      "Ron Torbert": {
+        "games": 6,
+        "avg_margin": -8.7,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 0.0,
+        "odds_delta": -10.8,
+        "overtime_rate": 4.65
+      },
+      "Carl Cheffers": {
+        "games": 5,
+        "avg_margin": -6.2,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 0.6,
+        "odds_delta": -8.1,
+        "overtime_rate": 8.62
+      },
+      "Land Clark": {
+        "games": 5,
+        "avg_margin": -9.8,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.4,
+        "odds_delta": -12.3,
+        "overtime_rate": 7.5
+      },
+      "Tony Corrente": {
+        "games": 5,
+        "avg_margin": 6.2,
+        "penalties_on_team": 8.4,
+        "penalty_diff": 3.8,
+        "odds_delta": -0.7,
+        "overtime_rate": 6.25
+      },
+      "Scott Novak": {
+        "games": 4,
+        "avg_margin": -1.5,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.5,
+        "odds_delta": -3.1,
+        "overtime_rate": 5.26
+      },
+      "Brad Rogers": {
+        "games": 3,
+        "avg_margin": 11.7,
+        "penalties_on_team": 3.3,
+        "penalty_diff": -2.7,
+        "odds_delta": 7.2,
+        "overtime_rate": 2.6
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": 1.7,
+        "penalties_on_team": 4.3,
+        "penalty_diff": -2.0,
+        "odds_delta": -0.5,
+        "overtime_rate": 3.03
+      },
+      "Adrian Hill": {
+        "games": 3,
+        "avg_margin": 5.0,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -2.0,
+        "odds_delta": 10.3,
+        "overtime_rate": 7.14
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": -3.7,
+        "penalties_on_team": 7.7,
+        "penalty_diff": -1.3,
+        "odds_delta": 0.5,
+        "overtime_rate": 12.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "BUF",
+        "type": "surge",
+        "point_delta": 21.0,
+        "referee": "Clay Martin",
+        "final_margin": 11.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "LA",
+        "type": "collapse",
+        "point_delta": -12.5,
+        "referee": "John Hussey",
+        "final_margin": -12.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "LV",
+        "type": "surge",
+        "point_delta": 15.7,
+        "referee": "Alex Kemp",
+        "final_margin": 16.0
+      },
+      {
+        "week": 2,
+        "year": 2020,
+        "opponent": "KC",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -3.0
+      },
+      {
+        "week": 5,
+        "year": 2020,
+        "opponent": "NO",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Clay Martin",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.7,
+        "total_points": 48.4
+      },
+      "Low-visibility windows": {
+        "penalties": 5.8,
+        "total_points": 46.2
+      },
+      "Other slots": {
+        "penalties": 5.8,
+        "total_points": 46.2
+      }
+    }
+  },
+  "BUF": {
+    "team": "BUF",
+    "referee_stats": {
+      "Shawn Smith": {
+        "games": 12,
+        "avg_margin": 7.2,
+        "penalties_on_team": 7.1,
+        "penalty_diff": -0.2,
+        "odds_delta": 6.5,
+        "overtime_rate": 7.08
+      },
+      "Carl Cheffers": {
+        "games": 12,
+        "avg_margin": 5.2,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.2,
+        "odds_delta": 0.8,
+        "overtime_rate": 8.62
+      },
+      "Bill Vinovich": {
+        "games": 9,
+        "avg_margin": 5.2,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -1.0,
+        "odds_delta": 5.1,
+        "overtime_rate": 5.88
+      },
+      "Clete Blakeman": {
+        "games": 9,
+        "avg_margin": 8.0,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -0.1,
+        "odds_delta": 1.2,
+        "overtime_rate": 5.98
+      },
+      "Alex Kemp": {
+        "games": 9,
+        "avg_margin": 6.9,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.9,
+        "odds_delta": 5.2,
+        "overtime_rate": 6.09
+      },
+      "John Hussey": {
+        "games": 8,
+        "avg_margin": 7.9,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 1.0,
+        "odds_delta": 2.5,
+        "overtime_rate": 5.93
+      },
+      "Craig Wrolstad": {
+        "games": 8,
+        "avg_margin": 8.0,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 0.1,
+        "odds_delta": 7.7,
+        "overtime_rate": 4.35
+      },
+      "Brad Allen": {
+        "games": 7,
+        "avg_margin": 5.1,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.7,
+        "odds_delta": -0.9,
+        "overtime_rate": 4.42
+      },
+      "Tony Corrente": {
+        "games": 6,
+        "avg_margin": 8.7,
+        "penalties_on_team": 5.0,
+        "penalty_diff": 0.0,
+        "odds_delta": 7.5,
+        "overtime_rate": 6.25
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": 9.7,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 1.0,
+        "odds_delta": 1.2,
+        "overtime_rate": 7.5
+      },
+      "Shawn Hochuli": {
+        "games": 5,
+        "avg_margin": -8.0,
+        "penalties_on_team": 9.0,
+        "penalty_diff": 3.2,
+        "odds_delta": -6.5,
+        "overtime_rate": 7.89
+      },
+      "Scott Novak": {
+        "games": 5,
+        "avg_margin": 11.0,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 0.2,
+        "odds_delta": 4.8,
+        "overtime_rate": 5.26
+      },
+      "Adrian Hill": {
+        "games": 5,
+        "avg_margin": 9.4,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 0.0,
+        "odds_delta": 5.1,
+        "overtime_rate": 7.14
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": 1.0,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.6,
+        "odds_delta": 0.8,
+        "overtime_rate": 1.25
+      },
+      "Ron Torbert": {
+        "games": 4,
+        "avg_margin": 25.5,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.5,
+        "odds_delta": 19.0,
+        "overtime_rate": 4.65
+      },
+      "Alan Eck": {
+        "games": 4,
+        "avg_margin": 0.0,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 0.0,
+        "odds_delta": -5.9,
+        "overtime_rate": 3.03
+      },
+      "Clay Martin": {
+        "games": 4,
+        "avg_margin": -0.2,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -1.0,
+        "odds_delta": 0.5,
+        "overtime_rate": 5.41
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 4.7,
+        "penalties_on_team": 6.7,
+        "penalty_diff": -0.7,
+        "odds_delta": -4.8,
+        "overtime_rate": 6.25
+      },
+      "Ronald Torbert": {
+        "games": 3,
+        "avg_margin": 5.7,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -0.7,
+        "odds_delta": 6.2,
+        "overtime_rate": 3.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "LAC",
+        "type": "surge",
+        "point_delta": 33.0,
+        "referee": "Clay Martin",
+        "final_margin": -11.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "MIN",
+        "type": "surge",
+        "point_delta": 48.5,
+        "referee": "Alex Kemp",
+        "final_margin": 21.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "GB",
+        "type": "collapse",
+        "point_delta": -10.7,
+        "referee": "Bill Vinovich",
+        "final_margin": -22.0
+      },
+      {
+        "week": 18,
+        "year": 2019,
+        "opponent": "HOU",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Tony Corrente",
+        "final_margin": -3.0
+      },
+      {
+        "week": 14,
+        "year": 2021,
+        "opponent": "TB",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Scott Novak",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.7,
+        "total_points": 44.2
+      },
+      "Low-visibility windows": {
+        "penalties": 6.7,
+        "total_points": 46.2
+      },
+      "Other slots": {
+        "penalties": 6.6,
+        "total_points": 47.2
+      }
+    }
+  },
+  "JAX": {
+    "team": "JAX",
+    "referee_stats": {
+      "Shawn Smith": {
+        "games": 11,
+        "avg_margin": -8.1,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.8,
+        "odds_delta": -3.4,
+        "overtime_rate": 7.08
+      },
+      "Brad Allen": {
+        "games": 10,
+        "avg_margin": -5.9,
+        "penalties_on_team": 4.9,
+        "penalty_diff": -1.5,
+        "odds_delta": -4.5,
+        "overtime_rate": 4.42
+      },
+      "Adrian Hill": {
+        "games": 8,
+        "avg_margin": -14.9,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -2.5,
+        "odds_delta": -9.5,
+        "overtime_rate": 7.14
+      },
+      "Clay Martin": {
+        "games": 8,
+        "avg_margin": 7.2,
+        "penalties_on_team": 7.4,
+        "penalty_diff": 1.1,
+        "odds_delta": 9.8,
+        "overtime_rate": 5.41
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -0.4,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -1.0,
+        "odds_delta": 0.7,
+        "overtime_rate": 6.09
+      },
+      "Land Clark": {
+        "games": 7,
+        "avg_margin": -2.0,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.0,
+        "odds_delta": 2.9,
+        "overtime_rate": 7.5
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": -11.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 0.0,
+        "odds_delta": -9.1,
+        "overtime_rate": 5.26
+      },
+      "Jerome Boger": {
+        "games": 6,
+        "avg_margin": -11.5,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 1.0,
+        "odds_delta": -8.2,
+        "overtime_rate": 1.25
+      },
+      "Shawn Hochuli": {
+        "games": 6,
+        "avg_margin": -7.5,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 0.3,
+        "odds_delta": -3.2,
+        "overtime_rate": 7.89
+      },
+      "Bill Vinovich": {
+        "games": 5,
+        "avg_margin": -12.0,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 1.4,
+        "odds_delta": -9.0,
+        "overtime_rate": 5.88
+      },
+      "Tra Blake": {
+        "games": 5,
+        "avg_margin": -4.0,
+        "penalties_on_team": 8.6,
+        "penalty_diff": 1.6,
+        "odds_delta": -3.0,
+        "overtime_rate": 6.25
+      },
+      "Craig Wrolstad": {
+        "games": 5,
+        "avg_margin": 11.2,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.8,
+        "odds_delta": 11.2,
+        "overtime_rate": 4.35
+      },
+      "Carl Cheffers": {
+        "games": 5,
+        "avg_margin": 3.8,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 1.4,
+        "odds_delta": 3.8,
+        "overtime_rate": 8.62
+      },
+      "Ron Torbert": {
+        "games": 4,
+        "avg_margin": -11.0,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 1.0,
+        "odds_delta": -11.5,
+        "overtime_rate": 4.65
+      },
+      "Clete Blakeman": {
+        "games": 4,
+        "avg_margin": -16.5,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.5,
+        "odds_delta": -13.1,
+        "overtime_rate": 5.98
+      },
+      "Brad Rogers": {
+        "games": 4,
+        "avg_margin": 4.8,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.2,
+        "odds_delta": 4.9,
+        "overtime_rate": 2.6
+      },
+      "Tony Corrente": {
+        "games": 3,
+        "avg_margin": -14.7,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -1.0,
+        "odds_delta": -11.3,
+        "overtime_rate": 6.25
+      },
+      "John Hussey": {
+        "games": 3,
+        "avg_margin": 1.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.0,
+        "odds_delta": 5.8,
+        "overtime_rate": 5.93
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "TEN",
+        "type": "collapse",
+        "point_delta": -11.0,
+        "referee": "Shawn Smith",
+        "final_margin": -3.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "NYJ",
+        "type": "surge",
+        "point_delta": 14.7,
+        "referee": "Clay Martin",
+        "final_margin": 19.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "KC",
+        "type": "collapse",
+        "point_delta": -25.0,
+        "referee": "Brad Allen",
+        "final_margin": -16.0
+      },
+      {
+        "week": 13,
+        "year": 2020,
+        "opponent": "MIN",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Land Clark",
+        "final_margin": -3.0
+      },
+      {
+        "week": 13,
+        "year": 2023,
+        "opponent": "CIN",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Scott Novak",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.1,
+        "total_points": 43.8
+      },
+      "Low-visibility windows": {
+        "penalties": 6.5,
+        "total_points": 43.4
+      },
+      "Other slots": {
+        "penalties": 6.5,
+        "total_points": 43.4
+      }
+    }
+  },
+  "CLE": {
+    "team": "CLE",
+    "referee_stats": {
+      "Brad Allen": {
+        "games": 10,
+        "avg_margin": -9.6,
+        "penalties_on_team": 7.9,
+        "penalty_diff": 2.0,
+        "odds_delta": -10.7,
+        "overtime_rate": 4.42
+      },
+      "Bill Vinovich": {
+        "games": 9,
+        "avg_margin": -0.8,
+        "penalties_on_team": 5.1,
+        "penalty_diff": -0.2,
+        "odds_delta": 0.0,
+        "overtime_rate": 5.88
+      },
+      "Adrian Hill": {
+        "games": 8,
+        "avg_margin": -3.5,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 1.5,
+        "odds_delta": -2.9,
+        "overtime_rate": 7.14
+      },
+      "Clay Martin": {
+        "games": 8,
+        "avg_margin": -1.6,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.2,
+        "odds_delta": -2.4,
+        "overtime_rate": 5.41
+      },
+      "Shawn Smith": {
+        "games": 8,
+        "avg_margin": 1.2,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.5,
+        "odds_delta": 4.2,
+        "overtime_rate": 7.08
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": 1.5,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 1.2,
+        "odds_delta": 1.6,
+        "overtime_rate": 7.89
+      },
+      "Jerome Boger": {
+        "games": 7,
+        "avg_margin": -3.4,
+        "penalties_on_team": 6.1,
+        "penalty_diff": 0.6,
+        "odds_delta": -4.8,
+        "overtime_rate": 1.25
+      },
+      "Ron Torbert": {
+        "games": 7,
+        "avg_margin": -3.3,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 0.6,
+        "odds_delta": -1.4,
+        "overtime_rate": 4.65
+      },
+      "Alex Kemp": {
+        "games": 5,
+        "avg_margin": -0.4,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -2.0,
+        "odds_delta": 0.2,
+        "overtime_rate": 6.09
+      },
+      "Clete Blakeman": {
+        "games": 5,
+        "avg_margin": 2.2,
+        "penalties_on_team": 9.2,
+        "penalty_diff": 3.2,
+        "odds_delta": 2.6,
+        "overtime_rate": 5.98
+      },
+      "John Hussey": {
+        "games": 5,
+        "avg_margin": -18.6,
+        "penalties_on_team": 7.6,
+        "penalty_diff": 0.6,
+        "odds_delta": -13.6,
+        "overtime_rate": 5.93
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": -2.2,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -1.4,
+        "odds_delta": -3.6,
+        "overtime_rate": 2.6
+      },
+      "Tra Blake": {
+        "games": 4,
+        "avg_margin": 1.2,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -1.5,
+        "odds_delta": 0.8,
+        "overtime_rate": 6.25
+      },
+      "Land Clark": {
+        "games": 4,
+        "avg_margin": -1.2,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 1.5,
+        "odds_delta": -1.8,
+        "overtime_rate": 7.5
+      },
+      "Carl Cheffers": {
+        "games": 4,
+        "avg_margin": -0.8,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.8,
+        "odds_delta": -4.2,
+        "overtime_rate": 8.62
+      },
+      "Craig Wrolstad": {
+        "games": 4,
+        "avg_margin": 3.2,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.2,
+        "odds_delta": 1.2,
+        "overtime_rate": 4.35
+      },
+      "Scott Novak": {
+        "games": 4,
+        "avg_margin": -3.5,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -2.2,
+        "odds_delta": 1.1,
+        "overtime_rate": 5.26
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": 1.0,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 2.5,
+        "odds_delta": -0.5,
+        "overtime_rate": 6.25
+      },
+      "Ronald Torbert": {
+        "games": 3,
+        "avg_margin": -8.7,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.7,
+        "odds_delta": -8.8,
+        "overtime_rate": 3.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "LAC",
+        "type": "collapse",
+        "point_delta": -25.3,
+        "referee": "Brad Allen",
+        "final_margin": -24.0
+      },
+      {
+        "week": 10,
+        "year": 2018,
+        "opponent": "ATL",
+        "type": "surge",
+        "point_delta": 23.3,
+        "referee": "Peter Morelli",
+        "final_margin": 12.0
+      },
+      {
+        "week": 12,
+        "year": 2018,
+        "opponent": "CIN",
+        "type": "surge",
+        "point_delta": 21.3,
+        "referee": "Jerome Boger",
+        "final_margin": 15.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "LV",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Walt Anderson",
+        "final_margin": -3.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "TB",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.0,
+        "total_points": 43.6
+      },
+      "Low-visibility windows": {
+        "penalties": 6.8,
+        "total_points": 45.9
+      },
+      "Other slots": {
+        "penalties": 6.8,
+        "total_points": 45.9
+      }
+    }
+  },
+  "DAL": {
+    "team": "DAL",
+    "referee_stats": {
+      "Bill Vinovich": {
+        "games": 10,
+        "avg_margin": 6.7,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.0,
+        "odds_delta": 5.4,
+        "overtime_rate": 5.88
+      },
+      "John Hussey": {
+        "games": 8,
+        "avg_margin": 1.4,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 1.2,
+        "odds_delta": -1.1,
+        "overtime_rate": 5.93
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": 2.9,
+        "penalties_on_team": 8.1,
+        "penalty_diff": -0.2,
+        "odds_delta": -0.1,
+        "overtime_rate": 7.89
+      },
+      "Brad Allen": {
+        "games": 7,
+        "avg_margin": -6.9,
+        "penalties_on_team": 7.4,
+        "penalty_diff": 2.0,
+        "odds_delta": -5.5,
+        "overtime_rate": 4.42
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": 7.0,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.1,
+        "odds_delta": 3.7,
+        "overtime_rate": 5.41
+      },
+      "Craig Wrolstad": {
+        "games": 7,
+        "avg_margin": 7.0,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 1.1,
+        "odds_delta": 4.4,
+        "overtime_rate": 4.35
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": 0.3,
+        "penalties_on_team": 8.6,
+        "penalty_diff": 2.0,
+        "odds_delta": -2.2,
+        "overtime_rate": 5.98
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": 3.9,
+        "penalties_on_team": 8.4,
+        "penalty_diff": 1.7,
+        "odds_delta": 3.1,
+        "overtime_rate": 5.26
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": 16.8,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -1.2,
+        "odds_delta": 9.8,
+        "overtime_rate": 7.14
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": 15.0,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -2.0,
+        "odds_delta": 7.5,
+        "overtime_rate": 2.6
+      },
+      "Tony Corrente": {
+        "games": 6,
+        "avg_margin": 4.7,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -1.0,
+        "odds_delta": 6.6,
+        "overtime_rate": 6.25
+      },
+      "Carl Cheffers": {
+        "games": 5,
+        "avg_margin": -1.6,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -0.2,
+        "odds_delta": -2.4,
+        "overtime_rate": 8.62
+      },
+      "Walt Anderson": {
+        "games": 5,
+        "avg_margin": 7.6,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 0.4,
+        "odds_delta": 7.8,
+        "overtime_rate": 12.12
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": -0.4,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.2,
+        "odds_delta": -3.7,
+        "overtime_rate": 4.65
+      },
+      "Alex Kemp": {
+        "games": 5,
+        "avg_margin": -6.6,
+        "penalties_on_team": 8.6,
+        "penalty_diff": 2.0,
+        "odds_delta": -10.1,
+        "overtime_rate": 6.09
+      },
+      "Jerome Boger": {
+        "games": 4,
+        "avg_margin": 9.0,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 1.2,
+        "odds_delta": 6.8,
+        "overtime_rate": 1.25
+      },
+      "Land Clark": {
+        "games": 4,
+        "avg_margin": 5.0,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 0.5,
+        "odds_delta": 7.0,
+        "overtime_rate": 7.5
+      },
+      "Shawn Smith": {
+        "games": 3,
+        "avg_margin": 12.3,
+        "penalties_on_team": 2.7,
+        "penalty_diff": -3.7,
+        "odds_delta": 5.7,
+        "overtime_rate": 7.08
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": -5.7,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 0.0,
+        "odds_delta": -3.5,
+        "overtime_rate": 6.25
+      },
+      "John Parry": {
+        "games": 3,
+        "avg_margin": 2.0,
+        "penalties_on_team": 5.0,
+        "penalty_diff": 2.7,
+        "odds_delta": 6.0,
+        "overtime_rate": 0.0
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "NYG",
+        "type": "surge",
+        "point_delta": 15.0,
+        "referee": "John Parry",
+        "final_margin": 7.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "SEA",
+        "type": "collapse",
+        "point_delta": -10.5,
+        "referee": "Carl Cheffers",
+        "final_margin": -11.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "JAX",
+        "type": "surge",
+        "point_delta": 37.0,
+        "referee": "Tony Corrente",
+        "final_margin": 33.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "HOU",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -3.0
+      },
+      {
+        "week": 10,
+        "year": 2022,
+        "opponent": "GB",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Brad Allen",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.7,
+        "total_points": 47.6
+      },
+      "Low-visibility windows": {
+        "penalties": 6.8,
+        "total_points": 49.3
+      },
+      "Other slots": {
+        "penalties": 6.8,
+        "total_points": 49.1
+      }
+    }
+  },
+  "MIN": {
+    "team": "MIN",
+    "referee_stats": {
+      "Bill Vinovich": {
+        "games": 10,
+        "avg_margin": 1.3,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.0,
+        "odds_delta": -0.3,
+        "overtime_rate": 5.88
+      },
+      "Clay Martin": {
+        "games": 10,
+        "avg_margin": -6.0,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 0.4,
+        "odds_delta": -5.5,
+        "overtime_rate": 5.41
+      },
+      "Clete Blakeman": {
+        "games": 10,
+        "avg_margin": 3.8,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.6,
+        "odds_delta": 0.2,
+        "overtime_rate": 5.98
+      },
+      "Brad Allen": {
+        "games": 9,
+        "avg_margin": 0.8,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 1.4,
+        "odds_delta": 1.2,
+        "overtime_rate": 4.42
+      },
+      "Craig Wrolstad": {
+        "games": 8,
+        "avg_margin": -3.5,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 0.1,
+        "odds_delta": -3.9,
+        "overtime_rate": 4.35
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": 1.6,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -3.2,
+        "odds_delta": -1.6,
+        "overtime_rate": 6.09
+      },
+      "Adrian Hill": {
+        "games": 7,
+        "avg_margin": -1.6,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -0.4,
+        "odds_delta": -3.1,
+        "overtime_rate": 7.14
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": 2.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": -0.4,
+        "odds_delta": -1.2,
+        "overtime_rate": 5.26
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": -3.8,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -0.5,
+        "odds_delta": -2.6,
+        "overtime_rate": 2.6
+      },
+      "Carl Cheffers": {
+        "games": 6,
+        "avg_margin": -0.7,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.7,
+        "odds_delta": 0.9,
+        "overtime_rate": 8.62
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": -1.7,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -1.3,
+        "odds_delta": -2.3,
+        "overtime_rate": 5.93
+      },
+      "Shawn Hochuli": {
+        "games": 5,
+        "avg_margin": 11.0,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -2.8,
+        "odds_delta": 10.1,
+        "overtime_rate": 7.89
+      },
+      "Shawn Smith": {
+        "games": 5,
+        "avg_margin": 4.2,
+        "penalties_on_team": 3.4,
+        "penalty_diff": -4.4,
+        "odds_delta": 2.2,
+        "overtime_rate": 7.08
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": 4.7,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 1.3,
+        "odds_delta": 0.8,
+        "overtime_rate": 12.12
+      },
+      "Land Clark": {
+        "games": 3,
+        "avg_margin": -3.3,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -3.7,
+        "odds_delta": -4.8,
+        "overtime_rate": 7.5
+      },
+      "Jerome Boger": {
+        "games": 3,
+        "avg_margin": 11.0,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 1.7,
+        "odds_delta": 3.8,
+        "overtime_rate": 1.25
+      },
+      "Tony Corrente": {
+        "games": 3,
+        "avg_margin": -2.7,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 1.3,
+        "odds_delta": -0.8,
+        "overtime_rate": 6.25
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 0.3,
+        "penalties_on_team": 8.3,
+        "penalty_diff": 0.7,
+        "odds_delta": -3.3,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "BUF",
+        "type": "collapse",
+        "point_delta": -25.0,
+        "referee": "Alex Kemp",
+        "final_margin": -21.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "PHI",
+        "type": "surge",
+        "point_delta": 11.3,
+        "referee": "Walt Coleman",
+        "final_margin": 2.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "ARI",
+        "type": "surge",
+        "point_delta": 18.7,
+        "referee": "Jerome Boger",
+        "final_margin": 10.0
+      },
+      {
+        "week": 1,
+        "year": 2021,
+        "opponent": "CIN",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Adrian Hill",
+        "final_margin": -3.0
+      },
+      {
+        "week": 9,
+        "year": 2021,
+        "opponent": "BAL",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.1,
+        "total_points": 44.6
+      },
+      "Low-visibility windows": {
+        "penalties": 5.9,
+        "total_points": 47.6
+      },
+      "Other slots": {
+        "penalties": 5.9,
+        "total_points": 48.1
+      }
+    }
+  },
+  "HOU": {
+    "team": "HOU",
+    "referee_stats": {
+      "Bill Vinovich": {
+        "games": 10,
+        "avg_margin": 1.5,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 2.1,
+        "odds_delta": 2.1,
+        "overtime_rate": 5.88
+      },
+      "Land Clark": {
+        "games": 10,
+        "avg_margin": -2.4,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 0.0,
+        "odds_delta": 1.5,
+        "overtime_rate": 7.5
+      },
+      "Clay Martin": {
+        "games": 10,
+        "avg_margin": 0.5,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 1.4,
+        "odds_delta": 5.5,
+        "overtime_rate": 5.41
+      },
+      "Scott Novak": {
+        "games": 9,
+        "avg_margin": -0.6,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -0.7,
+        "odds_delta": 0.9,
+        "overtime_rate": 5.26
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -4.5,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.1,
+        "odds_delta": -2.4,
+        "overtime_rate": 6.09
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": -5.9,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 2.0,
+        "odds_delta": -0.6,
+        "overtime_rate": 5.93
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": -6.0,
+        "penalties_on_team": 6.1,
+        "penalty_diff": -1.6,
+        "odds_delta": 0.9,
+        "overtime_rate": 8.62
+      },
+      "Shawn Smith": {
+        "games": 6,
+        "avg_margin": 9.8,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 3.0,
+        "odds_delta": 8.0,
+        "overtime_rate": 7.08
+      },
+      "Tony Corrente": {
+        "games": 6,
+        "avg_margin": -2.2,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 0.7,
+        "odds_delta": 2.2,
+        "overtime_rate": 6.25
+      },
+      "Shawn Hochuli": {
+        "games": 6,
+        "avg_margin": -8.8,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 0.7,
+        "odds_delta": -4.9,
+        "overtime_rate": 7.89
+      },
+      "Clete Blakeman": {
+        "games": 6,
+        "avg_margin": -3.2,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 1.0,
+        "odds_delta": 0.8,
+        "overtime_rate": 5.98
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": -6.2,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 0.6,
+        "odds_delta": 0.5,
+        "overtime_rate": 4.65
+      },
+      "Craig Wrolstad": {
+        "games": 5,
+        "avg_margin": 7.8,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -2.8,
+        "odds_delta": 5.3,
+        "overtime_rate": 4.35
+      },
+      "Brad Allen": {
+        "games": 5,
+        "avg_margin": -0.6,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -2.8,
+        "odds_delta": -4.6,
+        "overtime_rate": 4.42
+      },
+      "Adrian Hill": {
+        "games": 4,
+        "avg_margin": -12.0,
+        "penalties_on_team": 7.5,
+        "penalty_diff": 1.8,
+        "odds_delta": -11.9,
+        "overtime_rate": 7.14
+      },
+      "Brad Rogers": {
+        "games": 4,
+        "avg_margin": -7.2,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.0,
+        "odds_delta": -8.6,
+        "overtime_rate": 2.6
+      },
+      "Jerome Boger": {
+        "games": 3,
+        "avg_margin": -14.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 2.7,
+        "odds_delta": -4.8,
+        "overtime_rate": 1.25
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": -8.7,
+        "penalties_on_team": 10.3,
+        "penalty_diff": 1.0,
+        "odds_delta": -6.3,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 8,
+        "year": 2018,
+        "opponent": "MIA",
+        "type": "surge",
+        "point_delta": 11.3,
+        "referee": "Shawn Smith",
+        "final_margin": 19.0
+      },
+      {
+        "week": 9,
+        "year": 2018,
+        "opponent": "DEN",
+        "type": "collapse",
+        "point_delta": -11.0,
+        "referee": "Clay Martin",
+        "final_margin": 2.0
+      },
+      {
+        "week": 14,
+        "year": 2018,
+        "opponent": "IND",
+        "type": "collapse",
+        "point_delta": -14.7,
+        "referee": "Bill Vinovich",
+        "final_margin": -3.0
+      },
+      {
+        "week": 6,
+        "year": 2020,
+        "opponent": "TEN",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Alex Kemp",
+        "final_margin": -6.0
+      },
+      {
+        "week": 15,
+        "year": 2022,
+        "opponent": "KC",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.6,
+        "total_points": 44.9
+      },
+      "Low-visibility windows": {
+        "penalties": 6.3,
+        "total_points": 45.6
+      },
+      "Other slots": {
+        "penalties": 6.3,
+        "total_points": 45.5
+      }
+    }
+  },
+  "CHI": {
+    "team": "CHI",
+    "referee_stats": {
+      "Carl Cheffers": {
+        "games": 9,
+        "avg_margin": -8.6,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -0.8,
+        "odds_delta": -5.0,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 9,
+        "avg_margin": -0.4,
+        "penalties_on_team": 3.6,
+        "penalty_diff": -2.4,
+        "odds_delta": 3.4,
+        "overtime_rate": 4.42
+      },
+      "Scott Novak": {
+        "games": 8,
+        "avg_margin": -3.8,
+        "penalties_on_team": 4.4,
+        "penalty_diff": 0.6,
+        "odds_delta": 0.2,
+        "overtime_rate": 5.26
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": 1.7,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.1,
+        "odds_delta": 4.1,
+        "overtime_rate": 5.41
+      },
+      "Alex Kemp": {
+        "games": 7,
+        "avg_margin": -3.3,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.3,
+        "odds_delta": -0.2,
+        "overtime_rate": 6.09
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": -0.3,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.1,
+        "odds_delta": 0.8,
+        "overtime_rate": 5.98
+      },
+      "Craig Wrolstad": {
+        "games": 7,
+        "avg_margin": -7.1,
+        "penalties_on_team": 6.6,
+        "penalty_diff": -0.7,
+        "odds_delta": -2.7,
+        "overtime_rate": 4.35
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": -2.8,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -2.5,
+        "odds_delta": -3.0,
+        "overtime_rate": 7.14
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": -0.3,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.7,
+        "odds_delta": -0.3,
+        "overtime_rate": 7.5
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": -4.8,
+        "penalties_on_team": 4.0,
+        "penalty_diff": -0.8,
+        "odds_delta": -4.1,
+        "overtime_rate": 5.93
+      },
+      "Tony Corrente": {
+        "games": 5,
+        "avg_margin": -3.2,
+        "penalties_on_team": 8.4,
+        "penalty_diff": 2.6,
+        "odds_delta": -4.0,
+        "overtime_rate": 6.25
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": -14.0,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 1.0,
+        "odds_delta": -7.0,
+        "overtime_rate": 4.65
+      },
+      "Bill Vinovich": {
+        "games": 5,
+        "avg_margin": -3.8,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 1.4,
+        "odds_delta": -2.9,
+        "overtime_rate": 5.88
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": -9.2,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 3.4,
+        "odds_delta": -3.0,
+        "overtime_rate": 2.6
+      },
+      "Shawn Smith": {
+        "games": 5,
+        "avg_margin": 10.4,
+        "penalties_on_team": 7.6,
+        "penalty_diff": 1.8,
+        "odds_delta": 8.4,
+        "overtime_rate": 7.08
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": 11.8,
+        "penalties_on_team": 6.8,
+        "penalty_diff": -2.2,
+        "odds_delta": 10.2,
+        "overtime_rate": 1.25
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 12.7,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.7,
+        "odds_delta": 13.3,
+        "overtime_rate": 6.25
+      },
+      "Shawn Hochuli": {
+        "games": 3,
+        "avg_margin": 8.0,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 0.3,
+        "odds_delta": 7.0,
+        "overtime_rate": 7.89
+      }
+    },
+    "narratives": [
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "TB",
+        "type": "surge",
+        "point_delta": 35.3,
+        "referee": "Jerome Boger",
+        "final_margin": 38.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "MIA",
+        "type": "collapse",
+        "point_delta": -18.7,
+        "referee": "Walt Anderson",
+        "final_margin": -3.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "NE",
+        "type": "collapse",
+        "point_delta": -19.3,
+        "referee": "Clay Martin",
+        "final_margin": -7.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "MIA",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Walt Anderson",
+        "final_margin": -3.0
+      },
+      {
+        "week": 13,
+        "year": 2018,
+        "opponent": "NYG",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Clay Martin",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.0,
+        "total_points": 38.8
+      },
+      "Low-visibility windows": {
+        "penalties": 5.8,
+        "total_points": 43.8
+      },
+      "Other slots": {
+        "penalties": 5.8,
+        "total_points": 43.8
+      }
+    }
+  },
+  "WAS": {
+    "team": "WAS",
+    "referee_stats": {
+      "Adrian Hill": {
+        "games": 8,
+        "avg_margin": -2.5,
+        "penalties_on_team": 4.8,
+        "penalty_diff": 0.4,
+        "odds_delta": 0.9,
+        "overtime_rate": 7.14
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -2.9,
+        "penalties_on_team": 7.9,
+        "penalty_diff": 1.2,
+        "odds_delta": 0.4,
+        "overtime_rate": 6.09
+      },
+      "Bill Vinovich": {
+        "games": 8,
+        "avg_margin": -12.6,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.4,
+        "odds_delta": -8.6,
+        "overtime_rate": 5.88
+      },
+      "Clay Martin": {
+        "games": 8,
+        "avg_margin": 0.8,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -2.1,
+        "odds_delta": 5.6,
+        "overtime_rate": 5.41
+      },
+      "Shawn Smith": {
+        "games": 8,
+        "avg_margin": -8.6,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 0.4,
+        "odds_delta": -5.1,
+        "overtime_rate": 7.08
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": -1.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -1.1,
+        "odds_delta": 0.6,
+        "overtime_rate": 5.98
+      },
+      "Ron Torbert": {
+        "games": 7,
+        "avg_margin": -3.0,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.3,
+        "odds_delta": 3.8,
+        "overtime_rate": 4.65
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": -4.4,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 2.9,
+        "odds_delta": -0.7,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 6,
+        "avg_margin": 1.7,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.8,
+        "odds_delta": 1.4,
+        "overtime_rate": 4.42
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": -1.5,
+        "penalties_on_team": 3.8,
+        "penalty_diff": -2.8,
+        "odds_delta": 3.7,
+        "overtime_rate": 4.35
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": -0.5,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 0.7,
+        "odds_delta": 0.5,
+        "overtime_rate": 5.26
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": -3.7,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.2,
+        "odds_delta": -1.0,
+        "overtime_rate": 5.93
+      },
+      "Shawn Hochuli": {
+        "games": 5,
+        "avg_margin": -11.6,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.4,
+        "odds_delta": -9.8,
+        "overtime_rate": 7.89
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": 5.4,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 0.4,
+        "odds_delta": 8.3,
+        "overtime_rate": 2.6
+      },
+      "Tra Blake": {
+        "games": 4,
+        "avg_margin": -3.0,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -1.5,
+        "odds_delta": -2.4,
+        "overtime_rate": 6.25
+      },
+      "Land Clark": {
+        "games": 4,
+        "avg_margin": -15.0,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -1.2,
+        "odds_delta": -9.9,
+        "overtime_rate": 7.5
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -15.5,
+        "penalties_on_team": 5.0,
+        "penalty_diff": 1.0,
+        "odds_delta": -7.1,
+        "overtime_rate": 6.25
+      },
+      "Ronald Torbert": {
+        "games": 4,
+        "avg_margin": 4.2,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.2,
+        "odds_delta": 5.8,
+        "overtime_rate": 3.12
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": 5.7,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -2.3,
+        "odds_delta": 4.5,
+        "overtime_rate": 3.03
+      },
+      "Jerome Boger": {
+        "games": 3,
+        "avg_margin": -12.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.3,
+        "odds_delta": -9.5,
+        "overtime_rate": 1.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "IND",
+        "type": "collapse",
+        "point_delta": -30.0,
+        "referee": "Clete Blakeman",
+        "final_margin": -12.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "GB",
+        "type": "surge",
+        "point_delta": 11.0,
+        "referee": "Craig Wrolstad",
+        "final_margin": 14.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "NO",
+        "type": "collapse",
+        "point_delta": -30.7,
+        "referee": "Carl Cheffers",
+        "final_margin": -24.0
+      },
+      {
+        "week": 16,
+        "year": 2019,
+        "opponent": "NYG",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Ronald Torbert",
+        "final_margin": -6.0
+      },
+      {
+        "week": 4,
+        "year": 2023,
+        "opponent": "PHI",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Ron Torbert",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.6,
+        "total_points": 49.2
+      },
+      "Low-visibility windows": {
+        "penalties": 5.9,
+        "total_points": 44.1
+      },
+      "Other slots": {
+        "penalties": 5.9,
+        "total_points": 44.1
+      }
+    }
+  },
+  "PHI": {
+    "team": "PHI",
+    "referee_stats": {
+      "Adrian Hill": {
+        "games": 10,
+        "avg_margin": 1.9,
+        "penalties_on_team": 7.9,
+        "penalty_diff": 1.7,
+        "odds_delta": -3.5,
+        "overtime_rate": 7.14
+      },
+      "Ron Torbert": {
+        "games": 9,
+        "avg_margin": 5.2,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 0.3,
+        "odds_delta": 1.7,
+        "overtime_rate": 4.65
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": 3.6,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -1.2,
+        "odds_delta": 1.7,
+        "overtime_rate": 4.42
+      },
+      "Craig Wrolstad": {
+        "games": 8,
+        "avg_margin": 1.0,
+        "penalties_on_team": 6.1,
+        "penalty_diff": 1.4,
+        "odds_delta": -1.2,
+        "overtime_rate": 4.35
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": 8.6,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -1.5,
+        "odds_delta": 5.4,
+        "overtime_rate": 7.89
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": 8.9,
+        "penalties_on_team": 4.9,
+        "penalty_diff": -0.7,
+        "odds_delta": 4.1,
+        "overtime_rate": 5.98
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": -6.9,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.7,
+        "odds_delta": -10.3,
+        "overtime_rate": 8.62
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": 9.0,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -2.7,
+        "odds_delta": 8.0,
+        "overtime_rate": 5.93
+      },
+      "Shawn Smith": {
+        "games": 7,
+        "avg_margin": 2.0,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -1.0,
+        "odds_delta": 0.2,
+        "overtime_rate": 7.08
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": 5.6,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 1.1,
+        "odds_delta": 3.9,
+        "overtime_rate": 5.26
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": 1.9,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.9,
+        "odds_delta": -0.5,
+        "overtime_rate": 5.41
+      },
+      "Tony Corrente": {
+        "games": 6,
+        "avg_margin": 11.5,
+        "penalties_on_team": 3.7,
+        "penalty_diff": -2.0,
+        "odds_delta": 9.2,
+        "overtime_rate": 6.25
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": -0.7,
+        "penalties_on_team": 4.5,
+        "penalty_diff": -0.8,
+        "odds_delta": 2.5,
+        "overtime_rate": 5.88
+      },
+      "Alex Kemp": {
+        "games": 6,
+        "avg_margin": -0.2,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 1.5,
+        "odds_delta": -3.2,
+        "overtime_rate": 6.09
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": -4.6,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.4,
+        "odds_delta": -5.4,
+        "overtime_rate": 1.25
+      },
+      "Land Clark": {
+        "games": 4,
+        "avg_margin": 7.5,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 1.5,
+        "odds_delta": 4.2,
+        "overtime_rate": 7.5
+      },
+      "Brad Rogers": {
+        "games": 3,
+        "avg_margin": -8.3,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.3,
+        "odds_delta": -11.8,
+        "overtime_rate": 2.6
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 11.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 0.7,
+        "odds_delta": 7.0,
+        "overtime_rate": 6.25
+      },
+      "Ronald Torbert": {
+        "games": 3,
+        "avg_margin": -3.3,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -1.3,
+        "odds_delta": -2.2,
+        "overtime_rate": 3.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "TB",
+        "type": "collapse",
+        "point_delta": -12.0,
+        "referee": "Alex Kemp",
+        "final_margin": -6.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "NYG",
+        "type": "surge",
+        "point_delta": 21.3,
+        "referee": "Ron Torbert",
+        "final_margin": 21.0
+      },
+      {
+        "week": 10,
+        "year": 2018,
+        "opponent": "DAL",
+        "type": "collapse",
+        "point_delta": -14.7,
+        "referee": "John Parry",
+        "final_margin": -7.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "TEN",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -3.0
+      },
+      {
+        "week": 14,
+        "year": 2018,
+        "opponent": "DAL",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Clete Blakeman",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.5,
+        "total_points": 47.5
+      },
+      "Low-visibility windows": {
+        "penalties": 6.1,
+        "total_points": 46.4
+      },
+      "Other slots": {
+        "penalties": 6.1,
+        "total_points": 47.1
+      }
+    }
+  },
+  "NO": {
+    "team": "NO",
+    "referee_stats": {
+      "Carl Cheffers": {
+        "games": 10,
+        "avg_margin": 10.5,
+        "penalties_on_team": 7.5,
+        "penalty_diff": 2.6,
+        "odds_delta": 8.0,
+        "overtime_rate": 8.62
+      },
+      "Jerome Boger": {
+        "games": 9,
+        "avg_margin": 5.2,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 0.6,
+        "odds_delta": 3.3,
+        "overtime_rate": 1.25
+      },
+      "Brad Rogers": {
+        "games": 9,
+        "avg_margin": -4.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.2,
+        "odds_delta": -4.5,
+        "overtime_rate": 2.6
+      },
+      "John Hussey": {
+        "games": 9,
+        "avg_margin": 14.2,
+        "penalties_on_team": 4.3,
+        "penalty_diff": -1.2,
+        "odds_delta": 13.3,
+        "overtime_rate": 5.93
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": -3.9,
+        "penalties_on_team": 6.8,
+        "penalty_diff": -0.5,
+        "odds_delta": -4.5,
+        "overtime_rate": 7.89
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": 4.0,
+        "penalties_on_team": 7.5,
+        "penalty_diff": 2.2,
+        "odds_delta": 1.5,
+        "overtime_rate": 6.09
+      },
+      "Brad Allen": {
+        "games": 7,
+        "avg_margin": -4.1,
+        "penalties_on_team": 6.1,
+        "penalty_diff": 0.1,
+        "odds_delta": -6.8,
+        "overtime_rate": 4.42
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": -3.0,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.5,
+        "odds_delta": -2.5,
+        "overtime_rate": 7.5
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": 3.5,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -0.8,
+        "odds_delta": 4.2,
+        "overtime_rate": 5.26
+      },
+      "Ron Torbert": {
+        "games": 6,
+        "avg_margin": -0.3,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 0.0,
+        "odds_delta": -6.1,
+        "overtime_rate": 4.65
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": 2.7,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 1.8,
+        "odds_delta": 4.7,
+        "overtime_rate": 7.14
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": 10.8,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 2.2,
+        "odds_delta": 4.2,
+        "overtime_rate": 4.35
+      },
+      "Clete Blakeman": {
+        "games": 5,
+        "avg_margin": -2.4,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -2.4,
+        "odds_delta": -2.2,
+        "overtime_rate": 5.98
+      },
+      "Alan Eck": {
+        "games": 4,
+        "avg_margin": 8.5,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 2.5,
+        "odds_delta": 7.5,
+        "overtime_rate": 3.03
+      },
+      "Clay Martin": {
+        "games": 4,
+        "avg_margin": 4.8,
+        "penalties_on_team": 4.8,
+        "penalty_diff": 0.8,
+        "odds_delta": 1.8,
+        "overtime_rate": 5.41
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": -5.0,
+        "penalties_on_team": 9.0,
+        "penalty_diff": 2.0,
+        "odds_delta": -6.2,
+        "overtime_rate": 12.12
+      },
+      "Bill Vinovich": {
+        "games": 3,
+        "avg_margin": -4.0,
+        "penalties_on_team": 3.7,
+        "penalty_diff": -0.7,
+        "odds_delta": -6.8,
+        "overtime_rate": 5.88
+      },
+      "Tony Corrente": {
+        "games": 3,
+        "avg_margin": 14.3,
+        "penalties_on_team": 5.0,
+        "penalty_diff": 0.0,
+        "odds_delta": 8.7,
+        "overtime_rate": 6.25
+      },
+      "Shawn Smith": {
+        "games": 3,
+        "avg_margin": 8.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.7,
+        "odds_delta": 4.2,
+        "overtime_rate": 7.08
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "CLE",
+        "type": "surge",
+        "point_delta": 11.0,
+        "referee": "Ron Torbert",
+        "final_margin": 3.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "NYG",
+        "type": "surge",
+        "point_delta": 14.7,
+        "referee": "Peter Morelli",
+        "final_margin": 15.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "WAS",
+        "type": "surge",
+        "point_delta": 16.0,
+        "referee": "Carl Cheffers",
+        "final_margin": 24.0
+      },
+      {
+        "week": 20,
+        "year": 2018,
+        "opponent": "LA",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -3.0
+      },
+      {
+        "week": 18,
+        "year": 2019,
+        "opponent": "MIN",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.8,
+        "total_points": 41.6
+      },
+      "Low-visibility windows": {
+        "penalties": 6.3,
+        "total_points": 46.4
+      },
+      "Other slots": {
+        "penalties": 6.2,
+        "total_points": 46.9
+      }
+    }
+  },
+  "KC": {
+    "team": "KC",
+    "referee_stats": {
+      "Carl Cheffers": {
+        "games": 13,
+        "avg_margin": 3.4,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 0.8,
+        "odds_delta": -3.0,
+        "overtime_rate": 8.62
+      },
+      "John Hussey": {
+        "games": 13,
+        "avg_margin": 7.0,
+        "penalties_on_team": 4.3,
+        "penalty_diff": -1.2,
+        "odds_delta": 3.3,
+        "overtime_rate": 5.93
+      },
+      "Shawn Hochuli": {
+        "games": 13,
+        "avg_margin": 4.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -0.9,
+        "odds_delta": -1.6,
+        "overtime_rate": 7.89
+      },
+      "Clete Blakeman": {
+        "games": 12,
+        "avg_margin": 1.9,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.2,
+        "odds_delta": -3.1,
+        "overtime_rate": 5.98
+      },
+      "Bill Vinovich": {
+        "games": 11,
+        "avg_margin": 8.1,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -0.5,
+        "odds_delta": 5.9,
+        "overtime_rate": 5.88
+      },
+      "Shawn Smith": {
+        "games": 10,
+        "avg_margin": 7.4,
+        "penalties_on_team": 6.1,
+        "penalty_diff": -0.1,
+        "odds_delta": 1.3,
+        "overtime_rate": 7.08
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": 1.6,
+        "penalties_on_team": 6.8,
+        "penalty_diff": -0.1,
+        "odds_delta": -3.4,
+        "overtime_rate": 4.42
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": 7.0,
+        "penalties_on_team": 7.6,
+        "penalty_diff": 0.7,
+        "odds_delta": -1.0,
+        "overtime_rate": 5.41
+      },
+      "Alex Kemp": {
+        "games": 5,
+        "avg_margin": 6.8,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -1.2,
+        "odds_delta": 1.9,
+        "overtime_rate": 6.09
+      },
+      "Tony Corrente": {
+        "games": 5,
+        "avg_margin": 7.6,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -2.0,
+        "odds_delta": 1.2,
+        "overtime_rate": 6.25
+      },
+      "Land Clark": {
+        "games": 5,
+        "avg_margin": 10.0,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 3.0,
+        "odds_delta": 2.5,
+        "overtime_rate": 7.5
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": 14.6,
+        "penalties_on_team": 3.4,
+        "penalty_diff": -2.4,
+        "odds_delta": 6.9,
+        "overtime_rate": 2.6
+      },
+      "Craig Wrolstad": {
+        "games": 5,
+        "avg_margin": 5.2,
+        "penalties_on_team": 8.0,
+        "penalty_diff": 2.6,
+        "odds_delta": -2.1,
+        "overtime_rate": 4.35
+      },
+      "Tra Blake": {
+        "games": 4,
+        "avg_margin": 9.0,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.5,
+        "odds_delta": 2.4,
+        "overtime_rate": 6.25
+      },
+      "Adrian Hill": {
+        "games": 4,
+        "avg_margin": 12.2,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.5,
+        "odds_delta": 3.5,
+        "overtime_rate": 7.14
+      },
+      "Jerome Boger": {
+        "games": 4,
+        "avg_margin": 10.2,
+        "penalties_on_team": 9.8,
+        "penalty_diff": 1.8,
+        "odds_delta": 6.9,
+        "overtime_rate": 1.25
+      },
+      "Scott Novak": {
+        "games": 4,
+        "avg_margin": 11.2,
+        "penalties_on_team": 4.0,
+        "penalty_diff": -1.5,
+        "odds_delta": 7.8,
+        "overtime_rate": 5.26
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": 4.3,
+        "penalties_on_team": 7.3,
+        "penalty_diff": -0.3,
+        "odds_delta": -2.7,
+        "overtime_rate": 12.12
+      },
+      "Ron Torbert": {
+        "games": 3,
+        "avg_margin": 0.3,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 0.3,
+        "odds_delta": -3.3,
+        "overtime_rate": 4.65
+      }
+    },
+    "narratives": [
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "NE",
+        "type": "collapse",
+        "point_delta": -13.3,
+        "referee": "John Hussey",
+        "final_margin": -3.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "CIN",
+        "type": "surge",
+        "point_delta": 29.3,
+        "referee": "Bill Vinovich",
+        "final_margin": 35.0
+      },
+      {
+        "week": 11,
+        "year": 2018,
+        "opponent": "LA",
+        "type": "collapse",
+        "point_delta": -14.7,
+        "referee": "Clete Blakeman",
+        "final_margin": -3.0
+      },
+      {
+        "week": 20,
+        "year": 2018,
+        "opponent": "NE",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Clete Blakeman",
+        "final_margin": -6.0
+      },
+      {
+        "week": 21,
+        "year": 2021,
+        "opponent": "CIN",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.1,
+        "total_points": 48.7
+      },
+      "Low-visibility windows": {
+        "penalties": 6.2,
+        "total_points": 49.1
+      },
+      "Other slots": {
+        "penalties": 6.1,
+        "total_points": 50.0
+      }
+    }
+  },
+  "CIN": {
+    "team": "CIN",
+    "referee_stats": {
+      "Adrian Hill": {
+        "games": 11,
+        "avg_margin": 0.3,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -2.3,
+        "odds_delta": 1.7,
+        "overtime_rate": 7.14
+      },
+      "John Hussey": {
+        "games": 10,
+        "avg_margin": -3.8,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -0.9,
+        "odds_delta": -0.1,
+        "overtime_rate": 5.93
+      },
+      "Bill Vinovich": {
+        "games": 9,
+        "avg_margin": -5.8,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -0.1,
+        "odds_delta": -3.7,
+        "overtime_rate": 5.88
+      },
+      "Clete Blakeman": {
+        "games": 8,
+        "avg_margin": 2.8,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.8,
+        "odds_delta": 3.0,
+        "overtime_rate": 5.98
+      },
+      "Alex Kemp": {
+        "games": 7,
+        "avg_margin": 4.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": -0.1,
+        "odds_delta": 4.4,
+        "overtime_rate": 6.09
+      },
+      "Jerome Boger": {
+        "games": 7,
+        "avg_margin": 0.1,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.9,
+        "odds_delta": 1.2,
+        "overtime_rate": 1.25
+      },
+      "Craig Wrolstad": {
+        "games": 7,
+        "avg_margin": -2.1,
+        "penalties_on_team": 6.3,
+        "penalty_diff": -2.0,
+        "odds_delta": -5.4,
+        "overtime_rate": 4.35
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": 2.1,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.6,
+        "odds_delta": 5.3,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 6,
+        "avg_margin": -1.3,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.2,
+        "odds_delta": -5.8,
+        "overtime_rate": 4.42
+      },
+      "Ron Torbert": {
+        "games": 6,
+        "avg_margin": 2.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -0.2,
+        "odds_delta": 1.6,
+        "overtime_rate": 4.65
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": -7.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -1.2,
+        "odds_delta": -3.1,
+        "overtime_rate": 5.26
+      },
+      "Shawn Hochuli": {
+        "games": 6,
+        "avg_margin": 2.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -2.0,
+        "odds_delta": -1.8,
+        "overtime_rate": 7.89
+      },
+      "Land Clark": {
+        "games": 5,
+        "avg_margin": -8.8,
+        "penalties_on_team": 3.6,
+        "penalty_diff": -2.2,
+        "odds_delta": -6.4,
+        "overtime_rate": 7.5
+      },
+      "Shawn Smith": {
+        "games": 5,
+        "avg_margin": -9.2,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -2.8,
+        "odds_delta": -4.8,
+        "overtime_rate": 7.08
+      },
+      "Tony Corrente": {
+        "games": 5,
+        "avg_margin": -9.6,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -0.8,
+        "odds_delta": -4.5,
+        "overtime_rate": 6.25
+      },
+      "Brad Rogers": {
+        "games": 4,
+        "avg_margin": 8.8,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 0.0,
+        "odds_delta": 6.6,
+        "overtime_rate": 2.6
+      },
+      "Clay Martin": {
+        "games": 4,
+        "avg_margin": 3.0,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 0.0,
+        "odds_delta": 3.6,
+        "overtime_rate": 5.41
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "CAR",
+        "type": "collapse",
+        "point_delta": -21.0,
+        "referee": "John Parry",
+        "final_margin": -10.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "KC",
+        "type": "collapse",
+        "point_delta": -36.3,
+        "referee": "Bill Vinovich",
+        "final_margin": -35.0
+      },
+      {
+        "week": 8,
+        "year": 2018,
+        "opponent": "TB",
+        "type": "surge",
+        "point_delta": 13.7,
+        "referee": "Alex Kemp",
+        "final_margin": 3.0
+      },
+      {
+        "week": 16,
+        "year": 2019,
+        "opponent": "MIA",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Brad Allen",
+        "final_margin": -3.0
+      },
+      {
+        "week": 5,
+        "year": 2021,
+        "opponent": "GB",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.8,
+        "total_points": 47.5
+      },
+      "Low-visibility windows": {
+        "penalties": 5.3,
+        "total_points": 47.5
+      },
+      "Other slots": {
+        "penalties": 5.3,
+        "total_points": 47.4
+      }
+    }
+  },
+  "DET": {
+    "team": "DET",
+    "referee_stats": {
+      "Clete Blakeman": {
+        "games": 10,
+        "avg_margin": 1.1,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -1.9,
+        "odds_delta": 4.2,
+        "overtime_rate": 5.98
+      },
+      "Clay Martin": {
+        "games": 9,
+        "avg_margin": -0.4,
+        "penalties_on_team": 5.6,
+        "penalty_diff": -0.2,
+        "odds_delta": 0.3,
+        "overtime_rate": 5.41
+      },
+      "Adrian Hill": {
+        "games": 9,
+        "avg_margin": -1.3,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 0.7,
+        "odds_delta": -0.5,
+        "overtime_rate": 7.14
+      },
+      "Shawn Hochuli": {
+        "games": 9,
+        "avg_margin": 0.7,
+        "penalties_on_team": 6.3,
+        "penalty_diff": -1.4,
+        "odds_delta": 1.4,
+        "overtime_rate": 7.89
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": 1.8,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -1.0,
+        "odds_delta": 3.6,
+        "overtime_rate": 6.09
+      },
+      "Scott Novak": {
+        "games": 8,
+        "avg_margin": 3.0,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 0.9,
+        "odds_delta": 2.6,
+        "overtime_rate": 5.26
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": 6.1,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 1.0,
+        "odds_delta": 7.6,
+        "overtime_rate": 5.93
+      },
+      "Brad Rogers": {
+        "games": 7,
+        "avg_margin": 2.3,
+        "penalties_on_team": 5.9,
+        "penalty_diff": 0.0,
+        "odds_delta": 3.9,
+        "overtime_rate": 2.6
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": -3.8,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -0.8,
+        "odds_delta": -4.4,
+        "overtime_rate": 5.88
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": -5.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.3,
+        "odds_delta": -1.8,
+        "overtime_rate": 4.35
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": 2.2,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -0.4,
+        "odds_delta": 4.9,
+        "overtime_rate": 1.25
+      },
+      "Land Clark": {
+        "games": 5,
+        "avg_margin": 5.2,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.8,
+        "odds_delta": 9.9,
+        "overtime_rate": 7.5
+      },
+      "Carl Cheffers": {
+        "games": 4,
+        "avg_margin": 9.5,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.8,
+        "odds_delta": 5.0,
+        "overtime_rate": 8.62
+      },
+      "Walt Anderson": {
+        "games": 4,
+        "avg_margin": -12.2,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -2.5,
+        "odds_delta": -6.5,
+        "overtime_rate": 12.12
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -16.2,
+        "penalties_on_team": 8.0,
+        "penalty_diff": 3.8,
+        "odds_delta": -10.5,
+        "overtime_rate": 6.25
+      },
+      "Shawn Smith": {
+        "games": 4,
+        "avg_margin": -7.2,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -1.8,
+        "odds_delta": -5.6,
+        "overtime_rate": 7.08
+      },
+      "Brad Allen": {
+        "games": 3,
+        "avg_margin": -3.7,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.0,
+        "odds_delta": 1.2,
+        "overtime_rate": 4.42
+      },
+      "Ron Torbert": {
+        "games": 3,
+        "avg_margin": -2.3,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 3.0,
+        "odds_delta": -3.5,
+        "overtime_rate": 4.65
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "SF",
+        "type": "surge",
+        "point_delta": 28.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -3.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "NE",
+        "type": "surge",
+        "point_delta": 33.0,
+        "referee": "Clete Blakeman",
+        "final_margin": 16.0
+      },
+      {
+        "week": 8,
+        "year": 2018,
+        "opponent": "SEA",
+        "type": "collapse",
+        "point_delta": -19.7,
+        "referee": "Walt Anderson",
+        "final_margin": -14.0
+      },
+      {
+        "week": 2,
+        "year": 2023,
+        "opponent": "SEA",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Alex Kemp",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.2,
+        "total_points": 50.9
+      },
+      "Low-visibility windows": {
+        "penalties": 5.9,
+        "total_points": 49.8
+      },
+      "Other slots": {
+        "penalties": 5.9,
+        "total_points": 49.9
+      }
+    }
+  },
+  "NE": {
+    "team": "NE",
+    "referee_stats": {
+      "Bill Vinovich": {
+        "games": 9,
+        "avg_margin": 2.1,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.8,
+        "odds_delta": 0.6,
+        "overtime_rate": 5.88
+      },
+      "John Hussey": {
+        "games": 9,
+        "avg_margin": -5.3,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -1.1,
+        "odds_delta": -6.2,
+        "overtime_rate": 5.93
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": -3.9,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -3.1,
+        "odds_delta": -5.6,
+        "overtime_rate": 4.42
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": 7.1,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 0.4,
+        "odds_delta": 5.3,
+        "overtime_rate": 7.89
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": 3.1,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.9,
+        "odds_delta": -1.5,
+        "overtime_rate": 6.09
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": 5.7,
+        "penalties_on_team": 4.9,
+        "penalty_diff": 0.3,
+        "odds_delta": 3.4,
+        "overtime_rate": 8.62
+      },
+      "Craig Wrolstad": {
+        "games": 7,
+        "avg_margin": 3.1,
+        "penalties_on_team": 6.1,
+        "penalty_diff": -1.0,
+        "odds_delta": 3.6,
+        "overtime_rate": 4.35
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": -4.4,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -0.6,
+        "odds_delta": -5.2,
+        "overtime_rate": 5.26
+      },
+      "Shawn Smith": {
+        "games": 7,
+        "avg_margin": -3.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -0.3,
+        "odds_delta": -5.4,
+        "overtime_rate": 7.08
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": 5.4,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 0.0,
+        "odds_delta": 4.7,
+        "overtime_rate": 5.98
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": 6.3,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 2.2,
+        "odds_delta": 4.2,
+        "overtime_rate": 7.14
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": 3.7,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 2.0,
+        "odds_delta": 5.2,
+        "overtime_rate": 7.5
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": 7.3,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 2.2,
+        "odds_delta": 3.2,
+        "overtime_rate": 5.41
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": -4.6,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 0.2,
+        "odds_delta": -2.0,
+        "overtime_rate": 4.65
+      },
+      "Brad Rogers": {
+        "games": 4,
+        "avg_margin": 8.8,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 2.8,
+        "odds_delta": 8.6,
+        "overtime_rate": 2.6
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -0.2,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -2.2,
+        "odds_delta": -3.2,
+        "overtime_rate": 6.25
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": -6.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 2.0,
+        "odds_delta": 2.5,
+        "overtime_rate": 3.03
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "JAX",
+        "type": "collapse",
+        "point_delta": -18.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -11.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "DET",
+        "type": "collapse",
+        "point_delta": -14.0,
+        "referee": "Clete Blakeman",
+        "final_margin": -16.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "MIA",
+        "type": "surge",
+        "point_delta": 37.7,
+        "referee": "Alex Kemp",
+        "final_margin": 31.0
+      },
+      {
+        "week": 6,
+        "year": 2021,
+        "opponent": "DAL",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Brad Allen",
+        "final_margin": -6.0
+      },
+      {
+        "week": 4,
+        "year": 2022,
+        "opponent": "GB",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Adrian Hill",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.3,
+        "total_points": 43.8
+      },
+      "Low-visibility windows": {
+        "penalties": 5.7,
+        "total_points": 41.7
+      },
+      "Other slots": {
+        "penalties": 5.6,
+        "total_points": 41.7
+      }
+    }
+  },
+  "CAR": {
+    "team": "CAR",
+    "referee_stats": {
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -3.0,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 0.1,
+        "odds_delta": 1.4,
+        "overtime_rate": 6.09
+      },
+      "Carl Cheffers": {
+        "games": 8,
+        "avg_margin": -10.6,
+        "penalties_on_team": 4.9,
+        "penalty_diff": -1.4,
+        "odds_delta": -7.1,
+        "overtime_rate": 8.62
+      },
+      "Clay Martin": {
+        "games": 8,
+        "avg_margin": -8.2,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 2.0,
+        "odds_delta": -4.6,
+        "overtime_rate": 5.41
+      },
+      "Bill Vinovich": {
+        "games": 7,
+        "avg_margin": -0.6,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 0.4,
+        "odds_delta": 2.0,
+        "overtime_rate": 5.88
+      },
+      "Adrian Hill": {
+        "games": 7,
+        "avg_margin": -1.1,
+        "penalties_on_team": 7.9,
+        "penalty_diff": 2.3,
+        "odds_delta": 3.3,
+        "overtime_rate": 7.14
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": -0.7,
+        "penalties_on_team": 8.1,
+        "penalty_diff": 3.4,
+        "odds_delta": 0.3,
+        "overtime_rate": 7.89
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": -8.2,
+        "penalties_on_team": 8.0,
+        "penalty_diff": 1.5,
+        "odds_delta": -5.4,
+        "overtime_rate": 2.6
+      },
+      "Clete Blakeman": {
+        "games": 6,
+        "avg_margin": -10.5,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 0.2,
+        "odds_delta": -4.8,
+        "overtime_rate": 5.98
+      },
+      "Jerome Boger": {
+        "games": 6,
+        "avg_margin": -6.3,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -3.5,
+        "odds_delta": -3.7,
+        "overtime_rate": 1.25
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": 0.0,
+        "penalties_on_team": 6.6,
+        "penalty_diff": -2.4,
+        "odds_delta": 3.5,
+        "overtime_rate": 4.65
+      },
+      "John Hussey": {
+        "games": 5,
+        "avg_margin": -14.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.8,
+        "odds_delta": -11.3,
+        "overtime_rate": 5.93
+      },
+      "Shawn Smith": {
+        "games": 5,
+        "avg_margin": -14.8,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.2,
+        "odds_delta": -11.6,
+        "overtime_rate": 7.08
+      },
+      "Craig Wrolstad": {
+        "games": 5,
+        "avg_margin": 1.2,
+        "penalties_on_team": 3.2,
+        "penalty_diff": -3.0,
+        "odds_delta": 9.0,
+        "overtime_rate": 4.35
+      },
+      "Walt Anderson": {
+        "games": 4,
+        "avg_margin": -4.8,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.5,
+        "odds_delta": -4.2,
+        "overtime_rate": 12.12
+      },
+      "Tra Blake": {
+        "games": 4,
+        "avg_margin": -12.8,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.5,
+        "odds_delta": -6.5,
+        "overtime_rate": 6.25
+      },
+      "Brad Allen": {
+        "games": 4,
+        "avg_margin": -4.2,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 2.0,
+        "odds_delta": 0.6,
+        "overtime_rate": 4.42
+      },
+      "Ronald Torbert": {
+        "games": 4,
+        "avg_margin": 2.0,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 1.2,
+        "odds_delta": 6.0,
+        "overtime_rate": 3.12
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -2.0,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -2.5,
+        "odds_delta": 2.2,
+        "overtime_rate": 6.25
+      },
+      "Land Clark": {
+        "games": 3,
+        "avg_margin": -5.0,
+        "penalties_on_team": 3.7,
+        "penalty_diff": -1.0,
+        "odds_delta": 0.5,
+        "overtime_rate": 7.5
+      },
+      "Scott Novak": {
+        "games": 3,
+        "avg_margin": -6.3,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.0,
+        "odds_delta": -9.7,
+        "overtime_rate": 5.26
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "ATL",
+        "type": "collapse",
+        "point_delta": -15.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -7.0
+      },
+      {
+        "week": 8,
+        "year": 2018,
+        "opponent": "BAL",
+        "type": "surge",
+        "point_delta": 15.0,
+        "referee": "Peter Morelli",
+        "final_margin": 15.0
+      },
+      {
+        "week": 10,
+        "year": 2018,
+        "opponent": "PIT",
+        "type": "collapse",
+        "point_delta": -42.0,
+        "referee": "Walt Coleman",
+        "final_margin": -31.0
+      },
+      {
+        "week": 6,
+        "year": 2021,
+        "opponent": "MIN",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Craig Wrolstad",
+        "final_margin": -6.0
+      },
+      {
+        "week": 8,
+        "year": 2022,
+        "opponent": "ATL",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.6,
+        "total_points": 40.9
+      },
+      "Low-visibility windows": {
+        "penalties": 6.0,
+        "total_points": 45.9
+      },
+      "Other slots": {
+        "penalties": 6.0,
+        "total_points": 45.9
+      }
+    }
+  },
+  "TB": {
+    "team": "TB",
+    "referee_stats": {
+      "Shawn Hochuli": {
+        "games": 10,
+        "avg_margin": 2.7,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 0.3,
+        "odds_delta": 2.4,
+        "overtime_rate": 7.89
+      },
+      "Alex Kemp": {
+        "games": 9,
+        "avg_margin": 4.2,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.7,
+        "odds_delta": 1.3,
+        "overtime_rate": 6.09
+      },
+      "Scott Novak": {
+        "games": 9,
+        "avg_margin": 10.4,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.6,
+        "odds_delta": 9.3,
+        "overtime_rate": 5.26
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": 1.6,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 0.0,
+        "odds_delta": -0.7,
+        "overtime_rate": 4.42
+      },
+      "Craig Wrolstad": {
+        "games": 8,
+        "avg_margin": -2.8,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 0.8,
+        "odds_delta": -5.9,
+        "overtime_rate": 4.35
+      },
+      "Jerome Boger": {
+        "games": 8,
+        "avg_margin": 0.2,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 1.6,
+        "odds_delta": 0.2,
+        "overtime_rate": 1.25
+      },
+      "Adrian Hill": {
+        "games": 7,
+        "avg_margin": 6.6,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 2.4,
+        "odds_delta": 4.8,
+        "overtime_rate": 7.14
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": -4.9,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 0.1,
+        "odds_delta": -7.6,
+        "overtime_rate": 5.93
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": 1.7,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 0.5,
+        "odds_delta": -0.4,
+        "overtime_rate": 5.88
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": 7.3,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 0.5,
+        "odds_delta": 6.3,
+        "overtime_rate": 5.41
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": 2.3,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 0.8,
+        "odds_delta": 0.6,
+        "overtime_rate": 7.5
+      },
+      "Carl Cheffers": {
+        "games": 6,
+        "avg_margin": 9.7,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 0.0,
+        "odds_delta": 8.2,
+        "overtime_rate": 8.62
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": 1.0,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -0.8,
+        "odds_delta": -6.3,
+        "overtime_rate": 2.6
+      },
+      "Clete Blakeman": {
+        "games": 5,
+        "avg_margin": 4.4,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 2.2,
+        "odds_delta": 3.0,
+        "overtime_rate": 5.98
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": 6.5,
+        "penalties_on_team": 4.8,
+        "penalty_diff": 0.0,
+        "odds_delta": 1.8,
+        "overtime_rate": 6.25
+      },
+      "Shawn Smith": {
+        "games": 4,
+        "avg_margin": -0.2,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -2.0,
+        "odds_delta": -1.1,
+        "overtime_rate": 7.08
+      },
+      "Ron Torbert": {
+        "games": 4,
+        "avg_margin": -0.2,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -2.5,
+        "odds_delta": 1.1,
+        "overtime_rate": 4.65
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": 3.3,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 1.7,
+        "odds_delta": -1.8,
+        "overtime_rate": 3.03
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 3.7,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 1.3,
+        "odds_delta": 1.8,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "PIT",
+        "type": "collapse",
+        "point_delta": -10.0,
+        "referee": "Peter Morelli",
+        "final_margin": -3.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "CHI",
+        "type": "collapse",
+        "point_delta": -41.7,
+        "referee": "Jerome Boger",
+        "final_margin": -38.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "CLE",
+        "type": "surge",
+        "point_delta": 18.3,
+        "referee": "Shawn Hochuli",
+        "final_margin": 3.0
+      },
+      {
+        "week": 9,
+        "year": 2019,
+        "opponent": "SEA",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "John Hussey",
+        "final_margin": -6.0
+      },
+      {
+        "week": 17,
+        "year": 2019,
+        "opponent": "ATL",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.1,
+        "total_points": 45.6
+      },
+      "Low-visibility windows": {
+        "penalties": 6.2,
+        "total_points": 50.3
+      },
+      "Other slots": {
+        "penalties": 6.2,
+        "total_points": 50.2
+      }
+    }
+  },
+  "LV": {
+    "team": "LV",
+    "referee_stats": {
+      "Shawn Hochuli": {
+        "games": 9,
+        "avg_margin": -0.3,
+        "penalties_on_team": 6.6,
+        "penalty_diff": -0.7,
+        "odds_delta": 2.8,
+        "overtime_rate": 7.89
+      },
+      "Shawn Smith": {
+        "games": 9,
+        "avg_margin": 0.0,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 0.9,
+        "odds_delta": 2.0,
+        "overtime_rate": 7.08
+      },
+      "Craig Wrolstad": {
+        "games": 9,
+        "avg_margin": -6.4,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 1.2,
+        "odds_delta": -4.1,
+        "overtime_rate": 4.35
+      },
+      "Clete Blakeman": {
+        "games": 8,
+        "avg_margin": -4.8,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -1.1,
+        "odds_delta": -1.6,
+        "overtime_rate": 5.98
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": -9.6,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 1.9,
+        "odds_delta": -6.9,
+        "overtime_rate": 5.26
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": -7.6,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 3.1,
+        "odds_delta": -4.1,
+        "overtime_rate": 5.93
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": -8.3,
+        "penalties_on_team": 5.6,
+        "penalty_diff": -1.1,
+        "odds_delta": -1.8,
+        "overtime_rate": 5.41
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": -7.3,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 0.5,
+        "odds_delta": -5.2,
+        "overtime_rate": 5.88
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": -1.3,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -1.0,
+        "odds_delta": -0.6,
+        "overtime_rate": 2.6
+      },
+      "Carl Cheffers": {
+        "games": 6,
+        "avg_margin": -5.7,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -0.3,
+        "odds_delta": -2.5,
+        "overtime_rate": 8.62
+      },
+      "Ron Torbert": {
+        "games": 6,
+        "avg_margin": 5.2,
+        "penalties_on_team": 8.5,
+        "penalty_diff": 2.8,
+        "odds_delta": 9.2,
+        "overtime_rate": 4.65
+      },
+      "Land Clark": {
+        "games": 5,
+        "avg_margin": -6.8,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.4,
+        "odds_delta": -6.0,
+        "overtime_rate": 7.5
+      },
+      "Brad Allen": {
+        "games": 5,
+        "avg_margin": -9.2,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 0.8,
+        "odds_delta": -5.9,
+        "overtime_rate": 4.42
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": -7.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.8,
+        "odds_delta": -1.9,
+        "overtime_rate": 1.25
+      },
+      "Tra Blake": {
+        "games": 4,
+        "avg_margin": -2.5,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -0.5,
+        "odds_delta": -1.5,
+        "overtime_rate": 6.25
+      },
+      "Alan Eck": {
+        "games": 4,
+        "avg_margin": -1.5,
+        "penalties_on_team": 3.8,
+        "penalty_diff": -0.8,
+        "odds_delta": 0.6,
+        "overtime_rate": 3.03
+      },
+      "Alex Kemp": {
+        "games": 3,
+        "avg_margin": -16.0,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 0.7,
+        "odds_delta": -11.3,
+        "overtime_rate": 6.09
+      },
+      "Tony Corrente": {
+        "games": 3,
+        "avg_margin": 9.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.3,
+        "odds_delta": 10.7,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "DEN",
+        "type": "surge",
+        "point_delta": 19.0,
+        "referee": "John Hussey",
+        "final_margin": -1.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "CLE",
+        "type": "surge",
+        "point_delta": 12.7,
+        "referee": "Walt Anderson",
+        "final_margin": 3.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "LAC",
+        "type": "collapse",
+        "point_delta": -14.0,
+        "referee": "Alex Kemp",
+        "final_margin": -16.0
+      },
+      {
+        "week": 15,
+        "year": 2020,
+        "opponent": "LAC",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "John Hussey",
+        "final_margin": -3.0
+      },
+      {
+        "week": 2,
+        "year": 2022,
+        "opponent": "ARI",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Clete Blakeman",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.7,
+        "total_points": 46.4
+      },
+      "Low-visibility windows": {
+        "penalties": 6.3,
+        "total_points": 47.1
+      },
+      "Other slots": {
+        "penalties": 6.3,
+        "total_points": 46.9
+      }
+    }
+  },
+  "SF": {
+    "team": "SF",
+    "referee_stats": {
+      "Alex Kemp": {
+        "games": 12,
+        "avg_margin": 2.8,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 0.3,
+        "odds_delta": 1.0,
+        "overtime_rate": 6.09
+      },
+      "Carl Cheffers": {
+        "games": 11,
+        "avg_margin": 5.1,
+        "penalties_on_team": 5.8,
+        "penalty_diff": 0.7,
+        "odds_delta": 1.8,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 9,
+        "avg_margin": 6.8,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -1.7,
+        "odds_delta": 4.0,
+        "overtime_rate": 4.42
+      },
+      "Shawn Smith": {
+        "games": 9,
+        "avg_margin": 10.0,
+        "penalties_on_team": 8.0,
+        "penalty_diff": 3.0,
+        "odds_delta": 8.4,
+        "overtime_rate": 7.08
+      },
+      "Clay Martin": {
+        "games": 8,
+        "avg_margin": 2.1,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 1.8,
+        "odds_delta": -1.1,
+        "overtime_rate": 5.41
+      },
+      "Craig Wrolstad": {
+        "games": 8,
+        "avg_margin": -0.1,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.4,
+        "odds_delta": -4.6,
+        "overtime_rate": 4.35
+      },
+      "Bill Vinovich": {
+        "games": 8,
+        "avg_margin": -3.0,
+        "penalties_on_team": 5.9,
+        "penalty_diff": 0.2,
+        "odds_delta": -4.9,
+        "overtime_rate": 5.88
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": 1.7,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.7,
+        "odds_delta": -2.5,
+        "overtime_rate": 5.98
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": 2.9,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.3,
+        "odds_delta": -1.4,
+        "overtime_rate": 7.89
+      },
+      "Ron Torbert": {
+        "games": 6,
+        "avg_margin": 8.2,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -0.2,
+        "odds_delta": 6.2,
+        "overtime_rate": 4.65
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": 5.2,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -0.2,
+        "odds_delta": -0.2,
+        "overtime_rate": 2.6
+      },
+      "John Hussey": {
+        "games": 5,
+        "avg_margin": 2.0,
+        "penalties_on_team": 7.6,
+        "penalty_diff": 1.2,
+        "odds_delta": -1.0,
+        "overtime_rate": 5.93
+      },
+      "Tony Corrente": {
+        "games": 5,
+        "avg_margin": 1.0,
+        "penalties_on_team": 8.0,
+        "penalty_diff": 2.8,
+        "odds_delta": 2.8,
+        "overtime_rate": 6.25
+      },
+      "Scott Novak": {
+        "games": 5,
+        "avg_margin": 5.6,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 1.2,
+        "odds_delta": 0.4,
+        "overtime_rate": 5.26
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": 6.0,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -1.2,
+        "odds_delta": 5.7,
+        "overtime_rate": 1.25
+      },
+      "Land Clark": {
+        "games": 4,
+        "avg_margin": -6.0,
+        "penalties_on_team": 5.5,
+        "penalty_diff": 1.2,
+        "odds_delta": -12.0,
+        "overtime_rate": 7.5
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": -0.7,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 1.7,
+        "odds_delta": -3.7,
+        "overtime_rate": 12.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "DET",
+        "type": "surge",
+        "point_delta": 11.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": 3.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "LA",
+        "type": "collapse",
+        "point_delta": -24.0,
+        "referee": "Walt Anderson",
+        "final_margin": -29.0
+      },
+      {
+        "week": 8,
+        "year": 2018,
+        "opponent": "ARI",
+        "type": "surge",
+        "point_delta": 11.0,
+        "referee": "Brad Allen",
+        "final_margin": -3.0
+      },
+      {
+        "week": 10,
+        "year": 2019,
+        "opponent": "SEA",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Alex Kemp",
+        "final_margin": -3.0
+      },
+      {
+        "week": 22,
+        "year": 2023,
+        "opponent": "KC",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.5,
+        "total_points": 45.8
+      },
+      "Low-visibility windows": {
+        "penalties": 6.4,
+        "total_points": 47.3
+      },
+      "Other slots": {
+        "penalties": 6.3,
+        "total_points": 47.3
+      }
+    }
+  },
+  "ARI": {
+    "team": "ARI",
+    "referee_stats": {
+      "Carl Cheffers": {
+        "games": 10,
+        "avg_margin": -2.2,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.3,
+        "odds_delta": 0.9,
+        "overtime_rate": 8.62
+      },
+      "Craig Wrolstad": {
+        "games": 9,
+        "avg_margin": -11.8,
+        "penalties_on_team": 8.2,
+        "penalty_diff": 2.4,
+        "odds_delta": -10.4,
+        "overtime_rate": 4.35
+      },
+      "Jerome Boger": {
+        "games": 8,
+        "avg_margin": 0.8,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -0.2,
+        "odds_delta": 1.9,
+        "overtime_rate": 1.25
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -14.4,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 0.4,
+        "odds_delta": -9.3,
+        "overtime_rate": 6.09
+      },
+      "Shawn Smith": {
+        "games": 8,
+        "avg_margin": -5.4,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -1.1,
+        "odds_delta": -4.7,
+        "overtime_rate": 7.08
+      },
+      "John Hussey": {
+        "games": 8,
+        "avg_margin": 6.9,
+        "penalties_on_team": 5.9,
+        "penalty_diff": 0.4,
+        "odds_delta": 10.1,
+        "overtime_rate": 5.93
+      },
+      "Adrian Hill": {
+        "games": 7,
+        "avg_margin": -5.4,
+        "penalties_on_team": 7.6,
+        "penalty_diff": 2.1,
+        "odds_delta": -4.9,
+        "overtime_rate": 7.14
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": -8.4,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.4,
+        "odds_delta": -3.9,
+        "overtime_rate": 5.26
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": 4.1,
+        "penalties_on_team": 6.9,
+        "penalty_diff": 1.7,
+        "odds_delta": 7.4,
+        "overtime_rate": 5.98
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": -10.5,
+        "penalties_on_team": 5.0,
+        "penalty_diff": 0.0,
+        "odds_delta": -8.1,
+        "overtime_rate": 5.41
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": 5.8,
+        "penalties_on_team": 6.7,
+        "penalty_diff": -0.3,
+        "odds_delta": 2.0,
+        "overtime_rate": 7.5
+      },
+      "Bill Vinovich": {
+        "games": 5,
+        "avg_margin": -0.2,
+        "penalties_on_team": 6.4,
+        "penalty_diff": 1.8,
+        "odds_delta": 3.1,
+        "overtime_rate": 5.88
+      },
+      "Ronald Torbert": {
+        "games": 4,
+        "avg_margin": -0.8,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.5,
+        "odds_delta": 1.6,
+        "overtime_rate": 3.12
+      },
+      "Ron Torbert": {
+        "games": 4,
+        "avg_margin": -2.0,
+        "penalties_on_team": 3.8,
+        "penalty_diff": 0.0,
+        "odds_delta": 2.8,
+        "overtime_rate": 4.65
+      },
+      "Brad Allen": {
+        "games": 4,
+        "avg_margin": 5.8,
+        "penalties_on_team": 8.2,
+        "penalty_diff": 2.5,
+        "odds_delta": 9.5,
+        "overtime_rate": 4.42
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": -5.3,
+        "penalties_on_team": 4.3,
+        "penalty_diff": -1.7,
+        "odds_delta": 1.8,
+        "overtime_rate": 6.25
+      },
+      "Shawn Hochuli": {
+        "games": 3,
+        "avg_margin": -2.3,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 1.0,
+        "odds_delta": -1.2,
+        "overtime_rate": 7.89
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "LA",
+        "type": "collapse",
+        "point_delta": -16.0,
+        "referee": "Craig Wrolstad",
+        "final_margin": -34.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "CHI",
+        "type": "surge",
+        "point_delta": 24.0,
+        "referee": "Bill Vinovich",
+        "final_margin": -2.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "SEA",
+        "type": "surge",
+        "point_delta": 15.0,
+        "referee": "John Hussey",
+        "final_margin": -3.0
+      },
+      {
+        "week": 16,
+        "year": 2022,
+        "opponent": "TB",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "John Hussey",
+        "final_margin": -3.0
+      },
+      {
+        "week": 16,
+        "year": 2024,
+        "opponent": "CAR",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Adrian Hill",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.9,
+        "total_points": 46.4
+      },
+      "Low-visibility windows": {
+        "penalties": 6.5,
+        "total_points": 46.5
+      },
+      "Other slots": {
+        "penalties": 6.5,
+        "total_points": 46.5
+      }
+    }
+  },
+  "TEN": {
+    "team": "TEN",
+    "referee_stats": {
+      "Clete Blakeman": {
+        "games": 11,
+        "avg_margin": 2.8,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -1.5,
+        "odds_delta": 3.4,
+        "overtime_rate": 5.98
+      },
+      "John Hussey": {
+        "games": 9,
+        "avg_margin": -1.3,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -1.0,
+        "odds_delta": 1.3,
+        "overtime_rate": 5.93
+      },
+      "Shawn Smith": {
+        "games": 9,
+        "avg_margin": 2.7,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.3,
+        "odds_delta": 4.7,
+        "overtime_rate": 7.08
+      },
+      "Bill Vinovich": {
+        "games": 9,
+        "avg_margin": 7.4,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -1.2,
+        "odds_delta": 8.7,
+        "overtime_rate": 5.88
+      },
+      "Jerome Boger": {
+        "games": 8,
+        "avg_margin": -2.9,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -2.0,
+        "odds_delta": -6.0,
+        "overtime_rate": 1.25
+      },
+      "Brad Rogers": {
+        "games": 7,
+        "avg_margin": -2.4,
+        "penalties_on_team": 6.6,
+        "penalty_diff": -0.7,
+        "odds_delta": 0.3,
+        "overtime_rate": 2.6
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": -0.6,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 0.3,
+        "odds_delta": 0.6,
+        "overtime_rate": 7.89
+      },
+      "Brad Allen": {
+        "games": 6,
+        "avg_margin": 3.8,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -2.7,
+        "odds_delta": 5.2,
+        "overtime_rate": 4.42
+      },
+      "Carl Cheffers": {
+        "games": 6,
+        "avg_margin": -3.3,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -1.3,
+        "odds_delta": 0.2,
+        "overtime_rate": 8.62
+      },
+      "Alex Kemp": {
+        "games": 6,
+        "avg_margin": -1.0,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 0.8,
+        "odds_delta": -0.4,
+        "overtime_rate": 6.09
+      },
+      "Scott Novak": {
+        "games": 5,
+        "avg_margin": -3.6,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.4,
+        "odds_delta": -4.3,
+        "overtime_rate": 5.26
+      },
+      "Clay Martin": {
+        "games": 5,
+        "avg_margin": -3.0,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -2.6,
+        "odds_delta": -5.3,
+        "overtime_rate": 5.41
+      },
+      "Adrian Hill": {
+        "games": 5,
+        "avg_margin": -0.4,
+        "penalties_on_team": 7.4,
+        "penalty_diff": -1.4,
+        "odds_delta": 0.4,
+        "overtime_rate": 7.14
+      },
+      "Craig Wrolstad": {
+        "games": 5,
+        "avg_margin": -12.8,
+        "penalties_on_team": 9.0,
+        "penalty_diff": 2.8,
+        "odds_delta": -8.3,
+        "overtime_rate": 4.35
+      },
+      "Ron Torbert": {
+        "games": 4,
+        "avg_margin": -2.0,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 1.5,
+        "odds_delta": -1.2,
+        "overtime_rate": 4.65
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -4.5,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -0.8,
+        "odds_delta": -5.5,
+        "overtime_rate": 6.25
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": -6.0,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -0.3,
+        "odds_delta": -3.2,
+        "overtime_rate": 3.03
+      },
+      "Land Clark": {
+        "games": 3,
+        "avg_margin": 1.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 1.0,
+        "odds_delta": -1.5,
+        "overtime_rate": 7.5
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "HOU",
+        "type": "surge",
+        "point_delta": 10.0,
+        "referee": "Peter Morelli",
+        "final_margin": 3.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "BAL",
+        "type": "collapse",
+        "point_delta": -22.7,
+        "referee": "Carl Cheffers",
+        "final_margin": -21.0
+      },
+      {
+        "week": 9,
+        "year": 2018,
+        "opponent": "DAL",
+        "type": "surge",
+        "point_delta": 21.7,
+        "referee": "Clete Blakeman",
+        "final_margin": 14.0
+      },
+      {
+        "week": 4,
+        "year": 2021,
+        "opponent": "NYJ",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Adrian Hill",
+        "final_margin": -3.0
+      },
+      {
+        "week": 9,
+        "year": 2022,
+        "opponent": "KC",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Clete Blakeman",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.6,
+        "total_points": 42.0
+      },
+      "Low-visibility windows": {
+        "penalties": 6.3,
+        "total_points": 44.6
+      },
+      "Other slots": {
+        "penalties": 6.3,
+        "total_points": 44.8
+      }
+    }
+  },
+  "IND": {
+    "team": "IND",
+    "referee_stats": {
+      "Craig Wrolstad": {
+        "games": 10,
+        "avg_margin": 3.0,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -1.9,
+        "odds_delta": 3.1,
+        "overtime_rate": 4.35
+      },
+      "Alex Kemp": {
+        "games": 9,
+        "avg_margin": -2.9,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.2,
+        "odds_delta": -3.7,
+        "overtime_rate": 6.09
+      },
+      "Carl Cheffers": {
+        "games": 8,
+        "avg_margin": -5.2,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 1.2,
+        "odds_delta": -3.5,
+        "overtime_rate": 8.62
+      },
+      "Shawn Smith": {
+        "games": 8,
+        "avg_margin": -0.6,
+        "penalties_on_team": 4.5,
+        "penalty_diff": 0.5,
+        "odds_delta": 0.4,
+        "overtime_rate": 7.08
+      },
+      "Bill Vinovich": {
+        "games": 8,
+        "avg_margin": 0.8,
+        "penalties_on_team": 4.0,
+        "penalty_diff": -2.9,
+        "odds_delta": -0.1,
+        "overtime_rate": 5.88
+      },
+      "Brad Allen": {
+        "games": 7,
+        "avg_margin": 3.4,
+        "penalties_on_team": 5.9,
+        "penalty_diff": 1.6,
+        "odds_delta": 2.0,
+        "overtime_rate": 4.42
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": 0.7,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -0.7,
+        "odds_delta": -2.1,
+        "overtime_rate": 5.93
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": -8.9,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 0.0,
+        "odds_delta": -5.8,
+        "overtime_rate": 7.89
+      },
+      "Clay Martin": {
+        "games": 7,
+        "avg_margin": -7.6,
+        "penalties_on_team": 4.1,
+        "penalty_diff": -1.3,
+        "odds_delta": -8.9,
+        "overtime_rate": 5.41
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": -1.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": -0.5,
+        "odds_delta": -0.5,
+        "overtime_rate": 7.5
+      },
+      "Clete Blakeman": {
+        "games": 6,
+        "avg_margin": 7.3,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 0.8,
+        "odds_delta": 7.8,
+        "overtime_rate": 5.98
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": 7.2,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -1.6,
+        "odds_delta": 8.7,
+        "overtime_rate": 2.6
+      },
+      "Scott Novak": {
+        "games": 5,
+        "avg_margin": -5.4,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -0.2,
+        "odds_delta": -7.0,
+        "overtime_rate": 5.26
+      },
+      "Tra Blake": {
+        "games": 4,
+        "avg_margin": 1.8,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.5,
+        "odds_delta": 4.5,
+        "overtime_rate": 6.25
+      },
+      "Adrian Hill": {
+        "games": 4,
+        "avg_margin": 2.2,
+        "penalties_on_team": 4.2,
+        "penalty_diff": -1.8,
+        "odds_delta": 0.6,
+        "overtime_rate": 7.14
+      },
+      "Jerome Boger": {
+        "games": 4,
+        "avg_margin": 9.2,
+        "penalties_on_team": 4.5,
+        "penalty_diff": -1.2,
+        "odds_delta": 4.9,
+        "overtime_rate": 1.25
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -0.5,
+        "penalties_on_team": 4.5,
+        "penalty_diff": -3.2,
+        "odds_delta": -2.0,
+        "overtime_rate": 6.25
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": 16.7,
+        "penalties_on_team": 7.3,
+        "penalty_diff": -1.0,
+        "odds_delta": 10.5,
+        "overtime_rate": 12.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "WAS",
+        "type": "surge",
+        "point_delta": 23.0,
+        "referee": "Clete Blakeman",
+        "final_margin": 12.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "NE",
+        "type": "collapse",
+        "point_delta": -15.7,
+        "referee": "Shawn Hochuli",
+        "final_margin": -14.0
+      },
+      {
+        "week": 7,
+        "year": 2018,
+        "opponent": "BUF",
+        "type": "surge",
+        "point_delta": 40.3,
+        "referee": "Brad Allen",
+        "final_margin": 32.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "HOU",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -3.0
+      },
+      {
+        "week": 1,
+        "year": 2019,
+        "opponent": "LAC",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Shawn Smith",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.5,
+        "total_points": 46.0
+      },
+      "Low-visibility windows": {
+        "penalties": 5.6,
+        "total_points": 47.3
+      },
+      "Other slots": {
+        "penalties": 5.6,
+        "total_points": 47.3
+      }
+    }
+  },
+  "MIA": {
+    "team": "MIA",
+    "referee_stats": {
+      "Adrian Hill": {
+        "games": 10,
+        "avg_margin": -0.7,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -1.1,
+        "odds_delta": 0.8,
+        "overtime_rate": 7.14
+      },
+      "Brad Allen": {
+        "games": 9,
+        "avg_margin": 3.7,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 1.3,
+        "odds_delta": 6.5,
+        "overtime_rate": 4.42
+      },
+      "Clay Martin": {
+        "games": 9,
+        "avg_margin": -1.0,
+        "penalties_on_team": 5.4,
+        "penalty_diff": -1.0,
+        "odds_delta": 2.8,
+        "overtime_rate": 5.41
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -4.2,
+        "penalties_on_team": 6.4,
+        "penalty_diff": -0.5,
+        "odds_delta": -2.8,
+        "overtime_rate": 6.09
+      },
+      "Jerome Boger": {
+        "games": 8,
+        "avg_margin": -9.6,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.1,
+        "odds_delta": -7.6,
+        "overtime_rate": 1.25
+      },
+      "John Hussey": {
+        "games": 8,
+        "avg_margin": 7.5,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -0.9,
+        "odds_delta": 5.4,
+        "overtime_rate": 5.93
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": -4.7,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.5,
+        "odds_delta": -4.7,
+        "overtime_rate": 4.35
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": -11.0,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.5,
+        "odds_delta": -11.8,
+        "overtime_rate": 5.88
+      },
+      "Ron Torbert": {
+        "games": 6,
+        "avg_margin": 10.3,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.8,
+        "odds_delta": 7.2,
+        "overtime_rate": 4.65
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": -2.5,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.3,
+        "odds_delta": -1.8,
+        "overtime_rate": 5.26
+      },
+      "Shawn Smith": {
+        "games": 6,
+        "avg_margin": -12.0,
+        "penalties_on_team": 6.7,
+        "penalty_diff": -0.2,
+        "odds_delta": -6.5,
+        "overtime_rate": 7.08
+      },
+      "Land Clark": {
+        "games": 5,
+        "avg_margin": 1.2,
+        "penalties_on_team": 6.8,
+        "penalty_diff": -0.8,
+        "odds_delta": 0.7,
+        "overtime_rate": 7.5
+      },
+      "Shawn Hochuli": {
+        "games": 5,
+        "avg_margin": 8.4,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -1.6,
+        "odds_delta": 4.9,
+        "overtime_rate": 7.89
+      },
+      "Tra Blake": {
+        "games": 5,
+        "avg_margin": -2.6,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 1.0,
+        "odds_delta": -1.0,
+        "overtime_rate": 6.25
+      },
+      "Clete Blakeman": {
+        "games": 4,
+        "avg_margin": -14.5,
+        "penalties_on_team": 7.5,
+        "penalty_diff": 0.0,
+        "odds_delta": -11.2,
+        "overtime_rate": 5.98
+      },
+      "Carl Cheffers": {
+        "games": 3,
+        "avg_margin": -3.3,
+        "penalties_on_team": 7.0,
+        "penalty_diff": -1.0,
+        "odds_delta": 5.7,
+        "overtime_rate": 8.62
+      },
+      "Brad Rogers": {
+        "games": 3,
+        "avg_margin": 1.0,
+        "penalties_on_team": 9.0,
+        "penalty_diff": 4.3,
+        "odds_delta": 1.0,
+        "overtime_rate": 2.6
+      }
+    },
+    "narratives": [
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "NE",
+        "type": "collapse",
+        "point_delta": -38.7,
+        "referee": "Alex Kemp",
+        "final_margin": -31.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "CHI",
+        "type": "surge",
+        "point_delta": 14.0,
+        "referee": "Walt Anderson",
+        "final_margin": 3.0
+      },
+      {
+        "week": 8,
+        "year": 2018,
+        "opponent": "HOU",
+        "type": "collapse",
+        "point_delta": -13.0,
+        "referee": "Shawn Smith",
+        "final_margin": -19.0
+      },
+      {
+        "week": 3,
+        "year": 2021,
+        "opponent": "LV",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Carl Cheffers",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.7,
+        "total_points": 42.4
+      },
+      "Low-visibility windows": {
+        "penalties": 5.9,
+        "total_points": 47.4
+      },
+      "Other slots": {
+        "penalties": 5.9,
+        "total_points": 47.4
+      }
+    }
+  },
+  "SEA": {
+    "team": "SEA",
+    "referee_stats": {
+      "Clete Blakeman": {
+        "games": 11,
+        "avg_margin": -1.7,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.4,
+        "odds_delta": 0.2,
+        "overtime_rate": 5.98
+      },
+      "Shawn Smith": {
+        "games": 10,
+        "avg_margin": 0.4,
+        "penalties_on_team": 6.1,
+        "penalty_diff": 0.4,
+        "odds_delta": -1.1,
+        "overtime_rate": 7.08
+      },
+      "Carl Cheffers": {
+        "games": 10,
+        "avg_margin": 4.9,
+        "penalties_on_team": 7.1,
+        "penalty_diff": -0.5,
+        "odds_delta": 3.8,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": -2.6,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -0.8,
+        "odds_delta": -4.1,
+        "overtime_rate": 4.42
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": -6.9,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 1.2,
+        "odds_delta": -4.6,
+        "overtime_rate": 7.89
+      },
+      "John Hussey": {
+        "games": 7,
+        "avg_margin": -2.4,
+        "penalties_on_team": 7.4,
+        "penalty_diff": 1.4,
+        "odds_delta": -3.6,
+        "overtime_rate": 5.93
+      },
+      "Alex Kemp": {
+        "games": 7,
+        "avg_margin": -2.9,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 1.0,
+        "odds_delta": 0.6,
+        "overtime_rate": 6.09
+      },
+      "Tony Corrente": {
+        "games": 7,
+        "avg_margin": 6.1,
+        "penalties_on_team": 5.4,
+        "penalty_diff": 0.1,
+        "odds_delta": 2.2,
+        "overtime_rate": 6.25
+      },
+      "Scott Novak": {
+        "games": 6,
+        "avg_margin": 11.5,
+        "penalties_on_team": 3.5,
+        "penalty_diff": -1.8,
+        "odds_delta": 5.8,
+        "overtime_rate": 5.26
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": 8.3,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -1.5,
+        "odds_delta": 5.2,
+        "overtime_rate": 7.14
+      },
+      "Bill Vinovich": {
+        "games": 6,
+        "avg_margin": 6.8,
+        "penalties_on_team": 4.3,
+        "penalty_diff": -1.3,
+        "odds_delta": 4.8,
+        "overtime_rate": 5.88
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": -0.3,
+        "penalties_on_team": 7.5,
+        "penalty_diff": 2.7,
+        "odds_delta": -2.9,
+        "overtime_rate": 4.35
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": -0.5,
+        "penalties_on_team": 7.8,
+        "penalty_diff": 2.0,
+        "odds_delta": 1.1,
+        "overtime_rate": 5.41
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": 0.0,
+        "penalties_on_team": 5.6,
+        "penalty_diff": -1.6,
+        "odds_delta": -2.8,
+        "overtime_rate": 4.65
+      },
+      "Brad Rogers": {
+        "games": 4,
+        "avg_margin": -2.0,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.5,
+        "odds_delta": 4.6,
+        "overtime_rate": 2.6
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": 6.7,
+        "penalties_on_team": 8.0,
+        "penalty_diff": 4.0,
+        "odds_delta": 8.2,
+        "overtime_rate": 12.12
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "DAL",
+        "type": "surge",
+        "point_delta": 16.0,
+        "referee": "Carl Cheffers",
+        "final_margin": 11.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "LV",
+        "type": "surge",
+        "point_delta": 20.0,
+        "referee": "Peter Morelli",
+        "final_margin": 24.0
+      },
+      {
+        "week": 9,
+        "year": 2018,
+        "opponent": "LAC",
+        "type": "collapse",
+        "point_delta": -20.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -8.0
+      },
+      {
+        "week": 15,
+        "year": 2018,
+        "opponent": "SF",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Peter Morelli",
+        "final_margin": -3.0
+      },
+      {
+        "week": 7,
+        "year": 2020,
+        "opponent": "ARI",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "John Hussey",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.1,
+        "total_points": 46.9
+      },
+      "Low-visibility windows": {
+        "penalties": 6.5,
+        "total_points": 47.6
+      },
+      "Other slots": {
+        "penalties": 6.5,
+        "total_points": 47.4
+      }
+    }
+  },
+  "LA": {
+    "team": "LA",
+    "referee_stats": {
+      "John Hussey": {
+        "games": 12,
+        "avg_margin": 2.1,
+        "penalties_on_team": 4.8,
+        "penalty_diff": 0.2,
+        "odds_delta": -1.1,
+        "overtime_rate": 5.93
+      },
+      "Bill Vinovich": {
+        "games": 11,
+        "avg_margin": -3.6,
+        "penalties_on_team": 4.6,
+        "penalty_diff": 0.2,
+        "odds_delta": -7.2,
+        "overtime_rate": 5.88
+      },
+      "Shawn Smith": {
+        "games": 11,
+        "avg_margin": 3.9,
+        "penalties_on_team": 5.9,
+        "penalty_diff": -0.4,
+        "odds_delta": 2.3,
+        "overtime_rate": 7.08
+      },
+      "Craig Wrolstad": {
+        "games": 10,
+        "avg_margin": 0.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -0.9,
+        "odds_delta": -1.0,
+        "overtime_rate": 4.35
+      },
+      "Ron Torbert": {
+        "games": 9,
+        "avg_margin": 9.2,
+        "penalties_on_team": 4.8,
+        "penalty_diff": 0.1,
+        "odds_delta": 6.2,
+        "overtime_rate": 4.65
+      },
+      "Clete Blakeman": {
+        "games": 9,
+        "avg_margin": -0.7,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.3,
+        "odds_delta": -1.6,
+        "overtime_rate": 5.98
+      },
+      "Shawn Hochuli": {
+        "games": 8,
+        "avg_margin": 0.6,
+        "penalties_on_team": 4.5,
+        "penalty_diff": -2.2,
+        "odds_delta": -0.2,
+        "overtime_rate": 7.89
+      },
+      "Brad Allen": {
+        "games": 7,
+        "avg_margin": 3.6,
+        "penalties_on_team": 3.6,
+        "penalty_diff": -1.1,
+        "odds_delta": 2.7,
+        "overtime_rate": 4.42
+      },
+      "Jerome Boger": {
+        "games": 6,
+        "avg_margin": 7.8,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 1.2,
+        "odds_delta": 2.7,
+        "overtime_rate": 1.25
+      },
+      "Carl Cheffers": {
+        "games": 6,
+        "avg_margin": -1.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -1.8,
+        "odds_delta": -2.0,
+        "overtime_rate": 8.62
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": 9.3,
+        "penalties_on_team": 4.3,
+        "penalty_diff": -2.2,
+        "odds_delta": 5.2,
+        "overtime_rate": 5.41
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": -1.0,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 0.4,
+        "odds_delta": -2.6,
+        "overtime_rate": 2.6
+      },
+      "Adrian Hill": {
+        "games": 4,
+        "avg_margin": -9.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": 0.5,
+        "odds_delta": -3.1,
+        "overtime_rate": 7.14
+      },
+      "Walt Anderson": {
+        "games": 3,
+        "avg_margin": 8.0,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -1.0,
+        "odds_delta": 4.3,
+        "overtime_rate": 12.12
+      },
+      "Alex Kemp": {
+        "games": 3,
+        "avg_margin": 17.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 2.0,
+        "odds_delta": 14.2,
+        "overtime_rate": 6.09
+      },
+      "John Parry": {
+        "games": 3,
+        "avg_margin": 4.0,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 1.7,
+        "odds_delta": -1.3,
+        "overtime_rate": 0.0
+      },
+      "Scott Novak": {
+        "games": 3,
+        "avg_margin": -3.3,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -1.0,
+        "odds_delta": -2.0,
+        "overtime_rate": 5.26
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 8.3,
+        "penalties_on_team": 5.3,
+        "penalty_diff": -1.0,
+        "odds_delta": 4.0,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "ARI",
+        "type": "surge",
+        "point_delta": 14.0,
+        "referee": "Craig Wrolstad",
+        "final_margin": 34.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "LAC",
+        "type": "collapse",
+        "point_delta": -15.0,
+        "referee": "John Hussey",
+        "final_margin": 12.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "MIN",
+        "type": "collapse",
+        "point_delta": -15.0,
+        "referee": "Brad Allen",
+        "final_margin": 7.0
+      },
+      {
+        "week": 18,
+        "year": 2021,
+        "opponent": "SF",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Jerome Boger",
+        "final_margin": -3.0
+      },
+      {
+        "week": 18,
+        "year": 2022,
+        "opponent": "SEA",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Craig Wrolstad",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.5,
+        "total_points": 44.2
+      },
+      "Low-visibility windows": {
+        "penalties": 5.2,
+        "total_points": 47.9
+      },
+      "Other slots": {
+        "penalties": 5.2,
+        "total_points": 47.2
+      }
+    }
+  },
+  "ATL": {
+    "team": "ATL",
+    "referee_stats": {
+      "Craig Wrolstad": {
+        "games": 10,
+        "avg_margin": -4.6,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -1.3,
+        "odds_delta": -0.4,
+        "overtime_rate": 4.35
+      },
+      "Alex Kemp": {
+        "games": 8,
+        "avg_margin": -6.1,
+        "penalties_on_team": 7.1,
+        "penalty_diff": 0.1,
+        "odds_delta": -3.3,
+        "overtime_rate": 6.09
+      },
+      "Carl Cheffers": {
+        "games": 8,
+        "avg_margin": -3.5,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -2.4,
+        "odds_delta": -1.2,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": -0.8,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -0.2,
+        "odds_delta": 0.6,
+        "overtime_rate": 4.42
+      },
+      "Land Clark": {
+        "games": 7,
+        "avg_margin": 0.3,
+        "penalties_on_team": 5.7,
+        "penalty_diff": 0.4,
+        "odds_delta": 1.3,
+        "overtime_rate": 7.5
+      },
+      "Shawn Smith": {
+        "games": 7,
+        "avg_margin": 1.0,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 0.1,
+        "odds_delta": -0.4,
+        "overtime_rate": 7.08
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": -4.3,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -1.2,
+        "odds_delta": -2.8,
+        "overtime_rate": 5.41
+      },
+      "Adrian Hill": {
+        "games": 6,
+        "avg_margin": 1.0,
+        "penalties_on_team": 3.7,
+        "penalty_diff": -4.2,
+        "odds_delta": 1.3,
+        "overtime_rate": 7.14
+      },
+      "Clete Blakeman": {
+        "games": 6,
+        "avg_margin": -3.3,
+        "penalties_on_team": 3.8,
+        "penalty_diff": -2.8,
+        "odds_delta": -0.8,
+        "overtime_rate": 5.98
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": -11.0,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 1.7,
+        "odds_delta": -8.9,
+        "overtime_rate": 5.93
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": -1.0,
+        "penalties_on_team": 4.6,
+        "penalty_diff": -1.4,
+        "odds_delta": 0.0,
+        "overtime_rate": 2.6
+      },
+      "Ron Torbert": {
+        "games": 5,
+        "avg_margin": 3.0,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -1.4,
+        "odds_delta": 1.4,
+        "overtime_rate": 4.65
+      },
+      "Shawn Hochuli": {
+        "games": 5,
+        "avg_margin": 1.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.4,
+        "odds_delta": -0.6,
+        "overtime_rate": 7.89
+      },
+      "Tra Blake": {
+        "games": 5,
+        "avg_margin": 6.0,
+        "penalties_on_team": 3.8,
+        "penalty_diff": -3.4,
+        "odds_delta": 3.7,
+        "overtime_rate": 6.25
+      },
+      "Tony Corrente": {
+        "games": 4,
+        "avg_margin": -1.5,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -0.2,
+        "odds_delta": -0.4,
+        "overtime_rate": 6.25
+      },
+      "Bill Vinovich": {
+        "games": 4,
+        "avg_margin": -9.2,
+        "penalties_on_team": 6.2,
+        "penalty_diff": 0.2,
+        "odds_delta": -8.9,
+        "overtime_rate": 5.88
+      },
+      "Jerome Boger": {
+        "games": 3,
+        "avg_margin": -1.0,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.0,
+        "odds_delta": 0.2,
+        "overtime_rate": 1.25
+      },
+      "Scott Novak": {
+        "games": 3,
+        "avg_margin": -6.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": -3.3,
+        "odds_delta": -8.7,
+        "overtime_rate": 5.26
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "CAR",
+        "type": "surge",
+        "point_delta": 13.0,
+        "referee": "Bill Vinovich",
+        "final_margin": 7.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "PIT",
+        "type": "collapse",
+        "point_delta": -24.0,
+        "referee": "John Parry",
+        "final_margin": -24.0
+      },
+      {
+        "week": 6,
+        "year": 2018,
+        "opponent": "TB",
+        "type": "surge",
+        "point_delta": 15.3,
+        "referee": "Walt Coleman",
+        "final_margin": 5.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "NO",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Walt Anderson",
+        "final_margin": -6.0
+      },
+      {
+        "week": 17,
+        "year": 2024,
+        "opponent": "WAS",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Alex Kemp",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 6.0,
+        "total_points": 40.9
+      },
+      "Low-visibility windows": {
+        "penalties": 5.5,
+        "total_points": 47.9
+      },
+      "Other slots": {
+        "penalties": 5.5,
+        "total_points": 47.9
+      }
+    }
+  },
+  "GB": {
+    "team": "GB",
+    "referee_stats": {
+      "Alex Kemp": {
+        "games": 13,
+        "avg_margin": 3.8,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -1.1,
+        "odds_delta": -0.7,
+        "overtime_rate": 6.09
+      },
+      "Bill Vinovich": {
+        "games": 12,
+        "avg_margin": 4.2,
+        "penalties_on_team": 4.2,
+        "penalty_diff": 0.2,
+        "odds_delta": 1.8,
+        "overtime_rate": 5.88
+      },
+      "Clete Blakeman": {
+        "games": 9,
+        "avg_margin": 5.0,
+        "penalties_on_team": 6.1,
+        "penalty_diff": 0.7,
+        "odds_delta": 0.9,
+        "overtime_rate": 5.98
+      },
+      "Clay Martin": {
+        "games": 9,
+        "avg_margin": 10.4,
+        "penalties_on_team": 5.6,
+        "penalty_diff": 0.4,
+        "odds_delta": 4.3,
+        "overtime_rate": 5.41
+      },
+      "Carl Cheffers": {
+        "games": 8,
+        "avg_margin": -1.5,
+        "penalties_on_team": 4.9,
+        "penalty_diff": -0.6,
+        "odds_delta": -2.8,
+        "overtime_rate": 8.62
+      },
+      "Ron Torbert": {
+        "games": 8,
+        "avg_margin": 3.9,
+        "penalties_on_team": 6.1,
+        "penalty_diff": -0.2,
+        "odds_delta": 3.7,
+        "overtime_rate": 4.65
+      },
+      "Brad Allen": {
+        "games": 8,
+        "avg_margin": 4.2,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -0.1,
+        "odds_delta": 4.4,
+        "overtime_rate": 4.42
+      },
+      "Craig Wrolstad": {
+        "games": 7,
+        "avg_margin": 13.4,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.6,
+        "odds_delta": 9.5,
+        "overtime_rate": 4.35
+      },
+      "Scott Novak": {
+        "games": 7,
+        "avg_margin": 2.9,
+        "penalties_on_team": 4.3,
+        "penalty_diff": 0.0,
+        "odds_delta": 0.4,
+        "overtime_rate": 5.26
+      },
+      "Shawn Hochuli": {
+        "games": 6,
+        "avg_margin": 0.2,
+        "penalties_on_team": 7.5,
+        "penalty_diff": 2.0,
+        "odds_delta": -2.7,
+        "overtime_rate": 7.89
+      },
+      "John Hussey": {
+        "games": 6,
+        "avg_margin": -4.5,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 1.8,
+        "odds_delta": -1.5,
+        "overtime_rate": 5.93
+      },
+      "Brad Rogers": {
+        "games": 4,
+        "avg_margin": 3.5,
+        "penalties_on_team": 5.0,
+        "penalty_diff": -1.8,
+        "odds_delta": 2.0,
+        "overtime_rate": 2.6
+      },
+      "Shawn Smith": {
+        "games": 4,
+        "avg_margin": 1.0,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -1.8,
+        "odds_delta": 0.1,
+        "overtime_rate": 7.08
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": -7.0,
+        "penalties_on_team": 6.3,
+        "penalty_diff": 0.7,
+        "odds_delta": -8.7,
+        "overtime_rate": 6.25
+      },
+      "Adrian Hill": {
+        "games": 3,
+        "avg_margin": 2.0,
+        "penalties_on_team": 5.7,
+        "penalty_diff": -1.3,
+        "odds_delta": -6.5,
+        "overtime_rate": 7.14
+      },
+      "Tony Corrente": {
+        "games": 3,
+        "avg_margin": 1.3,
+        "penalties_on_team": 7.3,
+        "penalty_diff": -0.7,
+        "odds_delta": 4.2,
+        "overtime_rate": 6.25
+      },
+      "Land Clark": {
+        "games": 3,
+        "avg_margin": 2.3,
+        "penalties_on_team": 4.0,
+        "penalty_diff": -3.0,
+        "odds_delta": 0.3,
+        "overtime_rate": 7.5
+      },
+      "Jerome Boger": {
+        "games": 3,
+        "avg_margin": -6.0,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 4.7,
+        "odds_delta": -7.5,
+        "overtime_rate": 1.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "WAS",
+        "type": "collapse",
+        "point_delta": -14.5,
+        "referee": "Craig Wrolstad",
+        "final_margin": -14.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "BUF",
+        "type": "surge",
+        "point_delta": 26.3,
+        "referee": "Bill Vinovich",
+        "final_margin": 22.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "DET",
+        "type": "collapse",
+        "point_delta": -10.7,
+        "referee": "John Hussey",
+        "final_margin": -8.0
+      },
+      {
+        "week": 11,
+        "year": 2020,
+        "opponent": "IND",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 4.7,
+        "total_points": 47.5
+      },
+      "Low-visibility windows": {
+        "penalties": 6.2,
+        "total_points": 46.4
+      },
+      "Other slots": {
+        "penalties": 6.2,
+        "total_points": 46.8
+      }
+    }
+  },
+  "PIT": {
+    "team": "PIT",
+    "referee_stats": {
+      "Shawn Smith": {
+        "games": 9,
+        "avg_margin": -0.4,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.1,
+        "odds_delta": 1.1,
+        "overtime_rate": 7.08
+      },
+      "Shawn Hochuli": {
+        "games": 9,
+        "avg_margin": 1.7,
+        "penalties_on_team": 6.6,
+        "penalty_diff": 1.3,
+        "odds_delta": 4.1,
+        "overtime_rate": 7.89
+      },
+      "John Hussey": {
+        "games": 8,
+        "avg_margin": -0.5,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -0.8,
+        "odds_delta": -0.2,
+        "overtime_rate": 5.93
+      },
+      "Clete Blakeman": {
+        "games": 8,
+        "avg_margin": -7.5,
+        "penalties_on_team": 8.0,
+        "penalty_diff": -0.5,
+        "odds_delta": -5.5,
+        "overtime_rate": 5.98
+      },
+      "Scott Novak": {
+        "games": 8,
+        "avg_margin": 3.1,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -1.2,
+        "odds_delta": 3.9,
+        "overtime_rate": 5.26
+      },
+      "Bill Vinovich": {
+        "games": 7,
+        "avg_margin": -8.9,
+        "penalties_on_team": 4.4,
+        "penalty_diff": -0.4,
+        "odds_delta": -8.7,
+        "overtime_rate": 5.88
+      },
+      "Carl Cheffers": {
+        "games": 7,
+        "avg_margin": 2.1,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.4,
+        "odds_delta": 1.1,
+        "overtime_rate": 8.62
+      },
+      "Brad Allen": {
+        "games": 6,
+        "avg_margin": 2.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -2.0,
+        "odds_delta": 2.3,
+        "overtime_rate": 4.42
+      },
+      "Brad Rogers": {
+        "games": 6,
+        "avg_margin": 4.2,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 0.7,
+        "odds_delta": 4.4,
+        "overtime_rate": 2.6
+      },
+      "Craig Wrolstad": {
+        "games": 6,
+        "avg_margin": 4.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -0.7,
+        "odds_delta": 6.1,
+        "overtime_rate": 4.35
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": -0.7,
+        "penalties_on_team": 6.2,
+        "penalty_diff": -0.2,
+        "odds_delta": -3.9,
+        "overtime_rate": 7.5
+      },
+      "Adrian Hill": {
+        "games": 5,
+        "avg_margin": 3.6,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 2.4,
+        "odds_delta": 0.0,
+        "overtime_rate": 7.14
+      },
+      "Tony Corrente": {
+        "games": 5,
+        "avg_margin": -3.8,
+        "penalties_on_team": 4.8,
+        "penalty_diff": -3.2,
+        "odds_delta": -9.4,
+        "overtime_rate": 6.25
+      },
+      "Ronald Torbert": {
+        "games": 4,
+        "avg_margin": 8.2,
+        "penalties_on_team": 6.5,
+        "penalty_diff": -0.5,
+        "odds_delta": -0.4,
+        "overtime_rate": 3.12
+      },
+      "Alex Kemp": {
+        "games": 4,
+        "avg_margin": -5.8,
+        "penalties_on_team": 5.5,
+        "penalty_diff": -2.0,
+        "odds_delta": -3.5,
+        "overtime_rate": 6.09
+      },
+      "Clay Martin": {
+        "games": 4,
+        "avg_margin": -1.5,
+        "penalties_on_team": 5.8,
+        "penalty_diff": -1.5,
+        "odds_delta": -0.9,
+        "overtime_rate": 5.41
+      },
+      "Jerome Boger": {
+        "games": 4,
+        "avg_margin": -10.5,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -0.5,
+        "odds_delta": -7.8,
+        "overtime_rate": 1.25
+      },
+      "Alan Eck": {
+        "games": 3,
+        "avg_margin": -1.7,
+        "penalties_on_team": 6.0,
+        "penalty_diff": 0.3,
+        "odds_delta": -0.2,
+        "overtime_rate": 3.03
+      },
+      "Ron Torbert": {
+        "games": 3,
+        "avg_margin": 1.3,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -4.3,
+        "odds_delta": -1.7,
+        "overtime_rate": 4.65
+      }
+    },
+    "narratives": [
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "BAL",
+        "type": "collapse",
+        "point_delta": -11.3,
+        "referee": "Tony Corrente",
+        "final_margin": -12.0
+      },
+      {
+        "week": 5,
+        "year": 2018,
+        "opponent": "ATL",
+        "type": "surge",
+        "point_delta": 28.7,
+        "referee": "John Parry",
+        "final_margin": 24.0
+      },
+      {
+        "week": 10,
+        "year": 2018,
+        "opponent": "CAR",
+        "type": "surge",
+        "point_delta": 21.3,
+        "referee": "Walt Coleman",
+        "final_margin": 31.0
+      },
+      {
+        "week": 5,
+        "year": 2019,
+        "opponent": "BAL",
+        "type": "overtime",
+        "point_delta": -3.0,
+        "referee": "Walt Anderson",
+        "final_margin": -3.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 5.4,
+        "total_points": 44.6
+      },
+      "Low-visibility windows": {
+        "penalties": 6.2,
+        "total_points": 41.5
+      },
+      "Other slots": {
+        "penalties": 6.2,
+        "total_points": 41.4
+      }
+    }
+  },
+  "NYJ": {
+    "team": "NYJ",
+    "referee_stats": {
+      "John Hussey": {
+        "games": 10,
+        "avg_margin": -4.5,
+        "penalties_on_team": 5.9,
+        "penalty_diff": 1.5,
+        "odds_delta": 0.0,
+        "overtime_rate": 5.93
+      },
+      "Alex Kemp": {
+        "games": 9,
+        "avg_margin": -5.6,
+        "penalties_on_team": 7.2,
+        "penalty_diff": 1.0,
+        "odds_delta": 1.3,
+        "overtime_rate": 6.09
+      },
+      "Craig Wrolstad": {
+        "games": 8,
+        "avg_margin": -9.1,
+        "penalties_on_team": 6.5,
+        "penalty_diff": 1.1,
+        "odds_delta": -5.4,
+        "overtime_rate": 4.35
+      },
+      "Ron Torbert": {
+        "games": 7,
+        "avg_margin": -11.0,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 2.0,
+        "odds_delta": -10.5,
+        "overtime_rate": 4.65
+      },
+      "Clete Blakeman": {
+        "games": 7,
+        "avg_margin": -1.4,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 2.6,
+        "odds_delta": 4.9,
+        "overtime_rate": 5.98
+      },
+      "Shawn Hochuli": {
+        "games": 7,
+        "avg_margin": -8.9,
+        "penalties_on_team": 7.7,
+        "penalty_diff": 1.1,
+        "odds_delta": -4.0,
+        "overtime_rate": 7.89
+      },
+      "Land Clark": {
+        "games": 6,
+        "avg_margin": -8.2,
+        "penalties_on_team": 4.7,
+        "penalty_diff": -0.3,
+        "odds_delta": 1.0,
+        "overtime_rate": 7.5
+      },
+      "Carl Cheffers": {
+        "games": 6,
+        "avg_margin": -7.2,
+        "penalties_on_team": 5.2,
+        "penalty_diff": -1.7,
+        "odds_delta": -0.8,
+        "overtime_rate": 8.62
+      },
+      "Shawn Smith": {
+        "games": 6,
+        "avg_margin": -9.5,
+        "penalties_on_team": 6.8,
+        "penalty_diff": 1.5,
+        "odds_delta": -7.1,
+        "overtime_rate": 7.08
+      },
+      "Clay Martin": {
+        "games": 6,
+        "avg_margin": -2.5,
+        "penalties_on_team": 7.3,
+        "penalty_diff": 0.0,
+        "odds_delta": -0.2,
+        "overtime_rate": 5.41
+      },
+      "Jerome Boger": {
+        "games": 5,
+        "avg_margin": -3.0,
+        "penalties_on_team": 7.6,
+        "penalty_diff": 0.4,
+        "odds_delta": 1.0,
+        "overtime_rate": 1.25
+      },
+      "Brad Allen": {
+        "games": 5,
+        "avg_margin": -4.2,
+        "penalties_on_team": 8.6,
+        "penalty_diff": 4.0,
+        "odds_delta": -1.8,
+        "overtime_rate": 4.42
+      },
+      "Adrian Hill": {
+        "games": 5,
+        "avg_margin": -12.4,
+        "penalties_on_team": 7.6,
+        "penalty_diff": -0.6,
+        "odds_delta": -5.4,
+        "overtime_rate": 7.14
+      },
+      "Brad Rogers": {
+        "games": 5,
+        "avg_margin": -14.8,
+        "penalties_on_team": 6.0,
+        "penalty_diff": -1.4,
+        "odds_delta": -11.4,
+        "overtime_rate": 2.6
+      },
+      "Bill Vinovich": {
+        "games": 4,
+        "avg_margin": 2.2,
+        "penalties_on_team": 7.0,
+        "penalty_diff": 2.5,
+        "odds_delta": 6.5,
+        "overtime_rate": 5.88
+      },
+      "Scott Novak": {
+        "games": 4,
+        "avg_margin": -16.2,
+        "penalties_on_team": 8.2,
+        "penalty_diff": 1.5,
+        "odds_delta": -6.6,
+        "overtime_rate": 5.26
+      },
+      "Tra Blake": {
+        "games": 3,
+        "avg_margin": 4.0,
+        "penalties_on_team": 5.3,
+        "penalty_diff": 0.7,
+        "odds_delta": 4.3,
+        "overtime_rate": 6.25
+      },
+      "Tony Corrente": {
+        "games": 3,
+        "avg_margin": 0.3,
+        "penalties_on_team": 6.7,
+        "penalty_diff": 3.0,
+        "odds_delta": 6.3,
+        "overtime_rate": 6.25
+      }
+    },
+    "narratives": [
+      {
+        "week": 2,
+        "year": 2018,
+        "opponent": "MIA",
+        "type": "collapse",
+        "point_delta": -39.0,
+        "referee": "Brad Allen",
+        "final_margin": -8.0
+      },
+      {
+        "week": 3,
+        "year": 2018,
+        "opponent": "CLE",
+        "type": "collapse",
+        "point_delta": -15.5,
+        "referee": "Jerome Boger",
+        "final_margin": -4.0
+      },
+      {
+        "week": 4,
+        "year": 2018,
+        "opponent": "JAX",
+        "type": "collapse",
+        "point_delta": -25.3,
+        "referee": "Clay Martin",
+        "final_margin": -19.0
+      },
+      {
+        "week": 16,
+        "year": 2018,
+        "opponent": "GB",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Ron Torbert",
+        "final_margin": -6.0
+      },
+      {
+        "week": 14,
+        "year": 2024,
+        "opponent": "MIA",
+        "type": "overtime",
+        "point_delta": -6.0,
+        "referee": "Shawn Hochuli",
+        "final_margin": -6.0
+      }
+    ],
+    "broadcast_behavior": {
+      "Primetime": {
+        "penalties": 7.7,
+        "total_points": 45.0
+      },
+      "Low-visibility windows": {
+        "penalties": 6.6,
+        "total_points": 41.6
+      },
+      "Other slots": {
+        "penalties": 6.6,
+        "total_points": 41.7
+      }
+    }
+  }
+}
