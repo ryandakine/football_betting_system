@@ -1,0 +1,108 @@
+================================================================================
+🤖 AUTONOMOUS BETTING AGENT - WEEKLY MASTER REPORT
+================================================================================
+Week: 11
+Generated: 2025-11-09 18:04:39
+System: 12-Model Super Intelligence
+
+================================================================================
+📊 EXECUTIVE SUMMARY
+================================================================================
+
+Total Games Analyzed: 5
+Total Props Analyzed: 25
+Total Edges Found: 10
+   - Game Edges: 4
+   - Prop Edges: 6
+
+================================================================================
+🎯 TOP 10 PLAYS FOR THE WEEK
+================================================================================
+
+#1. BUF @ KC - SPREAD KC -2.5
+    Confidence: 80% ⭐⭐⭐⭐
+    Reason: Brad Rogers + KC = +14.6 margin bias
+    💰 BET: STRONG (3-5 units)
+
+#2. BAL @ CIN - TOTAL OVER 42.0
+    Confidence: 75% ⭐⭐⭐
+    Reason: Carl Cheffers 8.6% OT rate
+    💰 BET: STRONG (3-5 units)
+
+#3. Patrick Mahomes - Passing TDs OVER 1.5
+    Confidence: 75% ⭐⭐⭐
+    Reason: Prediction: 5.0 vs line 1.5 (MASSIVE edge)
+    💰 BET: STRONG (3-5 units)
+
+#4. Travis Kelce - Receptions OVER 5.5
+    Confidence: 70% ⭐⭐⭐
+    Reason: Prediction: 8.0 vs line 5.5 (LARGE edge)
+    💰 BET: MODERATE (2-3 units)
+
+#5. Christian McCaffrey - Rushing Yards UNDER 95.5
+    Confidence: 70% ⭐⭐⭐
+    Reason: Prediction: 73.0 vs line 95.5 (MEDIUM edge)
+    💰 BET: MODERATE (2-3 units)
+
+#6. DET @ GB - 1H_SPREAD GB 1H -1.7
+    Confidence: 68% ⭐⭐⭐
+    Reason: John Parry home bias shows early
+    💰 BET: MODERATE (2-3 units)
+
+================================================================================
+🏈 GAME BETTING EDGES
+================================================================================
+
+• BUF @ KC
+  Pick: SPREAD KC -2.5
+  Confidence: 80%
+  Brad Rogers + KC = +14.6 margin bias
+
+• BAL @ CIN
+  Pick: TOTAL OVER 42.0
+  Confidence: 75%
+  Carl Cheffers 8.6% OT rate
+
+• DET @ GB
+  Pick: 1H_SPREAD GB 1H -1.7
+  Confidence: 68%
+  John Parry home bias shows early
+
+================================================================================
+🎯 PLAYER PROP EDGES
+================================================================================
+
+• Patrick Mahomes - Passing TDs
+  Pick: OVER 1.5
+  Prediction: 5.0
+  Confidence: 75% (MASSIVE)
+
+• Travis Kelce - Receptions
+  Pick: OVER 5.5
+  Prediction: 8.0
+  Confidence: 70% (LARGE)
+
+• Christian McCaffrey - Rushing Yards
+  Pick: UNDER 95.5
+  Prediction: 73.0
+  Confidence: 70% (MEDIUM)
+
+================================================================================
+📈 HISTORICAL PERFORMANCE
+================================================================================
+
+No historical bets tracked yet.
+Use --track-results to start logging performance.
+
+================================================================================
+⚠️  BETTING DISCLAIMER
+================================================================================
+
+These picks are based on statistical analysis and historical data.
+Past performance does not guarantee future results.
+Only bet what you can afford to lose.
+Gamble responsibly.
+
+System: 12-Model NFL Super Intelligence
+Models: Ensembles, XGBoost, Neural Net, Meta-Learner,
+        Referee Intelligence, Prop Intelligence
