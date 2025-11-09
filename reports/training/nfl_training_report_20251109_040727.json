@@ -1,0 +1,542 @@
+{
+  "spread": {
+    "model_name": "Spread",
+    "timestamp": "2025-11-09T04:06:28.267948",
+    "training_samples": 4495,
+    "test_samples": 1124,
+    "features": [
+      "spread",
+      "total",
+      "home_ml_odds",
+      "away_ml_odds",
+      "home_ml_prob",
+      "away_ml_prob",
+      "week",
+      "is_division_game",
+      "is_conference_game",
+      "is_primetime",
+      "is_playoff",
+      "is_dome",
+      "temperature",
+      "wind_speed",
+      "humidity",
+      "home_rest_days",
+      "away_rest_days",
+      "away_travel_distance",
+      "home_win_pct",
+      "away_win_pct",
+      "home_ats_pct",
+      "away_ats_pct",
+      "spread_abs",
+      "total_deviation",
+      "ml_odds_ratio",
+      "rest_differential"
+    ],
+    "num_features": 26,
+    "class_distribution": {
+      "1": 3012,
+      "0": 2607
+    },
+    "random_forest": {
+      "train_accuracy": 0.7406006674082314,
+      "test_accuracy": 0.547153024911032,
+      "auc": 0.5404439733514131,
+      "cv_mean": 0.5292713340917661,
+      "cv_std": 0.013261490935771319
+    },
+    "gradient_boosting": {
+      "train_accuracy": 0.7710789766407119,
+      "test_accuracy": 0.5462633451957295,
+      "auc": 0.5241594331604931,
+      "cv_mean": 0.5271391132673982,
+      "cv_std": 0.009571718209442663
+    },
+    "ensemble": {
+      "train_accuracy": 0.7708565072302559,
+      "test_accuracy": 0.5427046263345195,
+      "auc": 0.5291759373318946
+    },
+    "feature_importance": [
+      {
+        "feature": "total",
+        "rf_importance": 0.1962711341333307,
+        "gb_importance": 0.20313193783963823,
+        "avg_importance": 0.19970153598648446
+      },
+      {
+        "feature": "total_deviation",
+        "rf_importance": 0.186131794676643,
+        "gb_importance": 0.19719381853718823,
+        "avg_importance": 0.19166280660691562
+      },
+      {
+        "feature": "spread",
+        "rf_importance": 0.17677668703890145,
+        "gb_importance": 0.17134667972197482,
+        "avg_importance": 0.17406168338043815
+      },
+      {
+        "feature": "spread_abs",
+        "rf_importance": 0.14775747128861905,
+        "gb_importance": 0.14471751357213053,
+        "avg_importance": 0.1462374924303748
+      },
+      {
+        "feature": "week",
+        "rf_importance": 0.08986686481374466,
+        "gb_importance": 0.08694133197308611,
+        "avg_importance": 0.08840409839341538
+      },
+      {
+        "feature": "rest_differential",
+        "rf_importance": 0.05358501063391,
+        "gb_importance": 0.055453204570331545,
+        "avg_importance": 0.054519107602120774
+      },
+      {
+        "feature": "away_rest_days",
+        "rf_importance": 0.05515186154568763,
+        "gb_importance": 0.049831861359116436,
+        "avg_importance": 0.05249186145240203
+      },
+      {
+        "feature": "home_rest_days",
+        "rf_importance": 0.04931773922487075,
+        "gb_importance": 0.046919201497463335,
+        "avg_importance": 0.048118470361167044
+      },
+      {
+        "feature": "is_primetime",
+        "rf_importance": 0.018551183192626497,
+        "gb_importance": 0.01880440840179522,
+        "avg_importance": 0.018677795797210857
+      },
+      {
+        "feature": "is_division_game",
+        "rf_importance": 0.01795294912866244,
+        "gb_importance": 0.015418204697558226,
+        "avg_importance": 0.016685576913110334
+      },
+      {
+        "feature": "away_travel_distance",
+        "rf_importance": 0.00501520108727186,
+        "gb_importance": 0.007790465669937748,
+        "avg_importance": 0.006402833378604804
+      },
+      {
+        "feature": "home_ml_odds",
+        "rf_importance": 0.000707807970022739,
+        "gb_importance": 0.00040309471334511475,
+        "avg_importance": 0.0005554513416839268
+      },
+      {
+        "feature": "ml_odds_ratio",
+        "rf_importance": 0.0005878382924909763,
+        "gb_importance": 0.00047103721705780375,
+        "avg_importance": 0.00052943775477439
+      },
+      {
+        "feature": "away_ml_odds",
+        "rf_importance": 0.0006119277127367503,
+        "gb_importance": 0.0004366916202281887,
+        "avg_importance": 0.0005243096664824695
+      },
+      {
+        "feature": "is_dome",
+        "rf_importance": 0.0005469305869978048,
+        "gb_importance": 0.00044351805488253445,
+        "avg_importance": 0.0004952243209401697
+      },
+      {
+        "feature": "home_ml_prob",
+        "rf_importance": 0.0006022253986415324,
+        "gb_importance": 0.000349339842759319,
+        "avg_importance": 0.0004757826207004257
+      },
+      {
+        "feature": "away_ml_prob",
+        "rf_importance": 0.0005653732748421928,
+        "gb_importance": 0.00034769071150668414,
+        "avg_importance": 0.00045653199317443845
+      },
+      {
+        "feature": "is_conference_game",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "humidity",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "is_playoff",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      }
+    ]
+  },
+  "total": {
+    "model_name": "Total",
+    "timestamp": "2025-11-09T04:06:57.915185",
+    "training_samples": 4495,
+    "test_samples": 1124,
+    "features": [
+      "spread",
+      "total",
+      "home_ml_odds",
+      "away_ml_odds",
+      "home_ml_prob",
+      "away_ml_prob",
+      "week",
+      "is_division_game",
+      "is_conference_game",
+      "is_primetime",
+      "is_playoff",
+      "is_dome",
+      "temperature",
+      "wind_speed",
+      "humidity",
+      "home_rest_days",
+      "away_rest_days",
+      "away_travel_distance",
+      "home_win_pct",
+      "away_win_pct",
+      "home_ats_pct",
+      "away_ats_pct",
+      "spread_abs",
+      "total_deviation",
+      "ml_odds_ratio",
+      "rest_differential"
+    ],
+    "num_features": 26,
+    "class_distribution": {
+      "0": 4333,
+      "1": 1286
+    },
+    "random_forest": {
+      "train_accuracy": 0.9583982202447163,
+      "test_accuracy": 0.798932384341637,
+      "auc": 0.8692975015595618,
+      "cv_mean": 0.6843126412158587,
+      "cv_std": 0.23450270671863502
+    },
+    "gradient_boosting": {
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.791814946619217,
+      "auc": 0.8730808414004192,
+      "cv_mean": 0.7133209533437064,
+      "cv_std": 0.22143579804389354
+    },
+    "ensemble": {
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.8016014234875445,
+      "auc": 0.8727801489101019
+    },
+    "feature_importance": [
+      {
+        "feature": "spread_abs",
+        "rf_importance": 0.12066611100897963,
+        "gb_importance": 0.16680621074220311,
+        "avg_importance": 0.14373616087559138
+      },
+      {
+        "feature": "total",
+        "rf_importance": 0.10613625673237534,
+        "gb_importance": 0.13553008983590217,
+        "avg_importance": 0.12083317328413876
+      },
+      {
+        "feature": "spread",
+        "rf_importance": 0.07430328669829557,
+        "gb_importance": 0.12404924898282618,
+        "avg_importance": 0.09917626784056088
+      },
+      {
+        "feature": "week",
+        "rf_importance": 0.10079157161213384,
+        "gb_importance": 0.09272443292155434,
+        "avg_importance": 0.09675800226684408
+      },
+      {
+        "feature": "away_rest_days",
+        "rf_importance": 0.06955148116254692,
+        "gb_importance": 0.11640824694763723,
+        "avg_importance": 0.09297986405509207
+      },
+      {
+        "feature": "total_deviation",
+        "rf_importance": 0.07119078677938431,
+        "gb_importance": 0.11087973067628693,
+        "avg_importance": 0.09103525872783562
+      },
+      {
+        "feature": "home_rest_days",
+        "rf_importance": 0.08439918831888903,
+        "gb_importance": 0.06316115149166132,
+        "avg_importance": 0.07378016990527517
+      },
+      {
+        "feature": "ml_odds_ratio",
+        "rf_importance": 0.06850856512322728,
+        "gb_importance": 0.046908932527640286,
+        "avg_importance": 0.05770874882543378
+      },
+      {
+        "feature": "away_ml_odds",
+        "rf_importance": 0.04807033130297033,
+        "gb_importance": 0.056163852101966366,
+        "avg_importance": 0.05211709170246835
+      },
+      {
+        "feature": "rest_differential",
+        "rf_importance": 0.025404000303642853,
+        "gb_importance": 0.040097409445586804,
+        "avg_importance": 0.03275070487461483
+      },
+      {
+        "feature": "home_ml_odds",
+        "rf_importance": 0.052993846592443654,
+        "gb_importance": 0.008916198423939207,
+        "avg_importance": 0.030955022508191432
+      },
+      {
+        "feature": "away_ml_prob",
+        "rf_importance": 0.054462940997505524,
+        "gb_importance": 3.883075369983785e-05,
+        "avg_importance": 0.02725088587560268
+      },
+      {
+        "feature": "home_ml_prob",
+        "rf_importance": 0.044439385514801456,
+        "gb_importance": 0.0066205971558363445,
+        "avg_importance": 0.0255299913353189
+      },
+      {
+        "feature": "is_dome",
+        "rf_importance": 0.04408314669110626,
+        "gb_importance": 0.0015429693385697002,
+        "avg_importance": 0.02281305801483798
+      },
+      {
+        "feature": "is_primetime",
+        "rf_importance": 0.011642696079163427,
+        "gb_importance": 0.01194152042437921,
+        "avg_importance": 0.011792108251771318
+      },
+      {
+        "feature": "is_division_game",
+        "rf_importance": 0.011596621615481258,
+        "gb_importance": 0.01169285890500296,
+        "avg_importance": 0.01164474026024211
+      },
+      {
+        "feature": "away_travel_distance",
+        "rf_importance": 0.011759783467053224,
+        "gb_importance": 0.0065177193253080044,
+        "avg_importance": 0.009138751396180613
+      },
+      {
+        "feature": "is_conference_game",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "humidity",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "is_playoff",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      }
+    ]
+  },
+  "moneyline": {
+    "model_name": "Moneyline",
+    "timestamp": "2025-11-09T04:07:27.324356",
+    "training_samples": 4495,
+    "test_samples": 1124,
+    "features": [
+      "spread",
+      "total",
+      "home_ml_odds",
+      "away_ml_odds",
+      "home_ml_prob",
+      "away_ml_prob",
+      "week",
+      "is_division_game",
+      "is_conference_game",
+      "is_primetime",
+      "is_playoff",
+      "is_dome",
+      "temperature",
+      "wind_speed",
+      "humidity",
+      "home_rest_days",
+      "away_rest_days",
+      "away_travel_distance",
+      "home_win_pct",
+      "away_win_pct",
+      "home_ats_pct",
+      "away_ats_pct",
+      "spread_abs",
+      "total_deviation",
+      "ml_odds_ratio",
+      "rest_differential"
+    ],
+    "num_features": 26,
+    "class_distribution": {
+      "1": 3087,
+      "0": 2532
+    },
+    "random_forest": {
+      "train_accuracy": 0.7675194660734149,
+      "test_accuracy": 0.7322064056939501,
+      "auc": 0.8301610448085754,
+      "cv_mean": 0.7347908341598984,
+      "cv_std": 0.2048809427006146
+    },
+    "gradient_boosting": {
+      "train_accuracy": 0.7766407119021135,
+      "test_accuracy": 0.7250889679715302,
+      "auc": 0.8301834299090526,
+      "cv_mean": 0.7331897275662863,
+      "cv_std": 0.20341237469946322
+    },
+    "ensemble": {
+      "train_accuracy": 0.7766407119021135,
+      "test_accuracy": 0.7286476868327402,
+      "auc": 0.8309317318392877
+    },
+    "feature_importance": [
+      {
+        "feature": "spread",
+        "rf_importance": 0.7489940659971736,
+        "gb_importance": 0.6114622967481639,
+        "avg_importance": 0.6802281813726687
+      },
+      {
+        "feature": "spread_abs",
+        "rf_importance": 0.04647877448281279,
+        "gb_importance": 0.16737974196565628,
+        "avg_importance": 0.10692925822423453
+      },
+      {
+        "feature": "total",
+        "rf_importance": 0.04436306962922226,
+        "gb_importance": 0.09666732804270294,
+        "avg_importance": 0.0705151988359626
+      },
+      {
+        "feature": "total_deviation",
+        "rf_importance": 0.037312531248203946,
+        "gb_importance": 0.07965720661158007,
+        "avg_importance": 0.058484868929892006
+      },
+      {
+        "feature": "week",
+        "rf_importance": 0.017713204080331515,
+        "gb_importance": 0.010332886344829394,
+        "avg_importance": 0.014023045212580455
+      },
+      {
+        "feature": "away_rest_days",
+        "rf_importance": 0.017689950839107335,
+        "gb_importance": 0.0072563944523645575,
+        "avg_importance": 0.012473172645735947
+      },
+      {
+        "feature": "home_rest_days",
+        "rf_importance": 0.01686975543634328,
+        "gb_importance": 0.006867575901899388,
+        "avg_importance": 0.011868665669121335
+      },
+      {
+        "feature": "is_dome",
+        "rf_importance": 0.012246036769763931,
+        "gb_importance": 0.0018287787304450166,
+        "avg_importance": 0.007037407750104474
+      },
+      {
+        "feature": "home_ml_odds",
+        "rf_importance": 0.011620299991989332,
+        "gb_importance": 0.0012586476646727594,
+        "avg_importance": 0.0064394738283310455
+      },
+      {
+        "feature": "ml_odds_ratio",
+        "rf_importance": 0.00914647517969489,
+        "gb_importance": 0.0021640369751098117,
+        "avg_importance": 0.005655256077402351
+      },
+      {
+        "feature": "rest_differential",
+        "rf_importance": 0.006621963740238708,
+        "gb_importance": 0.004650880603331116,
+        "avg_importance": 0.005636422171784911
+      },
+      {
+        "feature": "home_ml_prob",
+        "rf_importance": 0.008466996420293155,
+        "gb_importance": 0.0017099107547322218,
+        "avg_importance": 0.005088453587512688
+      },
+      {
+        "feature": "away_ml_prob",
+        "rf_importance": 0.007053744091350331,
+        "gb_importance": 0.00227220254899918,
+        "avg_importance": 0.004662973320174756
+      },
+      {
+        "feature": "away_ml_odds",
+        "rf_importance": 0.008055550756086086,
+        "gb_importance": 0.0010828694513494229,
+        "avg_importance": 0.004569210103717755
+      },
+      {
+        "feature": "is_division_game",
+        "rf_importance": 0.002933425885503609,
+        "gb_importance": 0.002558895734524767,
+        "avg_importance": 0.0027461608100141878
+      },
+      {
+        "feature": "is_primetime",
+        "rf_importance": 0.002612513397009303,
+        "gb_importance": 0.0019344359388524027,
+        "avg_importance": 0.0022734746679308527
+      },
+      {
+        "feature": "away_travel_distance",
+        "rf_importance": 0.0018216420548761263,
+        "gb_importance": 0.0009159115307867675,
+        "avg_importance": 0.001368776792831447
+      },
+      {
+        "feature": "is_conference_game",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "humidity",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "is_playoff",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      }
+    ]
+  }
+}
