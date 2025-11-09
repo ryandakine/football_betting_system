@@ -396,8 +396,8 @@ class NCAAFeatureEngineer:
 
     def _get_target(self, game, target_type):
         """Extract target variable based on prediction type"""
-        home_score = game.get('home_points', game.get('home_score'))
-        away_score = game.get('away_points', game.get('away_score'))
+        home_score = game.get('homePoints') or game.get('home_points') or game.get('home_score')
+        away_score = game.get('awayPoints') or game.get('away_points') or game.get('away_score')
 
         if home_score is None or away_score is None:
             return None
