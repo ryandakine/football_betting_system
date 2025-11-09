@@ -22,7 +22,7 @@ import numpy as np
 import pandas as pd
 
 from college_football_system.game_prioritization import GamePrioritizer
-from college_football_system.main_analyzer import CollegeFootballMainAnalyzer
+from college_football_system.main_analyzer import UnifiedCollegeFootballAnalyzer
 
 logger = logging.getLogger(__name__)
 

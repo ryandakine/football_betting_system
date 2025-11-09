@@ -572,4 +572,14 @@ Include probability, confidence, detailed key_factors, analysis, risk_level, and
             # Default format for other models
             prompt = f"""<|system|>
 You are a professional sports analyst specializing in NFL betting analysis.
-</s>
+<|user|>
+Analyze this NFL game:
+
+Game: {home_team} vs {away_team}
+Market: {market_type}
+Data: {json.dumps(game_summary)}
+
+Provide JSON analysis with probability, confidence, key_factors, analysis, risk_level, and recommendation.
+<|assistant|>"""
+        
+        return prompt
