@@ -1,0 +1,560 @@
+{
+  "spread": {
+    "model_name": "Spread",
+    "target": "spread",
+    "timestamp": "2025-11-09T11:19:35.928505",
+    "metrics": {
+      "training": {
+        "accuracy": 1.0,
+        "auc": 1.0,
+        "samples": 1809
+      },
+      "validation_2022": {
+        "accuracy": 0.49264705882352944,
+        "auc": 0.5028571428571429,
+        "samples": 272
+      },
+      "holdout_2023_2024": {
+        "accuracy": 0.5,
+        "auc": 0.5112275774203356,
+        "samples": 528
+      }
+    },
+    "features": [
+      "spread_magnitude",
+      "total_deviation_from_avg",
+      "market_home_prob",
+      "referee_home_bias",
+      "referee_penalty_rate",
+      "referee_flag_tendency",
+      "referee_volatility",
+      "referee_scoring_impact",
+      "is_dome",
+      "wind_speed",
+      "wind_impact_score",
+      "temperature",
+      "temp_extreme",
+      "precipitation_prob",
+      "home_key_injuries",
+      "away_key_injuries",
+      "home_qb_injured",
+      "away_qb_injured",
+      "injury_differential",
+      "home_ats_last_5",
+      "away_ats_last_5",
+      "home_over_rate_last_5",
+      "away_over_rate_last_5",
+      "home_momentum",
+      "away_momentum",
+      "week",
+      "is_division_game",
+      "is_primetime",
+      "is_playoff",
+      "home_rest_days",
+      "away_rest_days",
+      "rest_advantage",
+      "away_travel_distance",
+      "dome_wind_edge",
+      "ref_home_primetime",
+      "injury_rest_combo"
+    ],
+    "feature_importance": [
+      {
+        "feature": "spread_magnitude",
+        "rf_importance": 0.27619606188633294,
+        "gb_importance": 0.3197945588523609,
+        "avg_importance": 0.2979953103693469
+      },
+      {
+        "feature": "total_deviation_from_avg",
+        "rf_importance": 0.2734468139325559,
+        "gb_importance": 0.32220639270829426,
+        "avg_importance": 0.2978266033204251
+      },
+      {
+        "feature": "week",
+        "rf_importance": 0.1541844168279527,
+        "gb_importance": 0.11426250202823916,
+        "avg_importance": 0.13422345942809594
+      },
+      {
+        "feature": "rest_advantage",
+        "rf_importance": 0.0843794167091924,
+        "gb_importance": 0.06506564482447413,
+        "avg_importance": 0.07472253076683327
+      },
+      {
+        "feature": "away_rest_days",
+        "rf_importance": 0.07977829935246959,
+        "gb_importance": 0.06423498562363332,
+        "avg_importance": 0.07200664248805146
+      },
+      {
+        "feature": "home_rest_days",
+        "rf_importance": 0.07804090695377987,
+        "gb_importance": 0.055381341507684215,
+        "avg_importance": 0.06671112423073204
+      },
+      {
+        "feature": "is_primetime",
+        "rf_importance": 0.020739454282934607,
+        "gb_importance": 0.02425180020340768,
+        "avg_importance": 0.022495627243171144
+      },
+      {
+        "feature": "is_division_game",
+        "rf_importance": 0.022491142908328852,
+        "gb_importance": 0.02125247208483546,
+        "avg_importance": 0.021871807496582157
+      },
+      {
+        "feature": "away_travel_distance",
+        "rf_importance": 0.010743487146453156,
+        "gb_importance": 0.013550302167070814,
+        "avg_importance": 0.012146894656761985
+      },
+      {
+        "feature": "market_home_prob",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_home_bias",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_penalty_rate",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "temp_extreme",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_flag_tendency",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_volatility",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_scoring_impact",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "is_dome",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "wind_speed",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "wind_impact_score",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "temperature",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      }
+    ],
+    "validation_method": "walk_forward",
+    "train_years": "2014-2021",
+    "test_year": "2022",
+    "holdout_years": "2023-2024"
+  },
+  "total": {
+    "model_name": "Total",
+    "target": "total",
+    "timestamp": "2025-11-09T11:19:43.233420",
+    "metrics": {
+      "training": {
+        "accuracy": 1.0,
+        "auc": 1.0,
+        "samples": 1809
+      },
+      "validation_2022": {
+        "accuracy": 0.5477941176470589,
+        "auc": 0.5312227550130776,
+        "samples": 272
+      },
+      "holdout_2023_2024": {
+        "accuracy": 0.509469696969697,
+        "auc": 0.5006395975565936,
+        "samples": 528
+      }
+    },
+    "features": [
+      "spread_magnitude",
+      "total_deviation_from_avg",
+      "market_home_prob",
+      "referee_home_bias",
+      "referee_penalty_rate",
+      "referee_flag_tendency",
+      "referee_volatility",
+      "referee_scoring_impact",
+      "is_dome",
+      "wind_speed",
+      "wind_impact_score",
+      "temperature",
+      "temp_extreme",
+      "precipitation_prob",
+      "home_key_injuries",
+      "away_key_injuries",
+      "home_qb_injured",
+      "away_qb_injured",
+      "injury_differential",
+      "home_ats_last_5",
+      "away_ats_last_5",
+      "home_over_rate_last_5",
+      "away_over_rate_last_5",
+      "home_momentum",
+      "away_momentum",
+      "week",
+      "is_division_game",
+      "is_primetime",
+      "is_playoff",
+      "home_rest_days",
+      "away_rest_days",
+      "rest_advantage",
+      "away_travel_distance",
+      "dome_wind_edge",
+      "ref_home_primetime",
+      "injury_rest_combo"
+    ],
+    "feature_importance": [
+      {
+        "feature": "total_deviation_from_avg",
+        "rf_importance": 0.27878267285971053,
+        "gb_importance": 0.3368059185327561,
+        "avg_importance": 0.3077942956962333
+      },
+      {
+        "feature": "spread_magnitude",
+        "rf_importance": 0.27293390943781076,
+        "gb_importance": 0.30797071041507007,
+        "avg_importance": 0.29045230992644044
+      },
+      {
+        "feature": "week",
+        "rf_importance": 0.1552562513350641,
+        "gb_importance": 0.12039461247486392,
+        "avg_importance": 0.13782543190496402
+      },
+      {
+        "feature": "rest_advantage",
+        "rf_importance": 0.08658497515360068,
+        "gb_importance": 0.06474787991460096,
+        "avg_importance": 0.07566642753410083
+      },
+      {
+        "feature": "away_rest_days",
+        "rf_importance": 0.07955876171723782,
+        "gb_importance": 0.0556214813321176,
+        "avg_importance": 0.06759012152467771
+      },
+      {
+        "feature": "home_rest_days",
+        "rf_importance": 0.07473076234538605,
+        "gb_importance": 0.05705467164069359,
+        "avg_importance": 0.06589271699303982
+      },
+      {
+        "feature": "is_division_game",
+        "rf_importance": 0.021548772103811988,
+        "gb_importance": 0.02258179010615842,
+        "avg_importance": 0.022065281104985204
+      },
+      {
+        "feature": "is_primetime",
+        "rf_importance": 0.021533591774542407,
+        "gb_importance": 0.022485969900000114,
+        "avg_importance": 0.02200978083727126
+      },
+      {
+        "feature": "away_travel_distance",
+        "rf_importance": 0.009070303272835627,
+        "gb_importance": 0.012336965683739126,
+        "avg_importance": 0.010703634478287377
+      },
+      {
+        "feature": "market_home_prob",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_home_bias",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_penalty_rate",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "temp_extreme",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_flag_tendency",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_volatility",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_scoring_impact",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "is_dome",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "wind_speed",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "wind_impact_score",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "temperature",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      }
+    ],
+    "validation_method": "walk_forward",
+    "train_years": "2014-2021",
+    "test_year": "2022",
+    "holdout_years": "2023-2024"
+  },
+  "moneyline": {
+    "model_name": "Moneyline",
+    "target": "moneyline",
+    "timestamp": "2025-11-09T11:19:50.608000",
+    "metrics": {
+      "training": {
+        "accuracy": 1.0,
+        "auc": 1.0,
+        "samples": 1809
+      },
+      "validation_2022": {
+        "accuracy": 0.4889705882352941,
+        "auc": 0.4824038093153084,
+        "samples": 272
+      },
+      "holdout_2023_2024": {
+        "accuracy": 0.5170454545454546,
+        "auc": 0.51875,
+        "samples": 528
+      }
+    },
+    "features": [
+      "spread_magnitude",
+      "total_deviation_from_avg",
+      "market_home_prob",
+      "referee_home_bias",
+      "referee_penalty_rate",
+      "referee_flag_tendency",
+      "referee_volatility",
+      "referee_scoring_impact",
+      "is_dome",
+      "wind_speed",
+      "wind_impact_score",
+      "temperature",
+      "temp_extreme",
+      "precipitation_prob",
+      "home_key_injuries",
+      "away_key_injuries",
+      "home_qb_injured",
+      "away_qb_injured",
+      "injury_differential",
+      "home_ats_last_5",
+      "away_ats_last_5",
+      "home_over_rate_last_5",
+      "away_over_rate_last_5",
+      "home_momentum",
+      "away_momentum",
+      "week",
+      "is_division_game",
+      "is_primetime",
+      "is_playoff",
+      "home_rest_days",
+      "away_rest_days",
+      "rest_advantage",
+      "away_travel_distance",
+      "dome_wind_edge",
+      "ref_home_primetime",
+      "injury_rest_combo"
+    ],
+    "feature_importance": [
+      {
+        "feature": "spread_magnitude",
+        "rf_importance": 0.28660841910861307,
+        "gb_importance": 0.3190639120455606,
+        "avg_importance": 0.3028361655770868
+      },
+      {
+        "feature": "total_deviation_from_avg",
+        "rf_importance": 0.2747605035301126,
+        "gb_importance": 0.3183120982007141,
+        "avg_importance": 0.2965363008654134
+      },
+      {
+        "feature": "week",
+        "rf_importance": 0.15129906841169344,
+        "gb_importance": 0.11764407386946182,
+        "avg_importance": 0.13447157114057762
+      },
+      {
+        "feature": "rest_advantage",
+        "rf_importance": 0.07853495409135602,
+        "gb_importance": 0.06516472696004715,
+        "avg_importance": 0.07184984052570159
+      },
+      {
+        "feature": "home_rest_days",
+        "rf_importance": 0.07527463007460224,
+        "gb_importance": 0.05942308384290525,
+        "avg_importance": 0.06734885695875374
+      },
+      {
+        "feature": "away_rest_days",
+        "rf_importance": 0.07527480223358701,
+        "gb_importance": 0.05823795713563176,
+        "avg_importance": 0.06675637968460939
+      },
+      {
+        "feature": "is_primetime",
+        "rf_importance": 0.024092115354525604,
+        "gb_importance": 0.02466594933125511,
+        "avg_importance": 0.024379032342890357
+      },
+      {
+        "feature": "is_division_game",
+        "rf_importance": 0.021170162011367306,
+        "gb_importance": 0.021787132867416553,
+        "avg_importance": 0.02147864743939193
+      },
+      {
+        "feature": "away_travel_distance",
+        "rf_importance": 0.012985345184142755,
+        "gb_importance": 0.01570106574700751,
+        "avg_importance": 0.014343205465575133
+      },
+      {
+        "feature": "market_home_prob",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_home_bias",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_penalty_rate",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "temp_extreme",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_flag_tendency",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_volatility",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "referee_scoring_impact",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "is_dome",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "wind_speed",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "wind_impact_score",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      },
+      {
+        "feature": "temperature",
+        "rf_importance": 0.0,
+        "gb_importance": 0.0,
+        "avg_importance": 0.0
+      }
+    ],
+    "validation_method": "walk_forward",
+    "train_years": "2014-2021",
+    "test_year": "2022",
+    "holdout_years": "2023-2024"
+  }
+}

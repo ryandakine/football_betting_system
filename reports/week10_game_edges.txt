@@ -1,0 +1,156 @@
+================================================================================
+🏈 NFL WEEK 10 - AUTOMATED ANALYSIS REPORT
+================================================================================
+Generated: 2025-11-09 13:09:40
+Games Analyzed: 5
+Powered by: Model 11 (Referee Intelligence)
+
+Total Edges Found: 8
+
+
+🎯 4 GAMES WITH EDGES:
+
+
+================================================================================
+PLAY #1: DET @ GB
+================================================================================
+Time: Sun 1:00 PM
+Spread: GB -3.0
+Total: 45.0
+Referee: John Parry
+
+🎯 EDGES DETECTED (4 total):
+
+   Edge #1: SPREAD HOME
+   Confidence: 70% ⭐⭐⭐
+   Edge Size: LARGE
+   Signal: REF_HOME_BIAS
+   Reason: John Parry favors home by +3.0 pts (league avg 0). Historical bias.
+
+   💰 RECOMMENDATION: BET STRONG (3-4 units)
+
+   Edge #2: 1H_SPREAD HOME
+   Confidence: 68% ⭐⭐⭐
+   Edge Size: MEDIUM
+   Signal: REF_1H_HOME_BIAS
+   Reason: John Parry home bias shows early. 1H spread -1.7.
+
+   💰 RECOMMENDATION: BET MODERATE (2-3 units)
+
+   Edge #3: TEAM_TOTAL_HOME OVER 22.5
+   Confidence: 64% ⭐⭐⭐
+   Edge Size: MEDIUM
+   Signal: REF_HOME_TEAM_TOTAL_OVER
+   Reason: John Parry adds +3.0 to home scoring. Expected 24.0.
+
+   💰 RECOMMENDATION: BET MODERATE (2-3 units)
+
+   Edge #4: TEAM_TOTAL_AWAY UNDER 22.5
+   Confidence: 60% ⭐⭐⭐
+   Edge Size: SMALL
+   Signal: REF_AWAY_TEAM_TOTAL_UNDER
+   Reason: John Parry hurts away by -3.0 pts. Expected 21.0.
+
+   💰 RECOMMENDATION: BET SMALL (1 unit)
+
+   🎰 JACKPOT! Multiple edges aligned!
+
+
+================================================================================
+PLAY #2: SF @ TB
+================================================================================
+Time: Sun 1:00 PM
+Spread: TB +3.0
+Total: 47.5
+Referee: Shawn Hochuli
+
+🎯 EDGES DETECTED (2 total):
+
+   Edge #1: TOTAL UNDER
+   Confidence: 65% ⭐⭐⭐
+   Edge Size: MEDIUM
+   Signal: TEAM_REF_HIGH_PENALTIES_UNDER
+   Reason: Shawn Hochuli calls 7.8 penalties on TB. Slows game down.
+
+   💰 RECOMMENDATION: BET MODERATE (2-3 units)
+
+   Edge #2: TOTAL UNDER
+   Confidence: 58% ⭐⭐
+   Edge Size: SMALL
+   Signal: REF_HIGH_PENALTIES_UNDER
+   Reason: Shawn Hochuli calls 6.5 penalties (league avg 6.1). More stoppages = fewer possessions.
+
+   💰 RECOMMENDATION: BET SMALL (1 unit)
+
+
+================================================================================
+PLAY #3: BUF @ KC
+================================================================================
+Time: SNF 8:20 PM
+Spread: KC -2.5
+Total: 48.5
+Referee: Brad Rogers
+
+📊 Team-Ref History:
+   Brad Rogers + KC: +14.6 avg margin (5 games)
+
+🎯 EDGES DETECTED (1 total):
+
+   Edge #1: SPREAD HOME
+   Confidence: 80% ⭐⭐⭐⭐
+   Edge Size: LARGE
+   Signal: TEAM_REF_HOME_BIAS
+   Reason: Brad Rogers favors KC by +14.6 pts (5 games). Historical bias.
+
+   💰 RECOMMENDATION: BET STRONG (3-4 units)
+
+
+================================================================================
+PLAY #4: BAL @ CIN
+================================================================================
+Time: TNF 8:15 PM
+Spread: CIN +3.5
+Total: 42.0
+Referee: Carl Cheffers
+
+🎯 EDGES DETECTED (1 total):
+
+   Edge #1: TOTAL OVER
+   Confidence: 75% ⭐⭐⭐
+   Edge Size: MEDIUM
+   Signal: REF_OVERTIME_SPECIALIST
+   Reason: Carl Cheffers OT rate 8.6% (league avg 6%). Overtime adds 10+ points.
+
+   💰 RECOMMENDATION: BET MODERATE (2-3 units)
+
+
+================================================================================
+📊 SUMMARY STATISTICS
+================================================================================
+
+Edge Type Distribution:
+  Full Game Spread: 2
+  Full Game Total: 3
+  Moneyline: 0
+  1st Half Spread: 1
+  Home Team Total: 1
+  Away Team Total: 1
+
+Edge Size Distribution:
+  MASSIVE: 0
+  LARGE: 2
+  MEDIUM: 4
+
+Average Edge Confidence: 68%
+
+================================================================================
+⚠️  BETTING DISCLAIMER
+================================================================================
+
+These picks are based on historical referee patterns (2018-2024).
+Past performance does not guarantee future results.
+Only bet what you can afford to lose.
+Gamble responsibly.
+
+System: 11-Model Super Intelligence
+Model 11: Referee Intelligence (640+ team-ref pairings)
