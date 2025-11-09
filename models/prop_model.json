@@ -1,0 +1,32 @@
+{
+  "model_type": "XGBoost",
+  "features": [
+    "avg_last_5",
+    "avg_last_10",
+    "avg_season",
+    "is_home",
+    "home_away_diff",
+    "opponent_rank",
+    "is_division",
+    "spread",
+    "total",
+    "game_closeness",
+    "temperature",
+    "referee_penalties",
+    "line",
+    "line_differential"
+  ],
+  "performance": {
+    "accuracy": 0.578,
+    "roi": 0.092
+  },
+  "training_seasons": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "validation_season": 2024
+}

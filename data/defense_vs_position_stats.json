@@ -1,0 +1,23 @@
+{
+  "BUF": {
+    "vs_qb": {
+      "rank": 8,
+      "avg_passing_yards_allowed": 225.4,
+      "avg_passing_tds_allowed": 1.6
+    },
+    "vs_rb": {
+      "rank": 15,
+      "avg_rushing_yards_allowed": 112.3
+    },
+    "vs_wr": {
+      "rank": 12,
+      "avg_receiving_yards_allowed": 198.7
+    }
+  },
+  "KC": {
+    "vs_qb": {
+      "rank": 11,
+      "avg_passing_yards_allowed": 235.8
+    }
+  }
+}
