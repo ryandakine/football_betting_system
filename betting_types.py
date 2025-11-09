@@ -32,6 +32,9 @@ class Market(Enum):
     SPREAD = "spread"
     TOTAL = "total"
     MONEYLINE = "moneyline"
+    FIRST_HALF_SPREAD = "first_half_spread"
+    TEAM_TOTAL_HOME = "team_total_home"
+    TEAM_TOTAL_AWAY = "team_total_away"
 
 
 @dataclass
@@ -82,6 +85,27 @@ class MoneylinePrediction:
 
 
 @dataclass
+class FirstHalfSpreadPrediction:
+    """First half spread prediction."""
+    pick: Literal["home", "away"]
+    adjusted_line: float
+    confidence: float
+    edge: float
+    american_odds: int
+
+
+@dataclass
+class TeamTotalPrediction:
+    """Individual team total prediction."""
+    team: Literal["home", "away"]
+    pick: Literal["over", "under"]
+    adjusted_line: float
+    confidence: float
+    edge: float
+    american_odds: int
+
+
+@dataclass
 class RefereeProfile:
     name: str
     avg_margin: float
@@ -124,6 +148,12 @@ class GameData(TypedDict, total=False):
     spread_model_home_pct: Optional[float]
     total_model_over_pct: Optional[float]
     home_advantage_pct: Optional[float]
+    first_half_spread_home_pct: Optional[float]
+    home_team_total_over_pct: Optional[float]
+    away_team_total_over_pct: Optional[float]
+    xgboost_model_pct: Optional[float]
+    neural_net_model_pct: Optional[float]
+    stacking_model_pct: Optional[float]
     latitude: Optional[float]
     longitude: Optional[float]
     subreddit: Optional[str]
@@ -153,3 +183,8 @@ class UnifiedPrediction:
     degraded: bool = False
     degraded_reasons: List[str] = field(default_factory=list)
     version: str = "1.0.0"
+    # Enhanced predictions (optional)
+    first_half_spread_prediction: Optional[FirstHalfSpreadPrediction] = None
+    home_team_total_prediction: Optional[TeamTotalPrediction] = None
+    away_team_total_prediction: Optional[TeamTotalPrediction] = None
+    ensemble_metadata: dict = field(default_factory=dict)
