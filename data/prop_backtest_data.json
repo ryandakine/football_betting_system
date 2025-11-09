@@ -1,0 +1,47 @@
+{
+  "players": {
+    "Patrick Mahomes": {
+      "team": "KC",
+      "position": "QB",
+      "stats_2024": {
+        "games": 10,
+        "avg_passing_yards": 268.5,
+        "avg_passing_tds": 2.1,
+        "avg_interceptions": 0.9,
+        "home_avg_passing_yards": 285.2,
+        "away_avg_passing_yards": 251.8
+      },
+      "stats_2023": {
+        "games": 17,
+        "avg_passing_yards": 283.4,
+        "avg_passing_tds": 2.65
+      },
+      "career_stats": {
+        "seasons": 7,
+        "games": 105,
+        "total_passing_yards": 28424,
+        "total_passing_tds": 219
+      }
+    },
+    "Josh Allen": {
+      "team": "BUF",
+      "position": "QB",
+      "stats_2024": {
+        "games": 10,
+        "avg_passing_yards": 245.8,
+        "avg_passing_tds": 2.3,
+        "avg_rushing_yards": 38.5
+      }
+    },
+    "Christian McCaffrey": {
+      "team": "SF",
+      "position": "RB",
+      "stats_2024": {
+        "games": 8,
+        "avg_rushing_yards": 98.5,
+        "avg_receiving_yards": 42.3,
+        "avg_receptions": 5.1
+      }
+    }
+  }
+}

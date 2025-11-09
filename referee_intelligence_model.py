@@ -127,6 +127,14 @@ class RefereeIntelligenceModel:
         """
         Detect betting edges based on referee assignment.
 
+        NOW DETECTS ALL BET TYPES:
+        - Full game spread
+        - Full game total (over/under)
+        - Moneyline
+        - First half spread
+        - Home team total
+        - Away team total
+
         Returns:
             List of edge opportunities with reasoning
         """
@@ -138,21 +146,22 @@ class RefereeIntelligenceModel:
         edges = []
 
         avg_margin = profile.get('avg_margin', 0.0)
+        avg_penalties = profile.get('avg_penalties', 6.1)
         overtime_rate = profile.get('avg_overtime_rate', 6.0)
         labels = profile.get('labels', [])
 
-        # EDGE 1: High Overtime Rate + Low Total = OVER OPPORTUNITY
-        if overtime_rate > 7.5 and total < 45:
-            edges.append({
-                'type': 'TOTAL',
-                'pick': 'OVER',
-                'confidence': min(0.75, overtime_rate / 10.0),
-                'reason': f"{referee_name} OT rate {overtime_rate:.1f}% (league avg 6%). Overtime adds 10+ points.",
-                'edge_size': 'MEDIUM',
-                'signal': 'REF_OVERTIME_SPECIALIST',
-            })
+        # Calculate expected team totals (split the total)
+        expected_home_total = total / 2 + (avg_margin / 2)  # Home team gets margin boost
+        expected_away_total = total / 2 - (avg_margin / 2)
 
-        # EDGE 2: Significant Home Bias + Close Spread = HOME COVER
+        # First half spread is typically ~55% of full game
+        first_half_spread = spread * 0.55
+
+        # ====================================================================
+        # FULL GAME SPREAD EDGES
+        # ====================================================================
+
+        # EDGE 1: Significant Home Bias + Close Spread = HOME COVER
         if avg_margin > 1.5 and abs(spread) < 7:
             edges.append({
                 'type': 'SPREAD',
@@ -163,51 +172,7 @@ class RefereeIntelligenceModel:
                 'signal': 'REF_HOME_BIAS',
             })
 
-        # EDGE 3: Home Underdog + Home Bias = HOME ML VALUE
-        if avg_margin > 1.0 and spread > 0:  # Home is underdog
-            edges.append({
-                'type': 'MONEYLINE',
-                'pick': 'HOME',
-                'confidence': min(0.65, avg_margin / 2.5),
-                'reason': f"{referee_name} +{avg_margin:.1f} home bias. Home underdog = value.",
-                'edge_size': 'LARGE',
-                'signal': 'REF_HOME_UNDERDOG_VALUE',
-            })
-
-        # EDGE 4: Low Flags + High Total = UNDER OPPORTUNITY
-        if 'low_flags_high_blowouts' in labels and total > 47:
-            edges.append({
-                'type': 'TOTAL',
-                'pick': 'UNDER',
-                'confidence': 0.60,
-                'reason': f"{referee_name} labeled 'low_flags_high_blowouts'. Games end quickly.",
-                'edge_size': 'MEDIUM',
-                'signal': 'REF_LOW_FLAGS_BLOWOUT',
-            })
-
-        # EDGE 5: High Penalties + Close Spread = UNDER (game slows down)
-        if 'high_penalties_close_games' in labels:
-            edges.append({
-                'type': 'TOTAL',
-                'pick': 'UNDER',
-                'confidence': 0.58,
-                'reason': f"{referee_name} labeled 'high_penalties_close_games'. More stoppages = fewer possessions.",
-                'edge_size': 'SMALL',
-                'signal': 'REF_HIGH_PENALTIES_UNDER',
-            })
-
-            # Also creates spread value if game is close
-            if abs(spread) < 3:
-                edges.append({
-                    'type': 'SPREAD',
-                    'pick': 'AWAY' if spread < 0 else 'HOME',  # Bet underdog
-                    'confidence': 0.62,
-                    'reason': f"{referee_name} keeps games close with penalties. Underdog value.",
-                    'edge_size': 'MEDIUM',
-                    'signal': 'REF_CLOSE_GAME_SPECIALIST',
-                })
-
-        # EDGE 6: Significant Away Bias (Rare but Valuable)
+        # EDGE 2: Significant Away Bias (Rare but Valuable)
         if avg_margin < -1.5 and abs(spread) < 7:
             edges.append({
                 'type': 'SPREAD',
@@ -218,7 +183,55 @@ class RefereeIntelligenceModel:
                 'signal': 'REF_AWAY_BIAS',
             })
 
-        # EDGE 7: Overseas Flag Surge (Tony Corrente special)
+        # EDGE 3: High Penalties + Close Spread = UNDERDOG VALUE
+        if 'high_penalties_close_games' in labels and abs(spread) < 3:
+            edges.append({
+                'type': 'SPREAD',
+                'pick': 'AWAY' if spread < 0 else 'HOME',  # Bet underdog
+                'confidence': 0.62,
+                'reason': f"{referee_name} keeps games close with penalties. Underdog value.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_CLOSE_GAME_SPECIALIST',
+            })
+
+        # ====================================================================
+        # FULL GAME TOTAL EDGES
+        # ====================================================================
+
+        # EDGE 4: High Overtime Rate + Low Total = OVER OPPORTUNITY
+        if overtime_rate > 7.5 and total < 45:
+            edges.append({
+                'type': 'TOTAL',
+                'pick': 'OVER',
+                'confidence': min(0.75, overtime_rate / 10.0),
+                'reason': f"{referee_name} OT rate {overtime_rate:.1f}% (league avg 6%). Overtime adds 10+ points.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_OVERTIME_SPECIALIST',
+            })
+
+        # EDGE 5: Low Flags + High Total = UNDER OPPORTUNITY
+        if 'low_flags_high_blowouts' in labels and total > 47:
+            edges.append({
+                'type': 'TOTAL',
+                'pick': 'UNDER',
+                'confidence': 0.60,
+                'reason': f"{referee_name} labeled 'low_flags_high_blowouts'. Games end quickly.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_LOW_FLAGS_BLOWOUT',
+            })
+
+        # EDGE 6: High Penalties = UNDER (game slows down)
+        if 'high_penalties_close_games' in labels or avg_penalties > 7.0:
+            edges.append({
+                'type': 'TOTAL',
+                'pick': 'UNDER',
+                'confidence': 0.58,
+                'reason': f"{referee_name} calls {avg_penalties:.1f} penalties (league avg 6.1). More stoppages = fewer possessions.",
+                'edge_size': 'SMALL',
+                'signal': 'REF_HIGH_PENALTIES_UNDER',
+            })
+
+        # EDGE 7: Overseas Flag Surge
         if 'overseas_flag_surge' in labels:
             edges.append({
                 'type': 'TOTAL',
@@ -227,6 +240,135 @@ class RefereeIntelligenceModel:
                 'reason': f"{referee_name} has 'overseas_flag_surge' pattern. Unpredictable penalties.",
                 'edge_size': 'SMALL',
                 'signal': 'REF_OVERSEAS_PATTERN',
+            })
+
+        # ====================================================================
+        # MONEYLINE EDGES
+        # ====================================================================
+
+        # EDGE 8: Home Underdog + Home Bias = HOME ML VALUE
+        if avg_margin > 1.0 and spread > 0:  # Home is underdog
+            edges.append({
+                'type': 'MONEYLINE',
+                'pick': 'HOME',
+                'confidence': min(0.65, avg_margin / 2.5),
+                'reason': f"{referee_name} +{avg_margin:.1f} home bias. Home underdog = value.",
+                'edge_size': 'LARGE',
+                'signal': 'REF_HOME_UNDERDOG_VALUE',
+            })
+
+        # EDGE 9: Away Underdog + Away Bias = AWAY ML VALUE
+        if avg_margin < -1.0 and spread < 0:  # Away is underdog
+            edges.append({
+                'type': 'MONEYLINE',
+                'pick': 'AWAY',
+                'confidence': min(0.65, abs(avg_margin) / 2.5),
+                'reason': f"{referee_name} {avg_margin:.1f} away bias. Away underdog = value.",
+                'edge_size': 'LARGE',
+                'signal': 'REF_AWAY_UNDERDOG_VALUE',
+            })
+
+        # ====================================================================
+        # FIRST HALF SPREAD EDGES (NEW!)
+        # ====================================================================
+
+        # EDGE 10: Home bias applies to 1H
+        if avg_margin > 2.0 and abs(first_half_spread) < 4:
+            edges.append({
+                'type': '1H_SPREAD',
+                'pick': 'HOME',
+                'confidence': min(0.68, avg_margin / 3.5),
+                'reason': f"{referee_name} home bias shows early. 1H spread {first_half_spread:.1f}.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_1H_HOME_BIAS',
+            })
+
+        # EDGE 11: Away bias applies to 1H
+        if avg_margin < -2.0 and abs(first_half_spread) < 4:
+            edges.append({
+                'type': '1H_SPREAD',
+                'pick': 'AWAY',
+                'confidence': min(0.68, abs(avg_margin) / 3.5),
+                'reason': f"{referee_name} away bias shows early. 1H spread {first_half_spread:.1f}.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_1H_AWAY_BIAS',
+            })
+
+        # ====================================================================
+        # TEAM TOTAL EDGES (NEW!)
+        # ====================================================================
+
+        # EDGE 12: Home Team Total OVER (home bias + high scoring)
+        if avg_margin > 2.0:
+            home_team_total = total / 2  # Books typically split evenly
+            edges.append({
+                'type': 'TEAM_TOTAL_HOME',
+                'pick': 'OVER',
+                'confidence': min(0.64, avg_margin / 4.0),
+                'reason': f"{referee_name} adds +{avg_margin:.1f} to home scoring. Expected {expected_home_total:.1f}.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_HOME_TEAM_TOTAL_OVER',
+                'line': home_team_total,
+            })
+
+        # EDGE 13: Away Team Total UNDER (home bias hurts away)
+        if avg_margin > 2.5:
+            away_team_total = total / 2
+            edges.append({
+                'type': 'TEAM_TOTAL_AWAY',
+                'pick': 'UNDER',
+                'confidence': min(0.62, avg_margin / 5.0),
+                'reason': f"{referee_name} hurts away by -{avg_margin:.1f} pts. Expected {expected_away_total:.1f}.",
+                'edge_size': 'SMALL',
+                'signal': 'REF_AWAY_TEAM_TOTAL_UNDER',
+                'line': away_team_total,
+            })
+
+        # EDGE 14: Away Team Total OVER (away bias + high scoring)
+        if avg_margin < -2.0:
+            away_team_total = total / 2
+            edges.append({
+                'type': 'TEAM_TOTAL_AWAY',
+                'pick': 'OVER',
+                'confidence': min(0.64, abs(avg_margin) / 4.0),
+                'reason': f"{referee_name} adds {abs(avg_margin):.1f} to away scoring. Expected {expected_away_total:.1f}.",
+                'edge_size': 'MEDIUM',
+                'signal': 'REF_AWAY_TEAM_TOTAL_OVER',
+                'line': away_team_total,
+            })
+
+        # EDGE 15: Home Team Total UNDER (away bias hurts home)
+        if avg_margin < -2.5:
+            home_team_total = total / 2
+            edges.append({
+                'type': 'TEAM_TOTAL_HOME',
+                'pick': 'UNDER',
+                'confidence': min(0.62, abs(avg_margin) / 5.0),
+                'reason': f"{referee_name} hurts home by {avg_margin:.1f} pts. Expected {expected_home_total:.1f}.",
+                'edge_size': 'SMALL',
+                'signal': 'REF_HOME_TEAM_TOTAL_UNDER',
+                'line': home_team_total,
+            })
+
+        # EDGE 16: High Penalties = Both Team Totals UNDER
+        if avg_penalties > 7.5:
+            edges.append({
+                'type': 'TEAM_TOTAL_HOME',
+                'pick': 'UNDER',
+                'confidence': 0.56,
+                'reason': f"{referee_name} calls {avg_penalties:.1f} penalties. Slows home offense.",
+                'edge_size': 'SMALL',
+                'signal': 'REF_HIGH_PENALTIES_TEAM_UNDER',
+                'line': total / 2,
+            })
+            edges.append({
+                'type': 'TEAM_TOTAL_AWAY',
+                'pick': 'UNDER',
+                'confidence': 0.56,
+                'reason': f"{referee_name} calls {avg_penalties:.1f} penalties. Slows away offense.",
+                'edge_size': 'SMALL',
+                'signal': 'REF_HIGH_PENALTIES_TEAM_UNDER',
+                'line': total / 2,
             })
 
         return edges
