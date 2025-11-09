@@ -40,17 +40,24 @@ from enhanced_model_architectures import (
     EnhancedModelRegistry,
     SituationalSpecialist,
 )
+from referee_intelligence_model import (
+    RefereeIntelligenceModel,
+    RefereeEnhancedConfidence,
+)
+from parse_team_referee_pairings import TeamRefereeParser
 
 logger = logging.getLogger(__name__)
 
 
 class EnhancedAICouncil(NarrativeIntegratedAICouncil):
     """
-    Enhanced AI Council with 10 coordinated models.
+    Enhanced AI Council with 11 coordinated models.
     Inherits base functionality and adds new model predictions.
+
+    Model 11: Referee Intelligence - THE CENTERPIECE
     """
 
-    VERSION = "2.0.0-ENHANCED"
+    VERSION = "2.1.0-REFEREE-ENHANCED"
 
     def __init__(
         self,
@@ -67,6 +74,18 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         # Situational specialist for context adjustments
         self.specialist = SituationalSpecialist()
 
+        # MODEL 11: Referee Intelligence - THE CENTERPIECE
+        self.referee_intel = RefereeIntelligenceModel()
+        self.referee_confidence = RefereeEnhancedConfidence(self.referee_intel)
+        self.team_referee_parser = TeamRefereeParser()
+
+        # Load team-referee pairing data
+        try:
+            self.team_referee_parser.parse_all_teams()
+            logger.info("Loaded team-referee pairing data for all 32 teams")
+        except Exception as e:
+            logger.warning(f"Could not load team-referee data: {e}")
+
         # Model weights for ensemble (can be tuned based on performance)
         self.model_weights = {
             'spread_ensemble': 1.0,
@@ -78,10 +97,11 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
             'xgboost_ensemble': 1.2,  # Often performs well
             'neural_net_deep': 0.9,
             'stacking_meta': 1.5,  # Meta-learner gets highest weight
+            'referee_intelligence': 2.0,  # HIGHEST WEIGHT - The centerpiece!
         }
 
         logger.info(
-            "Initialized Enhanced AI Council v%s with 10 models",
+            "Initialized Enhanced AI Council v%s with 11 models (Referee Intelligence Enabled)",
             self.VERSION
         )
 
@@ -90,8 +110,10 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
     # ================================================================
     def make_unified_prediction(self, game_data: GameData) -> UnifiedPrediction:
         """
-        Enhanced prediction using all 10 models.
+        Enhanced prediction using all 11 models.
         Extends base prediction with additional model outputs.
+
+        MODEL 11 (Referee Intelligence) is the CENTERPIECE!
         """
         # Get base predictions (Models 1-3)
         base_prediction = super().make_unified_prediction(game_data)
@@ -104,22 +126,24 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         # Get ensemble metadata with all model outputs
         ensemble_meta = self._get_ensemble_metadata(game_data)
 
-        # Enhanced confidence using all 10 models
+        # Enhanced confidence using all 11 models (including referee intelligence!)
         enhanced_confidence = self._calculate_enhanced_confidence(
             base_prediction,
             first_half,
             home_total,
             away_total,
             ensemble_meta,
+            game_data,  # Pass game_data for referee intelligence
         )
 
-        # Enhanced edge signals from all models
+        # Enhanced edge signals from all 11 models (including referee edges!)
         enhanced_signals = self._detect_enhanced_edge_signals(
             base_prediction,
             first_half,
             home_total,
             away_total,
             ensemble_meta,
+            game_data,  # Pass game_data for referee edges
         )
 
         # Build enhanced prediction
@@ -277,10 +301,13 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         home_total: Optional[TeamTotalPrediction],
         away_total: Optional[TeamTotalPrediction],
         ensemble_meta: Dict[str, Any],
+        game_data: GameData,
     ) -> float:
         """
-        Calculate confidence using all 10 models.
+        Calculate confidence using all 11 models.
         Weighted average with dynamic weighting based on agreement.
+
+        MODEL 11 (Referee Intelligence) gets HIGHEST weight!
         """
         confidences = []
         weights = []
@@ -339,7 +366,33 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         base_confidence += min(0.1, base_prediction.sentiment.contrarian_score * 0.2)
         base_confidence += min(0.05, base_prediction.sentiment.crowd_roar_signal * 0.1)
 
-        return min(1.0, max(0.0, base_confidence))
+        # MODEL 11: REFEREE INTELLIGENCE BOOST - THE CENTERPIECE!
+        referee = game_data.get("referee", "Unknown")
+        home_team = game_data.get("home_team", "HOME")
+        away_team = game_data.get("away_team", "AWAY")
+        spread = float(game_data.get("spread", 0.0))
+        total = float(game_data.get("total", 44.5))
+
+        # Detect which bet we're making (based on spread prediction)
+        bet_pick = base_prediction.spread_prediction.pick.upper()
+
+        # Get referee confidence boost
+        ref_boost, ref_reason = self.referee_confidence.adjust_prediction_with_referee(
+            base_confidence,
+            referee,
+            "SPREAD",  # Default to spread, could be made dynamic
+            bet_pick,
+            spread,
+            total,
+        )
+
+        # Apply referee boost (weighted at 2.0 - highest!)
+        referee_adjusted = ref_boost  # This already includes base_confidence
+        final_confidence = (
+            base_confidence * sum(weights) + referee_adjusted * self.model_weights['referee_intelligence']
+        ) / (sum(weights) + self.model_weights['referee_intelligence'])
+
+        return min(1.0, max(0.0, final_confidence))
 
     def _detect_enhanced_edge_signals(
         self,
@@ -348,8 +401,9 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
         home_total: Optional[TeamTotalPrediction],
         away_total: Optional[TeamTotalPrediction],
         ensemble_meta: Dict[str, Any],
+        game_data: GameData,
     ) -> List[str]:
-        """Detect edge signals from all 10 models."""
+        """Detect edge signals from all 11 models."""
         signals = list(base_prediction.edge_signals)
 
         # First half edge
@@ -378,6 +432,27 @@ class EnhancedAICouncil(NarrativeIntegratedAICouncil):
 
         # Situational edges
         signals.extend(ensemble_meta.get("situational_adjustments", []))
+
+        # MODEL 11: REFEREE INTELLIGENCE EDGES - THE GOLD!
+        referee = game_data.get("referee", "Unknown")
+        home_team = game_data.get("home_team", "HOME")
+        away_team = game_data.get("away_team", "AWAY")
+        spread = float(game_data.get("spread", 0.0))
+        total = float(game_data.get("total", 44.5))
+
+        # Detect referee edges
+        referee_edges = self.team_referee_parser.detect_team_referee_edges(
+            referee, home_team, away_team, spread, total
+        )
+
+        # Add referee edge signals
+        for edge in referee_edges:
+            if edge.get('signal'):
+                signals.append(edge['signal'])
+
+        # Special flag for multiple referee edges (JACKPOT!)
+        if len(referee_edges) >= 3:
+            signals.append("REFEREE_EDGE_JACKPOT")
 
         return signals
 

@@ -17,7 +17,6 @@ import json
 import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
-import numpy as np
 
 logger = logging.getLogger(__name__)
 
