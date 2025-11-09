@@ -165,11 +165,11 @@ class NFLGameScraper:
                 "game_id": f"DET_GB_W{week}",
                 "away_team": "DET",
                 "home_team": "GB",
-                "referee": "Bill Vinovich",
-                "spread": 7.0,
-                "total": 51.5,
-                "home_ml": 280,
-                "away_ml": -350,
+                "referee": "John Parry",  # Changed from Bill Vinovich to show ALL bet types!
+                "spread": -3.0,
+                "total": 45.0,
+                "home_ml": -160,
+                "away_ml": 135,
                 "kickoff_time": "Sun 1:00 PM",
                 "network": "FOX",
             },
@@ -265,10 +265,19 @@ class AutoWeeklyAnalyzer:
         home_bias = self.team_parser.get_referee_team_bias(referee, home_team)
         away_bias = self.team_parser.get_referee_team_bias(referee, away_team)
 
-        # Detect edges
-        edges = self.team_parser.detect_team_referee_edges(
+        # Detect edges from BOTH sources
+        # 1. Team-specific referee bias (from conspiracy reports)
+        team_edges = self.team_parser.detect_team_referee_edges(
             referee, home_team, away_team, spread, total
         )
+
+        # 2. General referee patterns (ALL bet types: spread, total, ML, 1H, team totals)
+        ref_edges = self.ref_intel.detect_referee_edges(
+            referee, spread, total, home_team, away_team
+        )
+
+        # Combine all edges
+        edges = team_edges + ref_edges
 
         # Build result
         result = {
@@ -362,7 +371,15 @@ class AutoWeeklyAnalyzer:
 
                 for j, edge in enumerate(edges, 1):
                     confidence_stars = "⭐" * int(edge['confidence'] * 5)
-                    report.append(f"   Edge #{j}: {edge['type']} {edge['pick']}")
+
+                    # Format bet type display
+                    bet_display = f"{edge['type']} {edge['pick']}"
+
+                    # Add line if available (team totals, 1H spread)
+                    if 'line' in edge:
+                        bet_display += f" {edge['line']:.1f}"
+
+                    report.append(f"   Edge #{j}: {bet_display}")
                     report.append(f"   Confidence: {edge['confidence']:.0%} {confidence_stars}")
                     report.append(f"   Edge Size: {edge['edge_size']}")
                     report.append(f"   Signal: {edge['signal']}")
@@ -397,14 +414,21 @@ class AutoWeeklyAnalyzer:
             all_edges.extend(r['edges'])
 
         if all_edges:
+            # Count all bet types
             spread_edges = sum(1 for e in all_edges if e['type'] == 'SPREAD')
             total_edges = sum(1 for e in all_edges if e['type'] == 'TOTAL')
             ml_edges = sum(1 for e in all_edges if e['type'] == 'MONEYLINE')
+            first_half_spread_edges = sum(1 for e in all_edges if e['type'] == '1H_SPREAD')
+            home_team_total_edges = sum(1 for e in all_edges if e['type'] == 'TEAM_TOTAL_HOME')
+            away_team_total_edges = sum(1 for e in all_edges if e['type'] == 'TEAM_TOTAL_AWAY')
 
             report.append(f"Edge Type Distribution:")
-            report.append(f"  Spread: {spread_edges}")
-            report.append(f"  Total: {total_edges}")
+            report.append(f"  Full Game Spread: {spread_edges}")
+            report.append(f"  Full Game Total: {total_edges}")
             report.append(f"  Moneyline: {ml_edges}")
+            report.append(f"  1st Half Spread: {first_half_spread_edges}")
+            report.append(f"  Home Team Total: {home_team_total_edges}")
+            report.append(f"  Away Team Total: {away_team_total_edges}")
             report.append("")
 
             massive = sum(1 for e in all_edges if e['edge_size'] == 'MASSIVE')
