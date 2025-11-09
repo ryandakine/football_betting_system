@@ -454,15 +454,24 @@ class StackingMetaLearner(BaseNCAAModel):
 
 class SuperIntelligenceOrchestrator:
     """
-    Orchestrates all 10 models for comprehensive predictions
+    Orchestrates all 12 models for comprehensive predictions
+
+    Models 1-10: Core prediction models (spread, total, ML, etc.)
+    Model 11: Officiating Bias Model (conference crew analysis)
+    Model 12: Prop Bet Specialist Model (player/team props)
     """
 
     def __init__(self, models_dir="models/ncaa"):
         self.models_dir = Path(models_dir)
         self.models_dir.mkdir(parents=True, exist_ok=True)
 
-        # Initialize all 10 models
+        # Import specialized models
+        from .officiating_bias_model import OfficiatingBiasModel
+        from .prop_bet_model import PropBetSpecialistModel
+
+        # Initialize all 12 models
         self.models = {
+            # Core prediction models (1-10)
             'spread_ensemble': SpreadEnsembleModel(),
             'total_ensemble': TotalEnsembleModel(),
             'moneyline_ensemble': MoneylineEnsembleModel(),
@@ -472,12 +481,16 @@ class SuperIntelligenceOrchestrator:
             'alt_spread': AltSpreadModel(),
             'xgboost_super': XGBoostSuperEnsemble(),
             'neural_net_deep': NeuralNetworkDeepModel(),
-            'stacking_meta': StackingMetaLearner()
+            'stacking_meta': StackingMetaLearner(),
+
+            # Specialized models (11-12)
+            'officiating_bias': OfficiatingBiasModel(),
+            'prop_bet_specialist': PropBetSpecialistModel()
         }
 
     def train_all(self, feature_engineer, seasons=[2023, 2024]):
-        """Train all models on historical data"""
-        logger.info("Training 10-Model Super Intelligence System...")
+        """Train all 12 models on historical data"""
+        logger.info("Training 12-Model Super Intelligence System...")
         logger.info("="*70)
 
         for year in seasons:

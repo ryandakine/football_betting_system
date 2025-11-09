@@ -1,0 +1,83 @@
+{
+  "analysis_date": "2025-11-09T18:11:57.935850",
+  "data_source": "SAMPLE",
+  "models": {
+    "spread_ensemble": {
+      "calibration_gap": -0.08,
+      "status": "OVERCONFIDENT",
+      "formula": {
+        "status": "OVERCONFIDENT",
+        "multiplier_high": 0.808,
+        "multiplier_mid": 0.84,
+        "multiplier_low": 0.872,
+        "recommendation": "Decrease confidence by ~8%"
+      }
+    },
+    "total_ensemble": {
+      "calibration_gap": -0.05,
+      "status": "SLIGHTLY_MISCALIBRATED",
+      "formula": {
+        "status": "SLIGHTLY_MISCALIBRATED",
+        "multiplier_high": 0.975,
+        "multiplier_mid": 0.975,
+        "multiplier_low": 0.975,
+        "recommendation": "Minor adjustment: -2.5%"
+      }
+    },
+    "moneyline_ensemble": {
+      "calibration_gap": 0.02,
+      "status": "SLIGHTLY_MISCALIBRATED",
+      "formula": {
+        "status": "SLIGHTLY_MISCALIBRATED",
+        "multiplier_high": 1.01,
+        "multiplier_mid": 1.01,
+        "multiplier_low": 1.01,
+        "recommendation": "Minor adjustment: +1.0%"
+      }
+    },
+    "xgboost_super": {
+      "calibration_gap": -0.12,
+      "status": "OVERCONFIDENT",
+      "formula": {
+        "status": "OVERCONFIDENT",
+        "multiplier_high": 0.76,
+        "multiplier_mid": 0.8,
+        "multiplier_low": 0.84,
+        "recommendation": "Decrease confidence by ~12%"
+      }
+    },
+    "neural_net_deep": {
+      "calibration_gap": -0.06,
+      "status": "OVERCONFIDENT",
+      "formula": {
+        "status": "OVERCONFIDENT",
+        "multiplier_high": 0.856,
+        "multiplier_mid": 0.88,
+        "multiplier_low": 0.904,
+        "recommendation": "Decrease confidence by ~6%"
+      }
+    },
+    "officiating_bias": {
+      "calibration_gap": 0.0,
+      "status": "WELL_CALIBRATED",
+      "formula": {
+        "status": "WELL_CALIBRATED",
+        "multiplier_high": 1.0,
+        "multiplier_mid": 1.0,
+        "multiplier_low": 1.0,
+        "recommendation": "No adjustment needed"
+      }
+    },
+    "prop_bet_specialist": {
+      "calibration_gap": -0.15,
+      "status": "OVERCONFIDENT",
+      "formula": {
+        "status": "OVERCONFIDENT",
+        "multiplier_high": 0.76,
+        "multiplier_mid": 0.8,
+        "multiplier_low": 0.84,
+        "recommendation": "Decrease confidence by ~15%"
+      }
+    }
+  }
+}
