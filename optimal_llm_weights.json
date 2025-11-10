@@ -1,0 +1,21 @@
+{
+  "strategy_name": "A_DeepSeek_Only",
+  "description": "100% DeepSeek-R1 reasoning model",
+  "weights": {
+    "deepseek-r1": 1.0,
+    "mistral-7b": 0.0,
+    "mixtral-8x7b": 0.0
+  },
+  "min_confidence": 70.0,
+  "require_agreement": false,
+  "dynamic_weighting": false,
+  "expected_roi": 37.03,
+  "expected_win_rate": 74.57,
+  "backtest_date": "2025-11-10T17:29:35.854724",
+  "games_tested": 5635,
+  "bet_sizing": {
+    "high_confidence_80_plus": 6,
+    "medium_confidence_75_79": 4,
+    "low_confidence_70_74": 2
+  }
+}
