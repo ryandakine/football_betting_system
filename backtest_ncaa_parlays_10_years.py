@@ -166,28 +166,15 @@ class NCAAParlayBacktester:
                     week = game.get('week', 0)
                     weeks[week].append(game)
 
-            # Debug for 2024
-            if year == 2024:
-                print(f"   Total weeks: {len(weeks)}, Total games: {len(games)}")
-                first_week = min(weeks.keys()) if weeks else None
-                if first_week:
-                    print(f"   First week number: {first_week}, games in first week: {len(weeks[first_week])}")
+            # Progress tracking
+            year_bets_start = len(self.results[strategy_name]['bets'])
 
             # Process each week
-            for week_num in sorted(weeks.keys())[:2]:  # Test first 2 weeks only
+            for week_num in sorted(weeks.keys()):  # Process ALL weeks
                 week_games = weeks[week_num]
 
                 # Get predictions for this week
                 predictions = self._predict_week(week_games, year)
-
-                if year == 2024:  # Debug output for any 2024 week
-                    print(f"\n   Week {week_num}: {len(week_games)} games → {len(predictions)} predictions")
-                    if predictions:
-                        sample = predictions[0]
-                        print(f"   Sample: conf={sample['confidence']:.3f}, edge={sample['edge_value']:.3f}")
-                        print(f"   Need: conf>={config['min_confidence']:.2f}, edge>={config['min_edge']:.2f}")
-                    else:
-                        print(f"   ⚠️  NO predictions generated!")
 
                 # Filter by strategy thresholds
                 eligible = [
@@ -195,9 +182,6 @@ class NCAAParlayBacktester:
                     if p['confidence'] >= config['min_confidence']
                     and p['edge_value'] >= config['min_edge']
                 ]
-
-                if year == 2024:  # Debug output
-                    print(f"   → Eligible: {len(eligible)}")
 
                 if len(eligible) < config['max_parlay_size']:
                     continue
@@ -235,12 +219,17 @@ class NCAAParlayBacktester:
                     self.results[strategy_name]['bankroll_history'].append(bankroll)
 
             # Year summary
-            year_bets = [b for b in self.results[strategy_name]['bets'] if b['year'] == year]
-            if year_bets:
+            year_bets_end = len(self.results[strategy_name]['bets'])
+            year_bets_count = year_bets_end - year_bets_start
+
+            if year_bets_count > 0:
+                year_bets = self.results[strategy_name]['bets'][year_bets_start:year_bets_end]
                 year_wins = sum(1 for b in year_bets if b['won'])
                 year_profit = sum(b['profit'] for b in year_bets)
-                print(f"   {year}: {year_wins}/{len(year_bets)} ({year_wins/len(year_bets)*100:.1f}%) | "
-                      f"Profit: ${year_profit:+,.0f}")
+                print(f"   {year}: {year_wins}/{year_bets_count} ({year_wins/year_bets_count*100:.1f}%) | "
+                      f"Profit: ${year_profit:+,.0f} | Bankroll: ${bankroll:,.0f}")
+            else:
+                print(f"   {year}: 0 parlays")
 
         # Strategy summary
         if total_bets > 0:
@@ -332,7 +321,21 @@ class NCAAParlayBacktester:
 
     def _build_parlays(self, predictions: List[Dict], config: Dict, bankroll: float) -> List[ParlayBet]:
         """Build parlays using optimizer"""
-        optimizer = ParlayOptimizer(config)
+        # Convert our config format to optimizer format
+        optimizer_config = {
+            'max_parlay_size': config['max_parlay_size'],
+            'min_confidence_threshold': config['min_confidence'],
+            'min_edge_threshold': config['min_edge'],
+            'max_correlation_penalty': 0.15,
+            'bankroll_allocation': config['bankroll_allocation'],
+            'risk_tolerance': 'medium',
+            'conference_correlations': {
+                'same_conference': 0.3,
+                'rival_games': 0.2,
+                'neutral_site': -0.1,
+            },
+        }
+        optimizer = ParlayOptimizer(optimizer_config)
         parlays = optimizer.optimize_parlays(predictions, bankroll)
         return parlays
 

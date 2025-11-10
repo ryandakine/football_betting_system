@@ -1,0 +1,633 @@
+⚠️ Legacy systems not fully available - using new systems only
+WARNING:root:CloudGPU AI not available - using standard analysis
+WARNING:ncaa_models.officiating_analysis.officiating_bias_detector:No officiating bias knowledge base found
+✅ Parlay Backtester initialized - 11/11 models loaded
+
+================================================================================
+🎰 NCAA PARLAY BACKTESTING - 10 YEARS (2015-2024)
+================================================================================
+
+================================================================================
+📊 STRATEGY: CONSERVATIVE
+   Max Size: 2 legs
+   Min Confidence: 70%
+   Min Edge: 6%
+   Allocation: 3% per parlay
+================================================================================
+
+📅 2015 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2481 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1886 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2849 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1711 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2556 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2015 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1951 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2078 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2345 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3160 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2925 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3653 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1127 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 136 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6 optimized parlays
+   2015: 71/75 (94.7%) | Profit: $+36,462 | Bankroll: $46,462
+
+📅 2016 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2016 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1952 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2345 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2775 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2482 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2925 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2849 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2774 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3002 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2413 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2925 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1830 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1225 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 91 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1 optimized parlays
+   2016: 71/71 (100.0%) | Profit: $+198,041 | Bankroll: $244,503
+
+📅 2017 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3157 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1824 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1891 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2211 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2484 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2627 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2555 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2145 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2770 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3403 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2627 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2774 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 780 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 120 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3 optimized parlays
+   2017: 71/73 (97.3%) | Profit: $+966,844 | Bankroll: $1,211,347
+
+📅 2018 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2079 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1324 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2004 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2271 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2278 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2080 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2555 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2344 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2414 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3002 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2555 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2415 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1273 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 136 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6 optimized parlays
+   2018: 71/75 (94.7%) | Profit: $+4,416,828 | Bankroll: $5,628,175
+
+📅 2019 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2769 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2015 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1540 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2144 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2277 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2553 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2145 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2556 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2628 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2144 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2412 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1596 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2849 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1081 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 66 optimized parlays
+   2019: 75/75 (100.0%) | Profit: $+26,855,912 | Bankroll: $32,484,088
+
+📅 2020 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 15 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 66 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 66 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 153 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 300 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 190 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 231 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 406 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 210 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 528 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 351 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 325 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 378 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 350 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 325 optimized parlays
+   2020: 75/75 (100.0%) | Profit: $+155,004,028 | Bankroll: $187,488,115
+
+📅 2021 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 5879 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 5042 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 5356 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6669 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 7260 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6439 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6899 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6669 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 6669 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 7021 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 5671 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2773 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1125 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 136 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3 optimized parlays
+   2021: 70/73 (95.9%) | Profit: $+688,634,051 | Bankroll: $876,122,166
+
+📅 2022 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14025 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14365 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 10584 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13201 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 16288 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 11931 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14873 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13692 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13529 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 19109 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 15048 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 4185 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2016 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 171 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 15 optimized parlays
+   2022: 71/75 (94.7%) | Profit: $+3,194,526,489 | Bankroll: $4,070,648,655
+
+📅 2023 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14362 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14194 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14027 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 10585 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 16288 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14363 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13201 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14702 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13202 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 19109 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 11024 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2775 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 945 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 15 optimized parlays
+   2023: 68/70 (97.1%) | Profit: $+14,794,505,683 | Bankroll: $18,865,154,337
+
+📅 2024 Season (conservative)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3655 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13692 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13694 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 12402 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 10585 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13201 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 11173 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 16108 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 16833 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14362 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 13694 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 14532 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 4655 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2145 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 171 optimized parlays
+   2024: 75/75 (100.0%) | Profit: $+90,018,686,829 | Bankroll: $108,883,841,166
+
+✅ CONSERVATIVE COMPLETE:
+   Total Parlays: 737
+   Win Rate: 97.42%
+   Final Bankroll: $108,883,841,166
+   Total Profit: $+108,883,831,166
+   ROI: +1088838311.66%
+
+================================================================================
+📊 STRATEGY: BALANCED
+   Max Size: 3 legs
+   Min Confidence: 65%
+   Min Edge: 5%
+   Allocation: 5% per parlay
+================================================================================
+
+📅 2015 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 59636 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 39705 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 73149 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 35990 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 67524 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 43679 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 41662 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 45758 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 59638 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 85320 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 76075 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 105993 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 18423 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 816 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 10 optimized parlays
+   2015: 113/120 (94.2%) | Profit: $+97,207 | Bankroll: $107,207
+
+📅 2016 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 43680 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 41663 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 54739 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 70300 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62193 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 76075 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 73149 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 70299 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 79078 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 57153 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 76075 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 37820 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 20825 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 560 optimized parlays
+   2016: 112/112 (100.0%) | Profit: $+1,271,840 | Bankroll: $1,379,047
+
+📅 2017 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 85317 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 37812 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 39711 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 52394 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 59639 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 64823 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62195 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 47905 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 79072 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 95284 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 64823 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 73149 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 10660 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 816 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 4 optimized parlays
+   2017: 113/116 (97.4%) | Profit: $+14,332,597 | Bankroll: $15,711,644
+
+📅 2018 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 45759 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 23424 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 43651 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 54729 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 57155 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 45760 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62195 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 54738 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 57154 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 79078 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62195 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62196 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 22098 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 816 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 10 optimized parlays
+   2018: 113/120 (94.2%) | Profit: $+154,837,726 | Bankroll: $170,549,369
+
+📅 2019 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 70292 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 43679 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 29260 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 47904 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 54739 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62192 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 47905 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 62196 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 67525 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 47904 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 57151 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 32509 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 73149 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 18424 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 286 optimized parlays
+   2019: 120/120 (100.0%) | Profit: $+2,451,708,727 | Bankroll: $2,622,258,096
+
+📅 2020 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 35 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 286 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 286 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 969 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2600 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1330 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1771 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 4060 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1770 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 5984 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3276 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2925 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3654 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 3653 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 2925 optimized parlays
+   2020: 120/120 (100.0%) | Profit: $+37,574,732,352 | Bankroll: $40,196,990,448
+
+📅 2021 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 215807 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 171691 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 187460 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 273818 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 295240 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 246903 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 273814 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 260129 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 260129 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 280840 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 215819 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 70297 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 18419 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 816 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 4 optimized parlays
+   2021: 112/116 (96.6%) | Profit: $+376,004,659,877 | Bankroll: $416,201,650,325
+
+📅 2022 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 790241 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 818805 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 518664 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 748657 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1021382 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 620615 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 862918 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 762352 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 748659 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1254889 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 908597 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 138413 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 43680 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1140 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 35 optimized parlays
+   2022: 113/120 (94.2%) | Profit: $+4,230,645,124,726 | Bankroll: $4,646,846,775,051
+
+📅 2023 Season (balanced)...
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 818801 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 804438 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 790243 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 562475 optimized parlays
+INFO:college_football_system.parlay_optimizer:🎰 Parlay Optimizer initialized
+INFO:college_football_system.parlay_optimizer:🎰 Generated 1072439 optimized parlays
