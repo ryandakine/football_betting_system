@@ -26,8 +26,20 @@ from pathlib import Path
 class LLMMetaReasoner:
     """Uses LLM to intelligently combine 12 model predictions."""
 
-    def __init__(self, llm_provider="openrouter"):
+    def __init__(self, llm_provider="openrouter", llm_model="deepseek-r1"):
+        """
+        Initialize meta-reasoner.
+
+        Args:
+            llm_provider: API provider (openrouter, local, etc.)
+            llm_model: Which model to use:
+                - "deepseek-r1": DeepSeek R1 (FREE, best reasoning)
+                - "mistral-7b": Mistral 7B (FREE, fast)
+                - "mixtral-8x7b": Mixtral 8x7B (FREE, powerful)
+                - "all": Run all three and compare
+        """
         self.llm_provider = llm_provider
+        self.llm_model = llm_model
         self.model_history = []  # Track which models are most accurate
 
     def combine_predictions(
@@ -46,16 +58,22 @@ class LLMMetaReasoner:
 
         Returns:
             Dict with consensus prediction, confidence, and reasoning
+            If llm_model="all", returns dict with all three model outputs for comparison
         """
 
         # Build prompt for LLM
         prompt = self._build_meta_reasoning_prompt(game, model_outputs, game_context)
 
-        # Call LLM (using cheapest available)
-        response = self._call_llm(prompt)
+        # If "all" mode, run all three models and compare
+        if self.llm_model == "all":
+            return self._run_all_models_comparison(prompt)
+
+        # Otherwise, call single LLM
+        response = self._call_llm(prompt, self.llm_model)
 
         # Parse LLM response
         consensus = self._parse_llm_response(response)
+        consensus['llm_model_used'] = self.llm_model
 
         return consensus
 
@@ -198,11 +216,89 @@ OUTPUT FORMAT:
 
         return conflicts
 
-    def _call_llm(self, prompt: str) -> str:
-        """Call LLM API (OpenRouter, Anthropic, etc.)."""
+    def _run_all_models_comparison(self, prompt: str) -> Dict:
+        """
+        Run all three LLM models and compare their outputs.
 
-        # For now, return placeholder
-        # You'll replace this with actual API call
+        Returns:
+            Dict with comparison of all three models' predictions
+        """
+        print("\n" + "="*80)
+        print("🤖 RUNNING ALL 3 LLM MODELS FOR COMPARISON")
+        print("="*80 + "\n")
+
+        models = ["deepseek-r1", "mistral-7b", "mixtral-8x7b"]
+        results = {}
+
+        for model in models:
+            print(f"🔄 Calling {model}...")
+            try:
+                response = self._call_llm(prompt, model)
+                consensus = self._parse_llm_response(response)
+                consensus['llm_model_used'] = model
+                results[model] = consensus
+                print(f"✅ {model}: {consensus.get('prediction', 'N/A')} ({consensus.get('confidence', 0)}%)")
+            except Exception as e:
+                print(f"❌ {model} failed: {e}")
+                results[model] = {
+                    "prediction": "ERROR",
+                    "confidence": 0,
+                    "error": str(e)
+                }
+
+        # Analyze agreement/disagreement
+        print("\n" + "="*80)
+        print("📊 MODEL COMPARISON ANALYSIS")
+        print("="*80 + "\n")
+
+        predictions = [r.get('prediction', 'N/A') for r in results.values()]
+        confidences = [r.get('confidence', 0) for r in results.values()]
+
+        # Check if models agree
+        unique_predictions = set(predictions)
+        if len(unique_predictions) == 1:
+            print("✅ ALL 3 MODELS AGREE!")
+            print(f"   Consensus: {predictions[0]}")
+            print(f"   Avg Confidence: {sum(confidences) / len(confidences):.0f}%")
+        else:
+            print("⚠️  MODELS DISAGREE:")
+            for model, pred, conf in zip(models, predictions, confidences):
+                print(f"   {model}: {pred} ({conf}%)")
+
+        # Return compiled results
+        return {
+            "comparison_mode": True,
+            "models": results,
+            "agreement": len(unique_predictions) == 1,
+            "consensus_prediction": max(set(predictions), key=predictions.count) if predictions else "N/A",
+            "avg_confidence": sum(confidences) / len(confidences) if confidences else 0,
+            "all_predictions": predictions,
+            "all_confidences": confidences
+        }
+
+    def _call_llm(self, prompt: str, model_name: str = None) -> str:
+        """
+        Call LLM API.
+
+        Args:
+            prompt: The prompt to send
+            model_name: Which model to use (deepseek-r1, mistral-7b, mixtral-8x7b)
+
+        Returns:
+            LLM response text
+        """
+
+        if model_name is None:
+            model_name = self.llm_model
+
+        # Map model names to API endpoints
+        model_mapping = {
+            "deepseek-r1": "deepseek/deepseek-r1",
+            "mistral-7b": "mistralai/mistral-7b-instruct:free",
+            "mixtral-8x7b": "mistralai/mixtral-8x7b-instruct:free"
+        }
+
+        api_model = model_mapping.get(model_name, "deepseek/deepseek-r1")
 
         if self.llm_provider == "openrouter":
             # Use OpenRouter free tier
@@ -211,6 +307,7 @@ OUTPUT FORMAT:
 
                 api_key = os.getenv("OPENROUTER_API_KEY")
                 if not api_key:
+                    print(f"⚠️  No OPENROUTER_API_KEY found, using fallback")
                     return self._fallback_simple_consensus(prompt)
 
                 response = requests.post(
@@ -220,20 +317,22 @@ OUTPUT FORMAT:
                         "Content-Type": "application/json"
                     },
                     json={
-                        "model": "meta-llama/llama-3.2-3b-instruct:free",  # Free tier
+                        "model": api_model,
                         "messages": [
                             {"role": "user", "content": prompt}
                         ]
-                    }
+                    },
+                    timeout=60
                 )
 
                 if response.status_code == 200:
                     return response.json()['choices'][0]['message']['content']
                 else:
+                    print(f"❌ LLM API error: {response.status_code} - {response.text}")
                     return self._fallback_simple_consensus(prompt)
 
             except Exception as e:
-                print(f"LLM call failed: {e}")
+                print(f"❌ LLM call failed: {e}")
                 return self._fallback_simple_consensus(prompt)
 
         return self._fallback_simple_consensus(prompt)
@@ -290,8 +389,12 @@ OUTPUT FORMAT:
 def main():
     """Test the LLM meta-reasoner."""
     parser = argparse.ArgumentParser(description="LLM Meta-Reasoner")
-    parser.add_argument("--game", required=True, help="Game to analyze")
+    parser.add_argument("--game", required=True, help="Game to analyze (e.g., 'PHI @ GB')")
     parser.add_argument("--week", type=int, required=True, help="Week number")
+    parser.add_argument("--model",
+                        default="deepseek-r1",
+                        choices=["deepseek-r1", "mistral-7b", "mixtral-8x7b", "all"],
+                        help="Which LLM model to use (default: deepseek-r1)")
     args = parser.parse_args()
 
     # Example: Mock 12 model outputs
@@ -324,13 +427,34 @@ def main():
         "injuries": "Home: RB1 OUT, Away: CB1 Questionable"
     }
 
-    reasoner = LLMMetaReasoner()
+    reasoner = LLMMetaReasoner(llm_model=args.model)
     consensus = reasoner.combine_predictions(args.game, model_outputs, game_context)
 
     print("\n" + "="*80)
-    print("🤖 LLM META-REASONER CONSENSUS")
+    print(f"🤖 LLM META-REASONER RESULTS (Model: {args.model.upper()})")
     print("="*80)
-    print(json.dumps(consensus, indent=2))
+
+    if consensus.get('comparison_mode'):
+        # All three models - show detailed comparison
+        print("\n📊 DETAILED COMPARISON:\n")
+        for model_name, result in consensus['models'].items():
+            print(f"\n{'='*60}")
+            print(f"🔹 {model_name.upper()}")
+            print(f"{'='*60}")
+            print(f"Prediction: {result.get('prediction', 'N/A')}")
+            print(f"Confidence: {result.get('confidence', 0)}%")
+            print(f"Bet Amount: ${result.get('bet_amount', 0)}")
+            print(f"Reasoning: {result.get('reasoning', 'N/A')[:200]}...")
+
+        print("\n" + "="*80)
+        print("🎯 FINAL VERDICT")
+        print("="*80)
+        print(f"Agreement: {'✅ YES' if consensus['agreement'] else '⚠️  NO'}")
+        print(f"Consensus Prediction: {consensus['consensus_prediction']}")
+        print(f"Average Confidence: {consensus['avg_confidence']:.0f}%")
+    else:
+        # Single model - show full output
+        print(json.dumps(consensus, indent=2))
 
 
 if __name__ == "__main__":
