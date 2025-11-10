@@ -6,6 +6,10 @@ data/football/historical/*.json
 *.db
 lambda_package/
 nfl_lambda.zip
+
+# Trained model files (regeneratable in 5min with train script)
+models/**/*.pkl
+*.pkl
 # API Keys file
 YOUR_API_KEYS.txt
 .env
