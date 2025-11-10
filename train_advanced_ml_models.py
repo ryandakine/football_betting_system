@@ -14,6 +14,9 @@ Features Used:
 - Team stats
 - Home/away splits
 - Historical matchups
+- Public sentiment (contrarian signals, Reddit, sharp/public splits)
+- Crowd roar signals
+- Consensus strength
 - Weather, injuries (optional)
 - Line movements
 
@@ -46,6 +49,14 @@ except ImportError:
     print("⚠️  ML libraries not installed!")
     print("Install with: pip install xgboost scikit-learn pandas numpy")
 
+# Sentiment analysis
+try:
+    from ai_council_with_sentiment import SentimentFeatureExtractor
+    HAS_SENTIMENT = True
+except ImportError:
+    HAS_SENTIMENT = False
+    print("⚠️  Sentiment analysis not available (ai_council_with_sentiment.py not found)")
+
 # Deep learning
 try:
     import torch
@@ -62,10 +73,14 @@ except ImportError:
 class NFLDataProcessor:
     """Processes raw NFL data into ML-ready features."""
 
-    def __init__(self):
+    def __init__(self, use_sentiment: bool = True):
         self.team_encoder = LabelEncoder()
         self.referee_encoder = LabelEncoder()
         self.scaler = StandardScaler()
+
+        # Sentiment extractor
+        self.use_sentiment = use_sentiment and HAS_SENTIMENT
+        self.sentiment_extractor = SentimentFeatureExtractor() if self.use_sentiment else None
 
         # Feature statistics
         self.team_stats = defaultdict(lambda: {
@@ -210,6 +225,26 @@ class NFLDataProcessor:
         # Temporal features
         features.append(game['week'])
         features.append(game['year'])
+
+        # Sentiment features (if available)
+        if self.use_sentiment and self.sentiment_extractor:
+            sentiment = self.sentiment_extractor.extract_game_sentiment({
+                'home_team': home,
+                'away_team': away,
+                'game_id': game.get('game_id', f"{away}@{home}"),
+            })
+
+            # Add key sentiment features
+            features.append(sentiment.get('contrarian_opportunity', 0.0))
+            features.append(sentiment.get('reddit_sentiment_score', 0.0))
+            features.append(sentiment.get('sharp_public_split_ml', 0.0))
+            features.append(sentiment.get('sharp_public_split_spread', 0.0))
+            features.append(sentiment.get('sharp_public_split_total', 0.0))
+            features.append(sentiment.get('consensus_strength', 0.0))
+            features.append(sentiment.get('crowd_roar_confidence', 0.0))
+        else:
+            # Add neutral sentiment features (7 features)
+            features.extend([0.0] * 7)
 
         return features
 
@@ -454,6 +489,11 @@ def main():
         default="models/advanced_ml",
         help="Directory to save models"
     )
+    parser.add_argument(
+        "--no-sentiment",
+        action="store_true",
+        help="Disable sentiment features"
+    )
 
     args = parser.parse_args()
 
@@ -471,9 +511,16 @@ def main():
 
     # Load and process data
     print("📂 Loading data...")
-    processor = NFLDataProcessor()
+    use_sentiment = not args.no_sentiment
+    processor = NFLDataProcessor(use_sentiment=use_sentiment)
     games = processor.load_data(args.data_file)
     print(f"   Loaded {len(games)} games")
+
+    # Report on sentiment usage
+    if processor.use_sentiment:
+        print("   ✅ Public sentiment features ENABLED (+7 features)")
+    else:
+        print("   ⚠️  Public sentiment features DISABLED")
 
     print("\n🔧 Extracting features...")
     X_spread, y_spread, X_total, y_total = processor.extract_features(games)

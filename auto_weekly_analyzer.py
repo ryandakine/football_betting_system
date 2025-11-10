@@ -310,6 +310,20 @@ class AutoWeeklyAnalyzer:
         self.ref_intel = RefereeIntelligenceModel()
         self.team_parser = TeamRefereeParser()
 
+        # Sentiment analysis
+        try:
+            from ai_council_with_sentiment import SentimentFeatureExtractor
+            from intelligent_model_selector import IntelligentModelSelector
+            self.sentiment_extractor = SentimentFeatureExtractor()
+            self.model_selector = IntelligentModelSelector()
+            self.has_sentiment = True
+            print("✅ Sentiment analysis ENABLED")
+        except ImportError as e:
+            self.sentiment_extractor = None
+            self.model_selector = None
+            self.has_sentiment = False
+            print(f"⚠️  Sentiment analysis DISABLED: {e}")
+
         # Load referee data
         try:
             self.team_parser.parse_all_teams()
@@ -382,6 +396,29 @@ class AutoWeeklyAnalyzer:
         # Combine all edges
         edges = team_edges + ref_edges
 
+        # Extract sentiment if available
+        sentiment_data = None
+        model_recommendation = None
+        if self.has_sentiment and self.sentiment_extractor:
+            sentiment_data = self.sentiment_extractor.extract_game_sentiment({
+                'home_team': home_team,
+                'away_team': away_team,
+                'game_id': f"{away_team}_{home_team}_{game.get('game_date', 'TBD')}"
+            })
+
+            # Get referee edge strength for model selection
+            ref_edge_strength = max([e['confidence'] for e in edges], default=0.5)
+
+            # Use intelligent model selector
+            if self.model_selector:
+                model_recommendation = self.model_selector.select_model(
+                    game=f"{away_team} @ {home_team}",
+                    referee_edge=ref_edge_strength,
+                    narrative_strength=0.0,  # TODO: Add narrative scraper
+                    contrarian_score=sentiment_data.get('contrarian_opportunity', 0.0),
+                    public_sentiment=sentiment_data.get('reddit_sentiment_score', 0.0)
+                )
+
         # Build result
         result = {
             'game': game,
@@ -390,6 +427,8 @@ class AutoWeeklyAnalyzer:
             'away_bias': away_bias,
             'edges': edges,
             'edge_count': len(edges),
+            'sentiment': sentiment_data,
+            'model_recommendation': model_recommendation,
         }
 
         # Display findings
@@ -404,6 +443,18 @@ class AutoWeeklyAnalyzer:
                 print(f"      - {edge['type']} {edge['pick']}: {edge['confidence']:.0%} ({edge['edge_size']})")
         else:
             print(f"\n   ℹ️  No strong edges detected")
+
+        # Display sentiment and model recommendation
+        if sentiment_data:
+            contrarian = sentiment_data.get('contrarian_opportunity', 0.0)
+            if contrarian > 0.70:
+                print(f"\n   🎯 CONTRARIAN SIGNAL: {contrarian:.0%} (public vs sharp divergence!)")
+
+        if model_recommendation:
+            print(f"\n   🤖 MODEL RECOMMENDATION: {model_recommendation.primary_model.value.upper()}")
+            print(f"      Confidence: {model_recommendation.confidence_score:.0%}")
+            if model_recommendation.contrarian_score > 0:
+                print(f"      Contrarian Score: {model_recommendation.contrarian_score:.0%}")
 
         return result
 
