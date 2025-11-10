@@ -204,15 +204,19 @@ class BankrollTracker:
         WHY: Always know performance vs expectations.
         """
         if not self.bet_log_file.exists():
+            current = self.get_current_bankroll()
+            initial = 100.0
             return {
-                'current_bankroll': self.get_current_bankroll(),
+                'current_bankroll': current,
+                'initial_bankroll': initial,
                 'total_bets': 0,
                 'wins': 0,
                 'losses': 0,
                 'pushes': 0,
                 'win_rate': 0.0,
                 'roi': 0.0,
-                'total_profit': 0.0
+                'total_profit': current - initial,
+                'pending_bets': 0
             }
 
         with open(self.bet_log_file, 'r') as f:
