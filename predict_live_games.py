@@ -51,15 +51,9 @@ current_year = datetime.now().year
 if datetime.now().month < 8:
     current_year -= 1
 
-# Try current year, fall back to 2024 for demo
-try:
-    print(f"📅 Attempting to load {current_year} season...")
-    games = engineer.load_season_data(current_year)
-except FileNotFoundError:
-    print(f"⚠️  {current_year} data not available yet")
-    current_year = 2024
-    print(f"📅 Using {current_year} season for demonstration")
-    games = engineer.load_season_data(current_year)
+# Load current year - NO FALLBACKS
+print(f"📅 Loading {current_year} season...")
+games = engineer.load_season_data(current_year)
 
 print(f"📍 Prediction Mode: LIVE")
 print()
@@ -69,11 +63,9 @@ print("🔍 Loading games...")
 upcoming_games = [g for g in games if not g.get('completed')]
 
 if not upcoming_games:
-    print("⚠️  No upcoming games found. Using recent completed games for demonstration...")
-    # Use recent completed games as examples
-    completed = [g for g in games if g.get('completed')][-20:]
-    if completed:
-        upcoming_games = completed
+    print("❌ No upcoming games found.")
+    print("   System requires live game data - completed games cannot be used.")
+    exit(0)
 
 print(f"Found {len(upcoming_games)} games to analyze")
 print()

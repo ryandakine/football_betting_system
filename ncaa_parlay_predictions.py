@@ -93,17 +93,10 @@ class NCAASystemWithParlays:
             week: Specific week (None = all games)
             include_completed: Include completed games for demo/backtest
         """
-        # Try to load season data, fallback to previous year if needed
-        try:
-            games = self.engineer.load_season_data(year)
-            if not games or len(games) == 0:
-                print(f"⚠️  No data for {year}, trying {year-1}...")
-                year = year - 1
-                games = self.engineer.load_season_data(year)
-        except (FileNotFoundError, json.JSONDecodeError):
-            print(f"⚠️  {year} data not available, using {year-1}")
-            year = year - 1
-            games = self.engineer.load_season_data(year)
+        # Load season data - FAIL if not available (no fallbacks)
+        games = self.engineer.load_season_data(year)
+        if not games or len(games) == 0:
+            raise ValueError(f"No game data available for {year} season")
 
         # Filter by week if specified
         if week is not None:
@@ -174,10 +167,9 @@ class NCAASystemWithParlays:
         bias_adj = bias_adjustments.get(home_conference, 0.0)
         predicted_spread += bias_adj
 
-        # Calculate edge (simplified - assumes market spread is 0 for demo)
-        # In production, you'd fetch real market spreads
-        market_spread = 0.0  # TODO: Integrate with odds API
-        edge = abs(predicted_spread - market_spread) / 14.0
+        # REMOVED: No mock market spreads or odds
+        # Edge calculation requires real market data from odds API
+        # System cannot make predictions without real market lines
 
         # Build prediction object
         return {
@@ -185,14 +177,15 @@ class NCAASystemWithParlays:
             'away_team': game.get('awayTeam', ''),
             'conference': home_conference,
             'predicted_spread': predicted_spread,
-            'market_spread': market_spread,
+            'market_spread': None,  # MUST be fetched from odds API
             'confidence': confidence,
-            'edge_value': edge,
-            'odds': -110,  # Standard odds
+            'edge_value': 0.0,  # Cannot calculate without real market spread
+            'odds': None,  # MUST be fetched from odds API
             'week': game.get('week', 0),
             'venue': game.get('venue', ''),
             'neutral_site': game.get('neutralSite', False),
             'game_id': game.get('id', ''),
+            '_warning': 'Real odds API integration required for edge calculation',
         }
 
     def generate_parlays(self, predictions: List[Dict], bankroll: float = STARTING_BANKROLL) -> List[ParlayBet]:
@@ -277,14 +270,16 @@ def main():
     # Initialize system
     system = NCAASystemWithParlays()
 
-    # Get current year/week (with fallback to 2024)
-    current_year = 2025  # Try current season
-    current_week = 5  # Week 5 has good games
-    include_completed = True  # Demo mode - show completed games
+    # Get current year/week - NO FALLBACKS OR DEMO MODE
+    current_year = datetime.now().year
+    if datetime.now().month < 8:  # Football season runs Aug-Jan
+        current_year -= 1
 
-    print(f"\n📅 Analyzing {current_year} season" + (f" Week {current_week}" if current_week else " (all games)"))
-    if include_completed:
-        print("   💡 Demo mode: Including completed games to show system capabilities")
+    current_week = None  # Analyze all upcoming games
+    include_completed = False  # NEVER use completed games as mock data
+
+    print(f"\n📅 Analyzing {current_year} season" + (f" Week {current_week}" if current_week else " (all upcoming games)"))
+    print("   ⚠️  WARNING: Odds API integration required for edge calculation")
 
     # Get predictions
     predictions = system.predict_games(current_year, current_week, include_completed=include_completed)
