@@ -19,3 +19,10 @@ __pycache__/
 data/scraped_nfl_odds.json
 data/tonights_game_analysis.json
 data/nfl_analysis_results.json
+data/referee_conspiracy/nfl_odds_*.json
+data/referee_conspiracy/odds_cache/
+
+# Generated reports
+reports/week_*_results.json
+reports/week_*_master_report.txt
+reports/week_*_report.txt
