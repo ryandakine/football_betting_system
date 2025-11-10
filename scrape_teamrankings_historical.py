@@ -125,7 +125,7 @@ class TeamRankingsClosingSpreads:
                             market_spread = self._parse_spread(spread, home_team)
 
                             if market_spread is not None and away_team and home_team:
-                                all_games.append({
+                                game = {
                                     'year': year,
                                     'date': date,
                                     'away_team': away_team,
@@ -134,7 +134,14 @@ class TeamRankingsClosingSpreads:
                                     'score': score,
                                     'result': result,
                                     'source': 'teamrankings_closing'
-                                })
+                                }
+
+                                # VALIDATION: Fail fast on bad data
+                                is_valid, reason = self.validate_game(game)
+                                if is_valid:
+                                    all_games.append(game)
+                                else:
+                                    print(f"   ⚠️  REJECTED: {reason} - {away_team} @ {home_team}")
 
                         except Exception as e:
                             continue
@@ -160,6 +167,52 @@ class TeamRankingsClosingSpreads:
         except Exception as e:
             print(f"❌ Error: {e}")
             return pd.DataFrame()
+
+    def validate_game(self, game: dict) -> tuple[bool, str]:
+        """
+        Validate scraped game data - fail fast on bad data
+
+        WHY: Bad scrapes corrupt training data silently.
+        This catches issues immediately at scrape time.
+
+        Returns: (is_valid, reason_if_invalid)
+        """
+        # Required fields
+        required = ['year', 'home_team', 'away_team', 'market_spread']
+
+        for field in required:
+            if field not in game:
+                return False, f"Missing required field: {field}"
+
+            if not game[field]:
+                return False, f"Empty required field: {field}"
+
+        # Year sanity check
+        if not isinstance(game['year'], int) or not (2000 <= game['year'] <= 2030):
+            return False, f"Invalid year: {game['year']}"
+
+        # Spread validation
+        spread = game['market_spread']
+        if not isinstance(spread, (int, float)):
+            return False, f"Invalid spread type: {type(spread)} - must be numeric"
+
+        # Sanity check: NCAA spreads rarely exceed ±50
+        if abs(spread) > 50:
+            return False, f"Unrealistic spread: {spread} (exceeds ±50)"
+
+        # Team name validation
+        for team_field in ['home_team', 'away_team']:
+            team = game[team_field]
+            if len(team) < 2:
+                return False, f"Team name too short: '{team}'"
+            if len(team) > 100:
+                return False, f"Team name too long: '{team}'"
+
+        # Teams can't be identical
+        if game['home_team'] == game['away_team']:
+            return False, f"Home and away teams identical: '{game['home_team']}'"
+
+        return True, ""
 
     def _parse_spread(self, spread_text: str, home_team: str) -> float:
         """

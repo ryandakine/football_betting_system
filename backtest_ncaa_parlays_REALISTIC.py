@@ -118,6 +118,94 @@ class RealisticNCAAParlayBacktester:
 
         return market_data
 
+    def validate_backtest_data(self) -> tuple[bool, str]:
+        """
+        Validate sufficient market spread coverage for backtest
+
+        WHY: Can't validate edge without market spreads.
+        System blocks you from trusting a backtest with insufficient data.
+
+        Returns: (is_valid, error_message)
+        """
+        # Count total games vs games with spreads
+        total_games = 0
+        games_with_spreads = 0
+        years_with_data = 0
+
+        coverage_by_year = {}
+
+        for year in YEARS:
+            try:
+                games = self.engineer.load_season_data(year)
+                total_games_year = len(games)
+                total_games += total_games_year
+
+                # Count how many have market spreads
+                games_with_spreads_year = sum(
+                    1 for game in games
+                    if game.get('id') in self.market_spreads
+                )
+                games_with_spreads += games_with_spreads_year
+
+                if games_with_spreads_year > 0:
+                    years_with_data += 1
+                    coverage = games_with_spreads_year / total_games_year if total_games_year > 0 else 0
+                    coverage_by_year[year] = {
+                        'total': total_games_year,
+                        'with_spreads': games_with_spreads_year,
+                        'coverage': coverage
+                    }
+            except:
+                continue
+
+        # Calculate overall coverage
+        overall_coverage = games_with_spreads / total_games if total_games > 0 else 0
+
+        # VALIDATION CONSTRAINTS
+        MIN_COVERAGE = 0.80  # 80% minimum
+        MIN_YEARS = 3        # At least 3 years of data
+
+        # Check 1: Sufficient coverage
+        if overall_coverage < MIN_COVERAGE:
+            error_msg = (
+                f"\n{'='*80}\n"
+                f"❌ INSUFFICIENT MARKET DATA\n"
+                f"{'='*80}\n\n"
+                f"Total games: {total_games}\n"
+                f"With market spreads: {games_with_spreads} ({overall_coverage:.1%})\n"
+                f"Required: {MIN_COVERAGE:.0%}+\n\n"
+                f"Cannot validate edge without market spreads.\n\n"
+                f"Coverage by year:\n"
+            )
+            for year, stats in sorted(coverage_by_year.items()):
+                error_msg += f"  {year}: {stats['with_spreads']}/{stats['total']} ({stats['coverage']:.1%})\n"
+
+            error_msg += (
+                f"\n"
+                f"ACTION REQUIRED:\n"
+                f"Run scrapers to get market spread data:\n"
+                f"  python scrape_teamrankings_historical.py 2024\n"
+                f"  ./run_all_scrapers.sh\n"
+            )
+            return False, error_msg
+
+        # Check 2: Sufficient years
+        if years_with_data < MIN_YEARS:
+            error_msg = (
+                f"\n{'='*80}\n"
+                f"❌ INSUFFICIENT HISTORICAL DEPTH\n"
+                f"{'='*80}\n\n"
+                f"Years with data: {years_with_data}\n"
+                f"Required: {MIN_YEARS}+\n\n"
+                f"Need at least {MIN_YEARS} years for reliable validation.\n\n"
+                f"ACTION REQUIRED:\n"
+                f"Scrape more years of market spread data.\n"
+            )
+            return False, error_msg
+
+        # Validation passed
+        return True, ""
+
     def backtest_all_strategies(self):
         """Run realistic backtest"""
         print("\n" + "="*80)
@@ -431,6 +519,22 @@ def main():
         print("rerun this backtest.")
         print()
         return
+
+    # VALIDATION: Enforce minimum data requirements
+    # System blocks backtest if insufficient market spread coverage
+    is_valid, error_msg = backtester.validate_backtest_data()
+
+    if not is_valid:
+        print(error_msg)
+        return
+
+    # Validation passed - show data quality
+    print("\n" + "="*80)
+    print("✅ DATA VALIDATION PASSED")
+    print("="*80)
+    print(f"Market spreads available: {len(backtester.market_spreads)} games")
+    print("Sufficient coverage for reliable backtest")
+    print()
 
     backtester.backtest_all_strategies()
 
