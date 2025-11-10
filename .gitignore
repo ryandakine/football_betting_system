@@ -26,3 +26,7 @@ data/referee_conspiracy/odds_cache/
 reports/week_*_results.json
 reports/week_*_master_report.txt
 reports/week_*_report.txt
+
+# Local state files (should not be committed)
+.bankroll
+.circuit_breaker
