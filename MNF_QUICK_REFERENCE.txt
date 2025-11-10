@@ -1,0 +1,91 @@
+================================================================================
+🏈 PHI @ GB MONDAY NIGHT FOOTBALL - QUICK BETTING REFERENCE
+================================================================================
+
+⏰ GAME TIME: Monday 8:15 PM ET
+💰 BANKROLL: $100
+📊 LINE: 45.5 total
+
+================================================================================
+🎯 REFEREE → BET LOOKUP TABLE
+================================================================================
+
+Referee             | BET          | Confidence | Amount | Expected Profit
+--------------------|--------------|------------|--------|----------------
+Shawn Hochuli       | UNDER 45.5   | 73% 🟢     | $6     | +$4.20
+Adrian Hill         | UNDER 45.5   | 70% 🟢     | $6     | +$3.80
+Bill Vinovich       | OVER 45.5    | 59% 🟡     | $4     | +$1.60
+Carl Cheffers       | OVER 45.5    | 59% 🟡     | $4     | +$1.60
+ANY OTHER REF       | PASS         | <55% ⚪    | $0     | $0.00
+
+================================================================================
+✅ BETTING CHECKLIST
+================================================================================
+
+[ ] 1. Get referee name (by 6:00 PM ET)
+        → Football Zebras: https://www.footballzebras.com/category/assignments/
+        → ESPN: https://www.espn.com/nfl/game/_/gameId/401671745
+
+[ ] 2. Find referee in table above
+
+[ ] 3. IF 🟢 or 🟡 → Place bet (see amount)
+        IF ⚪ → PASS (save bankroll)
+
+[ ] 4. Log bet: python track_bets.py --add --game "PHI @ GB" --bet-type "total" \
+                --pick "[YOUR PICK]" --odds -110 --amount [AMOUNT] \
+                --confidence [CONFIDENCE] --reasoning "[REFEREE] assigned"
+
+[ ] 5. Watch game, update results after
+
+================================================================================
+🔍 HOW TO FIND REFEREE (ON YOUR LOCAL MACHINE)
+================================================================================
+
+curl -s 'https://www.footballzebras.com/category/assignments/' | \
+  grep -i 'eagles\|packers\|PHI\|GB' -A 5 -B 5
+
+================================================================================
+💡 WHY THESE EDGES WORK
+================================================================================
+
+HOCHULI/HILL → UNDER:
+  • High penalties (6.5-7.5 per team)
+  • Stalled drives = less scoring
+  • Clock management issues
+  • 73%/70% win rate historically
+
+VINOVICH/CHEFFERS → OVER:
+  • Low penalties (4.3-5.0 per team)
+  • Fast-paced game
+  • Primetime baseline: 47.5 points
+  • Line is 45.5 (2 points below)
+
+================================================================================
+⚠️ RISK MANAGEMENT
+================================================================================
+
+• Max bet: $6 (6% of bankroll)
+• If loss: Bankroll drops to $94
+• If win: Bankroll grows to $105.45
+• Total Week 11 exposure: $8-12 (within safe limits)
+
+================================================================================
+🎯 EXPECTED SCENARIO
+================================================================================
+
+Most likely referee: Hochuli or Hill (primetime games favor experienced refs)
+Most likely bet: UNDER 45.5 for $6
+Expected outcome: $104.20 bankroll (if wins)
+
+================================================================================
+⏰ TIMELINE
+================================================================================
+
+6:00 PM ET → Confirm referee
+7:00 PM ET → Match to table above
+7:30 PM ET → Place bet (if edge detected)
+8:00 PM ET → Log bet in tracker
+8:15 PM ET → GAME STARTS
+11:30 PM ET → Game ends, log results
+
+================================================================================
