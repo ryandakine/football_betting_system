@@ -16,6 +16,13 @@ from typing import Any, Dict, List, Optional
 import aiohttp
 from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_exponential
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    logger.warning("python-dotenv not installed. Install with: pip install python-dotenv")
+
 DATA_DIR = Path(os.getenv("REF_CONSPIRACY_DATA_DIR", "data/referee_conspiracy"))
 ODDS_CACHE_DIR = DATA_DIR / "odds_cache"
 ODDS_CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -123,8 +130,9 @@ class NFLOddsFetcher:
     def __init__(self, api_key: Optional[str] = None):
         self.api_key = api_key or THE_ODDS_API_KEY
         if not self.api_key:
-            logger.warning("No Odds API key found - will use mock data")
-        
+            logger.error("No Odds API key found - system will not work without it")
+            logger.error("Please set THE_ODDS_API_KEY in your .env file")
+
         self.session: Optional[aiohttp.ClientSession] = None
     
     async def __aenter__(self):
@@ -160,7 +168,7 @@ class NFLOddsFetcher:
     async def fetch_nfl_odds(self, target_date: Optional[date] = None) -> List[NFLGameOdds]:
         """Fetch NFL odds for given date (or today)"""
         target = target_date or date.today()
-        
+
         # Check cache first
         cache_file = ODDS_CACHE_DIR / f"nfl_odds_{target}.json"
         if cache_file.exists():
@@ -169,16 +177,13 @@ class NFLOddsFetcher:
                 logger.info(f"Using cached odds from {cache_file}")
                 cached = json.loads(cache_file.read_text())
                 return [NFLGameOdds(**o) for o in cached]
-        
+
         if not self.api_key:
-            logger.warning("No API key - returning mock data")
-            return await self._mock_nfl_odds(target)
-        
-        try:
-            return await self._fetch_from_odds_api(target)
-        except Exception as e:
-            logger.error(f"Failed to fetch from Odds API: {e}")
-            return await self._mock_nfl_odds(target)
+            logger.error("No API key found - cannot fetch odds")
+            raise RuntimeError("THE_ODDS_API_KEY not found in environment. Please set it in .env file")
+
+        # Fetch from real API only
+        return await self._fetch_from_odds_api(target)
     
     async def _fetch_from_odds_api(self, target_date: date) -> List[NFLGameOdds]:
         """Fetch from The Odds API"""
@@ -256,36 +261,8 @@ class NFLOddsFetcher:
         cache_file = ODDS_CACHE_DIR / f"nfl_odds_{target_date}.json"
         cache_file.write_text(json.dumps([o.to_dict() for o in odds_list], indent=2))
         logger.info(f"Cached {len(odds_list)} odds records to {cache_file}")
-        
+
         return odds_list
-    
-    async def _mock_nfl_odds(self, target_date: date) -> List[NFLGameOdds]:
-        """Generate mock odds for testing"""
-        logger.info(f"Generating mock NFL odds for {target_date}")
-        
-        # Mock TNF game
-        mock_game = NFLGameOdds(
-            game_id="2025_08_TB_KC",
-            commence_time=f"{target_date}T20:15:00Z",
-            home_team="KC",
-            away_team="TB",
-            moneyline_home=-250,
-            moneyline_away=+210,
-            spread_home=-6.5,
-            spread_home_odds=-110,
-            spread_away=+6.5,
-            spread_away_odds=-110,
-            total=45.5,
-            over_odds=-110,
-            under_odds=-110,
-            bookmaker="FanDuel",
-            source="mock",
-            week=8,
-            season=2025,
-            last_update=datetime.now().isoformat(),
-        )
-        
-        return [mock_game]
 
 
 async def fetch_and_integrate_nfl_odds(target_date: Optional[date] = None) -> Dict[str, Any]:

@@ -38,28 +38,44 @@ class WeeklyPropAnalyzer:
         self.prop_model = PropIntelligenceModel()
         self.ref_model = RefereeIntelligenceModel()
 
-    def analyze_week(self, week: int) -> List[PropPrediction]:
+    def analyze_week(self, week: int, props_data: List[Dict[str, Any]] = None) -> List[PropPrediction]:
         """
         Analyze all props for the week.
 
-        In production:
-        1. Scrape DraftKings/FanDuel for this week's prop lines
-        2. For each prop, run prediction
-        3. Return only high-confidence picks
+        Args:
+            week: NFL week number
+            props_data: List of prop dictionaries with keys:
+                - player: str
+                - prop_type: str (e.g., 'passing_yards', 'rushing_yards')
+                - line: float
+                - opponent: str (team abbr)
+                - is_home: bool
+                - spread: float
+                - total: float
+                - referee: str
+                - game: str
+
+        Note: props_data must be provided. Use scrape_props_multi_source.py or
+        manually provide prop data from DraftKings/FanDuel.
         """
 
         print(f"\n{'='*80}")
         print(f"🏈 ANALYZING WEEK {week} PLAYER PROPS")
         print(f"{'='*80}\n")
 
-        # Sample props for Week 11
-        sample_props = self._get_sample_props(week)
+        if not props_data:
+            raise RuntimeError(
+                "No props data provided!\n"
+                "Player props require manual input or sportsbook scraping.\n"
+                "Use scrape_props_multi_source.py to fetch props or provide props_data manually.\n"
+                "Example: analyzer.analyze_week(week=10, props_data=[...])"
+            )
 
-        print(f"Found {len(sample_props)} props to analyze\n")
+        print(f"Found {len(props_data)} props to analyze\n")
 
         predictions = []
 
-        for prop in sample_props:
+        for prop in props_data:
             # Get referee profile
             referee_profile = self.ref_model.get_referee_profile(prop['referee'])
 
@@ -80,7 +96,7 @@ class WeeklyPropAnalyzer:
 
         return predictions
 
-    def _get_sample_props(self, week: int) -> List[Dict[str, Any]]:
+    def _get_sample_props_DEPRECATED(self, week: int) -> List[Dict[str, Any]]:
         """Get sample props for testing."""
         return [
             {
@@ -309,19 +325,20 @@ def main():
 
     args = parser.parse_args()
 
-    # Initialize analyzer
-    analyzer = WeeklyPropAnalyzer()
-
-    # Analyze props
-    predictions = analyzer.analyze_week(args.week)
-
-    # Generate report
-    report = analyzer.generate_report(
-        args.week,
-        predictions,
-        args.output,
-        args.min_confidence
-    )
+    print("\n" + "="*80)
+    print("❌ PLAYER PROPS ANALYZER - REAL DATA REQUIRED")
+    print("="*80)
+    print("\nThis script requires REAL prop data from sportsbooks.")
+    print("Mock/sample data has been removed from the system.")
+    print("\nTo use this analyzer:")
+    print("  1. Use scrape_props_multi_source.py to fetch props from DraftKings/FanDuel")
+    print("  2. Or provide props_data manually in Python code")
+    print("\nExample in Python:")
+    print("  analyzer = WeeklyPropAnalyzer()")
+    print("  props = [...] # Your props data")
+    print("  predictions = analyzer.analyze_week(week=10, props_data=props)")
+    print("\n" + "="*80)
+    return
 
     # Print to console
     print("\n" + report)

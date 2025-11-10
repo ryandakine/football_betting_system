@@ -18,17 +18,26 @@ This script:
 """
 
 import argparse
+import asyncio
 import json
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, date
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import time
 
 from referee_intelligence_model import RefereeIntelligenceModel
 from parse_team_referee_pairings import TeamRefereeParser
+
+# Try to import odds integration
+try:
+    from nfl_odds_integration import fetch_and_integrate_nfl_odds
+    HAS_ODDS_API = True
+except ImportError:
+    HAS_ODDS_API = False
+    print("⚠️  NFL Odds Integration not available")
 
 
 # Team abbreviation mapping
@@ -108,96 +117,71 @@ class NFLGameScraper:
     def __init__(self):
         self.games = []
 
-    def scrape_week(self, week: int, year: int = 2024) -> List[Dict[str, Any]]:
+    def fetch_real_games(self, week: int, target_date: Optional[date] = None) -> List[Dict[str, Any]]:
         """
-        Scrape NFL.com for this week's games.
+        Fetch real NFL games from The Odds API.
 
-        Note: This is a simplified version. In production, you'd use:
-        - requests library to fetch HTML
-        - BeautifulSoup to parse HTML
-        - Or use NFL's API if available
-
-        For now, returns sample data structure.
+        Returns games in the format expected by the analyzer:
+        [{
+            'game_id': str,
+            'away_team': str,
+            'home_team': str,
+            'referee': str,  # Will be 'TBD' until assignments posted
+            'spread': float,
+            'total': float,
+            'home_ml': int,
+            'away_ml': int,
+            'kickoff_time': str,
+            'network': str,
+        }]
         """
-        print(f"\n🔍 Scraping NFL.com for Week {week}, {year}...")
 
-        # In production, you would:
-        # 1. Fetch from NFL.com schedule page
-        # 2. Parse HTML for game matchups
-        # 3. Get referee assignments (usually Thursday)
-        # 4. Get betting lines from The Odds API
+        if not HAS_ODDS_API:
+            print("❌ Odds API integration not available")
+            return []
 
-        print("⚠️  NOTE: NFL.com scraping requires external packages (requests, beautifulsoup4)")
-        print("          For now, using manual input or sample data.")
-        print("\nTo enable full scraping, install:")
-        print("  pip install requests beautifulsoup4")
+        print(f"\n🔍 Fetching real NFL games from The Odds API...")
 
-        return []
+        try:
+            # Fetch odds from API
+            result = asyncio.run(fetch_and_integrate_nfl_odds(target_date))
 
-    def get_sample_games(self, week: int) -> List[Dict[str, Any]]:
-        """Get sample games for testing."""
-        return [
-            {
-                "game_id": f"BUF_KC_W{week}",
-                "away_team": "BUF",
-                "home_team": "KC",
-                "referee": "Brad Rogers",
-                "spread": -2.5,
-                "total": 48.5,
-                "home_ml": -140,
-                "away_ml": 120,
-                "kickoff_time": "SNF 8:20 PM",
-                "network": "NBC",
-            },
-            {
-                "game_id": f"BAL_CIN_W{week}",
-                "away_team": "BAL",
-                "home_team": "CIN",
-                "referee": "Carl Cheffers",
-                "spread": 3.5,
-                "total": 42.0,
-                "home_ml": 155,
-                "away_ml": -180,
-                "kickoff_time": "TNF 8:15 PM",
-                "network": "Prime",
-            },
-            {
-                "game_id": f"DET_GB_W{week}",
-                "away_team": "DET",
-                "home_team": "GB",
-                "referee": "John Parry",  # Changed from Bill Vinovich to show ALL bet types!
-                "spread": -3.0,
-                "total": 45.0,
-                "home_ml": -160,
-                "away_ml": 135,
-                "kickoff_time": "Sun 1:00 PM",
-                "network": "FOX",
-            },
-            {
-                "game_id": f"PHI_DAL_W{week}",
-                "away_team": "PHI",
-                "home_team": "DAL",
-                "referee": "John Hussey",
-                "spread": -6.5,
-                "total": 45.0,
-                "home_ml": -280,
-                "away_ml": 230,
-                "kickoff_time": "Sun 4:25 PM",
-                "network": "CBS",
-            },
-            {
-                "game_id": f"SF_TB_W{week}",
-                "away_team": "SF",
-                "home_team": "TB",
-                "referee": "Shawn Hochuli",
-                "spread": 3.0,
-                "total": 47.5,
-                "home_ml": 135,
-                "away_ml": -160,
-                "kickoff_time": "Sun 1:00 PM",
-                "network": "FOX",
-            },
-        ]
+            if not result or not result.get('odds'):
+                print("⚠️  No games found from Odds API")
+                return []
+
+            # Convert odds data to game format
+            games = []
+            seen_games = set()
+
+            for odds in result['odds']:
+                # Create unique game key to avoid duplicates (one per bookmaker)
+                game_key = f"{odds.away_team}_{odds.home_team}"
+                if game_key in seen_games:
+                    continue
+                seen_games.add(game_key)
+
+                game = {
+                    'game_id': odds.game_id,
+                    'away_team': odds.away_team,
+                    'home_team': odds.home_team,
+                    'referee': 'TBD',  # Updated separately when available
+                    'spread': odds.spread_home if odds.spread_home else 0.0,
+                    'total': odds.total if odds.total else 0.0,
+                    'home_ml': odds.moneyline_home if odds.moneyline_home else 0,
+                    'away_ml': odds.moneyline_away if odds.moneyline_away else 0,
+                    'kickoff_time': odds.commence_time,
+                    'network': 'TBD',
+                    'bookmaker': odds.bookmaker,
+                }
+                games.append(game)
+
+            print(f"✅ Found {len(games)} real games")
+            return games
+
+        except Exception as e:
+            print(f"❌ Error fetching real games: {e}")
+            raise RuntimeError(f"Failed to fetch real NFL games: {e}") from e
 
 
 class AutoWeeklyAnalyzer:
@@ -215,18 +199,19 @@ class AutoWeeklyAnalyzer:
         except Exception as e:
             print(f"⚠️  Warning loading referee data: {e}")
 
-    def analyze_all_games(self, week: int, use_sample: bool = True) -> List[Dict[str, Any]]:
-        """Analyze all games for the week."""
+    def analyze_all_games(self, week: int, target_date: Optional[date] = None) -> List[Dict[str, Any]]:
+        """Analyze all games for the week using REAL data only."""
 
-        # Get games
-        if use_sample:
-            print("\n📋 Using sample games for Week", week)
-            games = self.scraper.get_sample_games(week)
-        else:
-            games = self.scraper.scrape_week(week)
+        # Fetch real games from Odds API
+        print(f"\n🔍 Fetching real games for Week {week}...")
+        games = self.scraper.fetch_real_games(week, target_date)
 
         if not games:
-            print("\n❌ No games found!")
+            print("\n❌ No games found from Odds API!")
+            print("Please check:")
+            print("  1. THE_ODDS_API_KEY is set in .env")
+            print("  2. Network connectivity")
+            print("  3. API quota/limits")
             return []
 
         print(f"\n🏈 Found {len(games)} games to analyze\n")
@@ -486,12 +471,6 @@ def main():
         type=str,
         help="Output file path (optional)"
     )
-    parser.add_argument(
-        "--sample",
-        action="store_true",
-        default=True,
-        help="Use sample games (default: True)"
-    )
 
     args = parser.parse_args()
 
@@ -499,13 +478,13 @@ def main():
     print(f"🤖 AUTOMATED NFL WEEKLY ANALYZER")
     print("="*80)
     print(f"\nWeek: {args.week}")
-    print(f"Mode: {'Sample Data' if args.sample else 'Live Scraping'}")
+    print(f"Mode: Real Data (Odds API)")
 
     # Initialize analyzer
     analyzer = AutoWeeklyAnalyzer()
 
-    # Analyze all games
-    results = analyzer.analyze_all_games(args.week, use_sample=args.sample)
+    # Analyze all games - REAL DATA ONLY
+    results = analyzer.analyze_all_games(args.week)
 
     if not results:
         print("\n❌ No results to report")

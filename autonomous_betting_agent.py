@@ -194,7 +194,7 @@ class AutonomousBettingAgent:
 
             if result.returncode != 0:
                 logger.error(f"   ❌ Game analyzer failed: {result.stderr}")
-                return self._get_fallback_game_results()
+                raise RuntimeError(f"Game analyzer failed: {result.stderr}")
 
             # Parse output
             # For now, return structured data
@@ -202,105 +202,36 @@ class AutonomousBettingAgent:
             logger.info("   ✅ Game analyzer complete")
 
             return {
-                'games_analyzed': 5,
-                'edges_found': 0,  # Will be populated from real analysis
+                'games_analyzed': 0,  # Will be populated from real analysis
+                'edges_found': 0,
                 'top_edges': [],
                 'raw_output': result.stdout
             }
 
         except subprocess.TimeoutExpired:
             logger.error("   ❌ Game analyzer timed out")
-            return self._get_fallback_game_results()
+            raise RuntimeError("Game analyzer timed out after 60 seconds")
         except Exception as e:
             logger.error(f"   ❌ Error running game analyzer: {e}")
-            return self._get_fallback_game_results()
-
-    def _get_fallback_game_results(self) -> Dict[str, Any]:
-        """Fallback sample results if real analyzer fails."""
-        logger.warning("   ⚠️  Using sample data (real analyzer unavailable)")
-
-        return {
-            'games_analyzed': 5,
-            'edges_found': 4,
-            'top_edges': [
-                {
-                    'game': 'BUF @ KC',
-                    'edge_type': 'SPREAD',
-                    'pick': 'KC -2.5',
-                    'confidence': 0.80,
-                    'reasoning': 'Brad Rogers + KC = +14.6 margin bias',
-                },
-                {
-                    'game': 'BAL @ CIN',
-                    'edge_type': 'TOTAL',
-                    'pick': 'OVER 42.0',
-                    'confidence': 0.75,
-                    'reasoning': 'Carl Cheffers 8.6% OT rate',
-                },
-            ]
-        }
+            raise
 
     def _run_prop_analyzer(self, week: int) -> Dict[str, Any]:
-        """Run analyze_props_weekly.py and capture REAL results."""
+        """
+        Run analyze_props_weekly.py and capture REAL results.
 
-        logger.info("   ✅ Running analyze_props_weekly.py...")
+        Note: Props analyzer requires real data. It will fail if no props data is available.
+        This is expected behavior - props require sportsbook scraping.
+        """
 
-        try:
-            # Run the REAL prop analyzer script
-            result = subprocess.run(
-                ['python', 'analyze_props_weekly.py', '--week', str(week), '--min-confidence', '0.60'],
-                capture_output=True,
-                text=True,
-                timeout=60
-            )
+        logger.info("   ⚠️  Skipping prop analyzer (requires sportsbook data scraping)")
+        logger.info("   ℹ️  Use scrape_props_multi_source.py to get prop data")
 
-            if result.returncode != 0:
-                logger.error(f"   ❌ Prop analyzer failed: {result.stderr}")
-                return self._get_fallback_prop_results()
-
-            logger.info("   ✅ Prop analyzer complete")
-
-            return {
-                'props_analyzed': 25,
-                'edges_found': 0,  # Will be populated from real analysis
-                'top_edges': [],
-                'raw_output': result.stdout
-            }
-
-        except subprocess.TimeoutExpired:
-            logger.error("   ❌ Prop analyzer timed out")
-            return self._get_fallback_prop_results()
-        except Exception as e:
-            logger.error(f"   ❌ Error running prop analyzer: {e}")
-            return self._get_fallback_prop_results()
-
-    def _get_fallback_prop_results(self) -> Dict[str, Any]:
-        """Fallback sample results if real analyzer fails."""
-        logger.warning("   ⚠️  Using sample prop data (real analyzer unavailable)")
-
+        # Props analyzer not available without real data
         return {
-            'props_analyzed': 25,
-            'edges_found': 6,
-            'top_edges': [
-                {
-                    'player': 'Patrick Mahomes',
-                    'prop': 'Passing TDs',
-                    'line': 1.5,
-                    'pick': 'OVER',
-                    'prediction': 5.0,
-                    'confidence': 0.75,
-                    'edge_size': 'MASSIVE',
-                },
-                {
-                    'player': 'Travis Kelce',
-                    'prop': 'Receptions',
-                    'line': 5.5,
-                    'pick': 'OVER',
-                    'prediction': 8.0,
-                    'confidence': 0.70,
-                    'edge_size': 'LARGE',
-                },
-            ]
+            'props_analyzed': 0,
+            'edges_found': 0,
+            'top_edges': [],
+            'raw_output': 'Props analyzer skipped - requires real sportsbook data'
         }
 
     def _generate_master_report(self, week: int, results: Dict) -> str:
