@@ -184,33 +184,33 @@ class AutonomousBettingAgent:
         logger.info("   ✅ Running auto_weekly_analyzer.py...")
 
         try:
-            # Run the REAL analyzer script
+            # Run the REAL analyzer script with JSON output
             result = subprocess.run(
-                ['python', 'auto_weekly_analyzer.py', '--week', str(week)],
+                ['python', 'auto_weekly_analyzer.py', '--week', str(week), '--json'],
                 capture_output=True,
                 text=True,
-                timeout=60
+                timeout=120
             )
 
             if result.returncode != 0:
                 logger.error(f"   ❌ Game analyzer failed: {result.stderr}")
                 raise RuntimeError(f"Game analyzer failed: {result.stderr}")
 
-            # Parse output
-            # For now, return structured data
-            # TODO: Parse actual script output or use JSON export
             logger.info("   ✅ Game analyzer complete")
 
-            return {
-                'games_analyzed': 0,  # Will be populated from real analysis
-                'edges_found': 0,
-                'top_edges': [],
-                'raw_output': result.stdout
-            }
+            # Parse JSON output
+            try:
+                parsed = json.loads(result.stdout)
+                logger.info(f"   📊 Games analyzed: {parsed['games_analyzed']}, Edges found: {parsed['edges_found']}")
+                return parsed
+            except json.JSONDecodeError as e:
+                logger.error(f"   ❌ Failed to parse JSON output: {e}")
+                logger.error(f"   Raw output: {result.stdout[:500]}")
+                raise RuntimeError(f"Failed to parse analyzer output: {e}")
 
         except subprocess.TimeoutExpired:
             logger.error("   ❌ Game analyzer timed out")
-            raise RuntimeError("Game analyzer timed out after 60 seconds")
+            raise RuntimeError("Game analyzer timed out after 120 seconds")
         except Exception as e:
             logger.error(f"   ❌ Error running game analyzer: {e}")
             raise

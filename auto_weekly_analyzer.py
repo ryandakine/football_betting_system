@@ -23,7 +23,7 @@ import json
 import os
 import re
 import sys
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import time
@@ -38,6 +38,14 @@ try:
 except ImportError:
     HAS_ODDS_API = False
     print("⚠️  NFL Odds Integration not available")
+
+# Try to import referee assignment fetcher
+try:
+    from referee_assignment_fetcher import RefereeAssignmentsFetcher
+    HAS_REF_FETCHER = True
+except ImportError:
+    HAS_REF_FETCHER = False
+    print("⚠️  Referee Assignment Fetcher not available")
 
 
 # Team abbreviation mapping
@@ -111,15 +119,60 @@ TEAM_NAME_MAP = {
 }
 
 
+def get_nfl_week_dates(week: int, year: int = 2025) -> List[date]:
+    """
+    Convert NFL week number to list of dates for that week.
+
+    NFL weeks typically run Thursday-Monday:
+    - Week 1 starts ~Sept 5 (Thursday night)
+    - Each subsequent week is 7 days later
+    - Games span Thursday/Friday/Saturday/Sunday/Monday
+
+    Args:
+        week: NFL week number (1-18)
+        year: NFL season year (default: 2025)
+
+    Returns:
+        List of dates for that week (Thursday through Monday)
+    """
+    # 2025 NFL Season: Week 1 starts Thursday, Sept 4
+    # 2024 NFL Season: Week 1 started Thursday, Sept 5
+    if year == 2025:
+        week1_start = date(2025, 9, 4)  # Thursday, Sept 4, 2025
+    elif year == 2024:
+        week1_start = date(2024, 9, 5)  # Thursday, Sept 5, 2024
+    else:
+        # Default estimate: First Thursday of September
+        week1_start = date(year, 9, 1)
+        while week1_start.weekday() != 3:  # 3 = Thursday
+            week1_start += timedelta(days=1)
+
+    # Calculate Thursday of target week
+    week_start = week1_start + timedelta(weeks=(week - 1))
+
+    # NFL week spans Thursday-Monday (5 days)
+    dates = []
+    for day_offset in range(5):
+        dates.append(week_start + timedelta(days=day_offset))
+
+    return dates
+
+
 class NFLGameScraper:
     """Scrapes NFL.com for weekly games and referee assignments."""
 
     def __init__(self):
         self.games = []
+        self.ref_fetcher = RefereeAssignmentsFetcher() if HAS_REF_FETCHER else None
 
-    def fetch_real_games(self, week: int, target_date: Optional[date] = None) -> List[Dict[str, Any]]:
+    def fetch_real_games(self, week: int, target_date: Optional[date] = None, year: int = 2025) -> List[Dict[str, Any]]:
         """
-        Fetch real NFL games from The Odds API.
+        Fetch real NFL games from The Odds API for the entire week.
+
+        Args:
+            week: NFL week number (1-18)
+            target_date: Optional specific date (if None, fetches all dates for the week)
+            year: NFL season year (default: 2025)
 
         Returns games in the format expected by the analyzer:
         [{
@@ -140,48 +193,113 @@ class NFLGameScraper:
             print("❌ Odds API integration not available")
             return []
 
-        print(f"\n🔍 Fetching real NFL games from The Odds API...")
+        print(f"\n🔍 Fetching real NFL games for Week {week}...")
 
         try:
-            # Fetch odds from API
-            result = asyncio.run(fetch_and_integrate_nfl_odds(target_date))
+            # Get all dates for this NFL week (Thursday-Monday)
+            if target_date:
+                dates_to_fetch = [target_date]
+            else:
+                dates_to_fetch = get_nfl_week_dates(week, year)
+                print(f"   📅 Week {week} dates: {dates_to_fetch[0]} to {dates_to_fetch[-1]}")
 
-            if not result or not result.get('odds'):
-                print("⚠️  No games found from Odds API")
-                return []
-
-            # Convert odds data to game format
-            games = []
+            # Fetch odds for all dates in the week
+            all_games = []
             seen_games = set()
 
-            for odds in result['odds']:
-                # Create unique game key to avoid duplicates (one per bookmaker)
-                game_key = f"{odds.away_team}_{odds.home_team}"
-                if game_key in seen_games:
+            for fetch_date in dates_to_fetch:
+                # Fetch odds from API for this date
+                result = asyncio.run(fetch_and_integrate_nfl_odds(fetch_date))
+
+                if not result or not result.get('odds'):
                     continue
-                seen_games.add(game_key)
 
-                game = {
-                    'game_id': odds.game_id,
-                    'away_team': odds.away_team,
-                    'home_team': odds.home_team,
-                    'referee': 'TBD',  # Updated separately when available
-                    'spread': odds.spread_home if odds.spread_home else 0.0,
-                    'total': odds.total if odds.total else 0.0,
-                    'home_ml': odds.moneyline_home if odds.moneyline_home else 0,
-                    'away_ml': odds.moneyline_away if odds.moneyline_away else 0,
-                    'kickoff_time': odds.commence_time,
-                    'network': 'TBD',
-                    'bookmaker': odds.bookmaker,
-                }
-                games.append(game)
+                # Convert odds data to game format
+                for odds in result['odds']:
+                    # Create unique game key to avoid duplicates (one per bookmaker)
+                    game_key = f"{odds.away_team}_{odds.home_team}"
+                    if game_key in seen_games:
+                        continue
+                    seen_games.add(game_key)
 
-            print(f"✅ Found {len(games)} real games")
-            return games
+                    game = {
+                        'game_id': odds.game_id,
+                        'away_team': odds.away_team,
+                        'home_team': odds.home_team,
+                        'referee': 'TBD',  # Updated separately when available
+                        'spread': odds.spread_home if odds.spread_home else 0.0,
+                        'total': odds.total if odds.total else 0.0,
+                        'home_ml': odds.moneyline_home if odds.moneyline_home else 0,
+                        'away_ml': odds.moneyline_away if odds.moneyline_away else 0,
+                        'kickoff_time': odds.commence_time,
+                        'network': 'TBD',
+                        'bookmaker': odds.bookmaker,
+                    }
+                    all_games.append(game)
+
+            print(f"✅ Found {len(all_games)} real games across {len(dates_to_fetch)} dates")
+
+            # Fetch referee assignments and match to games
+            if self.ref_fetcher and week:
+                print(f"🔍 Fetching referee assignments for Week {week}...")
+                all_games = self._add_referee_assignments(all_games, week, year)
+
+            return all_games
 
         except Exception as e:
             print(f"❌ Error fetching real games: {e}")
             raise RuntimeError(f"Failed to fetch real NFL games: {e}") from e
+
+    def _add_referee_assignments(self, games: List[Dict[str, Any]], week: int, year: int = 2025) -> List[Dict[str, Any]]:
+        """Fetch referee assignments from Football Zebras and match to games."""
+        try:
+
+            # Fetch referee assignments
+            ref_data = self.ref_fetcher.fetch_week(year, week)
+
+            if not ref_data or not ref_data.get('ok'):
+                print("⚠️  Referee assignments not yet posted (usually available Thursday)")
+                return games
+
+            ref_assignments = ref_data.get('games', {})
+            print(f"✅ Found {len(ref_assignments)} referee assignments")
+
+            # Match referees to games
+            matched = 0
+            for game in games:
+                away = game['away_team']
+                home = game['home_team']
+
+                # Try different matchup formats
+                matchup_keys = [
+                    f"{away} @ {home}",
+                    f"{away}@{home}",
+                    f"{away} at {home}",
+                ]
+
+                for key in matchup_keys:
+                    if key in ref_assignments:
+                        game['referee'] = ref_assignments[key]
+                        matched += 1
+                        break
+                    # Try case-insensitive
+                    for ref_key, ref_name in ref_assignments.items():
+                        if ref_key.upper().replace('@', ' @ ') == f"{away} @ {home}".upper():
+                            game['referee'] = ref_name
+                            matched += 1
+                            break
+
+            print(f"✅ Matched {matched}/{len(games)} games with referee assignments")
+
+            if matched < len(games):
+                print(f"⚠️  {len(games) - matched} games still have referee='TBD'")
+
+            return games
+
+        except Exception as e:
+            print(f"⚠️  Error fetching referee assignments: {e}")
+            print("   Continuing with referee='TBD' for all games")
+            return games
 
 
 class AutoWeeklyAnalyzer:
@@ -471,14 +589,13 @@ def main():
         type=str,
         help="Output file path (optional)"
     )
+    parser.add_argument(
+        "--json",
+        action="store_true",
+        help="Output results as JSON (for autonomous agent)"
+    )
 
     args = parser.parse_args()
-
-    print("\n" + "="*80)
-    print(f"🤖 AUTOMATED NFL WEEKLY ANALYZER")
-    print("="*80)
-    print(f"\nWeek: {args.week}")
-    print(f"Mode: Real Data (Odds API)")
 
     # Initialize analyzer
     analyzer = AutoWeeklyAnalyzer()
@@ -487,8 +604,40 @@ def main():
     results = analyzer.analyze_all_games(args.week)
 
     if not results:
-        print("\n❌ No results to report")
+        if args.json:
+            print(json.dumps({'games_analyzed': 0, 'edges_found': 0, 'top_edges': []}))
+        else:
+            print("\n❌ No results to report")
         return
+
+    # JSON mode - output structured data for autonomous agent
+    if args.json:
+        all_edges = []
+        for result in results:
+            for edge in result.get('edges', []):
+                all_edges.append({
+                    'game': f"{result['game']['away_team']} @ {result['game']['home_team']}",
+                    'edge_type': edge['type'],
+                    'pick': edge['pick'],
+                    'confidence': edge['confidence'],
+                    'edge_size': edge['edge_size'],
+                    'reasoning': edge.get('reasoning', '')
+                })
+
+        json_output = {
+            'games_analyzed': len(results),
+            'edges_found': sum(r['edge_count'] for r in results),
+            'top_edges': sorted(all_edges, key=lambda e: e['confidence'], reverse=True)[:10]
+        }
+        print(json.dumps(json_output, indent=2))
+        return
+
+    # Human-readable mode
+    print("\n" + "="*80)
+    print(f"🤖 AUTOMATED NFL WEEKLY ANALYZER")
+    print("="*80)
+    print(f"\nWeek: {args.week}")
+    print(f"Mode: Real Data (Odds API)")
 
     # Generate report
     print("\n" + "="*80)
