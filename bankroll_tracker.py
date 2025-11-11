@@ -107,6 +107,27 @@ class BankrollTracker:
         new_bankroll = current - amount
         self._set_bankroll(new_bankroll, f"Bet placed: {game} - {pick} (${amount})")
 
+        # Log bet to bet_log.json
+        if not self.bet_log_file.parent.exists():
+            self.bet_log_file.parent.mkdir(parents=True, exist_ok=True)
+
+        if self.bet_log_file.exists():
+            with open(self.bet_log_file, 'r') as f:
+                bets = json.load(f)
+        else:
+            bets = []
+
+        bets.append({
+            'game': game,
+            'pick': pick,
+            'amount': amount,
+            'placed_at': datetime.now().isoformat(),
+            'result': 'PENDING'
+        })
+
+        with open(self.bet_log_file, 'w') as f:
+            json.dump(bets, f, indent=2)
+
         return new_bankroll
 
     def record_result(self, game: str, result: str, odds: int = -110):

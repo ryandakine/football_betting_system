@@ -1,0 +1,18 @@
+[
+  {
+    "game": "PHI @ GB (Week 10)",
+    "pick": "GB -1.5",
+    "amount": 4.0,
+    "placed_at": "2025-11-11T12:55:51.028383",
+    "result": "LOSS",
+    "settled_at": "2025-11-11T12:55:51.029504"
+  },
+  {
+    "game": "PHI @ GB (Week 10)",
+    "pick": "UNDER 45.5",
+    "amount": 6.0,
+    "placed_at": "2025-11-11T12:56:36.781265",
+    "result": "WIN",
+    "settled_at": "2025-11-11T12:56:36.782055"
+  }
+]

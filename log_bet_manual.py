@@ -30,27 +30,13 @@ def main():
 
     tracker = BankrollTracker()
 
-    # Record the bet
+    # Step 1: Record the bet (deducts from bankroll)
     print(f"📝 Logging bet: {args.pick} for ${args.amount}")
     tracker.record_bet(amount=args.amount, game=args.game, pick=args.pick)
 
-    # Calculate winnings
-    if args.result == 'WIN':
-        if args.odds < 0:
-            winnings = args.amount * (100 / abs(args.odds))
-        else:
-            winnings = args.amount * (args.odds / 100)
-
-        print(f"✅ WIN! Winnings: ${winnings:.2f}")
-        tracker.record_win(game=args.game, pick=args.pick, winnings=winnings)
-
-    elif args.result == 'LOSS':
-        print(f"❌ LOSS - ${args.amount}")
-        tracker.record_loss(game=args.game, pick=args.pick)
-
-    else:  # PUSH
-        print(f"⚖️  PUSH - Bet returned")
-        tracker.record_push(game=args.game, pick=args.pick)
+    # Step 2: Record the result
+    print(f"📊 Recording result: {args.result}")
+    tracker.record_result(game=args.game, result=args.result, odds=args.odds)
 
     # Show updated stats
     print("\n" + "="*60)
