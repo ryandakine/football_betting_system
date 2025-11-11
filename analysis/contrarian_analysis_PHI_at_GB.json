@@ -1,0 +1,60 @@
+{
+  "game": "PHI @ GB",
+  "contrarian_intelligence": {
+    "game": "PHI @ GB",
+    "line_movement": {
+      "game": "PHI @ GB",
+      "status": "estimated",
+      "sharp_indicators": {
+        "sharp_side": null,
+        "confidence": 0,
+        "reasoning": [
+          "No API key - unable to detect sharp action"
+        ]
+      },
+      "public_betting_estimate": {
+        "likely_public_side": "HOME",
+        "estimated_percentage": 65,
+        "reasoning": "Home teams typically get 55-70% of public money"
+      },
+      "contrarian_recommendation": "Consider fading home favorite if public% > 70%",
+      "timestamp": "2025-11-11T16:27:27.618154"
+    },
+    "public_betting": {
+      "game": "PHI @ GB",
+      "status": "estimated",
+      "home_team": "GB",
+      "away_team": "PHI",
+      "public_percentage": {
+        "home": 70,
+        "away": 30
+      },
+      "contrarian_threshold": 70,
+      "contrarian_signal": "NO SIGNAL",
+      "reasoning": "Estimated 70% public on GB (home team advantage + popularity)",
+      "timestamp": "2025-11-11T16:27:27.618214"
+    },
+    "contrarian_signals": {
+      "strength": 0,
+      "recommendation": null,
+      "reasoning": []
+    },
+    "timestamp": "2025-11-11T16:27:27.618223"
+  },
+  "deepseek_analysis": {
+    "pick": "GB -SPREAD",
+    "confidence": 72,
+    "reasoning": [
+      "Contrarian signal: Weak - no clear fade opportunity",
+      "Public bias: 70% on GB - within normal range",
+      "Sharp money: No strong indicators",
+      "Fundamentals: Home team has legitimate edge"
+    ],
+    "contrarian_weight": 0,
+    "public_fade": false,
+    "expected_value": "+1-2%",
+    "note": "Simulated analysis - actual DeepSeek would provide deeper reasoning"
+  },
+  "prompt_used": "You are an elite NFL betting analyst with contrarian intelligence.\n\nGAME: PHI @ GB\n\n===== CONTRARIAN INTELLIGENCE =====\n\nPUBLIC BETTING PERCENTAGES:\n- GB (home): 70%\n- PHI (away): 30%\n- Contrarian threshold: 70% (fade public when exceeded)\n\nPUBLIC BIAS ANALYSIS:\nEstimated 70% public on GB (home team advantage + popularity)\n\nSHARP MONEY INDICATORS:\n- Sharp side: None\n- Confidence: 0/5\n- Reasoning: No API key - unable to detect sharp action\n\nCONTRARIAN SIGNALS:\n- Strength: 0/5 \n- Recommendation: None\n- Analysis:\n\n\n\n\n\n===== GAME CONTEXT =====\n\nLimited game context available\n\n===== YOUR TASK =====\n\nAnalyze this game with CONTRARIAN FOCUS:\n\n1. **Identify Public Bias**\n   - Public is 70% on GB - is this too heavy?\n   - What narrative is public overvaluing?\n   - Is this a \"square\" pick (public loves it)?\n\n2. **Evaluate Contrarian Signal**\n   - Contrarian strength: 0/5\n   - Sharp money: None\n   - Should we fade the public here?\n\n3. **Make Contrarian-Informed Pick**\n   - If contrarian strength \u22653: HEAVILY WEIGHT IT\n   - If public >70% on favorite: Consider fading\n   - Balance: Contrarian signal vs fundamentals\n\nIMPORTANT ANTI-BIAS RULES:\n- DO NOT default to home favorite just because they're home\n- DO NOT pick based on popularity or public narrative\n- DO NOT ignore strong contrarian signals (strength \u22653)\n- DO ask: \"Why is the public wrong here?\"\n\n\n\nOUTPUT FORMAT (JSON):\n{\n  \"pick\": \"[TEAM] [SPREAD]\",\n  \"confidence\": [70-85],\n  \"reasoning\": [\n    \"Contrarian analysis: ...\",\n    \"Public bias: ...\",\n    \"Sharp money: ...\",\n    \"Fundamentals: ...\"\n  ],\n  \"contrarian_weight\": [0-5],\n  \"public_fade\": true/false,\n  \"expected_value\": \"+X%\"\n}\n\nTHINK STEP BY STEP. Show your contrarian reasoning.\n",
+  "timestamp": "2025-11-11T16:27:27.618332"
+}
