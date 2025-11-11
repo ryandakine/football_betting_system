@@ -47,6 +47,47 @@ python ncaa_live_predictions_2025.py
 - Edge value (3%+ required for bet)
 - Model agreement score
 
+### Step 2.5: Run Contrarian Intelligence (AUTOMATIC)
+```bash
+# This runs automatically in ncaa_daily_predictions_with_contrarian.py
+# Or run standalone:
+python ncaa_contrarian_intelligence.py <API_KEY>
+```
+
+**What it does:**
+- Fetches line movement (opening vs current)
+- Estimates public betting percentages
+- Detects sharp money (reverse line movement)
+- Generates contrarian strength (0-5 stars)
+
+**Contrarian signals detected:**
+- 🚨 **5 stars**: Extreme public overload + sharp fade
+- ⭐⭐⭐⭐ **4 stars**: Very strong contrarian signal
+- ⭐⭐⭐ **3 stars**: Strong signal - consider fading
+- ⭐⭐ **2 stars**: Weak signal - be aware
+- ⭐ **1 star**: Minimal signal
+
+**NCAA-specific patterns:**
+- Home teams get 55-65% public money (home bias)
+- Big name schools (Alabama, Ohio State) get 5-10% extra public
+- MACtion games especially vulnerable to public overreaction
+- Public threshold: 65%+ (lower than NFL's 70%)
+
+**Alert examples:**
+```
+🚨 STRONG CONTRARIAN SIGNAL
+   • Public 78% on home team (too heavy!)
+   • Line moved from -3.5 to -2.5 (toward away)
+   • Sharp money detected on away team
+
+💡 Recommendation: FADE HOME - Take AWAY team
+```
+
+**Integration:**
+- Automatically runs after model predictions
+- Alerts if strength ≥ 3 stars
+- Influences final bet decision
+
 ### Step 3: Validate Against Thresholds
 
 **AUTOMATIC VALIDATION** (hook enforces):
@@ -103,8 +144,21 @@ CONFIDENCE:
 - Model Agreement: 11/12 models agree
 - Historical: Toledo 8-2 ATS in MACtion
 
+🎯 CONTRARIAN INTELLIGENCE:
+- Strength: ⭐⭐⭐ (3/5)
+- Public: 68% on Toledo (heavy)
+- Line Movement: -3.5 → -3.0 (toward BG)
+- Recommendation: CONSIDER FADING - Take BG +3.0
+- Signals Detected:
+  • Public heavy on Toledo home favorite
+  • MACtion game - public often overreacts
+  • No sharp money detected (neutral)
+
+⚠️  CONTRARIAN ALERT: Public might be overvaluing Toledo!
+
 BET RECOMMENDATION:
 - Side: Toledo -3.0 (buying better line)
+  OR: Bowling Green +3.0 (fade the public)
 - Stake: $250 (2.5 units)
 - Risk: Medium
 - Expected Value: +$19 per bet
@@ -112,7 +166,8 @@ BET RECOMMENDATION:
 RATIONALE:
 - Toledo elite offense vs BG weak defense
 - Market undervaluing Toledo road dominance
-- Sharp money moving toward Toledo
+- BUT: Public heavily on Toledo (contrarian signal)
+- DECISION: Trust models or fade public? (agent decides)
 ```
 
 ### Step 6: Place Bet (If Validated)

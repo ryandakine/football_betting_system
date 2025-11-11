@@ -32,6 +32,7 @@ If bet placement fails, patch the system to make failure impossible.
 - Confidence (e.g., 76%)
 - Stake (e.g., $250)
 - Edge (e.g., 5%)
+- **Contrarian Signal** (e.g., ⭐⭐⭐ 3/5) ← NEW!
 
 **Automatic validation (hook enforces):**
 ```bash
@@ -42,10 +43,22 @@ If bet placement fails, patch the system to make failure impossible.
 ✓ Bankroll sufficient
 ```
 
+**Contrarian validation (advisory, not blocking):**
+```python
+# Contrarian warning if betting WITH heavy public
+if contrarian_strength >= 3 and bet_aligns_with_public:
+    print("⚠️  WARNING: Betting with 65%+ public")
+    print("   Consider: Are you falling into public bias?")
+```
+
 **If validation fails:**
 - Hook blocks execution with reason
 - Display: "❌ BLOCKED: [reason]"
 - DO NOT proceed until parameters adjusted
+
+**If contrarian warning:**
+- Display warning but don't block
+- User decides: trust models or fade public
 
 ### Step 2: Calculate Expected Value
 
@@ -90,7 +103,15 @@ ev_percent = (ev / stake) * 100
   "model_agreement": 0.92,
   "bankroll_before": 10000.00,
   "day_of_week": "Tuesday",
-  "is_maction": true
+  "is_maction": true,
+  "contrarian": {
+    "strength": 3,
+    "recommendation": "FADE HOME - Take AWAY team",
+    "public_percentage": 0.68,
+    "line_movement": 0.5,
+    "sharp_money_detected": false,
+    "bet_aligned_with_public": true
+  }
 }
 ```
 
