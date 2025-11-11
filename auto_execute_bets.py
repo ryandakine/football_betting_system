@@ -41,6 +41,7 @@ try:
     from line_shopper import LineShopper
     from circuit_breaker import CircuitBreaker
     from bankroll_tracker import BankrollTracker
+    from contrarian_intelligence import ContrarianIntelligence
 except ImportError as e:
     print(f"❌ Missing module: {e}")
     print("   Make sure all system files are in the same directory")
@@ -50,12 +51,14 @@ except ImportError as e:
 class BettingOrchestrator:
     """Orchestrates the complete betting workflow"""
 
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, enable_contrarian: bool = True):
         self.api_key = api_key or os.environ.get("ODDS_API_KEY")
+        self.enable_contrarian = enable_contrarian
         self.referee_fetcher = RefereeFetcher()
         self.line_shopper = LineShopper(api_key=self.api_key)
         self.circuit_breaker = CircuitBreaker()
         self.bankroll_tracker = BankrollTracker()
+        self.contrarian = ContrarianIntelligence(api_key=self.api_key) if enable_contrarian else None
 
     def load_betting_card(self, card_path: Path) -> Dict:
         """
@@ -156,6 +159,37 @@ class BettingOrchestrator:
             referee = "Unknown"
 
         print()
+
+        # Step 2.5: Fetch contrarian intelligence
+        contrarian_intel = None
+        contrarian_warning = False
+
+        if self.enable_contrarian and self.contrarian:
+            print("🎯 Step 2.5: Fetching contrarian intelligence...")
+            try:
+                contrarian_intel = self.contrarian.get_contrarian_intelligence(game)
+                signals = contrarian_intel.get('contrarian_signals', {})
+                strength = signals.get('strength', 0)
+                recommendation = signals.get('recommendation', 'No clear signal')
+
+                if strength > 0:
+                    print(f"   📊 Contrarian Strength: {'⭐' * strength} ({strength}/5)")
+                    print(f"   💡 Recommendation: {recommendation}")
+
+                    if strength >= 3:
+                        print(f"   🚨 STRONG CONTRARIAN SIGNAL - Consider fading public!")
+                        contrarian_warning = True
+
+                    # Show reasoning
+                    for reason in signals.get('reasoning', [])[:2]:  # Show first 2 reasons
+                        print(f"      • {reason}")
+                else:
+                    print(f"   ℹ️  No strong contrarian signal detected")
+
+            except Exception as e:
+                print(f"   ⚠️  Could not fetch contrarian intelligence: {e}")
+
+            print()
 
         # Step 3: Determine which bets to place
         print("🎲 Step 3: Determining bet plan...")
@@ -269,6 +303,17 @@ class BettingOrchestrator:
         print("=" * 70)
         print()
 
+        # Show contrarian warning if applicable
+        if contrarian_warning and contrarian_intel:
+            signals = contrarian_intel.get('contrarian_signals', {})
+            strength = signals.get('strength', 0)
+            print(f"⚠️  CONTRARIAN ALERT: {'⭐' * strength} ({strength}/5)")
+            print(f"   {signals.get('recommendation', '')}")
+            print()
+            print("   💡 Consider: Is this bet aligned with public or against?")
+            print("      Strong contrarian signals suggest fading public picks!")
+            print()
+
         for i, bet in enumerate(bets_to_place, 1):
             print(f"{i}. {bet['pick']}")
             print(f"   Amount: ${bet['amount']}")
@@ -355,6 +400,11 @@ def main():
         "--api-key",
         help="The Odds API key (or set ODDS_API_KEY env var)"
     )
+    parser.add_argument(
+        "--no-contrarian",
+        action="store_true",
+        help="Disable contrarian intelligence (enabled by default)"
+    )
 
     args = parser.parse_args()
 
@@ -384,7 +434,8 @@ def main():
         sys.exit(1)
 
     # Run the orchestrator
-    orchestrator = BettingOrchestrator(api_key=args.api_key)
+    enable_contrarian = not args.no_contrarian  # Enabled by default
+    orchestrator = BettingOrchestrator(api_key=args.api_key, enable_contrarian=enable_contrarian)
     orchestrator.execute_workflow(card_path, dry_run=args.dry_run)
 
 
