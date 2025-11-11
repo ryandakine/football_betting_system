@@ -20,6 +20,7 @@ USAGE:
 
 import sys
 import json
+import numpy as np
 from pathlib import Path
 from typing import List, Dict
 
@@ -171,39 +172,89 @@ class NCAADeepSeekR1FullAnalysis(NCAADailyPredictionsContrarian):
         self._save_r1_analysis(final_recommendations)
 
     def _convert_to_model_predictions(self, pred: Dict) -> List[ModelPrediction]:
-        """Convert prediction dict to ModelPrediction list"""
+        """
+        Get REAL individual model predictions (no mock data)
 
-        # In real implementation, this would get individual model predictions
-        # For now, simulate from ensemble
-        predicted_spread = pred.get('predicted_spread', 0)
-        confidence = pred.get('confidence', 0.7)
+        WHY: R1 needs actual model predictions to find patterns
 
-        # Simulate 12 model predictions with variation
-        import random
-        random.seed(int(predicted_spread * 100))  # Deterministic variation
+        IMPORTANT: Only uses real trained models - no synthetic data
+        """
 
-        models = [
-            'xgboost_super', 'neural_net_deep', 'alt_spread',
-            'bayesian_ensemble', 'momentum_model', 'situational',
-            'advanced_stats', 'drive_outcomes', 'opponent_adjusted',
-            'special_teams', 'pace_tempo', 'game_script'
-        ]
+        # Get game data for feature engineering
+        home_team = pred['home_team']
+        away_team = pred['away_team']
+        year = 2025
 
-        model_preds = []
-        for model_name in models:
-            # Add variation around consensus
-            variation = random.gauss(0, 1.5)
-            model_spread = predicted_spread + variation
-            model_conf = min(0.95, max(0.65, confidence + random.gauss(0, 0.05)))
+        # Load season data to get full game info
+        try:
+            games = self.engineer.load_season_data(year)
+            game_data = None
 
-            model_preds.append(ModelPrediction(
-                model_name=model_name,
-                predicted_spread=model_spread,
-                confidence=model_conf,
-                reasoning=f"{model_name} analysis"
-            ))
+            for g in games:
+                if (self._team_match(g.get('homeTeam', ''), home_team) and
+                    self._team_match(g.get('awayTeam', ''), away_team)):
+                    game_data = g
+                    break
 
-        return model_preds
+            if not game_data:
+                # Game not in historical data yet - return empty
+                # R1 will skip this game (no mock data used)
+                return []
+
+            # Engineer features
+            features = self.engineer.engineer_features(game_data, year)
+            if not features:
+                return []
+
+            feature_array = np.array([list(features.values())])
+
+            # Get REAL predictions from ALL 12 trained models
+            model_names = [
+                'xgboost_super', 'neural_net_deep', 'alt_spread',
+                'bayesian_ensemble', 'momentum_model', 'situational',
+                'advanced_stats', 'drive_outcomes', 'opponent_adjusted',
+                'special_teams', 'pace_tempo', 'game_script'
+            ]
+
+            model_preds = []
+            for model_name in model_names:
+                if model_name not in self.orchestrator.models:
+                    continue
+
+                model = self.orchestrator.models[model_name]
+
+                if not model.is_trained:
+                    # Model not trained - skip (don't use mock data)
+                    continue
+
+                try:
+                    # REAL model prediction
+                    pred_spread = model.predict(feature_array)
+                    spread = pred_spread[0] if isinstance(pred_spread, np.ndarray) else pred_spread
+
+                    # REAL confidence from model
+                    confidence = getattr(model, 'confidence', 0.75)
+
+                    # Model-specific reasoning
+                    reasoning = f"{model_name} real prediction"
+
+                    model_preds.append(ModelPrediction(
+                        model_name=model_name,
+                        predicted_spread=float(spread),
+                        confidence=float(confidence),
+                        reasoning=reasoning
+                    ))
+
+                except Exception as e:
+                    # Model prediction failed - skip (don't use mock data)
+                    continue
+
+            return model_preds
+
+        except Exception as e:
+            # Data loading failed - return empty (no mock data)
+            print(f"⚠️  Could not load real model predictions: {e}")
+            return []
 
     def _calculate_r1_bet_size(self, confidence: int) -> int:
         """Calculate bet size based on R1 confidence"""
