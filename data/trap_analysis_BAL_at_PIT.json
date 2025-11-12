@@ -1,0 +1,37 @@
+{
+  "game": "BAL @ PIT",
+  "home_analysis": {
+    "current_odds": -150,
+    "handle_percentage": 0.85,
+    "expected_handle": 0.6,
+    "divergence": 25.0,
+    "trap_score": -100,
+    "severity": "EXTREME TRAP",
+    "recommendation": "STRONG FADE - Bet opposite of public",
+    "reasoning": [
+      "Public handle 25.0% above expected - EXTREME overload",
+      "This level of divergence indicates sharps are heavily fading public"
+    ],
+    "opening_odds": -130,
+    "line_movement": -20
+  },
+  "away_analysis": {
+    "current_odds": 130,
+    "handle_percentage": 0.15,
+    "expected_handle": 0.43,
+    "divergence": -28.000000000000004,
+    "trap_score": 80,
+    "severity": "STRONG SHARP CONSENSUS",
+    "recommendation": "RIDE SHARP CONSENSUS - Bet with sharps",
+    "reasoning": [
+      "Sharp handle 28.0% above expected - Sharp consensus",
+      "Sharps are aligned with the line - high confidence in this side"
+    ],
+    "opening_odds": 110,
+    "line_movement": 20
+  },
+  "primary_trap_side": "home",
+  "trap_strength": 100,
+  "recommendation": "FADE PIT - Bet BAL (trap detected on home)",
+  "timestamp": "2025-11-12T01:47:02.901009"
+}
