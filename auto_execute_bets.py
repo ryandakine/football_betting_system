@@ -42,6 +42,7 @@ try:
     from circuit_breaker import CircuitBreaker
     from bankroll_tracker import BankrollTracker
     from contrarian_intelligence import ContrarianIntelligence
+    from trap_detector import TrapDetector
 except ImportError as e:
     print(f"❌ Missing module: {e}")
     print("   Make sure all system files are in the same directory")
@@ -51,14 +52,16 @@ except ImportError as e:
 class BettingOrchestrator:
     """Orchestrates the complete betting workflow"""
 
-    def __init__(self, api_key: Optional[str] = None, enable_contrarian: bool = True):
+    def __init__(self, api_key: Optional[str] = None, enable_contrarian: bool = True, enable_trap_detection: bool = True):
         self.api_key = api_key or os.environ.get("ODDS_API_KEY")
         self.enable_contrarian = enable_contrarian
+        self.enable_trap_detection = enable_trap_detection
         self.referee_fetcher = RefereeFetcher()
         self.line_shopper = LineShopper(api_key=self.api_key)
         self.circuit_breaker = CircuitBreaker()
         self.bankroll_tracker = BankrollTracker()
         self.contrarian = ContrarianIntelligence(api_key=self.api_key) if enable_contrarian else None
+        self.trap_detector = TrapDetector() if enable_trap_detection else None
 
     def load_betting_card(self, card_path: Path) -> Dict:
         """
@@ -191,6 +194,84 @@ class BettingOrchestrator:
 
             print()
 
+        # Step 2.6: Run trap detection (market analysis)
+        trap_data = None
+        trap_warning = False
+
+        if self.enable_trap_detection and self.trap_detector:
+            print("🎲 Step 2.6: Running trap detection (market analysis)...")
+
+            # For trap detection, we need handle data
+            # In a full implementation, this would come from Action Network scraper
+            # For now, we'll estimate based on contrarian intelligence
+
+            if contrarian_intel:
+                # Use contrarian intelligence to estimate handle
+                public_betting = contrarian_intel.get('public_betting', {})
+                public_pct = public_betting.get('public_percentage', {})
+                home_handle = public_pct.get('home', 60) / 100  # Convert to 0-1
+                away_handle = public_pct.get('away', 40) / 100
+
+                # Estimate moneyline odds (would come from line_shopper in full implementation)
+                # For now, use common spreads
+                home_ml = -150  # Typical for -2.5 to -3.5 favorite
+                away_ml = +130
+
+                try:
+                    # Calculate trap scores
+                    home_score, home_details = self.trap_detector.calculate_trap_score(
+                        home_ml,
+                        home_handle
+                    )
+
+                    away_score, away_details = self.trap_detector.calculate_trap_score(
+                        away_ml,
+                        away_handle
+                    )
+
+                    # Determine strongest trap signal
+                    if abs(home_score) > abs(away_score):
+                        trap_score = home_score
+                        trap_side = 'home'
+                        trap_details = home_details
+                    else:
+                        trap_score = away_score
+                        trap_side = 'away'
+                        trap_details = away_details
+
+                    # Display trap information
+                    if abs(trap_score) >= 30:  # Significant trap signal
+                        severity = trap_details.get('severity', 'Unknown')
+                        recommendation = trap_details.get('recommendation', 'No recommendation')
+
+                        print(f"   🎯 Trap Score: {trap_score} ({severity})")
+                        print(f"   💡 Recommendation: {recommendation}")
+
+                        if abs(trap_score) >= 60:  # Strong trap
+                            print(f"   🚨 STRONG TRAP SIGNAL DETECTED!")
+                            trap_warning = True
+
+                        # Show reasoning
+                        for reason in trap_details.get('reasoning', [])[:2]:
+                            print(f"      • {reason}")
+                    else:
+                        print(f"   ℹ️  No significant trap detected (score: {trap_score})")
+
+                    trap_data = {
+                        'home_score': home_score,
+                        'away_score': away_score,
+                        'primary_score': trap_score,
+                        'primary_side': trap_side,
+                        'details': trap_details
+                    }
+
+                except Exception as e:
+                    print(f"   ⚠️  Error calculating trap scores: {e}")
+            else:
+                print(f"   ⏭️  Skipping trap detection (requires handle data)")
+
+            print()
+
         # Step 3: Determine which bets to place
         print("🎲 Step 3: Determining bet plan...")
         bets_to_place = []
@@ -314,6 +395,20 @@ class BettingOrchestrator:
             print("      Strong contrarian signals suggest fading public picks!")
             print()
 
+        # Show trap warning if applicable
+        if trap_warning and trap_data:
+            trap_score = trap_data.get('primary_score', 0)
+            trap_details = trap_data.get('details', {})
+            severity = trap_details.get('severity', 'Unknown')
+            recommendation = trap_details.get('recommendation', '')
+
+            print(f"🎯 TRAP DETECTION ALERT: Score {trap_score} ({severity})")
+            print(f"   {recommendation}")
+            print()
+            print("   💡 Market Analysis: Sharp money vs public divergence detected!")
+            print("      This could be a trap game - proceed with caution or fade public.")
+            print()
+
         for i, bet in enumerate(bets_to_place, 1):
             print(f"{i}. {bet['pick']}")
             print(f"   Amount: ${bet['amount']}")
@@ -405,6 +500,11 @@ def main():
         action="store_true",
         help="Disable contrarian intelligence (enabled by default)"
     )
+    parser.add_argument(
+        "--no-trap-detection",
+        action="store_true",
+        help="Disable trap detection (enabled by default)"
+    )
 
     args = parser.parse_args()
 
@@ -435,7 +535,12 @@ def main():
 
     # Run the orchestrator
     enable_contrarian = not args.no_contrarian  # Enabled by default
-    orchestrator = BettingOrchestrator(api_key=args.api_key, enable_contrarian=enable_contrarian)
+    enable_trap_detection = not args.no_trap_detection  # Enabled by default
+    orchestrator = BettingOrchestrator(
+        api_key=args.api_key,
+        enable_contrarian=enable_contrarian,
+        enable_trap_detection=enable_trap_detection
+    )
     orchestrator.execute_workflow(card_path, dry_run=args.dry_run)
 
 
