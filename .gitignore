@@ -23,3 +23,22 @@ __pycache__/
 data/scraped_nfl_odds.json
 data/tonights_game_analysis.json
 data/nfl_analysis_results.json
+
+# Large model files (regenerate locally)
+models/ncaa/*.pkl
+models/nfl/*.pkl
+*.pkl
+
+# Large data files
+data/*.csv
+data/historical_spreads/*.json
+data/wayback_spreads/*
+
+# Backtest results (regenerate)
+backtest_results/*.json
+*_backtest_results_*.json
+
+# System state (regenerates)
+data/system_state.json
+data/clv_history.json
+data/line_shopping_history.json
