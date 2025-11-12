@@ -1,0 +1,31 @@
+{
+  "total_games": 2,
+  "bets_placed": 2,
+  "wins": 2,
+  "losses": 0,
+  "pushes": 0,
+  "total_wagered": 200,
+  "total_profit": 181.8181818181818,
+  "roi": 90.9090909090909,
+  "win_rate": 100.0,
+  "trap_fade_bets": [
+    {
+      "game": "BAL @ PIT",
+      "week": 10,
+      "trap_score": 80,
+      "bet_side": "away",
+      "result": "WIN",
+      "profit": 90.9090909090909
+    },
+    {
+      "game": "KC @ BUF",
+      "week": 11,
+      "trap_score": 60,
+      "bet_side": "away",
+      "result": "WIN",
+      "profit": 90.9090909090909
+    }
+  ],
+  "sharp_consensus_bets": [],
+  "by_trap_score": {}
+}
