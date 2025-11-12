@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-11-12T03:37:14.387201",
+  "total_bets": 3,
+  "bets": [
+    {
+      "bet_id": "NCAA_20251112_033714",
+      "timestamp": "2025-11-12T03:37:14.385852",
+      "game": "Toledo @ Bowling Green",
+      "your_line": -3.0,
+      "closing_line": -5.5,
+      "clv": 2.5,
+      "bet_amount": 100,
+      "result": "win",
+      "profit": 90.91,
+      "notes": "Tuesday MACtion early bet"
+    },
+    {
+      "bet_id": "NCAA_20251112_033714",
+      "timestamp": "2025-11-12T03:37:14.386545",
+      "game": "Alabama vs Auburn",
+      "your_line": -7.0,
+      "closing_line": -5.5,
+      "clv": -1.5,
+      "bet_amount": 100,
+      "result": "win",
+      "profit": 90.91,
+      "notes": "Bet too late, line moved against us"
+    },
+    {
+      "bet_id": "NCAA_20251112_033714",
+      "timestamp": "2025-11-12T03:37:14.387026",
+      "game": "Ohio vs Kent State",
+      "your_line": 3.0,
+      "closing_line": 4.0,
+      "clv": -1.0,
+      "bet_amount": 100,
+      "result": "loss",
+      "profit": -110.0,
+      "notes": "Lost but had good line - sharp bet"
+    }
+  ]
+}

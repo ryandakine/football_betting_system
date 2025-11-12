@@ -1,0 +1,130 @@
+{
+  "last_updated": "2025-11-12T03:38:38.583460",
+  "lines": {
+    "toledo_bg_20251112": [
+      {
+        "book": "DraftKings",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -3.0,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.143184",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "FanDuel",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -2.5,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.143803",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "BetMGM",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -3.5,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.144296",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "Caesars",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -3.0,
+        "odds": -115,
+        "timestamp": "2025-11-12T03:37:23.144800",
+        "juice": 3.488372093023251
+      }
+    ],
+    "bama_auburn_20251112": [
+      {
+        "book": "DraftKings",
+        "team": "Alabama",
+        "line_type": "spread",
+        "value": -3.5,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.145381",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "FanDuel",
+        "team": "Alabama",
+        "line_type": "spread",
+        "value": -3.0,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.145886",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "BetMGM",
+        "team": "Alabama",
+        "line_type": "spread",
+        "value": -2.5,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.146331",
+        "juice": 2.3809523809523836
+      }
+    ],
+    "ohio_kent_20251112": [
+      {
+        "book": "DraftKings",
+        "team": "Ohio",
+        "line_type": "moneyline",
+        "value": 150,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.146876",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "FanDuel",
+        "team": "Ohio",
+        "line_type": "moneyline",
+        "value": 165,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.147417",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "BetMGM",
+        "team": "Ohio",
+        "line_type": "moneyline",
+        "value": 155,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:37:23.147881",
+        "juice": 2.3809523809523836
+      }
+    ],
+    "Toledo @ Bowling Green": [
+      {
+        "book": "DraftKings",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -3.0,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:38:38.582059",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "FanDuel",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -2.5,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:38:38.582728",
+        "juice": 2.3809523809523836
+      },
+      {
+        "book": "BetMGM",
+        "team": "Toledo",
+        "line_type": "spread",
+        "value": -3.5,
+        "odds": -110,
+        "timestamp": "2025-11-12T03:38:38.583157",
+        "juice": 2.3809523809523836
+      }
+    ]
+  }
+}
