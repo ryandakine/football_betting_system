@@ -128,6 +128,30 @@ class DeepSeekContrarianAnalyzer:
         recommendation = contrarian_signals.get('recommendation', 'No clear signal')
         reasoning = contrarian_signals.get('reasoning', [])
 
+        # Extract trap detection data if available
+        trap_data = game_context.get('trap_data') if game_context else None
+        trap_section = ""
+        if trap_data:
+            trap_score = trap_data.get('primary_score', 0)
+            trap_side = trap_data.get('primary_side', 'unknown')
+            trap_details = trap_data.get('details', {})
+            trap_severity = trap_details.get('severity', 'Unknown')
+            trap_recommendation = trap_details.get('recommendation', '')
+
+            if abs(trap_score) >= 30:  # Significant trap signal
+                trap_section = f"""
+===== TRAP DETECTION (MARKET ANALYSIS) =====
+
+TRAP SCORE: {trap_score} ({trap_severity})
+Primary Side: {trap_side}
+Recommendation: {trap_recommendation}
+
+TRAP PATTERN ANALYSIS:
+{chr(10).join(f'  • {r}' for r in trap_details.get('reasoning', []))}
+
+⚠️  MARKET WARNING: {'Public overload detected - fade opportunity!' if trap_score < -30 else 'Sharp consensus detected - ride with sharps!'}
+"""
+
         prompt = f"""You are an elite NFL betting analyst with contrarian intelligence.
 
 GAME: {away_team} @ {home_team}
@@ -155,14 +179,14 @@ CONTRARIAN SIGNALS:
 
 {"===== REVERSE LINE MOVEMENT DETECTED =====" if sharp_indicators.get('sharp_side') else ""}
 {"Line moving AGAINST public money = SHARP ACTION!" if sharp_indicators.get('sharp_side') else ""}
-
+{trap_section}
 ===== GAME CONTEXT =====
 
 {self._format_game_context(game_context) if game_context else "Limited game context available"}
 
 ===== YOUR TASK =====
 
-Analyze this game with CONTRARIAN FOCUS:
+Analyze this game with CONTRARIAN + TRAP DETECTION FOCUS:
 
 1. **Identify Public Bias**
    - Public is {home_pct}% on {home_team} - is this too heavy?
@@ -174,10 +198,16 @@ Analyze this game with CONTRARIAN FOCUS:
    - Sharp money: {sharp_indicators.get('sharp_side', 'Unknown')}
    - Should we fade the public here?
 
-3. **Make Contrarian-Informed Pick**
+3. **Analyze Trap Detection** {f'(Trap Score: {trap_data.get("primary_score", 0)})' if trap_data else ''}
+   - Is this a trap game (handle divergence from expected)?
+   - Market analysis: Where is the money ACTUALLY going?
+   - Combine with contrarian signals for strongest edge
+
+4. **Make Contrarian-Informed Pick**
    - If contrarian strength ≥3: HEAVILY WEIGHT IT
+   - If trap score ≤-60 OR ≥+60: HEAVILY WEIGHT IT
    - If public >{70}% on favorite: Consider fading
-   - Balance: Contrarian signal vs fundamentals
+   - Balance: Contrarian signal + trap detection + fundamentals
 
 IMPORTANT ANTI-BIAS RULES:
 - DO NOT default to home favorite just because they're home
@@ -193,11 +223,13 @@ OUTPUT FORMAT (JSON):
   "confidence": [70-85],
   "reasoning": [
     "Contrarian analysis: ...",
+    "Trap detection: ...",
     "Public bias: ...",
     "Sharp money: ...",
     "Fundamentals: ..."
   ],
   "contrarian_weight": [0-5],
+  "trap_score_considered": true/false,
   "public_fade": true/false,
   "expected_value": "+X%"
 }}

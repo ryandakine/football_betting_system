@@ -43,6 +43,7 @@ try:
     from bankroll_tracker import BankrollTracker
     from contrarian_intelligence import ContrarianIntelligence
     from trap_detector import TrapDetector
+    from deepseek_contrarian_analysis import DeepSeekContrarianAnalyzer
 except ImportError as e:
     print(f"❌ Missing module: {e}")
     print("   Make sure all system files are in the same directory")
@@ -52,8 +53,9 @@ except ImportError as e:
 class BettingOrchestrator:
     """Orchestrates the complete betting workflow"""
 
-    def __init__(self, api_key: Optional[str] = None, enable_contrarian: bool = True, enable_trap_detection: bool = True):
+    def __init__(self, api_key: Optional[str] = None, openrouter_api_key: Optional[str] = None, enable_contrarian: bool = True, enable_trap_detection: bool = True):
         self.api_key = api_key or os.environ.get("ODDS_API_KEY")
+        self.openrouter_api_key = openrouter_api_key or os.environ.get("OPENROUTER_API_KEY")
         self.enable_contrarian = enable_contrarian
         self.enable_trap_detection = enable_trap_detection
         self.referee_fetcher = RefereeFetcher()
@@ -62,6 +64,7 @@ class BettingOrchestrator:
         self.bankroll_tracker = BankrollTracker()
         self.contrarian = ContrarianIntelligence(api_key=self.api_key) if enable_contrarian else None
         self.trap_detector = TrapDetector() if enable_trap_detection else None
+        self.deepseek_analyzer = DeepSeekContrarianAnalyzer(api_key=self.openrouter_api_key) if enable_contrarian else None
 
     def load_betting_card(self, card_path: Path) -> Dict:
         """
@@ -272,19 +275,84 @@ class BettingOrchestrator:
 
             print()
 
+        # Step 2.7: Generate DeepSeek-R1 contrarian-informed pick
+        deepseek_pick = None
+        deepseek_confidence = None
+
+        if self.enable_contrarian and self.deepseek_analyzer and contrarian_intel:
+            print("🧠 Step 2.7: Generating DeepSeek-R1 contrarian-informed pick...")
+            try:
+                # Build game context with all intelligence
+                game_context = {
+                    'referee': referee,
+                    'contrarian_intelligence': contrarian_intel,
+                    'trap_data': trap_data
+                }
+
+                # Call DeepSeek-R1 with contrarian enhancement
+                deepseek_result = self.deepseek_analyzer.analyze_game(game, game_context)
+
+                # Extract the pick
+                deepseek_analysis = deepseek_result.get('deepseek_analysis', {})
+                deepseek_pick = deepseek_analysis.get('pick')
+                deepseek_confidence = deepseek_analysis.get('confidence', 70)
+                contrarian_weight = deepseek_analysis.get('contrarian_weight', 0)
+                public_fade = deepseek_analysis.get('public_fade', False)
+
+                print(f"   🎯 DeepSeek Pick: {deepseek_pick}")
+                print(f"   📊 Confidence: {deepseek_confidence}%")
+                print(f"   🔄 Contrarian Weight: {'⭐' * contrarian_weight} ({contrarian_weight}/5)")
+                print(f"   💡 Public Fade: {'YES' if public_fade else 'NO'}")
+
+                # Show reasoning
+                reasoning = deepseek_analysis.get('reasoning', [])
+                if reasoning:
+                    print(f"   💭 Reasoning:")
+                    for reason in reasoning[:3]:  # Show first 3 reasons
+                        print(f"      • {reason}")
+
+            except Exception as e:
+                print(f"   ⚠️  Error generating DeepSeek pick: {e}")
+                print(f"   Will fall back to betting card if available")
+
+            print()
+
         # Step 3: Determine which bets to place
         print("🎲 Step 3: Determining bet plan...")
         bets_to_place = []
 
-        # Always place primary bet
-        if card.get('primary_bet'):
+        # PRIORITIZE: Use DeepSeek contrarian-informed pick if available
+        if deepseek_pick:
+            # DeepSeek contrarian pick becomes the primary bet
+            amount = 5 if deepseek_confidence >= 75 else 3  # Kelly-adjusted bet sizing
+            bets_to_place.append({
+                'type': 'deepseek_contrarian',
+                'pick': deepseek_pick,
+                'amount': amount,
+                'confidence': deepseek_confidence
+            })
+            print(f"   ✅ DEEPSEEK CONTRARIAN: {deepseek_pick} for ${amount}")
+            print(f"      (Contrarian-informed pick with {deepseek_confidence}% confidence)")
+
+            # Check if betting card pick exists and matches
+            if card.get('primary_bet'):
+                card_pick = card['primary_bet']['pick']
+                if card_pick != deepseek_pick:
+                    print(f"   ⚠️  WARNING: Card pick ({card_pick}) differs from DeepSeek contrarian pick!")
+                    print(f"      Using contrarian pick (has contrarian intelligence)")
+                else:
+                    print(f"   ✅ Card pick matches contrarian pick - high confidence!")
+
+        # FALLBACK: Use betting card if no DeepSeek pick
+        elif card.get('primary_bet'):
             bets_to_place.append({
                 'type': 'primary',
                 'pick': card['primary_bet']['pick'],
                 'amount': card['primary_bet']['amount'],
                 'confidence': card['primary_bet']['confidence']
             })
-            print(f"   ✅ PRIMARY: {card['primary_bet']['pick']} for ${card['primary_bet']['amount']}")
+            print(f"   ✅ PRIMARY (from card): {card['primary_bet']['pick']} for ${card['primary_bet']['amount']}")
+            print(f"      (No contrarian intelligence available)")
 
         # Check if secondary bet condition is met
         if card.get('secondary_bet') and card.get('referee_condition'):
@@ -496,6 +564,10 @@ def main():
         help="The Odds API key (or set ODDS_API_KEY env var)"
     )
     parser.add_argument(
+        "--openrouter-api-key",
+        help="OpenRouter API key for DeepSeek-R1 (or set OPENROUTER_API_KEY env var)"
+    )
+    parser.add_argument(
         "--no-contrarian",
         action="store_true",
         help="Disable contrarian intelligence (enabled by default)"
@@ -538,6 +610,7 @@ def main():
     enable_trap_detection = not args.no_trap_detection  # Enabled by default
     orchestrator = BettingOrchestrator(
         api_key=args.api_key,
+        openrouter_api_key=args.openrouter_api_key,
         enable_contrarian=enable_contrarian,
         enable_trap_detection=enable_trap_detection
     )
