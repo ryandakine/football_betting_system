@@ -48,6 +48,7 @@ class R1Analysis:
     vegas_miss: Optional[str]  # What Vegas might be missing
     model_consensus: float  # % of models agreeing
     contrarian_signal: Optional[str]
+    trap_signal: Optional[Dict]  # Sharp money vs public (NEW!)
 
 
 class NCAADeepSeekR1Reasoner:
@@ -75,7 +76,8 @@ class NCAADeepSeekR1Reasoner:
         game: Dict,
         model_predictions: List[ModelPrediction],
         market_spread: float,
-        contrarian_signal: Optional[Dict] = None
+        contrarian_signal: Optional[Dict] = None,
+        trap_signal: Optional[Dict] = None
     ) -> R1Analysis:
         """
         Meta-analysis: What are 12 models seeing that Vegas might miss?
@@ -88,7 +90,8 @@ class NCAADeepSeekR1Reasoner:
             game,
             model_predictions,
             market_spread,
-            contrarian_signal
+            contrarian_signal,
+            trap_signal
         )
 
         # Ask R1 to reason over the ensemble
@@ -119,7 +122,8 @@ class NCAADeepSeekR1Reasoner:
         game: Dict,
         predictions: List[ModelPrediction],
         market_spread: float,
-        contrarian_signal: Optional[Dict]
+        contrarian_signal: Optional[Dict],
+        trap_signal: Optional[Dict]
     ) -> Dict:
         """Build context for R1 analysis"""
 
@@ -157,7 +161,8 @@ class NCAADeepSeekR1Reasoner:
                 'agreement_pct': agreement_pct,
                 'edge_vs_market': abs(avg_spread - market_spread),
             },
-            'contrarian': contrarian_signal
+            'contrarian': contrarian_signal,
+            'trap': trap_signal
         }
 
     def _get_system_prompt(self) -> str:
@@ -197,6 +202,19 @@ NCAA-SPECIFIC PATTERNS TO CONSIDER:
 - Letdown spots (after big win)
 - Weather impact (wind for passing teams)
 
+TRAP DETECTION (Sharp Money vs Public):
+- Expected handle % varies by odds (e.g., -150 should get 60% of money)
+- When actual handle significantly diverges from expected = TRAP SIGNAL
+- Trap score -100 to +100:
+  * Negative = public overloaded, sharps on other side (FADE PUBLIC)
+  * Positive = sharp consensus (RIDE WITH SHARPS)
+  * -60 or below = moderate to strong trap
+  * +60 or above = sharp consensus
+- Reverse line movement (RLM) = line moves AGAINST public (confirms sharp action)
+- When models AGREE with trap signal = VERY STRONG BET
+- When models DISAGREE with trap signal = use reasoning to determine which is right
+- Public can be RIGHT sometimes - analyze why sharps might disagree
+
 REASONING PROCESS:
 1. What do models AGREE on? (consensus = strong signal)
 2. What do models DISAGREE on? (disagreement = uncertainty or edge)
@@ -223,6 +241,7 @@ Be thorough in reasoning. Think step-by-step. Find the edge."""
         market = context['market']
         models = context['models']
         contrarian = context['contrarian']
+        trap = context['trap']
 
         prompt = f"""Analyze this NCAA football game and find edges:
 
@@ -269,6 +288,27 @@ Recommendation: {contrarian.get('recommendation', 'N/A')}
 Sharp Money: {'YES' if contrarian.get('sharp_money_detected') else 'NO'}
 """
 
+        # Add trap detection signal if available
+        if trap:
+            prompt += f"""
+
+TRAP DETECTION (Sharp Money vs Public):
+Signal: {trap.get('signal', 'N/A')}
+Trap Score: {trap.get('trap_score', 0)} (-100=STRONG TRAP, +100=EXTREME SHARP)
+Sharp Side: {trap.get('sharp_side', 'N/A')}
+Expected Handle: {trap.get('expected_handle', 0.5):.0%}
+Actual Handle: {trap.get('actual_handle', 0.5):.0%}
+Divergence: {trap.get('divergence', 0):+.1%}
+Reverse Line Movement: {'YES' if trap.get('reverse_line_movement') else 'NO'}
+Confidence: {trap.get('confidence', 0):.0%}
+
+Reasoning: {trap.get('reasoning', 'N/A')}
+
+IMPORTANT: When trap score < -60, public is overloaded and sharps are on the other side.
+When models AGREE with trap signal, that's a VERY STRONG bet.
+When models DISAGREE with trap signal, determine which signal is correct.
+"""
+
         prompt += """
 
 YOUR ANALYSIS:
@@ -307,7 +347,8 @@ Provide detailed reasoning and identify specific edges."""
                     patterns_found=data.get('patterns_found', []),
                     vegas_miss=data.get('vegas_miss'),
                     model_consensus=sum(1 for p in predictions) / len(predictions) if predictions else 0,
-                    contrarian_signal=data.get('contrarian_signal')
+                    contrarian_signal=data.get('contrarian_signal'),
+                    trap_signal=data.get('trap_signal')
                 )
         except:
             pass
@@ -320,7 +361,8 @@ Provide detailed reasoning and identify specific edges."""
             patterns_found=[],
             vegas_miss=None,
             model_consensus=0.0,
-            contrarian_signal=None
+            contrarian_signal=None,
+            trap_signal=None
         )
 
     def print_analysis(
