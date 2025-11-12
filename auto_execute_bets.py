@@ -44,6 +44,7 @@ try:
     from contrarian_intelligence import ContrarianIntelligence
     from trap_detector import TrapDetector
     from deepseek_contrarian_analysis import DeepSeekContrarianAnalyzer
+    from bet_validator import BetValidator
 except ImportError as e:
     print(f"❌ Missing module: {e}")
     print("   Make sure all system files are in the same directory")
@@ -65,6 +66,7 @@ class BettingOrchestrator:
         self.contrarian = ContrarianIntelligence(api_key=self.api_key) if enable_contrarian else None
         self.trap_detector = TrapDetector() if enable_trap_detection else None
         self.deepseek_analyzer = DeepSeekContrarianAnalyzer(api_key=self.openrouter_api_key) if enable_contrarian else None
+        self.validator = BetValidator()  # CRITICAL: Validates NO mock data
 
     def load_betting_card(self, card_path: Path) -> Dict:
         """
@@ -495,6 +497,35 @@ class BettingOrchestrator:
 
         # Wait for user confirmation
         input("Press ENTER after placing bets (or Ctrl+C to cancel)...")
+        print()
+
+        # Step 7.5: VALIDATE DATA (NO MOCK DATA)
+        print("🔒 Step 7.5: Validating betting data (NO MOCK DATA check)...")
+
+        # Validate each bet
+        validation_failed = False
+        for bet in bets_to_place:
+            is_valid, errors = self.validator.validate_bet(
+                game=game,
+                referee=referee,
+                bankroll=current_bankroll,
+                amount=bet['amount']
+            )
+
+            if not is_valid:
+                print(f"   ❌ VALIDATION FAILED for {bet['pick']}")
+                self.validator.block_bet_with_error(errors)
+                validation_failed = True
+                break
+
+        if validation_failed:
+            print()
+            print("🚨 CRITICAL: Bets BLOCKED due to validation failure!")
+            print("   Fix the data source and try again")
+            print("   DO NOT override validation - fix the root cause")
+            return
+
+        print(f"   ✅ All bets validated successfully")
         print()
 
         # Step 8: Log bets

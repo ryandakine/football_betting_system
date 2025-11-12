@@ -56,100 +56,27 @@ class ActionNetworkScraper:
         """
         print(f"🔍 Fetching NFL games from Action Network...")
 
-        # NOTE: Action Network requires different approaches:
-        # 1. Scraping their public pages (may break with UI changes)
-        # 2. Using their API (not publicly documented)
-        # 3. Selenium for dynamic content (slower but more reliable)
+        # PRODUCTION MODE: NO MOCK DATA
+        # This scraper must fetch REAL data or ERROR
 
-        # For now, we'll show the structure and use sample data
-        # You'll need to implement actual scraping based on their current site structure
-
-        print("⚠️  IMPORTANT: Action Network frequently changes their HTML structure")
-        print("   This scraper provides the framework - you may need to update selectors")
+        print("❌ ERROR: action_network_scraper.py fetch_nfl_games() not fully implemented")
         print()
+        print("This scraper requires:")
+        print("  1. Selenium implementation (see action_network_selenium_scraper.py)")
+        print("  2. Or use paid Action Network API")
+        print("  3. Or manual CSV input from Action Network Pro")
+        print()
+        print("🚨 CRITICAL: NO MOCK DATA in production!")
+        print("   Do NOT use _get_sample_data() for real betting")
+        print()
+        raise NotImplementedError(
+            "action_network_scraper.py must fetch REAL data. "
+            "Use action_network_selenium_scraper.py or implement actual scraping. "
+            "NO MOCK DATA ALLOWED in production betting."
+        )
 
-        # Sample data structure (what we'd return from actual scraping)
-        sample_games = self._get_sample_data()
-
-        print(f"✅ Found {len(sample_games)} games")
-        return sample_games
-
-    def _get_sample_data(self) -> List[Dict]:
-        """
-        Get sample data showing expected structure.
-
-        In production, this would be replaced with actual scraping logic.
-        """
-        return [
-            {
-                'game': 'BAL @ PIT',
-                'home_team': 'PIT',
-                'away_team': 'BAL',
-                'spread': {
-                    'line': -3.5,
-                    'favorite': 'PIT',
-                    'public_percent': 68,  # 68% of BETS on PIT
-                    'money_percent': 85,   # 85% of MONEY on PIT ← THIS IS HANDLE
-                    'bets_vs_money_gap': 17  # Gap = trap indicator
-                },
-                'moneyline': {
-                    'home_ml': -150,
-                    'away_ml': +130,
-                    'home_public_percent': 65,
-                    'home_money_percent': 82,  # 82% handle on PIT
-                    'away_public_percent': 35,
-                    'away_money_percent': 18
-                },
-                'total': {
-                    'line': 45.5,
-                    'over_public_percent': 58,
-                    'over_money_percent': 73,
-                    'under_public_percent': 42,
-                    'under_money_percent': 27
-                },
-                'line_movement': {
-                    'opening_spread': -2.5,
-                    'current_spread': -3.5,
-                    'movement': -1.0,  # Moved toward favorite
-                    'reverse_line_movement': False
-                },
-                'timestamp': datetime.now().isoformat()
-            },
-            {
-                'game': 'KC @ BUF',
-                'home_team': 'BUF',
-                'away_team': 'KC',
-                'spread': {
-                    'line': -2.5,
-                    'favorite': 'BUF',
-                    'public_percent': 75,  # 75% of bets on BUF
-                    'money_percent': 58,   # But only 58% of money ← TRAP!
-                    'bets_vs_money_gap': -17  # Public heavy but sharps on KC
-                },
-                'moneyline': {
-                    'home_ml': -130,
-                    'away_ml': +110,
-                    'home_public_percent': 72,
-                    'home_money_percent': 54,  # Sharp money on KC
-                    'away_public_percent': 28,
-                    'away_money_percent': 46
-                },
-                'total': {
-                    'line': 48.5,
-                    'over_public_percent': 62,
-                    'over_money_percent': 45,
-                    'under_public_percent': 38,
-                    'under_money_percent': 55
-                },
-                'line_movement': {
-                    'opening_spread': -3.0,
-                    'current_spread': -2.5,
-                    'movement': +0.5,  # Moved toward underdog
-                    'reverse_line_movement': True  # RLM detected!
-                },
-                'timestamp': datetime.now().isoformat()
-            }
-        ]
+    # DELETED: _get_sample_data() - NO MOCK DATA IN PRODUCTION
+    # If you need sample data for testing, use test files only
 
     def analyze_handle_divergence(self, game_data: Dict) -> Dict:
         """

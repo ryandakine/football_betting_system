@@ -41,6 +41,7 @@ from typing import Dict, Tuple
 
 sys.path.insert(0, str(Path(__file__).parent))
 from bankroll_tracker import BankrollTracker
+from bet_validator import BetValidator
 
 CIRCUIT_BREAKER_FILE = Path(__file__).parent / ".circuit_breaker"
 
@@ -62,6 +63,7 @@ class CircuitBreaker:
     def __init__(self):
         self.tracker = BankrollTracker()
         self.breaker_file = CIRCUIT_BREAKER_FILE
+        self.validator = BetValidator()  # Validates no mock data
 
     def check_status(self) -> Tuple[str, Dict]:
         """
@@ -204,6 +206,37 @@ class CircuitBreaker:
 
         else:
             return True, "Normal operation"
+
+    def validate_real_game(self, game: str, referee: str = None) -> Tuple[bool, str]:
+        """
+        Validate that we're betting on a REAL game, not mock data.
+
+        Args:
+            game: Game string (e.g., "PHI @ GB")
+            referee: Referee name (optional)
+
+        Returns:
+            Tuple of (is_valid, error_message)
+
+        WHY: CRITICAL - Prevent betting on mock/sample data.
+        """
+        # Get current bankroll
+        stats = self.tracker.get_stats()
+        current_bankroll = stats['current_bankroll']
+
+        # Validate using bet_validator
+        is_valid, errors = self.validator.validate_bet(
+            game=game,
+            referee=referee,
+            bankroll=current_bankroll,
+            amount=1.0  # Dummy amount for validation
+        )
+
+        if not is_valid:
+            error_msg = f"MOCK DATA DETECTED - Bet blocked: {'; '.join(errors)}"
+            return False, error_msg
+
+        return True, "Game validated as real data"
 
 
 def main():
