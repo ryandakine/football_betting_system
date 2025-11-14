@@ -1,0 +1,75 @@
+{
+  "strong_interactions": {
+    "('referee', 'under')": {
+      "boost": 0.15,
+      "evidence": "Hochuli 7.5 penalties, PHI@GB went UNDER 45.5 (17 total)",
+      "validated": true,
+      "sample_size": 1
+    },
+    "('contrarian', 'handle')": {
+      "boost": 0.12,
+      "evidence": "Handle trap detector + contrarian filter both detect home fav traps",
+      "validated": false,
+      "sample_size": 0
+    },
+    "('weather', 'under')": {
+      "boost": 0.1,
+      "evidence": "Wind >15mph correlates with 60%+ UNDER hit rate",
+      "validated": false,
+      "sample_size": 0
+    },
+    "('referee', 'weather', 'under')": {
+      "boost": 0.2,
+      "evidence": "Penalties + weather both reduce plays \u2192 compounding effect",
+      "validated": false,
+      "sample_size": 0
+    },
+    "('line_shopping', 'kelly')": {
+      "boost": 0.08,
+      "evidence": "CLV improvement of 0.5 points = 2% ROI boost",
+      "validated": false,
+      "sample_size": 0
+    }
+  },
+  "weak_interactions": {},
+  "conflicts": {
+    "('deepseek', 'contrarian')": {
+      "penalty": -0.1,
+      "evidence": "DeepSeek defaulted to home favorite, contrarian would fade",
+      "validated": true,
+      "sample_size": 1
+    }
+  },
+  "causal_chains": [
+    {
+      "chain": [
+        "weather",
+        "rushing_yards",
+        "under"
+      ],
+      "strength": 0.75,
+      "conditions": "wind_speed > 15mph"
+    },
+    {
+      "chain": [
+        "referee",
+        "penalties",
+        "clock_stops",
+        "under"
+      ],
+      "strength": 0.65,
+      "conditions": "penalty_heavy_ref (>7 per game)"
+    },
+    {
+      "chain": [
+        "home_favorite",
+        "high_handle",
+        "public_trap",
+        "fade"
+      ],
+      "strength": 0.7,
+      "conditions": "handle > 65% AND spread < -3"
+    }
+  ],
+  "last_updated": "2025-11-14T10:05:31.917226Z"
+}
