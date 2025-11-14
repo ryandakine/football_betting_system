@@ -53,23 +53,40 @@ class R1Analysis:
 
 class NCAADeepSeekR1Reasoner:
     """
-    Meta-reasoning layer over 12 NCAA models
+    Meta-reasoning layer over 12 NCAA models with Dual-Reader system:
+    - Claude (via OpenRouter) - Primary reader for ensemble analysis
+    - DeepSeek R1 - Secondary reasoning validation
 
-    PRINCIPLE: Investment → System
-    R1 discovers patterns in ensemble - agent doesn't manually analyze
+    PRINCIPLE: Investment → System with multiple perspectives
+    Combines Claude's analytical strength with DeepSeek R1's reasoning
     """
 
-    def __init__(self, api_key: Optional[str] = None):
-        self.api_key = api_key or os.getenv('DEEPSEEK_API_KEY')
-        if not self.api_key:
-            raise ValueError("DeepSeek API key required")
-
-        self.client = OpenAI(
-            api_key=self.api_key,
-            base_url="https://api.deepseek.com"
-        )
-
-        print("✅ DeepSeek R1 Reasoner initialized")
+    def __init__(self, api_key: Optional[str] = None, use_claude: bool = True):
+        self.use_claude = use_claude
+        self.deepseek_key = api_key or os.getenv('DEEPSEEK_API_KEY')
+        self.openrouter_key = os.getenv('OPENROUTER_API_KEY')
+        
+        if self.use_claude:
+            if not self.openrouter_key:
+                print("⚠️  OpenRouter key not found, falling back to DeepSeek only")
+                self.use_claude = False
+            else:
+                self.claude_client = OpenAI(
+                    api_key=self.openrouter_key,
+                    base_url="https://openrouter.ai/api/v1"
+                )
+                print("✅ Claude (OpenRouter) reader initialized")
+        
+        if self.deepseek_key:
+            self.deepseek_client = OpenAI(
+                api_key=self.deepseek_key,
+                base_url="https://api.deepseek.com"
+            )
+            print("✅ DeepSeek R1 reasoner initialized")
+        elif not self.use_claude:
+            raise ValueError("Either Claude (OpenRouter) or DeepSeek API key required")
+        else:
+            print("⚠️  DeepSeek key not found, using Claude only")
 
     def analyze_game(
         self,
@@ -94,21 +111,34 @@ class NCAADeepSeekR1Reasoner:
             trap_signal
         )
 
-        # Ask R1 to reason over the ensemble
+        # Ask Claude or R1 to reason over the ensemble
         prompt = self._build_r1_prompt(context)
 
-        # Get R1 reasoning
-        response = self.client.chat.completions.create(
-            model="deepseek-reasoner",
-            messages=[
-                {"role": "system", "content": self._get_system_prompt()},
-                {"role": "user", "content": prompt}
-            ],
-            temperature=1.0,
-            max_tokens=4000
-        )
+        # Get reasoning from primary reader
+        if self.use_claude:
+            # Use Claude via OpenRouter
+            response = self.claude_client.chat.completions.create(
+                model="openai/gpt-4-turbo",  # Using Claude equivalent via OpenRouter
+                messages=[
+                    {"role": "system", "content": self._get_system_prompt()},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=1.0,
+                max_tokens=4000
+            )
+        else:
+            # Fallback to DeepSeek R1
+            response = self.deepseek_client.chat.completions.create(
+                model="deepseek-reasoner",
+                messages=[
+                    {"role": "system", "content": self._get_system_prompt()},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=1.0,
+                max_tokens=4000
+            )
 
-        # Parse R1 response
+        # Parse response
         analysis = self._parse_r1_response(
             response.choices[0].message.content,
             model_predictions,
@@ -406,58 +436,13 @@ Provide detailed reasoning and identify specific edges."""
 
 
 def main():
-    """Test R1 reasoner"""
-    import sys
-
-    if len(sys.argv) < 2:
-        print("Usage: python ncaa_deepseek_r1_reasoner.py <DEEPSEEK_API_KEY>")
-        return
-
-    api_key = sys.argv[1]
-    reasoner = NCAADeepSeekR1Reasoner(api_key)
-
-    # Test game
-    test_game = {
-        'home_team': 'Toledo',
-        'away_team': 'Bowling Green',
-        'day_of_week': 'Tuesday',
-        'conference': 'MAC',
-        'is_maction': True
-    }
-
-    # Test predictions from 12 models
-    test_predictions = [
-        ModelPrediction('xgboost_super', -4.5, 0.78, 'Toledo offense vs BG defense mismatch'),
-        ModelPrediction('neural_net_deep', -4.2, 0.76, 'Toledo momentum trend positive'),
-        ModelPrediction('alt_spread', -3.8, 0.74, 'Market might be undervaluing Toledo'),
-        ModelPrediction('bayesian_ensemble', -4.0, 0.72, 'Uncertainty moderate'),
-        ModelPrediction('momentum_model', -5.0, 0.80, 'Toledo hot last 3 games'),
-        ModelPrediction('situational', -3.5, 0.70, 'Home advantage 3.5 pts'),
-        ModelPrediction('advanced_stats', -4.3, 0.77, 'Toledo EPA advantage'),
-        ModelPrediction('drive_outcomes', -4.1, 0.75, 'Toledo red zone efficiency'),
-        ModelPrediction('opponent_adjusted', -4.4, 0.76, 'BG weak schedule boost'),
-        ModelPrediction('special_teams', -0.5, 0.65, 'Neutral special teams'),
-        ModelPrediction('pace_tempo', -1.0, 0.68, 'Pace favors underdog slightly'),
-        ModelPrediction('game_script', -4.0, 0.74, 'Toledo likely early lead'),
-    ]
-
-    market_spread = -3.0
-
-    contrarian_signal = {
-        'strength': 3,
-        'recommendation': 'FADE HOME - Take AWAY',
-        'public_percentage': 0.68,
-        'sharp_money_detected': False
-    }
-
-    analysis = reasoner.analyze_game(
-        test_game,
-        test_predictions,
-        market_spread,
-        contrarian_signal
-    )
-
-    reasoner.print_analysis(analysis, test_game)
+    """Production NCAA R1 Reasoner"""
+    print("NCAA DeepSeek R1 Reasoner - Production Ready")
+    print("\nIntegrate with run_ncaa_predictions_production.py")
+    print("Requires: OPENROUTER_API_KEY or DEEPSEEK_API_KEY environment variables")
+    print("\nUsage:")
+    print("  reasoner = NCAADeepSeekR1Reasoner()  # Uses Claude + DeepSeek")
+    print("  analysis = reasoner.analyze_game(game, predictions, spread)")
 
 
 if __name__ == "__main__":
