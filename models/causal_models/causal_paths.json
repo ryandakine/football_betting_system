@@ -1,0 +1,9 @@
+{
+  "direct_causal_edges": [],
+  "confounders": [],
+  "mediators": [],
+  "edge_count": 0,
+  "confounder_count": 0,
+  "mediator_count": 0,
+  "total_relationships": 0
+}

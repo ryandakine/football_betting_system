@@ -1,0 +1,63 @@
+{
+  "game_id": "OKST_vs_TCU_2024_W12",
+  "game_data": {
+    "game_id": "OKST_vs_TCU_2024_W12",
+    "home_team": "Oklahoma State",
+    "away_team": "TCU",
+    "spread": -7.5,
+    "total": 58.5,
+    "temperature": 45,
+    "wind_mph": 15,
+    "injury_impact": 0.3,
+    "days_rest": 7,
+    "ref_penalty_rate": 0.65
+  },
+  "timestamp": "2025-11-14T15:38:19.581514",
+  "r1_base_confidence": 0.7,
+  "calibrated_confidence": 0.7,
+  "interaction_confidence": 0.7,
+  "final_confidence": 0.7,
+  "calibration_boost": 0.0,
+  "interaction_boost": 0.0,
+  "causal_boost": 0.0,
+  "total_boost": 0.0,
+  "interaction_details": {
+    "base_confidence": 0.7,
+    "boosts_applied": [],
+    "total_boost": 0.0,
+    "interaction_count": 0,
+    "final_confidence": 0.7
+  },
+  "causal_details": {
+    "base": 0.7,
+    "adjustments": [],
+    "total_adjustment": 0.0,
+    "final": 0.7
+  },
+  "active_interactions": {
+    "2way": [],
+    "3way": []
+  },
+  "model_predictions": {
+    "spread_ensemble": 0.72,
+    "total_ensemble": 0.68,
+    "moneyline_ensemble": 0.75,
+    "ncaa_rf": 0.7,
+    "ncaa_gb": 0.71,
+    "spread_edges": 0.73,
+    "total_edges": 0.67,
+    "moneyline_edges": 0.74,
+    "Market Consensus": 0.69,
+    "Contrarian Model": 0.76,
+    "Referee Model": 0.65,
+    "Injury Model": 0.68
+  },
+  "recommendation": {
+    "action": "MODERATE BET",
+    "confidence": 0.7,
+    "stake_percentage": 0.02,
+    "signals": [],
+    "interaction_count": 0,
+    "causal_adjustment": 0.0
+  }
+}

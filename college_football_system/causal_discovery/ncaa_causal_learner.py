@@ -17,8 +17,8 @@ from typing import Dict, List, Optional, Tuple, Any
 import pickle
 
 # Causal discovery
-from causallearn.search.ConstraintBased.PC import pc
-from causallearn.search.ScoreBased.GES import ges
+from causallearn.search.ConstraintBased import PC
+from causallearn.search.ScoreBased import GES
 from causallearn.utils.cit import fisherz
 
 logger = logging.getLogger(__name__)
@@ -115,7 +115,7 @@ class NCAACousalLearner:
         """
         logger.info("   🔄 Running PC algorithm...")
         try:
-            cg = pc.pc(
+            cg = PC.pc(
                 data.values,
                 alpha=alpha,
                 indep_test=fisherz,  # Use Fisher Z test for continuous data
@@ -137,9 +137,9 @@ class NCAACousalLearner:
         """
         logger.info("   🔄 Running GES algorithm...")
         try:
-            cg = ges.ges(
+            cg = GES.ges(
                 data.values,
-                score_func='bic'  # BIC score for continuous data
+                score_func='local_score_BIC'  # BIC score for continuous data
             )
             logger.info("   ✅ GES algorithm completed")
             return cg
@@ -147,55 +147,58 @@ class NCAACousalLearner:
             logger.error(f"   ❌ GES algorithm failed: {e}")
             raise
     
-    def _extract_causal_relationships(self, 
+    def _extract_causal_relationships(self,
                                      cg: Any,
                                      columns: List[str]) -> Dict[str, Any]:
         """
         Extract interpretable causal relationships from the causal graph.
         """
         logger.info("   📊 Extracting causal paths...")
-        
-        # Get adjacency matrix
-        adj_matrix = cg.G
-        
-        # Find causal edges (directed edges, not bidirectional)
+
+        # Get graph object
+        graph = cg.G if hasattr(cg, 'G') else cg
+
+        # Extract edges from graph
         causal_edges = []
-        for i in range(len(columns)):
-            for j in range(len(columns)):
-                if i != j:
-                    # Check for causal relationship: i → j
-                    if adj_matrix[i, j] == 1 and adj_matrix[j, i] == 0:
-                        causal_edges.append({
-                            'cause': columns[i],
-                            'effect': columns[j],
-                            'type': 'direct_causal'
-                        })
-        
-        # Find confounders (i ← ← j)
         confounders = []
-        for i in range(len(columns)):
-            for j in range(i + 1, len(columns)):
-                if adj_matrix[i, j] == 2 and adj_matrix[j, i] == 2:
-                    confounders.append({
-                        'var1': columns[i],
-                        'var2': columns[j],
-                        'type': 'confounded'
-                    })
-        
-        # Find mediators (paths like i → k → j)
         mediators = []
-        for i in range(len(columns)):
-            for k in range(len(columns)):
-                for j in range(len(columns)):
-                    if i != k != j:
-                        if (adj_matrix[i, k] == 1 and adj_matrix[k, i] == 0 and
-                            adj_matrix[k, j] == 1 and adj_matrix[j, k] == 0):
-                            mediators.append({
-                                'source': columns[i],
-                                'mediator': columns[k],
-                                'target': columns[j],
-                                'type': 'mediation'
-                            })
+
+        # Use graph methods to find relationships
+        num_nodes = len(columns)
+
+        # Find directed edges
+        for i in range(num_nodes):
+            for j in range(num_nodes):
+                if i != j:
+                    try:
+                        # Check if there's an edge from i to j
+                        edge = graph.get_edge(graph.get_node(columns[i]), graph.get_node(columns[j]))
+                        if edge is not None:
+                            # Check edge type
+                            endpoint1 = edge.get_endpoint1()
+                            endpoint2 = edge.get_endpoint2()
+
+                            # Directed edge: i -> j
+                            if str(endpoint1) == 'TAIL' and str(endpoint2) == 'ARROW':
+                                causal_edges.append({
+                                    'cause': columns[i],
+                                    'effect': columns[j],
+                                    'type': 'direct_causal'
+                                })
+                    except:
+                        pass
+
+        # Simplified mediation detection
+        # If we have i -> k and k -> j, then k mediates i -> j
+        for edge1 in causal_edges:
+            for edge2 in causal_edges:
+                if edge1['effect'] == edge2['cause'] and edge1['cause'] != edge2['effect']:
+                    mediators.append({
+                        'source': edge1['cause'],
+                        'mediator': edge1['effect'],
+                        'target': edge2['effect'],
+                        'type': 'mediation'
+                    })
         
         results = {
             'direct_causal_edges': causal_edges,
