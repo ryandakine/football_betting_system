@@ -21,13 +21,18 @@ from conditional_boost_engine import ConditionalBoostEngine, GameContext
 from model_reliability_tracker import ModelReliabilityTracker
 from dynamic_learning_system import DynamicLearningSystem, BetOutcome
 
-# LLM is optional
+# LLM options
 try:
     from llm_realtime_analysis import LLMGameAnalyzer
     LLM_AVAILABLE = True
 except (ImportError, ValueError):
     LLM_AVAILABLE = False
-    print("⚠️  LLM analysis not available (missing API key or package)")
+
+try:
+    from multi_model_ai_analyzer import MultiModelAIAnalyzer
+    MULTI_MODEL_AVAILABLE = True
+except (ImportError, ValueError):
+    MULTI_MODEL_AVAILABLE = False
 
 
 class SundayQuickWinsEngine:
@@ -43,7 +48,7 @@ class SundayQuickWinsEngine:
     6. Generate final recommendation
     """
 
-    def __init__(self, use_llm: bool = True):
+    def __init__(self, use_llm: bool = True, use_multi_model: bool = True):
         print("\n" + "="*80)
         print("🚀 SUNDAY QUICK WINS ENGINE - INITIALIZING")
         print("="*80)
@@ -58,16 +63,25 @@ class SundayQuickWinsEngine:
         print("3/4 Dynamic Learning System...")
         self.learning_system = DynamicLearningSystem()
 
-        print("4/4 LLM Real-Time Analyzer...")
+        print("4/4 AI Analysis Engine...")
         self.llm_analyzer = None
-        if use_llm and LLM_AVAILABLE:
+        self.multi_model_analyzer = None
+
+        # Prefer multi-model if available
+        if use_multi_model and MULTI_MODEL_AVAILABLE:
+            try:
+                self.multi_model_analyzer = MultiModelAIAnalyzer()
+                print("   ✅ Dual-model analyzer ready (Claude + DeepSeek)")
+            except Exception as e:
+                print(f"   ⚠️  Multi-model not available: {e}")
+        elif use_llm and LLM_AVAILABLE:
             try:
                 self.llm_analyzer = LLMGameAnalyzer()
-                print("   ✅ LLM analyzer ready")
+                print("   ✅ Single LLM analyzer ready")
             except Exception as e:
                 print(f"   ⚠️  LLM not available: {e}")
         else:
-            print("   ⚠️  LLM disabled or unavailable")
+            print("   ⚠️  AI analysis disabled or unavailable")
 
         print("\n✅ All engines initialized")
         print("="*80)
@@ -195,18 +209,58 @@ class SundayQuickWinsEngine:
         print(f"   Boosts applied: {boosted.get('num_boosts', 0)}")
         print(f"   Confidence: {current_confidence*100:.0f}% ({boost_adjustment:+.1%})")
 
-        # Step 4: LLM Analysis (optional)
-        llm_adjustment = 0.0
-        if self.llm_analyzer:
-            print(f"\n4️⃣  Getting Claude AI insights...")
+        # Step 4: AI Analysis (multi-model or single LLM)
+        ai_adjustment = 0.0
+        if self.multi_model_analyzer:
+            print(f"\n4️⃣  Getting dual-model AI consensus (Claude + DeepSeek)...")
+            try:
+                consensus = self.multi_model_analyzer.get_multi_model_consensus(game_context)
+                if consensus:
+                    # Use consensus confidence
+                    consensus_conf = consensus.reliability_weighted_confidence
+                    ai_adjustment = consensus_conf - current_confidence
+
+                    adjustments['steps'].append({
+                        'name': 'Dual-Model AI',
+                        'adjustment': ai_adjustment,
+                        'details': {
+                            'consensus_bet': consensus.consensus_bet,
+                            'avg_confidence': consensus.avg_confidence,
+                            'agreement': f"{consensus.models_agree}/{consensus.total_models}",
+                            'avg_edge_score': consensus.avg_edge_score
+                        }
+                    })
+
+                    enhanced['ai_consensus'] = {
+                        'consensus_bet': consensus.consensus_bet,
+                        'avg_confidence': consensus.avg_confidence,
+                        'agreement_pct': consensus.agreement_pct,
+                        'models_agree': consensus.models_agree,
+                        'weighted_confidence': consensus.reliability_weighted_confidence
+                    }
+                    current_confidence = consensus_conf
+
+                    print(f"   Consensus: {consensus.consensus_bet}")
+                    print(f"   Agreement: {consensus.models_agree}/{consensus.total_models} ({consensus.agreement_pct:.0f}%)")
+                    print(f"   Confidence: {current_confidence*100:.0f}% ({ai_adjustment:+.1%})")
+
+            except Exception as e:
+                print(f"   ⚠️  Dual-model error: {e}")
+                adjustments['steps'].append({
+                    'name': 'Dual-Model AI',
+                    'adjustment': 0.0,
+                    'details': {'error': str(e)}
+                })
+        elif self.llm_analyzer:
+            print(f"\n4️⃣  Getting single LLM insights...")
             try:
                 llm_analysis = self.llm_analyzer.analyze_game(game_context)
                 llm_enhanced = self.llm_analyzer.apply_llm_insights(enhanced, llm_analysis)
 
-                llm_adjustment = llm_enhanced['llm_adjustment']
+                ai_adjustment = llm_enhanced['llm_adjustment']
                 adjustments['steps'].append({
                     'name': 'LLM Analysis',
-                    'adjustment': llm_adjustment,
+                    'adjustment': ai_adjustment,
                     'details': {
                         'edge_detected': llm_analysis.get('edge_detected', False),
                         'overall_score': llm_analysis.get('overall_edge_score', 0),
@@ -218,7 +272,7 @@ class SundayQuickWinsEngine:
                 current_confidence = llm_enhanced['llm_confidence']
 
                 print(f"   Edge detected: {'YES' if llm_analysis.get('edge_detected') else 'NO'}")
-                print(f"   Confidence: {current_confidence*100:.0f}% ({llm_adjustment:+.1%})")
+                print(f"   Confidence: {current_confidence*100:.0f}% ({ai_adjustment:+.1%})")
 
             except Exception as e:
                 print(f"   ⚠️  LLM error: {e}")
@@ -228,7 +282,7 @@ class SundayQuickWinsEngine:
                     'details': {'error': str(e)}
                 })
         else:
-            print(f"\n4️⃣  LLM Analysis skipped (not available)")
+            print(f"\n4️⃣  AI Analysis skipped (not available)")
 
         # Final summary
         total_adjustment = current_confidence - base_confidence
