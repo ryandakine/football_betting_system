@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-14T15:23:52.431857",
+  "period": "2022-2025",
+  "total_games": 930,
+  "base_system": {
+    "system": "base",
+    "total_bets": 465,
+    "wins": 343,
+    "losses": 122,
+    "win_rate": 0.7376344086021506,
+    "total_profit": 285.1950000000014,
+    "total_risk": 697.5,
+    "roi": 40.888172043010954
+  },
+  "enhanced_system": {
+    "system": "enhanced",
+    "total_bets": 850,
+    "wins": 619,
+    "losses": 231,
+    "win_rate": 0.7282352941176471,
+    "total_profit": 498.43500000000375,
+    "total_risk": 1275.0,
+    "roi": 39.09294117647088
+  },
+  "improvement": {
+    "win_rate_improvement": -0.009399114484503479,
+    "profit_improvement": 213.24000000000234,
+    "roi_improvement": -1.7952308665400736
+  }
+}
